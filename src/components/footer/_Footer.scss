@@ -1,0 +1,54 @@
+@use "../../helper/variables" as v;
+@use "../../helper/mixins" as m;
+@use "sass:map";
+
+footer {
+  padding: 0.2rem;
+  background-color: map.get(v.$color, "background");
+  font-size: 1rem;
+  font-family: v.$inter;
+
+  .footer-container {
+    @include m.center(85%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+
+      li {
+        a {
+          text-decoration: none;
+          color: map.get(v.$color, "text-first");
+          font-weight: 500;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: map.get(v.$color, "hover");
+          }
+
+          &:hover {
+            color: map.get(v.$color, "hover");
+          }
+          
+          &.youtube:hover {
+            color: #ff0000;
+          }
+          &.twitter:hover {
+            color: #000000;
+          }
+          &.instagram:hover {
+            color: #e1306c;
+          }
+          &.facebook:hover {
+            color: #1877f2;
+          }
+        }
+      }
+    }
+  }
+}

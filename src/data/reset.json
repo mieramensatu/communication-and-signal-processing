@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "satellite-dish",
+    "title": "Radar Systems",
+    "desc": "Advancing radar technology for modern defense and monitoring systems."
+  },
+  {
+    "icon": "network-wired",
+    "title": "Synthetic Aperture Radar (SAR)",
+    "desc": "Enhancing SAR imaging techniques for earth observation."
+  },
+  {
+    "icon": "car-side",
+    "title": "Autonomous Transportation",
+    "desc": "Developing intelligent systems for autonomous vehicles."
+  },
+  {
+    "icon": "microchip",
+    "title": "Internet of Things (IoT)",
+    "desc": "Enabling smarter connectivity across various domains."
+  },
+  {
+    "icon": "heartbeat",
+    "title": "Biomedical Signal Processing",
+    "desc": "Improving healthcare with advanced signal analysis."
+  },
+  {
+    "icon": "bus",
+    "title": "Intelligent Transportation Systems",
+    "desc": "Building smarter, safer, and more efficient transport systems."
+  }
+]

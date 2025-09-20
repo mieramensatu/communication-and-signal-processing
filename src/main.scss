@@ -1,0 +1,33 @@
+@use "./helper/variables" as v;
+
+@use "./components/navbar/Navbar";
+@use "./components/footer/Footer";
+@use "./pages/hero/Hero";
+@use "./pages/partner/Partner";
+@use "./pages/about/About";
+@use "./pages/activities/Activities";
+@use "./pages/reset/Riset";
+@use "./pages/contact/Contact";
+@use "./pages/member/Member";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 1.2vw;
+  font-family: v.$lato;
+  background-color: #f6f6f6;
+
+  background-image: url("/BRIN.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

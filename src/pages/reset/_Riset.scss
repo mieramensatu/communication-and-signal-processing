@@ -1,0 +1,68 @@
+@use "../../helper/variables" as v;
+@use "../../helper/mixins" as m;
+@use "sass:map";
+
+.outcomes {
+  padding: 4rem 0;
+  background: #fff;
+  text-align: center;
+
+  .container {
+    @include m.center(85%);
+
+    .title h4 {
+      color: map.get(v.$color, "title");
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .description p {
+      color: map.get(v.$color, "text-first");
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    .details p {
+      color: map.get(v.$color, "text-second");
+      text-align: center;
+      font-size: 1.1rem;
+      padding: 1rem 0 3rem 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(280px, 1fr));
+      gap: 3rem;
+    }
+
+    .card {
+      background: #fafafa;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+
+      .icon {
+        font-size: 2rem;
+        color: #e62f2a;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        color: #222;
+      }
+
+      p {
+        color: #555;
+        font-size: 0.95rem;
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}

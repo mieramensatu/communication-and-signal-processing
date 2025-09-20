@@ -1,0 +1,706 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+.navbar {
+  margin-top: 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .container {
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 2rem;
+  border-radius: 15px;
+}
+.navbar .container .logo img {
+  width: 50%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navbar .container .list-item {
+  display: flex;
+  gap: 2rem;
+  color: #e62f2a;
+}
+.navbar .container .list-item li {
+  list-style: none;
+}
+.navbar .container .list-item li button {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #e62f2a;
+  transition: color 0.3s ease-in-out;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0;
+}
+.navbar .container .list-item li button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: #b71c1c;
+  transition: width 0.3s ease-in-out;
+  border-radius: 1rem;
+}
+.navbar .container .list-item li button.active, .navbar .container .list-item li button:hover {
+  color: #b71c1c;
+}
+.navbar .container .list-item li button.active::after, .navbar .container .list-item li button:hover::after {
+  width: 100%;
+}
+.navbar .container .list-item li.dropdown {
+  position: relative;
+  /* tampilkan dropdown saat aktif */
+}
+.navbar .container .list-item li.dropdown .dropdown-menu {
+  position: absolute;
+  top: 115%;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: all 0.25s ease;
+}
+.navbar .container .list-item li.dropdown .dropdown-menu li button {
+  display: inline-block;
+  text-align: left;
+  padding-bottom: 5px;
+  margin: 0.5rem 1rem 0.5rem 0.5rem;
+  border: none;
+  background: transparent;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #e62f2a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+.navbar .container .list-item li.dropdown .dropdown-menu li button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 0;
+  height: 2px;
+  background: #b71c1c;
+  transition: width 0.3s ease-in-out;
+  border-radius: 1rem;
+}
+.navbar .container .list-item li.dropdown .dropdown-menu li button:hover {
+  color: rgb(219.0857142857, 30.8571428571, 25.7142857143);
+}
+.navbar .container .list-item li.dropdown .dropdown-menu li button:hover::after {
+  width: 100%;
+}
+.navbar .container .list-item li.dropdown .dropdown-menu li button:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar .container .list-item li.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.navbar .container .button-contact {
+  border: 0;
+  background-color: #e62f2a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.navbar .container .button-contact:hover {
+  background-color: #b71c1c;
+}
+
+footer {
+  padding: 0.2rem;
+  background-color: #ffffff;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+footer .footer-container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-container ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+footer .footer-container ul li a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+footer .footer-container ul li a:hover {
+  color: #b71c1c;
+}
+footer .footer-container ul li a:hover {
+  color: #b71c1c;
+}
+footer .footer-container ul li a.youtube:hover {
+  color: #ff0000;
+}
+footer .footer-container ul li a.twitter:hover {
+  color: #000000;
+}
+footer .footer-container ul li a.instagram:hover {
+  color: #e1306c;
+}
+footer .footer-container ul li a.facebook:hover {
+  color: #1877f2;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  margin-top: -6rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.hero .hero-inner {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 0 5%;
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  gap: 2rem;
+}
+.hero .hero-content,
+.hero .hero-button {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  max-width: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1.5rem;
+}
+.hero .hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.hero .hero-button {
+  display: block;
+}
+.hero .hero-button p {
+  line-height: 1.6;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+.hero .hero-button .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #e62f2a;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.hero .hero-button .btn:hover {
+  background-color: #c71f1a;
+}
+
+.scrolling-logos {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 5rem 2vh;
+}
+.scrolling-logos .logo-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  white-space: nowrap;
+}
+.scrolling-logos .logo-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 3;
+  pointer-events: none;
+}
+.scrolling-logos .logo-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(to left, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  z-index: 3;
+  pointer-events: none;
+}
+.scrolling-logos .logo-container .logo-slide {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  flex-shrink: 0;
+  width: -moz-max-content;
+  width: max-content;
+}
+.scrolling-logos .logo-container .logo-slide img {
+  flex: 0 0 auto;
+  width: 10vw;
+  height: 8vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 4vw;
+  filter: grayscale(1);
+  transition: filter 0.3s ease;
+}
+.scrolling-logos .logo-container .logo-slide img:hover {
+  filter: grayscale(0);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.about {
+  background-color: #ffffff;
+  padding: 2rem 0 3.5rem 0;
+}
+.about .about-inner {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about .about-inner h4 {
+  color: #e62f2a;
+  text-align: center;
+  padding: 1rem;
+}
+.about .about-inner p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+.about .about-inner p span {
+  color: #666666;
+}
+
+.activities {
+  background: #eeeeee;
+  text-align: center;
+  padding: 3.5rem 0 3.5rem 0;
+}
+.activities .container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.activities .container .text {
+  margin: auto;
+  width: 50%;
+}
+.activities .container .text .title h4 {
+  color: #e62f2a;
+  text-align: center;
+  padding: 1rem;
+}
+.activities .container .text .description p {
+  color: #333333;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.activities .container .text .details p {
+  color: #666666;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.activities .container .card {
+  position: relative;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.activities .container .card .card-img {
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+}
+.activities .container .card .card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.6s ease;
+}
+.activities .container .card .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  text-align: left;
+}
+.activities .container .card .card-body h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+.activities .container .card .card-body p {
+  font-size: 0.95rem;
+  color: #ddd;
+}
+.activities .container .card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.activities .container .card .overlay-content {
+  z-index: 1;
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.4s ease;
+}
+.activities .container .card .overlay-content h5 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.activities .container .card .overlay-content p {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+.activities .container .card .overlay-content button {
+  padding: 0.4rem 1rem;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+.activities .container .card .overlay-content button:hover {
+  background: #e62f2a;
+  border-color: #e62f2a;
+  color: #fff;
+}
+.activities .container .card .overlay-content .overlay-content {
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.4s ease;
+}
+.activities .container .card .overlay-content .overlay-content h5 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.activities .container .card .overlay-content .overlay-content p {
+  font-size: 0.9rem;
+}
+.activities .container .card:hover img {
+  transform: scale(1.1);
+}
+.activities .container .card:hover::after {
+  opacity: 1;
+}
+.activities .container .card:hover .overlay-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+.activities .container .card:hover .card-body {
+  opacity: 0;
+}
+
+.outcomes {
+  padding: 4rem 0;
+  background: #fff;
+  text-align: center;
+}
+.outcomes .container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.outcomes .container .title h4 {
+  color: #e62f2a;
+  text-align: center;
+  padding: 1rem;
+}
+.outcomes .container .description p {
+  color: #333333;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.outcomes .container .details p {
+  color: #666666;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1rem 0 3rem 0;
+}
+.outcomes .container .grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  gap: 3rem;
+}
+.outcomes .container .card {
+  background: #fafafa;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.outcomes .container .card .icon {
+  font-size: 2rem;
+  color: #e62f2a;
+  margin-bottom: 1rem;
+}
+.outcomes .container .card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+.outcomes .container .card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+.outcomes .container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact {
+  background-color: transparent;
+  padding: 2rem 0;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(208, 23, 14, 0.8);
+  z-index: -1;
+}
+.contact .container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  color: #ffffff;
+}
+.contact .container .contact-col h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.contact .container .contact-col h3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #ffffff;
+  margin-top: 0.5rem;
+  border-radius: 50px;
+}
+.contact .container .contact-col p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.contact .container .contact-col p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact .container .contact-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact .container .contact-col ul li {
+  margin-bottom: 0.5rem;
+}
+.contact .container .contact-col ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.member {
+  background-color: #eeeeee;
+  padding: 4rem 0;
+  text-align: center;
+}
+.member .container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.member .container .title {
+  color: #e62f2a;
+  text-align: center;
+  padding: 1rem;
+}
+.member .container .description {
+  color: #333333;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.member .container .details {
+  color: #666666;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.member .container .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+.member .container .card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.member .container .card .image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+}
+.member .container .card .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.member .container .card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.member .container .card p {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 1rem;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.member .container .card .socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.member .container .card .socials a {
+  color: #e62f2a;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+.member .container .card .socials a:hover {
+  color: #b71c1c;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 1.2vw;
+  font-family: "Lato", sans-serif;
+  background-color: #f6f6f6;
+  background-image: url("/BRIN.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}/*# sourceMappingURL=main.css.map */

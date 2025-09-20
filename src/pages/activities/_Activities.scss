@@ -1,0 +1,168 @@
+@use "../../helper/variables" as v;
+@use "../../helper/mixins" as m;
+@use "sass:map";
+
+.activities {
+  background: map.get(v.$color, "background-dark");
+  text-align: center;
+  padding: 3.5rem 0 3.5rem 0;
+
+  .container {
+    @include m.center(85%);
+
+    .text {
+      margin: auto;
+      width: 50%;
+
+      .title h4 {
+        color: map.get(v.$color, "title");
+        text-align: center;
+        padding: 1rem;
+      }
+
+      .description p {
+        color: map.get(v.$color, "text-first");
+        font-size: 2.8rem;
+        font-weight: 600;
+      }
+
+      .details p {
+        color: map.get(v.$color, "text-second");
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 1rem;
+      }
+    }
+    .card {
+      position: relative;
+      border-radius: 0.8rem;
+      overflow: hidden;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      .card-img {
+        width: 100%;
+        height: 280px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.6s ease;
+        }
+      }
+
+      .card-body {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        text-align: left;
+        //   background: rgba(0, 0, 0, 0.5);
+
+        h5 {
+          font-size: 1.2rem;
+          font-weight: 600;
+          color: #fff;
+        }
+
+        p {
+          font-size: 0.95rem;
+          color: #ddd;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+
+      .overlay-content {
+        z-index: 1;
+        text-align: left;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        right: 20px;
+        color: #fff;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.4s ease;
+
+        h5 {
+          font-size: 1.4rem;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+          margin-bottom: 0.8rem;
+        }
+
+        button {
+          padding: 0.4rem 1rem;
+          border: 1px solid #fff;
+          background: transparent;
+          color: #fff;
+          border-radius: 20px;
+          cursor: pointer;
+          font-size: 0.85rem;
+          transition: all 0.3s ease;
+
+          &:hover {
+            background: map.get(v.$color, "title");
+            border-color: map.get(v.$color, "title");
+            color: #fff;
+          }
+        }
+
+        .overlay-content {
+          text-align: left;
+          position: absolute;
+          bottom: 20px;
+          left: 20px;
+          right: 20px;
+          color: #fff;
+          opacity: 0;
+          transform: translateY(30px);
+          transition: all 0.4s ease;
+
+          h5 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+          }
+
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+
+        &::after {
+          opacity: 1;
+        }
+
+        .overlay-content {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        .card-body {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}

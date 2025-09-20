@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Digital Signal Processing (DSP)",
+    "desc": "Developing algorithms for signal enhancement, filtering, compression, and feature extraction.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "title": "Wireless Communicationg Systems",
+    "desc": "Investigating physical layer protocols for 5G, 6G, and future wireless technologies.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "title": "MIMO and Beamforming",
+    "desc": "Exploring spatial signal processing techniques to increase channel capacity and reliability.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "title": "Machine Learning for Signal Processing",
+    "desc": "Applying AI and deep learning models to improve communication system performance, especially in dynamic environments.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "title": "Software-Defined Radio (SDR) and Embedded Systems",
+    "desc": "Implementing and testing real-time communication algorithms on hardware platforms.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "title": "Spectrum Sensing and Cognitive Radio",
+    "desc": "Researching adaptive spectrum access techniques for dynamic spectrum allocation.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "title": "Audio Video Transmission",
+    "desc": "Researching Audio and Video in Telecommunication Systems.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  }
+]

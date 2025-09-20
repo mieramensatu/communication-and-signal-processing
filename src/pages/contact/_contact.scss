@@ -1,0 +1,71 @@
+@use "../../helper/variables" as v;
+@use "../../helper/mixins" as m;
+@use "sass:map";
+
+.contact {
+  background-color: transparent;
+  padding: 2rem 0;
+  position: relative;
+  font-family: v.$poppins;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: map.get(v.$color, "background-footer");
+    z-index: -1;
+  }
+
+  .container {
+    @include m.center(85%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    color: map.get(v.$color, "background");
+
+    .contact-col {
+      h3 {
+        font-weight: 600;
+        margin-bottom: 1rem;
+        position: relative;
+
+        &::after {
+          content: "";
+          display: block;
+          width: 40px;
+          height: 2px;
+          background: map.get(v.$color, "background");
+          margin-top: 0.5rem;
+          border-radius: 50px;
+        }
+      }
+
+      p {
+        margin: 0.5rem 0;
+        font-size: 0.95rem;
+        line-height: 1.5;
+
+        a {
+          color: map.get(v.$color, "background");
+          text-decoration: none;
+        }
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          margin-bottom: 0.5rem;
+
+          a {
+            text-decoration: none;
+            color: map.get(v.$color, "background");
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}

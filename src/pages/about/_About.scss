@@ -1,0 +1,31 @@
+@use "../../helper/variables" as v;
+@use "../../helper/mixins" as m;
+@use "sass:map";
+
+.about {
+  background-color: map.get(v.$color, "background");
+  padding: 2rem 0 3.5rem 0;
+
+  .about-inner {
+    @include m.center(85%);
+
+    h4 {
+      color: map.get(v.$color, "title");
+      text-align: center;
+      padding: 1rem;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 1.5;
+      text-align: center;
+      font-family: v.$roboto;
+      color: map.get(v.$color, "text-first");
+
+      span {
+        color: map.get(v.$color, "text-second");
+      }
+    }
+  }
+}

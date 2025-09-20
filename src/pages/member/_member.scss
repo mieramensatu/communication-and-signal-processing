@@ -1,0 +1,101 @@
+@use "../../helper/variables" as v;
+@use "../../helper/mixins" as m;
+@use "sass:map";
+
+.member {
+  background-color: map.get(v.$color, "background-dark");
+  padding: 4rem 0;
+  text-align: center;
+
+  .container {
+    @include m.center(85%);
+
+    .title {
+      color: map.get(v.$color, "title");
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .description {
+      color: map.get(v.$color, "text-first");
+      font-size: 2.8rem;
+      font-weight: 600;
+    }
+
+    .details {
+      color: map.get(v.$color, "text-second");
+      text-align: center;
+      font-size: 1.1rem;
+      padding: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      justify-items: center;
+    }
+
+    .card {
+      padding: 1.5rem;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+
+      .image {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto 1rem;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.3rem;
+        min-height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: #777;
+        margin-bottom: 1rem;
+        min-height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .socials {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+
+        a {
+          color: map.get(v.$color, "title");
+          text-decoration: none;
+          font-size: 1rem;
+          transition: color 0.3s;
+
+          &:hover {
+            color: map.get(v.$color, "hover");
+          }
+        }
+      }
+    }
+  }
+}

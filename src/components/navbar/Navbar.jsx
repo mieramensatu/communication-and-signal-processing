@@ -16,21 +16,32 @@ function Navbar({ onSelectCategory }) {
           }
         });
       },
-      { threshold: 0.6 }
     );
 
     section.forEach((sec) => observer.observe(sec));
 
+    console.log("active:", active);
+
     return () => {
       section.forEach((sec) => observer.unobserve(sec));
     };
-  }, []);
+  }, [active]);
 
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+    if (id === "member") {
+      onSelectCategory("all");
+      setActive("member");
+    }
+    setOpenDropdown(false);
+  };
+
+  const handleSelectCategory = (category) => {
+    onSelectCategory(category);
+    setActive("member");
     setOpenDropdown(false);
   };
 
@@ -69,32 +80,32 @@ function Navbar({ onSelectCategory }) {
               {openDropdown && (
                 <ul className="dropdown-menu">
                   <li>
-                    <button onClick={() => onSelectCategory("all")}>
+                    <button onClick={() => handleSelectCategory("all")}>
                       All Members
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("researcher")}>
+                    <button onClick={() => handleSelectCategory("researcher")}>
                       Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("visiting")}>
+                    <button onClick={() => handleSelectCategory("visiting")}>
                       Visiting Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("internship")}>
+                    <button onClick={() => handleSelectCategory("internship")}>
                       Internship Students
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("finalyear")}>
+                    <button onClick={() => handleSelectCategory("finalyear")}>
                       Final Project
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("mbkm")}>
+                    <button onClick={() => handleSelectCategory("mbkm")}>
                       MBKM
                     </button>
                   </li>

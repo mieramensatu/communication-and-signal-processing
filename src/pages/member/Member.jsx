@@ -4,16 +4,18 @@ import membersData from "../../data/member.json";
 function Member({ category }) {
   const data = membersData.member || {};
 
-  // 🔑 kalau category = "all" → gabung semua array di dalam data
+  const selectedCategory = category || "researcher";
   const selectedMembers =
-    category === "all" ? Object.values(data).flat() : data[category] || [];
+    selectedCategory === "all"
+      ? Object.values(data).flat()
+      : data[selectedCategory] || [];
 
   return (
     <section className="member" id="member">
       <div className="container">
         <h4 className="title">Our Team</h4>
         <p className="description">
-          {category === "all" ? "All Members" : category}
+          {selectedCategory === "all" ? "All Members" : selectedCategory}
         </p>
         <p className="details">Our Team Member</p>
 

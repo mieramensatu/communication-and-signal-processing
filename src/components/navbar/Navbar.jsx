@@ -4,6 +4,7 @@ import logo from "../../assets/img/logo (1).png";
 function Navbar({ onSelectCategory }) {
   const [active, setActive] = useState("home");
   const [openDropdown, setOpenDropdown] = useState(false);
+  const [scrolled, setScrolled] = useState(false); // ⬅️ tambahan
 
   useEffect(() => {
     const section = document.querySelectorAll("section");
@@ -16,38 +17,39 @@ function Navbar({ onSelectCategory }) {
           }
         });
       },
-      { threshold: [0.2, 0.1, 0.2, 0.3] }
+      { threshold: 0.3 }
     );
 
     section.forEach((sec) => observer.observe(sec));
 
-    console.log("active:", active);
-
     return () => {
       section.forEach((sec) => observer.unobserve(sec));
     };
-  }, [active]);
+  }, []);
 
-  const handleScroll = (id) => {
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const handleScrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-    if (id === "member") {
-      onSelectCategory("all");
-      setActive("member");
-    }
-    setOpenDropdown(false);
-  };
-
-  const handleSelectCategory = (category) => {
-    onSelectCategory(category);
-    setActive("member");
     setOpenDropdown(false);
   };
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="container">
         <div className="logo">
           <img src={logo} alt="Logo" />
@@ -56,7 +58,7 @@ function Navbar({ onSelectCategory }) {
           <ul className="list-item">
             <li>
               <button
-                onClick={() => handleScroll("home")}
+                onClick={() => handleScrollTo("home")}
                 className={active === "home" ? "active" : ""}
               >
                 Home
@@ -64,7 +66,7 @@ function Navbar({ onSelectCategory }) {
             </li>
             <li>
               <button
-                onClick={() => handleScroll("activities")}
+                onClick={() => handleScrollTo("activities")}
                 className={active === "activities" ? "active" : ""}
               >
                 Activity
@@ -81,32 +83,32 @@ function Navbar({ onSelectCategory }) {
               {openDropdown && (
                 <ul className="dropdown-menu">
                   <li>
-                    <button onClick={() => handleSelectCategory("all")}>
+                    <button onClick={() => onSelectCategory("all")}>
                       All Members
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleSelectCategory("researcher")}>
+                    <button onClick={() => onSelectCategory("researcher")}>
                       Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleSelectCategory("visiting")}>
+                    <button onClick={() => onSelectCategory("visiting")}>
                       Visiting Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleSelectCategory("internship")}>
+                    <button onClick={() => onSelectCategory("internship")}>
                       Internship Students
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleSelectCategory("finalyear")}>
+                    <button onClick={() => onSelectCategory("finalyear")}>
                       Final Project
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleSelectCategory("mbkm")}>
+                    <button onClick={() => onSelectCategory("mbkm")}>
                       MBKM
                     </button>
                   </li>
@@ -116,7 +118,7 @@ function Navbar({ onSelectCategory }) {
           </ul>
         </div>
         <button
-          onClick={() => handleScroll("contact")}
+          onClick={() => handleScrollTo("contact")}
           className="button-contact"
         >
           Contact Us

@@ -138,6 +138,14 @@
 .navbar .container .button-contact:hover {
   background-color: #b71c1c;
 }
+.navbar.scrolled {
+  margin-top: 0;
+}
+.navbar.scrolled .container {
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 0;
+}
 
 footer {
   padding: 0.2rem;

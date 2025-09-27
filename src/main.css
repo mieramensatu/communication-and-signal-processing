@@ -239,7 +239,9 @@ footer .footer-container ul li a.facebook:hover {
   font-size: 0.8rem;
   margin-bottom: 1rem;
 }
-.hero .hero-button .btn {
+.hero .hero-button button {
+  cursor: pointer;
+  border: none;
   display: inline-block;
   padding: 10px 20px;
   border-radius: 50px;
@@ -249,7 +251,7 @@ footer .footer-container ul li a.facebook:hover {
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
-.hero .hero-button .btn:hover {
+.hero .hero-button button:hover {
   background-color: #c71f1a;
 }
 

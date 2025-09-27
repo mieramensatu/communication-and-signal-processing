@@ -1,6 +1,12 @@
 import React from "react";
 
 function Hero() {
+  const handleScroll = () => {
+    const memberSection = document.getElementById("member");
+    if (memberSection) {
+      memberSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="hero" id="home">
       <div className="hero-inner">
@@ -14,9 +20,9 @@ function Hero() {
             and analyzing signals, our research group contributes to building
             smarter and more reliable communication systems.
           </p>
-          <a href="#member" className="btn">
-            Get Started
-          </a>
+          <button onClick={handleScroll}>
+            Our Members
+          </button>
         </div>
       </div>
     </section>

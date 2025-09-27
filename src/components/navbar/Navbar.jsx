@@ -4,7 +4,7 @@ import logo from "../../assets/img/logo (1).png";
 function Navbar({ onSelectCategory }) {
   const [active, setActive] = useState("home");
   const [openDropdown, setOpenDropdown] = useState(false);
-  const [scrolled, setScrolled] = useState(false); // ⬅️ tambahan
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const section = document.querySelectorAll("section");
@@ -17,7 +17,7 @@ function Navbar({ onSelectCategory }) {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     section.forEach((sec) => observer.observe(sec));
@@ -29,11 +29,7 @@ function Navbar({ onSelectCategory }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -46,6 +42,11 @@ function Navbar({ onSelectCategory }) {
       element.scrollIntoView({ behavior: "smooth" });
     }
     setOpenDropdown(false);
+  };
+
+  const handleMemberClick = (category) => {
+    onSelectCategory(category);
+    handleScrollTo("member");
   };
 
   return (
@@ -83,32 +84,32 @@ function Navbar({ onSelectCategory }) {
               {openDropdown && (
                 <ul className="dropdown-menu">
                   <li>
-                    <button onClick={() => onSelectCategory("all")}>
+                    <button onClick={() => handleMemberClick("all")}>
                       All Members
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("researcher")}>
+                    <button onClick={() => handleMemberClick("researcher")}>
                       Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("visiting")}>
+                    <button onClick={() => handleMemberClick("visiting")}>
                       Visiting Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("internship")}>
+                    <button onClick={() => handleMemberClick("internship")}>
                       Internship Students
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("finalyear")}>
+                    <button onClick={() => handleMemberClick("finalyear")}>
                       Final Project
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => onSelectCategory("mbkm")}>
+                    <button onClick={() => handleMemberClick("mbkm")}>
                       MBKM
                     </button>
                   </li>

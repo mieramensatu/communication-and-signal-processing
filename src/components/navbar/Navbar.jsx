@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/img/logo (1).png";
 
-function Navbar({ onSelectCategory }) {
+function Navbar({ onSelectCategory, fullWidth = false }) {
   const [active, setActive] = useState("home");
   const [openDropdown, setOpenDropdown] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -51,9 +51,11 @@ function Navbar({ onSelectCategory }) {
 
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
-      <div className="container">
+      <div className={fullWidth ? "container-fluid" : "container"}>
         <div className="logo">
-          <img src={logo} alt="Logo" />
+          <a href="/">
+            <img src={logo} alt="Logo" />
+          </a>
         </div>
         <div className="List">
           <ul className="list-item">

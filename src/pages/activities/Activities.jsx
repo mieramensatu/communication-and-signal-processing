@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import activities from "../../data/activities.json";
+import detail from "../../data/detail.json";
 
 function Activities() {
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const handleOpenDetail = (id) => {
+    const itemDetail = detail.find((d) => d.id === id);
+    setSelectedItem(itemDetail || null);
+  };
+
   return (
     <section className="activities" id="activities">
       <div className="container">
@@ -23,7 +32,7 @@ function Activities() {
             </p>
           </div>
         </div>
-        {}
+
         <Swiper
           modules={[Autoplay]}
           spaceBetween={30}
@@ -40,8 +49,8 @@ function Activities() {
           }}
           className="list"
         >
-          {activities.map((item, index) => (
-            <SwiperSlide key={index}>
+          {activities.map((item) => (
+            <SwiperSlide key={item.id}>
               <div className="card">
                 <div className="card-img">
                   <img src={item.img} alt={item.title} />
@@ -50,17 +59,17 @@ function Activities() {
                   <h5>{item.title}</h5>
                   <p>{item.desc}</p>
                 </div>
-                {/* Overlay content yang muncul saat hover */}
                 <div className="overlay-content">
                   <h5>{item.title}</h5>
                   <p>{item.desc}</p>
-                  <button>More detail</button>
+                  <Link to={`/article/${item.id}`} className="detail-link">
+                    More detail
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-        {}
       </div>
     </section>
   );

@@ -1,23 +1,29 @@
 [
   {
-    "title": "Digital Signal Processing (DSP)",
-    "desc": "Developing algorithms for signal enhancement, filtering, compression, and feature extraction.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "id": 1,
+    "title": "Prediction of Glucose Levels in Diabetics Using Support Vector Regression",
+    "desc": "Machine learning is used to predict glucose levels in diabetics. Support Vector Regression outperformed other algorithms with the lowest mean squared error (28.9480), where Instance 47 showed the highest predicted plasma glucose (189.2305).",
+    "img": "/kegiatan/resized_image_1600x1200.png",
+    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
+    "id": 2,
     "title": "Wireless Communicationg Systems",
     "desc": "Investigating physical layer protocols for 5G, 6G, and future wireless technologies.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*nwwkyz1wpaRZgAgBg3h41Q.jpeg",
+    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "title": "MIMO and Beamforming",
     "desc": "Exploring spatial signal processing techniques to increase channel capacity and reliability.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "img": "/kegiatan/gambarlab3.jpeg",
+    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "title": "Machine Learning for Signal Processing",
     "desc": "Applying AI and deep learning models to improve communication system performance, especially in dynamic environments.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "img": "/kegiatan/gambarlab3.jpeg",
+    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "title": "Software-Defined Radio (SDR) and Embedded Systems",

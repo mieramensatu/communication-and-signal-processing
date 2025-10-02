@@ -1,0 +1,160 @@
+@use "../../helper/_variables.scss" as v;
+@use "sass:map";
+
+.article-page {
+  background-color: map.get(v.$color, "background");
+  min-height: 100vh;
+  color: map.get(v.$color, "text");
+
+  .navbar {
+    margin-top: 0 !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 0;
+
+    .container {
+      width: 100% !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+    }
+  }
+
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.7;
+  }
+
+  .article-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: map.get(v.$color, "text-secondary") or #666;
+    margin-bottom: 1rem;
+  }
+
+  .article-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0.5rem 0 1.2rem;
+    line-height: 1.2;
+    color: map.get(v.$color, "text");
+  }
+
+  .article-subtitle {
+    font-size: 1.1rem;
+    color: map.get(v.$color, "text-secondary") or #555;
+    margin-bottom: 1.5rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+
+  .tag {
+    padding: 0.25rem 0.8rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: map.get(v.$color, "background-light") or #f5f7fa;
+    color: map.get(v.$color, "text") or #333;
+    white-space: nowrap;
+  }
+
+  .tag.disease {
+    background-color: rgba(236, 72, 153, 0.15);
+    color: map.get(v.$color, "secondary") or #ec4899;
+  }
+
+  .tag.variable {
+    background-color: rgba(59, 130, 246, 0.15);
+    color: map.get(v.$color, "primary") or #3b82f6;
+  }
+
+  .tag.field {
+    background-color: rgba(139, 92, 246, 0.15);
+    color: map.get(v.$color, "purple") or #8b5cf6;
+  }
+
+  .tag.algorithm {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: map.get(v.$color, "success") or #10b981;
+  }
+
+  .tag.goal {
+    background-color: rgba(249, 115, 22, 0.15);
+    color: map.get(v.$color, "accent") or #f97316;
+  }
+
+  .tag.metric {
+    background-color: rgba(100, 116, 139, 0.15);
+    color: map.get(v.$color, "gray") or #64748b;
+  }
+
+  .featured-image-wrapper {
+    margin: 2.5rem 0;
+    perspective: 1000px;
+  }
+
+  .featured-image {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+
+  .article-section {
+    h2 {
+      font-size: 1.6rem;
+      margin: 2.5rem 0 1.2rem;
+      color: map.get(v.$color, "text");
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 1rem;
+    }
+  }
+
+  .article-quote {
+    margin: 2rem 0;
+    padding: 1.5rem 2rem;
+    border-left: 4px solid map.get(v.$color, "primary") or #007bff;
+    background-color: map.get(v.$color, "background-light") or #f9fafb;
+    font-style: italic;
+    font-size: 1.05rem;
+    color: map.get(v.$color, "text");
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .article-page {
+    .content {
+      padding: 1.5rem;
+    }
+
+    .article-title {
+      font-size: 1.8rem;
+    }
+
+    .featured-image {
+      transform: rotate(0deg);
+      border-radius: 10px;
+    }
+
+    .article-meta {
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+  }
+}

@@ -61,17 +61,23 @@
         right: 0;
         padding: 1rem;
         text-align: left;
-        //   background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.4);
 
         h5 {
           font-size: 1.2rem;
           font-weight: 600;
-          color: #fff;
+          color: map.get(v.$color, "background");
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
 
         p {
           font-size: 0.95rem;
           color: #ddd;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
       }
 
@@ -106,7 +112,7 @@
           margin-bottom: 0.8rem;
         }
 
-        button {
+        .detail-link {
           padding: 0.4rem 1rem;
           border: 1px solid #fff;
           background: transparent;
@@ -115,12 +121,20 @@
           cursor: pointer;
           font-size: 0.85rem;
           transition: all 0.3s ease;
+          text-decoration: none;
 
           &:hover {
             background: map.get(v.$color, "title");
             border-color: map.get(v.$color, "title");
             color: #fff;
           }
+        }
+
+        .img-credit {
+          display: block;
+          font-size: 0.7rem;
+          color: #ddd;
+          margin-top: 0.5rem;
         }
 
         .overlay-content {

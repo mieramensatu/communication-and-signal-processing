@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "title": "Prediction of Glucose Level in Diabetics with Support Vector Regression",
+    "publishDate": "April 5, 2025",
+    "author": "Research Team",
+    "tags": [
+      { "text": "Diabetes Mellitus", "type": "disease" },
+      { "text": "Kadar Glukosa", "type": "variable" },
+      { "text": "Machine Learning", "type": "field" },
+      { "text": "Support Vector Regression (SVR)", "type": "algorithm" },
+      { "text": "Prediksi", "type": "goal" },
+      { "text": "Mean Squared Error (MSE)", "type": "metric" }
+    ],
+    "image": "/kegiatan/resized_image_1600x1200.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Diabetes Mellitus is a chronic metabolic disorder..."
+      },
+      {
+        "heading": "Methodology",
+        "content": "This study utilized a publicly available diabetes dataset...",
+        "list": ["Linear Regression", "Decision Tree Regressor", "Random Forest Regressor", "Support Vector Regression (SVR)"]
+      },
+      {
+        "heading": "Results",
+        "content": "The Support Vector Regression model achieved the lowest MSE value of 28.9480..."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Predicting glucose levels in diabetic patients using machine learning..."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Prediction of Glucose Level in Diabetics with Support Vector Regression",
+    "publishDate": "April 5, 2025",
+    "author": "Research Team",
+    "tags": [
+      { "text": "Diabetes Mellitus", "type": "disease" },
+      { "text": "Kadar Glukosa", "type": "variable" },
+      { "text": "Machine Learning", "type": "field" },
+      { "text": "Support Vector Regression (SVR)", "type": "algorithm" },
+      { "text": "Prediksi", "type": "goal" },
+      { "text": "Mean Squared Error (MSE)", "type": "metric" }
+    ],
+    "image": "/kegiatan/resized_image_1600x1200.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Diabetes Mellitus is a chronic metabolic disorder..."
+      },
+      {
+        "heading": "Methodology",
+        "content": "This study utilized a publicly available diabetes dataset...",
+        "list": ["Linear Regression", "Decision Tree Regressor", "Random Forest Regressor", "Support Vector Regression (SVR)"]
+      },
+      {
+        "heading": "Results",
+        "content": "The Support Vector Regression model achieved the lowest MSE value of 28.9480..."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Predicting glucose levels in diabetic patients using machine learning..."
+      }
+    ]
+  }
+]

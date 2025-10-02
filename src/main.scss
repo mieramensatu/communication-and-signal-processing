@@ -2,6 +2,7 @@
 
 @use "./components/navbar/Navbar";
 @use "./components/footer/Footer";
+
 @use "./pages/hero/Hero";
 @use "./pages/partner/Partner";
 @use "./pages/about/About";
@@ -9,6 +10,8 @@
 @use "./pages/reset/Riset";
 @use "./pages/contact/Contact";
 @use "./pages/member/Member";
+
+@use "./pages/article/Article";
 
 *,
 *::before,

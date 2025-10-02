@@ -7,13 +7,6 @@ import activities from "../../data/activities.json";
 import detail from "../../data/detail.json";
 
 function Activities() {
-  const [selectedItem, setSelectedItem] = useState(null);
-
-  const handleOpenDetail = (id) => {
-    const itemDetail = detail.find((d) => d.id === id);
-    setSelectedItem(itemDetail || null);
-  };
-
   return (
     <section className="activities" id="activities">
       <div className="container">

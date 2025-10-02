@@ -1,5 +1,6 @@
 // src/pages/Article.jsx
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import detail from "../../data/detail.json";
@@ -8,14 +9,15 @@ function Article() {
   const [article, setArticle] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const urlParams = new URLSearchParams(window.location.search);
-  const id = parseInt(urlParams.get("id")) || 1;
+  const { id } = useParams(); 
+  const intId = parseInt(id) || 1;
 
   useEffect(() => {
-    const found = detail.find((item) => item.id === id);
+    const found = detail.find((item) => item.id === intId);
+
     setArticle(found || null);
     setLoading(false);
-  }, [id]);
+  }, [intId]);
 
   if (loading) {
     return (
@@ -60,7 +62,11 @@ function Article() {
         </div>
 
         <div className="featured-image-wrapper">
-          <img src={article.image} alt={article.title} className="featured-image" />
+          <img
+            src={article.image}
+            alt={article.title}
+            className="featured-image"
+          />
         </div>
 
         {/* Sections */}

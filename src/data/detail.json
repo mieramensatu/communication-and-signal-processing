@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Prediction of Glucose Level in Diabetics with Support Vector Regression",
-    "publishDate": "April 5, 2025",
-    "author": "Research Team",
+    "publishDate": "March 31, 2020",
+    "author": "Agus Subekti",
     "tags": [
       { "text": "Diabetes Mellitus", "type": "disease" },
       { "text": "Kadar Glukosa", "type": "variable" },
@@ -30,6 +30,154 @@
       {
         "heading": "Conclusion",
         "content": "Predicting glucose levels in diabetic patients using machine learning offers a proactive approach to disease management. Among the evaluated models, Support Vector Regression demonstrated the highest accuracy, as evidenced by its lowest MSE score. Future work includes integrating this model into mobile health platforms and validating it on larger, real-world datasets."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Analisa Sentiment pada Ulasan Film dengan Optimasi Ensemble Learning",
+    "publishDate": "March 20, 2025",
+    "author": "NLP Research Group",
+    "tags": [
+      { "text": "Analisis Sentimen", "type": "goal" },
+      { "text": "Ulasan Film", "type": "variable" },
+      { "text": "Machine Learning", "type": "field" },
+      { "text": "Naïve Bayes", "type": "algorithm" },
+      { "text": "Random Forest", "type": "algorithm" },
+      { "text": "Ensemble Learning", "type": "algorithm" },
+      { "text": "Chi Square", "type": "metric" },
+      { "text": "Voting", "type": "algorithm" },
+      { "text": "Adaboost", "type": "algorithm" },
+      { "text": "Akurasi", "type": "metric" }
+    ],
+    "image": "/kegiatan/Gemini_Generated_Image_es8lfses8lfses8l.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Dalam dunia hiburan khususnya film, kini situs web ulasan film menjadi media bagi orang-orang untuk memberikan penilaian mengenai seberapa bagus film tersebut. Mereka tidak harus menjadi pakar dalam dunia perfilman untuk menilai kualitas dari film yang mereka saksikan, semua orang dapat memberikan penilaian.\n\nSentimen yang ditemukan dalam komentar, umpan balik atau kritik memberikan indikator yang berguna untuk berbagai tujuan dan dapat dikategorikan berdasarkan polaritas, polaritas tersebut cenderung akan dicari tahu apakah secara keseluruhan positif atau negatif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Algoritma Naïve Bayes dan Random Forest merupakan algoritma yang dapat memberikan hasil analisa klasifikasi sesuai yang diharapkan pada penelitian ini. Analisa akan dilakukan dengan membandingkan beberapa kombinasi algoritma untuk diuji pada Polarity Dataset 2.0 dari Cornell University.\n\nBeberapa pendekatan yang diuji meliputi:\n\n• Naïve Bayes (NB) dan Random Forest (RF) dasar\n• Kombinasi dengan seleksi fitur Chi Square\n• Integrasi dengan Adaboost\n• Penggunaan metode Voting (ensemble)\n\nEvaluasi dilakukan berdasarkan metrik akurasi untuk menentukan performa terbaik."
+      },
+      {
+        "heading": "Results",
+        "content": "Dari hasil pengujian yang didapat, algoritma Adaboost dan Voting mampu meningkatkan akurasi dari metode Naïve Bayes (NB) dan Random Forest (RF).\n\nModel yang diusulkan dengan Chi Square + Voting 2 (RF + SVM) mencapai nilai akurasi sebesar 84,6% pada dataset bahasa Inggris. Ketika diuji pada ulasan film berbahasa Indonesia, algoritma Voting 2 (RF + SVM) mampu menghasilkan akurasi hingga 92%.",
+        "quote": "Pendekatan ensemble learning terbukti efektif dalam meningkatkan stabilitas dan akurasi model analisis sentimen, terutama pada data multibahasa."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian ini menunjukkan bahwa optimasi ensemble learning, khususnya metode Voting yang menggabungkan Random Forest dan SVM, memberikan performa terbaik dalam analisis sentimen ulasan film. Hasil yang impresif pada data berbahasa Indonesia membuka peluang untuk penerapan sistem analisis sentimen lokal yang lebih akurat di platform digital Indonesia."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Plant Diseases Detection with Low Resolution Data Using Nested Skip Connections",
+    "publishDate": "February 15, 2024",
+    "author": "Computer Vision Lab",
+    "tags": [
+      { "text": "Plant Disease Detection", "type": "goal" },
+      { "text": "Low Resolution Data", "type": "variable" },
+      { "text": "Deep Learning", "type": "field" },
+      { "text": "Nested Skip Connections", "type": "algorithm" },
+      { "text": "VGGNet", "type": "algorithm" },
+      { "text": "AlexNet", "type": "algorithm" },
+      { "text": "ResNet", "type": "algorithm" },
+      { "text": "Xception", "type": "algorithm" },
+      { "text": "MobileNet", "type": "algorithm" },
+      { "text": "Model Size", "type": "metric" }
+    ],
+    "image": "/kegiatan/plant_disease_detection.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "At the moment, there are increasing trends of using deep learning for plant diseases detection. However, their implementations may be difficult in developing countries due to several reasons. First, existing deep learning models are usually trained with images with adequate resolutions. In developing countries however, with limited internet connection, models that would perform well even when data with low resolution are used are needed. Secondly, the generated models are large. Hence, most deep learning based applications are available on-line. Unfortunately, the trend for new deep learning architectures are either have larger models or require a heavy memory usage. So, models with smaller size would be preferred."
+      },
+      {
+        "heading": "Methodology",
+        "content": "In this paper, we evaluate various existing deep learning models for plant diseases detection when low resolution data are used. The models tested include:\n\n• VGGNet\n• AlexNet\n• ResNet\n• Xception\n• MobileNet\n\nWe also propose a lightweight architecture using nested skip connections to improve feature propagation in low-resolution scenarios while maintaining a small model footprint."
+      },
+      {
+        "heading": "Results",
+        "content": "Experimental results show that MobileNet achieves the best trade-off between accuracy and model size under low-resolution constraints. The proposed nested skip connection architecture further improves accuracy by 4.2% compared to baseline MobileNet, while only increasing model size by 8%.",
+        "quote": "Efficient deep learning models for plant disease detection must balance accuracy, resolution robustness, and computational feasibility—especially in resource-constrained environments."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This study demonstrates that lightweight models like MobileNet, enhanced with architectural innovations such as nested skip connections, can effectively detect plant diseases even with low-resolution input. This opens opportunities for offline, mobile-based agricultural assistance in developing regions with limited connectivity."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Analysis of IEEE 802.11p MAC Protocol for Safety Message Broadcast in V2V Communication",
+    "publishDate": "November 10, 2023",
+    "author": "Wireless Networks Research Group",
+    "tags": [
+      { "text": "V2V Communication", "type": "variable" },
+      { "text": "Safety Message", "type": "goal" },
+      { "text": "IEEE 802.11p", "type": "algorithm" },
+      { "text": "MAC Protocol", "type": "algorithm" },
+      { "text": "Packet Delivery Ratio (PDR)", "type": "metric" },
+      { "text": "Hidden Terminal", "type": "metric" },
+      { "text": "V2X", "type": "field" }
+    ],
+    "image": "/kegiatan/v2v_communication.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "V2X communication technology is expected to improve road safety and optimize transportation efficiency. Safety message broadcasting is in need of high reliability and requires real-time communications between vehicles under adverse environments."
+      },
+      {
+        "heading": "Methodology",
+        "content": "In this study, we evaluate IEEE 802.11p MAC protocol performance in terms of packet delivery ratio (PDR), by means of simulation and analysis. Analytical expression of PDR is derived for packets with exponential and deterministic inter-arrival time by taking hidden terminal problem into account as the major cause of performance degradation. Furthermore, the effects of various data rate, packet arrival rate, and packet size towards PDR performance are evaluated."
+      },
+      {
+        "heading": "Results",
+        "content": "Numerical and simulation results show how packet delivery ratio (PDR) drops dramatically in cases with hidden problem nodes. Under high vehicle density, PDR can fall below 60% when hidden terminals are present, even with optimal data rates.",
+        "quote": "The hidden terminal problem remains a critical bottleneck in V2V safety message dissemination, requiring protocol-level or cooperative solutions to ensure reliability."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This analysis highlights the vulnerability of IEEE 802.11p to hidden terminal interference in dense traffic scenarios. Future work should explore hybrid MAC protocols or cooperative awareness mechanisms to mitigate this issue and ensure robust safety messaging in real-world deployments."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Deep Neural Network untuk Prediksi Stroke",
+    "publishDate": "January 30, 2025",
+    "author": "Health Informatics Team",
+    "tags": [
+      { "text": "Stroke", "type": "disease" },
+      { "text": "Prediksi", "type": "goal" },
+      { "text": "Deep Neural Network (DNN)", "type": "algorithm" },
+      { "text": "Oversampling", "type": "algorithm" },
+      { "text": "SMOTETomek", "type": "algorithm" },
+      { "text": "Imbalanced Data", "type": "variable" },
+      { "text": "Akurasi", "type": "metric" },
+      { "text": "F1-Score", "type": "metric" },
+      { "text": "Machine Learning", "type": "field" }
+    ],
+    "image": "/kegiatan/stroke_prediction.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "(WHO) mendudukkan stroke sebagai tujuh dari sepuluh penyebab utama kematian. Kementerian Kesehatan menggolongkan stroke sebagai penyakit katastropik karena dampaknya luas secara ekonomi dan sosial. Oleh karena itu, diperlukan peran dari teknologi informasi untuk memprediksi stroke guna pencegahan dan perawatan dini. Analisis data yang memiliki kelas tidak seimbang mengakibatkan ketidakakuratan dalam memprediksi stroke."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini membandingkan tiga teknik oversampling untuk mendapatkan model prediksi yang lebih baik. Data kelas yang sudah diseimbangkan diuji menggunakan tiga model Arsitektur Deep Neural Network (DNN) dengan melakukan optimasi pada beberapa parameter yaitu optimizer, learning rate dan epoch."
+      },
+      {
+        "heading": "Results",
+        "content": "Hasil paling baik didapatkan teknik oversampling SMOTETomek dan Arsitektur DNN dengan lima hidden layer, optimasi Adam, learning rate 0.001 dan jumlah epoch 500. Skor akurasi, presisi, recall, dan f1-score masing-masing mendapatkan 0.96, 0.9614, 0.9608 dan 0.9611.",
+        "quote": "Penanganan ketidakseimbangan kelas melalui SMOTETomek secara signifikan meningkatkan kemampuan model DNN dalam mendeteksi kasus stroke langka."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Model DNN yang dikombinasikan dengan teknik oversampling SMOTETomek terbukti efektif dalam memprediksi stroke dengan akurasi tinggi. Sistem ini berpotensi diintegrasikan ke dalam alat skrining kesehatan digital untuk deteksi dini dan intervensi preventif."
       }
     ]
   }

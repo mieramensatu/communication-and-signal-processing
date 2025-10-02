@@ -745,11 +745,6 @@ footer .footer-container ul li a.facebook:hover {
   margin: 0.5rem 0 1.2rem;
   line-height: 1.2;
 }
-.article-page .article-subtitle {
-  font-size: 1.1rem;
-  color: #555;
-  margin-bottom: 1.5rem;
-}
 .article-page .tags {
   display: flex;
   flex-wrap: wrap;
@@ -798,15 +793,26 @@ footer .footer-container ul li a.facebook:hover {
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease;
 }
 .article-page .article-section h2 {
   font-size: 1.6rem;
   margin: 2.5rem 0 1.2rem;
 }
-.article-page .article-section p {
+.article-page .article-section .article-content p {
   margin-bottom: 1.2rem;
-  font-size: 1rem;
+  line-height: 1.8;
+}
+.article-page .article-section .article-content ul {
+  margin: 1.2rem 0;
+  padding-left: 1.5rem;
+}
+.article-page .article-section .article-content ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.article-page .article-section .article-content br {
+  display: block;
+  margin: 0.5rem 0;
 }
 .article-page .article-quote {
   margin: 2rem 0;
@@ -826,7 +832,6 @@ footer .footer-container ul li a.facebook:hover {
     font-size: 1.8rem;
   }
   .article-page .featured-image {
-    transform: rotate(0deg);
     border-radius: 10px;
   }
   .article-page .article-meta {

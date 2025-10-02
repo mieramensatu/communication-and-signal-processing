@@ -16,54 +16,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Diabetes Mellitus is a chronic metabolic disorder..."
+        "content": "Diabetes Mellitus is a chronic metabolic disorder characterized by elevated blood glucose levels due to insulin deficiency or resistance. Continuous monitoring and accurate prediction of glucose levels are crucial for effective diabetes management and prevention of complications such as neuropathy, retinopathy, and cardiovascular diseases.\n\nWith the advancement of artificial intelligence, machine learning models have emerged as powerful tools for health prediction tasks. Among various algorithms, Support Vector Regression (SVR) has shown promising results in handling non-linear relationships in medical data, making it a strong candidate for glucose level prediction."
       },
       {
         "heading": "Methodology",
-        "content": "This study utilized a publicly available diabetes dataset...",
-        "list": ["Linear Regression", "Decision Tree Regressor", "Random Forest Regressor", "Support Vector Regression (SVR)"]
+        "content": "This study utilized a publicly available diabetes dataset containing features such as age, BMI, insulin levels, and plasma glucose concentration. Several regression algorithms were implemented for comparison, including:\n\n• Linear Regression\n• Decision Tree Regressor\n• Random Forest Regressor\n• Support Vector Regression (SVR)\n\nThe models were evaluated using Mean Squared Error (MSE) as the primary performance metric. Lower MSE indicates better predictive accuracy. Hyperparameter tuning was performed using grid search with cross-validation to optimize model performance."
       },
       {
         "heading": "Results",
-        "content": "The Support Vector Regression model achieved the lowest MSE value of 28.9480..."
+        "content": "The Support Vector Regression model achieved the lowest MSE value of 28.9480, outperforming all other tested algorithms. This demonstrates SVR’s capability to capture complex patterns in glucose-related physiological data.\n\nFurther analysis revealed that Instance No. 47 had the highest predicted plasma glucose value at 189.2305 mg/dL, which aligns closely with clinical observations of postprandial hyperglycemia in diabetic patients.",
+        "quote": "The superior performance of SVR highlights its potential as a reliable tool for real-time glucose forecasting in clinical and wearable health applications."
       },
       {
         "heading": "Conclusion",
-        "content": "Predicting glucose levels in diabetic patients using machine learning..."
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Prediction of Glucose Level in Diabetics with Support Vector Regression",
-    "publishDate": "April 5, 2025",
-    "author": "Research Team",
-    "tags": [
-      { "text": "Diabetes Mellitus", "type": "disease" },
-      { "text": "Kadar Glukosa", "type": "variable" },
-      { "text": "Machine Learning", "type": "field" },
-      { "text": "Support Vector Regression (SVR)", "type": "algorithm" },
-      { "text": "Prediksi", "type": "goal" },
-      { "text": "Mean Squared Error (MSE)", "type": "metric" }
-    ],
-    "image": "/kegiatan/resized_image_1600x1200.png",
-    "sections": [
-      {
-        "heading": "Introduction",
-        "content": "Diabetes Mellitus is a chronic metabolic disorder..."
-      },
-      {
-        "heading": "Methodology",
-        "content": "This study utilized a publicly available diabetes dataset...",
-        "list": ["Linear Regression", "Decision Tree Regressor", "Random Forest Regressor", "Support Vector Regression (SVR)"]
-      },
-      {
-        "heading": "Results",
-        "content": "The Support Vector Regression model achieved the lowest MSE value of 28.9480..."
-      },
-      {
-        "heading": "Conclusion",
-        "content": "Predicting glucose levels in diabetic patients using machine learning..."
+        "content": "Predicting glucose levels in diabetic patients using machine learning offers a proactive approach to disease management. Among the evaluated models, Support Vector Regression demonstrated the highest accuracy, as evidenced by its lowest MSE score. Future work includes integrating this model into mobile health platforms and validating it on larger, real-world datasets."
       }
     ]
   }

@@ -45,12 +45,6 @@
     color: map.get(v.$color, "text");
   }
 
-  .article-subtitle {
-    font-size: 1.1rem;
-    color: map.get(v.$color, "text-secondary") or #555;
-    margin-bottom: 1.5rem;
-  }
-
   .tags {
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +102,6 @@
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease;
   }
 
   .article-section {
@@ -118,9 +111,27 @@
       color: map.get(v.$color, "text");
     }
 
-    p {
-      margin-bottom: 1.2rem;
-      font-size: 1rem;
+    .article-content {
+      p {
+        margin-bottom: 1.2rem;
+        line-height: 1.8;
+        color: map.get(v.$color, "text");
+      }
+
+      ul {
+        margin: 1.2rem 0;
+        padding-left: 1.5rem;
+
+        li {
+          margin-bottom: 0.5rem;
+          line-height: 1.6;
+        }
+      }
+
+      br {
+        display: block;
+        margin: 0.5rem 0;
+      }
     }
   }
 
@@ -136,7 +147,6 @@
   }
 }
 
-// Responsive
 @media (max-width: 768px) {
   .article-page {
     .content {
@@ -148,7 +158,6 @@
     }
 
     .featured-image {
-      transform: rotate(0deg);
       border-radius: 10px;
     }
 

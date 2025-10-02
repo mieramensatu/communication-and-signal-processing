@@ -1,7 +1,8 @@
+// src/pages/Article.jsx
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer"; 
-import articleData from "../../data/detail.json";
+import Footer from "../../components/footer/Footer";
+import detail from "../../data/detail.json";
 
 function Article() {
   const [article, setArticle] = useState(null);
@@ -11,12 +12,8 @@ function Article() {
   const id = parseInt(urlParams.get("id")) || 1;
 
   useEffect(() => {
-    const found = articleData.find((item) => item.id === id);
-    if (found) {
-      setArticle(found);
-    } else {
-      setArticle(null);
-    }
+    const found = detail.find((item) => item.id === id);
+    setArticle(found || null);
     setLoading(false);
   }, [id]);
 
@@ -24,7 +21,7 @@ function Article() {
     return (
       <div className="article-page">
         <Navbar />
-        <div className="content text-center py-10">Loading...</div>
+        <div className="content">Loading...</div>
         <Footer />
       </div>
     );
@@ -34,7 +31,7 @@ function Article() {
     return (
       <div className="article-page">
         <Navbar />
-        <div className="content text-center py-10">
+        <div className="content">
           <h1>Article Not Found</h1>
           <p>The article you're looking for doesn't exist.</p>
         </div>
@@ -46,62 +43,44 @@ function Article() {
   return (
     <div className="article-page">
       <Navbar />
-      <div className="content max-w-4xl mx-auto px-4 py-8">
-        {/* Meta Info */}
-        <div className="article-meta flex flex-wrap gap-4 text-gray-600 mb-4">
+      <div className="content">
+        <div className="article-meta">
           <span className="publish-date">Published {article.publishDate}</span>
           <span className="author">By {article.author}</span>
         </div>
 
-        <h1 className="article-title text-3xl font-bold mb-6">{article.title}</h1>
+        <h1 className="article-title">{article.title}</h1>
 
-        {/* Tags */}
-        <div className="tags flex flex-wrap gap-2 mb-8">
+        <div className="tags">
           {article.tags.map((tag, index) => (
-            <span
-              key={index}
-              className={`tag px-3 py-1 rounded-full text-sm font-medium ${
-                tag.type === "disease"
-                  ? "bg-red-100 text-red-800"
-                  : tag.type === "variable"
-                  ? "bg-blue-100 text-blue-800"
-                  : tag.type === "field"
-                  ? "bg-green-100 text-green-800"
-                  : tag.type === "algorithm"
-                  ? "bg-purple-100 text-purple-800"
-                  : tag.type === "goal"
-                  ? "bg-yellow-100 text-yellow-800"
-                  : "bg-gray-100 text-gray-800"
-              }`}
-            >
+            <span key={index} className={`tag ${tag.type}`}>
               {tag.text}
             </span>
           ))}
         </div>
 
-        {/* Featured Image */}
-        <div className="featured-image-wrapper mb-8">
-          <img
-            src={article.image}
-            alt="Article illustration"
-            className="featured-image w-full h-auto rounded-lg shadow-md"
-          />
+        <div className="featured-image-wrapper">
+          <img src={article.image} alt={article.title} className="featured-image" />
         </div>
 
         {/* Sections */}
         {article.sections.map((section, index) => (
-          <section key={index} className="article-section mb-8">
-            <h2 className="text-2xl font-semibold mb-4">{section.heading}</h2>
-            <p className="mb-4">{section.content}</p>
-            {section.list && (
-              <ul className="list-disc pl-6 space-y-1">
-                {section.list.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
-            )}
+          <section key={index} className="article-section">
+            <h2>{section.heading}</h2>
+            <div
+              className="article-content"
+              dangerouslySetInnerHTML={{
+                __html: section.content
+                  .replace(/\n\n/g, "</p><p>")
+                  .replace(/\n/g, "<br />")
+                  .replace(/•\s(.+?)(?=\n|$)/g, "<li>$1</li>")
+                  .replace(/(<li>.+?<\/li>)/gs, "<ul>$1</ul>")
+                  .replace(/^/, "<p>")
+                  .replace(/$/, "</p>"),
+              }}
+            />
             {section.quote && (
-              <blockquote className="article-quote border-l-4 border-blue-500 pl-4 italic text-gray-700 my-4">
+              <blockquote className="article-quote">
                 "{section.quote}"
               </blockquote>
             )}

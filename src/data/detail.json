@@ -180,5 +180,77 @@
         "content": "Model DNN yang dikombinasikan dengan teknik oversampling SMOTETomek terbukti efektif dalam memprediksi stroke dengan akurasi tinggi. Sistem ini berpotensi diintegrasikan ke dalam alat skrining kesehatan digital untuk deteksi dini dan intervensi preventif."
       }
     ]
+  },
+  {
+    "id": 6,
+    "title": "Perbandingan algoritma klasifikasi k-nearest neighbor, random forest dan gradient boosting untuk memprediksi ketertarikan nasabah pada polis asuransi kendaraan",
+    "publishDate": "February 15, 2025",
+    "author": "Financial Data Science Team",
+    "tags": [
+      { "text": "Asuransi Kendaraan", "type": "industry" },
+      { "text": "Prediksi", "type": "goal" },
+      { "text": "Klasifikasi", "type": "method" },
+      { "text": "k-Nearest Neighbor (k-NN)", "type": "algorithm" },
+      { "text": "Random Forest", "type": "algorithm" },
+      { "text": "Gradient Boosting Classifier", "type": "algorithm" },
+      { "text": "Akurasi", "type": "metric" },
+      { "text": "Data Mining", "type": "field" }
+    ],
+    "image": "/kegiatan/insurance_prediction.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Asuransi kendaraan mewajibkan pelanggan membayar premi tahunan. Tujuan penelitian ini adalah mengklasifikasikan dataset prediksi *cross-sell* asuransi kesehatan untuk menemukan pola atau hubungan yang menjadi informasi berharga, serta membangun model prediksi ketertarikan pemegang polis tahun sebelumnya terhadap asuransi kendaraan yang ditawarkan perusahaan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Peneliti menggunakan algoritma klasifikasi **K-nearest neighbor**, **Random Forest**, dan **Gradient Boosting Classifier**. Proses klasifikasi dilakukan menggunakan perangkat *data mining* berbasis Python untuk memprediksi apakah pelanggan akan tertarik pada polis asuransi kendaraan."
+      },
+      {
+        "heading": "Results",
+        "content": "Setelah melakukan penelitian, ditemukan bahwa algoritma klasifikasi **K-nearest neighbor** menghasilkan akurasi tertinggi sebesar **91%**. Hasil ini lebih unggul jika dibandingkan dengan algoritma Random Forest yang mencapai 87% dan algoritma Gradient Boosting Classifier yang mencapai 88% dalam mengklasifikasikan minat nasabah mengambil polis asuransi kendaraan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Model k-NN terbukti paling efektif untuk memprediksi ketertarikan nasabah pada polis asuransi kendaraan berdasarkan dataset yang digunakan. Hasil ini memberikan wawasan berharga bagi perusahaan asuransi untuk mengoptimalkan strategi *cross-selling* mereka."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Penerapan Algoritma Random Forest dengan Kombinasi Ekstraksi Fitur Untuk Klasifikasi Penyakit Daun Tomat",
+    "publishDate": "March 22, 2025",
+    "author": "Agricultural AI Lab",
+    "tags": [
+      { "text": "Tanaman Tomat", "type": "crop" },
+      { "text": "Penyakit Daun", "type": "disease" },
+      { "text": "Klasifikasi", "type": "method" },
+      { "text": "Random Forest", "type": "algorithm" },
+      { "text": "Ekstraksi Fitur", "type": "method" },
+      { "text": "Fitur Warna", "type": "feature" },
+      { "text": "Fitur Hu-Moment", "type": "feature" },
+      { "text": "Fitur Haralick", "type": "feature" },
+      { "text": "Akurasi", "type": "metric" },
+      { "text": "Revolusi Pertanian 4.0", "type": "topic" }
+    ],
+    "image": "/kegiatan/tomato_disease_detection.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Tanaman tomat rentan terhadap serangan penyakit yang menyebabkan penurunan kualitas dan kuantitas hasil pertanian. Diperlukan identifikasi penyakit daun tomat yang benar untuk efisiensi manajemen penyakit, terutama mengingat munculnya ide Revolusi Pertanian 4.0."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tujuan utama penelitian adalah meningkatkan akurasi klasifikasi penyakit daun tomat. Kebaruan dari penelitian ini adalah penggunaan **kombinasi beberapa ekstraksi fitur**—yaitu fitur **warna**, fitur **Hu-Moment**, dan fitur **Haralick**—sebelum proses klasifikasi menggunakan algoritma **Random Forest** dan algoritma perbandingan lainnya."
+      },
+      {
+        "heading": "Results",
+        "content": "Metode Random Forest yang dikombinasikan dengan ekstraksi fitur yang diusulkan berhasil menunjukkan peningkatan akurasi. Akurasi tertinggi yang diperoleh dari model klasifikasi adalah **96%**."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penerapan algoritma Random Forest dengan kombinasi ekstraksi fitur (warna, Hu-Moment, dan Haralick) terbukti sangat efektif dalam mengidentifikasi penyakit daun tomat dengan tingkat akurasi yang tinggi. Hal ini memfasilitasi deteksi dini dan mendukung upaya pengendalian penyakit untuk hasil pertanian yang lebih baik."
+      }
+    ]
   }
 ]

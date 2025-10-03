@@ -9,39 +9,58 @@
   {
     "id": 2,
     "title": "Analisa Sentiment pada Ulasan Film dengan Optimasi Ensemble Learning",
-    "desc": "Investigating physical layer protocols for 5G, 6G, and future wireless technologies.",
-    "img": "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*nwwkyz1wpaRZgAgBg3h41Q.jpeg",
+    "desc": "Analisis sentimen ulasan film menggunakan Optimasi Ensemble Learning (kombinasi Naïve Bayes dan Random Forest) dan seleksi fitur Chi Square. Model Chi Square + Voting 2 (RF+SVM) menghasilkan akurasi tertinggi 84.6% pada Polarity Dataset 2.0 dan akurasi hingga 92% pada ulasan berbahasa Indonesia.",
+    "img": "/kegiatan/Gemini_Generated_Image_es8lfses8lfses8l.png",
     "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "id": 3,
-    "title": "MIMO and Beamforming",
-    "desc": "Exploring spatial signal processing techniques to increase channel capacity and reliability.",
+    "title": "Plant Diseases Detection with Low Resolution Data Using Nested Skip Connections",
+    "desc": "Mengevaluasi kinerja model Deep Learning (VGGNet, AlexNet, ResNet, Xception, MobileNet) untuk deteksi penyakit tanaman pada data resolusi rendah untuk mengatasi kendala di negara berkembang. Tujuannya adalah menemukan model yang berkinerja baik dengan ukuran model yang lebih kecil.",
     "img": "/kegiatan/gambarlab3.jpeg",
     "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "id": 4,
-    "title": "Machine Learning for Signal Processing",
-    "desc": "Applying AI and deep learning models to improve communication system performance, especially in dynamic environments.",
+    "title": "Analysis of IEEE 802.11p MAC Protocol for Safety Message Broadcast in V2V Communication",
+    "desc": "Analisis kinerja protokol IEEE 802.11p MAC untuk penyiaran pesan keselamatan Vehicle-to-Vehicle (V2V). Evaluasi dilakukan melalui simulasi dan analisis untuk metrik Packet Delivery Ratio (PDR), menunjukkan penurunan PDR drastis akibat masalah hidden terminal.",
     "img": "/kegiatan/gambarlab3.jpeg",
     "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "id": 5,
-    "title": "Software-Defined Radio (SDR) and Embedded Systems",
-    "desc": "Implementing and testing real-time communication algorithms on hardware platforms.",
+    "title": "Deep Neural Network untuk Prediksi Stroke",
+    "desc": "Penerapan Deep Neural Network (DNN) untuk prediksi stroke, membandingkan tiga teknik oversampling untuk menyeimbangkan kelas. Hasil terbaik didapat menggunakan teknik SMOTETomek dengan arsitektur DNN lima hidden layer, mencapai akurasi, presisi, recall, dan f1-score sekitar 0.96.",
     "img": "/kegiatan/gambarlab3.jpeg"
   },
   {
     "id": 6,
-    "title": "Spectrum Sensing and Cognitive Radio",
-    "desc": "Researching adaptive spectrum access techniques for dynamic spectrum allocation.",
+    "title": "Prediksi Minat Nasabah Asuransi Kendaraan dengan Algoritma Klasifikasi",
+    "desc": "Membandingkan kinerja algoritma k-NN, Random Forest, dan Gradient Boosting dalam memprediksi ketertarikan nasabah pada polis asuransi kendaraan. Algoritma k-Nearest Neighbor (k-NN) menghasilkan akurasi tertinggi sebesar 91%, mengungguli Random Forest (87%) dan Gradient Boosting (88%).",
     "img": "/kegiatan/gambarlab3.jpeg"
   },
   {
-    "title": "Audio Video Transmission",
-    "desc": "Researching Audio and Video in Telecommunication Systems.",
+    "id": 7,
+    "title": "Penerapan Algoritma Random Forest dengan Kombinasi Ekstraksi Fitur Untuk Klasifikasi Penyakit Daun Tomat",
+    "desc": "Klasifikasi penyakit daun tomat menggunakan algoritma Random Forest dengan kebaruan pada kombinasi ekstraksi fitur (warna, Hu-Moment, Haralick). Metode ini berhasil menunjukkan peningkatan akurasi klasifikasi hingga mencapai 96%.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Prediksi Tingkat Pelanggan Churn Pada Perusahaan Telekomunikasi Dengan Algoritma Adaboost",
+    "desc": "Menerapkan algoritma klasifikasi (Logistic Regression, Decision Tree, Random Forest, XGBoost) untuk deteksi dini penyakit stroke. Hasil terbaik diperoleh dengan XGBoost, mencapai akurasi 96%, presisi 95%, recall 98%, dan f1-score 96%.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Performance analysis of OFDM-IM scheme under STO and CFO.",
+    "desc": "Menerapkan algoritma klasifikasi (Logistic Regression, Decision Tree, Random Forest, XGBoost) untuk deteksi dini penyakit stroke. Hasil terbaik diperoleh dengan XGBoost, mencapai akurasi 96%, presisi 95%, recall 98%, dan f1-score 96%.",
+    "img": "/kegiatan/gambarlab3.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Performance analysis of OFDM-IM scheme under STO and CFO. ",
+    "desc": "Klasifikasi penyakit daun tomat menggunakan algoritma K-Nearest Neighbor (KNN) dengan ekstraksi fitur warna, Hu-Moment, dan Haralick. Metode ini berhasil mencapai akurasi klasifikasi hingga 95%, menunjukkan efektivitas kombinasi fitur dalam mendeteksi penyakit pada daun tomat.",
     "img": "/kegiatan/gambarlab3.jpeg"
   }
 ]

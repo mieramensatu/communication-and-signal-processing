@@ -5,34 +5,39 @@
 .activities {
   background: map.get(v.$color, "background-dark");
   text-align: center;
-  padding: 3.5rem 0 3.5rem 0;
+  padding: 3.5rem 0;
 
   .container {
     @include m.center(85%);
 
     .text {
       margin: auto;
-      width: 50%;
+      width: 60%;
+      max-width: 700px;
 
       .title h4 {
         color: map.get(v.$color, "title");
         text-align: center;
         padding: 1rem;
+        font-size: 1.8rem;
       }
 
       .description p {
         color: map.get(v.$color, "text-first");
-        font-size: 2.8rem;
+        font-size: 2.2rem; // sedikit diperkecil agar tidak terlalu besar
         font-weight: 600;
+        margin: 0.5rem 0;
       }
 
       .details p {
         color: map.get(v.$color, "text-second");
         text-align: center;
         font-size: 1.1rem;
-        padding: 1rem;
+        padding: 0.5rem 0 1.5rem;
+        line-height: 1.6;
       }
     }
+
     .card {
       position: relative;
       border-radius: 0.8rem;
@@ -40,6 +45,7 @@
       background: transparent;
       cursor: pointer;
       transition: all 0.3s ease;
+      height: 100%;
 
       .card-img {
         width: 100%;
@@ -110,6 +116,7 @@
         p {
           font-size: 0.9rem;
           margin-bottom: 0.8rem;
+          white-space: normal;
         }
 
         .detail-link {
@@ -122,39 +129,12 @@
           font-size: 0.85rem;
           transition: all 0.3s ease;
           text-decoration: none;
+          display: inline-block;
 
           &:hover {
             background: map.get(v.$color, "title");
             border-color: map.get(v.$color, "title");
             color: #fff;
-          }
-        }
-
-        .img-credit {
-          display: block;
-          font-size: 0.7rem;
-          color: #ddd;
-          margin-top: 0.5rem;
-        }
-
-        .overlay-content {
-          text-align: left;
-          position: absolute;
-          bottom: 20px;
-          left: 20px;
-          right: 20px;
-          color: #fff;
-          opacity: 0;
-          transform: translateY(30px);
-          transition: all 0.4s ease;
-
-          h5 {
-            font-size: 1.4rem;
-            margin-bottom: 0.5rem;
-          }
-
-          p {
-            font-size: 0.9rem;
           }
         }
       }
@@ -176,6 +156,33 @@
         .card-body {
           opacity: 0;
         }
+      }
+    }
+
+    @media (max-width: 768px) {
+      .text {
+        width: 90%;
+      }
+
+      .filter-tabs {
+        gap: 0.4rem;
+        button {
+          padding: 0.4rem 0.9rem;
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    @media (max-width: 480px) {
+      .filter-tabs {
+        button {
+          padding: 0.35rem 0.7rem;
+          font-size: 0.8rem;
+        }
+      }
+
+      .description p {
+        font-size: 1.8rem;
       }
     }
   }

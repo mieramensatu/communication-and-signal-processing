@@ -1,7 +1,9 @@
+// src/components/Member.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import membersData from "../../data/member.json";
 
-function Member({ category }) {
+function Member({ category, onShowResearch }) {
   const data = membersData.member || {};
 
   const selectedCategory = category || "researcher";
@@ -23,21 +25,31 @@ function Member({ category }) {
           {selectedMembers.length > 0 ? (
             selectedMembers.map((member, idx) => (
               <div key={idx} className="card">
-                <div className="image">
+                <div className="photo">
                   <img src={member.img} alt={member.name} />
                 </div>
-                <div className="info">
-                  <h3>{member.name}</h3>
-                  {member.scholar && (
-                    <div className="socials">
-                      <a href={member.scholar} target="_blank" rel="noreferrer">
-                        Google Scholar
-                      </a>
-                    </div>
-                  )}
-                  {member.univ && <p className="univ">{member.univ}</p>}
-                  {member.role && <p className="role">{member.role}</p>}
-                </div>
+
+                <h3 className="name">{member.name}</h3>
+
+                {member.role && <p className="role">{member.role}</p>}
+
+                {member.scholar && (
+                  <a
+                    href={member.scholar.trim()}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="scholar"
+                  >
+                    Google Scholar
+                  </a>
+                )}
+
+                <button
+                  onClick={() => onShowResearch(member.name)}
+                  className="button"
+                >
+                  Show Research
+                </button>
               </div>
             ))
           ) : (

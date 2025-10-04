@@ -1,3 +1,4 @@
+// src/App.jsx
 import React, { useState } from "react";
 import "./main.css";
 import Navbar from "./components/navbar/Navbar";
@@ -11,16 +12,24 @@ import Contact from "./pages/contact/Contact";
 import Member from "./pages/member/Member";
 
 function App() {
-  const [selectedCategory, setSelectedCategory] = useState("researcher");
+  const selectedCategory = "researcher";
+  const [activeResearcher, setActiveResearcher] = useState("all");
+
   return (
     <div>
-      <Navbar onSelectCategory={setSelectedCategory} />
+      <Navbar />
       <Hero />
       <Partner />
       <About />
-      <Activities />
+      <Activities
+        activeResearcher={activeResearcher}
+        onFilterChange={setActiveResearcher}
+      />
       <Reset />
-      <Member category={selectedCategory} />
+      <Member
+        category={selectedCategory}
+        onShowResearch={(name) => setActiveResearcher(name)}
+      />
       <Contact />
       <Footer />
     </div>

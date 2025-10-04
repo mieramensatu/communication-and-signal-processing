@@ -351,7 +351,7 @@ footer .footer-container ul li a.facebook:hover {
 .activities {
   background: #eeeeee;
   text-align: center;
-  padding: 3.5rem 0 3.5rem 0;
+  padding: 3.5rem 0;
 }
 .activities .container {
   width: 85%;
@@ -360,23 +360,27 @@ footer .footer-container ul li a.facebook:hover {
 }
 .activities .container .text {
   margin: auto;
-  width: 50%;
+  width: 60%;
+  max-width: 700px;
 }
 .activities .container .text .title h4 {
   color: #e62f2a;
   text-align: center;
   padding: 1rem;
+  font-size: 1.8rem;
 }
 .activities .container .text .description p {
   color: #333333;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-weight: 600;
+  margin: 0.5rem 0;
 }
 .activities .container .text .details p {
   color: #666666;
   text-align: center;
   font-size: 1.1rem;
-  padding: 1rem;
+  padding: 0.5rem 0 1.5rem;
+  line-height: 1.6;
 }
 .activities .container .card {
   position: relative;
@@ -385,6 +389,7 @@ footer .footer-container ul li a.facebook:hover {
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
+  height: 100%;
 }
 .activities .container .card .card-img {
   width: 100%;
@@ -449,6 +454,7 @@ footer .footer-container ul li a.facebook:hover {
 .activities .container .card .overlay-content p {
   font-size: 0.9rem;
   margin-bottom: 0.8rem;
+  white-space: normal;
 }
 .activities .container .card .overlay-content .detail-link {
   padding: 0.4rem 1rem;
@@ -460,35 +466,12 @@ footer .footer-container ul li a.facebook:hover {
   font-size: 0.85rem;
   transition: all 0.3s ease;
   text-decoration: none;
+  display: inline-block;
 }
 .activities .container .card .overlay-content .detail-link:hover {
   background: #e62f2a;
   border-color: #e62f2a;
   color: #fff;
-}
-.activities .container .card .overlay-content .img-credit {
-  display: block;
-  font-size: 0.7rem;
-  color: #ddd;
-  margin-top: 0.5rem;
-}
-.activities .container .card .overlay-content .overlay-content {
-  text-align: left;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
-  color: #fff;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.4s ease;
-}
-.activities .container .card .overlay-content .overlay-content h5 {
-  font-size: 1.4rem;
-  margin-bottom: 0.5rem;
-}
-.activities .container .card .overlay-content .overlay-content p {
-  font-size: 0.9rem;
 }
 .activities .container .card:hover img {
   transform: scale(1.1);
@@ -502,6 +485,27 @@ footer .footer-container ul li a.facebook:hover {
 }
 .activities .container .card:hover .card-body {
   opacity: 0;
+}
+@media (max-width: 768px) {
+  .activities .container .text {
+    width: 90%;
+  }
+  .activities .container .filter-tabs {
+    gap: 0.4rem;
+  }
+  .activities .container .filter-tabs button {
+    padding: 0.4rem 0.9rem;
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 480px) {
+  .activities .container .filter-tabs button {
+    padding: 0.35rem 0.7rem;
+    font-size: 0.8rem;
+  }
+  .activities .container .description p {
+    font-size: 1.8rem;
+  }
 }
 
 .outcomes {
@@ -653,59 +657,106 @@ footer .footer-container ul li a.facebook:hover {
   justify-items: center;
 }
 .member .container .card {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 0.5rem;
+  width: 100%;
   padding: 1.5rem;
   border-radius: 12px;
+  background: white;
+  text-align: center;
+  transition: transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.35s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+.member .container .card > :nth-child(3) {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
-.member .container .card .image {
+.member .container .card .photo {
   width: 140px;
   height: 140px;
   border-radius: 50%;
   overflow: hidden;
-  margin: 0 auto 1rem;
+  margin: 0 auto;
+  overflow: hidden;
 }
-.member .container .card .image img {
+.member .container .card .photo img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.member .container .card h3 {
+.member .container .card .name {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 0.3rem;
-  min-height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
+  line-height: 1.3;
 }
-.member .container .card p {
+.member .container .card .role,
+.member .container .card .scholar {
+  margin: 0;
+}
+.member .container .card .role {
   font-size: 0.9rem;
   color: #777;
-  margin-bottom: 1rem;
-  min-height: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  line-height: 1.4;
 }
-.member .container .card .socials {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-.member .container .card .socials a {
+.member .container .card .scholar {
   color: #e62f2a;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.95rem;
   transition: color 0.3s;
 }
-.member .container .card .socials a:hover {
+.member .container .card .scholar:hover {
   color: #b71c1c;
+}
+.member .container .card .button {
+  margin: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 0.5rem 1rem;
+  background: #e62f2a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  align-self: center;
+}
+.member .container .card .button:hover {
+  background: rgb(197.7857142857, 27.8571428571, 23.2142857143);
+  color: white;
+}
+.member .container .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+.member .container .card:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #e62f2a;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+.member .container .card:hover::before {
+  transform: scaleX(1);
+}
+.member .container .card:hover .photo img {
+  transform: scale(1.06);
+}
+.member .container .card:hover .button {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
 .article-page {

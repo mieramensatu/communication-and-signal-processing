@@ -1,6 +1,7 @@
 @use "../../helper/variables" as v;
 @use "../../helper/mixins" as m;
 @use "sass:map";
+@use "sass:color";
 
 .member {
   background-color: map.get(v.$color, "background-dark");
@@ -37,63 +38,125 @@
     }
 
     .card {
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 0.5rem;
+      width: 100%;
       padding: 1.5rem;
       border-radius: 12px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
+      background: white;
       text-align: center;
+      transition: transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        box-shadow 0.35s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      position: relative;
+      overflow: hidden;
 
-      .image {
+      & > :nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+
+      .photo {
         width: 140px;
         height: 140px;
         border-radius: 50%;
         overflow: hidden;
-        margin: 0 auto 1rem;
+        margin: 0 auto;
+        overflow: hidden;
 
         img {
           width: 100%;
           height: 100%;
           object-fit: cover;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
       }
 
-      h3 {
+      .name {
         font-size: 1.2rem;
         font-weight: 600;
-        margin-bottom: 0.3rem;
-        min-height: 3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin: 0;
+        line-height: 1.3;
       }
 
-      p {
+      .role,
+      .scholar {
+        margin: 0;
+      }
+
+      .role {
         font-size: 0.9rem;
         color: #777;
-        margin-bottom: 1rem;
-        min-height: 2.5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        line-height: 1.4;
       }
 
-      .socials {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        margin-bottom: 1rem;
+      .scholar {
+        color: map.get(v.$color, "title");
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: color 0.3s;
 
-        a {
-          color: map.get(v.$color, "title");
-          text-decoration: none;
-          font-size: 1rem;
-          transition: color 0.3s;
+        &:hover {
+          color: map.get(v.$color, "hover");
+        }
+      }
 
-          &:hover {
-            color: map.get(v.$color, "hover");
-          }
+      .button {
+        margin: 0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 0.5rem 1rem;
+        background: map.get(v.$color, "title");
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        cursor: pointer;
+        transition: background 0.2s ease;
+        align-self: center;
+
+        &:hover {
+          background: color.adjust(
+            map.get(v.$color, "title"),
+            $lightness: -10%
+          );
+          color: white;
+        }
+      }
+
+      &:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+
+        // Efek garis atas berwarna aksen (opsional tapi elegan)
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 4px;
+          background: map.get(v.$color, "title");
+          transform: scaleX(0);
+          transform-origin: left;
+          transition: transform 0.4s ease;
+        }
+
+        &::before {
+          transform: scaleX(1);
+        }
+
+        // Zoom halus pada foto
+        .photo img {
+          transform: scale(1.06);
+        }
+
+        // Tombol sedikit "pop"
+        .button {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
         }
       }
     }

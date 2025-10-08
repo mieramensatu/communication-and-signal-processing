@@ -19,7 +19,7 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between; // ✅ Logo kiri, menu tengah, contact kanan
+    justify-content: space-between;
     padding: 0.6rem 2rem;
     border-radius: 15px;
 
@@ -31,13 +31,12 @@
       }
     }
 
-    // ✅ Menu items (Home, Activity, Member)
     .nav-menu {
       display: flex;
       align-items: center;
       gap: 2rem;
-      flex-grow: 1; // ✅ Mengisi ruang kosong di tengah
-      justify-content: center; // Rata tengah
+      flex-grow: 1;
+      justify-content: center;
 
       .list-item {
         display: flex;
@@ -58,6 +57,7 @@
             font-size: 1rem;
             cursor: pointer;
             padding: 0;
+            white-space: nowrap;
 
             &::after {
               content: "";
@@ -69,6 +69,7 @@
               background: map.get(v.$color, "hover");
               transition: width 0.3s ease-in-out;
               border-radius: 1rem;
+              z-index: 1;
             }
 
             &.active,
@@ -101,10 +102,10 @@
               transition: all 0.25s ease;
 
               li {
+                padding: 0.5rem 0.5rem;
                 button {
-                  display: inline-block;
+                  display: block;
                   text-align: left;
-                  padding: 0.5rem 1rem;
                   margin: 0;
                   border: none;
                   background: transparent;
@@ -112,31 +113,13 @@
                   font-weight: 500;
                   color: map.get(v.$color, "title");
                   cursor: pointer;
-                  transition: all 0.2s ease;
-                  position: relative;
-                  width: 100%;
-
-                  &::after {
-                    content: "";
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    width: 0;
-                    height: 2px;
-                    background: map.get(v.$color, "hover");
-                    transition: width 0.3s ease-in-out;
-                    border-radius: 1rem;
-                  }
+                  transition: color 0.2s ease;
 
                   &:hover {
                     color: color.scale(
                       map.get(v.$color, "title"),
                       $lightness: -10%
                     );
-
-                    &::after {
-                      width: 100%;
-                    }
                   }
 
                   &:not(:last-child) {

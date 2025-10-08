@@ -19,7 +19,7 @@
 
     .description p {
       color: map.get(v.$color, "text-first");
-      font-size: 2rem; // Lebih kecil agar tidak terlalu besar di mobile
+      font-size: 2rem; 
       font-weight: 600;
       margin: 0 auto 1rem;
       max-width: 800px;
@@ -48,7 +48,6 @@
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
       width: 100%;
-      max-width: 320px;
 
       .icon {
         font-size: 2.2rem;
@@ -76,7 +75,6 @@
   }
 }
 
-// ✅ Tablet (768px - 1024px)
 @media (max-width: 1024px) {
   .outcomes {
     .container {
@@ -107,7 +105,6 @@
   }
 }
 
-// ✅ Mobile (≤ 768px)
 @media (max-width: 768px) {
   .outcomes {
     padding: 3rem 0;

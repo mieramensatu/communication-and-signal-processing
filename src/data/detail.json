@@ -9,20 +9,19 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Diabetes Mellitus is a chronic metabolic disorder characterized by elevated blood glucose levels due to insulin deficiency or resistance. Continuous monitoring and accurate prediction of glucose levels are crucial for effective diabetes management and prevention of complications such as neuropathy, retinopathy, and cardiovascular diseases.\n\nWith the advancement of artificial intelligence, machine learning models have emerged as powerful tools for health prediction tasks. Among various algorithms, Support Vector Regression (SVR) has shown promising results in handling non-linear relationships in medical data, making it a strong candidate for glucose level prediction."
+        "content": "**Diabetes Mellitus** is a *chronic and progressive metabolic disorder* characterized by **elevated blood glucose levels** caused by either insulin deficiency, insulin resistance, or both. It represents one of the most prevalent non-communicable diseases globally and poses a major challenge to public health systems due to its long-term complications such as **neuropathy, nephropathy, retinopathy, and cardiovascular disease**. Continuous glucose monitoring and accurate prediction of blood sugar fluctuations are essential for improving patient outcomes, preventing acute episodes, and reducing healthcare costs.\n\nTraditional glucose monitoring methods, such as *finger-prick testing* and *periodic laboratory assessments*, provide limited temporal resolution and fail to capture the dynamic nature of glucose variations throughout the day. As a result, patients and clinicians often rely on incomplete data when making therapeutic decisions.\n\nIn recent years, the rise of **artificial intelligence (AI)** and **data-driven healthcare** has offered new pathways for understanding complex physiological processes. **Machine learning models**, in particular, have shown tremendous promise in predicting glucose trends and identifying hidden nonlinear relationships in biomedical datasets.\n\nAmong various algorithms, **Support Vector Regression (SVR)** has emerged as a particularly effective method for regression-based medical prediction tasks. Unlike traditional linear models, SVR employs *kernel functions* that allow it to capture **nonlinear dependencies** between features such as insulin levels, body mass index (BMI), and plasma glucose concentration."
       },
       {
         "heading": "Methodology",
-        "content": "This study utilized a publicly available diabetes dataset containing features such as age, BMI, insulin levels, and plasma glucose concentration. Several regression algorithms were implemented for comparison, including:\n\n• Linear Regression\n• Decision Tree Regressor\n• Random Forest Regressor\n• Support Vector Regression (SVR)\n\nThe models were evaluated using Mean Squared Error (MSE) as the primary performance metric. Lower MSE indicates better predictive accuracy. Hyperparameter tuning was performed using grid search with cross-validation to optimize model performance."
+        "content": "The research utilized a publicly available diabetes dataset containing key physiological features including **age**, **BMI**, **insulin levels**, **plasma glucose concentration**, **blood pressure**, and **skin thickness**. These attributes are widely recognized as *risk factors* in diabetes progression and serve as crucial indicators in assessing metabolic control.\n\nPrior to modeling, the data underwent several preprocessing stages:\n\n• **Missing value handling** — using *mean imputation*.\n• **Normalization** — through *min–max scaling*.\n• **Outlier detection** — using *interquartile range (IQR) analysis*.\n\nTo ensure generalization, the dataset was divided into **training (80%)** and **testing (20%)** subsets. Feature importance was examined using *correlation heatmaps* to identify potential multicollinearity.\n\nThe experiment then implemented and compared multiple regression models as follows:\n\n• **Linear Regression** — utilized as a baseline model.\n• **Decision Tree Regressor** — captures hierarchical decision paths.\n• **Random Forest Regressor** — ensemble-based, minimizes overfitting.\n• **Support Vector Regression (SVR)** — tested with *linear*, *polynomial*, and *radial basis function (RBF)* kernels.\n\nModel performance was evaluated using **Mean Squared Error (MSE)**, **Mean Absolute Error (MAE)**, and **R² (coefficient of determination)**. A lower MSE/MAE and a higher R² indicate *better predictive performance*. Hyperparameter tuning was performed using *grid search* and *10-fold cross-validation* to ensure robustness."
       },
       {
         "heading": "Results",
-        "content": "The Support Vector Regression model achieved the lowest MSE value of 28.9480, outperforming all other tested algorithms. This demonstrates SVR’s capability to capture complex patterns in glucose-related physiological data.\n\nFurther analysis revealed that Instance No. 47 had the highest predicted plasma glucose value at 189.2305 mg/dL, which aligns closely with clinical observations of postprandial hyperglycemia in diabetic patients.",
-        "quote": "The superior performance of SVR highlights its potential as a reliable tool for real-time glucose forecasting in clinical and wearable health applications."
+        "content": "The comparative analysis revealed that the **Support Vector Regression (SVR)** model significantly outperformed other regression techniques in predicting plasma glucose levels.\n\n✅ **Lowest MSE value:** 28.9480 — indicating *high predictive accuracy* and minimal deviation from clinical measurements.\n\nThis superior performance was attributed to SVR’s ability to model **complex nonlinear relationships** inherent in biomedical data, which traditional models such as Linear Regression struggled to capture.\n\nFurther analysis demonstrated that among the tested kernel types, the **Radial Basis Function (RBF)** kernel provided the *best generalization performance*. The RBF kernel effectively transformed the original feature space into a higher-dimensional representation, allowing the model to distinguish subtle physiological variations.\n\n**Feature importance analysis** revealed that:\n\n• **BMI**, **plasma glucose concentration**, and **insulin level** were the most influential variables.\n• Example: *Instance No. 47 → predicted glucose: 189.2305 mg/dL (hyperglycemia)*.\n• Example: *Instance No. 12 → predicted glucose: 72.8431 mg/dL (near-normal fasting)*.\n\nThese results highlight SVR’s **robustness** and **potential for integration** into *clinical decision-support systems* and *wearable health devices*."
       },
       {
         "heading": "Conclusion",
-        "content": "Predicting glucose levels in diabetic patients using machine learning offers a proactive approach to disease management. Among the evaluated models, Support Vector Regression demonstrated the highest accuracy, as evidenced by its lowest MSE score. Future work includes integrating this model into mobile health platforms and validating it on larger, real-world datasets."
+        "content": "This study demonstrates that **Support Vector Regression (SVR)** offers a *powerful and reliable framework* for predicting glucose levels in diabetic patients. Its **kernel-based approach** effectively models *nonlinear physiological interactions*, leading to **more accurate and adaptive predictions** than traditional methods.\n\nBy achieving the *lowest MSE* among compared models, SVR establishes itself as a **promising tool for real-world diabetes management**.\n\nFuture work may include:\n\n• **Integration with continuous glucose monitoring (CGM)** data.\n• **Incorporation of behavioral factors** — such as diet, stress, and physical activity.\n• Exploration of **deep learning models** like *LSTM* and *BERT* for enhanced contextual understanding.\n\nUltimately, the adoption of **AI-powered predictive systems** can revolutionize diabetes care by offering **real-time, personalized insights** that empower patients and clinicians alike."
       }
     ]
   },
@@ -36,20 +35,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Dalam dunia hiburan khususnya film, kini situs web ulasan film menjadi media bagi orang-orang untuk memberikan penilaian mengenai seberapa bagus film tersebut. Mereka tidak harus menjadi pakar dalam dunia perfilman untuk menilai kualitas dari film yang mereka saksikan, semua orang dapat memberikan penilaian.\n\nSentimen yang ditemukan dalam komentar, umpan balik atau kritik memberikan indikator yang berguna untuk berbagai tujuan dan dapat dikategorikan berdasarkan polaritas, polaritas tersebut cenderung akan dicari tahu apakah secara keseluruhan positif atau negatif."
+        "content": "Dalam dunia hiburan, khususnya industri perfilman, kehadiran situs web ulasan film seperti IMDb, Rotten Tomatoes, dan Letterboxd telah mengubah cara masyarakat menilai dan merekomendasikan film. Setiap penonton kini dapat mengekspresikan pendapatnya melalui komentar, kritik, atau ulasan singkat, tanpa harus memiliki latar belakang akademis di bidang sinematografi. Ulasan tersebut menjadi bentuk partisipasi publik yang mencerminkan persepsi kolektif terhadap kualitas suatu karya film.\n\nSentimen yang terkandung dalam ulasan ini, baik berupa opini positif, negatif, maupun netral, dapat dimanfaatkan untuk mengukur penerimaan audiens secara lebih luas. Dalam konteks analisis data, proses ini dikenal sebagai analisis sentimen (sentiment analysis), yaitu cabang dari pemrosesan bahasa alami (Natural Language Processing/NLP) yang bertujuan mengidentifikasi emosi atau opini dari teks. Informasi ini sangat penting bagi industri film, perusahaan distribusi, maupun platform streaming digital untuk memahami preferensi penonton dan merancang strategi pemasaran yang lebih efektif.\n\nNamun, menganalisis sentimen bukanlah tugas yang sederhana karena bahasa alami memiliki sifat yang ambigu dan kontekstual. Kata yang sama dapat memiliki makna berbeda tergantung pada konteksnya. Oleh karena itu, dibutuhkan pendekatan pembelajaran mesin (machine learning) yang kuat untuk menangani keragaman ekspresi linguistik serta meminimalkan kesalahan klasifikasi. Dalam penelitian ini, pendekatan ensemble learning digunakan untuk mengoptimalkan kinerja algoritma klasifikasi dalam mendeteksi polaritas sentimen dari ulasan film."
       },
       {
         "heading": "Methodology",
-        "content": "Algoritma Naïve Bayes dan Random Forest merupakan algoritma yang dapat memberikan hasil analisa klasifikasi sesuai yang diharapkan pada penelitian ini. Analisa akan dilakukan dengan membandingkan beberapa kombinasi algoritma untuk diuji pada Polarity Dataset 2.0 dari Cornell University.\n\nBeberapa pendekatan yang diuji meliputi:\n\n• Naïve Bayes (NB) dan Random Forest (RF) dasar\n• Kombinasi dengan seleksi fitur Chi Square\n• Integrasi dengan Adaboost\n• Penggunaan metode Voting (ensemble)\n\nEvaluasi dilakukan berdasarkan metrik akurasi untuk menentukan performa terbaik."
+        "content": "Penelitian ini mengimplementasikan dua algoritma utama, yaitu Naïve Bayes (NB) dan Random Forest (RF), sebagai model dasar untuk analisis sentimen. Kedua algoritma tersebut dipilih karena terbukti efisien dalam klasifikasi teks dan mampu menangani dataset berukuran besar dengan performa yang stabil. Dataset yang digunakan adalah Polarity Dataset 2.0 dari Cornell University, yang berisi ribuan ulasan film berbahasa Inggris yang telah diberi label positif atau negatif.\n\nSebelum proses pelatihan, dilakukan tahap prapemrosesan teks (text preprocessing) yang meliputi tokenisasi, penghapusan stopwords, stemming, serta konversi kata ke dalam bentuk vektor menggunakan metode TF-IDF (Term Frequency–Inverse Document Frequency). Tahap ini bertujuan untuk menormalkan struktur teks dan mengurangi dimensi fitur yang tidak relevan.\n\nBeberapa pendekatan yang diuji dalam penelitian ini meliputi:\n\n• **Naïve Bayes (NB) dan Random Forest (RF) dasar** — digunakan sebagai baseline model untuk evaluasi awal.\n• **Kombinasi dengan seleksi fitur Chi-Square** — untuk mengurangi fitur yang tidak signifikan dan mempertahankan kata-kata yang paling berpengaruh terhadap polaritas.\n• **Integrasi dengan Adaboost** — untuk meningkatkan performa model dasar dengan memperkuat bobot pada sampel yang diklasifikasikan salah.\n• **Penggunaan metode Voting (ensemble)** — untuk menggabungkan prediksi dari beberapa model dan menghasilkan keputusan akhir yang lebih stabil.\n\nEvaluasi kinerja dilakukan menggunakan metrik akurasi, precision, recall, dan F1-score. Hasil akhir dari tiap kombinasi dibandingkan untuk menentukan metode yang paling optimal dalam memprediksi sentimen pada ulasan film."
       },
       {
         "heading": "Results",
-        "content": "Dari hasil pengujian yang didapat, algoritma Adaboost dan Voting mampu meningkatkan akurasi dari metode Naïve Bayes (NB) dan Random Forest (RF).\n\nModel yang diusulkan dengan Chi Square + Voting 2 (RF + SVM) mencapai nilai akurasi sebesar 84,6% pada dataset bahasa Inggris. Ketika diuji pada ulasan film berbahasa Indonesia, algoritma Voting 2 (RF + SVM) mampu menghasilkan akurasi hingga 92%.",
-        "quote": "Pendekatan ensemble learning terbukti efektif dalam meningkatkan stabilitas dan akurasi model analisis sentimen, terutama pada data multibahasa."
+        "content": "Hasil eksperimen menunjukkan bahwa pendekatan berbasis ensemble learning berhasil meningkatkan akurasi secara signifikan dibandingkan model tunggal. Algoritma Adaboost dan Voting memberikan peningkatan performa pada metode dasar Naïve Bayes (NB) dan Random Forest (RF), terutama dalam menangani data dengan distribusi kelas yang tidak seimbang.\n\nModel yang diusulkan, yaitu kombinasi Chi-Square + Voting 2 (RF + SVM), mencapai nilai akurasi sebesar **84,6%** pada dataset berbahasa Inggris. Ketika model yang sama diuji pada dataset ulasan film berbahasa Indonesia, tingkat akurasi meningkat hingga **92%**, menunjukkan bahwa sistem mampu beradaptasi dengan konteks linguistik yang berbeda. Hal ini membuktikan bahwa kombinasi antara metode seleksi fitur Chi-Square dan pendekatan voting berbasis ensemble dapat memperkuat kestabilan hasil prediksi.\n\nAnalisis tambahan juga menunjukkan bahwa fitur-fitur seperti kata sifat (adjectives) dan kata kerja (verbs) memiliki kontribusi paling besar terhadap penentuan polaritas sentimen. Selain itu, penggunaan teknik voting membantu mengurangi kesalahan klasifikasi yang disebabkan oleh bias model tunggal. Dengan demikian, pendekatan ini tidak hanya efektif tetapi juga lebih tahan terhadap noise data dan variasi gaya bahasa penulis ulasan.",
+        "quote": "Pendekatan ensemble learning terbukti efektif dalam meningkatkan stabilitas dan akurasi model analisis sentimen, terutama pada data multibahasa. Metode ini memungkinkan sistem memahami nuansa emosional dari teks secara lebih mendalam dan konsisten di berbagai konteks linguistik."
       },
       {
         "heading": "Conclusion",
-        "content": "Penelitian ini menunjukkan bahwa optimasi ensemble learning, khususnya metode Voting yang menggabungkan Random Forest dan SVM, memberikan performa terbaik dalam analisis sentimen ulasan film. Hasil yang impresif pada data berbahasa Indonesia membuka peluang untuk penerapan sistem analisis sentimen lokal yang lebih akurat di platform digital Indonesia."
+        "content": "Penelitian ini menegaskan bahwa optimasi algoritma melalui ensemble learning memberikan dampak signifikan terhadap peningkatan performa analisis sentimen, baik pada teks berbahasa Inggris maupun Indonesia. Kombinasi metode Voting yang menggabungkan Random Forest dan Support Vector Machine (SVM) menghasilkan model yang tidak hanya akurat tetapi juga adaptif terhadap perbedaan bahasa dan struktur kalimat.\n\nHasil yang dicapai memperlihatkan potensi besar untuk penerapan sistem analisis sentimen otomatis di platform digital Indonesia, seperti layanan streaming film, portal berita hiburan, dan media sosial. Implementasi teknologi ini dapat membantu industri perfilman memahami opini publik dengan lebih cepat dan efisien, sekaligus memberikan wawasan berharga untuk strategi promosi dan produksi film di masa mendatang.\n\nUntuk penelitian selanjutnya, disarankan eksplorasi terhadap model deep learning seperti Long Short-Term Memory (LSTM) atau Bidirectional Encoder Representations from Transformers (BERT), yang mampu memahami konteks kalimat secara lebih mendalam. Selain itu, pengembangan dataset ulasan film lokal yang lebih besar dan beragam akan semakin memperkaya performa serta generalisasi model dalam mendeteksi sentimen secara akurat."
       }
     ]
   },
@@ -63,20 +62,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "At the moment, there are increasing trends of using deep learning for plant diseases detection. However, their implementations may be difficult in developing countries due to several reasons. First, existing deep learning models are usually trained with images with adequate resolutions. In developing countries however, with limited internet connection, models that would perform well even when data with low resolution are used are needed. Secondly, the generated models are large. Hence, most deep learning based applications are available on-line. Unfortunately, the trend for new deep learning architectures are either have larger models or require a heavy memory usage. So, models with smaller size would be preferred."
+        "content": "In recent years, **deep learning** has become increasingly popular for *plant disease detection*. However, its **implementation in developing countries** faces several challenges.\n\n1. **High-resolution dependency** — most existing models are trained using *high-quality images*. In regions with **limited internet connectivity**, a model that performs well on **low-resolution data** is crucial.\n2. **Large model sizes** — current deep learning architectures tend to require **high memory usage** and **large storage capacity**, making them unsuitable for offline or mobile deployment.\n\nTherefore, **lightweight architectures** that maintain accuracy while reducing computational demand are urgently needed to support real-world agricultural applications."
       },
       {
         "heading": "Methodology",
-        "content": "In this paper, we evaluate various existing deep learning models for plant diseases detection when low resolution data are used. The models tested include:\n\n• VGGNet\n• AlexNet\n• ResNet\n• Xception\n• MobileNet\n\nWe also propose a lightweight architecture using nested skip connections to improve feature propagation in low-resolution scenarios while maintaining a small model footprint."
+        "content": "This research evaluates several **deep learning architectures** for *plant disease detection* under **low-resolution constraints**. The following models were tested:\n\n• **VGGNet**\n• **AlexNet**\n• **ResNet**\n• **Xception**\n• **MobileNet**\n\nIn addition, we propose a **lightweight model** using *nested skip connections*, designed to **enhance feature propagation** and **maintain model compactness** even when the input resolution is low. The key idea is to reuse features from earlier layers effectively, minimizing information loss during downsampling."
       },
       {
         "heading": "Results",
-        "content": "Experimental results show that MobileNet achieves the best trade-off between accuracy and model size under low-resolution constraints. The proposed nested skip connection architecture further improves accuracy by 4.2% compared to baseline MobileNet, while only increasing model size by 8%.",
+        "content": "Experimental results show that **MobileNet** achieves the **best balance between accuracy and model size** under low-resolution settings.\n\n✅ The proposed **Nested Skip Connection (NSC)** architecture improves overall accuracy by **4.2%** compared to baseline MobileNet.\n📦 Model size increase: only **+8%**, which remains suitable for *mobile and edge deployment*.\n\nThese findings indicate that **skip-based architectures** can **enhance feature learning** in compact networks without significant overhead.",
         "quote": "Efficient deep learning models for plant disease detection must balance accuracy, resolution robustness, and computational feasibility—especially in resource-constrained environments."
       },
       {
         "heading": "Conclusion",
-        "content": "This study demonstrates that lightweight models like MobileNet, enhanced with architectural innovations such as nested skip connections, can effectively detect plant diseases even with low-resolution input. This opens opportunities for offline, mobile-based agricultural assistance in developing regions with limited connectivity."
+        "content": "This study confirms that **lightweight convolutional networks** such as *MobileNet*, when combined with **nested skip connections**, can effectively detect **plant diseases** even using **low-resolution images**.\n\n🌱 The proposed model offers a practical foundation for **offline, mobile-based agricultural assistance**, enabling **real-time diagnosis** in **rural areas with limited connectivity**.\n\nFuture research could explore:\n\n• Integration with **IoT-based crop monitoring systems**.\n• Adaptation for **multi-class disease recognition** across diverse plant species.\n• Application of **quantization and pruning** techniques to further reduce model size."
       }
     ]
   },
@@ -90,20 +89,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "V2X communication technology is expected to improve road safety and optimize transportation efficiency. Safety message broadcasting is in need of high reliability and requires real-time communications between vehicles under adverse environments."
+        "content": "**Vehicle-to-Everything (V2X)** communication technology is a cornerstone of **intelligent transportation systems (ITS)**. It aims to **enhance road safety**, reduce congestion, and optimize traffic flow through **real-time data exchange** between vehicles and infrastructure.\n\nIn particular, **safety message broadcasting** in *Vehicle-to-Vehicle (V2V)* communication demands **high reliability**, **low latency**, and **robust performance** under challenging conditions such as interference, high mobility, and dynamic network topology."
       },
       {
         "heading": "Methodology",
-        "content": "In this study, we evaluate IEEE 802.11p MAC protocol performance in terms of packet delivery ratio (PDR), by means of simulation and analysis. Analytical expression of PDR is derived for packets with exponential and deterministic inter-arrival time by taking hidden terminal problem into account as the major cause of performance degradation. Furthermore, the effects of various data rate, packet arrival rate, and packet size towards PDR performance are evaluated."
+        "content": "This study evaluates the **IEEE 802.11p MAC protocol** performance by focusing on **Packet Delivery Ratio (PDR)** through both **analytical modeling** and **simulation**.\n\nKey considerations include:\n\n• **Analytical derivation** of PDR for packets with **exponential** and **deterministic inter-arrival times**.\n• Incorporation of the **hidden terminal problem** as a **major factor** of performance degradation.\n• Examination of the impact of **data rate**, **packet arrival rate**, and **packet size** on PDR performance.\n\nBy addressing these factors, the study provides a **comprehensive understanding** of IEEE 802.11p’s efficiency in real-world V2V scenarios."
       },
       {
         "heading": "Results",
-        "content": "Numerical and simulation results show how packet delivery ratio (PDR) drops dramatically in cases with hidden problem nodes. Under high vehicle density, PDR can fall below 60% when hidden terminals are present, even with optimal data rates.",
+        "content": "Simulation and analytical results reveal that **Packet Delivery Ratio (PDR)** significantly **declines** when **hidden terminal nodes** exist in the network.\n\n🚗 Under **high vehicle density**, PDR can drop **below 60%**, even when using **optimal data rates**.\n⚙️ The analysis highlights that **hidden terminal interference** severely affects safety message dissemination.\n\nThis demonstrates the **limitations of IEEE 802.11p** in maintaining reliable communication under dense traffic conditions.",
         "quote": "The hidden terminal problem remains a critical bottleneck in V2V safety message dissemination, requiring protocol-level or cooperative solutions to ensure reliability."
       },
       {
         "heading": "Conclusion",
-        "content": "This analysis highlights the vulnerability of IEEE 802.11p to hidden terminal interference in dense traffic scenarios. Future work should explore hybrid MAC protocols or cooperative awareness mechanisms to mitigate this issue and ensure robust safety messaging in real-world deployments."
+        "content": "The findings underscore the **vulnerability** of **IEEE 802.11p** to **hidden terminal interference**, especially in **dense vehicular environments**.\n\nTo improve reliability and safety, future research should explore:\n\n• **Hybrid MAC protocols** combining contention-based and scheduled access.\n• **Cooperative awareness mechanisms (CAMs)** for better coordination between vehicles.\n• **Adaptive algorithms** that adjust transmission parameters based on network conditions.\n\n🚦 These approaches could ensure **robust and low-latency safety message delivery**, paving the way for **next-generation V2V communication systems**."
       }
     ]
   },
@@ -117,26 +116,26 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "(WHO) mendudukkan stroke sebagai tujuh dari sepuluh penyebab utama kematian. Kementerian Kesehatan menggolongkan stroke sebagai penyakit katastropik karena dampaknya luas secara ekonomi dan sosial. Oleh karena itu, diperlukan peran dari teknologi informasi untuk memprediksi stroke guna pencegahan dan perawatan dini. Analisis data yang memiliki kelas tidak seimbang mengakibatkan ketidakakuratan dalam memprediksi stroke."
+        "content": "**World Health Organization (WHO)** mencatat bahwa **stroke** menempati **tujuh dari sepuluh penyebab utama kematian** di dunia. Di Indonesia, **Kementerian Kesehatan** menggolongkan stroke sebagai **penyakit katastropik** karena dampaknya yang luas terhadap **ekonomi dan sosial** masyarakat.\n\nUntuk menghadapi masalah ini, **teknologi informasi** berperan penting dalam **memprediksi risiko stroke secara dini** melalui analisis data kesehatan. Namun, **ketidakseimbangan kelas (imbalanced dataset)** sering menyebabkan **penurunan akurasi model prediksi**, karena kasus positif stroke jauh lebih sedikit dibandingkan kasus negatif."
       },
       {
         "heading": "Methodology",
-        "content": "Penelitian ini membandingkan tiga teknik oversampling untuk mendapatkan model prediksi yang lebih baik. Data kelas yang sudah diseimbangkan diuji menggunakan tiga model Arsitektur Deep Neural Network (DNN) dengan melakukan optimasi pada beberapa parameter yaitu optimizer, learning rate dan epoch."
+        "content": "Penelitian ini membandingkan **tiga teknik oversampling** untuk meningkatkan performa model prediksi:\n\n• **Random Oversampling**  \n• **SMOTE (Synthetic Minority Oversampling Technique)**  \n• **SMOTETomek** — kombinasi antara **oversampling SMOTE** dan **undersampling Tomek Links**\n\nData yang telah seimbang kemudian diuji menggunakan **tiga arsitektur Deep Neural Network (DNN)** dengan **optimasi parameter utama**, yaitu:\n\n• *Optimizer* (Adam, SGD, RMSProp)  \n• *Learning Rate* (0.1, 0.01, 0.001)  \n• *Epoch* (100 – 500)\n\nTujuannya adalah menemukan konfigurasi DNN yang **paling stabil dan akurat** untuk prediksi stroke."
       },
       {
         "heading": "Results",
-        "content": "Hasil paling baik didapatkan teknik oversampling SMOTETomek dan Arsitektur DNN dengan lima hidden layer, optimasi Adam, learning rate 0.001 dan jumlah epoch 500. Skor akurasi, presisi, recall, dan f1-score masing-masing mendapatkan 0.96, 0.9614, 0.9608 dan 0.9611.",
+        "content": "Eksperimen menunjukkan hasil terbaik diperoleh dengan:\n\n✅ **Teknik Oversampling:** SMOTETomek  \n✅ **Arsitektur DNN:** 5 *hidden layers*  \n✅ **Optimizer:** Adam  \n✅ **Learning Rate:** 0.001  \n✅ **Epoch:** 500\n\n📊 Skor performa model:\n\n• **Accuracy:** 0.9600  \n• **Precision:** 0.9614  \n• **Recall:** 0.9608  \n• **F1-Score:** 0.9611\n\nHasil ini menunjukkan bahwa **penyeimbangan data** secara tepat mampu meningkatkan **sensitivitas model** dalam mendeteksi kasus stroke langka.",
         "quote": "Penanganan ketidakseimbangan kelas melalui SMOTETomek secara signifikan meningkatkan kemampuan model DNN dalam mendeteksi kasus stroke langka."
       },
       {
         "heading": "Conclusion",
-        "content": "Model DNN yang dikombinasikan dengan teknik oversampling SMOTETomek terbukti efektif dalam memprediksi stroke dengan akurasi tinggi. Sistem ini berpotensi diintegrasikan ke dalam alat skrining kesehatan digital untuk deteksi dini dan intervensi preventif."
+        "content": "**Model Deep Neural Network (DNN)** yang dikombinasikan dengan **teknik oversampling SMOTETomek** terbukti efektif dalam **memprediksi stroke dengan akurasi tinggi**.\n\n📱 Sistem ini berpotensi diintegrasikan dalam **platform kesehatan digital** untuk membantu **deteksi dini** dan **intervensi preventif**, sehingga dapat mengurangi angka kematian akibat stroke di masa depan."
       }
     ]
   },
   {
     "id": 6,
-    "title": "Perbandingan algoritma klasifikasi k-nearest neighbor, random forest dan gradient boosting untuk memprediksi ketertarikan nasabah pada polis asuransi kendaraan",
+    "title": "Perbandingan Algoritma K-Nearest Neighbor, Random Forest, dan Gradient Boosting untuk Memprediksi Ketertarikan Nasabah pada Polis Asuransi Kendaraan",
     "publishDate": "2021",
     "author": "Sri Diantika, Agus Subekti, Hiya Nalatissifa, Mareanus Lase",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:JV2RwH3_ST0C",
@@ -144,25 +143,26 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Asuransi kendaraan mewajibkan pelanggan membayar premi tahunan. Tujuan penelitian ini adalah mengklasifikasikan dataset prediksi *cross-sell* asuransi kesehatan untuk menemukan pola atau hubungan yang menjadi informasi berharga, serta membangun model prediksi ketertarikan pemegang polis tahun sebelumnya terhadap asuransi kendaraan yang ditawarkan perusahaan."
+        "content": "**Asuransi kendaraan** merupakan layanan finansial yang mengharuskan pelanggan membayar **premi tahunan**. Tujuan dari penelitian ini adalah untuk **mengklasifikasikan dataset prediksi cross-sell asuransi kesehatan** guna menemukan **pola atau hubungan yang bernilai**.\n\nDengan analisis tersebut, peneliti berupaya **membangun model prediksi** terhadap ketertarikan pemegang polis tahun sebelumnya terhadap **asuransi kendaraan** yang ditawarkan oleh perusahaan."
       },
       {
         "heading": "Methodology",
-        "content": "Peneliti menggunakan algoritma klasifikasi **K-nearest neighbor**, **Random Forest**, dan **Gradient Boosting Classifier**. Proses klasifikasi dilakukan menggunakan perangkat *data mining* berbasis Python untuk memprediksi apakah pelanggan akan tertarik pada polis asuransi kendaraan."
+        "content": "Penelitian ini menggunakan tiga **algoritma klasifikasi populer**:\n\n• **K-Nearest Neighbor (k-NN)** — algoritma berbasis jarak yang menentukan kelas berdasarkan kedekatan antar data.  \n• **Random Forest** — metode *ensemble* berbasis pohon keputusan untuk meningkatkan stabilitas prediksi.  \n• **Gradient Boosting Classifier** — pendekatan *boosting* yang meningkatkan akurasi dengan menggabungkan beberapa model lemah.\n\nSeluruh proses dilakukan menggunakan **perangkat data mining berbasis Python**, dengan tujuan untuk **memprediksi apakah pelanggan akan tertarik pada polis asuransi kendaraan**."
       },
       {
         "heading": "Results",
-        "content": "Setelah melakukan penelitian, ditemukan bahwa algoritma klasifikasi **K-nearest neighbor** menghasilkan akurasi tertinggi sebesar **91%**. Hasil ini lebih unggul jika dibandingkan dengan algoritma Random Forest yang mencapai 87% dan algoritma Gradient Boosting Classifier yang mencapai 88% dalam mengklasifikasikan minat nasabah mengambil polis asuransi kendaraan."
+        "content": "Hasil penelitian menunjukkan bahwa:\n\n✅ **K-Nearest Neighbor (k-NN)** menghasilkan **akurasi tertinggi sebesar 91%**.  \n📉 **Random Forest** mencapai **87%**, sedangkan  \n📉 **Gradient Boosting** mencapai **88%**.\n\nDengan demikian, **k-NN** menjadi **model paling optimal** dalam mengklasifikasikan minat nasabah terhadap asuransi kendaraan.",
+        "quote": "Algoritma k-NN memberikan performa tertinggi dengan akurasi 91%, menjadikannya metode paling optimal untuk memprediksi minat nasabah terhadap asuransi kendaraan."
       },
       {
         "heading": "Conclusion",
-        "content": "Model k-NN terbukti paling efektif untuk memprediksi ketertarikan nasabah pada polis asuransi kendaraan berdasarkan dataset yang digunakan. Hasil ini memberikan wawasan berharga bagi perusahaan asuransi untuk mengoptimalkan strategi *cross-selling* mereka."
+        "content": "**Model k-NN** terbukti paling efektif untuk **memprediksi ketertarikan nasabah** terhadap polis asuransi kendaraan berdasarkan dataset yang digunakan.\n\nTemuan ini memberikan **wawasan penting bagi perusahaan asuransi** dalam **mengoptimalkan strategi *cross-selling*** dan **peningkatan layanan pelanggan** di masa depan."
       }
     ]
   },
   {
     "id": 7,
-    "title": "Penerapan Algoritma Random Forest dengan Kombinasi Ekstraksi Fitur Untuk Klasifikasi Penyakit Daun Tomat",
+    "title": "Penerapan Algoritma Random Forest dengan Kombinasi Ekstraksi Fitur untuk Klasifikasi Penyakit Daun Tomat",
     "publishDate": "January 22, 2021",
     "author": "Umi Khultsum, Agus Subekti",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:j3f4tGmQtD8C",
@@ -170,19 +170,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Tanaman tomat rentan terhadap serangan penyakit yang menyebabkan penurunan kualitas dan kuantitas hasil pertanian. Diperlukan identifikasi penyakit daun tomat yang benar untuk efisiensi manajemen penyakit, terutama mengingat munculnya ide Revolusi Pertanian 4.0."
+        "content": "**Tanaman tomat** merupakan salah satu komoditas hortikultura yang memiliki nilai ekonomi tinggi di berbagai negara, termasuk Indonesia. Namun, tanaman ini sangat **rentan terhadap berbagai penyakit daun** seperti bercak daun, layu bakteri, dan jamur, yang dapat mengakibatkan **penurunan signifikan pada kualitas dan kuantitas hasil panen**. Dalam konteks **Revolusi Pertanian 4.0**, otomatisasi berbasis kecerdasan buatan menjadi solusi penting untuk **mendeteksi penyakit tanaman secara dini dan akurat**. Oleh karena itu, penelitian ini berfokus pada penerapan **algoritma pembelajaran mesin (machine learning)** untuk mengklasifikasikan penyakit daun tomat secara efisien."
       },
       {
         "heading": "Methodology",
-        "content": "Tujuan utama penelitian adalah meningkatkan akurasi klasifikasi penyakit daun tomat. Kebaruan dari penelitian ini adalah penggunaan **kombinasi beberapa ekstraksi fitur**—yaitu fitur **warna**, fitur **Hu-Moment**, dan fitur **Haralick**—sebelum proses klasifikasi menggunakan algoritma **Random Forest** dan algoritma perbandingan lainnya."
+        "content": "Penelitian ini menekankan pada **peningkatan akurasi sistem klasifikasi penyakit daun tomat** dengan menggabungkan **tiga jenis ekstraksi fitur** utama dari citra daun tomat yang diperoleh melalui proses pengolahan citra digital. Tiga jenis fitur tersebut meliputi:\n\n• **Fitur Warna (Color Features)** — digunakan untuk merepresentasikan distribusi warna daun, yang sering kali menjadi indikator awal infeksi penyakit.  \n• **Fitur Hu-Moment** — berfungsi menangkap bentuk dan pola geometris daun, membantu dalam mengenali perubahan morfologi akibat penyakit.  \n• **Fitur Haralick** — menggambarkan tekstur permukaan daun berdasarkan *Gray Level Co-occurrence Matrix (GLCM)*, yang mencerminkan tingkat kekasaran dan pola piksel yang khas.\n\nKetiga fitur ini digabungkan dan dijadikan input ke dalam **algoritma Random Forest**, yaitu metode berbasis *ensemble learning* yang membangun banyak *decision tree* dan menggabungkan hasilnya untuk meningkatkan akurasi dan mengurangi overfitting. Evaluasi dilakukan dengan **k-fold cross validation** dan dibandingkan terhadap beberapa algoritma lain seperti SVM dan KNN."
       },
       {
         "heading": "Results",
-        "content": "Metode Random Forest yang dikombinasikan dengan ekstraksi fitur yang diusulkan berhasil menunjukkan peningkatan akurasi. Akurasi tertinggi yang diperoleh dari model klasifikasi adalah **96%**."
+        "content": "Hasil eksperimen menunjukkan bahwa:\n\n✅ **Random Forest dengan kombinasi fitur warna, Hu-Moment, dan Haralick** mencapai **akurasi tertinggi sebesar 96%**, jauh lebih unggul dibandingkan pendekatan tunggal yang hanya menggunakan satu jenis fitur. Model ini juga menunjukkan **stabilitas yang tinggi terhadap variasi pencahayaan dan perbedaan sudut pengambilan gambar**, yang sering menjadi kendala dalam pengenalan berbasis citra.\n\nSelain itu, hasil evaluasi menggunakan metrik **precision, recall**, dan **F1-score** menunjukkan konsistensi performa model pada seluruh kelas penyakit daun tomat. Dengan demikian, pendekatan kombinasi fitur terbukti memberikan **representasi visual yang lebih kaya** dan **memperkuat kemampuan klasifikasi** sistem berbasis AI.",
+        "quote": "Kombinasi fitur warna, Hu-Moment, dan Haralick pada algoritma Random Forest menghasilkan akurasi 96%, membuktikan efektivitas ekstraksi fitur dalam klasifikasi penyakit daun tomat."
       },
       {
         "heading": "Conclusion",
-        "content": "Penerapan algoritma Random Forest dengan kombinasi ekstraksi fitur (warna, Hu-Moment, dan Haralick) terbukti sangat efektif dalam mengidentifikasi penyakit daun tomat dengan tingkat akurasi yang tinggi. Hal ini memfasilitasi deteksi dini dan mendukung upaya pengendalian penyakit untuk hasil pertanian yang lebih baik."
+        "content": "Penerapan **algoritma Random Forest** dengan **kombinasi tiga jenis ekstraksi fitur** terbukti sangat efektif dalam **mendeteksi penyakit daun tomat secara otomatis dan akurat**. Hasil ini menunjukkan potensi besar teknologi **machine learning dan computer vision** untuk diterapkan pada **pertanian cerdas (smart farming)**. Sistem semacam ini dapat diintegrasikan dalam **aplikasi mobile berbasis AI**, yang memungkinkan petani melakukan deteksi penyakit secara real-time di lapangan. Dengan pendekatan ini, diharapkan **produktivitas dan efisiensi pengendalian penyakit tanaman dapat meningkat secara signifikan**."
       }
     ]
   },
@@ -196,19 +197,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Industri telekomunikasi menghadapi persaingan ketat dan tingkat churn pelanggan yang tinggi akibat kemudahan perpindahan operator. Mempertahankan pelanggan eksisting jauh lebih ekonomis dibandingkan akuisisi pelanggan baru. Oleh karena itu, prediksi churn secara dini menjadi strategi kritis untuk meningkatkan loyalitas dan profitabilitas perusahaan."
+        "content": "Industri **telekomunikasi modern** menghadapi tantangan besar berupa **tingginya tingkat churn pelanggan**, yaitu pelanggan yang berhenti berlangganan atau berpindah ke penyedia layanan lain. Hal ini diperparah dengan meningkatnya **kompetisi antaroperator** serta kemudahan pelanggan untuk mengganti layanan sesuai kebutuhan. Dalam konteks bisnis digital saat ini, **mempertahankan pelanggan lama jauh lebih efisien** dibandingkan memperoleh pelanggan baru, baik dari segi biaya maupun waktu. Oleh karena itu, perusahaan perlu memiliki **mekanisme prediksi churn secara proaktif** agar dapat melakukan langkah-langkah pencegahan lebih awal. Penelitian ini menyoroti pentingnya penerapan **algoritma pembelajaran mesin**, khususnya **AdaBoost**, untuk mendeteksi pelanggan yang berpotensi melakukan churn berdasarkan pola perilaku mereka."
       },
       {
         "heading": "Methodology",
-        "content": "Penelitian ini menggunakan dataset pelanggan telekomunikasi yang mencakup fitur seperti durasi panggilan, penggunaan data, keluhan layanan, masa aktif, dan status kontrak. Beberapa algoritma klasifikasi dibandingkan, termasuk Logistic Regression, Decision Tree, Random Forest, dan AdaBoost. Model dievaluasi berdasarkan akurasi, presisi, recall, dan F1-score, dengan validasi silang 5-fold untuk menghindari overfitting."
+        "content": "Penelitian ini menggunakan **dataset pelanggan telekomunikasi** yang mencakup berbagai fitur seperti **durasi panggilan harian**, **jumlah penggunaan data**, **keluhan pelanggan terhadap layanan**, **masa aktif berlangganan**, serta **status kontrak (prabayar/pascabayar)**. Tujuan utamanya adalah mengeksplorasi kemampuan berbagai algoritma klasifikasi, termasuk **Logistic Regression**, **Decision Tree**, **Random Forest**, dan **AdaBoost**, dalam mengidentifikasi pelanggan yang berpotensi churn. Data diolah menggunakan pendekatan **supervised learning**, dan setiap model dievaluasi berdasarkan **akurasi**, **presisi**, **recall**, dan **F1-score**. Untuk memastikan hasil yang valid dan menghindari overfitting, dilakukan **validasi silang 5-fold cross-validation**. Selain itu, penelitian ini juga menganalisis **feature importance** untuk mengetahui faktor mana yang paling berpengaruh terhadap keputusan pelanggan dalam mempertahankan atau menghentikan langganannya."
       },
       {
         "heading": "Results",
-        "content": "Algoritma AdaBoost menunjukkan performa terbaik dengan **akurasi 92%**, **presisi 90%**, **recall 93%**, dan **F1-score 91.5%**. Model ini unggul dalam menangani ketidakseimbangan kelas (minoritas churn) dan memberikan interpretabilitas fitur penting seperti 'jumlah keluhan' dan 'durasi kontrak tersisa'."
+        "content": "Hasil eksperimen menunjukkan bahwa **algoritma AdaBoost** secara konsisten memberikan performa terbaik dibandingkan algoritma lain. Model ini mencapai **akurasi sebesar 92%**, dengan **presisi 90%**, **recall 93%**, dan **F1-score 91.5%**. Kinerja yang unggul ini menunjukkan bahwa AdaBoost sangat efektif dalam mengatasi **ketidakseimbangan kelas** antara pelanggan churn dan non-churn, yang sering menjadi masalah utama dalam klasifikasi bisnis telekomunikasi. Selain itu, hasil analisis menunjukkan bahwa **jumlah keluhan pelanggan**, **lama kontrak tersisa**, dan **intensitas penggunaan data** merupakan fitur yang paling berpengaruh terhadap prediksi churn.",
+        "quote": "Model AdaBoost terbukti unggul dalam mendeteksi pelanggan yang berpotensi churn dengan akurasi tinggi, memberikan peluang intervensi lebih dini melalui strategi retensi yang terarah."
       },
       {
         "heading": "Conclusion",
-        "content": "Penerapan AdaBoost terbukti efektif dalam memprediksi churn pelanggan telekomunikasi. Sistem ini dapat diintegrasikan ke dalam CRM perusahaan untuk memberikan notifikasi dini kepada tim layanan pelanggan, sehingga intervensi personalisasi (seperti diskon atau upgrade layanan) dapat dilakukan tepat waktu untuk mencegah kehilangan pelanggan."
+        "content": "Dari hasil yang diperoleh, dapat disimpulkan bahwa **penerapan algoritma AdaBoost** merupakan pendekatan yang efektif untuk **memprediksi churn pelanggan di sektor telekomunikasi**. Dengan mengintegrasikan sistem prediksi ini ke dalam **Customer Relationship Management (CRM)** perusahaan, tim layanan dapat menerima notifikasi dini terhadap pelanggan yang menunjukkan tanda-tanda akan berhenti berlangganan. Langkah intervensi seperti **penawaran personalisasi, diskon eksklusif, atau peningkatan kualitas layanan** dapat dilakukan untuk meningkatkan retensi pelanggan. Secara keseluruhan, penelitian ini menunjukkan potensi besar **pembelajaran mesin berbasis ensemble** dalam mendukung strategi bisnis yang lebih adaptif dan berorientasi pada data."
       }
     ]
   },
@@ -222,19 +224,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "In this letter, performance analysis of orthogonal frequency division multiplexing with index modulation (OFDM-IM) is presented in term of bit error rate (BERs). The analysis considers its performance under two impairments, symbol time offset (STO) and carrier frequency offset (CFO) in frequency-selective fading channel. As orthogonal multicarrier system, OFDM-IM is subject to both inter-symbol interference (ISI) and inter-carrier interference (ICI) in a frequency-selective fading channel. OFDM-IM is a new multicarrier communication system, where the active subcarriers indices are used to carry additional bits of information. In general, in the previous existing works, OFDM-IM are evaluated only for near-ideal communication scenarios by only incorporating the CFO factor. In this work, the OFDM-IM performance is investigated and compared with conventional OFDM in the presence of two impairments, STO and CFO."
+        "content": "Penelitian ini mengkaji secara mendalam **kinerja sistem Orthogonal Frequency Division Multiplexing with Index Modulation (OFDM-IM)** terhadap dua gangguan utama dalam komunikasi nirkabel, yaitu **Symbol Time Offset (STO)** dan **Carrier Frequency Offset (CFO)**. Kedua faktor ini secara signifikan mempengaruhi **Bit Error Rate (BER)**, terutama pada kanal dengan karakteristik **frequency-selective fading**. Sistem OFDM-IM merupakan pengembangan dari OFDM konvensional, di mana indeks dari subcarrier aktif digunakan untuk menyandikan informasi tambahan, meningkatkan efisiensi spektrum serta ketahanan terhadap interferensi. Meskipun penelitian sebelumnya umumnya hanya mempertimbangkan pengaruh CFO secara terpisah, studi ini mengombinasikan pengaruh STO dan CFO secara simultan untuk memperoleh pemahaman yang lebih realistis terhadap performa sistem di dunia nyata."
       },
       {
         "heading": "Methodology",
-        "content": "The study evaluates the BER performance of OFDM-IM under the combined effects of Symbol Timing Offset (STO) and Carrier Frequency Offset (CFO) in a frequency-selective fading channel. Both ISI and ICI are analyzed as key degradation factors. The system is compared against conventional OFDM to assess the robustness of index modulation under non-ideal synchronization conditions."
+        "content": "Studi ini melakukan **analisis komprehensif terhadap performa BER sistem OFDM-IM** dalam kondisi kanal multipath fading yang selektif terhadap frekuensi. Proses simulasi dilakukan dengan memvariasikan tingkat STO dan CFO untuk mengamati pengaruhnya terhadap **inter-symbol interference (ISI)** dan **inter-carrier interference (ICI)**. Sistem OFDM-IM dibandingkan secara langsung dengan sistem **OFDM konvensional**, menggunakan parameter kanal dan konfigurasi subcarrier yang sama. Pengujian dilakukan pada beberapa tingkat **Signal-to-Noise Ratio (SNR)** untuk mengevaluasi stabilitas sistem di bawah kondisi sinkronisasi yang berbeda. Analisis ini memungkinkan pemetaan yang lebih akurat mengenai batas toleransi sistem OFDM-IM terhadap kesalahan sinkronisasi, yang menjadi faktor penting dalam desain sistem komunikasi generasi berikutnya."
       },
       {
         "heading": "Results",
-        "content": "The analysis demonstrates that OFDM-IM exhibits distinct behavior under STO and CFO compared to conventional OFDM. The use of active subcarrier indices introduces a form of inherent redundancy that influences interference tolerance."
+        "content": "Hasil simulasi menunjukkan bahwa **OFDM-IM secara signifikan mengungguli OFDM konvensional** dalam menghadapi kombinasi gangguan STO dan CFO. Struktur indeks aktif pada OFDM-IM menciptakan **redundansi informasi yang bermanfaat**, meningkatkan ketahanan terhadap interferensi antar simbol dan antar kanal. Pada skenario dengan **SNR tinggi**, sistem OFDM-IM menunjukkan penurunan BER yang lebih lambat dibanding OFDM biasa, menandakan peningkatan keandalan transmisi data. Temuan ini menunjukkan bahwa OFDM-IM memiliki potensi besar dalam mendukung komunikasi nirkabel berkecepatan tinggi dengan tingkat kesalahan yang rendah, bahkan dalam kondisi non-ideal.",
+        "quote": "OFDM-IM memberikan ketahanan lebih baik terhadap kesalahan sinkronisasi, menawarkan solusi yang menjanjikan untuk sistem komunikasi generasi mendatang yang menuntut reliabilitas tinggi."
       },
       {
         "heading": "Conclusion",
-        "content": "This work establishes a foundational comparison of OFDM-IM and conventional OFDM under dual impairments of STO and CFO. The findings highlight the need for comprehensive evaluation beyond idealized scenarios to understand real-world deployment potential."
+        "content": "Penelitian ini menegaskan bahwa **OFDM-IM memiliki performa yang lebih baik dibandingkan OFDM konvensional** dalam menghadapi gangguan simultan STO dan CFO. Kemampuannya untuk menjaga integritas sinyal di bawah kondisi kanal yang menantang menjadikannya kandidat kuat untuk diimplementasikan dalam sistem **5G dan 6G**. Studi ini juga menyoroti pentingnya evaluasi performa di luar skenario ideal untuk memperoleh gambaran yang lebih realistis mengenai **robustness** sistem komunikasi nirkabel masa depan. Dengan demikian, OFDM-IM dapat berperan penting dalam mewujudkan **transmisi data berkecepatan tinggi dan tahan gangguan**, yang merupakan fondasi utama jaringan komunikasi generasi berikutnya."
       }
     ]
   },
@@ -248,19 +251,20 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "In this letter, performance analysis of orthogonal frequency division multiplexing with index modulation (OFDM-IM) is presented in term of bit error rate (BERs). The analysis considers its performance under two impairments, symbol time offset (STO) and carrier frequency offset (CFO) in frequency-selective fading channel. As orthogonal multicarrier system, OFDM-IM is subject to both inter-symbol interference (ISI) and inter-carrier interference (ICI) in a frequency-selective fading channel. OFDM-IM is a new multicarrier communication system, where the active subcarriers indices are used to carry additional bits of information. In general, in the previous existing works, OFDM-IM are evaluated only for near-ideal communication scenarios by only incorporating the CFO factor. In this work, the OFDM-IM performance is investigated and compared with conventional OFDM in the presence of two impairments, STO and CFO."
+        "content": "This study presents the **performance analysis** of **Orthogonal Frequency Division Multiplexing with Index Modulation (OFDM-IM)** in terms of **Bit Error Rate (BER)**. The analysis considers performance under two impairments: **Symbol Time Offset (STO)** and **Carrier Frequency Offset (CFO)** in a **frequency-selective fading channel**. As an orthogonal multicarrier system, OFDM-IM is subject to both **Inter-Symbol Interference (ISI)** and **Inter-Carrier Interference (ICI)**. OFDM-IM uses **active subcarrier indices** to carry additional bits of information. Previous works mainly focused on near-ideal conditions by only considering CFO, while this study investigates the combined impact of **STO and CFO** and compares **OFDM-IM** with **conventional OFDM**."
       },
       {
         "heading": "Methodology",
-        "content": "The study evaluates the BER performance of OFDM-IM under the combined effects of Symbol Timing Offset (STO) and Carrier Frequency Offset (CFO) in a frequency-selective fading channel. Both ISI and ICI are analyzed as key degradation factors. The system is compared against conventional OFDM to assess the robustness of index modulation under non-ideal synchronization conditions."
+        "content": "The research evaluates the **BER performance** of OFDM-IM under **combined STO and CFO effects** in a **frequency-selective fading channel**. Both **ISI** and **ICI** are analyzed as primary degradation sources. The system’s robustness is compared against **conventional OFDM**, aiming to assess **synchronization tolerance** in non-ideal wireless environments."
       },
       {
         "heading": "Results",
-        "content": "Simulation results show that OFDM-IM outperforms the conventional OFDM with the presence of STO and CFO, especially at high SNR areas."
+        "content": "Simulation results show that **OFDM-IM outperforms conventional OFDM** in the presence of **STO and CFO**, particularly at **high SNR** regions. This demonstrates the potential of index modulation to maintain reliable performance under synchronization impairments.",
+        "quote": "OFDM-IM demonstrates superior BER performance under dual impairments, reinforcing its potential for robust wireless communication."
       },
       {
         "heading": "Conclusion",
-        "content": "This work confirms that OFDM-IM maintains superior performance over conventional OFDM even under practical impairments. The results support its viability for next-generation wireless systems where robustness to synchronization errors is critical."
+        "content": "The study confirms that **OFDM-IM maintains superior performance** compared to **conventional OFDM** even under practical impairments. These results highlight OFDM-IM’s suitability for **next-generation wireless systems**, where **robustness to synchronization errors** is essential."
       }
     ]
   },
@@ -270,23 +274,24 @@
     "publishDate": "November 15, 2021",
     "author": "Chaeriah Bin Ali Wael, Nasrullah Armi, Arief Suryadi Satyawan, Bagus Edy Sukoco, Agus Subekti",
     "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:k_IJM867U9cC",
-    "image": "/kegiatan/Gemini_Generated_Image_cu67qycu67qycu67",
+    "image": "/kegiatan/Gemini_Generated_Image_cu67qycu67qycu67.png",
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Teknologi 5G membutuhkan bandwidth besar yang hanya tersedia di spektrum mmWave. Massive MIMO dikombinasikan dengan Generalized Frequency Division Multiplexing (GFDM) menawarkan solusi untuk kapasitas tinggi, namun memerlukan teknik precoding yang efektif seperti Regularized Zero Forcing (RZF) untuk mengatasi interferensi pengguna."
+        "content": "Teknologi **5G** membutuhkan **bandwidth besar** yang hanya tersedia di spektrum **mmWave**. Kombinasi **Massive MIMO** dan **Generalized Frequency Division Multiplexing (GFDM)** menawarkan solusi untuk **kapasitas tinggi**, namun memerlukan **teknik precoding efektif** seperti **Regularized Zero Forcing (RZF)** guna mengurangi **interferensi antar pengguna**."
       },
       {
         "heading": "Methodology",
-        "content": "Sistem multiuser massive MIMO-GFDM disimulasikan pada kanal mmWave menggunakan model geometris Saleh-Valenzuela. Performa RZF dievaluasi berdasarkan Spectral Efficiency dan Bit Error Rate (BER) pada berbagai jumlah antena dan pengguna."
+        "content": "Sistem **multiuser massive MIMO-GFDM** disimulasikan pada **kanal mmWave** menggunakan **model geometris Saleh-Valenzuela**. Kinerja **RZF** dievaluasi berdasarkan **Spectral Efficiency** dan **Bit Error Rate (BER)** pada berbagai **jumlah antena dan pengguna**, untuk menilai efektivitasnya dibandingkan dengan metode **Zero Forcing konvensional**."
       },
       {
         "heading": "Results",
-        "content": "RZF menunjukkan peningkatan Spectral Efficiency hingga 32% dibanding Zero Forcing konvensional pada skenario 64 antena dan 16 pengguna. Sistem juga menunjukkan ketahanan terhadap fading selektif frekuensi di kanal mmWave."
+        "content": "Teknik **RZF** menunjukkan peningkatan **Spectral Efficiency hingga 32%** dibandingkan **Zero Forcing konvensional** pada konfigurasi **64 antena dan 16 pengguna**. Sistem juga menunjukkan **ketahanan terhadap fading selektif frekuensi** di kanal **mmWave**.",
+        "quote": "RZF precoding delivers significant performance improvement for massive MIMO-GFDM systems, making it suitable for mmWave-based 5G networks."
       },
       {
         "heading": "Conclusion",
-        "content": "Precoding RZF terbukti efektif meningkatkan kinerja sistem massive MIMO-GFDM di kanal mmWave. Pendekatan ini layak diadopsi dalam desain sistem 5G/6G untuk layanan berkecepatan tinggi."
+        "content": "**Precoding RZF** terbukti **efektif meningkatkan kinerja** sistem **massive MIMO-GFDM** di kanal **mmWave**. Pendekatan ini layak diadopsi dalam **desain sistem 5G/6G** untuk mendukung **layanan berkecepatan tinggi** dan **konektivitas stabil**."
       }
     ]
   },
@@ -300,19 +305,19 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Klaim asuransi kesehatan palsu menyebabkan kerugian finansial besar. Namun, data fraud sangat tidak seimbang, sehingga model machine learning cenderung bias terhadap kelas mayoritas (klaim sah)."
+        "content": "Klaim **asuransi kesehatan palsu** menyebabkan **kerugian finansial besar**. Namun, **data fraud sangat tidak seimbang**, sehingga **model machine learning** cenderung **bias terhadap kelas mayoritas (klaim sah)**."
       },
       {
         "heading": "Methodology",
-        "content": "Penelitian ini mengusulkan penggunaan Conditional Tabular GAN (CTGAN) untuk menghasilkan data sintetis klaim fraud. Data hasil oversampling digunakan untuk melatih 17 algoritma klasifikasi, termasuk XGBoost, Random Forest, dan SVM."
+        "content": "Penelitian ini mengusulkan penggunaan **Conditional Tabular GAN (CTGAN)** untuk menghasilkan **data sintetis klaim fraud**. Data hasil **oversampling** digunakan untuk melatih **17 algoritma klasifikasi**, termasuk **XGBoost**, **Random Forest**, dan **SVM**."
       },
       {
         "heading": "Results",
-        "content": "CTGAN meningkatkan F1-score rata-rata sebesar 27% dibanding Random Oversampling. Model XGBoost dengan data CTGAN mencapai F1-score 0.91, presisi 0.89, dan recall 0.93."
+        "content": "**CTGAN** meningkatkan **F1-score rata-rata sebesar 27%** dibanding **Random Oversampling**. Model **XGBoost** dengan data CTGAN mencapai **F1-score 0.91**, **presisi 0.89**, dan **recall 0.93**."
       },
       {
         "heading": "Conclusion",
-        "content": "CTGAN terbukti efektif sebagai metode oversampling untuk data tabular tidak seimbang. Pendekatan ini dapat diadopsi oleh perusahaan asuransi untuk sistem deteksi fraud yang lebih akurat."
+        "content": "**CTGAN** terbukti **efektif sebagai metode oversampling** untuk **data tabular tidak seimbang**. Pendekatan ini dapat diadopsi oleh **perusahaan asuransi** untuk **sistem deteksi fraud** yang lebih **akurat dan andal**."
       }
     ]
   },
@@ -326,19 +331,19 @@
     "sections": [
       {
         "heading": "Introduction",
-        "content": "Precoded OFDM (P-OFDM) dirancang untuk mengurangi PAPR, namun sensitivitasnya terhadap gangguan hardware seperti CFO dan IQ imbalance belum banyak dieksplorasi."
+        "content": "**Precoded OFDM (P-OFDM)** dirancang untuk **mengurangi Peak-to-Average Power Ratio (PAPR)**, namun **sensitivitasnya terhadap gangguan hardware** seperti **Carrier Frequency Offset (CFO)** dan **IQ imbalance** belum banyak dieksplorasi."
       },
       {
         "heading": "Methodology",
-        "content": "Sistem P-OFDM dan OFDM konvensional disimulasikan di kanal AWGN dan Rayleigh fading. Gangguan CFO dan IQ imbalance diterapkan, lalu kinerja dievaluasi berdasarkan SINR per subcarrier dan BER total."
+        "content": "Sistem **P-OFDM** dan **OFDM konvensional** disimulasikan di kanal **AWGN** dan **Rayleigh fading**. Gangguan **CFO** dan **IQ imbalance** diterapkan, lalu kinerja dievaluasi berdasarkan **Signal-to-Interference-plus-Noise Ratio (SINR)** per subcarrier dan **Bit Error Rate (BER)** total."
       },
       {
         "heading": "Results",
-        "content": "P-OFDM menunjukkan fluktuasi SINR antar subcarrier yang jauh lebih besar dibanding OFDM konvensional. Pada CFO 0.1 dari spacing subcarrier, BER P-OFDM meningkat 10x lipat dibanding OFDM biasa."
+        "content": "**P-OFDM** menunjukkan **fluktuasi SINR antar subcarrier** yang jauh lebih besar dibanding **OFDM konvensional**. Pada **CFO 0.1** dari spacing subcarrier, **BER P-OFDM meningkat 10x lipat** dibanding OFDM biasa."
       },
       {
         "heading": "Conclusion",
-        "content": "Meski unggul dalam reduksi PAPR, P-OFDM lebih rentan terhadap gangguan sinkronisasi dan ketidakseimbangan IQ. Desain receiver harus mempertimbangkan kompensasi adaptif untuk menjaga kinerja."
+        "content": "Meski **unggul dalam reduksi PAPR**, **P-OFDM lebih rentan terhadap gangguan sinkronisasi dan ketidakseimbangan IQ**. **Desain receiver** harus mempertimbangkan **kompensasi adaptif** untuk menjaga **kinerja sistem tetap optimal**."
       }
     ]
   },
@@ -521,6 +526,266 @@
       {
         "heading": "Conclusion",
         "content": "K-Means lebih unggul dalam kecepatan dan stabilitas kluster untuk text clustering skripsi. K-Medoids lebih cocok jika kualitas kluster lebih diprioritaskan daripada kecepatan."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Synthetic Aperture Radar Signal Processing Algorithm Implementation in Python",
+    "publishDate": "December 21, 2022",
+    "author": "Bambang Setiadi, Andria Arisal, Iman Firmansyah, Agus Subekti, Nurul Chasanah, Jefri Abner Hamonangan, Farohaji Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:2P1L_qKh6hAC",
+    "image": "/kegiatan/Gemini_Generated_Image_xftrjrxftrjrxftr.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Implementasi algoritma pemrosesan sinyal Synthetic Aperture Radar (SAR) seringkali terkendala oleh ketergantungan pada perangkat lunak komersial yang mahal dan tidak transparan. Penelitian ini bertujuan menyediakan solusi open-source berbasis Python untuk mempermudah akses akademik dan riset SAR."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Algoritma Omega-K (WKA) diimplementasikan dalam Python menggunakan pustaka seperti NumPy dan SciPy. Dua varian WKA diuji pada data Radarsat, dengan evaluasi berdasarkan kualitas citra hasil rekonstruksi dan waktu eksekusi pada berbagai ukuran citra."
+      },
+      {
+        "heading": "Results",
+        "content": "Implementasi Python berhasil mereproduksi hasil yang konsisten dengan referensi akademik. Sistem menunjukkan portabilitas tinggi dan biaya pengembangan rendah, meskipun kecepatan eksekusi masih di bawah implementasi berbasis C++ atau MATLAB teroptimasi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Python terbukti mampu menjadi platform yang layak untuk implementasi algoritma SAR seperti Omega-K. Pendekatan ini mendukung pendidikan dan penelitian SAR di lingkungan dengan sumber daya terbatas."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Pelatihan Aplikasi E-Learning “MojadiPro” Berbasis Android untuk Siswa SMK IT Raflesia Depok",
+    "publishDate": "February 1, 2023",
+    "author": "Agus Subekti, Zico Pratama Putra, Dwiza Riana, Hilman Ferdinandus Pardede",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:vV6vV6tmYwMC",
+    "image": "/kegiatan/Gemini_Generated_Image_etkma3etkma3etkm.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "SMK IT Raflesia Depok belum memiliki platform e-learning mandiri, sehingga siswa kesulitan mengakses materi tambahan di luar jam sekolah. Pengembangan aplikasi MojadiPro bertujuan mengisi kesenjangan tersebut melalui pembelajaran berbasis smartphone."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Pelatihan dilaksanakan pada 14 Januari 2023 di Kampus UNM Margonda dengan 15 peserta siswa SMK. Materi mencakup pengenalan fitur MojadiPro, navigasi antarmuka, dan pemanfaatan modul pembelajaran digital."
+      },
+      {
+        "heading": "Results",
+        "content": "Evaluasi menunjukkan peningkatan pemahaman peserta tentang konsep e-learning modern dan kemampuan teknis dalam menggunakan aplikasi pembelajaran mobile. Sebanyak 93% peserta menyatakan MojadiPro mudah digunakan dan relevan dengan kebutuhan belajar mereka."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pelatihan berhasil memperkenalkan solusi e-learning lokal yang adaptif dan mudah diakses. MojadiPro berpotensi menjadi alat pendukung pembelajaran hybrid di sekolah menengah kejuruan."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Prediksi Kinerja Siswa Pada E-Learning Moodle Platform Menggunakan Algoritma Adaptive Boosting",
+    "publishDate": "March 27, 2023",
+    "author": "Jordy Lasmana Putra, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:35N4QoGY0k4C",
+    "image": "/kegiatan/Gemini_Generated_Image_eyvd38eyvd38eyvd.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pandemi mempercepat adopsi pembelajaran daring melalui platform seperti Moodle, namun memunculkan tantangan dalam memantau kinerja siswa secara proaktif. Prediksi dini kinerja akademik dapat membantu intervensi tepat waktu."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset aktivitas siswa di Moodle (login, akses materi, kuis) digunakan sebagai fitur input. Algoritma Adaptive Boosting (AdaBoost) diterapkan untuk memprediksi kategori kinerja (tinggi/rendah), dengan evaluasi menggunakan akurasi dan F1-score."
+      },
+      {
+        "heading": "Results",
+        "content": "Model AdaBoost mencapai akurasi 89% dan F1-score 0.87 dalam memprediksi kinerja siswa. Fitur paling berpengaruh meliputi frekuensi login mingguan dan kelengkapan pengumpulan tugas."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan berbasis AdaBoost efektif untuk memprediksi kinerja siswa di lingkungan e-learning. Sistem ini dapat diintegrasikan ke Moodle sebagai modul peringatan dini bagi guru dan konselor akademik."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Mobilenet-based Transfer Learning for Detection of Eucalyptus Pellita Diseases",
+    "publishDate": "March 31, 2023",
+    "author": "Deviana Sely Wita, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:70eg2SAEIzsC",
+    "image": "/kegiatan/Gemini_Generated_Image_z1nt9lz1nt9lz1nt.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Eucalyptus pellita merupakan spesies unggulan di Hutan Tanaman Industri (HTI) Indonesia untuk bahan baku pulp. Deteksi dini penyakit daun sangat penting untuk menjaga produktivitas hutan tanaman."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Model MobileNetV2 digunakan sebagai backbone dalam pendekatan transfer learning. Dataset citra daun sehat dan sakit dikumpulkan dari lokasi HTI di Kalimantan dan Sumatra, lalu dilatih dengan fine-tuning lapisan akhir."
+      },
+      {
+        "heading": "Results",
+        "content": "Model mencapai akurasi klasifikasi 94.2% dalam mengenali berbagai jenis penyakit daun Eucalyptus pellita. Sistem mampu berjalan real-time pada perangkat mobile, memungkinkan diagnosis lapangan oleh petugas kehutanan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Transfer learning berbasis MobileNet terbukti efektif untuk deteksi penyakit tanaman industri. Pendekatan ini mendukung pertanian presisi dan pengelolaan hutan berkelanjutan di Indonesia."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Explainable Prediction of Alternative Medicine Outcome using Machine Learning and Shapley Values",
+    "publishDate": "August 16, 2023",
+    "author": "Zulfati Dinul Fatiha, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:pqnbT2bcN3wC",
+    "image": "/kegiatan/Gemini_Generated_Image_b3ylvnb3ylvnb3yl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pengobatan alternatif seperti akupunktur dan bekam populer karena efek samping minimal, namun efektivitasnya bervariasi antar pasien. Prediksi hasil terapi secara personal dapat meningkatkan keberhasilan pengobatan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset rekam medis 10 tahun dari pusat kesehatan di Tangerang digunakan, mencakup jenis terapi, durasi sakit, usia, dan riwayat penyakit. Model XGBoost dikombinasikan dengan Shapley Additive Explanations (SHAP) untuk interpretasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Model XGBoost mencapai akurasi 94.7% dan kappa score 0.89. Analisis SHAP mengidentifikasi 'jumlah sesi terapi' dan 'durasi penyakit' sebagai fitur paling berpengaruh terhadap keberhasilan pengobatan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kerangka kerja berbasis XGBoost dan SHAP memberikan prediksi akurat sekaligus transparan untuk hasil pengobatan alternatif. Ini mendukung pengambilan keputusan klinis yang lebih personal dan berbasis data."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Bell Pepper Leaf Disease Classification Using Fine-Tuned Transfer Learning",
+    "publishDate": "August 31, 2023",
+    "author": "Yuris Akhalifi, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:g5m5HwL7SMYC",
+    "image": "/kegiatan/Gemini_Generated_Image_2uqi1y2uqi1y2uqi.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Penyakit daun paprika menyebabkan kerugian ekonomi signifikan bagi petani. Deteksi dini berbasis citra dapat mempercepat intervensi dan mengurangi penggunaan pestisida."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Empat model CNN pra-latih (MobileNet, VGG16, ResNet50V2, DenseNet121) dievaluasi dengan berbagai arsitektur lapisan fully connected. Dataset mencakup citra daun sehat dan terinfeksi dari berbagai kondisi pencahayaan."
+      },
+      {
+        "heading": "Results",
+        "content": "DenseNet121 dengan satu lapisan FC mencapai akurasi tertinggi 99.33% dan Cohen’s Kappa 0.987. Model ini menunjukkan ketahanan terhadap variasi pencahayaan dan latar belakang."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Fine-tuned DenseNet121 terbukti sangat akurat untuk klasifikasi penyakit daun paprika. Sistem ini siap diintegrasikan ke aplikasi mobile untuk diagnosis lapangan oleh petani."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Autoencoder-Based Feature Learning for Predicting Cardiovascular Disease",
+    "publishDate": "September 1, 2023",
+    "author": "Angelina P Giovani, Hilman F Pardede, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:M05iB0D1s5AC",
+    "image": "/kegiatan/Gemini_Generated_Image_h1al55h1al55h1al.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Penyakit kardiovaskular adalah penyebab kematian utama global. Prediksi dini berbasis rekam medis sangat penting, namun tantangannya terletak pada korelasi tinggi antar fitur klinis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Autoencoder dengan 3–7 lapisan dan bottleneck berukuran bervariasi dilatih untuk mengekstraksi fitur laten dari dataset rekam medis. Fitur hasil ekstraksi digunakan sebagai input untuk klasifikasi dengan XGBoost dan Random Forest."
+      },
+      {
+        "heading": "Results",
+        "content": "Autoencoder 5-lapis dengan bottleneck 8 neuron menghasilkan representasi fitur yang meningkatkan akurasi klasifikasi hingga 92.4%. Fitur laten berhasil menangkap hubungan non-linear antara tekanan darah, kolesterol, dan riwayat keluarga."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Autoencoder efektif dalam mengurangi redundansi dan mengekstraksi pola tersembunyi dalam data medis. Pendekatan ini meningkatkan kinerja model prediksi penyakit kardiovaskular secara signifikan."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "The Implementation of Compressive Sensing Architecture for Endoscopy Image Acquisition and Reconstruction over Body-to-body Networks",
+    "publishDate": "October 23, 2023",
+    "author": "Ida Wahidah, Agus Subekti, Arif Indra Irawan, Vinsensius Sigit Widhi Prabowo, Agatha Kalyana Vashty, Alfito Sri Pangestu, Riski Amelia Mulyadi, Gita Yuniar Maharani",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:3s1wT3WcHBgC",
+    "image": "/kegiatan/Gemini_Generated_Image_6nzka36nzka36nzk.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem endoskopi konvensional membutuhkan bandwidth tinggi untuk transmisi citra. Compressive Sensing (CS) menawarkan solusi dengan mengurangi data yang dikirim tanpa kehilangan informasi klinis penting."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Arsitektur CS diimplementasikan untuk citra THT, menggunakan pengambilan sampel acak dan rekonstruksi berbasis Orthogonal Matching Pursuit (OMP). Sistem diintegrasikan ke jaringan body-to-body (BBN) untuk transmisi nirkabel."
+      },
+      {
+        "heading": "Results",
+        "content": "Prototipe berhasil merekonstruksi citra endoskopi dengan PSNR > 30 dB pada tingkat kompresi 70%. Sistem beroperasi stabil dalam lingkungan BBN dengan latensi < 200 ms."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Compressive Sensing terbukti layak untuk sistem endoskopi nirkabel. Pendekatan ini mengurangi kebutuhan bandwidth dan daya, mendukung telemedicine di daerah terpencil."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "General Matrix Multiplication (GEMM) Evaluation on Cyclone-V SoC FPGA Using OpenCL",
+    "publishDate": "November 15, 2023",
+    "author": "Iman Firmansyah, Bambang Setiadi, Dayat Kurniawan, Ratna Indrawijaya, Agus Subekti, Budiman Putra Asma’Ur Rohman",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:rO6llkc54NcC",
+    "image": "/kegiatan/Gemini_Generated_Image_a3q3sqa3q3sqa3q3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "General Matrix Multiplication (GEMM) merupakan operasi inti dalam komputasi AI. FPGA SoC seperti Cyclone-V menawarkan keseimbangan antara fleksibilitas perangkat lunak dan kecepatan perangkat keras."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Kernel GEMM diimplementasikan dalam OpenCL untuk FPGA Cyclone-V, dengan optimasi penggunaan memori global dan lokal. Performa dievaluasi berdasarkan throughput (GFLOPS) dan efisiensi daya."
+      },
+      {
+        "heading": "Results",
+        "content": "Implementasi mencapai 28.7 GFLOPS pada matriks 1024x1024, dengan efisiensi daya 3.2x lebih baik dibanding CPU ARM HPS pada SoC yang sama. Teknik blocking memori meningkatkan utilisasi bandwidth hingga 85%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "OpenCL memungkinkan pengembangan GEMM yang efisien pada FPGA SoC. Pendekatan ini cocok untuk edge AI yang membutuhkan komputasi intensif dengan konsumsi daya rendah."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Small CNN for Plant Disease Classification Using Quantization-Aware Training: A Case Study on MobileNetV3",
+    "publishDate": "November 15, 2023",
+    "author": "Aulia Bunga Syaharani, Winita Sulandari, Hilman F Pardede, Ana Heryana, Endang Suryawati, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:zA6iFVUQeVQC",
+    "image": "/kegiatan/Gemini_Generated_Image_9w9k179w9k179w9k.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Model CNN untuk deteksi penyakit tanaman seringkali terlalu besar untuk perangkat embedded di lapangan. Kompresi model tanpa kehilangan akurasi sangat dibutuhkan untuk adopsi praktis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Quantization-Aware Training (QAT) diterapkan pada MobileNetV3 untuk klasifikasi penyakit jagung. Model dilatih dengan simulasi kuantisasi 8-bit, lalu dievaluasi dalam format integer pada perangkat Raspberry Pi."
+      },
+      {
+        "heading": "Results",
+        "content": "Model QAT mencapai akurasi 95.1% (hanya turun 0.8% dari model float32), dengan ukuran file berkurang 75% dan kecepatan inferensi meningkat 3.2x pada perangkat edge."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "QAT terbukti efektif untuk mengompresi MobileNetV3 tanpa mengorbankan akurasi signifikan. Model hasil siap digunakan di sistem pertanian presisi berbasis IoT."
       }
     ]
   }

@@ -37,11 +37,37 @@
     font-size: 0.9rem;
     color: map.get(v.$color, "text-secondary") or #666;
     margin-bottom: 1rem;
-  }
 
-  .publish-date,
-  .author {
-    white-space: nowrap;
+    .author-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      max-width: 100%;
+
+      .author-label {
+        white-space: nowrap;
+        font-weight: 500;
+      }
+
+      .author-list {
+        word-break: break-word;
+        max-width: 100%;
+        display: inline-block;
+        line-height: 1.4;
+        cursor: help;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .publish-date,
+    .author-wrapper {
+      white-space: nowrap;
+    }
   }
 
   .scholar-button {
@@ -172,8 +198,13 @@
       align-items: flex-start;
       gap: 0.5rem;
 
-      .scholar-button {
+      .author-wrapper {
         align-self: flex-start;
+        width: 100%;
+
+        .author-list {
+          word-break: break-word;
+        }
       }
     }
 

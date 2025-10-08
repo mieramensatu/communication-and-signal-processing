@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import logo from "../../assets/img/logo (1).png";
 
 function Navbar({ onSelectCategory, fullWidth = false }) {
+  const navigate = useNavigate();
   const [active, setActive] = useState("home");
   const [openDropdown, setOpenDropdown] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -10,7 +12,11 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
   const navRef = useRef(null);
 
   useEffect(() => {
-    const sections = document.querySelectorAll("section");
+    if (window.location.pathname !== "/") return;
+
+    const sections = document.querySelectorAll("section[id]");
+    if (sections.length === 0) return;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -26,12 +32,14 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
     return () => sections.forEach((sec) => observer.unobserve(sec));
   }, []);
 
+  // Efek saat scroll (untuk navbar scrolled style)
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Tutup dropdown & mobile menu saat klik di luar
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (navRef.current && !navRef.current.contains(e.target)) {
@@ -44,6 +52,7 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
     return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
+  // Scroll ke section (hanya berlaku di halaman utama)
   const handleScrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -53,16 +62,38 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
     setOpenDropdown(false);
   };
 
+  // Pilih kategori member dan scroll ke section "member" (hanya di halaman utama)
   const handleCategorySelect = (category) => {
     if (typeof onSelectCategory === "function") {
       onSelectCategory(category);
     }
-    handleScrollTo("member");
+    // Hanya scroll jika di halaman utama
+    if (window.location.pathname === "/") {
+      handleScrollTo("member");
+    } else {
+      // Jika di luar halaman utama, arahkan ke /#member
+      navigate("/#member");
+      // Opsional: tambahkan logika scroll setelah load jika diperlukan
+    }
   };
 
+  // Toggle mobile menu
   const toggleMenu = (e) => {
     e.stopPropagation();
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  // ✅ Handle klik logo: scroll atau navigasi tergantung halaman
+  const handleLogoClick = (e) => {
+    e.preventDefault();
+
+    if (window.location.pathname === "/") {
+      // Di halaman utama → scroll ke home
+      handleScrollTo("home");
+    } else {
+      // Di halaman lain → navigasi ke beranda
+      navigate("/");
+    }
   };
 
   return (
@@ -70,18 +101,12 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
       <div className={fullWidth ? "container-fluid" : "container"}>
         {/* Logo */}
         <div className="logo">
-          <a
-            href="/"
-            onClick={(e) => {
-              e.preventDefault();
-              handleScrollTo("home");
-            }}
-          >
+          <a href="/" onClick={handleLogoClick}>
             <img src={logo} alt="Logo" />
           </a>
         </div>
 
-        {/* Hamburger Button - Mobile Only */}
+        {/* Hamburger untuk mobile */}
         <button
           className="hamburger"
           onClick={toggleMenu}
@@ -92,12 +117,18 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
           <span></span>
         </button>
 
-        {/* Menu Items (di tengah) */}
+        {/* Menu navigasi */}
         <div className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
           <ul className="list-item">
             <li>
               <button
-                onClick={() => handleScrollTo("home")}
+                onClick={() => {
+                  if (window.location.pathname === "/") {
+                    handleScrollTo("home");
+                  } else {
+                    navigate("/");
+                  }
+                }}
                 className={active === "home" ? "active" : ""}
               >
                 Home
@@ -105,7 +136,13 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
             </li>
             <li>
               <button
-                onClick={() => handleScrollTo("activities")}
+                onClick={() => {
+                  if (window.location.pathname === "/") {
+                    handleScrollTo("activities");
+                  } else {
+                    navigate("/#activities");
+                  }
+                }}
                 className={active === "activities" ? "active" : ""}
               >
                 Activity
@@ -167,9 +204,15 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
           </ul>
         </div>
 
-        {/* Contact Us Button (di kanan) */}
+        {/* Tombol Contact Us */}
         <button
-          onClick={() => handleScrollTo("contact")}
+          onClick={() => {
+            if (window.location.pathname === "/") {
+              handleScrollTo("contact");
+            } else {
+              navigate("/#contact");
+            }
+          }}
           className="button-contact"
         >
           Contact Us

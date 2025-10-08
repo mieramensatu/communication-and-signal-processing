@@ -53,6 +53,7 @@
   font-size: 1rem;
   cursor: pointer;
   padding: 0;
+  white-space: nowrap;
 }
 .navbar .container .nav-menu .list-item li button::after {
   content: "";
@@ -64,6 +65,7 @@
   background: #b71c1c;
   transition: width 0.3s ease-in-out;
   border-radius: 1rem;
+  z-index: 1;
 }
 .navbar .container .nav-menu .list-item li button.active, .navbar .container .nav-menu .list-item li button:hover {
   color: #b71c1c;
@@ -90,10 +92,12 @@
   pointer-events: none;
   transition: all 0.25s ease;
 }
+.navbar .container .nav-menu .list-item li.dropdown .dropdown-menu li {
+  padding: 0.5rem 0.5rem;
+}
 .navbar .container .nav-menu .list-item li.dropdown .dropdown-menu li button {
-  display: inline-block;
+  display: block;
   text-align: left;
-  padding: 0.5rem 1rem;
   margin: 0;
   border: none;
   background: transparent;
@@ -101,26 +105,10 @@
   font-weight: 500;
   color: #e62f2a;
   cursor: pointer;
-  transition: all 0.2s ease;
-  position: relative;
-  width: 100%;
-}
-.navbar .container .nav-menu .list-item li.dropdown .dropdown-menu li button::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 2px;
-  background: #b71c1c;
-  transition: width 0.3s ease-in-out;
-  border-radius: 1rem;
+  transition: color 0.2s ease;
 }
 .navbar .container .nav-menu .list-item li.dropdown .dropdown-menu li button:hover {
   color: rgb(219.0857142857, 30.8571428571, 25.7142857143);
-}
-.navbar .container .nav-menu .list-item li.dropdown .dropdown-menu li button:hover::after {
-  width: 100%;
 }
 .navbar .container .nav-menu .list-item li.dropdown .dropdown-menu li button:not(:last-child) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -330,6 +318,7 @@ footer {
   background-color: #ffffff;
   font-size: 1rem;
   font-family: "Inter", sans-serif;
+  border-top: 1px solid #eee;
 }
 footer .footer-container {
   width: 85%;
@@ -836,7 +825,6 @@ footer .footer-container ul li a.facebook:hover {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   width: 100%;
-  max-width: 320px;
 }
 .outcomes .container .card .icon {
   font-size: 2.2rem;
@@ -1218,8 +1206,30 @@ footer .footer-container ul li a.facebook:hover {
   color: #666;
   margin-bottom: 1rem;
 }
-.article-page .publish-date,
-.article-page .author {
+.article-page .article-meta .author-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.article-page .article-meta .author-wrapper .author-label {
+  white-space: nowrap;
+  font-weight: 500;
+}
+.article-page .article-meta .author-wrapper .author-list {
+  word-break: break-word;
+  max-width: 100%;
+  display: inline-block;
+  line-height: 1.4;
+  cursor: help;
+  text-decoration: none;
+}
+.article-page .article-meta .author-wrapper .author-list:hover {
+  text-decoration: underline;
+}
+.article-page .article-meta .publish-date,
+.article-page .article-meta .author-wrapper {
   white-space: nowrap;
 }
 .article-page .scholar-button {
@@ -1323,8 +1333,12 @@ footer .footer-container ul li a.facebook:hover {
     align-items: flex-start;
     gap: 0.5rem;
   }
-  .article-page .article-meta .scholar-button {
+  .article-page .article-meta .author-wrapper {
     align-self: flex-start;
+    width: 100%;
+  }
+  .article-page .article-meta .author-wrapper .author-list {
+    word-break: break-word;
   }
   .article-page .article-footer .scholar-footer-link {
     font-size: 0.95rem;

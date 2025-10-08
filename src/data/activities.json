@@ -122,5 +122,65 @@
     "title": "Analisis Performa dan Kecepatan Komputasi Algoritma K-Means dan K-Medoids pada Text Clustering",
     "desc": "Perbandingan kinerja dan waktu komputasi K-Means dan K-Medoids dalam pengelompokan skripsi, menunjukkan K-Means lebih cepat dan memiliki DBI lebih baik.",
     "img": "/kegiatan/Gemini_Generated_Image_n57wxbn57wxbn57w.png"
+  },
+  {
+    "id": 21,
+    "title": "Synthetic Aperture Radar Signal Processing Algorithm Implementation in Python",
+    "desc": "Implementasi algoritma Omega-K untuk pemrosesan sinyal SAR menggunakan Python, menyediakan solusi open-source yang portabel dan berbiaya rendah dibanding perangkat lunak komersial.",
+    "img": "/kegiatan/Gemini_Generated_Image_xftrjrxftrjrxftr.png"
+  },
+  {
+    "id": 22,
+    "title": "Pelatihan Aplikasi E-Learning “MojadiPro” Berbasis Android untuk Siswa SMK IT Raflesia Depok",
+    "desc": "Pelatihan penggunaan aplikasi e-learning MojadiPro kepada 15 siswa SMK bertujuan meningkatkan akses belajar digital dan pemahaman tentang platform pembelajaran berbasis smartphone.",
+    "img": "/kegiatan/Gemini_Generated_Image_etkma3etkma3etkm.png"
+  },
+  {
+    "id": 23,
+    "title": "Prediksi Kinerja Siswa Pada E-Learning Moodle Platform Menggunakan Algoritma Adaptive Boosting",
+    "desc": "Penerapan algoritma Adaptive Boosting untuk memprediksi kinerja siswa dalam pembelajaran daring berbasis Moodle selama masa pandemi, guna mendukung intervensi akademik dini.",
+    "img": "/kegiatan/Gemini_Generated_Image_eyvd38eyvd38eyvd.png"
+  },
+  {
+    "id": 24,
+    "title": "Mobilenet-based Transfer Learning for Detection of Eucalyptus Pellita Diseases",
+    "desc": "Deteksi penyakit daun Eucalyptus pellita menggunakan transfer learning berbasis MobileNet untuk mendukung industri pulp dan kertas melalui diagnosis dini di hutan tanaman industri.",
+    "img": "/kegiatan/Gemini_Generated_Image_z1nt9lz1nt9lz1nt.png"
+  },
+  {
+    "id": 25,
+    "title": "Explainable Prediction of Alternative Medicine Outcome using Machine Learning and Shapley Values",
+    "desc": "Prediksi efektivitas pengobatan alternatif (akupunktur, bekam, herbal) menggunakan XGBoost dan Shapley Values, mencapai akurasi 94.7% dengan interpretasi fitur yang transparan.",
+    "img": "/kegiatan/Gemini_Generated_Image_b3ylvnb3ylvnb3yl.png"
+  },
+  {
+    "id": 26,
+    "title": "Bell Pepper Leaf Disease Classification Using Fine-Tuned Transfer Learning",
+    "desc": "Klasifikasi penyakit daun paprika menggunakan fine-tuned DenseNet121 mencapai akurasi 99.33%, menunjukkan keunggulan transfer learning dalam deteksi penyakit tanaman berbasis citra.",
+    "img": "/kegiatan/Gemini_Generated_Image_2uqi1y2uqi1y2uqi.png"
+  },
+  {
+    "id": 27,
+    "title": "Autoencoder-Based Feature Learning for Predicting Cardiovascular Disease",
+    "desc": "Penggunaan autoencoder untuk ekstraksi fitur laten dari rekam medis dalam memprediksi penyakit kardiovaskular, menangkap hubungan non-linear kompleks dalam data klinis.",
+    "img": "/kegiatan/Gemini_Generated_Image_h1al55h1al55h1al.png"
+  },
+  {
+    "id": 28,
+    "title": "The Implementation of Compressive Sensing Architecture for Endoscopy Image Acquisition and Reconstruction over Body-to-body Networks",
+    "desc": "Pengembangan sistem endoskopi berbasis Compressive Sensing dan jaringan body-to-body untuk akuisisi dan rekonstruksi citra THT secara efisien dan mandiri.",
+    "img": "/kegiatan/Gemini_Generated_Image_6nzka36nzka36nzk.png"
+  },
+  {
+    "id": 29,
+    "title": "General Matrix Multiplication (GEMM) Evaluation on Cyclone-V SoC FPGA Using OpenCL",
+    "desc": "Evaluasi performa GEMM pada FPGA Cyclone-V SoC menggunakan OpenCL untuk mempercepat komputasi AI seperti pengenalan suara dan citra dengan integrasi prosesor ARM.",
+    "img": "/kegiatan/Gemini_Generated_Image_a3q3sqa3q3sqa3q3.png"
+  },
+  {
+    "id": 30,
+    "title": "Small CNN for Plant Disease Classification Using Quantization-Aware Training: A Case Study on MobileNetV3",
+    "desc": "Penerapan Quantization-Aware Training pada MobileNetV3 untuk klasifikasi penyakit tanaman jagung, menghasilkan model ringan yang akurat dan siap untuk sistem embedded.",
+    "img": "/kegiatan/Gemini_Generated_Image_9w9k179w9k179w9k.png"
   }
 ]

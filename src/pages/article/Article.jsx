@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import detail from "../../data/detail.json";
+import { marked } from "marked";
 
 function Article() {
   const [article, setArticle] = useState(null);
@@ -40,13 +41,29 @@ function Article() {
     );
   }
 
+  // Fungsi untuk memotong teks penulis jika terlalu panjang
+  const truncateAuthor = (author, maxLength = 60) => {
+    if (!author) return "";
+    return author.length > maxLength
+      ? author.slice(0, maxLength) + "..."
+      : author;
+  };
+
   return (
     <div className="article-page">
       <Navbar />
       <div className="content">
         <div className="article-meta">
           <span className="publish-date">Published {article.publishDate}</span>
-          <span className="author">By {article.author}</span>
+          <div className="author-wrapper">
+            <span className="author-label">By</span>
+            <span
+              className="author-list"
+              title={article.author || "Unknown author"}
+            >
+              {truncateAuthor(article.author)}
+            </span>
+          </div>
         </div>
 
         <h1 className="article-title">{article.title}</h1>
@@ -65,30 +82,17 @@ function Article() {
             <div
               className="article-content"
               dangerouslySetInnerHTML={{
-                __html: section.content
-                  .replace(/\n{2,}/g, "</p><p>")
-                  .replace(/(?:•\s[^\n]+\n?)+/g, (match) => {
-                    const items = match
-                      .trim()
-                      .split("\n")
-                      .filter((line) => line.trim().startsWith("•"))
-                      .map((line) => `<li>${line.replace(/^•\s*/, "")}</li>`)
-                      .join("");
-                    return `<ul>${items}</ul>`;
-                  })
-                  .replace(/^/, "<p>")
-                  .replace(/$/, "</p>"),
+                __html: marked.parse(section.content.replace(/^•/gm, "-")),
               }}
             />
             {section.quote && (
               <blockquote className="article-quote">
-                "{section.quote}"
+                “{section.quote}”
               </blockquote>
             )}
           </section>
         ))}
 
-        {/* Footer Scholar Link (Optional) */}
         {article.scholarLink && (
           <div className="article-footer">
             <a

@@ -130,7 +130,6 @@
         transform: translateY(-6px);
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 
-        // Efek garis atas berwarna aksen (opsional tapi elegan)
         &::before {
           content: "";
           position: absolute;
@@ -153,7 +152,6 @@
           transform: scale(1.06);
         }
 
-        // Tombol sedikit "pop"
         .button {
           transform: translateY(-2px);
           box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);

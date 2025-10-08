@@ -1,4 +1,3 @@
-// src/pages/Article.jsx
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Navbar from "../../components/navbar/Navbar";
@@ -9,12 +8,11 @@ function Article() {
   const [article, setArticle] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const { id } = useParams(); 
+  const { id } = useParams();
   const intId = parseInt(id) || 1;
 
   useEffect(() => {
     const found = detail.find((item) => item.id === intId);
-
     setArticle(found || null);
     setLoading(false);
   }, [intId]);
@@ -53,14 +51,6 @@ function Article() {
 
         <h1 className="article-title">{article.title}</h1>
 
-        <div className="tags">
-          {article.tags.map((tag, index) => (
-            <span key={index} className={`tag ${tag.type}`}>
-              {tag.text}
-            </span>
-          ))}
-        </div>
-
         <div className="featured-image-wrapper">
           <img
             src={article.image}
@@ -69,7 +59,6 @@ function Article() {
           />
         </div>
 
-        {/* Sections */}
         {article.sections.map((section, index) => (
           <section key={index} className="article-section">
             <h2>{section.heading}</h2>
@@ -77,10 +66,16 @@ function Article() {
               className="article-content"
               dangerouslySetInnerHTML={{
                 __html: section.content
-                  .replace(/\n\n/g, "</p><p>")
-                  .replace(/\n/g, "<br />")
-                  .replace(/•\s(.+?)(?=\n|$)/g, "<li>$1</li>")
-                  .replace(/(<li>.+?<\/li>)/gs, "<ul>$1</ul>")
+                  .replace(/\n{2,}/g, "</p><p>")
+                  .replace(/(?:•\s[^\n]+\n?)+/g, (match) => {
+                    const items = match
+                      .trim()
+                      .split("\n")
+                      .filter((line) => line.trim().startsWith("•"))
+                      .map((line) => `<li>${line.replace(/^•\s*/, "")}</li>`)
+                      .join("");
+                    return `<ul>${items}</ul>`;
+                  })
                   .replace(/^/, "<p>")
                   .replace(/$/, "</p>"),
               }}
@@ -92,6 +87,20 @@ function Article() {
             )}
           </section>
         ))}
+
+        {/* Footer Scholar Link (Optional) */}
+        {article.scholarLink && (
+          <div className="article-footer">
+            <a
+              href={article.scholarLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="scholar-footer-link"
+            >
+              📚 View full citation on Google Scholar
+            </a>
+          </div>
+        )}
       </div>
       <Footer />
     </div>

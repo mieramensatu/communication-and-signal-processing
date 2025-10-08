@@ -2,32 +2,37 @@
 import React, { useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/pagination";
+
 import activities from "../../data/activities.json";
 import membersData from "../../data/member.json";
 
 function Activities({ activeResearcher = "all", onFilterChange = () => {} }) {
   const sectionRef = useRef(null);
 
-  // Scroll ke section ini saat activeResearcher berubah
   useEffect(() => {
     if (activeResearcher && activeResearcher !== "all" && sectionRef.current) {
       sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   }, [activeResearcher]);
 
-  const allMembers = Object.values(membersData.member).flat();
-  const researcherNames = allMembers.map((m) => m.name);
+  const truncateText = (text, maxLength) => {
+    if (!text || text.length <= maxLength) return text;
+    const truncated = text.slice(0, maxLength);
+    const lastSpace = truncated.lastIndexOf(" ");
+    if (lastSpace > 0) {
+      return truncated.slice(0, lastSpace) + "...";
+    }
+    return truncated + "...";
+  };
 
   const filteredActivities = activities.filter((act) => {
     if (activeResearcher === "all") return true;
+    if (!act.author || typeof act.author !== "string") return false;
     return act.author.toLowerCase().includes(activeResearcher.toLowerCase());
   });
-
-  const handleFilter = (filter) => {
-    onFilterChange(filter);
-  };
 
   return (
     <section className="activities" id="activities" ref={sectionRef}>
@@ -48,9 +53,8 @@ function Activities({ activeResearcher = "all", onFilterChange = () => {} }) {
           </div>
         </div>
 
-        {/* SWIPER CARDS */}
         <Swiper
-          modules={[Autoplay]}
+          modules={[Autoplay, Pagination]}
           spaceBetween={30}
           slidesPerView={3}
           loop={true}
@@ -58,6 +62,7 @@ function Activities({ activeResearcher = "all", onFilterChange = () => {} }) {
             delay: 3000,
             disableOnInteraction: false,
           }}
+          pagination={{ clickable: true }}
           breakpoints={{
             320: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
@@ -76,29 +81,16 @@ function Activities({ activeResearcher = "all", onFilterChange = () => {} }) {
                     <h5>{item.title}</h5>
                     <p>
                       {item.desc
-                        ? item.desc.substring(0, 80) + "..."
+                        ? truncateText(item.desc, 80)
                         : "No description available."}
                     </p>
                   </div>
                   <div className="overlay-content">
                     <h5>{item.title}</h5>
                     <p>{item.desc || "No detailed content available."}</p>
-                    {item.link ? (
-                      <a
-                        href={item.link.trim()}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="detail-link"
-                      >
-                        More detail
-                      </a>
-                    ) : item.id ? (
-                      <Link to={`/article/${item.id}`} className="detail-link">
-                        More detail
-                      </Link>
-                    ) : (
-                      <span className="detail-link disabled">More detail</span>
-                    )}
+                    <Link to={`/article/${item.id}`} className="detail-link">
+                      More detail
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>

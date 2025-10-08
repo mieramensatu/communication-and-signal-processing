@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import logo from "../../assets/img/logo (1).png";
 
 function Navbar({ onSelectCategory, fullWidth = false }) {
   const [active, setActive] = useState("home");
   const [openDropdown, setOpenDropdown] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const navRef = useRef(null);
 
   useEffect(() => {
-    const section = document.querySelectorAll("section");
-
+    const sections = document.querySelectorAll("section");
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -20,20 +22,26 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
       { threshold: 0.1 }
     );
 
-    section.forEach((sec) => observer.observe(sec));
-
-    return () => {
-      section.forEach((sec) => observer.unobserve(sec));
-    };
+    sections.forEach((sec) => observer.observe(sec));
+    return () => sections.forEach((sec) => observer.unobserve(sec));
   }, []);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-
+    const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (navRef.current && !navRef.current.contains(e.target)) {
+        setIsMenuOpen(false);
+        setOpenDropdown(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
   const handleScrollTo = (id) => {
@@ -41,23 +49,51 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+    setIsMenuOpen(false);
     setOpenDropdown(false);
   };
 
-  const handleMemberClick = (category) => {
-    onSelectCategory(category);
+  const handleCategorySelect = (category) => {
+    if (typeof onSelectCategory === "function") {
+      onSelectCategory(category);
+    }
     handleScrollTo("member");
   };
 
+  const toggleMenu = (e) => {
+    e.stopPropagation();
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
-    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`} ref={navRef}>
       <div className={fullWidth ? "container-fluid" : "container"}>
+        {/* Logo */}
         <div className="logo">
-          <a href="/">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              handleScrollTo("home");
+            }}
+          >
             <img src={logo} alt="Logo" />
           </a>
         </div>
-        <div className="List">
+
+        {/* Hamburger Button - Mobile Only */}
+        <button
+          className="hamburger"
+          onClick={toggleMenu}
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        {/* Menu Items (di tengah) */}
+        <div className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
           <ul className="list-item">
             <li>
               <button
@@ -77,41 +113,51 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
             </li>
             <li
               className="dropdown"
-              onMouseEnter={() => setOpenDropdown(true)}
-              onMouseLeave={() => setOpenDropdown(false)}
+              onClick={(e) => {
+                if (window.innerWidth <= 768) {
+                  e.stopPropagation();
+                  setOpenDropdown(!openDropdown);
+                }
+              }}
+              onMouseEnter={() =>
+                window.innerWidth > 768 && setOpenDropdown(true)
+              }
+              onMouseLeave={() =>
+                window.innerWidth > 768 && setOpenDropdown(false)
+              }
             >
-              <button className={active.includes("member") ? "active" : ""}>
+              <button className={active === "member" ? "active" : ""}>
                 Member ▾
               </button>
-              {openDropdown && (
+              {(openDropdown || isMenuOpen) && (
                 <ul className="dropdown-menu">
                   <li>
-                    <button onClick={() => handleMemberClick("all")}>
+                    <button onClick={() => handleCategorySelect("all")}>
                       All Members
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleMemberClick("researcher")}>
+                    <button onClick={() => handleCategorySelect("researcher")}>
                       Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleMemberClick("visiting")}>
+                    <button onClick={() => handleCategorySelect("visiting")}>
                       Visiting Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleMemberClick("internship")}>
+                    <button onClick={() => handleCategorySelect("internship")}>
                       Internship Students
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleMemberClick("finalyear")}>
+                    <button onClick={() => handleCategorySelect("finalyear")}>
                       Final Project
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleMemberClick("mbkm")}>
+                    <button onClick={() => handleCategorySelect("mbkm")}>
                       MBKM
                     </button>
                   </li>
@@ -120,6 +166,8 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
             </li>
           </ul>
         </div>
+
+        {/* Contact Us Button (di kanan) */}
         <button
           onClick={() => handleScrollTo("contact")}
           className="button-contact"

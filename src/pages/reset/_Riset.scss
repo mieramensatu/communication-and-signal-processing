@@ -14,12 +14,15 @@
       color: map.get(v.$color, "title");
       text-align: center;
       padding: 1rem;
+      font-size: 1.5rem;
     }
 
     .description p {
       color: map.get(v.$color, "text-first");
-      font-size: 2.5rem;
+      font-size: 2rem; // Lebih kecil agar tidak terlalu besar di mobile
       font-weight: 600;
+      margin: 0 auto 1rem;
+      max-width: 800px;
     }
 
     .details p {
@@ -27,12 +30,15 @@
       text-align: center;
       font-size: 1.1rem;
       padding: 1rem 0 3rem 0;
+      max-width: 700px;
+      margin: 0 auto;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(280px, 1fr));
-      gap: 3rem;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      justify-items: center;
     }
 
     .card {
@@ -41,27 +47,133 @@
       border-radius: 1rem;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
+      width: 100%;
+      max-width: 320px;
 
       .icon {
-        font-size: 2rem;
+        font-size: 2.2rem;
         color: #e62f2a;
-        margin-bottom: 1rem;
+        margin-bottom: 1.25rem;
       }
 
       h3 {
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.25rem;
+        margin-bottom: 0.75rem;
         color: #222;
       }
 
       p {
         color: #555;
         font-size: 0.95rem;
+        line-height: 1.5;
       }
 
       &:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        transform: translateY(-6px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+      }
+    }
+  }
+}
+
+// ✅ Tablet (768px - 1024px)
+@media (max-width: 1024px) {
+  .outcomes {
+    .container {
+      width: 90%;
+
+      .description p {
+        font-size: 1.8rem;
+      }
+
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+      }
+
+      .card {
+        max-width: 300px;
+        padding: 1.75rem;
+
+        .icon {
+          font-size: 2rem;
+        }
+
+        h3 {
+          font-size: 1.15rem;
+        }
+      }
+    }
+  }
+}
+
+// ✅ Mobile (≤ 768px)
+@media (max-width: 768px) {
+  .outcomes {
+    padding: 3rem 0;
+
+    .container {
+      width: 95%;
+
+      .title h4 {
+        font-size: 1.35rem;
+      }
+
+      .description p {
+        font-size: 1.5rem;
+      }
+
+      .details p {
+        font-size: 1rem;
+        padding: 1rem 0 2rem;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .card {
+        max-width: 100%;
+        padding: 1.5rem;
+
+        .icon {
+          font-size: 2rem;
+        }
+
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .outcomes {
+    .container {
+      .description p {
+        font-size: 1.35rem;
+      }
+
+      .card {
+        padding: 1.25rem;
+
+        .icon {
+          font-size: 1.8rem;
+        }
+
+        h3 {
+          font-size: 1.1rem;
+        }
+
+        p {
+          font-size: 0.85rem;
+        }
       }
     }
   }

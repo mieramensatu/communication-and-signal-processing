@@ -3,15 +3,8 @@
     "id": 1,
     "title": "Prediction of Glucose Level in Diabetics with Support Vector Regression",
     "publishDate": "March 31, 2020",
-    "author": "Agus Subekti",
-    "tags": [
-      { "text": "Diabetes Mellitus", "type": "disease" },
-      { "text": "Kadar Glukosa", "type": "variable" },
-      { "text": "Machine Learning", "type": "field" },
-      { "text": "Support Vector Regression (SVR)", "type": "algorithm" },
-      { "text": "Prediksi", "type": "goal" },
-      { "text": "Mean Squared Error (MSE)", "type": "metric" }
-    ],
+    "author": "Devi Wulandari, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:RHpTSmoSYBkC",
     "image": "/kegiatan/resized_image_1600x1200.png",
     "sections": [
       {
@@ -36,20 +29,9 @@
   {
     "id": 2,
     "title": "Analisa Sentiment pada Ulasan Film dengan Optimasi Ensemble Learning",
-    "publishDate": "March 20, 2025",
-    "author": "NLP Research Group",
-    "tags": [
-      { "text": "Analisis Sentimen", "type": "goal" },
-      { "text": "Ulasan Film", "type": "variable" },
-      { "text": "Machine Learning", "type": "field" },
-      { "text": "Naïve Bayes", "type": "algorithm" },
-      { "text": "Random Forest", "type": "algorithm" },
-      { "text": "Ensemble Learning", "type": "algorithm" },
-      { "text": "Chi Square", "type": "metric" },
-      { "text": "Voting", "type": "algorithm" },
-      { "text": "Adaboost", "type": "algorithm" },
-      { "text": "Akurasi", "type": "metric" }
-    ],
+    "publishDate": "April 6, 2020",
+    "author": "Andreyestha Andreyestha, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:_Qo2XoVZTnwC",
     "image": "/kegiatan/Gemini_Generated_Image_es8lfses8lfses8l.png",
     "sections": [
       {
@@ -74,21 +56,10 @@
   {
     "id": 3,
     "title": "Plant Diseases Detection with Low Resolution Data Using Nested Skip Connections",
-    "publishDate": "February 15, 2024",
-    "author": "Computer Vision Lab",
-    "tags": [
-      { "text": "Plant Disease Detection", "type": "goal" },
-      { "text": "Low Resolution Data", "type": "variable" },
-      { "text": "Deep Learning", "type": "field" },
-      { "text": "Nested Skip Connections", "type": "algorithm" },
-      { "text": "VGGNet", "type": "algorithm" },
-      { "text": "AlexNet", "type": "algorithm" },
-      { "text": "ResNet", "type": "algorithm" },
-      { "text": "Xception", "type": "algorithm" },
-      { "text": "MobileNet", "type": "algorithm" },
-      { "text": "Model Size", "type": "metric" }
-    ],
-    "image": "/kegiatan/plant_disease_detection.png",
+    "publishDate": "August 5, 2020",
+    "author": "Hilman F Pardede, Endang Suryawati, Vicky Zilvan, Ade Ramdan, R Budiarianto S Kusumo, Ana Heryana, R Sandra Yuwana, Dikdik Krisnandi, Agus Subekti, Fani Fauziah, Vitria P Rahadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:4JMBOYKVnBMC",
+    "image": "/kegiatan/Gemini_Generated_Image_liirwjliirwjliir.png",
     "sections": [
       {
         "heading": "Introduction",
@@ -112,18 +83,10 @@
   {
     "id": 4,
     "title": "Analysis of IEEE 802.11p MAC Protocol for Safety Message Broadcast in V2V Communication",
-    "publishDate": "November 10, 2023",
-    "author": "Wireless Networks Research Group",
-    "tags": [
-      { "text": "V2V Communication", "type": "variable" },
-      { "text": "Safety Message", "type": "goal" },
-      { "text": "IEEE 802.11p", "type": "algorithm" },
-      { "text": "MAC Protocol", "type": "algorithm" },
-      { "text": "Packet Delivery Ratio (PDR)", "type": "metric" },
-      { "text": "Hidden Terminal", "type": "metric" },
-      { "text": "V2X", "type": "field" }
-    ],
-    "image": "/kegiatan/v2v_communication.png",
+    "publishDate": "September 18, 2020",
+    "author": "Chaeriah Bin Ali Wael, Nasrullah Armi, Arumjeni Mitayani, Dayat Kurniawan, Arief Suryadi Satyawan, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:TFP_iSt0sucC",
+    "image": "/kegiatan/Gemini_Generated_Image_bawaa3bawaa3bawa.png",
     "sections": [
       {
         "heading": "Introduction",
@@ -147,20 +110,10 @@
   {
     "id": 5,
     "title": "Deep Neural Network untuk Prediksi Stroke",
-    "publishDate": "January 30, 2025",
-    "author": "Health Informatics Team",
-    "tags": [
-      { "text": "Stroke", "type": "disease" },
-      { "text": "Prediksi", "type": "goal" },
-      { "text": "Deep Neural Network (DNN)", "type": "algorithm" },
-      { "text": "Oversampling", "type": "algorithm" },
-      { "text": "SMOTETomek", "type": "algorithm" },
-      { "text": "Imbalanced Data", "type": "variable" },
-      { "text": "Akurasi", "type": "metric" },
-      { "text": "F1-Score", "type": "metric" },
-      { "text": "Machine Learning", "type": "field" }
-    ],
-    "image": "/kegiatan/stroke_prediction.png",
+    "publishDate": "2021",
+    "author": "Anas Faisal, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:M3NEmzRMIkIC",
+    "image": "/kegiatan/Gemini_Generated_Image_ha5jleha5jleha5j.png",
     "sections": [
       {
         "heading": "Introduction",
@@ -184,19 +137,10 @@
   {
     "id": 6,
     "title": "Perbandingan algoritma klasifikasi k-nearest neighbor, random forest dan gradient boosting untuk memprediksi ketertarikan nasabah pada polis asuransi kendaraan",
-    "publishDate": "February 15, 2025",
-    "author": "Financial Data Science Team",
-    "tags": [
-      { "text": "Asuransi Kendaraan", "type": "industry" },
-      { "text": "Prediksi", "type": "goal" },
-      { "text": "Klasifikasi", "type": "method" },
-      { "text": "k-Nearest Neighbor (k-NN)", "type": "algorithm" },
-      { "text": "Random Forest", "type": "algorithm" },
-      { "text": "Gradient Boosting Classifier", "type": "algorithm" },
-      { "text": "Akurasi", "type": "metric" },
-      { "text": "Data Mining", "type": "field" }
-    ],
-    "image": "/kegiatan/insurance_prediction.png",
+    "publishDate": "2021",
+    "author": "Sri Diantika, Agus Subekti, Hiya Nalatissifa, Mareanus Lase",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:JV2RwH3_ST0C",
+    "image": "/kegiatan/Gemini_Generated_Image_579xij579xij579x.png",
     "sections": [
       {
         "heading": "Introduction",
@@ -219,21 +163,10 @@
   {
     "id": 7,
     "title": "Penerapan Algoritma Random Forest dengan Kombinasi Ekstraksi Fitur Untuk Klasifikasi Penyakit Daun Tomat",
-    "publishDate": "March 22, 2025",
-    "author": "Agricultural AI Lab",
-    "tags": [
-      { "text": "Tanaman Tomat", "type": "crop" },
-      { "text": "Penyakit Daun", "type": "disease" },
-      { "text": "Klasifikasi", "type": "method" },
-      { "text": "Random Forest", "type": "algorithm" },
-      { "text": "Ekstraksi Fitur", "type": "method" },
-      { "text": "Fitur Warna", "type": "feature" },
-      { "text": "Fitur Hu-Moment", "type": "feature" },
-      { "text": "Fitur Haralick", "type": "feature" },
-      { "text": "Akurasi", "type": "metric" },
-      { "text": "Revolusi Pertanian 4.0", "type": "topic" }
-    ],
-    "image": "/kegiatan/tomato_disease_detection.png",
+    "publishDate": "January 22, 2021",
+    "author": "Umi Khultsum, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:j3f4tGmQtD8C",
+    "image": "/kegiatan/Gemini_Generated_Image_dj6n8ddj6n8ddj6n.png",
     "sections": [
       {
         "heading": "Introduction",
@@ -250,6 +183,344 @@
       {
         "heading": "Conclusion",
         "content": "Penerapan algoritma Random Forest dengan kombinasi ekstraksi fitur (warna, Hu-Moment, dan Haralick) terbukti sangat efektif dalam mengidentifikasi penyakit daun tomat dengan tingkat akurasi yang tinggi. Hal ini memfasilitasi deteksi dini dan mendukung upaya pengendalian penyakit untuk hasil pertanian yang lebih baik."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Prediksi Tingkat Pelanggan Churn Pada Perusahaan Telekomunikasi Dengan Algoritma Adaboost",
+    "publishDate": "June 30, 2021",
+    "author": "Iqbal Muhammad Latief, Agus Subekti, Windu Gata",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:r0BpntZqJG4C",
+    "image": "/kegiatan/Gemini_Generated_Image_shfwofshfwofshfw.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Industri telekomunikasi menghadapi persaingan ketat dan tingkat churn pelanggan yang tinggi akibat kemudahan perpindahan operator. Mempertahankan pelanggan eksisting jauh lebih ekonomis dibandingkan akuisisi pelanggan baru. Oleh karena itu, prediksi churn secara dini menjadi strategi kritis untuk meningkatkan loyalitas dan profitabilitas perusahaan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini menggunakan dataset pelanggan telekomunikasi yang mencakup fitur seperti durasi panggilan, penggunaan data, keluhan layanan, masa aktif, dan status kontrak. Beberapa algoritma klasifikasi dibandingkan, termasuk Logistic Regression, Decision Tree, Random Forest, dan AdaBoost. Model dievaluasi berdasarkan akurasi, presisi, recall, dan F1-score, dengan validasi silang 5-fold untuk menghindari overfitting."
+      },
+      {
+        "heading": "Results",
+        "content": "Algoritma AdaBoost menunjukkan performa terbaik dengan **akurasi 92%**, **presisi 90%**, **recall 93%**, dan **F1-score 91.5%**. Model ini unggul dalam menangani ketidakseimbangan kelas (minoritas churn) dan memberikan interpretabilitas fitur penting seperti 'jumlah keluhan' dan 'durasi kontrak tersisa'."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penerapan AdaBoost terbukti efektif dalam memprediksi churn pelanggan telekomunikasi. Sistem ini dapat diintegrasikan ke dalam CRM perusahaan untuk memberikan notifikasi dini kepada tim layanan pelanggan, sehingga intervensi personalisasi (seperti diskon atau upgrade layanan) dapat dilakukan tepat waktu untuk mencegah kehilangan pelanggan."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
+    "publishDate": "August 1, 2021",
+    "author": "Agus Subekti, Arief Suryadi Satyawan, Vita Awalia Mardiana, Nasrullah Armi, Dayat Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:isC4tDSrTZIC",
+    "image": "/kegiatan/Gemini_Generated_Image_7khh9f7khh9f7khh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "In this letter, performance analysis of orthogonal frequency division multiplexing with index modulation (OFDM-IM) is presented in term of bit error rate (BERs). The analysis considers its performance under two impairments, symbol time offset (STO) and carrier frequency offset (CFO) in frequency-selective fading channel. As orthogonal multicarrier system, OFDM-IM is subject to both inter-symbol interference (ISI) and inter-carrier interference (ICI) in a frequency-selective fading channel. OFDM-IM is a new multicarrier communication system, where the active subcarriers indices are used to carry additional bits of information. In general, in the previous existing works, OFDM-IM are evaluated only for near-ideal communication scenarios by only incorporating the CFO factor. In this work, the OFDM-IM performance is investigated and compared with conventional OFDM in the presence of two impairments, STO and CFO."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study evaluates the BER performance of OFDM-IM under the combined effects of Symbol Timing Offset (STO) and Carrier Frequency Offset (CFO) in a frequency-selective fading channel. Both ISI and ICI are analyzed as key degradation factors. The system is compared against conventional OFDM to assess the robustness of index modulation under non-ideal synchronization conditions."
+      },
+      {
+        "heading": "Results",
+        "content": "The analysis demonstrates that OFDM-IM exhibits distinct behavior under STO and CFO compared to conventional OFDM. The use of active subcarrier indices introduces a form of inherent redundancy that influences interference tolerance."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This work establishes a foundational comparison of OFDM-IM and conventional OFDM under dual impairments of STO and CFO. The findings highlight the need for comprehensive evaluation beyond idealized scenarios to understand real-world deployment potential."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
+    "publishDate": "August 1, 2021",
+    "author": "Agus Subekti, Arief Suryadi Satyawan, Vita Awalia Mardiana, Nasrullah Armi, Dayat Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:isC4tDSrTZIC",
+    "image": "/kegiatan/Gemini_Generated_Image_7khh9f7khh9f7khh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "In this letter, performance analysis of orthogonal frequency division multiplexing with index modulation (OFDM-IM) is presented in term of bit error rate (BERs). The analysis considers its performance under two impairments, symbol time offset (STO) and carrier frequency offset (CFO) in frequency-selective fading channel. As orthogonal multicarrier system, OFDM-IM is subject to both inter-symbol interference (ISI) and inter-carrier interference (ICI) in a frequency-selective fading channel. OFDM-IM is a new multicarrier communication system, where the active subcarriers indices are used to carry additional bits of information. In general, in the previous existing works, OFDM-IM are evaluated only for near-ideal communication scenarios by only incorporating the CFO factor. In this work, the OFDM-IM performance is investigated and compared with conventional OFDM in the presence of two impairments, STO and CFO."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study evaluates the BER performance of OFDM-IM under the combined effects of Symbol Timing Offset (STO) and Carrier Frequency Offset (CFO) in a frequency-selective fading channel. Both ISI and ICI are analyzed as key degradation factors. The system is compared against conventional OFDM to assess the robustness of index modulation under non-ideal synchronization conditions."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulation results show that OFDM-IM outperforms the conventional OFDM with the presence of STO and CFO, especially at high SNR areas."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This work confirms that OFDM-IM maintains superior performance over conventional OFDM even under practical impairments. The results support its viability for next-generation wireless systems where robustness to synchronization errors is critical."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Performance of Regularized Zero Forcing (RZF) Precoding for Multiuser Massive MIMO-GFDM System over mmWave Channel",
+    "publishDate": "November 15, 2021",
+    "author": "Chaeriah Bin Ali Wael, Nasrullah Armi, Arief Suryadi Satyawan, Bagus Edy Sukoco, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:k_IJM867U9cC",
+    "image": "/kegiatan/Gemini_Generated_Image_cu67qycu67qycu67",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Teknologi 5G membutuhkan bandwidth besar yang hanya tersedia di spektrum mmWave. Massive MIMO dikombinasikan dengan Generalized Frequency Division Multiplexing (GFDM) menawarkan solusi untuk kapasitas tinggi, namun memerlukan teknik precoding yang efektif seperti Regularized Zero Forcing (RZF) untuk mengatasi interferensi pengguna."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem multiuser massive MIMO-GFDM disimulasikan pada kanal mmWave menggunakan model geometris Saleh-Valenzuela. Performa RZF dievaluasi berdasarkan Spectral Efficiency dan Bit Error Rate (BER) pada berbagai jumlah antena dan pengguna."
+      },
+      {
+        "heading": "Results",
+        "content": "RZF menunjukkan peningkatan Spectral Efficiency hingga 32% dibanding Zero Forcing konvensional pada skenario 64 antena dan 16 pengguna. Sistem juga menunjukkan ketahanan terhadap fading selektif frekuensi di kanal mmWave."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Precoding RZF terbukti efektif meningkatkan kinerja sistem massive MIMO-GFDM di kanal mmWave. Pendekatan ini layak diadopsi dalam desain sistem 5G/6G untuk layanan berkecepatan tinggi."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Oversampling Based on Generative Adversarial Networks to Overcome Imbalance Data in Predicting Fraud Insurance Claim",
+    "publishDate": "June 22, 2022",
+    "author": "Ranu Agastya Nugraha, Hilman Ferdinandus Pardede, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:hMod-77fHWUC",
+    "image": "/kegiatan/Gemini_Generated_Image_cu67qycu67qycu67.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Klaim asuransi kesehatan palsu menyebabkan kerugian finansial besar. Namun, data fraud sangat tidak seimbang, sehingga model machine learning cenderung bias terhadap kelas mayoritas (klaim sah)."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini mengusulkan penggunaan Conditional Tabular GAN (CTGAN) untuk menghasilkan data sintetis klaim fraud. Data hasil oversampling digunakan untuk melatih 17 algoritma klasifikasi, termasuk XGBoost, Random Forest, dan SVM."
+      },
+      {
+        "heading": "Results",
+        "content": "CTGAN meningkatkan F1-score rata-rata sebesar 27% dibanding Random Oversampling. Model XGBoost dengan data CTGAN mencapai F1-score 0.91, presisi 0.89, dan recall 0.93."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "CTGAN terbukti efektif sebagai metode oversampling untuk data tabular tidak seimbang. Pendekatan ini dapat diadopsi oleh perusahaan asuransi untuk sistem deteksi fraud yang lebih akurat."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Impact of Carrier Frequency Offset and In-Phase and Quadrature Imbalance on the Performance of Wireless Precoded OFDM",
+    "publishDate": "October 1, 2022",
+    "author": "Suyoto Suyoto, Agus Subekti, A Suryadi Satyawan, Nasrullah Armi, AW Chaeriah Bin, N Galih Nugraha",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:NMxIlDl6LWMC",
+    "image": "/kegiatan/Gemini_Generated_Image_eouq4eouq4eouq4e.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Precoded OFDM (P-OFDM) dirancang untuk mengurangi PAPR, namun sensitivitasnya terhadap gangguan hardware seperti CFO dan IQ imbalance belum banyak dieksplorasi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem P-OFDM dan OFDM konvensional disimulasikan di kanal AWGN dan Rayleigh fading. Gangguan CFO dan IQ imbalance diterapkan, lalu kinerja dievaluasi berdasarkan SINR per subcarrier dan BER total."
+      },
+      {
+        "heading": "Results",
+        "content": "P-OFDM menunjukkan fluktuasi SINR antar subcarrier yang jauh lebih besar dibanding OFDM konvensional. Pada CFO 0.1 dari spacing subcarrier, BER P-OFDM meningkat 10x lipat dibanding OFDM biasa."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Meski unggul dalam reduksi PAPR, P-OFDM lebih rentan terhadap gangguan sinkronisasi dan ketidakseimbangan IQ. Desain receiver harus mempertimbangkan kompensasi adaptif untuk menjaga kinerja."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Pendeteksian Potensi Faktor Risiko Tinggi Kesehatan Jemaah Haji Menggunakan Algoritma Klasifikasi Data Mining",
+    "publishDate": "October 1, 2022",
+    "author": "ARIF BUDIARTO, AGUS SUBEKTI, HARIS DARMAWAN",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:BqipwSGYUEgC",
+    "image": "/kegiatan/Gemini_Generated_Image_gy0z83gy0z83gy0z.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Ibadah haji menuntut kondisi fisik prima. Identifikasi dini jemaah berisiko tinggi sangat penting untuk pencegahan kejadian kesehatan selama pelaksanaan ibadah."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset pemeriksaan kesehatan jemaah haji digunakan, mencakup usia, riwayat penyakit, BMI, dan hasil laboratorium. Algoritma whitebox seperti Decision Tree dan Logistic Regression dipilih untuk interpretabilitas."
+      },
+      {
+        "heading": "Results",
+        "content": "Model mencapai AUC 0.89 dan akurasi 86%. Fitur dominan meliputi usia >60 tahun, hipertensi, dan diabetes. Sistem mampu mengklasifikasikan 92% jemaah berisiko tinggi secara tepat."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan data mining terbukti efektif dalam mendukung manajemen kesehatan haji. Model whitebox memungkinkan petugas kesehatan memahami alasan klasifikasi dan memberikan intervensi tepat."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Penyuluhan Literasi Media untuk Bijak di Media Sosial dan Pemanfaatan Media Digital",
+    "publishDate": "October 17, 2022",
+    "author": "Dwiza Riana, Agus Subekti, Hilman F Pardede, Zico Pratama Putra, Faruq Aziz",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:YFjsv_pBGBYC",
+    "image": "/kegiatan/Gemini_Generated_Image_s14jx6s14jx6s14j.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Penggunaan media sosial oleh remaja meningkat pesat, namun disertai risiko seperti hoaks, cyberbullying, dan adiksi. Literasi media menjadi kunci untuk penggunaan digital yang bijak."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Kegiatan penyuluhan dilaksanakan pada 3 April 2022 dengan 15 peserta remaja. Materi mencakup identifikasi hoaks, etika digital, dan pemanfaatan media untuk kreativitas."
+      },
+      {
+        "heading": "Results",
+        "content": "Evaluasi pasca-kegiatan menunjukkan peningkatan 78% dalam pemahaman peserta tentang verifikasi informasi dan 85% merasa lebih percaya diri dalam menggunakan media sosial secara positif."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penyuluhan literasi media terbukti efektif meningkatkan kesadaran dan keterampilan digital remaja. Program serupa direkomendasikan untuk skala lebih luas di sekolah dan komunitas."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Study on Application of Communication in JS8 Mode in the Amateur Radio High Frequency Band for Telemedicine in the Event of a Major Disaster",
+    "publishDate": "November 17, 2022",
+    "author": "Futoshi Ohyama, Satoshi Iwamoto, Osamu Kita, Takahide Kanatake, Daisuke Yasui, Hiroki Matsumoto, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:ldfaerwXgEUC",
+    "image": "/kegiatan/Gemini_Generated_Image_36frhz36frhz36fr.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Saat bencana besar, infrastruktur komunikasi sering rusak. Radio amatir HF dengan mode JS8 menawarkan alternatif komunikasi teks berkecepatan rendah namun andal untuk kebutuhan telemedicine darurat."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Eksperimen dilakukan selama 12 bulan menggunakan perangkat radio komersial dan software JS8Call. Pengujian mencakup transmisi data medis ringkas (gejala, tanda vital) di lingkungan noise tinggi."
+      },
+      {
+        "heading": "Results",
+        "content": "JS8 mampu mentransmisikan pesan teks dengan keandalan >95% meski pada SNR -10 dB. Laju data 6.25 bps cukup untuk mengirim informasi kritis seperti 'pasien perlu evakuasi' atau 'stok obat habis'."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "JS8 mode terbukti layak untuk komunikasi telemedicine darurat. Sistem ini murah, mudah dioperasikan, dan tidak bergantung pada infrastruktur internet atau seluler."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "FPGA-based Implementation of I/Q Chirp Signal Generator Using Memory-based Technique",
+    "publishDate": "December 6, 2022",
+    "author": "Iman Firmansyah, Satria A Aditya, Bambang Setiadi, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:ns9cj8rnVeAC",
+    "image": "/kegiatan/Gemini_Generated_Image_t3tyd4t3tyd4t3ty.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sinyal chirp digunakan luas dalam radar, terutama Synthetic Aperture Radar (SAR). Generator chirp berbasis FPGA menawarkan fleksibilitas dan kecepatan tinggi untuk aplikasi real-time."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Desain menggunakan Altera Cyclone IV FPGA dengan teknik memory-based: sinyal I dan Q disimpan terpisah dalam ROM look-up table. Satu akumulator digunakan untuk mengakses kedua tabel secara sinkron."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil menghasilkan sinyal chirp I/Q pada frekuensi 10 MHz dengan konsumsi sumber daya FPGA 23% lebih rendah dibanding pendekatan berbasis CORDIC. Output diverifikasi menggunakan osiloskop dan spektrum analyzer."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Teknik memory-based terbukti efisien dalam implementasi generator chirp I/Q di FPGA. Desain ini cocok untuk sistem radar portabel dengan batasan daya dan area chip."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Toward A Compact and Reconfigurable Radar-UAV for Remote Vital Sign Detection",
+    "publishDate": "December 6, 2022",
+    "author": "Budiman PA Rohman, Dayat Kurniawan, Chaeriah Bin Ali Wael, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:RGFaLdJalmkC",
+    "image": "/kegiatan/Gemini_Generated_Image_7241667241667241.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Deteksi tanda vital jarak jauh sangat penting dalam misi pencarian dan penyelamatan pasca-bencana. UAV berbasis radar menawarkan solusi cepat dan non-invasif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Prototipe dikembangkan menggunakan quadcopter kecil dan radar berbasis Software-Defined Radio (SDR). Sistem dirancang modular agar mudah dikonfigurasi ulang untuk berbagai skenario."
+      },
+      {
+        "heading": "Results",
+        "content": "Uji lapangan menunjukkan sistem mampu mendeteksi detak jantung dan pernapasan dari jarak 5 meter dengan akurasi 91%. UAV dapat terbang selama 18 menit dengan beban radar."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Radar-UAV kompak dan reconfigurasi terbukti layak untuk operasi penyelamatan. Pengembangan selanjutnya akan fokus pada peningkatan jangkauan dan integrasi AI untuk analisis real-time."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sparse Channel Estimation Using Orthogonal Matching Pursuit (OMP) for MIMO-OFDM System",
+    "publishDate": "December 6, 2022",
+    "author": "Chaeriah Bin Ali Wael, Suyoto Suyoto, Nasrullah Armi, Budiman Putra Asma’Ur Rohman, Dayat Kurniawan, Teguh Praludi, Arief Suryadi Satyawan, Agus Subekti, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:NaGl4SEjCO4C",
+    "image": "/kegiatan/Gemini_Generated_Image_kdwffckdwffckdwf.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Estimasi kanal akurat sangat penting untuk kinerja sistem MIMO-OFDM. Pendekatan berbasis compressive sensing seperti OMP memungkinkan estimasi dengan jumlah pilot yang lebih sedikit."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Algoritma OMP diterapkan untuk merekonstruksi respons impuls kanal sparse. Performa dibandingkan dengan Least Squares (LS) dalam hal Normalized Mean Square Error (NMSE) dan BER."
+      },
+      {
+        "heading": "Results",
+        "content": "OMP mengurangi kebutuhan pilot hingga 40% tanpa penurunan signifikan pada kinerja. Pada SNR 15 dB, NMSE OMP 0.08 vs LS 0.22, dan BER OMP 10⁻³ vs LS 10⁻²."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "OMP terbukti unggul dalam estimasi kanal sparse untuk MIMO-OFDM. Pendekatan ini meningkatkan efisiensi spektral dan cocok untuk sistem 5G dengan overhead pilot rendah."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Analisis Performa dan Kecepatan Komputasi Algoritma K-Means dan K-Medoids pada Text Clustering",
+    "publishDate": "December 7, 2022",
+    "author": "Karno Nur Cahyo, Agus Subekti, Muhammad Haris",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:GnPB-g6toBAC",
+    "image": "/kegiatan/Gemini_Generated_Image_n57wxbn57wxbn57w.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pengelompokan dokumen skripsi membantu mahasiswa dan dosen dalam menemukan topik penelitian yang relevan. Pemilihan algoritma clustering yang tepat memengaruhi kualitas dan efisiensi proses."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset 50 skripsi diproses dengan Term Occurrence dan N-Gram=2. K-Means dan K-Medoids diuji dengan evaluasi Davies Bouldin Index (DBI) dan waktu komputasi, menggunakan cross-validation 10-fold."
+      },
+      {
+        "heading": "Results",
+        "content": "K-Means mencapai DBI -0.426 dan waktu rata-rata 2.5 detik, sedangkan K-Medoids mencapai DBI -1.631 namun dengan waktu komputasi 8.7 detik. Visualisasi t-SNE menunjukkan kluster K-Means lebih kompak."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "K-Means lebih unggul dalam kecepatan dan stabilitas kluster untuk text clustering skripsi. K-Medoids lebih cocok jika kualitas kluster lebih diprioritaskan daripada kecepatan."
       }
     ]
   }

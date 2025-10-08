@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
   transition: all 0.3s ease-in-out;
 
   .container {
@@ -19,129 +19,207 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; // ✅ Logo kiri, menu tengah, contact kanan
     padding: 0.6rem 2rem;
     border-radius: 15px;
 
     .logo {
       img {
         width: 50%;
-        height: 50%;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
       }
     }
 
-    .list-item {
+    // ✅ Menu items (Home, Activity, Member)
+    .nav-menu {
       display: flex;
+      align-items: center;
       gap: 2rem;
-      color: map.get(v.$color, "title");
+      flex-grow: 1; // ✅ Mengisi ruang kosong di tengah
+      justify-content: center; // Rata tengah
 
-      li {
-        list-style: none;
+      .list-item {
+        display: flex;
+        gap: 2rem;
+        color: map.get(v.$color, "title");
 
-        button {
-          position: relative;
-          display: inline-block;
-          text-decoration: none;
-          color: map.get(v.$color, "title");
-          transition: color 0.3s ease-in-out;
-          background-color: transparent;
-          border: none;
-          font-size: 1rem;
-          cursor: pointer;
-          padding: 0;
+        li {
+          list-style: none;
 
-          &::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -3px;
-            width: 0;
-            height: 2px;
-            background: map.get(v.$color, "hover");
-            transition: width 0.3s ease-in-out;
-            border-radius: 1rem;
-          }
-
-          &.active,
-          &:hover {
-            color: map.get(v.$color, "hover");
+          button {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            color: map.get(v.$color, "title");
+            transition: color 0.3s ease-in-out;
+            background-color: transparent;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            padding: 0;
 
             &::after {
-              width: 100%;
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -3px;
+              width: 0;
+              height: 2px;
+              background: map.get(v.$color, "hover");
+              transition: width 0.3s ease-in-out;
+              border-radius: 1rem;
             }
-          }
-        }
 
-        &.dropdown {
-          position: relative;
+            &.active,
+            &:hover {
+              color: map.get(v.$color, "hover");
 
-          .dropdown-menu {
-            position: absolute;
-            top: 115%;
-            left: 0;
-            background: #fff;
-            border-radius: 10px;
-            border: 2px solid rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            min-width: 200px;
-            z-index: 999;
-            opacity: 0;
-            transform: translateY(10px);
-            pointer-events: none;
-            transition: all 0.25s ease;
-
-            li {
-              button {
-                display: inline-block;
-                text-align: left;
-                padding-bottom: 5px;
-                margin: 0.5rem 1rem 0.5rem 0.5rem;
-                border: none;
-                background: transparent;
-                font-size: 0.95rem;
-                font-weight: 500;
-                color: map.get(v.$color, "title");
-                cursor: pointer;
-                transition: all 0.2s ease;
-                position: relative;
-
-                &::after {
-                  content: "";
-                  position: absolute;
-                  left: 0;
-                  bottom: 3px;
-                  width: 0;
-                  height: 2px;
-                  background: map.get(v.$color, "hover");
-                  transition: width 0.3s ease-in-out;
-                  border-radius: 1rem;
-                }
-
-                &:hover {
-                  color: color.scale(
-                    map.get(v.$color, "title"),
-                    $lightness: -10%
-                  );
-
-                  &::after {
-                    width: 100%;
-                  }
-                }
-
-                &:not(:last-child) {
-                  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-                }
+              &::after {
+                width: 100%;
               }
             }
           }
 
-          /* tampilkan dropdown saat aktif */
-          &:hover .dropdown-menu {
-            opacity: 1;
-            transform: translateY(0);
-            pointer-events: auto;
+          &.dropdown {
+            position: relative;
+
+            .dropdown-menu {
+              position: absolute;
+              top: 115%;
+              left: 0;
+              background: #fff;
+              border-radius: 10px;
+              border: 2px solid rgba(0, 0, 0, 0.1);
+              display: flex;
+              flex-direction: column;
+              min-width: 200px;
+              z-index: 999;
+              opacity: 0;
+              transform: translateY(10px);
+              pointer-events: none;
+              transition: all 0.25s ease;
+
+              li {
+                button {
+                  display: inline-block;
+                  text-align: left;
+                  padding: 0.5rem 1rem;
+                  margin: 0;
+                  border: none;
+                  background: transparent;
+                  font-size: 0.95rem;
+                  font-weight: 500;
+                  color: map.get(v.$color, "title");
+                  cursor: pointer;
+                  transition: all 0.2s ease;
+                  position: relative;
+                  width: 100%;
+
+                  &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 0;
+                    height: 2px;
+                    background: map.get(v.$color, "hover");
+                    transition: width 0.3s ease-in-out;
+                    border-radius: 1rem;
+                  }
+
+                  &:hover {
+                    color: color.scale(
+                      map.get(v.$color, "title"),
+                      $lightness: -10%
+                    );
+
+                    &::after {
+                      width: 100%;
+                    }
+                  }
+
+                  &:not(:last-child) {
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                  }
+                }
+              }
+            }
+
+            &:hover .dropdown-menu {
+              opacity: 1;
+              transform: translateY(0);
+              pointer-events: auto;
+            }
+          }
+        }
+      }
+
+      &.open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: map.get(v.$color, "background");
+        padding: 4rem 2rem 2rem;
+        z-index: 1000;
+        gap: 2rem;
+        align-items: flex-start;
+
+        .list-item {
+          flex-direction: column;
+          gap: 1.5rem;
+          width: 100%;
+
+          li {
+            width: 100%;
+
+            button {
+              width: 100%;
+              text-align: left;
+              padding: 0.5rem 0;
+              font-size: 1.1rem;
+            }
+
+            &.dropdown {
+              position: static;
+
+              button {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              }
+
+              .dropdown-menu {
+                position: static;
+                opacity: 1;
+                transform: none;
+                pointer-events: auto;
+                box-shadow: none;
+                border: none;
+                margin-top: 0.5rem;
+                background: rgba(255, 255, 255, 0.05);
+                min-width: auto;
+                border-radius: 8px;
+                padding: 0.5rem 0;
+
+                li {
+                  button {
+                    padding-left: 1rem;
+                    font-size: 1rem;
+                    border-bottom: none;
+                    padding: 0.6rem 1rem;
+
+                    &:not(:last-child) {
+                      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -171,6 +249,139 @@
       background-color: map.get(v.$color, "background");
       width: 100%;
       border-radius: 0;
+    }
+  }
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+
+  span {
+    height: 3px;
+    width: 100%;
+    background-color: map.get(v.$color, "title");
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar {
+    margin-top: 1rem;
+
+    .container {
+      width: 100%;
+      padding: 0.6rem 1.5rem;
+      border-radius: 0;
+
+      .logo img {
+        width: 60%;
+      }
+
+      .nav-menu {
+        display: none;
+      }
+
+      .button-contact {
+        display: none;
+      }
+    }
+
+    &.scrolled {
+      margin-top: 0;
+      .container {
+        padding: 0.6rem 1.5rem;
+      }
+    }
+  }
+
+  .nav-menu.open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: map.get(v.$color, "background");
+    padding: 4rem 2rem 2rem;
+    z-index: 1000;
+    gap: 2rem;
+    align-items: flex-start;
+
+    .list-item {
+      flex-direction: column;
+      gap: 1.5rem;
+      width: 100%;
+
+      li {
+        width: 100%;
+
+        button {
+          width: 100%;
+          text-align: left;
+          padding: 0.5rem 0;
+          font-size: 1.1rem;
+        }
+
+        &.dropdown {
+          position: static;
+
+          button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          .dropdown-menu {
+            position: static;
+            opacity: 1;
+            transform: none;
+            pointer-events: auto;
+            box-shadow: none;
+            border: none;
+            margin-top: 0.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            min-width: auto;
+            border-radius: 8px;
+            padding: 0.5rem 0;
+
+            li {
+              button {
+                padding-left: 1rem;
+                font-size: 1rem;
+                border-bottom: none;
+                padding: 0.6rem 1rem;
+
+                &:not(:last-child) {
+                  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .button-contact {
+      display: flex;
+      align-self: flex-start;
+      margin-top: 1rem;
+      padding: 12px 24px;
+      font-size: 1.1rem;
     }
   }
 }

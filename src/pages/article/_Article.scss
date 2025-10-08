@@ -31,10 +31,43 @@
 
   .article-meta {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 1rem;
     font-size: 0.9rem;
     color: map.get(v.$color, "text-secondary") or #666;
     margin-bottom: 1rem;
+  }
+
+  .publish-date,
+  .author {
+    white-space: nowrap;
+  }
+
+  .scholar-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #4285f4; /* Google Blue */
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+
+    &:hover {
+      background: #3367d6;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 6px rgba(66, 133, 244, 0.3);
+    }
+
+    svg {
+      stroke: white;
+      flex-shrink: 0;
+    }
   }
 
   .article-title {
@@ -43,54 +76,6 @@
     margin: 0.5rem 0 1.2rem;
     line-height: 1.2;
     color: map.get(v.$color, "text");
-  }
-
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-    margin: 1.5rem 0 2.5rem;
-  }
-
-  .tag {
-    padding: 0.25rem 0.8rem;
-    border-radius: 50px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    background-color: map.get(v.$color, "background-light") or #f5f7fa;
-    color: map.get(v.$color, "text") or #333;
-    white-space: nowrap;
-  }
-
-  .tag.disease {
-    background-color: rgba(236, 72, 153, 0.15);
-    color: map.get(v.$color, "secondary") or #ec4899;
-  }
-
-  .tag.variable {
-    background-color: rgba(59, 130, 246, 0.15);
-    color: map.get(v.$color, "primary") or #3b82f6;
-  }
-
-  .tag.field {
-    background-color: rgba(139, 92, 246, 0.15);
-    color: map.get(v.$color, "purple") or #8b5cf6;
-  }
-
-  .tag.algorithm {
-    background-color: rgba(16, 185, 129, 0.15);
-    color: map.get(v.$color, "success") or #10b981;
-  }
-
-  .tag.goal {
-    background-color: rgba(249, 115, 22, 0.15);
-    color: map.get(v.$color, "accent") or #f97316;
-  }
-
-  .tag.metric {
-    background-color: rgba(100, 116, 139, 0.15);
-    color: map.get(v.$color, "gray") or #64748b;
   }
 
   .featured-image-wrapper {
@@ -145,6 +130,27 @@
     color: map.get(v.$color, "text");
     border-radius: 0 8px 8px 0;
   }
+
+  .article-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid map.get(v.$color, "border") or #eee;
+    text-align: center;
+
+    .scholar-footer-link {
+      color: #1a73e8;
+      font-weight: 500;
+      text-decoration: none;
+      font-size: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -163,7 +169,18 @@
 
     .article-meta {
       flex-direction: column;
-      gap: 0.3rem;
+      align-items: flex-start;
+      gap: 0.5rem;
+
+      .scholar-button {
+        align-self: flex-start;
+      }
+    }
+
+    .article-footer {
+      .scholar-footer-link {
+        font-size: 0.95rem;
+      }
     }
   }
 }

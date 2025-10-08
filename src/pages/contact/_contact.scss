@@ -4,7 +4,7 @@
 
 .contact {
   background-color: transparent;
-  padding: 2rem 0;
+  padding: 3rem 0;
   position: relative;
   font-family: v.$poppins;
 
@@ -20,13 +20,14 @@
     @include m.center(85%);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 2.5rem;
     color: map.get(v.$color, "background");
 
     .contact-col {
       h3 {
         font-weight: 600;
         margin-bottom: 1rem;
+        font-size: 1.25rem;
         position: relative;
 
         &::after {
@@ -43,11 +44,16 @@
       p {
         margin: 0.5rem 0;
         font-size: 0.95rem;
-        line-height: 1.5;
+        line-height: 1.6;
 
         a {
           color: map.get(v.$color, "background");
           text-decoration: none;
+          transition: opacity 0.2s;
+
+          &:hover {
+            opacity: 0.8;
+          }
         }
       }
 
@@ -57,13 +63,90 @@
         margin: 0;
 
         li {
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.6rem;
 
           a {
             text-decoration: none;
             color: map.get(v.$color, "background");
-            font-size: 0.9rem;
+            font-size: 0.95rem;
+            transition: opacity 0.2s;
+
+            &:hover {
+              opacity: 0.8;
+            }
           }
+        }
+      }
+    }
+  }
+}
+
+// ✅ Tablet (768px - 1024px)
+@media (max-width: 1024px) {
+  .contact {
+    padding: 2.5rem 0;
+
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      width: 90%;
+
+      .contact-col {
+        h3 {
+          font-size: 1.15rem;
+        }
+
+        p,
+        ul li a {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+// ✅ Mobile (≤ 768px)
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 0;
+
+    .container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      width: 95%;
+      padding: 0 1rem;
+
+      .contact-col {
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        p,
+        ul li a {
+          font-size: 0.95rem;
+        }
+
+        p {
+          word-break: break-word;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    .container {
+      gap: 1.75rem;
+
+      .contact-col {
+        h3 {
+          font-size: 1.15rem;
+        }
+
+        p,
+        ul li a {
+          font-size: 0.9rem;
         }
       }
     }

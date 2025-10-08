@@ -24,7 +24,7 @@
 
       .description p {
         color: map.get(v.$color, "text-first");
-        font-size: 2.2rem; // sedikit diperkecil agar tidak terlalu besar
+        font-size: 2.2rem;
         font-weight: 600;
         margin: 0.5rem 0;
       }
@@ -73,17 +73,23 @@
           font-size: 1.2rem;
           font-weight: 600;
           color: map.get(v.$color, "background");
-          white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          line-height: 1.3;
         }
 
         p {
           font-size: 0.95rem;
           color: #ddd;
-          white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          line-height: 1.3;
         }
       }
 
@@ -117,6 +123,13 @@
           font-size: 0.9rem;
           margin-bottom: 0.8rem;
           white-space: normal;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 1.4;
+          max-height: 4.2rem;
         }
 
         .detail-link {
@@ -159,6 +172,34 @@
       }
     }
 
+    .list {
+      position: relative; /* penting untuk pagination absolute */
+      padding-bottom: 30px; /* beri ruang di bawah untuk pagination */
+
+      .swiper-pagination {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: fit-content;
+        z-index: 10;
+
+        .swiper-pagination-bullet {
+          width: 10px;
+          height: 10px;
+          background-color: rgba(255, 255, 255, 0.5);
+          opacity: 1;
+          transition: all 0.3s ease;
+
+          &.swiper-pagination-bullet-active {
+            background-color: map.get(v.$color, "title");
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+
     @media (max-width: 768px) {
       .text {
         width: 90%;
@@ -169,6 +210,19 @@
         button {
           padding: 0.4rem 0.9rem;
           font-size: 0.85rem;
+        }
+      }
+
+      .list {
+        padding-bottom: 25px;
+
+        .swiper-pagination {
+          bottom: 0;
+
+          .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+          }
         }
       }
     }
@@ -183,6 +237,10 @@
 
       .description p {
         font-size: 1.8rem;
+      }
+
+      .list {
+        padding-bottom: 20px;
       }
     }
   }

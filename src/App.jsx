@@ -12,12 +12,14 @@ import Contact from "./pages/contact/Contact";
 import Member from "./pages/member/Member";
 
 function App() {
-  const selectedCategory = "researcher";
+  const [memberCategory, setMemberCategory] = useState("researcher");
   const [activeResearcher, setActiveResearcher] = useState("all");
 
   return (
     <div>
-      <Navbar />
+      {/* Teruskan handler ke Navbar */}
+      <Navbar onSelectCategory={setMemberCategory} />
+
       <Hero />
       <Partner />
       <About />
@@ -27,7 +29,7 @@ function App() {
       />
       <Reset />
       <Member
-        category={selectedCategory}
+        category={memberCategory}
         onShowResearch={(name) => setActiveResearcher(name)}
       />
       <Contact />

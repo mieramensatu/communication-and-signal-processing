@@ -17,50 +17,110 @@
     "id": 3,
     "title": "Plant Diseases Detection with Low Resolution Data Using Nested Skip Connections",
     "desc": "Mengevaluasi kinerja model Deep Learning (VGGNet, AlexNet, ResNet, Xception, MobileNet) untuk deteksi penyakit tanaman pada data resolusi rendah untuk mengatasi kendala di negara berkembang. Tujuannya adalah menemukan model yang berkinerja baik dengan ukuran model yang lebih kecil.",
-    "img": "/kegiatan/gambarlab3.jpeg",
+    "img": "/kegiatan/Gemini_Generated_Image_liirwjliirwjliir.png",
     "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "id": 4,
     "title": "Analysis of IEEE 802.11p MAC Protocol for Safety Message Broadcast in V2V Communication",
     "desc": "Analisis kinerja protokol IEEE 802.11p MAC untuk penyiaran pesan keselamatan Vehicle-to-Vehicle (V2V). Evaluasi dilakukan melalui simulasi dan analisis untuk metrik Packet Delivery Ratio (PDR), menunjukkan penurunan PDR drastis akibat masalah hidden terminal.",
-    "img": "/kegiatan/gambarlab3.jpeg",
+    "img": "/kegiatan/Gemini_Generated_Image_bawaa3bawaa3bawa.png",
     "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
   },
   {
     "id": 5,
     "title": "Deep Neural Network untuk Prediksi Stroke",
     "desc": "Penerapan Deep Neural Network (DNN) untuk prediksi stroke, membandingkan tiga teknik oversampling untuk menyeimbangkan kelas. Hasil terbaik didapat menggunakan teknik SMOTETomek dengan arsitektur DNN lima hidden layer, mencapai akurasi, presisi, recall, dan f1-score sekitar 0.96.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "img": "/kegiatan/Gemini_Generated_Image_ha5jleha5jleha5j.png"
   },
   {
     "id": 6,
     "title": "Prediksi Minat Nasabah Asuransi Kendaraan dengan Algoritma Klasifikasi",
     "desc": "Membandingkan kinerja algoritma k-NN, Random Forest, dan Gradient Boosting dalam memprediksi ketertarikan nasabah pada polis asuransi kendaraan. Algoritma k-Nearest Neighbor (k-NN) menghasilkan akurasi tertinggi sebesar 91%, mengungguli Random Forest (87%) dan Gradient Boosting (88%).",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "img": "/kegiatan/Gemini_Generated_Image_579xij579xij579x.png"
   },
   {
     "id": 7,
     "title": "Penerapan Algoritma Random Forest dengan Kombinasi Ekstraksi Fitur Untuk Klasifikasi Penyakit Daun Tomat",
     "desc": "Klasifikasi penyakit daun tomat menggunakan algoritma Random Forest dengan kebaruan pada kombinasi ekstraksi fitur (warna, Hu-Moment, Haralick). Metode ini berhasil menunjukkan peningkatan akurasi klasifikasi hingga mencapai 96%.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "img": "/kegiatan/Gemini_Generated_Image_dj6n8ddj6n8ddj6n.png"
   },
   {
     "id": 8,
     "title": "Prediksi Tingkat Pelanggan Churn Pada Perusahaan Telekomunikasi Dengan Algoritma Adaboost",
-    "desc": "Menerapkan algoritma klasifikasi (Logistic Regression, Decision Tree, Random Forest, XGBoost) untuk deteksi dini penyakit stroke. Hasil terbaik diperoleh dengan XGBoost, mencapai akurasi 96%, presisi 95%, recall 98%, dan f1-score 96%.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "desc": "Penerapan algoritma AdaBoost untuk memprediksi churn pelanggan di sektor telekomunikasi, memungkinkan perusahaan mengidentifikasi pelanggan berisiko tinggi dan mengambil langkah retensi secara proaktif.",
+    "img": "/kegiatan/Gemini_Generated_Image_shfwofshfwofshfw.png"
   },
   {
     "id": 9,
-    "title": "Performance analysis of OFDM-IM scheme under STO and CFO.",
-    "desc": "Menerapkan algoritma klasifikasi (Logistic Regression, Decision Tree, Random Forest, XGBoost) untuk deteksi dini penyakit stroke. Hasil terbaik diperoleh dengan XGBoost, mencapai akurasi 96%, presisi 95%, recall 98%, dan f1-score 96%.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
+    "desc": "Analisis kinerja OFDM-Index Modulation (OFDM-IM) terhadap gangguan Symbol Timing Offset (STO) dan Carrier Frequency Offset (CFO), menunjukkan bahwa OFDM-IM lebih tangguh dibanding OFDM konvensional pada kanal fading selektif frekuensi.",
+    "img": "/kegiatan/Gemini_Generated_Image_7khh9f7khh9f7khh.png"
   },
   {
     "id": 10,
-    "title": "Performance analysis of OFDM-IM scheme under STO and CFO. ",
-    "desc": "Klasifikasi penyakit daun tomat menggunakan algoritma K-Nearest Neighbor (KNN) dengan ekstraksi fitur warna, Hu-Moment, dan Haralick. Metode ini berhasil mencapai akurasi klasifikasi hingga 95%, menunjukkan efektivitas kombinasi fitur dalam mendeteksi penyakit pada daun tomat.",
-    "img": "/kegiatan/gambarlab3.jpeg"
+    "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
+    "desc": "Studi komparatif antara OFDM-IM dan OFDM konvensional dalam kondisi STO dan CFO, membuktikan keunggulan OFDM-IM dalam mempertahankan kinerja BER yang lebih baik, terutama pada SNR tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_946v68946v68946v.png"
+  },
+  {
+    "id": 11,
+    "title": "Performance of Regularized Zero Forcing (RZF) Precoding for Multiuser Massive MIMO-GFDM System over mmWave Channel",
+    "desc": "Evaluasi kinerja sistem massive MIMO-GFDM dengan precoding RZF pada kanal mmWave menggunakan model Saleh-Valenzuela untuk meningkatkan kapasitas komunikasi 5G.",
+    "img": "/kegiatan/Gemini_Generated_Image_gealoqgealoqgeal.png"
+  },
+  {
+    "id": 12,
+    "title": "Oversampling Based on Generative Adversarial Networks to Overcome Imbalance Data in Predicting Fraud Insurance Claim",
+    "desc": "Penggunaan CTGAN sebagai metode oversampling untuk menangani ketidakseimbangan data dalam deteksi klaim asuransi kesehatan palsu, meningkatkan akurasi dan F1-score.",
+    "img": "/kegiatan/Gemini_Generated_Image_cu67qycu67qycu67.png"
+  },
+  {
+    "id": 13,
+    "title": "Impact of Carrier Frequency Offset and In-Phase and Quadrature Imbalance on the Performance of Wireless Precoded OFDM",
+    "desc": "Analisis dampak CFO dan ketidakseimbangan IQ terhadap sistem P-OFDM, menunjukkan penurunan SINR dan kenaikan BER dibanding OFDM konvensional.",
+    "img": "/kegiatan/Gemini_Generated_Image_eouq4eouq4eouq4e.png"
+  },
+  {
+    "id": 14,
+    "title": "Pendeteksian Potensi Faktor Risiko Tinggi Kesehatan Jemaah Haji Menggunakan Algoritma Klasifikasi Data Mining",
+    "desc": "Penerapan algoritma data mining untuk mengklasifikasi jemaah haji berisiko tinggi berdasarkan data kesehatan, guna mendukung manajemen kesehatan haji yang proaktif.",
+    "img": "/kegiatan/Gemini_Generated_Image_gy0z83gy0z83gy0z.png"
+  },
+  {
+    "id": 15,
+    "title": "Penyuluhan Literasi Media untuk Bijak di Media Sosial dan Pemanfaatan Media Digital",
+    "desc": "Kegiatan edukasi literasi media bagi remaja untuk meningkatkan kesadaran dan keterampilan dalam penggunaan media sosial secara bijak dan produktif.",
+    "img": "/kegiatan/Gemini_Generated_Image_s14jx6s14jx6s14j.png"
+  },
+  {
+    "id": 16,
+    "title": "Study on Application of Communication in JS8 Mode in the Amateur Radio High Frequency Band for Telemedicine in the Event of a Major Disaster",
+    "desc": "Eksplorasi penggunaan mode JS8 pada radio amatir HF untuk komunikasi telemedicine darurat saat bencana besar dengan laju data rendah namun andal.",
+    "img": "/kegiatan/Gemini_Generated_Image_36frhz36frhz36fr.png"
+  },
+  {
+    "id": 17,
+    "title": "FPGA-based Implementation of I/Q Chirp Signal Generator Using Memory-based Technique",
+    "desc": "Implementasi generator sinyal chirp I/Q berbasis FPGA menggunakan teknik look-up table untuk aplikasi radar aperture sintetis (SAR).",
+    "img": "/kegiatan/Gemini_Generated_Image_t3tyd4t3tyd4t3ty.png"
+  },
+  {
+    "id": 18,
+    "title": "Toward A Compact and Reconfigurable Radar-UAV for Remote Vital Sign Detection",
+    "desc": "Pengembangan UAV radar kompak dan dapat dikonfigurasi ulang berbasis SDR untuk deteksi tanda vital jarak jauh dalam misi pencarian dan penyelamatan.",
+    "img": "/kegiatan/Gemini_Generated_Image_7241667241667241.png"
+  },
+  {
+    "id": 19,
+    "title": "Sparse Channel Estimation Using Orthogonal Matching Pursuit (OMP) for MIMO-OFDM System",
+    "desc": "Estimasi kanal sparse pada sistem MIMO-OFDM menggunakan algoritma OMP untuk mengurangi jumlah pilot dan meningkatkan efisiensi spektral.",
+    "img": "/kegiatan/Gemini_Generated_Image_kdwffckdwffckdwf.png"
+  },
+  {
+    "id": 20,
+    "title": "Analisis Performa dan Kecepatan Komputasi Algoritma K-Means dan K-Medoids pada Text Clustering",
+    "desc": "Perbandingan kinerja dan waktu komputasi K-Means dan K-Medoids dalam pengelompokan skripsi, menunjukkan K-Means lebih cepat dan memiliki DBI lebih baik.",
+    "img": "/kegiatan/Gemini_Generated_Image_n57wxbn57wxbn57w.png"
   }
 ]

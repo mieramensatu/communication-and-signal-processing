@@ -1,5 +1,4 @@
-// src/components/Activities.jsx
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -7,10 +6,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import activities from "../../data/activities.json";
-import membersData from "../../data/member.json";
 
-function Activities({ activeResearcher = "all", onFilterChange = () => {} }) {
+function Activities({ activeResearcher = "all" }) {
   const sectionRef = useRef(null);
+  const [swiperInstance, setSwiperInstance] = useState(null);
 
   useEffect(() => {
     if (activeResearcher && activeResearcher !== "all" && sectionRef.current) {
@@ -34,6 +33,11 @@ function Activities({ activeResearcher = "all", onFilterChange = () => {} }) {
     return act.author.toLowerCase().includes(activeResearcher.toLowerCase());
   });
 
+  // Fungsi kustom untuk render bullet
+  const renderPaginationBullet = (index, className) => {
+    return `<button class="custom-pagination-bullet ${className}"></button>`;
+  };
+
   return (
     <section className="activities" id="activities" ref={sectionRef}>
       <div className="container">
@@ -53,56 +57,64 @@ function Activities({ activeResearcher = "all", onFilterChange = () => {} }) {
           </div>
         </div>
 
-        <Swiper
-          modules={[Autoplay, Pagination]}
-          spaceBetween={30}
-          slidesPerView={3}
-          loop={true}
-          autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
-          pagination={{ clickable: true }}
-          breakpoints={{
-            320: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          className="list"
-        >
-          {filteredActivities.length > 0 ? (
-            filteredActivities.map((item) => (
-              <SwiperSlide key={item.id}>
-                <div className="card">
-                  <div className="card-img">
-                    <img src={item.img} alt={item.title} />
+        <div className="swiper-wrapper">
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            spaceBetween={30}
+            slidesPerView={3}
+            loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+              renderBullet: renderPaginationBullet,
+            }}
+            onSwiper={(swiper) => setSwiperInstance(swiper)}
+            breakpoints={{
+              320: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+            className="list"
+          >
+            {filteredActivities.length > 0 ? (
+              filteredActivities.map((item) => (
+                <SwiperSlide key={item.id}>
+                  <div className="card">
+                    <div className="card-img">
+                      <img src={item.img} alt={item.title} />
+                    </div>
+                    <div className="card-body">
+                      <h5>{item.title}</h5>
+                      <p>
+                        {item.desc
+                          ? truncateText(item.desc, 80)
+                          : "No description available."}
+                      </p>
+                    </div>
+                    <div className="overlay-content">
+                      <h5>{item.title}</h5>
+                      <p>{item.desc || "No detailed content available."}</p>
+                      <Link to={`/article/${item.id}`} className="detail-link">
+                        More detail
+                      </Link>
+                    </div>
                   </div>
-                  <div className="card-body">
-                    <h5>{item.title}</h5>
-                    <p>
-                      {item.desc
-                        ? truncateText(item.desc, 80)
-                        : "No description available."}
-                    </p>
-                  </div>
-                  <div className="overlay-content">
-                    <h5>{item.title}</h5>
-                    <p>{item.desc || "No detailed content available."}</p>
-                    <Link to={`/article/${item.id}`} className="detail-link">
-                      More detail
-                    </Link>
-                  </div>
+                </SwiperSlide>
+              ))
+            ) : (
+              <SwiperSlide>
+                <div style={{ textAlign: "center", padding: "50px" }}>
+                  <p>No research found for this filter.</p>
                 </div>
               </SwiperSlide>
-            ))
-          ) : (
-            <SwiperSlide>
-              <div style={{ textAlign: "center", padding: "50px" }}>
-                <p>No research found for this filter.</p>
-              </div>
-            </SwiperSlide>
-          )}
-        </Swiper>
+            )}
+          </Swiper>
+
+          <div className="custom-pagination"></div>
+        </div>
       </div>
     </section>
   );

@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom"; // 👈 tambahkan useLocation
 import logo from "../../assets/img/logo (1).png";
 
 function Navbar({ onSelectCategory, fullWidth = false }) {
   const navigate = useNavigate();
+  const location = useLocation(); // 👈 dapatkan path saat ini
   const [active, setActive] = useState("home");
   const [openDropdown, setOpenDropdown] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -11,8 +12,24 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
 
   const navRef = useRef(null);
 
+  // 🔹 Efek untuk menentukan active berdasarkan URL
   useEffect(() => {
-    if (window.location.pathname !== "/") return;
+    const path = location.pathname;
+
+    if (path.startsWith("/article/")) {
+      setActive("activities"); // Highlight "Activity" saat di halaman artikel
+    } else if (path === "/") {
+      // Biarkan IntersectionObserver mengatur active (lihat useEffect berikutnya)
+      setActive("home");
+    } else {
+      // Untuk halaman lain (jika ada), default ke home atau sesuaikan
+      setActive("home");
+    }
+  }, [location.pathname]);
+
+  // Intersection Observer hanya untuk halaman utama
+  useEffect(() => {
+    if (location.pathname !== "/") return;
 
     const sections = document.querySelectorAll("section[id]");
     if (sections.length === 0) return;
@@ -30,16 +47,16 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
 
     sections.forEach((sec) => observer.observe(sec));
     return () => sections.forEach((sec) => observer.unobserve(sec));
-  }, []);
+  }, [location.pathname]); // 👈 tambahkan dependency
 
-  // Efek saat scroll (untuk navbar scrolled style)
+  // Efek scroll
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Tutup dropdown & mobile menu saat klik di luar
+  // Klik di luar
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (navRef.current && !navRef.current.contains(e.target)) {
@@ -52,7 +69,6 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
     return () => document.removeEventListener("click", handleClickOutside);
   }, []);
 
-  // Scroll ke section (hanya berlaku di halaman utama)
   const handleScrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -62,36 +78,27 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
     setOpenDropdown(false);
   };
 
-  // Pilih kategori member dan scroll ke section "member" (hanya di halaman utama)
   const handleCategorySelect = (category) => {
     if (typeof onSelectCategory === "function") {
       onSelectCategory(category);
     }
-    // Hanya scroll jika di halaman utama
-    if (window.location.pathname === "/") {
+    if (location.pathname === "/") {
       handleScrollTo("member");
     } else {
-      // Jika di luar halaman utama, arahkan ke /#member
       navigate("/#member");
-      // Opsional: tambahkan logika scroll setelah load jika diperlukan
     }
   };
 
-  // Toggle mobile menu
   const toggleMenu = (e) => {
     e.stopPropagation();
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // ✅ Handle klik logo: scroll atau navigasi tergantung halaman
   const handleLogoClick = (e) => {
     e.preventDefault();
-
-    if (window.location.pathname === "/") {
-      // Di halaman utama → scroll ke home
+    if (location.pathname === "/") {
       handleScrollTo("home");
     } else {
-      // Di halaman lain → navigasi ke beranda
       navigate("/");
     }
   };
@@ -99,14 +106,12 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`} ref={navRef}>
       <div className={fullWidth ? "container-fluid" : "container"}>
-        {/* Logo */}
         <div className="logo">
           <a href="/" onClick={handleLogoClick}>
             <img src={logo} alt="Logo" />
           </a>
         </div>
 
-        {/* Hamburger untuk mobile */}
         <button
           className="hamburger"
           onClick={toggleMenu}
@@ -117,13 +122,12 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
           <span></span>
         </button>
 
-        {/* Menu navigasi */}
         <div className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
           <ul className="list-item">
             <li>
               <button
                 onClick={() => {
-                  if (window.location.pathname === "/") {
+                  if (location.pathname === "/") {
                     handleScrollTo("home");
                   } else {
                     navigate("/");
@@ -137,7 +141,7 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
             <li>
               <button
                 onClick={() => {
-                  if (window.location.pathname === "/") {
+                  if (location.pathname === "/") {
                     handleScrollTo("activities");
                   } else {
                     navigate("/#activities");
@@ -204,10 +208,9 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
           </ul>
         </div>
 
-        {/* Tombol Contact Us */}
         <button
           onClick={() => {
-            if (window.location.pathname === "/") {
+            if (location.pathname === "/") {
               handleScrollTo("contact");
             } else {
               navigate("/#contact");

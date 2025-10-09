@@ -10,6 +10,15 @@ function Member({ category, onShowResearch }) {
       ? Object.values(data).flat()
       : data[selectedCategory] || [];
 
+  const handleShowResearch = (name) => {
+    onShowResearch(name);
+
+    const activitiesSection = document.getElementById("activities");
+    if (activitiesSection) {
+      activitiesSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section className="member" id="member">
       <div className="container">
@@ -43,7 +52,7 @@ function Member({ category, onShowResearch }) {
                 )}
 
                 <button
-                  onClick={() => onShowResearch(member.name)}
+                  onClick={() => handleShowResearch(member.name)}
                   className="button"
                 >
                   Show Research

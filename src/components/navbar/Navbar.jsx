@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom"; // 👈 tambahkan useLocation
+import { useNavigate, useLocation } from "react-router-dom";
 import logo from "../../assets/img/logo (1).png";
 
 function Navbar({ onSelectCategory, fullWidth = false }) {
   const navigate = useNavigate();
-  const location = useLocation(); // 👈 dapatkan path saat ini
+  const location = useLocation();
   const [active, setActive] = useState("home");
   const [openDropdown, setOpenDropdown] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -12,22 +12,18 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
 
   const navRef = useRef(null);
 
-  // 🔹 Efek untuk menentukan active berdasarkan URL
   useEffect(() => {
     const path = location.pathname;
 
     if (path.startsWith("/article/")) {
-      setActive("activities"); // Highlight "Activity" saat di halaman artikel
+      setActive("activities");
     } else if (path === "/") {
-      // Biarkan IntersectionObserver mengatur active (lihat useEffect berikutnya)
       setActive("home");
     } else {
-      // Untuk halaman lain (jika ada), default ke home atau sesuaikan
       setActive("home");
     }
   }, [location.pathname]);
 
-  // Intersection Observer hanya untuk halaman utama
   useEffect(() => {
     if (location.pathname !== "/") return;
 
@@ -47,16 +43,14 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
 
     sections.forEach((sec) => observer.observe(sec));
     return () => sections.forEach((sec) => observer.unobserve(sec));
-  }, [location.pathname]); // 👈 tambahkan dependency
+  }, [location.pathname]);
 
-  // Efek scroll
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Klik di luar
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (navRef.current && !navRef.current.contains(e.target)) {

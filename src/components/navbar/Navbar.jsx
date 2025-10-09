@@ -178,27 +178,27 @@ function Navbar({ onSelectCategory, fullWidth = false }) {
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleCategorySelect("researcher")}>
+                    <button onClick={() => handleCategorySelect("Researcher")}>
                       Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleCategorySelect("visiting")}>
+                    <button onClick={() => handleCategorySelect("Visiting")}>
                       Visiting Researchers
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleCategorySelect("internship")}>
+                    <button onClick={() => handleCategorySelect("Internship")}>
                       Internship Students
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleCategorySelect("finalyear")}>
+                    <button onClick={() => handleCategorySelect("FinalYear")}>
                       Final Project
                     </button>
                   </li>
                   <li>
-                    <button onClick={() => handleCategorySelect("mbkm")}>
+                    <button onClick={() => handleCategorySelect("MBKM")}>
                       MBKM
                     </button>
                   </li>

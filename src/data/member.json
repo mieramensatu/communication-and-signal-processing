@@ -1,6 +1,6 @@
 {
   "member": {
-    "researcher": [
+    "Researcher": [
       {
         "name": "Prof. Dr. Agus Subekti, MT",
         "role": "electrical engineering & informatics",
@@ -122,7 +122,7 @@
         "scholar": "https://scholar.google.com/citations?user=jxLSmqgAAAAJ&hl=id"
       }
     ],
-    "visiting": [
+    "Visiting": [
       {
         "name": "Prof Iyad Dayoub",
         "role": "Telecommunication Engineering, Intellegent Transportation Systems, Electrical Engineering, Mobility",
@@ -136,7 +136,7 @@
         "scholar": "https://scholar.google.com/citations?user=xJHiA_gAAAAJ&hl=id&oi=ao"
       }
     ],
-    "internship": [
+    "Internship": [
       {
         "name": "Rakha Fabianto",
         "role": "Data Compression Using Unsupervised Learning",
@@ -174,7 +174,7 @@
         "img": "/intern/ah.jpeg"
       }
     ],
-    "finalyear": [
+    "FinalYear": [
       {
         "name": "Nurul Syahira Ambil",
         "role": "Classification Object Detection Autonomous Vehicle Hybrid Models",
@@ -200,7 +200,7 @@
         "img": "/finalproject/bf.jpeg"
       }
     ],
-    "mbkm": [
+    "MBKM": [
       {
         "name": "Rangga Byian Tri Putra",
         "role": "Rancang Bangun Sistem Pengirim Gambar Berbasis Komunikasi LoRa E220-900T30D Terintegrasi Arduino Uno untuk Aplikasi Kendaraan Listrik Otonom",

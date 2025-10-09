@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "author": ["Devi Wulandari", "Agus Subekti"],
     "title": "Prediction of Glucose Levels in Diabetics Using Support Vector Regression",
     "desc": "Machine learning is used to predict glucose levels in diabetics. Support Vector Regression outperformed other algorithms with the lowest mean squared error (28.9480), where Instance 47 showed the highest predicted plasma glucose (189.2305).",
     "img": "/kegiatan/resized_image_1600x1200.png",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "author": ["Andreyestha Andreyestha, Agus Subekti"],
     "title": "Analisa Sentiment pada Ulasan Film dengan Optimasi Ensemble Learning",
     "desc": "Analisis sentimen ulasan film menggunakan Optimasi Ensemble Learning (kombinasi Naïve Bayes dan Random Forest) dan seleksi fitur Chi Square. Model Chi Square + Voting 2 (RF+SVM) menghasilkan akurasi tertinggi 84.6% pada Polarity Dataset 2.0 dan akurasi hingga 92% pada ulasan berbahasa Indonesia.",
     "img": "/kegiatan/Gemini_Generated_Image_es8lfses8lfses8l.png",
@@ -15,6 +17,19 @@
   },
   {
     "id": 3,
+    "author": [
+      "Hilman F Pardede",
+      "Endang Suryawati",
+      "Vicky Zilvan",
+      "Ade Ramdan",
+      "R Budiarianto S Kusumo",
+      "Ana Heryana",
+      "R Sandra Yuwana",
+      "Dikdik Krisnandi",
+      "Agus Subekti",
+      "Fani Fauziah",
+      "Vitria P Rahadi"
+    ],
     "title": "Plant Diseases Detection with Low Resolution Data Using Nested Skip Connections",
     "desc": "Mengevaluasi kinerja model Deep Learning (VGGNet, AlexNet, ResNet, Xception, MobileNet) untuk deteksi penyakit tanaman pada data resolusi rendah untuk mengatasi kendala di negara berkembang. Tujuannya adalah menemukan model yang berkinerja baik dengan ukuran model yang lebih kecil.",
     "img": "/kegiatan/Gemini_Generated_Image_liirwjliirwjliir.png",
@@ -22,6 +37,14 @@
   },
   {
     "id": 4,
+    "author": [
+      "Chaeriah Bin Ali Wael",
+      "Nasrullah Armi",
+      "Arumjeni Mitayani",
+      "Dayat Kurniawan",
+      "Arief Suryadi Satyawan",
+      "Agus Subekti"
+    ],
     "title": "Analysis of IEEE 802.11p MAC Protocol for Safety Message Broadcast in V2V Communication",
     "desc": "Analisis kinerja protokol IEEE 802.11p MAC untuk penyiaran pesan keselamatan Vehicle-to-Vehicle (V2V). Evaluasi dilakukan melalui simulasi dan analisis untuk metrik Packet Delivery Ratio (PDR), menunjukkan penurunan PDR drastis akibat masalah hidden terminal.",
     "img": "/kegiatan/Gemini_Generated_Image_bawaa3bawaa3bawa.png",
@@ -29,252 +52,445 @@
   },
   {
     "id": 5,
+    "author": ["Anas Faisal", "Agus Subekti"],
     "title": "Deep Neural Network untuk Prediksi Stroke",
     "desc": "Penerapan Deep Neural Network (DNN) untuk prediksi stroke, membandingkan tiga teknik oversampling untuk menyeimbangkan kelas. Hasil terbaik didapat menggunakan teknik SMOTETomek dengan arsitektur DNN lima hidden layer, mencapai akurasi, presisi, recall, dan f1-score sekitar 0.96.",
     "img": "/kegiatan/Gemini_Generated_Image_ha5jleha5jleha5j.png"
   },
   {
     "id": 6,
+    "author": [
+      "Sri Diantika",
+      "Agus Subekti",
+      "Hiya Nalatissifa",
+      "Mareanus Lase"
+    ],
     "title": "Prediksi Minat Nasabah Asuransi Kendaraan dengan Algoritma Klasifikasi",
     "desc": "Membandingkan kinerja algoritma k-NN, Random Forest, dan Gradient Boosting dalam memprediksi ketertarikan nasabah pada polis asuransi kendaraan. Algoritma k-Nearest Neighbor (k-NN) menghasilkan akurasi tertinggi sebesar 91%, mengungguli Random Forest (87%) dan Gradient Boosting (88%).",
     "img": "/kegiatan/Gemini_Generated_Image_579xij579xij579x.png"
   },
   {
     "id": 7,
+    "author": ["Umi Khultsum", "Agus Subekti"],
     "title": "Penerapan Algoritma Random Forest dengan Kombinasi Ekstraksi Fitur Untuk Klasifikasi Penyakit Daun Tomat",
     "desc": "Klasifikasi penyakit daun tomat menggunakan algoritma Random Forest dengan kebaruan pada kombinasi ekstraksi fitur (warna, Hu-Moment, Haralick). Metode ini berhasil menunjukkan peningkatan akurasi klasifikasi hingga mencapai 96%.",
     "img": "/kegiatan/Gemini_Generated_Image_dj6n8ddj6n8ddj6n.png"
   },
   {
     "id": 8,
+    "author": ["Iqbal Muhammad Latief", "Agus Subekti", "Windu Gata"],
     "title": "Prediksi Tingkat Pelanggan Churn Pada Perusahaan Telekomunikasi Dengan Algoritma Adaboost",
     "desc": "Penerapan algoritma AdaBoost untuk memprediksi churn pelanggan di sektor telekomunikasi, memungkinkan perusahaan mengidentifikasi pelanggan berisiko tinggi dan mengambil langkah retensi secara proaktif.",
     "img": "/kegiatan/Gemini_Generated_Image_shfwofshfwofshfw.png"
   },
   {
     "id": 9,
+    "author": [
+      "Agus Subekti",
+      "Arief Suryadi Satyawan",
+      "Vita Awalia Mardiana",
+      "Nasrullah Armi",
+      "Dayat Kurniawan"
+    ],
     "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
     "desc": "Analisis kinerja OFDM-Index Modulation (OFDM-IM) terhadap gangguan Symbol Timing Offset (STO) dan Carrier Frequency Offset (CFO), menunjukkan bahwa OFDM-IM lebih tangguh dibanding OFDM konvensional pada kanal fading selektif frekuensi.",
     "img": "/kegiatan/Gemini_Generated_Image_7khh9f7khh9f7khh.png"
   },
   {
     "id": 10,
+    "author": [
+      "Agus Subekti",
+      "Arief Suryadi Satyawan",
+      "Vita Awalia Mardiana",
+      "Nasrullah Armi",
+      "Dayat Kurniawan"
+    ],
     "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
     "desc": "Studi komparatif antara OFDM-IM dan OFDM konvensional dalam kondisi STO dan CFO, membuktikan keunggulan OFDM-IM dalam mempertahankan kinerja BER yang lebih baik, terutama pada SNR tinggi.",
     "img": "/kegiatan/Gemini_Generated_Image_946v68946v68946v.png"
   },
   {
     "id": 11,
+    "author": [
+      "Chaeriah Bin Ali Wael",
+      "Nasrullah Armi",
+      "Arief Suryadi Satyawan",
+      "Bagus Edy Sukoco",
+      "Agus Subekti"
+    ],
     "title": "Performance of Regularized Zero Forcing (RZF) Precoding for Multiuser Massive MIMO-GFDM System over mmWave Channel",
     "desc": "Evaluasi kinerja sistem massive MIMO-GFDM dengan precoding RZF pada kanal mmWave menggunakan model Saleh-Valenzuela untuk meningkatkan kapasitas komunikasi 5G.",
     "img": "/kegiatan/Gemini_Generated_Image_gealoqgealoqgeal.png"
   },
   {
     "id": 12,
+    "author": [
+      "Ranu Agastya Nugraha",
+      "Hilman Ferdinandus Pardede",
+      "Agus Subekti"
+    ],
     "title": "Oversampling Based on Generative Adversarial Networks to Overcome Imbalance Data in Predicting Fraud Insurance Claim",
     "desc": "Penggunaan CTGAN sebagai metode oversampling untuk menangani ketidakseimbangan data dalam deteksi klaim asuransi kesehatan palsu, meningkatkan akurasi dan F1-score.",
     "img": "/kegiatan/Gemini_Generated_Image_cu67qycu67qycu67.png"
   },
   {
     "id": 13,
+    "author": [
+      "Suyoto Suyoto",
+      "Agus Subekti",
+      "A Suryadi Satyawan",
+      "Nasrullah Armi",
+      "AW Chaeriah Bin",
+      "N Galih Nugraha"
+    ],
     "title": "Impact of Carrier Frequency Offset and In-Phase and Quadrature Imbalance on the Performance of Wireless Precoded OFDM",
     "desc": "Analisis dampak CFO dan ketidakseimbangan IQ terhadap sistem P-OFDM, menunjukkan penurunan SINR dan kenaikan BER dibanding OFDM konvensional.",
     "img": "/kegiatan/Gemini_Generated_Image_eouq4eouq4eouq4e.png"
   },
   {
     "id": 14,
+    "author": ["ARIF BUDIARTO", "AGUS SUBEKTI", "HARIS DARMAWAN"],
     "title": "Pendeteksian Potensi Faktor Risiko Tinggi Kesehatan Jemaah Haji Menggunakan Algoritma Klasifikasi Data Mining",
     "desc": "Penerapan algoritma data mining untuk mengklasifikasi jemaah haji berisiko tinggi berdasarkan data kesehatan, guna mendukung manajemen kesehatan haji yang proaktif.",
     "img": "/kegiatan/Gemini_Generated_Image_gy0z83gy0z83gy0z.png"
   },
   {
     "id": 15,
+    "author": [
+      "Dwiza Riana",
+      "Agus Subekti",
+      "Hilman F Pardede",
+      "Zico Pratama Putra",
+      "Faruq Aziz"
+    ],
     "title": "Penyuluhan Literasi Media untuk Bijak di Media Sosial dan Pemanfaatan Media Digital",
     "desc": "Kegiatan edukasi literasi media bagi remaja untuk meningkatkan kesadaran dan keterampilan dalam penggunaan media sosial secara bijak dan produktif.",
     "img": "/kegiatan/Gemini_Generated_Image_s14jx6s14jx6s14j.png"
   },
   {
     "id": 16,
+    "author": [
+      "Futoshi Ohyama",
+      "Satoshi Iwamoto",
+      "Osamu Kita",
+      "Takahide Kanatake",
+      "Daisuke Yasui",
+      "Hiroki Matsumoto",
+      "Agus Subekti"
+    ],
     "title": "Study on Application of Communication in JS8 Mode in the Amateur Radio High Frequency Band for Telemedicine in the Event of a Major Disaster",
     "desc": "Eksplorasi penggunaan mode JS8 pada radio amatir HF untuk komunikasi telemedicine darurat saat bencana besar dengan laju data rendah namun andal.",
     "img": "/kegiatan/Gemini_Generated_Image_36frhz36frhz36fr.png"
   },
   {
     "id": 17,
+    "author": [
+      "Iman Firmansyah",
+      "Satria A Aditya",
+      "Bambang Setiadi",
+      "Agus Subekti"
+    ],
     "title": "FPGA-based Implementation of I/Q Chirp Signal Generator Using Memory-based Technique",
     "desc": "Implementasi generator sinyal chirp I/Q berbasis FPGA menggunakan teknik look-up table untuk aplikasi radar aperture sintetis (SAR).",
     "img": "/kegiatan/Gemini_Generated_Image_t3tyd4t3tyd4t3ty.png"
   },
   {
     "id": 18,
+    "author": [
+      "Budiman PA Rohman",
+      "Dayat Kurniawan",
+      "Chaeriah Bin Ali Wael",
+      "Agus Subekti"
+    ],
     "title": "Toward A Compact and Reconfigurable Radar-UAV for Remote Vital Sign Detection",
     "desc": "Pengembangan UAV radar kompak dan dapat dikonfigurasi ulang berbasis SDR untuk deteksi tanda vital jarak jauh dalam misi pencarian dan penyelamatan.",
     "img": "/kegiatan/Gemini_Generated_Image_7241667241667241.png"
   },
   {
     "id": 19,
+    "author": [
+      "Chaeriah Bin Ali Wael",
+      "Suyoto Suyoto",
+      "Nasrullah Armi",
+      "Budiman Putra Asma’Ur Rohman",
+      "Dayat Kurniawan",
+      "Teguh Praludi",
+      "Arief Suryadi Satyawan",
+      "Agus Subekti",
+      "Purwoko Adhi"
+    ],
     "title": "Sparse Channel Estimation Using Orthogonal Matching Pursuit (OMP) for MIMO-OFDM System",
     "desc": "Estimasi kanal sparse pada sistem MIMO-OFDM menggunakan algoritma OMP untuk mengurangi jumlah pilot dan meningkatkan efisiensi spektral.",
     "img": "/kegiatan/Gemini_Generated_Image_kdwffckdwffckdwf.png"
   },
   {
     "id": 20,
+    "author": ["Karno Nur Cahyo", "Agus Subekti", "Muhammad Haris"],
     "title": "Analisis Performa dan Kecepatan Komputasi Algoritma K-Means dan K-Medoids pada Text Clustering",
     "desc": "Perbandingan kinerja dan waktu komputasi K-Means dan K-Medoids dalam pengelompokan skripsi, menunjukkan K-Means lebih cepat dan memiliki DBI lebih baik.",
     "img": "/kegiatan/Gemini_Generated_Image_n57wxbn57wxbn57w.png"
   },
   {
     "id": 21,
+    "author": [
+      "Bambang Setiadi",
+      "Andria Arisal",
+      "Iman Firmansyah",
+      "Agus Subekti",
+      "Nurul Chasanah",
+      "Jefri Abner Hamonangan",
+      "Farohaji Kurniawan"
+    ],
     "title": "Synthetic Aperture Radar Signal Processing Algorithm Implementation in Python",
     "desc": "Implementasi algoritma Omega-K untuk pemrosesan sinyal SAR menggunakan Python, menyediakan solusi open-source yang portabel dan berbiaya rendah dibanding perangkat lunak komersial.",
     "img": "/kegiatan/Gemini_Generated_Image_xftrjrxftrjrxftr.png"
   },
   {
     "id": 22,
+    "author": [
+      "Agus Subekti",
+      "Zico Pratama Putra",
+      "Dwiza Riana",
+      "Hilman Ferdinandus Pardede"
+    ],
     "title": "Pelatihan Aplikasi E-Learning “MojadiPro” Berbasis Android untuk Siswa SMK IT Raflesia Depok",
     "desc": "Pelatihan penggunaan aplikasi e-learning MojadiPro kepada 15 siswa SMK bertujuan meningkatkan akses belajar digital dan pemahaman tentang platform pembelajaran berbasis smartphone.",
     "img": "/kegiatan/Gemini_Generated_Image_etkma3etkma3etkm.png"
   },
   {
     "id": 23,
+    "author": ["Jordy Lasmana Putra", "Agus Subekti"],
     "title": "Prediksi Kinerja Siswa Pada E-Learning Moodle Platform Menggunakan Algoritma Adaptive Boosting",
     "desc": "Penerapan algoritma Adaptive Boosting untuk memprediksi kinerja siswa dalam pembelajaran daring berbasis Moodle selama masa pandemi, guna mendukung intervensi akademik dini.",
     "img": "/kegiatan/Gemini_Generated_Image_eyvd38eyvd38eyvd.png"
   },
   {
     "id": 24,
+    "author": ["Deviana Sely Wita", "Agus Subekti"],
     "title": "Mobilenet-based Transfer Learning for Detection of Eucalyptus Pellita Diseases",
     "desc": "Deteksi penyakit daun Eucalyptus pellita menggunakan transfer learning berbasis MobileNet untuk mendukung industri pulp dan kertas melalui diagnosis dini di hutan tanaman industri.",
     "img": "/kegiatan/Gemini_Generated_Image_z1nt9lz1nt9lz1nt.png"
   },
   {
     "id": 25,
+    "author": ["Zulfati Dinul Fatiha", "Agus Subekti"],
     "title": "Explainable Prediction of Alternative Medicine Outcome using Machine Learning and Shapley Values",
     "desc": "Prediksi efektivitas pengobatan alternatif (akupunktur, bekam, herbal) menggunakan XGBoost dan Shapley Values, mencapai akurasi 94.7% dengan interpretasi fitur yang transparan.",
     "img": "/kegiatan/Gemini_Generated_Image_b3ylvnb3ylvnb3yl.png"
   },
   {
     "id": 26,
+    "author": ["Yuris Akhalifi", "Agus Subekti"],
     "title": "Bell Pepper Leaf Disease Classification Using Fine-Tuned Transfer Learning",
     "desc": "Klasifikasi penyakit daun paprika menggunakan fine-tuned DenseNet121 mencapai akurasi 99.33%, menunjukkan keunggulan transfer learning dalam deteksi penyakit tanaman berbasis citra.",
     "img": "/kegiatan/Gemini_Generated_Image_2uqi1y2uqi1y2uqi.png"
   },
   {
     "id": 27,
+    "author": ["Angelina P Giovani", "Hilman F Pardede", "Agus Subekti"],
     "title": "Autoencoder-Based Feature Learning for Predicting Cardiovascular Disease",
     "desc": "Penggunaan autoencoder untuk ekstraksi fitur laten dari rekam medis dalam memprediksi penyakit kardiovaskular, menangkap hubungan non-linear kompleks dalam data klinis.",
     "img": "/kegiatan/Gemini_Generated_Image_h1al55h1al55h1al.png"
   },
   {
     "id": 28,
+    "author": [
+      "Ida Wahidah",
+      "Agus Subekti",
+      "Arif Indra Irawan",
+      "Vinsensius Sigit Widhi Prabowo",
+      "Agatha Kalyana Vashty",
+      "Alfito Sri Pangestu",
+      "Riski Amelia Mulyadi",
+      "Gita Yuniar Maharani"
+    ],
     "title": "The Implementation of Compressive Sensing Architecture for Endoscopy Image Acquisition and Reconstruction over Body-to-body Networks",
     "desc": "Pengembangan sistem endoskopi berbasis Compressive Sensing dan jaringan body-to-body untuk akuisisi dan rekonstruksi citra THT secara efisien dan mandiri.",
     "img": "/kegiatan/Gemini_Generated_Image_6nzka36nzka36nzk.png"
   },
   {
     "id": 29,
+    "author": [
+      "Iman Firmansyah",
+      "Bambang Setiadi",
+      "Dayat Kurniawan",
+      "Ratna Indrawijaya",
+      "Agus Subekti",
+      "Budiman Putra Asma’Ur Rohman"
+    ],
     "title": "General Matrix Multiplication (GEMM) Evaluation on Cyclone-V SoC FPGA Using OpenCL",
     "desc": "Evaluasi performa GEMM pada FPGA Cyclone-V SoC menggunakan OpenCL untuk mempercepat komputasi AI seperti pengenalan suara dan citra dengan integrasi prosesor ARM.",
     "img": "/kegiatan/Gemini_Generated_Image_a3q3sqa3q3sqa3q3.png"
   },
   {
     "id": 30,
+    "author": [
+      "Aulia Bunga Syaharani",
+      "Winita Sulandari",
+      "Hilman F Pardede",
+      "Ana Heryana",
+      "Endang Suryawati",
+      "Agus Subekti"
+    ],
     "title": "Small CNN for Plant Disease Classification Using Quantization-Aware Training: A Case Study on MobileNetV3",
     "desc": "Penerapan Quantization-Aware Training pada MobileNetV3 untuk klasifikasi penyakit tanaman jagung, menghasilkan model ringan yang akurat dan siap untuk sistem embedded.",
     "img": "/kegiatan/Gemini_Generated_Image_9w9k179w9k179w9k.png"
   },
   {
     "id": 31,
+    "author": [
+      "Agus Subekti",
+      "Arief Suryadi Satyawan",
+      "Mochamad Mardi Marta Dinata",
+      "Arumjeni Mitayani",
+      "Purwoko Adhi"
+    ],
     "title": "Improved Autocorrelation Method for Time Synchronization in Filtered OFDM",
     "desc": "Meningkatkan akurasi sinkronisasi waktu pada sistem F-OFDM melalui teknik rata-rata pada metrik autokorelasi, terutama saat simbol pelatihan terbatas pada satu subband.",
     "img": "/kegiatan/Gemini_Generated_Image_slp0t6slp0t6slp0.png"
   },
   {
     "id": 32,
+    "author": ["Kusnadi Bin Raman", "Agus Subekti"],
     "title": "Date Palm Identification using DenseNet-201 Transfer Learning Method",
     "desc": "Menggunakan DenseNet-201 dengan transfer learning dan tuning hyperparameter untuk mengidentifikasi 11 varietas kurma berdasarkan dataset 3.300 gambar, menghasilkan model dengan akurasi optimal.",
     "img": "/kegiatan/Gemini_Generated_Image_b2olsfb2olsfb2ol.png"
   },
   {
     "id": 33,
+    "author": [
+      "Mochamad Mardi Marta Dinata",
+      "Yohei Yamaguchi",
+      "Hideaki Uchida",
+      "Yoshiyuki Shimoda",
+      "Agus Subekti"
+    ],
     "title": "Macro-level Bottom-up Energy Demand Modeling for Telecommunication Networks",
     "desc": "Mengembangkan alat penilaian kebutuhan energi berbasis data BTS untuk mendukung implementasi sistem energi terbarukan hibrida di jaringan telekomunikasi, khususnya di Indonesia.",
     "img": "/kegiatan/Gemini_Generated_Image_kq2jxzkq2jxzkq2j.png"
   },
   {
     "id": 34,
+    "author": ["Siska Rahmadani", "Agus Subekti", "Muhammad Haris"],
     "title": "Improving Classification Performance on Imbalanced Medical Data using Generative Adversarial Network",
     "desc": "Menerapkan GAN untuk oversampling data medis tidak seimbang, meningkatkan performa klasifikasi pada metrik recall, F1-score, dan AUC dibanding metode konvensional.",
     "img": "/kegiatan/Gemini_Generated_Image_mmdbn7mmdbn7mmdb.png"
   },
   {
     "id": 35,
+    "author": ["M Rangga Ramadhan Saelan", "Agus Subekti"],
     "title": "K-BEST SELECTION UNTUK MENINGKATKAN KINERJA ARTIFICIAL NEURAL NETWORK DALAM MEMPREDIKSI RANGE HARGA PONSEL",
     "desc": "Mengoptimalkan ANN dengan seleksi fitur SelectKBest dan tuning hyperparameter untuk memprediksi kisaran harga ponsel berdasarkan spesifikasi, menghasilkan akurasi dan F1-score tertinggi.",
     "img": "/kegiatan/Gemini_Generated_Image_t340qot340qot340.png"
   },
   {
     "id": 36,
+    "author": ["Innel Lindra", "Agus Subekti"],
     "title": "A Systematic Review Network Slicing: Revenue Optimization for Slice Admission Control Objectives",
     "desc": "Studi sistematis terhadap 23 literatur tentang kontrol penerimaan slice jaringan 5G/B5G dengan fokus pada optimisasi pendapatan operator melalui elastisitas slice dan metode alokasi sumber daya.",
     "img": "/kegiatan/Gemini_Generated_Image_3qv3oi3qv3oi3qv3.png"
   },
   {
     "id": 37,
+    "author": [
+      "Mochamad Mardi Marta Dinata",
+      "Yohei Yamaguchi",
+      "Hideaki Uchida",
+      "Yoshiyuki Shimoda",
+      "Agus Subekti"
+    ],
     "title": "Macro-level Energy Demand Analysis Based on Bottom-up Information for Telecommunication Networks: A Case Study of Indonesia",
     "desc": "Analisis kebutuhan energi makro berbasis data BTS di Indonesia sebagai dasar perencanaan sistem energi terbarukan hibrida untuk jaringan telekomunikasi yang berkelanjutan.",
     "img": "/kegiatan/Gemini_Generated_Image_cd2qtxcd2qtxcd2q.png"
   },
   {
     "id": 38,
+    "author": [
+      "Muhammad Bagus Andra Andra",
+      "Eni Heni Hermaliani",
+      "Agus Subekti Subekti",
+      "Muhammad Haris Haris"
+    ],
     "title": "Pengenalan Big Data Dan Pembuatan Aplikasi Database Dengan NocoDB Pada Badan Santunan Yatim Pondok Cina Depok",
     "desc": "Pelatihan pengabdian masyarakat tentang big data dan pembuatan aplikasi database tanpa coding menggunakan NocoDB, meningkatkan kapasitas digital lembaga yatim dengan kepuasan peserta 95–100%.",
     "img": "/kegiatan/Gemini_Generated_Image_pw4x64pw4x64pw4x.png"
   },
   {
     "id": 39,
+    "author": [
+      "Iman Firmansyah",
+      "Bambang Setiadi",
+      "Agus Subekti",
+      "Heri Nugraha",
+      "Edi Kurniawan",
+      "Yoshiki Yamaguchi"
+    ],
     "title": "Enhancing IoT Data Acquisition Efficiency via FPGA-based Implementation with OpenCL Framework",
     "desc": "Mengimplementasikan sistem akuisisi data IoT berbasis FPGA dengan framework OpenCL untuk meningkatkan efisiensi pemrosesan real-time dan antarmuka perangkat keras.",
     "img": "/kegiatan/Gemini_Generated_Image_rf6mfzrf6mfzrf6m.png"
   },
   {
     "id": 40,
+    "author": [
+      "Muhammad Bagus Andra",
+      "Eni Heni Hermaliani",
+      "Agus Subekti",
+      "Muhammad Haris"
+    ],
     "title": "Penerapan Artificial Intelligence untuk Meningkatkan Efisiensi Pengelolaan Database Administrasi Remaja Masjid",
     "desc": "Integrasi AI dalam sistem administrasi remaja masjid meningkatkan akurasi, kecepatan, dan kualitas pengambilan keputusan, menjadi preseden penerapan teknologi di organisasi komunitas.",
     "img": "/kegiatan/Gemini_Generated_Image_o29m4no29m4no29m.png"
   },
   {
     "id": 41,
+    "author": ["Boy Setiawan", "Agus Subekti"],
     "title": "Multi View Natural Network for Cross-Project Software Defect Prediction",
     "desc": "Mengusulkan arsitektur Multi-View Neural Network (MVNN) yang memanfaatkan transformasi fitur heterogen untuk meningkatkan generalisasi dalam prediksi cacat lintas proyek (CPDP) mengatasi perbedaan distribusi data dan ketidakseimbangan kelas.",
     "img": "/kegiatan/Gemini_Generated_Image_ha9ic8ha9ic8ha9i.png"
   },
   {
     "id": 42,
+    "author": [
+      "Chaeriah Bin Ali Wael",
+      "El Hadj Dogheche",
+      "Nasrullah Armi",
+      "Agus Subekti",
+      "Iyad Dayoub"
+    ],
     "title": "Leveraging 3GPP Features and Optimization Techniques for 5G NR-V2X Resource Allocation: A Survey",
     "desc": "Studi komprehensif tentang strategi alokasi sumber daya pada 5G NR-V2X, mengevaluasi fitur 3GPP terkini dan teknik optimisasi untuk memenuhi kebutuhan QoS di lingkungan kendaraan dinamis.",
     "img": "/kegiatan/Gemini_Generated_Image_zez19izez19izez1.png"
   },
   {
     "id": 43,
+    "author": ["Kirso Kirso", "Agus Subekti"],
     "title": "Integration of Artificial Intelligence into Radio Access Network (AI-RAN): Architecture, Classification, and Development Focus",
     "desc": "Mengklasifikasikan pendekatan AI-RAN menjadi AI-for-RAN, AI-and-RAN, dan AI-on-RAN, serta mengidentifikasi fokus pengembangan seperti efisiensi spektrum, latensi rendah, dan keamanan jaringan menuju 6G.",
     "img": "/kegiatan/Gemini_Generated_Image_lj6z0zlj6z0zlj6z.png"
   },
   {
     "id": 44,
+    "author": ["Kirso Kirso", "Agus Subekti"],
     "title": "Ensemble And Voting Approaches For Defect Prediction Across Multiple Software Projects",
     "desc": "Menggabungkan metode ensemble dan voting dari lima model machine learning untuk prediksi cacat lintas proyek, menunjukkan kinerja tinggi pada proyek dengan pola serupa namun menurun pada proyek berbeda, menggarisbawahi tantangan perbedaan distribusi data.",
     "img": "/kegiatan/Gemini_Generated_Image_30heg730heg730he.png"
   },
   {
     "id": 45,
+    "author": [
+      "Mochamad Mardi Marta Dinata",
+      "Yohei Yamaguchi",
+      "Hideaki Uchida",
+      "Yoshiyuki Shimoda",
+      "Agus Subekti"
+    ],
     "title": "Macro-Level Energy Demand Model for Cellular Telecommunication Networks",
     "desc": "Mengembangkan kerangka pemodelan kebutuhan energi makro untuk jaringan seluler berbasis komposisi dan tipe BTS di tingkat kota, sebagai dasar perencanaan infrastruktur jaringan yang efisien dan berkelanjutan.",
     "img": "/kegiatan/Gemini_Generated_Image_4bqeg14bqeg14bqe.png"
   },
   {
     "id": 46,
+    "author": ["Novia Heriyani", "Agus Subekti"],
     "title": "A LIGHTWEIGHT AND PRACTICAL PIPELINE FOR CROSS-PROJECT DEFECT PREDICTION USING METRIC-BASED LEARNING",
     "desc": "Merancang pipeline CPDP ringan berbasis fitur metrik tradisional dengan adaptasi domain (TCA/TCA+) dan resampling (SMOTEENN), memberikan alternatif efisien terhadap model deep learning dengan stabilitas tinggi menggunakan LightGBM.",
     "img": "/kegiatan/Gemini_Generated_Image_i4hxf7i4hxf7i4hx.png"

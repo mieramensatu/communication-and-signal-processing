@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import membersData from "../../data/member.json";
 
 function Member({ category, onShowResearch }) {
   const data = membersData.member || {};
 
-  const selectedCategory = category || "researcher";
+  const selectedCategory = category || "Researcher";
   const selectedMembers =
     selectedCategory === "all"
       ? Object.values(data).flat()

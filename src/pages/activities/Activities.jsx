@@ -1,3 +1,4 @@
+// src/pages/activities/Activities.jsx
 import React, { useRef, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,10 +7,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import activities from "../../data/activities.json";
+import { isSamePerson } from "../../helper/nameMatcher";
 
 function Activities({ activeResearcher = "all" }) {
   const sectionRef = useRef(null);
-  const [swiperInstance, setSwiperInstance] = useState(null);
 
   useEffect(() => {
     if (activeResearcher && activeResearcher !== "all" && sectionRef.current) {
@@ -29,11 +30,10 @@ function Activities({ activeResearcher = "all" }) {
 
   const filteredActivities = activities.filter((act) => {
     if (activeResearcher === "all") return true;
-    if (!act.author || typeof act.author !== "string") return false;
-    return act.author.toLowerCase().includes(activeResearcher.toLowerCase());
+    if (!Array.isArray(act.author) || act.author.length === 0) return false;
+    return act.author.some((author) => isSamePerson(author, activeResearcher));
   });
 
-  // Fungsi kustom untuk render bullet
   const renderPaginationBullet = (index, className) => {
     return `<button class="custom-pagination-bullet ${className}"></button>`;
   };
@@ -56,7 +56,6 @@ function Activities({ activeResearcher = "all" }) {
             </p>
           </div>
         </div>
-
         <div className="swiper-wrapper">
           <Swiper
             modules={[Autoplay, Pagination]}
@@ -71,7 +70,6 @@ function Activities({ activeResearcher = "all" }) {
               clickable: true,
               renderBullet: renderPaginationBullet,
             }}
-            onSwiper={(swiper) => setSwiperInstance(swiper)}
             breakpoints={{
               320: { slidesPerView: 1 },
               768: { slidesPerView: 2 },

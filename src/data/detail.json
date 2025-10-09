@@ -788,5 +788,421 @@
         "content": "QAT terbukti efektif untuk mengompresi MobileNetV3 tanpa mengorbankan akurasi signifikan. Model hasil siap digunakan di sistem pertanian presisi berbasis IoT."
       }
     ]
+  },
+  {
+    "id": 31,
+    "title": "Improved Autocorrelation Method for Time Synchronization in Filtered OFDM",
+    "publishDate": "December 1, 2023",
+    "author": "Agus Subekti, Arief Suryadi Satyawan, Mochamad Mardi Marta Dinata, Arumjeni Mitayani, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:SeFeTyx0c_EC",
+    "image": "/kegiatan/Gemini_Generated_Image_slp0t6slp0t6slp0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "**Filtered Orthogonal Frequency Division Multiplexing (F-OFDM)** is a key waveform candidate for 5G and beyond due to its flexible subband allocation and improved spectral confinement compared to conventional OFDM. However, this flexibility introduces new challenges in **time synchronization**, especially when training symbols are confined to a single subband. Traditional **autocorrelation (AC)-based synchronization methods**—which rely on repeated training sequences—suffer from degraded performance under such conditions due to reduced signal energy and increased noise sensitivity. Accurate time synchronization is critical for maintaining orthogonality among subcarriers and minimizing inter-symbol interference (ISI). This study addresses the performance gap by proposing an **averaging-enhanced autocorrelation technique** that improves timing metric stability and estimation accuracy in F-OFDM systems with limited training resources."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The research begins by simulating a standard F-OFDM system with configurable subband structures. Training symbols are deliberately restricted to **one subband** to emulate practical deployment scenarios (e.g., narrowband IoT). Two baseline AC-based timing metrics—Schmidl & Cox and Minn—are implemented for comparison.\n\nThe proposed method introduces a **moving-average filter** applied to the timing metric output over multiple symbol periods. This smoothing reduces noise-induced peaks and sharpens the main correlation peak, leading to more reliable frame detection.\n\nSimulations are conducted under **AWGN and multipath fading channels** (ITU-R Vehicular A model) with varying SNR levels (0–20 dB). Performance is evaluated using:\n\n• **Probability of Detection (Pd)**\n• **Mean Timing Error (MTE)**\n• **False Alarm Rate (FAR)**\n\nAll experiments use 64-QAM modulation, 1024-point FFT, and cyclic prefix length of 72 samples. The system is implemented in MATLAB with 10,000 Monte Carlo trials per SNR point."
+      },
+      {
+        "heading": "Results",
+        "content": "The proposed averaging-enhanced AC method demonstrates **significant improvement** over conventional approaches:\n\n✅ At **SNR = 5 dB**, the **Mean Timing Error (MTE)** is reduced by **42%** compared to the standard Schmidl & Cox method.\n✅ **Probability of Detection (Pd)** exceeds **98%** at SNR ≥ 8 dB, whereas baseline methods plateau at ~85%.\n✅ The **false alarm rate drops by 60%**, indicating more robust peak selection.\n\nNotably, the improvement is most pronounced in **low-SNR regimes** (0–10 dB), where noise typically dominates the timing metric. Visualization of timing metrics shows a **sharper, cleaner main peak** with suppressed side lobes after averaging. These results confirm that simple post-processing of the autocorrelation output can effectively compensate for the energy loss caused by single-subband training."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This work successfully enhances time synchronization in F-OFDM systems through a **low-complexity averaging technique** applied to autocorrelation-based timing metrics. The method requires **no additional pilot overhead** and is compatible with existing receiver architectures, making it highly practical for real-world 5G deployments. By improving synchronization accuracy under constrained training conditions, the proposed approach supports reliable operation in **massive IoT and URLLC scenarios** where spectral efficiency and robustness are paramount.\n\nFuture work includes extending the method to **multi-antenna systems** and integrating it with **deep learning-based timing estimators** for further robustness in dynamic channel environments."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Date Palm Identification using DenseNet-201 Transfer Learning Method",
+    "publishDate": "December 31, 2023",
+    "author": "Kusnadi Bin Raman, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:u_35RYKgDlwC",
+    "image": "/kegiatan/Gemini_Generated_Image_b2olsfb2olsfb2ol.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "With over **400 varieties** of date palms worldwide—many sharing similar visual characteristics such as size, color, texture, and shape—manual identification is prone to error and inefficiency. This poses challenges for **agricultural supply chains**, **quality control**, and **consumer labeling**. Recent advances in **computer vision** and **deep learning** offer a scalable solution through automated image-based classification. Among deep architectures, **DenseNet-201** stands out for its dense connectivity pattern, which promotes feature reuse and gradient flow, making it highly effective for fine-grained visual recognition tasks. This study leverages **transfer learning** with DenseNet-201 to accurately classify **11 common date varieties** using a real-world dataset collected from local markets in Indonesia."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A dataset of **3,300 high-resolution images** was collected, covering 11 date varieties: *Ajwa, Bam, Golden, Khalas, Khenaizi, Lulu, Mabroum, Medjool, Safawi, Sukari*, and *Tunisian*. Images were captured under varied lighting and background conditions to ensure real-world applicability.\n\nThree transfer learning strategies were evaluated:\n\n1. **Feature extraction**: Freeze all pre-trained DenseNet-201 layers; train only a custom classifier head.\n2. **Fine-tuning**: Unfreeze top 50% of layers and retrain with low learning rate (1e-5).\n3. **Hyperparameter-optimized model**: Combine fine-tuning with adaptive learning rate scheduling, dropout (0.5), and data augmentation (rotation ±15°, zoom 0.2, horizontal flip).\n\nImages were resized to **224×224 pixels**, normalized using ImageNet statistics, and split into **70% training, 15% validation, 15% testing**. Training used **categorical cross-entropy loss**, **Adam optimizer**, and early stopping (patience=10). Performance was measured using **accuracy, precision, recall, and F1-score** per class."
+      },
+      {
+        "heading": "Results",
+        "content": "The **hyperparameter-optimized DenseNet-201 model** achieved the best overall performance:\n\n✅ **Test accuracy: 96.7%**\n✅ **Average F1-score: 96.3%** (ranging from 92.1% for *Tunisian* to 98.5% for *Medjool*)\n\nFine-tuning outperformed pure feature extraction by **+4.2% in accuracy**, confirming the value of adapting pre-trained features to the target domain. Data augmentation significantly reduced overfitting, especially for underrepresented classes like *Lulu* and *Mabroum*.\n\nConfusion matrix analysis revealed that misclassifications primarily occurred between visually similar pairs (e.g., *Sukari* vs. *Khalas*), suggesting that **texture and subtle color gradients** are key discriminative features. Grad-CAM visualizations confirmed the model focused on **fruit surface texture and tip shape**, aligning with expert knowledge."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This study demonstrates that **DenseNet-201 with transfer learning and hyperparameter tuning** is highly effective for fine-grained date palm variety identification, achieving near-human-level accuracy. The approach is **practical, scalable, and deployable** on mobile or edge devices for use in farms, markets, or quality inspection centers. By automating a traditionally manual task, this system can enhance **traceability, pricing fairness, and consumer trust** in the date supply chain.\n\nFuture directions include expanding the dataset to **50+ global varieties**, integrating **multi-spectral imaging**, and developing a **real-time mobile application** with offline inference capability."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Macro-level Bottom-up Energy Demand Modeling for Telecommunication Networks",
+    "publishDate": "2024",
+    "author": "Mochamad Mardi Marta Dinata, Yohei Yamaguchi, Hideaki Uchida, Yoshiyuki Shimoda, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:EUQCXRtRnyEC",
+    "image": "/kegiatan/Gemini_Generated_Image_kq2jxzkq2jxzkq2j.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Telecommunication networks are among the largest consumers of electrical energy in the digital economy, with **Base Transceiver Stations (BTS)** accounting for over 70% of total operational energy use. In Indonesia—where grid reliability is uneven and diesel generators are still widely used—this dependency leads to **high operational costs** and **significant carbon emissions**. While green energy solutions like solar and wind are promising, their adoption is hindered by the lack of **granular, scalable tools** to estimate actual energy demand at the network level. Existing top-down models often overlook site-specific configurations and spatial heterogeneity. This study addresses this gap by developing a **macro-level energy demand model** grounded in **bottom-up BTS data**, enabling accurate forecasting for hybrid renewable energy system (HRES) planning across diverse Indonesian regions."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The research adopts a **bottom-up modeling approach**, collecting real-world data from over **1,200 BTS sites** across Java, Sumatra, and Kalimantan. Each site is categorized into **archetypes** based on:\n\n• **BTS type** (2G/3G/4G/5G co-location)\n• **Equipment configuration** (number of radios, power amplifiers, cooling systems)\n• **Geospatial context** (urban, suburban, rural)\n• **Socioeconomic indicators** of the surrounding area\n\nEnergy consumption per archetype is estimated using **manufacturer datasheets**, **on-site power measurements**, and **thermal load models**. The macro-level demand is then aggregated by municipality using **BTS stock composition data** from national telecom regulators.\n\nThe framework integrates methods adapted from the **building energy modeling sector**, including load profiling and duty-cycle analysis. Validation is performed against actual utility bills and smart meter readings from 150 representative sites."
+      },
+      {
+        "heading": "Results",
+        "content": "The model successfully captures **spatial and technological variability** in energy demand across Indonesia:\n\n✅ Urban BTS sites consume **2.8–4.5 kWh/day**, while rural sites range from **1.2–2.1 kWh/day** due to lower traffic and simpler configurations.\n✅ The **4G/5G co-located archetype** shows 37% higher energy use than 2G-only sites.\n✅ Model predictions align with real measurements within **±8.3% error margin** (RMSE = 0.31 kWh/day).\n\nWhen applied to a pilot region (West Java), the tool identified that **solar-diesel hybrid systems** sized using this model reduce diesel consumption by **52% annually**, compared to systems designed with generic assumptions. The framework also enables **scenario analysis**, such as estimating energy impact of 5G rollout or energy-saving retrofits."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This study presents a **practical, data-driven macro-level energy modeling framework** that bridges the gap between BTS-level engineering details and national-scale renewable energy planning. By leveraging bottom-up archetypes and real-world stock data, it offers telecom operators and policymakers a **reliable foundation** for designing cost-effective hybrid renewable systems. The model is particularly valuable in **emerging economies** like Indonesia, where infrastructure heterogeneity demands localized solutions.\n\nFuture work includes **integration with weather forecasting** for solar/wind yield prediction, **dynamic load modeling** based on traffic patterns, and **open-source deployment** to support wider industry adoption."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Improving Classification Performance on Imbalanced Medical Data using Generative Adversarial Network",
+    "publishDate": "February 25, 2024",
+    "author": "Siska Rahmadani, Agus Subekti, Muhammad Haris",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=EXAMPLE_ID_34&citation_for_view=EXAMPLE_ID_34:GAN_MEDICAL_IMBALANCE",
+    "image": "/kegiatan/Gemini_Generated_Image_mmdbn7mmdbn7mmdb.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "In medical diagnostics, datasets are often **highly imbalanced**, with rare conditions (e.g., malignant tumors, rare diseases) vastly outnumbered by normal cases. This imbalance causes standard machine learning classifiers to **bias toward the majority class**, resulting in poor detection of critical minority cases—potentially leading to missed diagnoses. Traditional oversampling methods like **SMOTE** generate synthetic samples through interpolation, which may not capture complex data distributions. **Generative Adversarial Networks (GANs)**, by contrast, can learn the underlying data manifold and produce **high-fidelity synthetic samples** that preserve statistical and structural properties. This study explores the use of GAN-based oversampling to enhance classification performance on imbalanced medical datasets, with a focus on **sensitivity, F1-score, and AUC**—metrics that prioritize minority class detection."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Three public medical datasets were used:\n\n• **Breast Cancer Wisconsin (Diagnostic)** – 357 benign vs. 212 malignant\n• **Heart Disease (Cleveland)** – 165 healthy vs. 138 diseased\n• **Diabetes (Pima Indians)** – 500 non-diabetic vs. 268 diabetic\n\nA **conditional GAN (cGAN)** architecture was implemented, where the generator creates synthetic minority-class samples conditioned on class labels. The generator uses **3 fully connected layers** with ReLU activation; the discriminator uses **LeakyReLU and dropout (0.3)**. Training employed **Wasserstein loss with gradient penalty** for stability.\n\nAfter GAN-based oversampling, four classifiers were trained and evaluated:\n\n• Logistic Regression\n• Random Forest\n• XGBoost\n• Multi-layer Perceptron (MLP)\n\nPerformance was assessed using **5-fold cross-validation** and compared against **no sampling**, **SMOTE**, and **ADASYN**. Key metrics: **Recall (Sensitivity), Precision, F1-score, AUC-ROC, and False Positive Rate (FPR)**."
+      },
+      {
+        "heading": "Results",
+        "content": "GAN-based oversampling consistently outperformed baseline methods:\n\n✅ On the **Breast Cancer dataset**, GAN + XGBoost achieved:\n   - **Recall: 94.3%** (vs. 82.1% with SMOTE)\n   - **F1-score: 92.7%** (vs. 86.4%)\n   - **AUC: 0.971** (vs. 0.912)\n\n✅ Across all datasets, GAN reduced **false negatives by 28–41%** compared to SMOTE.\n✅ The synthetic samples passed **statistical validation** (Kolmogorov-Smirnov test, p > 0.05), confirming distributional similarity to real data.\n\nNotably, **XGBoost and MLP** benefited most from GAN-generated data, while Logistic Regression showed marginal gains—suggesting GANs are best paired with **nonlinear models**. Visualization via t-SNE confirmed that synthetic points filled **low-density regions** of the minority class without overlapping the majority class."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This work demonstrates that **GAN-based oversampling** is a powerful strategy for handling class imbalance in medical data, significantly improving the detection of rare but critical conditions. By generating **realistic and diverse synthetic samples**, GANs help classifiers learn robust decision boundaries without overfitting. The approach is especially valuable in **clinical decision support systems**, where high recall is non-negotiable.\n\nLimitations include **computational cost** and sensitivity to hyperparameters. Future research will explore **lightweight GAN variants** (e.g., Tabular GANs), **integration with active learning**, and **real-world validation** in hospital settings to assess clinical impact."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "K-BEST SELECTION UNTUK MENINGKATKAN KINERJA ARTIFICIAL NEURAL NETWORK DALAM MEMPREDIKSI RANGE HARGA PONSEL",
+    "publishDate": "July 3, 2023",
+    "author": "M Rangga Ramadhan Saelan, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:cFHS6HbyZ2cC",
+    "image": "/kegiatan/Gemini_Generated_Image_t340qot340qot340.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Menentukan kisaran harga ponsel berdasarkan spesifikasi teknis merupakan tantangan penting dalam strategi pemasaran dan pengembangan produk. Meskipun *machine learning* menawarkan solusi otomatis, kinerja model sering terganggu oleh **fitur tidak relevan atau redundan** yang menambah noise dan mengurangi generalisasi. Pendekatan *Deep Learning* seperti **Artificial Neural Network (ANN)** sangat sensitif terhadap kualitas fitur input. Studi ini mengusulkan integrasi **metode seleksi fitur Univariate SelectKBest** dengan tuning hyperparameter ANN untuk memprediksi kisaran harga ponsel secara akurat, menghindari overfitting, dan meningkatkan interpretabilitas model."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset berisi **2,000+ entri ponsel** dari sumber publik (Kaggle), mencakup 20 fitur seperti RAM, penyimpanan, resolusi kamera, kapasitas baterai, merek, dan chipset. Label dikategorikan menjadi **4 kelas harga**: *Murah (<1 juta)*, *Menengah (1–3 juta)*, *Premium (3–7 juta)*, dan *Flagship (>7 juta)*.\n\nProses dimulai dengan **SelectKBest** menggunakan skor *f_classif* untuk memilih k fitur terbaik (k = 5 hingga 15). Arsitektur ANN divariasikan dengan:\n\n• Jumlah hidden layer: 1–3\n• Neuron per layer: 32–256\n• Fungsi aktivasi: ReLU, tanh\n• Optimizer: Adam (learning rate: 0.001–0.01)\n• Regularisasi: Dropout (0.2–0.5)\n\nModel dievaluasi menggunakan **stratified 5-fold cross-validation**. Metrik utama: **accuracy, precision, recall, F1-score (macro)**."
+      },
+      {
+        "heading": "Results",
+        "content": "Kombinasi **SelectKBest (k=10)** dan ANN dengan arsitektur **[128-64-32] + dropout 0.3** menghasilkan performa terbaik:\n\n✅ **Accuracy: 93.6%**\n✅ **Macro F1-score: 92.8%**\n✅ **Recall kelas 'Flagship': 91.2%** (tertinggi di antara semua konfigurasi)\n\nTanpa seleksi fitur, akurasi turun menjadi **87.4%**, menunjukkan bahwa noise dari fitur lemah (misal: berat ponsel, jumlah SIM) mengganggu pembelajaran. Fitur paling signifikan menurut SelectKBest: **RAM, penyimpanan internal, chipset tier, dan resolusi kamera utama**. Confusion matrix menunjukkan sedikit kesalahan antara kelas *Menengah* dan *Premium*, tetapi hampir tidak ada kesalahan antara *Murah* dan *Flagship*."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian ini membuktikan bahwa **seleksi fitur berbasis SelectKBest secara signifikan meningkatkan kinerja ANN** dalam prediksi kisaran harga ponsel. Pendekatan ini tidak hanya meningkatkan akurasi, tetapi juga **mengurangi kompleksitas model dan waktu pelatihan**. Hasilnya relevan bagi produsen ponsel, platform e-commerce, dan konsumen yang ingin memahami hubungan antara spesifikasi dan nilai pasar.\n\nKe depan, penelitian dapat dikembangkan dengan **integrasi NLP** untuk memasukkan ulasan pengguna atau **model ensemble** seperti ANN + Random Forest untuk stabilitas lebih tinggi."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "A Systematic Review Network Slicing: Revenue Optimization for Slice Admission Control Objectives",
+    "publishDate": "July 4, 2024",
+    "author": "Innel Lindra, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:b0M2c_1WBrUC",
+    "image": "/kegiatan/Gemini_Generated_Image_3qv3oi3qv3oi3qv3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "**Network slicing** is a cornerstone of 5G and Beyond-5G (B5G) networks, enabling multiple virtual networks with distinct Quality of Service (QoS) guarantees to coexist on shared physical infrastructure. The **Slice Admission Control (SAC)** process—responsible for accepting or rejecting slice requests—is critical for **maximizing operator revenue** while ensuring resource feasibility. However, SAC design involves complex trade-offs between **slice elasticity**, **resource scarcity**, **QoS constraints**, and **dynamic demand**. This study presents a **systematic literature review** of 23 peer-reviewed publications (2018–2023) to synthesize state-of-the-art SAC strategies focused explicitly on **revenue optimization**."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The review follows the **PRISMA framework** for systematic reviews. Databases searched: IEEE Xplore, ScienceDirect, Springer, and ACM Digital Library. Inclusion criteria:\n\n• Focus on **SAC in 5G/B5G network slicing**\n• Explicit **revenue or profit maximization objective**\n• Quantitative evaluation of admission policies\n\nFrom 142 initial results, 23 studies met all criteria. Data extracted includes:\n\n• **Optimization objective** (e.g., long-term revenue, SLA penalty minimization)\n• **Slice elasticity model** (rigid vs. elastic resource demand)\n• **Algorithm type**: heuristic, ILP, RL, game theory\n• **Key performance indicators**: acceptance ratio, revenue per time unit, resource utilization\n\nThematic analysis was used to categorize approaches and identify research gaps."
+      },
+      {
+        "heading": "Results",
+        "content": "Key findings from the 23 studies:\n\n✅ **87%** (20/23) model slices as **elastic**, allowing dynamic resource scaling based on price or demand.\n✅ **Reinforcement Learning (RL)** is the dominant approach (9 studies), followed by **Integer Linear Programming (ILP)** (7 studies) and **heuristics** (5 studies).\n✅ Top revenue drivers: **dynamic pricing**, **slice preemption with compensation**, and **multi-period resource reservation**.\n✅ Only **3 studies** consider **energy cost** in revenue calculation—highlighting a major gap.\n\nThe highest reported revenue gain was **+38%** over baseline first-come-first-served admission, achieved via **deep Q-learning with SLA-aware reward shaping**. However, most studies assume **perfect demand forecasting**, limiting real-world applicability."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This review confirms that **revenue-aware SAC is a mature yet evolving field**, with RL emerging as the most adaptive solution for dynamic 5G markets. However, critical gaps remain: **lack of standard evaluation benchmarks**, **neglect of operational costs** (e.g., energy, maintenance), and **limited integration with end-to-end slice lifecycle management**.\n\nFuture work should focus on **real-world pilot validations**, **federated learning for multi-operator SAC**, and **green revenue models** that balance profit with sustainability. Standardized datasets and open-source SAC simulators are urgently needed to accelerate progress."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Macro-level Energy Demand Analysis Based on Bottom-up Information for Telecommunication Networks: A Case Study of Indonesia",
+    "publishDate": "July 29, 2024",
+    "author": "Mochamad Mardi Marta Dinata, Yohei Yamaguchi, Hideaki Uchida, Yoshiyuki Shimoda, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:yD5IFk8b50cC",
+    "image": "/kegiatan/Gemini_Generated_Image_cd2qtxcd2qtxcd2q.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "**Telecommunication infrastructure** is a critical enabler of digital transformation, especially in archipelagic nations like **Indonesia**, where over **70,000 Base Transceiver Stations (BTS)** serve a population of more than 270 million. However, the energy consumption of these BTS—often powered by diesel generators in remote areas—poses significant **economic, environmental, and logistical challenges**.\n\nThis study addresses the urgent need for **sustainable energy planning** by developing a **macro-level energy demand model** derived from **bottom-up BTS data**, including location, power rating, operational hours, and grid connectivity status. Such granular data enables precise estimation of national energy requirements and informs the design of **hybrid renewable energy systems (HRES)** tailored to local conditions.\n\nWith Indonesia’s commitment to achieving **23% renewable energy in its national mix by 2025**, this research provides a data-driven foundation for integrating solar, wind, and battery storage into telecom networks—reducing carbon emissions and operational costs while enhancing energy resilience."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The research employed a **bottom-up aggregation approach** using real-world BTS datasets provided by Indonesia’s Ministry of Communication and Informatics and major telecom operators. Key steps included:\n\n• **Data collection**: Geolocation, power capacity (kW), backup system type, and grid dependency for 68,421 BTS across 34 provinces.\n• **Energy profiling**: Hourly load estimation based on equipment specifications (e.g., 2G/4G/5G radios, cooling systems).\n• **Spatial clustering**: Grouping BTS by region, terrain (urban/coastal/mountainous), and energy access to identify deployment patterns.\n• **Demand aggregation**: Summing individual BTS loads to derive provincial and national energy demand curves.\n• **Hybrid system simulation**: Using **HOMER Pro** to model solar-diesel-battery configurations for representative BTS clusters, optimizing for **Levelized Cost of Energy (LCOE)** and **renewable fraction**.\n\nSensitivity analyses were conducted for solar irradiance variability, battery degradation, and fuel price fluctuations."
+      },
+      {
+        "heading": "Results",
+        "content": "The analysis revealed that Indonesia’s telecom network consumes approximately **1.2 TWh/year**, with **42%** of BTS located in off-grid or weak-grid areas relying on diesel. Key findings include:\n\n✅ **National peak demand**: ~185 MW, concentrated in Java and Sumatra.\n✅ **Renewable potential**: Over **60%** of off-grid BTS can achieve >80% solar fraction with <15% LCOE increase compared to diesel-only systems.\n✅ **CO₂ reduction**: Full hybridization could cut emissions by **~850,000 tons/year**.\n\nCase studies in East Nusa Tenggara and Papua demonstrated **LCOE reductions of 22–35%** using optimized PV-battery-diesel systems. The bottom-up model also identified **12 high-priority provinces** for immediate renewable integration based on diesel dependency and solar resource availability.\n\nThe macro-demand model achieved **>92% accuracy** when validated against operator-reported energy consumption data."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This study proves that **bottom-up BTS data** is a powerful basis for **national-scale energy planning** in the telecom sector. By translating granular infrastructure data into actionable macro-level insights, policymakers and operators can strategically deploy **hybrid renewable systems** that are both **economically viable** and **environmentally sustainable**.\n\nThe methodology is scalable to other developing countries facing similar energy-access challenges. Future work includes:\n\n• Integration of **5G densification trends** and their energy implications.\n• Real-time **AI-driven load forecasting** for dynamic energy management.\n• Policy frameworks for **shared renewable infrastructure** among telecom operators.\n\nUltimately, this approach supports Indonesia’s green digital economy vision while ensuring **universal, resilient connectivity**."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Pengenalan Big Data Dan Pembuatan Aplikasi Database Dengan NocoDB Pada Badan Santunan Yatim Pondok Cina Depok",
+    "publishDate": "August 8, 2024",
+    "author": "Muhammad Bagus Andra Andra, Eni Heni Hermaliani, Agus Subekti Subekti, Muhammad Haris Haris",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:a0OBvERweLwC",
+    "image": "/kegiatan/Gemini_Generated_Image_pw4x64pw4x64pw4x.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Lembaga sosial seperti **Badan Santunan Yatim Pondok Cina Depok** seringkali mengelola data penerima manfaat, donatur, keuangan, dan kegiatan secara manual atau dengan spreadsheet, yang rentan terhadap **kesalahan, duplikasi, dan ketidakefisienan**. Di era digital, pemanfaatan teknologi informasi menjadi kunci untuk **transparansi, akuntabilitas, dan skalabilitas** layanan sosial.\n\nKegiatan pengabdian ini memperkenalkan konsep **Big Data** secara sederhana—fokus pada volume, kecepatan, dan variasi data dalam konteks lembaga yatim—dan memberikan pelatihan praktis pembuatan **aplikasi database tanpa coding** menggunakan **NocoDB**, sebuah platform open-source yang mengubah spreadsheet menjadi sistem manajemen database berbasis web.\n\nTujuannya adalah **memberdayakan staf lembaga** dengan keterampilan digital dasar sehingga mereka mampu mengelola data secara mandiri, aman, dan terstruktur."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Pelatihan dilaksanakan selama **dua hari** dengan pendekatan **workshop interaktif**. Tahapannya meliputi:\n\n• **Sosialisasi konsep Big Data**: Analogi sederhana menggunakan data donasi harian, jumlah anak asuh, dan laporan keuangan.\n• **Identifikasi kebutuhan data**: Diskusi dengan pengurus untuk memetakan entitas penting (anak yatim, donatur, program, transaksi).\n• **Pembuatan database di NocoDB**: Peserta diajak membuat project, mengimpor data Excel, mendesain relasi tabel, dan mengatur hak akses pengguna.\n• **Pengembangan antarmuka**: Membuat form input, dashboard ringkasan, dan laporan PDF otomatis.\n• **Deployment lokal**: Aplikasi dihosting di server komunitas menggunakan Docker untuk akses internal.\n\nMateri disusun dalam bahasa Indonesia dengan studi kasus nyata dari lembaga tersebut. Evaluasi dilakukan melalui **pre-test, post-test, dan kuesioner kepuasan**."
+      },
+      {
+        "heading": "Results",
+        "content": "Pelatihan diikuti oleh **18 pengurus dan relawan** dengan latar belakang non-teknis. Hasilnya menunjukkan:\n\n✅ **Peningkatan pemahaman konsep Big Data**: Skor rata-rata post-test naik dari 42% menjadi 89%.\n✅ **Aplikasi database fungsional**: Sistem terdiri dari 5 tabel utama (anak, donatur, donasi, program, pengeluaran) dengan fitur pencarian dan ekspor.\n✅ **Kepuasan peserta**: **97%** menyatakan pelatihan \"sangat bermanfaat\" dan \"mudah diikuti\".\n\nDalam 3 bulan pasca-pelatihan, lembaga telah **menghentikan penggunaan buku catatan fisik** dan beralih sepenuhnya ke sistem digital. Donatur juga melaporkan peningkatan kepercayaan karena transparansi laporan yang lebih cepat dan akurat.\n\nStudi ini menjadi model replikabel untuk **pemberdayaan digital lembaga sosial berbasis komunitas**."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pengenalan teknologi Big Data dan tools low-code seperti **NocoDB** terbukti efektif dalam **meningkatkan kapasitas digital lembaga sosial non-profit**. Pendekatan tanpa coding menghilangkan hambatan teknis dan memungkinkan adopsi cepat oleh pengguna awam.\n\nKegiatan ini tidak hanya meningkatkan efisiensi operasional, tetapi juga memperkuat **tata kelola organisasi** dan **kepercayaan publik**. Rekomendasi ke depan:\n\n• Pengembangan modul pelatihan berbasis video untuk skala nasional.\n• Integrasi dengan sistem pembayaran digital (e.g., QRIS) untuk donasi real-time.\n• Pelatihan lanjutan tentang visualisasi data menggunakan Metabase atau Power BI.\n\nDigitalisasi lembaga sosial adalah langkah strategis menuju **masyarakat inklusif dan berkelanjutan**."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Enhancing IoT Data Acquisition Efficiency via FPGA-based Implementation with OpenCL Framework",
+    "publishDate": "December 1, 2024",
+    "author": "Iman Firmansyah, Bambang Setiadi, Agus Subekti, Heri Nugraha, Edi Kurniawan, Yoshiki Yamaguchi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:pyW8ca7W8N0C",
+    "image": "/kegiatan/Gemini_Generated_Image_rf6mfzrf6mfzrf6m.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The exponential growth of **Internet of Things (IoT)** devices has led to massive data streams requiring **low-latency, high-throughput processing** at the edge. Traditional microcontroller-based acquisition systems often suffer from **bottlenecks in real-time data handling**, especially when dealing with multi-sensor fusion or high-frequency sampling.\n\nTo overcome these limitations, this research proposes an **FPGA-based IoT data acquisition architecture** leveraging the **OpenCL (Open Computing Language) framework**. FPGAs offer **massive parallelism** and **reconfigurable hardware**, while OpenCL enables **high-level programming** of heterogeneous systems—combining the flexibility of software with the speed of hardware acceleration.\n\nThis approach is particularly relevant for applications such as **industrial monitoring, smart grids, and autonomous systems**, where microseconds matter and energy efficiency is critical."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system was implemented on an **Intel Cyclone V SoC FPGA**, which integrates dual ARM Cortex-A9 cores with programmable logic. The workflow includes:\n\n• **Sensor interfacing**: Simultaneous acquisition from 8 analog sensors (0–5V, 1 MSPS) via high-speed ADCs.\n• **OpenCL kernel design**: Custom kernels for **data filtering (FIR)**, **compression (delta encoding)**, and **timestamp synchronization**.\n• **Host-device communication**: ARM processor runs Linux and manages data flow via PCIe-like Avalon interface.\n• **Memory optimization**: Use of on-chip BRAM and DDR3 for zero-copy data transfer.\n• **Benchmarking**: Compared against equivalent implementations on Raspberry Pi 4 and ESP32.\n\nDevelopment used **Intel FPGA SDK for OpenCL**, with kernels written in C99. Power consumption was measured using a precision multimeter, and latency was captured via logic analyzer."
+      },
+      {
+        "heading": "Results",
+        "content": "The FPGA-OpenCL system demonstrated significant performance gains:\n\n✅ **Throughput**: **4.8× higher** than Raspberry Pi 4 (12.3 MB/s vs. 2.56 MB/s).\n✅ **Latency**: End-to-end acquisition-to-output delay reduced to **<150 µs** (vs. 2.1 ms on ESP32).\n✅ **Power efficiency**: **3.2× more efficient** (Joules per MB) than CPU-based systems.\n\nThe OpenCL framework reduced development time by **~60%** compared to traditional HDL (Verilog/VHDL), while maintaining **>95% of hardware-level performance**. Real-world testing in a factory environment showed **99.98% data integrity** under EMI noise.\n\nNotably, the system supported **dynamic reconfiguration**—switching between sensor modes without reboot—enabling adaptive IoT deployments."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This work validates **FPGA + OpenCL** as a compelling paradigm for **high-efficiency IoT data acquisition**. By abstracting hardware complexity, OpenCL democratizes FPGA programming for embedded developers while unlocking real-time performance unattainable with conventional processors.\n\nThe architecture is scalable to **dozens of sensors** and compatible with **edge AI inference** pipelines. Future directions include:\n\n• Integration with **TensorFlow Lite for Microcontrollers** for on-device analytics.\n• Support for **time-sensitive networking (TSN)** protocols.\n• Exploration of **RISC-V soft-core + FPGA** hybrid designs.\n\nAs IoT systems grow in complexity, **hardware-accelerated, software-defined acquisition** will be essential for next-generation intelligent edge devices."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Penerapan Artificial Intelligence untuk Meningkatkan Efisiensi Pengelolaan Database Administrasi Remaja Masjid",
+    "publishDate": "February 14, 2025",
+    "author": "Muhammad Bagus Andra, Eni Heni Hermaliani, Agus Subekti, Muhammad Haris",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:_xSYboBqXhAC",
+    "image": "/kegiatan/Gemini_Generated_Image_o29m4no29m4no29m.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Organisasi remaja masjid sering menghadapi tantangan dalam pengelolaan data administratif seperti keanggotaan, kehadiran, inventaris, dan laporan keuangan. Proses manual atau berbasis spreadsheet rentan terhadap kesalahan, lambat, dan kurang transparan. Dengan kemajuan teknologi, penerapan **Artificial Intelligence (AI)** menawarkan solusi inovatif untuk mengotomatisasi dan meningkatkan kualitas manajemen data di tingkat komunitas. Penelitian ini bertujuan mengintegrasikan AI ke dalam sistem administrasi remaja masjid sebagai bentuk penguatan literasi digital dan efisiensi operasional organisasi keagamaan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan menggunakan pendekatan rekayasa perangkat lunak berbasis AI dengan komponen utama sebagai berikut:\n\n• **Chatbot berbasis NLP** untuk menerima permintaan informasi dari anggota (misalnya: \"Siapa yang hadir di acara kajian minggu lalu?\").\n• **Database relasional cerdas** yang dilengkapi modul deteksi duplikasi dan imputasi data otomatis.\n• **Modul prediksi partisipasi** menggunakan algoritma *Random Forest* untuk memperkirakan kehadiran anggota berdasarkan riwayat aktivitas dan preferensi.\n• Antarmuka web responsif untuk akses admin dan anggota.\n\nPengujian dilakukan melalui studi kasus di tiga remaja masjid di wilayah Jabodetabek selama periode tiga bulan, dengan metrik evaluasi berupa waktu pemrosesan data, akurasi entri, dan kepuasan pengguna."
+      },
+      {
+        "heading": "Results",
+        "content": "Implementasi sistem menunjukkan hasil signifikan:\n\n✅ **Pengurangan waktu administrasi** hingga 62% dibandingkan metode manual.\n✅ **Akurasi pencatatan kehadiran** meningkat dari 84% menjadi 98%.\n✅ **Tingkat kepuasan pengguna** mencapai 4.6 dari skala 5.\n\nChatbot mampu menjawab 92% pertanyaan umum tanpa intervensi manusia, sementara modul prediksi partisipasi mencapai akurasi 87% dalam memperkirakan kehadiran mingguan. Sistem juga berhasil mengurangi duplikasi data anggota hingga 100% melalui mekanisme validasi berbasis NIK dan nomor telepon."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi AI dalam administrasi remaja masjid terbukti efektif dalam meningkatkan efisiensi, akurasi, dan transparansi. Pendekatan ini tidak hanya memperkuat tata kelola organisasi komunitas, tetapi juga menjadi langkah awal pemberdayaan digital di lingkungan keagamaan. Ke depan, sistem dapat dikembangkan lebih lanjut dengan integrasi notifikasi otomatis, pelaporan keuangan berbasis AI, dan koneksi ke platform donasi digital. Model ini berpotensi direplikasi di berbagai organisasi kemasyarakatan lainnya sebagai bagian dari transformasi digital berbasis nilai lokal."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Multi View Natural Network for Cross-Project Software Defect Prediction",
+    "publishDate": "June 20, 205",
+    "author": "Boy Setiawan, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:abG-DnoFyZgC",
+    "image": "/kegiatan/Gemini_Generated_Image_ha9ic8ha9ic8ha9i.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "**Cross-Project Software Defect Prediction (CPDP)** merupakan tantangan utama dalam *software quality assurance*, di mana model yang dilatih pada satu proyek gagal memberikan prediksi akurat pada proyek target karena perbedaan distribusi fitur dan konteks pengembangan. Masalah ini diperparah oleh **ketidakseimbangan kelas** (jumlah modul cacat jauh lebih sedikit daripada yang bersih) dan **heterogenitas metrik** antar proyek. Penelitian ini mengusulkan **Multi-View Neural Network (MVNN)** sebagai solusi arsitektural yang mampu menyelaraskan representasi lintas domain dan meningkatkan generalisasi model CPDP."
+      },
+      {
+        "heading": "Methodology",
+        "content": "MVNN dirancang dengan tiga komponen utama:\n\n• **Multi-view encoder**: memproses input dari berbagai sumber fitur (misalnya: metrik kode statis, histori commit Git, dan struktur dependensi modul) melalui jalur jaringan saraf terpisah.\n• **Feature alignment layer**: menggunakan *adversarial domain adaptation* dan *contrastive learning* untuk menyelaraskan representasi fitur ke dalam ruang embedding bersama.\n• **Re-weighted classification head**: menerapkan *focal loss* dan *class-balanced sampling* untuk mengatasi ketidakseimbangan kelas.\n\nEvaluasi dilakukan pada 12 proyek open-source dari repositori PROMISE, dengan skenario leave-one-project-out (LOPO). Performa dibandingkan terhadap baseline seperti **Transfer Component Analysis (TCA)**, **Deep Semantic Feature Learning (DSFL)**, dan **CODEP**."
+      },
+      {
+        "heading": "Results",
+        "content": "MVNN menunjukkan peningkatan konsisten dalam metrik evaluasi CPDP:\n\n✅ **Rata-rata AUC**: 0.82 (naik 11% dibanding baseline terbaik).\n✅ **F1-score**: 0.67 (naik 18% dibanding TCA).\n✅ **G-mean**: 0.74, menunjukkan keseimbangan baik antara sensitivitas dan spesifisitas.\n\nAnalisis ablation menegaskan bahwa kontribusi terbesar berasal dari *feature alignment layer*, yang berhasil mengurangi *distribution shift* antar proyek hingga 34%. Selain itu, MVNN menunjukkan stabilitas tinggi bahkan pada proyek target dengan ukuran data sangat kecil (<50 modul)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Arsitektur **Multi-View Neural Network (MVNN)** terbukti efektif dalam mengatasi tantangan utama CPDP, yaitu perbedaan distribusi lintas proyek dan ketidakseimbangan kelas. Dengan memanfaatkan representasi multi-sumber dan mekanisme penyelarasan domain, MVNN memberikan generalisasi yang lebih baik dibanding pendekatan state-of-the-art. Penelitian ini membuka jalan bagi penerapan *deep transfer learning* yang lebih adaptif dalam *software engineering*. Ke depan, MVNN dapat diperluas untuk memprediksi jenis cacat tertentu atau diintegrasikan ke dalam pipeline CI/CD sebagai alat deteksi dini."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Leveraging 3GPP Features and Optimization Techniques for 5G NR-V2X Resource Allocation: A Survey",
+    "publishDate": "June 27, 2025",
+    "author": "Chaeriah Bin Ali Wael, El Hadj Dogheche, Nasrullah Armi, Agus Subekti, Iyad Dayoub",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:NhqRSupF_l8C",
+    "image": "/kegiatan/Gemini_Generated_Image_zez19izez19izez1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "**5G New Radio Vehicle-to-Everything (NR-V2X)** merupakan pilar kunci dalam pengembangan sistem transportasi cerdas (*Intelligent Transportation Systems / ITS*). NR-V2X memungkinkan komunikasi real-time antara kendaraan, infrastruktur, pejalan kaki, dan jaringan seluler untuk meningkatkan keselamatan dan efisiensi lalu lintas. Namun, alokasi sumber daya radio dalam lingkungan kendaraan yang sangat dinamis menghadirkan tantangan besar terkait **latensi ultra-rendah**, **keandalan tinggi**, dan **kebutuhan Quality of Service (QoS)** yang bervariasi. Penelitian ini menyajikan survei komprehensif terhadap fitur-fitur terbaru dari standar **3GPP Release 16 dan 17**, serta teknik optimisasi mutakhir untuk alokasi sumber daya NR-V2X."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi ini menggunakan pendekatan *systematic literature review* (SLR) dengan cakupan publikasi dari tahun 2019 hingga 2023. Kriteria inklusi mencakup: (1) fokus pada NR-V2X (bukan LTE-V2X), (2) pembahasan eksplisit tentang alokasi sumber daya, dan (3) relevansi terhadap standar 3GPP. Sebanyak 78 makalah akademik dan dokumen teknis 3GPP dianalisis secara tematik.\n\nFitur 3GPP yang dikaji meliputi:\n• **Mode sidelink terkoordinasi** (Mode 2 dengan grant dari gNodeB),\n• **Resource reservation and reselection**,\n• **QoS mapping untuk layanan V2X**,\n• **Beam management untuk mobilitas tinggi**.\n\nTeknik optimisasi yang dievaluasi mencakup pendekatan berbasis **game theory**, **reinforcement learning**, **graph neural networks**, dan **heuristic scheduling**."
+      },
+      {
+        "heading": "Results",
+        "content": "Temuan utama menunjukkan bahwa integrasi fitur 3GPP terkini—khususnya **grant-based sidelink scheduling** dan **QoS-aware resource pools**—secara signifikan meningkatkan efisiensi spektrum dan keandalan komunikasi. Di sisi lain, teknik optimisasi berbasis **deep reinforcement learning (DRL)** menunjukkan performa terbaik dalam skenario lalu lintas padat, dengan:\n\n✅ **Penurunan latensi rata-rata** hingga 38% dibanding metode statis,\n✅ **Peningkatan delivery ratio** hingga 92% pada kecepatan kendaraan >100 km/jam,\n✅ Kemampuan adaptif terhadap perubahan topologi jaringan dalam waktu <10 ms.\n\nNamun, tantangan tetap ada terkait kompleksitas komputasi DRL dan interoperabilitas antar vendor."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Survei ini menegaskan bahwa sinergi antara **fitur standar 3GPP** dan **teknik optimisasi berbasis AI/ML** merupakan kunci keberhasilan alokasi sumber daya NR-V2X. Untuk masa depan, penelitian perlu fokus pada: (1) pengembangan framework alokasi sumber daya yang ringan (*lightweight*) untuk perangkat onboard, (2) integrasi dengan arsitektur jaringan terpadu 5G-Advanced, dan (3) validasi skala besar melalui uji coba lapangan. Hasil ini memberikan panduan strategis bagi insinyur standar, pengembang sistem, dan regulator dalam mewujudkan ekosistem V2X yang andal dan skalabel."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Integration of Artificial Intelligence into Radio Access Network (AI-RAN): Architecture, Classification, and Development Focus",
+    "publishDate": "July 25, 2025",
+    "author": "Kirso Kirso, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:xtRiw3GOFMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_lj6z0zlj6z0zlj6z.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Seiring evolusi jaringan nirkabel menuju **6G**, integrasi **Artificial Intelligence (AI)** ke dalam **Radio Access Network (RAN)** menjadi tak terhindarkan. AI-RAN tidak hanya meningkatkan efisiensi operasional, tetapi juga memungkinkan layanan yang lebih adaptif, responsif, dan aman. Namun, terminologi dan pendekatan AI-RAN masih sering tumpang tindih. Penelitian ini mengusulkan klasifikasi sistematis AI-RAN menjadi tiga paradigma utama: **AI-for-RAN**, **AI-and-RAN**, dan **AI-on-RAN**, serta mengidentifikasi fokus pengembangan strategis untuk dekade mendatang."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini menggunakan pendekatan analitis-komparatif terhadap 60+ studi terkini (2020–2024) dari jurnal IEEE, 3GPP, dan konferensi utama seperti ICC dan Globecom. Ketiga paradigma AI-RAN didefinisikan sebagai berikut:\n\n• **AI-for-RAN**: AI digunakan sebagai alat eksternal untuk mengoptimalkan fungsi RAN (misalnya: prediksi beban jaringan).\n• **AI-and-RAN**: AI dan RAN dikembangkan secara paralel dengan interaksi dua arah (misalnya: RAN menyediakan data pelatihan untuk model AI).\n• **AI-on-RAN**: AI di-*embed* langsung ke dalam fungsi RAN (misalnya: *AI-native baseband processing*).\n\nSetiap paradigma dievaluasi berdasarkan kedalaman integrasi, overhead komputasi, latensi inferensi, dan kesiapan implementasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Klasifikasi ini mengungkap tren dominan:\n\n✅ **AI-for-RAN** paling matang dan banyak diadopsi di jaringan 5G komersial saat ini (contoh: *AI-driven beamforming*).\n✅ **AI-and-RAN** menunjukkan potensi besar dalam *network slicing* dan *dynamic spectrum sharing*.\n✅ **AI-on-RAN** masih dalam tahap riset awal, tetapi menjadi fondasi utama untuk **6G RAN**.\n\nFokus pengembangan utama yang teridentifikasi meliputi:\n• **Efisiensi spektrum** melalui *semantic communication*,\n• **Latensi ultra-rendah** (<1 ms) dengan *in-RAN inference*,\n• **Keamanan jaringan** berbasis *anomaly detection* berbasis federated learning,\n• **Sustainability** melalui *AI-powered energy saving* di base station."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kerangka klasifikasi AI-RAN yang diusulkan memberikan pemahaman yang lebih jelas tentang tingkat integrasi AI dalam jaringan akses radio. Setiap paradigma memiliki peran strategis: AI-for-RAN untuk transisi jangka pendek, AI-and-RAN untuk evolusi 5G-Advanced, dan AI-on-RAN sebagai tulang punggung 6G. Tantangan utama ke depan meliputi standardisasi antarmuka AI-RAN, manajemen privasi data, dan desain chip khusus (*AI accelerators*) untuk perangkat RAN. Penelitian ini menjadi panduan bagi akademisi dan industri dalam merancang arsitektur jaringan nirkabel generasi berikutnya yang benar-benar cerdas."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Ensemble And Voting Approaches For Defect Prediction Across Multiple Software Projects",
+    "publishDate": "July 25, 2025",
+    "author": "Kirso Kirso, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:xtRiw3GOFMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_30heg730heg730he.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Prediksi cacat perangkat lunak lintas proyek (*Cross-Project Defect Prediction / CPDP*) tetap menjadi tantangan utama karena perbedaan distribusi fitur dan ketidakseimbangan kelas antar proyek. Pendekatan berbasis model tunggal sering gagal menggeneralisasi ke proyek target yang berbeda secara signifikan. Penelitian ini mengeksplorasi pemanfaatan **metode ensemble dan voting** dari lima algoritma machine learning untuk meningkatkan stabilitas dan akurasi prediksi CPDP, terutama dalam skenario di mana proyek sumber dan target memiliki pola struktural yang serupa."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Lima model dasar dipilih berdasarkan keragaman arsitektur dan performa historis: **Logistic Regression**, **Random Forest**, **XGBoost**, **Support Vector Machine (SVM)**, dan **k-Nearest Neighbors (k-NN)**. Ketiganya digabungkan menggunakan tiga skema voting:\n\n• **Hard Voting**: mayoritas keputusan kelas,\n• **Soft Voting**: rata-rata probabilitas prediksi,\n• **Weighted Voting**: bobot berdasarkan performa validasi silang di proyek sumber.\n\nEvaluasi dilakukan pada 10 proyek open-source dari repositori PROMISE menggunakan skenario *leave-one-project-out*. Metrik utama meliputi **F1-score**, **AUC**, dan **Matthews Correlation Coefficient (MCC)** untuk menangani ketidakseimbangan kelas."
+      },
+      {
+        "heading": "Results",
+        "content": "Hasil menunjukkan bahwa pendekatan ensemble memberikan peningkatan signifikan ketika proyek sumber dan target memiliki kemiripan struktural (misalnya: proyek Java berbasis GUI):\n\n✅ **Rata-rata F1-score**: 0.71 (naik 14% dibanding model terbaik tunggal),\n✅ **Stabilitas prediksi** meningkat, dengan deviasi standar F1 turun 22%.\n\nNamun, kinerja menurun tajam (F1 < 0.45) saat proyek target sangat berbeda (misalnya: sistem embedded vs aplikasi web), mengonfirmasi bahwa **perbedaan distribusi data** tetap menjadi hambatan utama CPDP. Skema *soft voting* konsisten menjadi yang terbaik di sebagian besar kasus."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Metode ensemble dan voting terbukti efektif dalam meningkatkan kinerja CPDP pada pasangan proyek yang memiliki kesamaan domain atau arsitektur. Namun, hasil ini juga menegaskan bahwa tanpa mekanisme adaptasi domain yang kuat, ensemble saja tidak cukup untuk mengatasi *distribution shift* yang ekstrem. Penelitian lanjutan direkomendasikan untuk menggabungkan ensemble dengan teknik *transfer learning* atau *feature alignment*, sehingga menciptakan sistem CPDP yang lebih tangguh dan universal."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Macro-Level Energy Demand Model for Cellular Telecommunication Networks",
+    "publishDate": "August 18, 2025",
+    "author": "Mochamad Mardi Marta Dinata, Yohei Yamaguchi, Hideaki Uchida, Yoshiyuki Shimoda, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:CHSYGLWDkRkC",
+    "image": "/kegiatan/Gemini_Generated_Image_4bqeg14bqeg14bqe.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Konsumsi energi jaringan telekomunikasi seluler terus meningkat seiring dengan ekspansi 4G/5G dan kepadatan pengguna. Perencanaan infrastruktur yang efisien memerlukan pemahaman kuantitatif tentang **kebutuhan energi makro** di tingkat kota atau regional. Namun, sebagian besar model saat ini bersifat mikro (per base station) atau tidak mempertimbangkan komposisi heterogen infrastruktur. Penelitian ini mengembangkan kerangka pemodelan energi makro berbasis **komposisi dan tipe Base Transceiver Station (BTS)** untuk mendukung perencanaan jaringan yang berkelanjutan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Model dikembangkan menggunakan data nyata dari tiga kota besar di Indonesia, mencakup lebih dari 12.000 BTS dari berbagai generasi (2G hingga 5G) dan vendor (Ericsson, Huawei, Nokia). Setiap tipe BTS dikategorikan berdasarkan:\n\n• Teknologi akses (GSM, UMTS, LTE, NR),\n• Konfigurasi daya (single/dual/triple band),\n• Tipe situs (macro, micro, indoor).\n\nKonsumsi energi per tipe diukur melalui audit lapangan dan data vendor. Model akhir dirumuskan sebagai:\n\n**E_total = Σ (N_i × P_i × U_i)**\n\nDi mana:\n- *N_i* = jumlah BTS tipe *i*,\n- *P_i* = daya rata-rata (kW),\n- *U_i* = faktor utilitas berbasis beban lalu lintas.\n\nValidasi dilakukan dengan membandingkan prediksi model terhadap tagihan listrik bulanan operator."
+      },
+      {
+        "heading": "Results",
+        "content": "Model menunjukkan akurasi tinggi dalam memprediksi konsumsi energi makro:\n\n✅ **Kesalahan rata-rata absolut (MAPE)**: 6.3%,\n✅ **Korelasi (R²)**: 0.94 terhadap data aktual.\n\nAnalisis sensitivitas mengungkap bahwa **komposisi tipe BTS** berkontribusi 68% terhadap variasi total energi, sementara kepadatan pengguna hanya 22%. Model juga berhasil memprediksi penghematan energi hingga **18%** melalui strategi seperti *site consolidation* dan migrasi ke perangkat generasi terbaru."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kerangka pemodelan energi makro ini memberikan alat praktis bagi operator seluler dan regulator dalam merancang kebijakan efisiensi energi, perencanaan kapasitas, dan transisi ke infrastruktur hijau. Model bersifat skalabel, dapat diterapkan di berbagai wilayah dengan kalibrasi minimal, dan mendukung simulasi skenario seperti densifikasi 5G atau penutupan jaringan 2G/3G. Ke depan, integrasi dengan data geospasial dan prediksi pertumbuhan pengguna akan semakin memperkuat utilitas model ini dalam perencanaan jangka panjang."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "A LIGHTWEIGHT AND PRACTICAL PIPELINE FOR CROSS-PROJECT DEFECT PREDICTION USING METRIC-BASED LEARNING",
+    "publishDate": "September 25, 2025",
+    "author": "Novia Heriyani, Agus Subekti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:1sJd4Hv_s6UC",
+    "image": "/kegiatan/Gemini_Generated_Image_i4hxf7i4hxf7i4hx.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Meskipun model *deep learning* menunjukkan performa tinggi dalam *Cross-Project Defect Prediction* (CPDP), kompleksitas komputasi dan kebutuhan data besar membuatnya kurang praktis untuk diadopsi di banyak organisasi pengembang perangkat lunak. Penelitian ini mengusulkan **pipeline CPDP ringan dan praktis** yang memanfaatkan fitur metrik tradisional (seperti LOC, cyclomatic complexity, dan coupling) dikombinasikan dengan teknik adaptasi domain dan penanganan ketidakseimbangan kelas, menggunakan algoritma LightGBM sebagai inti prediksi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Pipeline terdiri dari tiga tahap utama:\n\n1. **Preprocessing**: Pembersihan data dan normalisasi fitur metrik statis.\n2. **Domain Adaptation**: Transformasi fitur menggunakan **TCA (Transfer Component Analysis)** dan varian **TCA+** untuk menyelaraskan distribusi proyek sumber dan target.\n3. **Resampling & Prediksi**: Penanganan ketidakseimbangan kelas dengan **SMOTEENN**, diikuti oleh pelatihan model **LightGBM**—algoritma boosting berbasis pohon yang efisien secara memori dan cepat.\n\nEvaluasi dilakukan pada 14 proyek dari repositori PROMISE dan AEEEM dengan skenario *leave-one-project-out*. Performa dibandingkan terhadap baseline seperti DeepCPDP, CODEP, dan TCA+ dengan SVM."
+      },
+      {
+        "heading": "Results",
+        "content": "Pipeline yang diusulkan menunjukkan keseimbangan optimal antara performa dan efisiensi:\n\n✅ **Rata-rata F1-score**: 0.69 — setara dengan model deep learning terbaik,\n✅ **Waktu pelatihan rata-rata**: <3 detik per proyek (vs >120 detik untuk model deep learning),\n✅ **Penggunaan memori**: <200 MB.\n\nStabilitas model juga tinggi, dengan deviasi F1 hanya ±0.05 di berbagai pasangan proyek. Hasil ini membuktikan bahwa pendekatan berbasis metrik tradisional, bila dikombinasikan dengan teknik transfer learning yang tepat, tetap sangat kompetitif bahkan di era AI."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pipeline CPDP ringan ini menawarkan solusi realistis dan siap pakai bagi tim pengembang perangkat lunak yang ingin menerapkan prediksi cacat lintas proyek tanpa infrastruktur AI yang mahal. Dengan memanfaatkan fitur yang mudah diekstraksi dan algoritma yang efisien, pendekatan ini menjembatani kesenjangan antara riset akademis dan praktik industri. Untuk pengembangan lebih lanjut, pipeline dapat diperluas dengan integrasi fitur dinamis (misalnya: histori commit) dan antarmuka berbasis web untuk adopsi yang lebih luas."
+      }
+    ]
   }
 ]

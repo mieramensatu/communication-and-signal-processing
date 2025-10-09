@@ -1,4 +1,3 @@
-// src/components/Member.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import membersData from "../../data/member.json";

@@ -182,5 +182,101 @@
     "title": "Small CNN for Plant Disease Classification Using Quantization-Aware Training: A Case Study on MobileNetV3",
     "desc": "Penerapan Quantization-Aware Training pada MobileNetV3 untuk klasifikasi penyakit tanaman jagung, menghasilkan model ringan yang akurat dan siap untuk sistem embedded.",
     "img": "/kegiatan/Gemini_Generated_Image_9w9k179w9k179w9k.png"
+  },
+  {
+    "id": 31,
+    "title": "Improved Autocorrelation Method for Time Synchronization in Filtered OFDM",
+    "desc": "Meningkatkan akurasi sinkronisasi waktu pada sistem F-OFDM melalui teknik rata-rata pada metrik autokorelasi, terutama saat simbol pelatihan terbatas pada satu subband.",
+    "img": "/kegiatan/Gemini_Generated_Image_slp0t6slp0t6slp0.png"
+  },
+  {
+    "id": 32,
+    "title": "Date Palm Identification using DenseNet-201 Transfer Learning Method",
+    "desc": "Menggunakan DenseNet-201 dengan transfer learning dan tuning hyperparameter untuk mengidentifikasi 11 varietas kurma berdasarkan dataset 3.300 gambar, menghasilkan model dengan akurasi optimal.",
+    "img": "/kegiatan/Gemini_Generated_Image_b2olsfb2olsfb2ol.png"
+  },
+  {
+    "id": 33,
+    "title": "Macro-level Bottom-up Energy Demand Modeling for Telecommunication Networks",
+    "desc": "Mengembangkan alat penilaian kebutuhan energi berbasis data BTS untuk mendukung implementasi sistem energi terbarukan hibrida di jaringan telekomunikasi, khususnya di Indonesia.",
+    "img": "/kegiatan/Gemini_Generated_Image_kq2jxzkq2jxzkq2j.png"
+  },
+  {
+    "id": 34,
+    "title": "Improving Classification Performance on Imbalanced Medical Data using Generative Adversarial Network",
+    "desc": "Menerapkan GAN untuk oversampling data medis tidak seimbang, meningkatkan performa klasifikasi pada metrik recall, F1-score, dan AUC dibanding metode konvensional.",
+    "img": "/kegiatan/Gemini_Generated_Image_mmdbn7mmdbn7mmdb.png"
+  },
+  {
+    "id": 35,
+    "title": "K-BEST SELECTION UNTUK MENINGKATKAN KINERJA ARTIFICIAL NEURAL NETWORK DALAM MEMPREDIKSI RANGE HARGA PONSEL",
+    "desc": "Mengoptimalkan ANN dengan seleksi fitur SelectKBest dan tuning hyperparameter untuk memprediksi kisaran harga ponsel berdasarkan spesifikasi, menghasilkan akurasi dan F1-score tertinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_t340qot340qot340.png"
+  },
+  {
+    "id": 36,
+    "title": "A Systematic Review Network Slicing: Revenue Optimization for Slice Admission Control Objectives",
+    "desc": "Studi sistematis terhadap 23 literatur tentang kontrol penerimaan slice jaringan 5G/B5G dengan fokus pada optimisasi pendapatan operator melalui elastisitas slice dan metode alokasi sumber daya.",
+    "img": "/kegiatan/Gemini_Generated_Image_3qv3oi3qv3oi3qv3.png"
+  },
+  {
+    "id": 37,
+    "title": "Macro-level Energy Demand Analysis Based on Bottom-up Information for Telecommunication Networks: A Case Study of Indonesia",
+    "desc": "Analisis kebutuhan energi makro berbasis data BTS di Indonesia sebagai dasar perencanaan sistem energi terbarukan hibrida untuk jaringan telekomunikasi yang berkelanjutan.",
+    "img": "/kegiatan/Gemini_Generated_Image_cd2qtxcd2qtxcd2q.png"
+  },
+  {
+    "id": 38,
+    "title": "Pengenalan Big Data Dan Pembuatan Aplikasi Database Dengan NocoDB Pada Badan Santunan Yatim Pondok Cina Depok",
+    "desc": "Pelatihan pengabdian masyarakat tentang big data dan pembuatan aplikasi database tanpa coding menggunakan NocoDB, meningkatkan kapasitas digital lembaga yatim dengan kepuasan peserta 95–100%.",
+    "img": "/kegiatan/Gemini_Generated_Image_pw4x64pw4x64pw4x.png"
+  },
+  {
+    "id": 39,
+    "title": "Enhancing IoT Data Acquisition Efficiency via FPGA-based Implementation with OpenCL Framework",
+    "desc": "Mengimplementasikan sistem akuisisi data IoT berbasis FPGA dengan framework OpenCL untuk meningkatkan efisiensi pemrosesan real-time dan antarmuka perangkat keras.",
+    "img": "/kegiatan/Gemini_Generated_Image_rf6mfzrf6mfzrf6m.png"
+  },
+  {
+    "id": 40,
+    "title": "Penerapan Artificial Intelligence untuk Meningkatkan Efisiensi Pengelolaan Database Administrasi Remaja Masjid",
+    "desc": "Integrasi AI dalam sistem administrasi remaja masjid meningkatkan akurasi, kecepatan, dan kualitas pengambilan keputusan, menjadi preseden penerapan teknologi di organisasi komunitas.",
+    "img": "/kegiatan/Gemini_Generated_Image_o29m4no29m4no29m.png"
+  },
+  {
+    "id": 41,
+    "title": "Multi View Natural Network for Cross-Project Software Defect Prediction",
+    "desc": "Mengusulkan arsitektur Multi-View Neural Network (MVNN) yang memanfaatkan transformasi fitur heterogen untuk meningkatkan generalisasi dalam prediksi cacat lintas proyek (CPDP) mengatasi perbedaan distribusi data dan ketidakseimbangan kelas.",
+    "img": "/kegiatan/Gemini_Generated_Image_ha9ic8ha9ic8ha9i.png"
+  },
+  {
+    "id": 42,
+    "title": "Leveraging 3GPP Features and Optimization Techniques for 5G NR-V2X Resource Allocation: A Survey",
+    "desc": "Studi komprehensif tentang strategi alokasi sumber daya pada 5G NR-V2X, mengevaluasi fitur 3GPP terkini dan teknik optimisasi untuk memenuhi kebutuhan QoS di lingkungan kendaraan dinamis.",
+    "img": "/kegiatan/Gemini_Generated_Image_zez19izez19izez1.png"
+  },
+  {
+    "id": 43,
+    "title": "Integration of Artificial Intelligence into Radio Access Network (AI-RAN): Architecture, Classification, and Development Focus",
+    "desc": "Mengklasifikasikan pendekatan AI-RAN menjadi AI-for-RAN, AI-and-RAN, dan AI-on-RAN, serta mengidentifikasi fokus pengembangan seperti efisiensi spektrum, latensi rendah, dan keamanan jaringan menuju 6G.",
+    "img": "/kegiatan/Gemini_Generated_Image_lj6z0zlj6z0zlj6z.png"
+  },
+  {
+    "id": 44,
+    "title": "Ensemble And Voting Approaches For Defect Prediction Across Multiple Software Projects",
+    "desc": "Menggabungkan metode ensemble dan voting dari lima model machine learning untuk prediksi cacat lintas proyek, menunjukkan kinerja tinggi pada proyek dengan pola serupa namun menurun pada proyek berbeda, menggarisbawahi tantangan perbedaan distribusi data.",
+    "img": "/kegiatan/Gemini_Generated_Image_30heg730heg730he.png"
+  },
+  {
+    "id": 45,
+    "title": "Macro-Level Energy Demand Model for Cellular Telecommunication Networks",
+    "desc": "Mengembangkan kerangka pemodelan kebutuhan energi makro untuk jaringan seluler berbasis komposisi dan tipe BTS di tingkat kota, sebagai dasar perencanaan infrastruktur jaringan yang efisien dan berkelanjutan.",
+    "img": "/kegiatan/Gemini_Generated_Image_4bqeg14bqeg14bqe.png"
+  },
+  {
+    "id": 46,
+    "title": "A LIGHTWEIGHT AND PRACTICAL PIPELINE FOR CROSS-PROJECT DEFECT PREDICTION USING METRIC-BASED LEARNING",
+    "desc": "Merancang pipeline CPDP ringan berbasis fitur metrik tradisional dengan adaptasi domain (TCA/TCA+) dan resampling (SMOTEENN), memberikan alternatif efisien terhadap model deep learning dengan stabilitas tinggi menggunakan LightGBM.",
+    "img": "/kegiatan/Gemini_Generated_Image_i4hxf7i4hxf7i4hx.png"
   }
 ]

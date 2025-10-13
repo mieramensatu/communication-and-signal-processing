@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./main.css";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
@@ -13,6 +13,20 @@ import Member from "./pages/member/Member";
 function App() {
   const [memberCategory, setMemberCategory] = useState("Researcher");
   const [activeResearcher, setActiveResearcher] = useState("all");
+
+  useEffect(() => {
+    if (activeResearcher !== "all") {
+      const activitiesSection = document.getElementById("activities");
+      if (activitiesSection) {
+        setTimeout(() => {
+          activitiesSection.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }, 1100);
+      }
+    }
+  }, [activeResearcher]);
 
   return (
     <div>

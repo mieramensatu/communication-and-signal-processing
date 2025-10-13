@@ -4,6 +4,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import detail from "../../data/detail.json";
 import { marked } from "marked";
+import { getLenis } from "../../helper/SmoothScroll";
 
 function Article() {
   const [article, setArticle] = useState(null);
@@ -18,6 +19,16 @@ function Article() {
     setLoading(false);
   }, [intId]);
 
+  useEffect(() => {
+    if (!loading && article) {
+      const lenis = getLenis();
+      if (lenis) {
+        lenis.scrollTo(0);
+      } else {
+        window.scrollTo(0, 0);
+      }
+    }
+  }, [loading, article]);
   if (loading) {
     return (
       <div className="article-page">

@@ -12,12 +12,6 @@ import { isSamePerson } from "../../helper/nameMatcher";
 function Activities({ activeResearcher = "all" }) {
   const sectionRef = useRef(null);
 
-  useEffect(() => {
-    if (activeResearcher && activeResearcher !== "all" && sectionRef.current) {
-      sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
-  }, [activeResearcher]);
-
   const truncateText = (text, maxLength) => {
     if (!text || text.length <= maxLength) return text;
     const truncated = text.slice(0, maxLength);

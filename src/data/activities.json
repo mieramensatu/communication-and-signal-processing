@@ -4,16 +4,14 @@
     "author": ["Devi Wulandari", "Agus Subekti"],
     "title": "Prediction of Glucose Levels in Diabetics Using Support Vector Regression",
     "desc": "Machine learning is used to predict glucose levels in diabetics. Support Vector Regression outperformed other algorithms with the lowest mean squared error (28.9480), where Instance 47 showed the highest predicted plasma glucose (189.2305).",
-    "img": "/kegiatan/resized_image_1600x1200.png",
-    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
+    "img": "/kegiatan/resized_image_1600x1200.png"
   },
   {
     "id": 2,
     "author": ["Andreyestha Andreyestha, Agus Subekti"],
     "title": "Analisa Sentiment pada Ulasan Film dengan Optimasi Ensemble Learning",
     "desc": "Analisis sentimen ulasan film menggunakan Optimasi Ensemble Learning (kombinasi Naïve Bayes dan Random Forest) dan seleksi fitur Chi Square. Model Chi Square + Voting 2 (RF+SVM) menghasilkan akurasi tertinggi 84.6% pada Polarity Dataset 2.0 dan akurasi hingga 92% pada ulasan berbahasa Indonesia.",
-    "img": "/kegiatan/Gemini_Generated_Image_es8lfses8lfses8l.png",
-    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
+    "img": "/kegiatan/Gemini_Generated_Image_es8lfses8lfses8l.png"
   },
   {
     "id": 3,
@@ -32,8 +30,7 @@
     ],
     "title": "Plant Diseases Detection with Low Resolution Data Using Nested Skip Connections",
     "desc": "Mengevaluasi kinerja model Deep Learning (VGGNet, AlexNet, ResNet, Xception, MobileNet) untuk deteksi penyakit tanaman pada data resolusi rendah untuk mengatasi kendala di negara berkembang. Tujuannya adalah menemukan model yang berkinerja baik dengan ukuran model yang lebih kecil.",
-    "img": "/kegiatan/Gemini_Generated_Image_liirwjliirwjliir.png",
-    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
+    "img": "/kegiatan/Gemini_Generated_Image_liirwjliirwjliir.png"
   },
   {
     "id": 4,
@@ -47,8 +44,7 @@
     ],
     "title": "Analysis of IEEE 802.11p MAC Protocol for Safety Message Broadcast in V2V Communication",
     "desc": "Analisis kinerja protokol IEEE 802.11p MAC untuk penyiaran pesan keselamatan Vehicle-to-Vehicle (V2V). Evaluasi dilakukan melalui simulasi dan analisis untuk metrik Packet Delivery Ratio (PDR), menunjukkan penurunan PDR drastis akibat masalah hidden terminal.",
-    "img": "/kegiatan/Gemini_Generated_Image_bawaa3bawaa3bawa.png",
-    "link": "https://ejournal.nusamandiri.ac.id/index.php/pilar/article/view/1264"
+    "img": "/kegiatan/Gemini_Generated_Image_bawaa3bawaa3bawa.png"
   },
   {
     "id": 5,
@@ -494,5 +490,599 @@
     "title": "A LIGHTWEIGHT AND PRACTICAL PIPELINE FOR CROSS-PROJECT DEFECT PREDICTION USING METRIC-BASED LEARNING",
     "desc": "Merancang pipeline CPDP ringan berbasis fitur metrik tradisional dengan adaptasi domain (TCA/TCA+) dan resampling (SMOTEENN), memberikan alternatif efisien terhadap model deep learning dengan stabilitas tinggi menggunakan LightGBM.",
     "img": "/kegiatan/Gemini_Generated_Image_i4hxf7i4hxf7i4hx.png"
+  },
+  {
+    "id": 47,
+    "author": [
+      "Wazir Zada Khan",
+      "MH Rehman",
+      "Hussein Mohammed Zangoti",
+      "Muhammad Khalil Afzal",
+      "Nasrullah Armi",
+      "Khaled Salah"
+    ],
+    "title": "Industrial Internet of Things: Recent Advances, Enabling Technologies and Open Challenges",
+    "desc": "This paper reviews the evolution and current state of the Industrial Internet of Things (IIoT), emphasizing how IoT technologies are transforming industrial systems through automation, intelligent monitoring, and predictive maintenance. It defines IIoT, outlines recent research advances, and discusses enabling technologies and open challenges for achieving efficiency and productivity in industrial operations.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 48,
+    "author": ["N Armi", "W Gharibi", "WZ Khan"],
+    "title": "Error Rate Detection Due to Primary User Emulation Attack in Cognitive Radio Networks",
+    "desc": "This study examines the impact of Primary User Emulation Attacks (PUEA) in Cognitive Radio Networks by analyzing the effect of exclusive regions on false alarm and miss detection probabilities. Simulation results show that increasing the exclusion distance from malicious users effectively decreases both error rates, improving network reliability.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 49,
+    "author": [
+      "Muthia Hanifah",
+      "Levy Olivia Nur",
+      "Nasrullah Armi",
+      "Ivany Sarief",
+      "Achmad Munir"
+    ],
+    "title": "Experimental Characterization of AMC-Based Thin Tunable Absorber Using Varactor Diode",
+    "desc": "This paper presents the experimental design and characterization of a thin tunable absorber based on Artificial Magnetic Conductor (AMC) technology using varactor diodes. The absorber achieves tunable frequency response and improved absorptivity through bias voltage control, demonstrating excellent performance in electromagnetic wave attenuation.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 50,
+    "author": [
+      "Rafli Ramadhan",
+      "Nasrullah Armi",
+      "Rita Magdalena",
+      "Galih Nugraha Nurkahfi",
+      "Mochamad Mardi Marta Dinata"
+    ],
+    "title": "QoS Performance of Software Define Network Using Open Network Operating System Controller",
+    "desc": "This research investigates the performance of Software Defined Networking (SDN) using the ONOS controller through network simulations involving 20 hosts and 10 switches. Results indicate that network topology influences key QoS parameters such as throughput, delay, jitter, and packet loss, with linear topology achieving optimal throughput and minimal packet loss.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 51,
+    "author": [
+      "Muhammad Panji Kusuma Praja",
+      "Winy Desvasari",
+      "Nasrullah Armi",
+      "Achmad Munir"
+    ],
+    "title": "Design and Characterization of 1800MHz TM Mode Circular Waveguide Array Antenna for Energy Harvesting Application",
+    "desc": "This paper discusses the design and testing of a 2×2 circular waveguide array antenna optimized for 1800MHz GSM energy harvesting. Experimental results show excellent reflection coefficient and efficiency, highlighting its potential for wireless energy harvesting systems.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 52,
+    "author": [
+      "Arumjeni Mitayani",
+      "Galih Nugraha Nurkahfi",
+      "Mochamad Mardi Marta Dinata",
+      "Vita Awalia Mardiana",
+      "Nasrullah Armi",
+      "Chaeriah Bin Ali Wael",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "Path Loss Model of the Maritime Wireless Communication in the Seas of Indonesia",
+    "desc": "This study analyzes radio propagation and path loss behavior in maritime wireless communications across Indonesian seas. Simulations based on varying sea conditions reveal that rougher sea states increase path loss, influencing communication reliability and signal performance in maritime environments.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 53,
+    "author": [
+      "Faheem Reegu",
+      "Wazir Zada Khan",
+      "Salwani Mohd Daud",
+      "Quratulain Arshad",
+      "Nasrullah Armi"
+    ],
+    "title": "A Reliable Public Safety Framework for Industrial Internet of Things (IIoT)",
+    "desc": "This paper proposes an IoT-based Public Safety (IoTPS) framework tailored for Industrial IoT environments to enhance reliability and safety in industrial operations. A case study in the oil and gas sector illustrates the framework’s effectiveness in maintaining operational continuity and ensuring worker safety.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 54,
+    "author": [
+      "Salita Ulitia Prini",
+      "Winy Desvasari",
+      "Rico Dahlan",
+      "Ros Sariningrum"
+    ],
+    "title": "Cooperative Game Theory Approach for Energy-Efficient Node Clustering in Wireless Sensor Network",
+    "desc": "This study applies cooperative game theory to improve energy-efficient clustering in wireless sensor networks. The proposed Cooperative Game Clustering (CGC) method extends network lifetime and stability compared to traditional LEACH, demonstrating enhanced performance in multi-node environments through cost-sharing cooperation.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 55,
+    "author": ["Giovano Andara", "Dharu Arseno", "Nasrullah Armi"],
+    "title": "Analisis Kinerja Light Detecting And Ranging (Lidar) Untuk Deteksi Objek Menggunakan Metode Jarak Euclidean",
+    "desc": "Penelitian ini merancang sistem deteksi objek berbasis LiDAR menggunakan metode jarak Euclidean. Dengan memanfaatkan data point cloud dari YDLiDAR G4, sistem mampu mendeteksi posisi objek secara akurat di ruang tertutup, menunjukkan kinerja yang efektif dalam pengukuran jarak antar objek.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 56,
+    "author": ["Prasetyo Putranto", "Nasrullah Armi", "Dharu Arseno"],
+    "title": "Design and Realization of Band Pass Filter in K-Band Frequency for Short Range Radar Application",
+    "desc": "This paper presents the design and fabrication of a bandpass filter for short-range radar operating at 24 GHz in the K-band. The filter is implemented using the Substrate Integrated Waveguide (SIW) technique on an RO4003C substrate. Experimental results show good agreement with simulations, although minor deviations occur due to fabrication imperfections.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 57,
+    "author": [
+      "Ali Mahamoud Ali",
+      "Bakhit Amine Adoum",
+      "Idriss Saleh Bachar",
+      "Nasrullah Armi",
+      "Mahamat Saleh Idriss",
+      "Mahamoud Youssouf Khayal"
+    ],
+    "title": "A Review of the Use Cases and Possible Technologies for 5G and Beyond Communications",
+    "desc": "This review explores key use cases and technologies shaping 5G and future communication systems. It discusses advances in massive MIMO, beamforming, device-to-device communication, NOMA, full-duplex, and cognitive radio. The paper highlights the potential and challenges of each technology in supporting ultra-reliable and high-capacity wireless communication.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 58,
+    "author": ["Vita Awalia Mardinata", "Dayat Kurniawan", "Nasrullah Armi"],
+    "title": "Impact of Overloading Factor on MIMO–SCMA Systems",
+    "desc": "This paper investigates the effect of overloading factors on MIMO–SCMA performance under Rayleigh and AWGN channels. Simulation results show that while overloading increases processing time and complexity, MIMO–SCMA achieves better bit error rate performance compared to single SCMA configurations, especially under high connectivity scenarios.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 59,
+    "author": [
+      "Nasrullah Armi",
+      "Adira Nur Andiyani",
+      "Helfy Susilawati",
+      "Chaeriah Bin Ali Wael"
+    ],
+    "title": "Comparative Study of the LEACH and LEACH-PSO Protocols on Wireless Sensor Networks",
+    "desc": "This study compares the LEACH and LEACH-PSO protocols for wireless sensor networks in terms of energy efficiency and network lifetime. Simulation results show that LEACH-PSO achieves better performance by optimizing cluster head selection, reducing overall energy consumption, and extending network lifetime compared to standard LEACH.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 60,
+    "author": [
+      "Vita Awalia Mardiana",
+      "Mochamad Mardi Martadinata",
+      "Galih Nugraha Nurkahfi",
+      "Arumjeni Mitayani",
+      "Dayat Kurniawan",
+      "Nasrullah Armi",
+      "Asih Setiarini"
+    ],
+    "title": "SIMONIC: IoT-Based Quarantine Monitoring System for COVID-19",
+    "desc": "This paper proposes SIMONIC, an IoT-based quarantine monitoring system integrating geofencing and social distancing features. The system utilizes a GPS-based geofence and Bluetooth RSSI for adaptive distance measurement, implemented via mobile applications and low-cost wristbands to support COVID-19 quarantine compliance and monitoring.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 61,
+    "author": [
+      "Riz-riz Rahmat Taufik",
+      "Ahmad Tri Hanuranto",
+      "Nasrullah Armi"
+    ],
+    "title": "Perancangan Media Pembelajaran Modulasi Digital (ASK, FSK, BPSK, QPSK, 16QAM) Berbasis Augmented Reality",
+    "desc": "Penelitian ini merancang aplikasi pembelajaran berbasis Augmented Reality menggunakan Unity3D untuk menampilkan bentuk sinyal modulasi digital seperti ASK, FSK, BPSK, QPSK, dan 16QAM. Aplikasi ini memungkinkan pengguna memvisualisasikan berbagai variasi bit dengan marker berbasis kamera, meningkatkan pemahaman konsep modulasi secara interaktif.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 62,
+    "author": [
+      "Muhammad Ilham Aditya",
+      "Arsyad Ramadhan Darlis",
+      "Nasrullah Armi"
+    ],
+    "title": "Implementasi Sistem Deteksi Jarak Kendaraan Menggunakan Sensor Ultrasonik",
+    "desc": "Penelitian ini mengembangkan sistem deteksi jarak kendaraan menggunakan sensor ultrasonik HC-SR04 dan mikrokontroler Arduino Uno. Sistem memberikan peringatan melalui LED dan buzzer sesuai dengan jarak antar kendaraan untuk membantu pengemudi menjaga jarak aman, dengan tampilan jarak pada LCD secara real-time.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 63,
+    "author": ["Omar Saeed Al-Mushayt", "Wajeb Gharibi", "Nasrullah Armi"],
+    "title": "An E-Commerce Control Unit for Addressing Online Transactions in Developing Countries: Saudi Arabia—Case Study",
+    "desc": "This study introduces a smart control unit to overcome major challenges in Saudi Arabia’s e-commerce environment. Despite the growth of online shopping, several obstacles related to transaction security, reliability, and regulation persist. The proposed system aims to improve the reliability, speed, and security of online transactions by integrating government regulations and technical mechanisms into a unified control framework.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 64,
+    "author": [
+      "Galih Nugraha Nurkahfi",
+      "Nana Rachmana Syambas",
+      "Eueung Mulyana",
+      "Nasrullah Armi",
+      "Iyad Dayoub",
+      "Elhadj Dogheche",
+      "Syaiful Ahdan",
+      "Ratna Mayasari",
+      "Ridha Muldina Negara",
+      "Ade Nurhayati"
+    ],
+    "title": "Cross-Layer Design on Software Defined Vehicular Network (SDVN) Based on Radio Access Technology (RAT) IEEE 802.11bd to Improve End-to-End Communication Performance",
+    "desc": "This paper explores cross-layer design techniques in software-defined vehicular networks (SDVNs) using IEEE 802.11bd. The approach integrates transmit antenna selection and power adaptation to address packet blocking issues in dense vehicular environments. Results demonstrate improved throughput and reduced latency, supporting future autonomous and connected vehicle systems within intelligent transportation networks.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 65,
+    "author": [
+      "GN Nurkahfi",
+      "N Armi",
+      "VA Mardiana",
+      "MMM Dinata",
+      "A Mitayani",
+      "A Setiarini",
+      "B Prawara",
+      "D Kurniawan",
+      "R Firmansyah",
+      "AF Rozie",
+      "A Arisal",
+      "S Setiana"
+    ],
+    "title": "Development of a Low-Cost Wearable Device for COVID-19 Self-Quarantine Monitoring System",
+    "desc": "This research develops a Bluetooth-based low-cost wearable device designed for self-quarantine monitoring during the COVID-19 pandemic. The system integrates GPS tracking, Bluetooth low energy (BLE), and centralized server monitoring to ensure quarantine compliance. Laboratory testing showed that the device effectively supports real-time location tracking, geofencing, and data transmission with low energy consumption.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 66,
+    "author": [
+      "Tjahjo Adiprabowo",
+      "Yuyu Wahyu",
+      "Budi Prawara",
+      "Nasrullah Armi",
+      "Budiman PA Rohman",
+      "Puput Dani Prasetyo Adi"
+    ],
+    "title": "Common Mode Noise Reduction Strategies in Radar Devices",
+    "desc": "This paper discusses methods for reducing common mode noise (CMN) in radar systems to improve detection sensitivity and signal integrity. The study compares several techniques such as proper PCB design, common mode filters, and digital signal processing. Among these, optimized PCB design was identified as the most effective, reducing radar noise interference by up to 20%.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 67,
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Agoestina Mappadang",
+      "Nasrullah Armi",
+      "Arief Budi Santiko",
+      "Tjahjo Adiprabowo",
+      "Riza Zulkarnain",
+      "Adi Wirawan"
+    ],
+    "title": "Optimization and Development of Raspberry Pi 4 Model B for the Internet of Things",
+    "desc": "This study explores the use of Raspberry Pi 4 Model B as a low-cost IoT platform. The paper discusses hardware optimization, Python-based development, and integration with IoT networks such as LoRa and ZigBee. Real-time monitoring applications demonstrate the device’s capability for collecting, processing, and visualizing data through cloud platforms like Thingspeak and The Things Network.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 68,
+    "author": [
+      "Muhammad Irfan Alghiffari",
+      "Achmad Ali Muayyadi",
+      "Nasrullah Armi"
+    ],
+    "title": "Simulasi dan Analisis Jaringan Ethernet Passive Optical Network (EPON) untuk Telkom Cipondoh Tangerang",
+    "desc": "Penelitian ini mensimulasikan dan menganalisis performa jaringan EPON menggunakan Opnet Modeler untuk wilayah Cipondoh, Tangerang. Evaluasi dilakukan berdasarkan parameter QoS seperti delay, throughput, dan jitter, dibandingkan dengan standar ITU-T. Hasil simulasi menunjukkan delay rata-rata di bawah 150 ms sehingga jaringan dikategorikan sangat baik untuk layanan triple play.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 69,
+    "author": [
+      "Suyoto Suyoto",
+      "Galih Nugraha Nurkahfi",
+      "Mohammad Hamdani",
+      "Vita Awalia Mardiana",
+      "Chaeriah Bin Ali Wael",
+      "Salita Ulitia Prini",
+      "Nasrullah Armi",
+      "Tati Mardiana",
+      "Nanang Ruhyana",
+      "Andri Agung Riyadi",
+      "Achmad Bayhaqy"
+    ],
+    "title": "Time Synchronization for OFDM Systems Using the Symmetric Correlator-ELM Technique",
+    "desc": "This study proposes a hybrid synchronization method for OFDM systems that combines symmetric correlation and Extreme Learning Machine (ELM) networks. The approach eliminates the need for prior channel statistics and effectively mitigates multipath interference. Experimental results indicate significant error reduction compared to conventional synchronization techniques.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 70,
+    "author": [
+      "Saad Mamoun Abdel Rahman",
+      "Nasrullah Armi",
+      "Mohammed Eltahir Abdelhag",
+      "Sherif Tawfik Amin",
+      "Hassan Abu Eishah"
+    ],
+    "title": "Rapid and Efficient Facial Landmark Identification by Light and High Resolution Network Using Artificial Intelligence",
+    "desc": "This paper introduces THRN Plus, an enhanced tiny high-resolution neural network for efficient facial landmark detection. The model improves inference speed through an optimized fusion block and lightweight output module. Experimental results on two benchmark datasets show that THRN Plus achieves higher accuracy and faster performance than existing HRNet-based methods.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 71,
+    "author": [
+      "Bakhit Amine Adoum",
+      "Faitchou Marius Fidel",
+      "Samafou Faustin",
+      "Amir Moungache",
+      "Nasrullah Armi"
+    ],
+    "title": "Federated Meta-Learning for Task Offloading and Resource Allocation in MEC-IoT",
+    "desc": "This paper investigates a federated meta-learning framework to optimize task offloading and resource allocation in Mobile Edge Computing (MEC) and Internet of Things (IoT) environments. The approach enhances computational efficiency and reduces latency by distributing learning across multiple MEC nodes, allowing adaptive allocation of limited computing resources while maintaining privacy and scalability.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 72,
+    "author": [
+      "Galih Nugraha Nurkahfi",
+      "Andy Triwinarko",
+      "Budi Prawara",
+      "Nasrullah Armi",
+      "Tutun Juhana",
+      "Nana Rachmana Syambas",
+      "Eueung Mulyana",
+      "Elhadj Dogheche",
+      "Iyad Dayoub"
+    ],
+    "title": "On SDN to Support the IEEE 802.11 and C-V2X-Based Vehicular Communications Use-Cases and Performance: A Comprehensive Survey",
+    "desc": "This survey provides an in-depth analysis of Software Defined Networking (SDN) integration in vehicular communications using IEEE 802.11 and C-V2X technologies. It discusses SDN’s advantages in improving flexibility, low latency, and reliability for vehicular networks. The study also compares the coexistence performance between IEEE 802.11 and C-V2X, highlighting open challenges and potential solutions for future vehicular systems.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 73,
+    "author": [
+      "Budiman Putra Asmaur Rohman",
+      "Arief Suryadi Satyawan",
+      "Dayat Kurniawan",
+      "Ratna Indrawijaya",
+      "Chaeriah Bin Ali Wael",
+      "Nasrullah Armi"
+    ],
+    "title": "Robust Automotive Radar Interference Mitigation Using Multiplicative-Adaptive Filtering and Hilbert Transform",
+    "desc": "This paper proposes a robust interference mitigation method for automotive radar systems based on multiplicative-adaptive filtering and Hilbert transform. The method effectively suppresses interference from nearby radars, improving target detection accuracy even under dense traffic conditions. Simulation results demonstrate enhanced radar signal integrity and robustness against noise.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 74,
+    "author": [
+      "Faustin Samafou",
+      "Bakhit Amine Adoum",
+      "Faitchou Marius Fidel",
+      "Ado Adamou Abba Ari",
+      "Amir Moungache",
+      "Nasrullah Armi",
+      "Abdelhak Mourad Gueroui"
+    ],
+    "title": "A New Approach to Joint Resource Management in MEC-IoT Based Federated Meta-Learning",
+    "desc": "The study presents FedMeta2Ag, a joint resource management model in MEC-IoT environments using federated meta-learning. By leveraging distributed intelligence, the system dynamically manages resource allocation and computation offloading. Experiments using the MNIST dataset achieved 92% accuracy, outperforming existing models in both convergence speed and predictive precision, demonstrating its suitability for next-generation wireless networks.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 75,
+    "author": ["Wina Ayu Lestari", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "title": "Pengembangan Sistem Pertanian Terpadu Skala Mikro Berbasis IoT pada Front-End Website",
+    "desc": "Penelitian ini membahas pengembangan front-end website untuk sistem pertanian terpadu skala mikro berbasis IoT yang mengintegrasikan sektor pertanian, peternakan, dan perikanan. Evaluasi terhadap 79 responden menunjukkan tampilan dan navigasi website tergolong baik. Website terbukti responsif di berbagai perangkat dan mampu menampilkan data sensor secara real-time untuk pemantauan budidaya.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 76,
+    "author": ["Nando Irawan Alsha", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "title": "Sistem Pertanian Terpadu Skala Mikro Berbasis IoT pada Ayam Petelur",
+    "desc": "Penelitian ini mengembangkan sistem IoT untuk pemantauan suhu kandang ayam petelur guna meningkatkan efisiensi peternakan. Sistem otomatis menyalakan kipas pendingin ketika suhu melebihi 25°C dan mematikannya kembali setelah normal. Implementasi ini berhasil meningkatkan efisiensi waktu dan penggunaan energi dalam proses produksi telur ayam.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 77,
+    "author": ["Rivo Dwi Yulianto", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "title": "Perancangan Back-End Website pada Sistem Pertanian Terpadu Skala Mikro Berbasis IoT",
+    "desc": "Penelitian ini merancang sistem back-end untuk website pertanian terpadu berbasis IoT yang mengintegrasikan data sensor dari berbagai sektor pertanian. Sistem ini memungkinkan pengguna memantau data secara real-time melalui antarmuka web. Backend dirancang untuk mendukung komunikasi efisien antar sensor, database, dan pengguna menggunakan teknologi berbasis web modern.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 78,
+    "author": [
+      "Aurellia Kartika Estiningtyas",
+      "Achmad Ali Muayyadi",
+      "Nasrullah Armi"
+    ],
+    "title": "Sistem Pertanian Terpadu Skala Mikro Berbasis IoT pada Ikan Lele",
+    "desc": "Penelitian ini mengembangkan sistem IoT untuk sektor perikanan, khususnya budidaya ikan lele. Sistem memonitor kekeruhan air dan pH serta mengatur pemberian pakan otomatis. Ketika pH air berada di luar rentang 6.5–8.5 atau kekeruhan melebihi 50 NTU, sistem secara otomatis mengaktifkan sirkulasi air. Implementasi ini meningkatkan efisiensi waktu dan kualitas lingkungan kolam ikan.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 79,
+    "title": "Multi-Function Coastal Radar for Tsunami Detection And Ocean Tide and Wave Monitoring",
+    "authors": [
+      "Tjahjo Adiprabowo",
+      "Yuyu Wahyu",
+      "Goib Wiranto",
+      "Nasrullah Armi",
+      "Asif Awaludin",
+      "Ginaldi Ari Nugroho",
+      "Pamungkas Daud",
+      "Puput Dani Prasetyo Adi",
+      "Aloysius Adya Pramudita",
+      "Yudi Yuliyus Maulana",
+      "Folin Oktafiani",
+      "Teguh Praludi",
+      "Berlian Surya Wicaksana",
+      "Riyani Jana Yanti",
+      "Suryanto Suryanto",
+      "Rizky Rahmatullah",
+      "Yana Taryana",
+      "Suisbiyanto Prasetya",
+      "Ding-Bing Lin"
+    ],
+    "abstract": "This study focuses on Tsunami detection using SIMRAD Radar. A tsunami can cause severe damage and loss of life. As an archipelagic nation, Indonesia must apply appropriate technology such as smart radar that can detect high sea waves from tens to hundreds of kilometers away. This system provides rapid information for emergency response teams to notify communities of potential tsunamis. The research includes the comprehensive measurement of the SIMRAD Radar Helo 6 integrated with SBE 26Plus data for marine monitoring. The radar, positioned along the coast, and SBE26Plus, placed in the ocean, provide real-time measurements for sea level and wave monitoring."
+  },
+  {
+    "id": 80,
+    "title": "Optimasi Penginderaan Spektrum Pada Radio Kognitif Untuk Mengatasi Kelangkaan Frekuensi Dalam Sistem Komunikasi Nirkabel",
+    "authors": ["Nasrullah Armi"],
+    "abstract": "Jumlah pengguna perangkat nirkabel yang meningkat pesat menyebabkan kelangkaan spektrum frekuensi. Teknologi akses spektrum dinamis diperlukan agar pengguna dapat berpindah frekuensi secara fleksibel tanpa perubahan perangkat keras. Penelitian ini membahas dua metode utama dalam teknologi penginderaan dan akses spektrum dinamis, yaitu lapisan bawah (underlay) dan lapisan atas (overlay). Sistem radio kognitif menjadi solusi efisien dengan kemampuan mendeteksi dan menggunakan spektrum yang tidak terpakai, memastikan komunikasi nirkabel yang efisien dan tidak saling mengganggu."
+  },
+  {
+    "id": 81,
+    "title": "Multi-Function Coastal Radar for Tsunami Detection And Ocean Wave Monitoring",
+    "authors": [
+      "Yuyu Wahyu",
+      "Tjahjo Adiprabowo",
+      "Nasrullah Armi",
+      "Asif Awaludin",
+      "Ginaldi Ari Nugroho",
+      "Puput Dani Prasetyo Adi",
+      "Aloysius Adya Pramudita",
+      "Suisbiyanto Prasetya",
+      "B Berlian Surya Wicaksana",
+      "Rizky Rahmatullah",
+      "Pamungkas Daud",
+      "Teguh Praludi"
+    ],
+    "abstract": "This research developed the application of SIMRAD Halo Radar 6 for marine wave detection and monitoring using Compressed Pulse Radar technology. Unlike traditional applications that filter out sea clutter, this study utilizes sea wave reflections for tsunami warning purposes. The radar employs a mix of Pulse and Chirp signals to improve accuracy in sea-level detection and early warning capabilities."
+  },
+  {
+    "id": 82,
+    "title": "Random sample consensus-based room mapping using light detection and ranging",
+    "authors": [
+      "Merlyn Inova Christie Latukolan",
+      "Aloysius Adya Pramudita",
+      "Nasrullah Armi",
+      "Nizar Alam Hamdani",
+      "Helfy Susilawati",
+      "Arief Suryadi Satyawan"
+    ],
+    "abstract": "This study presents a RANSAC-based room mapping method using LiDAR technology. The approach performs line fitting to correct incomplete point cloud data caused by reflection or obstacles during scanning. Using a 2D YDLIDAR G4 sensor with 7 Hz frequency, the method successfully reconstructs room maps with high accuracy. Increasing data input improves the likelihood of accurate model generation."
+  },
+  {
+    "id": 83,
+    "title": "Penerapan Teknologi Internet of Things (IoT) pada Budidaya Akuaponik Ikan Patin",
+    "authors": ["Rafif Tian Isnanta", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "abstract": "Akuaponik menggabungkan sistem hidroponik dan akuakultur untuk memanfaatkan lahan sempit secara optimal. Penelitian ini menerapkan teknologi IoT untuk memantau kualitas air dan pemberian pakan ikan patin secara real-time. Sistem ini meningkatkan efisiensi dan efektivitas pengelolaan, serta membantu menjaga stabilitas ekosistem akuaponik agar mendukung pertumbuhan ikan dan tanaman dengan optimal."
+  },
+  {
+    "id": 84,
+    "title": "Penerapan Teknologi Internet of Things Berbasis Web Pada Budidaya Akuaponik Tumbuhan Pakcoy",
+    "authors": ["Hilmi Rifa Ghifary", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "abstract": "Penelitian ini merancang sistem IoT berbasis web untuk budidaya akuaponik tumbuhan pakcoy. Dengan menggabungkan ikan dan tanaman, sistem ini membutuhkan pemantauan intensif terhadap pH air, nutrisi, ketinggian air, dan intensitas cahaya. Sistem IoT memungkinkan pengumpulan dan pengiriman data secara otomatis tanpa intervensi manusia, sehingga meningkatkan efektivitas pemeliharaan budidaya akuaponik."
+  },
+  {
+    "id": 85,
+    "title": "Alat Pendeteksi Gas Buang Mobil Menggunakan Sensor MQ-135",
+    "authors": ["Ridho Armanda", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "abstract": "Penelitian ini merancang alat pendeteksi gas buang kendaraan menggunakan sensor MQ-135 untuk memantau emisi secara real-time. Data ditampilkan pada platform Blynk Cloud dengan nilai rata-rata emisi sebesar 946 ppm saat idle dan 1235 ppm saat berjalan. Sistem ini dapat membantu pengendara memantau kesehatan kendaraan dan kualitas emisi guna mendukung lingkungan yang lebih bersih."
+  },
+  {
+    "id": 86,
+    "title": "Perancangan Sistem Transmisi Data Kesehatan Mobil Menggunakan DHT22",
+    "authors": ["Bimo Wiko", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "abstract": "Sistem ini dirancang untuk mentransmisikan data kesehatan kendaraan secara real-time menggunakan sensor DHT22 dan mikrokontroler ESP32. Sistem mampu memantau suhu mesin, suhu transmisi, serta kondisi kendaraan lainnya. Hasil pengujian menunjukkan sistem berfungsi efektif dalam memberikan informasi kondisi kendaraan, yang dapat membantu mengurangi risiko kecelakaan akibat kerusakan mekanis."
+  },
+  {
+    "id": 87,
+    "title": "Perancangan Dan Implementasi Sistem Pengendali Nutrisi Dan Ph Pada Buah Melon Hidroponik Irigasi Tetes Berbasis IoT",
+    "authors": ["Muhamad Fauzan", "Achmad Aly Muayyadi", "Nasrullah Armi"],
+    "abstract": "Penelitian ini membahas sistem IoT untuk mengontrol nutrisi dan pH pada budidaya buah melon hidroponik dengan irigasi tetes. Sistem menggunakan sensor pH, TDS, dan suhu yang terhubung ke NodeMCU ESP32. Data dikirimkan secara real-time ke aplikasi Blynk untuk pemantauan dan pengaturan otomatis pompa air. Hasil pengujian menunjukkan sistem berjalan baik dengan tingkat akurasi tinggi."
+  },
+  {
+    "id": 88,
+    "title": "Improvement of LR-FHSS LPWAN Satellite Communication for IoMT",
+    "authors": [
+      "Puput Dani Prasetyo Adi",
+      "Elhadj Dogheche",
+      "Iyad Dayoub",
+      "Kevin Stekelorom",
+      "Denis Remiens",
+      "Nasrullah Armi"
+    ],
+    "abstract": "This research enhances LPWAN-based satellite communication systems for Internet of Medical Things (IoMT). Improvements aim to reduce data collisions and transmission errors over long distances, particularly in LEO satellite communication. The analysis considers Time On Air (ToA), latency, and packet loss to ensure reliable IoT data transmission across 2000 km, supporting large-scale medical data networks."
+  },
+  {
+    "id": 85,
+    "author": [
+      "Tjahjo Adiprabowo",
+      "Yuyu Wahyu",
+      "Goib Wiranto",
+      "Nasrullah Armi",
+      "Asif Awaludin",
+      "Ginaldi Ari Nugroho",
+      "Pamungkas Daud",
+      "Puput Dani Prasetyo Adi",
+      "Aloysius Adya Pramudita",
+      "Yudi Yuliyus Maulana",
+      "Folin Oktafiani",
+      "Teguh Praludi",
+      "Berlian Surya Wicaksana",
+      "Riyani Jana Yanti",
+      "Suryanto Suryanto",
+      "Rizky Rahmatullah",
+      "Yana Taryana",
+      "Suisbiyanto Prasetya",
+      "Ding-Bing Lin"
+    ],
+    "title": "Multi-Function Coastal Radar for Tsunami Detection and Ocean Tide and Wave Monitoring",
+    "desc": "This study focuses on the application of SIMRAD Radar Helo 6 for tsunami detection and ocean monitoring. The radar system integrates data from devices such as the SBE 26Plus to measure sea level and pressure in coastal waters. Through real-time digital processing and GUI visualization, the system provides early warnings for tsunami events and supports rapid disaster response. The integrated measurements enable accurate detection of high sea waves and ocean dynamics within a 100 km range from the coast.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 86,
+    "author": ["Nasrullah Armi"],
+    "title": "Optimasi Penginderaan Spektrum pada Radio Kognitif untuk Mengatasi Kelangkaan Frekuensi dalam Sistem Komunikasi Nirkabel",
+    "desc": "Penelitian ini membahas penginderaan spektrum dinamis pada sistem radio kognitif sebagai solusi terhadap kelangkaan frekuensi. Dengan teknik underlay dan overlay, pengguna nirkabel dapat berbagi spektrum secara efisien tanpa mengganggu pengguna utama. Kajian ini menyoroti pentingnya deteksi spektrum yang akurat dan adaptif untuk meningkatkan efisiensi penggunaan frekuensi dan mendukung komunikasi nirkabel masa depan.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 87,
+    "author": [
+      "Yuyu Wahyu",
+      "Tjahjo Adiprabowo",
+      "Nasrullah Armi",
+      "Asif Awaludin",
+      "Ginaldi Ari Nugroho",
+      "Puput Dani Prasetyo Adi",
+      "Aloysius Adya Pramudita",
+      "Suisbiyanto Prasetya",
+      "Berlian Surya Wicaksana",
+      "Rizky Rahmatullah",
+      "Pamungkas Daud",
+      "Teguh Praludi"
+    ],
+    "title": "Multi-Function Coastal Radar for Tsunami Detection and Ocean Wave Monitoring",
+    "desc": "This research develops a multi-functional coastal radar based on SIMRAD Halo 6 using Compressed Pulse Radar technology. Unlike conventional radar, it focuses on sea surface detection to predict tsunami events by identifying abnormal wave patterns. The system uses pulse and chirp signal mixtures to enhance detection resolution and provide early warnings for coastal safety.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 88,
+    "author": [
+      "Merlyn Inova Christie Latukolan",
+      "Aloysius Adya Pramudita",
+      "Nasrullah Armi",
+      "Nizar Alam Hamdani",
+      "Helfy Susilawati",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "Random Sample Consensus-Based Room Mapping Using Light Detection and Ranging",
+    "desc": "This paper explores a room mapping approach using Light Detection and Ranging (LiDAR) combined with the Random Sample Consensus (RANSAC) algorithm. The method improves line fitting in incomplete point cloud data during 2D scanning. Experiments using YDLIDAR G4 and MATLAB visualization show that RANSAC effectively reconstructs missing geometries caused by reflection or obstacles, enhancing accuracy in spatial mapping.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 89,
+    "author": ["Rafif Tian Isnanta", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "title": "Penerapan Teknologi Internet of Things (IoT) pada Budidaya Akuaponik Ikan Patin",
+    "desc": "Penelitian ini menerapkan teknologi Internet of Things (IoT) dalam sistem akuaponik ikan patin untuk meningkatkan efisiensi pemantauan kualitas air dan pemberian pakan otomatis. Sistem ini memanfaatkan sensor suhu, pH, dan kekeruhan yang terhubung secara real-time untuk menjaga kestabilan ekosistem. Hasilnya menunjukkan peningkatan produktivitas ikan patin dan tanaman pakcoy dengan pengelolaan otomatis berbasis IoT.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 90,
+    "author": ["Hilmi Rifa Ghifary", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "title": "Penerapan Teknologi Internet of Things Berbasis Web pada Budidaya Akuaponik Tumbuhan Pakcoy",
+    "desc": "Penelitian ini merancang sistem budidaya akuaponik berbasis IoT untuk tanaman pakcoy. Sistem menggabungkan sensor kualitas air, intensitas cahaya, dan ketinggian air yang dikendalikan melalui antarmuka web. IoT memungkinkan pengawasan jarak jauh dan otomatisasi proses pemeliharaan, sehingga meningkatkan efisiensi dan stabilitas sistem budidaya.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 91,
+    "author": ["Ridho Armanda", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "title": "Alat Pendeteksi Gas Buang Mobil Menggunakan Sensor MQ-135",
+    "desc": "Penelitian ini merancang alat pendeteksi gas buang kendaraan bermotor menggunakan sensor MQ-135 untuk memantau tingkat emisi gas secara real-time. Sistem berbasis mikrokontroler ESP32 ini menampilkan data emisi melalui Blynk Cloud dan memberikan informasi cepat mengenai kondisi mesin. Pengujian menunjukkan nilai emisi rata-rata 946 ppm saat idle dan 1235 ppm saat berjalan, mendukung pemantauan kendaraan ramah lingkungan.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
+  },
+  {
+    "id": 92,
+    "author": ["Bimo Wiko", "Achmad Ali Muayyadi", "Nasrullah Armi"],
+    "title": "Perancangan Sistem Transmisi Data Kesehatan Mobil Menggunakan DHT22",
+    "desc": "This study designs a data transmission system for real-time vehicle health monitoring using the DHT22 sensor. The system measures and transmits temperature and humidity data through an ESP32 microcontroller. Results show stable communication and accurate temperature readings, supporting predictive maintenance and reducing risks associated with engine overheating or failure.",
+    "img": "/kegiatan/resized_image_1600x1200.png"
   }
 ]

@@ -12,11 +12,6 @@ function Member({ category, onShowResearch }) {
 
   const handleShowResearch = (name) => {
     onShowResearch(name);
-
-    const activitiesSection = document.getElementById("activities");
-    if (activitiesSection) {
-      activitiesSection.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
   };
 
   return (

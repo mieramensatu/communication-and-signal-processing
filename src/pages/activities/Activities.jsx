@@ -1,112 +1,137 @@
-// src/pages/activities/Activities.jsx
-import React, { useRef, useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
+// Activities.jsx — versi dengan tombol "Show More"
 
+import React, { useState, useCallback } from "react";
+import { Link } from "react-router-dom";
 import activities from "../../data/activities.json";
 import { isSamePerson } from "../../helper/nameMatcher";
 
 function Activities({ activeResearcher = "all" }) {
-  const sectionRef = useRef(null);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [sortBy, setSortBy] = useState("date"); // 'date' or 'title'
+  const [visibleCount, setVisibleCount] = useState(9); // awal tampilkan 9 item
+
+  // Filter & sort logic
+  const filteredAndSortedActivities = useCallback(() => {
+    let filtered = activities.filter((act) => {
+      if (activeResearcher !== "all") {
+        if (!Array.isArray(act.author) || act.author.length === 0) return false;
+        return act.author.some((author) =>
+          isSamePerson(author, activeResearcher)
+        );
+      }
+      return true;
+    });
+
+    // Search
+    if (searchTerm) {
+      const lowerSearch = searchTerm.toLowerCase();
+      filtered = filtered.filter(
+        (act) =>
+          act.title.toLowerCase().includes(lowerSearch) ||
+          (act.desc && act.desc.toLowerCase().includes(lowerSearch))
+      );
+    }
+
+    // Sort
+    if (sortBy === "title") {
+      filtered.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortBy === "date") {
+      filtered.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+    }
+
+    return filtered;
+  }, [activeResearcher, searchTerm, sortBy]);
+
+  const allFiltered = filteredAndSortedActivities();
+  const visibleActivities = allFiltered.slice(0, visibleCount);
+  const hasMore = visibleCount < allFiltered.length;
+
+  const handleShowMore = () => {
+    setVisibleCount((prev) => prev + 9); // tambah 9 item tiap klik
+  };
 
   const truncateText = (text, maxLength) => {
     if (!text || text.length <= maxLength) return text;
     const truncated = text.slice(0, maxLength);
     const lastSpace = truncated.lastIndexOf(" ");
-    if (lastSpace > 0) {
-      return truncated.slice(0, lastSpace) + "...";
-    }
+    if (lastSpace > 0) return truncated.slice(0, lastSpace) + "...";
     return truncated + "...";
   };
 
-  const filteredActivities = activities.filter((act) => {
-    if (activeResearcher === "all") return true;
-    if (!Array.isArray(act.author) || act.author.length === 0) return false;
-    return act.author.some((author) => isSamePerson(author, activeResearcher));
-  });
-
-  const renderPaginationBullet = (index, className) => {
-    return `<button class="custom-pagination-bullet ${className}"></button>`;
-  };
-
   return (
-    <section className="activities" id="activities" ref={sectionRef}>
+    <section className="activities" id="activities">
       <div className="container">
         <div className="text">
-          <div className="title">
-            <h4>Key Activities Include</h4>
-          </div>
-          <div className="description">
-            <p>Explore Our Research Activities</p>
-          </div>
-          <div className="details">
-            <p>
-              Gain insights into our cutting-edge research, focused on advancing
-              communication and signal processing technologies to shape the
-              future of modern systems.
-            </p>
-          </div>
+          <h4>Key Activities Include</h4>
+          <h2>Explore Our Research Activities</h2>
+          <p>
+            Gain insights into our cutting-edge research, focused on advancing
+            communication and signal processing technologies to shape the future
+            of modern systems.
+          </p>
         </div>
-        <div className="swiper-wrapper">
-          <Swiper
-            modules={[Autoplay, Pagination]}
-            spaceBetween={30}
-            slidesPerView={3}
-            loop={true}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-              renderBullet: renderPaginationBullet,
-            }}
-            breakpoints={{
-              320: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-            }}
-            className="list"
-          >
-            {filteredActivities.length > 0 ? (
-              filteredActivities.map((item) => (
-                <SwiperSlide key={item.id}>
-                  <div className="card">
-                    <div className="card-img">
-                      <img src={item.img} alt={item.title} />
-                    </div>
-                    <div className="card-body">
-                      <h5>{item.title}</h5>
-                      <p>
-                        {item.desc
-                          ? truncateText(item.desc, 80)
-                          : "No description available."}
-                      </p>
-                    </div>
-                    <div className="overlay-content">
-                      <h5>{item.title}</h5>
-                      <p>{item.desc || "No detailed content available."}</p>
-                      <Link to={`/article/${item.id}`} className="detail-link">
-                        More detail
-                      </Link>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))
-            ) : (
-              <SwiperSlide>
-                <div style={{ textAlign: "center", padding: "50px" }}>
-                  <p>No research found for this filter.</p>
-                </div>
-              </SwiperSlide>
-            )}
-          </Swiper>
 
-          <div className="custom-pagination"></div>
+        <div className="controls">
+          <div className="search-box">
+            <input
+              type="text"
+              placeholder="Search activities..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            {searchTerm && (
+              <button onClick={() => setSearchTerm("")} className="clear-btn">
+                ×
+              </button>
+            )}
+          </div>
+
+          <div className="sort-controls">
+            <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+              <option value="date">Sort by Date (Newest)</option>
+              <option value="title">Sort by Title (A-Z)</option>
+            </select>
+          </div>
         </div>
+
+        <div className="grid-container">
+          {visibleActivities.length === 0 ? (
+            <div className="no-results">
+              <p>No research found for this filter.</p>
+            </div>
+          ) : (
+            visibleActivities.map((item) => (
+              <div key={item.id} className="card">
+                <div className="card-img">
+                  <img
+                    src={item.img}
+                    alt={item.title}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div className="card-body">
+                  <h5>{item.title}</h5>
+                  <p>
+                    {item.desc
+                      ? truncateText(item.desc, 80)
+                      : "No description available."}
+                  </p>
+                  <Link to={`/article/${item.id}`} className="detail-link">
+                    More detail →
+                  </Link>
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+        {hasMore && (
+          <div className="show-more-button">
+            <button onClick={handleShowMore} className="btn-show-more">
+              Show More Activities
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

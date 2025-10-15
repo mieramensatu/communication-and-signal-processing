@@ -1,5 +1,3 @@
-// Activities.jsx — versi dengan tombol "Show More"
-
 import React, { useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import activities from "../../data/activities.json";
@@ -7,10 +5,9 @@ import { isSamePerson } from "../../helper/nameMatcher";
 
 function Activities({ activeResearcher = "all" }) {
   const [searchTerm, setSearchTerm] = useState("");
-  const [sortBy, setSortBy] = useState("date"); // 'date' or 'title'
-  const [visibleCount, setVisibleCount] = useState(9); // awal tampilkan 9 item
+  const [sortBy, setSortBy] = useState("date");
+  const [visibleCount, setVisibleCount] = useState(9);
 
-  // Filter & sort logic
   const filteredAndSortedActivities = useCallback(() => {
     let filtered = activities.filter((act) => {
       if (activeResearcher !== "all") {
@@ -22,7 +19,6 @@ function Activities({ activeResearcher = "all" }) {
       return true;
     });
 
-    // Search
     if (searchTerm) {
       const lowerSearch = searchTerm.toLowerCase();
       filtered = filtered.filter(
@@ -32,7 +28,6 @@ function Activities({ activeResearcher = "all" }) {
       );
     }
 
-    // Sort
     if (sortBy === "title") {
       filtered.sort((a, b) => a.title.localeCompare(b.title));
     } else if (sortBy === "date") {
@@ -47,7 +42,7 @@ function Activities({ activeResearcher = "all" }) {
   const hasMore = visibleCount < allFiltered.length;
 
   const handleShowMore = () => {
-    setVisibleCount((prev) => prev + 9); // tambah 9 item tiap klik
+    setVisibleCount((prev) => prev + 9);
   };
 
   const truncateText = (text, maxLength) => {

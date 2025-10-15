@@ -52,7 +52,6 @@ function Article() {
     );
   }
 
-  // Fungsi untuk memotong teks penulis jika terlalu panjang
   const truncateAuthor = (author, maxLength = 60) => {
     if (!author) return "";
     return author.length > maxLength

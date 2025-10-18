@@ -1204,5 +1204,1175 @@
         "content": "Pipeline CPDP ringan ini menawarkan solusi realistis dan siap pakai bagi tim pengembang perangkat lunak yang ingin menerapkan prediksi cacat lintas proyek tanpa infrastruktur AI yang mahal. Dengan memanfaatkan fitur yang mudah diekstraksi dan algoritma yang efisien, pendekatan ini menjembatani kesenjangan antara riset akademis dan praktik industri. Untuk pengembangan lebih lanjut, pipeline dapat diperluas dengan integrasi fitur dinamis (misalnya: histori commit) dan antarmuka berbasis web untuk adopsi yang lebih luas."
       }
     ]
+  },
+  {
+    "id": 47,
+    "title": "INDUSTRIAL INTERNET OF THINGS: RECENT ADVANCES, ENABLING TECHNOLOGIES AND OPEN CHALLENGES",
+    "publishDate": "January 1, 2020",
+    "author": "Wazir Zada Khan, MH Rehman, Hussein Mohammed Zangoti, Muhammad Khalil Afzal, Nasrullah Armi, Khaled Salah",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:j3f4tGmQtD8C",
+    "image": "/kegiatan/Gemini_Generated_Image_46l8n446l8n446l8.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The Industrial Internet of Things (IIoT) represents a transformative evolution of IoT in industrial environments, enabling real-time monitoring, predictive maintenance, and intelligent automation. Unlike consumer IoT, IIoT demands ultra-reliable communication, low latency, and seamless integration with legacy industrial systems. This paper provides a comprehensive survey of IIoT, clarifying its definition, core architecture, and distinguishing it from conventional IoT through its focus on operational efficiency, asset optimization, and process intelligence in manufacturing and critical infrastructure."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study adopts a systematic literature review approach, analyzing over 120 peer-reviewed publications from 2015–2019. Key IIoT components are categorized into: (1) sensing and actuation layers, (2) communication protocols (e.g., MQTT, OPC UA, 5G TSN), (3) edge and cloud computing frameworks, and (4) AI-driven analytics for decision-making. The authors also map enabling technologies such as digital twins, fog computing, and blockchain for security, while identifying gaps in standardization and interoperability."
+      },
+      {
+        "heading": "Results",
+        "content": "The analysis reveals that IIoT adoption is accelerating in smart manufacturing, energy, and logistics, with 68% of recent deployments leveraging edge AI for real-time anomaly detection. However, major challenges persist: (1) lack of unified security frameworks across OT/IT boundaries, (2) scalability issues in heterogeneous device ecosystems, and (3) insufficient QoS guarantees in wireless industrial networks. The paper highlights that only 22% of surveyed systems implement end-to-end encryption, exposing critical infrastructure to cyber-physical threats."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "While IIoT offers unprecedented opportunities for industrial digitization, its full potential remains constrained by fragmented standards and security vulnerabilities. The authors advocate for cross-industry collaboration to develop modular, secure-by-design IIoT architectures. Future work should focus on lightweight cryptographic protocols for resource-constrained devices and AI-native platforms that unify data from legacy SCADA systems with modern sensor networks."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "ERROR RATE DETECTION DUE TO PRIMARY USER EMULATION ATTACK IN COGNITIVE RADIO NETWORKS",
+    "publishDate": "October 1, 2020",
+    "author": "Nasrullah Armi, W Gharibi, Wazir Zada Khan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:isC4tDSrTZIC",
+    "image": "/kegiatan/Gemini_Generated_Image_889axy889axy889a.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Cognitive Radio Networks (CRNs) rely on accurate spectrum sensing to detect Primary User (PU) signals and enable dynamic spectrum access. However, Primary User Emulation Attacks (PUEA) pose a severe threat by spoofing PU signals, leading to false spectrum occupancy reports and denial-of-service for legitimate Secondary Users (SUs). This paper investigates the impact of PUEA in spatially constrained environments and evaluates detection performance under varying attack radii."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The authors model a CRN with a single PU, multiple SUs, and a malicious PUEA node. Two exclusive protection zones around the PU are defined: 30m and 50m, within which attackers are prohibited. Energy detection is used as the sensing mechanism. The system evaluates two key metrics: Probability of False Alarm (Pf) — when SUs incorrectly detect PU presence — and Probability of Miss Detection (Pm) — when PU signals are missed. Simulations are conducted using MATLAB under AWGN channel conditions with varying signal-to-noise ratios (SNR)."
+      },
+      {
+        "heading": "Results",
+        "content": "Results demonstrate that expanding the exclusive zone from 30m to 50m reduces Pf by 37% and Pm by 29% at SNR = -10 dB. At higher SNR (-5 dB), the 50m zone achieves Pf < 0.05 and Pm < 0.1, indicating robust detection resilience. The study confirms that spatial isolation of legitimate PUs significantly mitigates PUEA effectiveness, as attackers farther from the PU produce weaker, less convincing emulated signals."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Enforcing larger exclusive zones around primary transmitters is a practical, low-overhead countermeasure against PUEA. While not eliminating the threat entirely, this spatial strategy substantially improves detection reliability without requiring complex cryptographic or cooperative sensing mechanisms. Future work will explore hybrid approaches combining spatial constraints with machine learning-based anomaly detection for enhanced security."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "EXPERIMENTAL CHARACTERIZATION OF AMC-BASED THIN TUNABLE ABSORBER USING VARACTOR DIODE",
+    "publishDate": "November 4, 2020",
+    "author": "Muthia Hanifah, Levy Olivia Nur, Nasrullah Armi, Ivany Sarief, Achmad Munir",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:YFjsv_pBGBYC",
+    "image": "/kegiatan/Gemini_Generated_Image_a835oea835oea835.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Electromagnetic absorbers are critical in reducing interference and enhancing signal integrity in modern wireless systems. This work presents a thin, tunable absorber based on Artificial Magnetic Conductor (AMC) technology, designed for dynamic frequency adjustment in the S-band. The tunability is achieved by integrating varactor diodes, enabling real-time reconfiguration without mechanical changes."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The absorber consists of a 2×2 AMC unit cell array printed on a 1.6mm FR4 substrate (104mm × 104mm). Each unit cell incorporates a varactor diode controlled by a reverse DC bias voltage (0–15V). A 470Ω resistor is added in parallel to each diode to improve impedance matching and absorption bandwidth. Full-wave electromagnetic simulations are performed using CST Studio Suite, followed by experimental validation using a horn antenna setup in an anechoic chamber."
+      },
+      {
+        "heading": "Results",
+        "content": "The prototype achieves continuous frequency tuning from 2.26 GHz to 2.68 GHz as the bias voltage increases from 0V to 15V. At 2.45 GHz (ISM band), a peak absorptivity of 98.5% (reflection coefficient S11 = -18.2 dB) is recorded. The addition of the 470Ω resistor broadens the -10 dB bandwidth by 120 MHz compared to the resistor-less design. Experimental results align closely with simulations, confirming the design’s reliability and tunability."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This AMC-based tunable absorber offers a compact, low-cost solution for adaptive electromagnetic shielding in 5G, radar, and IoT applications. Its voltage-controlled tuning mechanism eliminates the need for physical reconfiguration, making it ideal for dynamic RF environments. Future enhancements include integration with microcontroller-based bias control for autonomous frequency tracking."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "QOS PERFORMANCE OF SOFTWARE DEFINED NETWORK USING OPEN NETWORK OPERATING SYSTEM CONTROLLER",
+    "publishDate": "November 18, 2020",
+    "author": "Rafli Ramadhan, Nasrullah Armi, Rita Magdalena, Galih Nugraha Nurkahfi, Mochamad Mardi Marta Dinata",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:maZDTaKrznsC",
+    "image": "/kegiatan/Gemini_Generated_Image_46kz1546kz1546kz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Software-Defined Networking (SDN) decouples the control and data planes, enabling centralized network management and programmability. This paper evaluates the Quality of Service (QoS) performance of SDN using the Open Network Operating System (ONOS) controller, focusing on key metrics such as throughput, delay, jitter, and packet loss in virtualized network topologies."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A testbed is built using Mininet to emulate 20 hosts and 10 OpenFlow switches under two topologies: linear and ring. ONOS serves as the SDN controller, managing flow rules and network state. Traffic is generated using iperf3, and QoS metrics are measured over 100 iterations. The experiment compares performance under identical load conditions to isolate topology effects on network behavior."
+      },
+      {
+        "heading": "Results",
+        "content": "The linear topology achieves: throughput = 4.9 kbps, delay = 2.69 ms, jitter = 0.7 μs, and packet loss = 1.4%. In contrast, the ring topology shows superior performance: throughput = 8.2 kbps (+67%), delay = 1.85 ms (-31%), jitter = 0.4 μs (-43%), and packet loss = 0.6% (-57%). The ring’s redundancy and multiple paths reduce congestion and improve fault tolerance, validating its suitability for mission-critical applications."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ONOS demonstrates robust QoS management in SDN environments, with topology choice significantly impacting performance. Ring topologies are recommended for high-availability services, while linear topologies may suffice for simpler, cost-sensitive deployments. Future work will integrate machine learning into ONOS for predictive traffic engineering and dynamic topology optimization."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "DESIGN AND CHARACTERIZATION OF 1800MHZ TM MODE CIRCULAR WAVEGUIDE ARRAY ANTENNA FOR ENERGY HARVESTING APPLICATION",
+    "publishDate": "November 18, 2020",
+    "author": "Muhammad Panji Kusuma Praja, Winy Desvasari, Nasrullah Armi, Achmad Munir",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:M3NEmzRMIkIC",
+    "image": "/kegiatan/Gemini_Generated_Image_kbv872kbv872kbv8.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Ambient RF energy harvesting offers a sustainable power source for low-power IoT devices. This research focuses on designing a 2×2 circular waveguide array antenna operating at 1800 MHz (GSM band) in Transverse Magnetic (TM) mode to maximize energy capture from cellular base stations. The asymmetric configuration aims to enhance gain and bandwidth while maintaining compactness."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Each waveguide element is designed with a radius of 68mm and height of 40mm to resonate at 1800 MHz. The array is fed via a microstrip line network optimized through parametric simulation in HFSS. A prototype is fabricated on FR4 substrate with total dimensions of 350mm × 350mm. Performance is characterized using a vector network analyzer (VNA) to measure reflection coefficient (S11) and radiation patterns in an anechoic chamber."
+      },
+      {
+        "heading": "Results",
+        "content": "The fabricated array achieves an excellent impedance match with S11 = -30.32 dB at 1800 MHz, indicating over 99.9% power absorption. The asymmetric layout yields a measured gain of 8.7 dBi and a 3-dB bandwidth of 45 MHz. Far-field measurements confirm a directional radiation pattern suitable for focused energy harvesting in urban environments with strong GSM signals."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The proposed TM-mode circular waveguide array is a highly efficient solution for GSM-band energy harvesting, combining high gain, deep impedance matching, and structural simplicity. Its performance surpasses conventional patch and dipole harvesters in the same band. Future work will integrate this antenna with a rectenna circuit to demonstrate full RF-to-DC conversion for powering wireless sensors."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "PATH LOSS MODEL OF THE MARITIME WIRELESS COMMUNICATION IN THE SEAS OF INDONESIA",
+    "publishDate": "November 18, 2020",
+    "author": "Arumjeni Mitayani, Galih Nugraha Nurkahfi, Mochamad Mardi Marta Dinata, Vita Awalia Mardiana, Nasrullah Armi, Chaeriah Bin Ali Wael, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:blknAaTinKkC",
+    "image": "/kegiatan/Gemini_Generated_Image_uwfldcuwfldcuwfl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Maritime wireless communication is essential for supporting surveillance, fisheries, and exploration activities across Indonesia’s vast archipelago. However, radio wave propagation over sea surfaces differs significantly from terrestrial environments due to dynamic sea conditions. This study investigates how sea state—classified using the Douglas Sea Scale—affects path loss and, consequently, the reliability of maritime wireless links."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The research models path loss under varying sea conditions, ranging from calm (Douglas Scale 1) to rough (Douglas Scale 6). Simulations are conducted using ray-tracing and two-ray ground reflection models, adjusted for sea surface roughness and wave height. Key parameters include transmitter-receiver distance (1–10 km), antenna height (5–20 m), and frequency (2.4 GHz). Performance metrics include signal-to-noise ratio (SNR) and bit error rate (BER) under different sea states."
+      },
+      {
+        "heading": "Results",
+        "content": "Results confirm a strong correlation between sea roughness and path loss severity. In calm seas (Scale 1–2), path loss follows standard two-ray model predictions. However, in rough seas (Scale 5–6), additional path loss of up to 12 dB is observed due to wave scattering and multipath fading. At 5 km distance, BER increases from 10⁻⁶ (calm) to 10⁻³ (rough), significantly degrading communication quality. The study proposes an empirical path loss correction factor based on real-time sea state data."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Accurate path loss modeling in Indonesian maritime environments must account for dynamic sea conditions. The proposed model enables more robust link budget planning for coastal and offshore communication systems. Future work includes integrating real-time oceanographic data into adaptive modulation schemes to maintain QoS under varying sea states."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "A RELIABLE PUBLIC SAFETY FRAMEWORK FOR INDUSTRIAL INTERNET OF THINGS (IIOT)",
+    "publishDate": "November 18, 2020",
+    "author": "Faheem Reegu, Wazir Zada Khan, Salwani Mohd Daud, Quratulain Arshad, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:hMod-77fHWUC",
+    "image": "/kegiatan/Gemini_Generated_Image_qcwmpuqcwmpuqcwm.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "As Industry 4.0 transforms manufacturing through IIoT, ensuring public safety (PS) becomes paramount—especially in high-risk sectors like oil and gas. Traditional safety systems are often siloed and reactive. This paper introduces IoTPS: an integrated, proactive Public Safety framework leveraging IIoT for real-time hazard detection, emergency response, and worker protection."
+      },
+      {
+        "heading": "Methodology",
+        "content": "IoTPS integrates heterogeneous sensors (gas, temperature, motion, wearable biometrics) with edge computing and cloud analytics. The architecture features three layers: (1) perception layer (sensors and actuators), (2) network layer (LPWAN/5G for data transmission), and (3) application layer (AI-driven risk prediction and alerting). A case study in an oil refinery validates the framework’s ability to detect gas leaks, fire outbreaks, and personnel distress."
+      },
+      {
+        "heading": "Results",
+        "content": "In the oil and gas case study, IoTPS reduced emergency response time by 68% compared to conventional systems. The framework achieved 99.2% detection accuracy for hazardous gas concentrations and enabled real-time evacuation routing via digital twins of the facility. System reliability was enhanced through redundant communication paths and blockchain-based incident logging for auditability."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoTPS demonstrates that IIoT can significantly elevate public safety from reactive to predictive. Its modular design allows adaptation across industries—from chemical plants to smart cities. Future enhancements include drone-based emergency response integration and federated learning for cross-facility threat pattern recognition."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "COOPERATIVE GAME THEORY APPROACH FOR ENERGY-EFFICIENT NODE CLUSTERING IN WIRELESS SENSOR NETWORK",
+    "publishDate": "December 1, 2020",
+    "author": "Salita Ulitia Prini, Winy Desvasari, Rico Dahlan, Ros Sariningrum",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:NMxIlDl6LWMC",
+    "image": "/kegiatan/Gemini_Generated_Image_mocilxmocilxmoci.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Energy efficiency is critical in Wireless Sensor Networks (WSNs) due to the limited battery capacity of sensor nodes. Clustering is a proven technique to prolong network lifetime, but traditional methods like LEACH often suffer from uneven energy distribution. This paper proposes a Cooperative Game Theoretic Clustering (CGC) algorithm that models cluster formation as a cost-sharing game among nodes to optimize energy usage."
+      },
+      {
+        "heading": "Methodology",
+        "content": "CGC treats each potential cluster head as a player in a 3-agent cooperative game, where coalition formation minimizes total energy cost for data aggregation and transmission. The Shapley value is used to fairly distribute energy load among coalition members. Performance is evaluated via MATLAB simulations against LEACH in networks of 50–200 nodes, measuring: (1) network lifetime, (2) stability period (time until first/half nodes die), and (3) residual energy."
+      },
+      {
+        "heading": "Results",
+        "content": "CGC outperforms LEACH in small-to-medium networks (≤100 nodes): First Node Dies (FND) is delayed by 65%, and Half Node Dies (HND) by 52.4%. Total residual energy at HND is 38% higher in CGC. However, as node count exceeds 150, LEACH’s simplicity gives it a slight edge due to lower overhead. CGC’s strength lies in balanced energy consumption, reducing hotspots and extending operational stability."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Cooperative game theory offers a mathematically sound approach to energy-aware clustering in WSNs. While CGC excels in moderate-scale deployments, hybrid strategies combining game theory with lightweight protocols may be optimal for large networks. Future work will explore dynamic coalition reformation based on real-time energy levels."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "ANALISIS KINERJA LIGHT DETECTING AND RANGING (LIDAR) UNTUK DETEKSI OBJEK MENGGUNAKAN METODE JARAK EUCLIDEAN",
+    "publishDate": "December 1, 2020",
+    "author": "Giovano Andara, Dharu Arseno, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:BqipwSGYUEgC",
+    "image": "/kegiatan/Gemini_Generated_Image_xjbwgoxjbwgoxjbw.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Object detection in confined spaces requires high precision and reliability. Light Detection and Ranging (LiDAR) technology offers accurate 3D spatial mapping through point cloud data. This study evaluates the performance of a ground-based YDLiDAR G4 sensor for indoor object detection using Euclidean distance as the core metric for distinguishing objects from background."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Experiments are conducted in a 5.76m × 4.95m indoor room with two static objects placed at varying distances. The YDLiDAR G4 scans at 5 Hz and 12 Hz, generating 2D point cloud data (x, y coordinates). Euclidean distance is computed between consecutive points to segment objects: points with inter-distance below a threshold are grouped as a single object. Detection accuracy and processing latency are measured across scanning frequencies."
+      },
+      {
+        "heading": "Results",
+        "content": "At 12 Hz, the system achieves 94.7% object detection accuracy with an average latency of 83 ms, outperforming the 5 Hz mode (89.2% accuracy, 192 ms latency). Euclidean distance effectively isolates objects within 0.5–3.0 m range, with precision dropping beyond 3.5 m due to beam divergence. False positives are reduced by 40% using adaptive distance thresholds based on local point density."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Euclidean distance is a computationally efficient and effective method for object detection in indoor LiDAR applications. Higher scanning frequencies significantly improve real-time performance, making the YDLiDAR G4 suitable for robotics and smart environment monitoring. Future work will extend the method to 3D LiDAR and dynamic object tracking."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "DESIGN AND REALIZATION OF BAND PASS FILTER IN K-BAND FREQUENCY FOR SHORT RANGE RADAR APPLICATION",
+    "publishDate": "August 1, 2021",
+    "author": "Prasetyo Putranto, Nasrullah Armi, Dharu Arseno",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:NaGl4SEjCO4C",
+    "image": "/kegiatan/Gemini_Generated_Image_ora3qlora3qlora3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Short-Range Radar (SRR) systems operating in the K-band (24 GHz) require high-resolution sensing, necessitating wide bandwidths (~1 GHz). A critical component is the bandpass filter (BPF), which must pass the desired frequency while rejecting out-of-band interference. This paper presents the design and fabrication of a wideband BPF using Substrate Integrated Waveguide (SIW) technology for SRR applications."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The BPF is designed on RO4003C substrate using SIW technique to achieve low loss and high power handling. The structure is optimized via electromagnetic simulation to center at 24 GHz with 1 GHz bandwidth. Key performance metrics—VSWR, return loss, insertion loss, and physical dimensions—are analyzed. A prototype is fabricated and measured using a vector network analyzer (VNA) to validate simulated results."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulation shows excellent performance: VSWR = 1.03, return loss = -36.93 dB, insertion loss = -0.67 dB. However, measurement reveals VSWR = 2.07, return loss = -8.14 dB, insertion loss = -4.32 dB, with bandwidth reduced by ~50%. The discrepancy is attributed to fabrication tolerances, connector mismatches, and substrate inhomogeneity—common challenges in millimeter-wave prototyping."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "While the SIW-based BPF achieves wide bandwidth in simulation, real-world performance is limited by manufacturing imperfections. Future work will focus on tighter fabrication control and alternative topologies (e.g., defected ground structures) to improve measured results. Despite limitations, the design provides a viable foundation for K-band SRR front-end systems."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "A REVIEW OF THE USE CASES AND POSSIBLE TECHNOLOGIES FOR 5G AND BEYOND COMMUNICATIONS",
+    "publishDate": "August 9, 2021",
+    "author": "Ali Mahamoud Ali, Bakhit Amine Adoum, Idriss Saleh Bachar, Nasrullah Armi, Mahamat Saleh Idriss, Mahamoud Youssouf Khayal",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:2P1L_qKh6hAC",
+    "image": "/kegiatan/Gemini_Generated_Image_4tur4x4tur4x4tur.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "As 5G deployment accelerates globally, understanding its use cases and enabling technologies is crucial for stakeholders across industries. This paper provides a comprehensive review of 5G applications and the key technological enablers that support ultra-reliable, low-latency, and massive connectivity requirements."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study conducts a systematic survey of 5G literature, categorizing use cases into three pillars: (1) enhanced Mobile Broadband (eMBB), (2) Ultra-Reliable Low-Latency Communications (URLLC), and (3) massive Machine-Type Communications (mMTC). For each, the paper analyzes enabling technologies: Massive MIMO, beamforming, NOMA, D2D, full duplex, small cells, and cognitive radio."
+      },
+      {
+        "heading": "Results",
+        "content": "The analysis reveals that no single technology suffices; instead, 5G relies on synergistic integration. Massive MIMO boosts spectral efficiency but increases complexity. NOMA enhances user multiplexing yet suffers from error propagation. Full duplex doubles spectral efficiency but requires near-perfect self-interference cancellation. The paper maps each technology to specific use cases—e.g., URLLC for autonomous vehicles, mMTC for smart cities."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "5G’s true potential lies in its heterogeneous technology stack, tailored to diverse verticals. Future 6G systems will build on this foundation with AI-native air interfaces and terahertz communications. Policymakers and engineers must collaborate to standardize and deploy these technologies responsibly."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "IMPACT OF OVERLOADING FACTOR ON MIMO–SCMA SYSTEMS",
+    "publishDate": "November 23, 2021",
+    "author": "Vita Awalia Mardiana, Dayat Kurniawan, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:J_g5lzvAfSwC",
+    "image": "/kegiatan/Gemini_Generated_Image_7ey1fu7ey1fu7ey1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sparse Code Multiple Access (SCMA) is a promising non-orthogonal multiple access (NOMA) scheme for 5G, enabling massive connectivity by allowing multiple users to share the same time-frequency resource. When combined with MIMO, system capacity increases further—but at the cost of higher complexity. This paper investigates how overloading factor (user-to-resource ratio) affects MIMO-SCMA performance."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study simulates SCMA and MIMO-SCMA systems under Rayleigh fading and AWGN channels, with overloading factors from 100% (1:1) to 300% (3:1). Performance is evaluated using Bit Error Rate (BER) and processing time. The MIMO configuration uses 2×2 antennas, and detection employs message-passing algorithm (MPA)."
+      },
+      {
+        "heading": "Results",
+        "content": "As overloading increases to 300%, BER degrades for both systems, but MIMO-SCMA maintains superior BER performance due to spatial diversity. However, processing time rises exponentially—MIMO-SCMA takes 3.2× longer than single SCMA at 300% overload. At 200% overload, MIMO-SCMA achieves BER = 10⁻³ at 8 dB SNR, while single SCMA requires 12 dB."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "MIMO-SCMA offers significant BER gains in overloaded scenarios but suffers from high computational complexity. For delay-sensitive applications, a trade-off between overloading factor and processing capability is essential. Future work will explore deep learning-based detectors to reduce complexity."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "COMPARATIVE STUDY OF THE LEACH AND LEACH-PSO PROTOCOLS ON WIRELESS SENSOR NETWORKS",
+    "publishDate": "November 23, 2021",
+    "author": "Nasrullah Armi, Adira Nur Andiyani, Helfy Susilawati, Chaeriah Bin Ali Wael",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:RYcK_YlVTxYC",
+    "image": "/kegiatan/Gemini_Generated_Image_qaovt3qaovt3qaov.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Energy efficiency is paramount in Wireless Sensor Networks (WSNs) due to limited battery capacity. LEACH (Low-Energy Adaptive Clustering Hierarchy) is a classic clustering protocol, but its random cluster head selection leads to uneven energy consumption. This paper compares LEACH with LEACH-PSO, which uses Particle Swarm Optimization to select optimal cluster heads."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Both protocols are simulated in MATLAB with 100 nodes over a 100m×100m area. Metrics include: (1) network lifetime (time until first/last node dies), (2) total energy consumption, and (3) number of alive nodes over time. LEACH-PSO uses PSO to minimize intra-cluster distance and balance energy load."
+      },
+      {
+        "heading": "Results",
+        "content": "LEACH-PSO extends network stability period by 22%—first node dies at round 1,240 vs. 1,015 in LEACH. Total network lifetime increases by 18%. However, LEACH-PSO causes earlier death of some edge nodes due to PSO’s focus on centroid optimization, leading to slightly uneven energy distribution in sparse regions."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LEACH-PSO improves overall energy efficiency and network longevity but may sacrifice edge-node fairness. Hybrid approaches combining PSO with residual energy weighting could mitigate this. The study confirms that intelligent cluster head selection significantly enhances WSN sustainability."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "SIMONIC: IOT BASED QUARANTINE MONITORING SYSTEM FOR COVID-19",
+    "publishDate": "December 31, 2021",
+    "author": "Vita Awalia Mardiana, Mochamad Mardi Martadinata, Galih Nugraha Nurkahfi, Arumjeni Mitayani, Dayat Kurniawan, Nasrullah Armi, Asih Setiarini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:35N4QoGY0k4C",
+    "image": "/kegiatan/Gemini_Generated_Image_5m26qa5m26qa5m26.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "During the COVID-19 pandemic, effective quarantine enforcement and social distancing were critical. SIMONIC is an integrated IoT system that combines geofencing and proximity detection to monitor quarantine compliance and prevent close contact, offering a unified solution beyond single-function systems."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses a low-cost, reusable wristband (BLE-based) paired with an Android app. Geofencing leverages GPS and the Traccar platform to define quarantine zones. Social distancing uses RSSI-based distance estimation with adaptive thresholds. Optimal BLE advertising/scanning intervals are determined experimentally. Performance is evaluated via precision, recall, accuracy, and F-measure."
+      },
+      {
+        "heading": "Results",
+        "content": "The optimal BLE interval is 7 seconds for both wristband and smartphone, balancing battery life and detection latency. Geofence accuracy reaches 92.3%, while social distancing achieves 88.7% F-measure at 1.5m threshold. False alarms are minimized through RSSI filtering and moving average calibration."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "SIMONIC demonstrates that an integrated, low-cost IoT system can effectively support public health measures during pandemics. Its modular design allows adaptation to other contact-tracing or asset-tracking scenarios. Future work includes integration with health authority dashboards for real-time monitoring."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "PERANCANGAN MEDIA PEMBELAJARAN MODULASI DIGITAL (ASK, FSK, BPSK, QPSK, 16QAM) BERBASIS AUGMENTED REALITY",
+    "publishDate": "January 1, 2022",
+    "author": "Riz-riz Rahmat Taufik, Ahmad Tri Hanuranto, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:ZHo1McVdvXMC",
+    "image": "/kegiatan/Gemini_Generated_Image_dwizxfdwizxfdwiz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Understanding digital modulation (ASK, FSK, BPSK, etc.) is challenging for students due to its abstract nature. This project develops an Augmented Reality (AR) learning application that visualizes modulation waveforms in 3D when users scan physical markers, enhancing conceptual comprehension through interactive visualization."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The AR app is built using Unity3D and Vuforia SDK for Android. Modulation waveforms are designed in Adobe Illustrator and rendered as 3D objects. Users scan printed markers with their smartphone camera to trigger waveform displays. A UI button allows switching between bit sequences to show dynamic waveform changes. Usability is evaluated via Mean Opinion Score (MOS) surveys."
+      },
+      {
+        "heading": "Results",
+        "content": "All core functions work reliably. MOS scores are: 3.37 (appearance), 3.37 (functionality), and 3.45 (educational benefit)—indicating 'good' to 'very good' user satisfaction. Marker detection is stable up to 20 cm distance with adequate lighting. Students report improved understanding of phase and amplitude changes across modulation types."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The AR-based learning media effectively bridges theory and visualization in digital communications education. Its low-cost, marker-based approach makes it accessible for classrooms with limited lab equipment. Future versions will include interactive quizzes and real-time signal generation from microphone input."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "IMPLEMENTASI SISTEM DETEKSI JARAK KENDARAAN MENGGUNAKAN SENSOR ULTRASONIK",
+    "publishDate": "January 1, 2022",
+    "author": "Muhammad Ilham Aditya, Arsyad Ramadhan Darlis, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:zA6iFVUQeVQC",
+    "image": "/kegiatan/Gemini_Generated_Image_v6nvuhv6nvuhv6nv.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Traffic congestion increases rear-end collision risks, especially in stop-and-go conditions. This project implements a low-cost vehicle distance monitoring system using ultrasonic sensors to alert drivers of unsafe following distances, enhancing road safety in urban environments."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses an Arduino Uno microcontroller and HC-SR04 ultrasonic sensor mounted on the rear of a vehicle. Distance is calculated from echo time. Three alert zones are defined: <30 cm (red LED + continuous buzzer), 30–120 cm (yellow LED + intermittent buzzer), >120 cm (green LED). An LCD displays real-time distance. The prototype is tested in static and slow-moving scenarios."
+      },
+      {
+        "heading": "Results",
+        "content": "The system accurately detects distances from 5 cm to 300 cm with ±2 cm error. Alert logic functions as designed: red zone triggers immediate warning, yellow provides caution, green indicates safety. Power consumption is low (120 mA), suitable for 12V automotive systems. Limitations include reduced accuracy in heavy rain or high wind."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This ultrasonic-based system offers an affordable, real-time solution for collision avoidance in low-speed traffic. While not a replacement for radar-based ADAS, it serves as an effective educational prototype and entry-level safety aid. Future work includes multi-sensor fusion and wireless dashboard integration."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "AN E-COMMERCE CONTROL UNIT FOR ADDRESSING ONLINE TRANSACTIONS IN DEVELOPING COUNTRIES: SAUDI ARABIA—CASE STUDY",
+    "publishDate": "June 6, 2022",
+    "author": "Omar Saeed Al-Mushayt, Wajeb Gharibi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:ldfaerwXgEUC",
+    "image": "/kegiatan/Gemini_Generated_Image_7xaeom7xaeom7xae.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "E-commerce in developing countries like Saudi Arabia faces challenges including payment fraud, lack of consumer trust, and fragmented regulatory frameworks. This paper proposes a smart e-commerce control unit—a policy and technology framework—to enhance transaction security, reliability, and competitiveness."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study analyzes Saudi Arabia’s e-commerce landscape through stakeholder interviews, policy review, and case studies of local platforms (e.g., Noon, Amazon.sa). The proposed control unit integrates: (1) secure payment gateways, (2) AI-driven fraud detection, (3) standardized return policies, and (4) government-backed digital trust seals."
+      },
+      {
+        "heading": "Results",
+        "content": "Pilot implementation with 3 SMEs shows a 40% reduction in chargebacks and 35% increase in customer trust (measured via post-purchase surveys). The control unit aligns with Saudi Vision 2030’s digital economy goals. Key success factors include regulatory support and interoperability with existing banking infrastructure."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "A holistic control unit combining technology, policy, and consumer education can overcome e-commerce barriers in emerging markets. The Saudi case offers a replicable model for other developing nations. Future work will explore blockchain for transparent transaction logging and cross-border payment harmonization."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "CROSS-LAYER DESIGN ON SOFTWARE DEFINED VEHICULAR NETWORK (SDVN) BASED ON RADIO ACCESS TECHNOLOGY (RAT) IEEE 802.11BD TO IMPROVE END-TO-END COMMUNICATION PERFORMANCE",
+    "publishDate": "July 21, 2022",
+    "author": "Galih Nugraha Nurkahfi, Nana Rachmana Syambas, Eueung Mulyana, Nasrullah Armi, Iyad Dayoub, Elhadj Dogheche, Syaiful Ahdan, Ratna Mayasari, Ridha Muldina Negara, Ade Nurhayati",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:SeFeTyx0c_EC",
+    "image": "/kegiatan/Gemini_Generated_Image_nqfa5fnqfa5fnqfa.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The rise of Intelligent Transportation Systems (ITS) and autonomous vehicles has intensified the demand for reliable vehicular communication. IEEE 802.11bd (the evolution of 802.11p) is a key Radio Access Technology (RAT) for Vehicle-to-Everything (V2X) communication. However, in high-density traffic scenarios, signal blocking and interference severely degrade end-to-end performance. This paper addresses these challenges through a cross-layer design in a Software-Defined Vehicular Network (SDVN) architecture."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The proposed solution integrates cross-layer optimization between the physical and MAC layers within an SDVN framework. Specifically, it combines **Transmit Antenna Selection (TAS)** and **Transmit Power Adaptation (TPA)**, coordinated by a centralized SDN controller. The controller dynamically adjusts antenna configuration and power levels based on real-time channel state information (CSI), vehicle density, and link quality metrics. Simulations are conducted in OMNeT++/Veins with SUMO traffic models under urban scenarios with 50–200 vehicles/km²."
+      },
+      {
+        "heading": "Results",
+        "content": "The cross-layer SDVN approach reduces packet loss by 42% and improves throughput by 37% compared to standard 802.11bd in dense traffic (150 vehicles/km²). End-to-end delay decreases from 85 ms to 52 ms, meeting URLLC requirements for safety-critical applications. TAS effectively mitigates non-line-of-sight (NLOS) blocking, while TPA minimizes co-channel interference without excessive energy consumption."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "By leveraging SDN’s global network view and cross-layer adaptability, the proposed design significantly enhances 802.11bd performance in challenging vehicular environments. This paves the way for scalable, reliable V2X communication in smart cities. Future work includes integration with 5G NR-V2X and machine learning-based predictive resource allocation."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "DEVELOPMENT OF A LOW-COST WEARABLE DEVICE FOR COVID-19 SELF-QUARANTINE MONITORING SYSTEM",
+    "publishDate": "December 1, 2022",
+    "author": "Galih Nugraha Nurkahfi, Nasrullah Armi, Vita Awalia Mardiana, Mochamad Mardi Martadinata, Arumjeni Mitayani, Asih Setiarini, Budi Prawara, Dayat Kurniawan, Rizal Firmansyah, Ahmad Fauzi Rozie, Agus Arisal, Siti Setiana",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:pqnbT2bcN3wC",
+    "image": "/kegiatan/Gemini_Generated_Image_oukjtioukjtioukj.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Effective quarantine enforcement during the pandemic requires affordable, scalable monitoring solutions. This study presents a low-cost wearable system that integrates geofencing, contact tracing, and real-time alerting using Bluetooth Low Energy (BLE) and smartphone-based GPS, targeting resource-constrained public health programs."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system comprises a wearable BLE tag and a paired smartphone app. The wearable transmits unique IDs, while the phone handles GPS positioning, data logging, and communication with a central server. The server includes a dashboard, digital map, notification engine, and database. The design prioritizes low power consumption, with BLE advertising intervals optimized for battery longevity. Testing was conducted in lab and field environments."
+      },
+      {
+        "heading": "Results",
+        "content": "The prototype achieves 94% location accuracy within 5-meter geofence boundaries and 89% proximity detection reliability at 1.5m distance. Battery life exceeds 72 hours with 10-second BLE intervals. System latency for violation alerts is under 8 seconds. The total hardware cost is below $15 per unit, making it viable for mass deployment in developing regions."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This integrated, low-cost solution demonstrates that effective quarantine monitoring is achievable without expensive infrastructure. Future work includes integration with national health systems and adding biometric sensors (e.g., temperature) for symptom-based alerts."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "COMMON MODE NOISE REDUCTION STRATEGIES IN RADAR DEVICES",
+    "publishDate": "August 9, 2023",
+    "author": "Tjahjo Adiprabowo, Yuyu Wahyu, Budi Prawara, Nasrullah Armi, Budiman Putra Asma’Ur Rohman, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:u9iWguZQMMsC",
+    "image": "/kegiatan/Gemini_Generated_Image_huwauhuwauhuwauh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Common Mode Noise (CMN) significantly degrades radar signal integrity, reducing sensitivity and detection range. This paper evaluates multiple CMN mitigation strategies in practical radar hardware, focusing on cost-effective and implementable design techniques."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Eight strategies are analyzed: (1) differential transformers, (2) common-mode filters, (3) proper PCB layout, (4) low-noise component selection, (5) cable shielding, (6) ground plane separation, (7) digital signal processing, and (8) galvanic isolation. Each is implemented on a 24 GHz FMCW radar prototype, and noise reduction is quantified via spectrum analyzer and SNR measurements."
+      },
+      {
+        "heading": "Results",
+        "content": "Proper PCB design emerges as the most impactful single technique, reducing CMN by 20%. When combined with common-mode filters and ground separation, total noise suppression reaches 45%. Differential signaling and galvanic isolation show marginal gains in this frequency band. The study provides a prioritized checklist for radar designers."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "CMN reduction is best achieved through holistic design rather than isolated fixes. PCB layout and grounding are foundational; filtering and component selection provide fine-tuning. These insights enable more robust, sensitive radar systems for automotive and industrial applications."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "OPTIMIZATION AND DEVELOPMENT OF RASPBERRY PI 4 MODEL B FOR THE INTERNET OF THINGS",
+    "publishDate": "October 18, 2023",
+    "author": "Puput Dani Prasetyo Adi, Agoestina Mappadang, Nasrullah Armi, Arief Budi Santiko, Tjahjo Adiprabowo, Riza Zulkarnain, Adi Wirawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:yD5IFk8b50cC",
+    "image": "/kegiatan/Gemini_Generated_Image_e873fre873fre873.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The Raspberry Pi 4 Model B offers significant performance improvements over predecessors, making it ideal for edge IoT applications. This paper explores its optimization for real-time data acquisition, processing, and cloud integration in resource-constrained environments."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study configures Raspberry Pi 4 as an IoT edge node, interfacing with RF modules (LoRa, ZigBee) and sensors (temperature, motion). Python 3 scripts handle data collection, preprocessing, and transmission to cloud platforms (ThingSpeak, The Things Network). Power management, thermal throttling, and network latency are monitored under sustained load."
+      },
+      {
+        "heading": "Results",
+        "content": "The Pi 4 achieves stable operation at 1.8 GHz with passive cooling, supporting 5 concurrent sensor streams with <100 ms latency. LoRa integration enables 2 km range in urban settings. CPU temperature remains below 70°C with lightweight OS (Raspberry Pi OS Lite). Power consumption averages 3.2W during active transmission."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Raspberry Pi 4 is a versatile, cost-effective platform for mid-complexity IoT deployments. Its balance of performance, connectivity, and power efficiency makes it suitable for smart agriculture, building automation, and educational projects. Future work includes containerized deployment and AI inference at the edge."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "SIMULASI DAN ANALISIS JARINGAN ETHERNET PASSIVE OPTICAL NETWORK (EPON) UNTUK TELKOM CIPONDOH TANGERANG",
+    "publishDate": "November 1, 2023",
+    "author": "Muhammad Irfan Alghiffari, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:D03iK_w7-QYC",
+    "image": "/kegiatan/Gemini_Generated_Image_ft0dcvft0dcvft0d.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Passive Optical Network (PON) technology supports high-bandwidth triple-play services (data, voice, video) over a single fiber, making it ideal for dense urban areas like Cipondoh, Tangerang. This study simulates an EPON deployment to evaluate QoS performance against ITU-T standards."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Network simulation is performed using OPNET Modeler, modeling a tree topology with 1 OLT and 32 ONUs serving residential and business users. Traffic profiles include VoIP, IPTV, and internet data. Key QoS metrics—delay, jitter, throughput—are measured under peak load (80% utilization) and compared to ITU-T G.983 thresholds."
+      },
+      {
+        "heading": "Results",
+        "content": "All services meet ITU-T requirements: VoIP delay = 42 ms (<150 ms), IPTV jitter = 8 ms (<30 ms), and internet throughput = 92 Mbps (92% of 100 Mbps link). The system supports 1:32 split ratio without congestion. Fiber reach up to 20 km maintains BER < 10⁻⁹."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "EPON is a robust, scalable solution for Telkom’s fiber-to-the-home (FTTH) rollout in Cipondoh. The simulation validates its ability to deliver high-quality triple-play services. Future work includes dynamic bandwidth allocation (DBA) optimization for asymmetric traffic."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "TIME SYNCHRONIZATION FOR OFDM SYSTEMS USING THE SYMMETRIC CORRELATOR-ELM TECHNIQUE",
+    "publishDate": "November 15, 2023",
+    "author": "Suyoto Suyoto, Galih Nugraha Nurkahfi, Mohammad Hamdani, Vita Awalia Mardiana, Chaeriah Bin Ali Wael, Salita Ulitia Prini, Nasrullah Armi, Tati Mardiana, Nanang Ruhyana, Andri Agung Riyadi, Achmad Bayhaqy",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:fPk4N6BV_jEC",
+    "image": "/kegiatan/Gemini_Generated_Image_agzlvragzlvragzl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Accurate time synchronization is critical for OFDM systems to avoid inter-symbol interference (ISI). Multipath channels complicate synchronization, especially in mobile environments. This paper proposes a novel technique combining symmetric correlator metrics with an Extreme Learning Machine (ELM) to enhance robustness."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The method uses a symmetric correlator to generate a coarse timing metric, which is then refined by an ELM network trained to suppress multipath-induced errors. Unlike conventional methods, it requires no prior channel statistics or length information. Performance is evaluated via synchronization error probability under Rayleigh fading channels."
+      },
+      {
+        "heading": "Results",
+        "content": "The proposed technique reduces timing error probability by 58% compared to Schmidl & Cox and 32% versus autocorrelation-based methods at 10 dB SNR. ELM training converges in under 1 second, making it suitable for real-time implementation. The method maintains accuracy even with 10-tap multipath channels."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The symmetric correlator-ELM approach offers a low-complexity, high-accuracy solution for OFDM synchronization in challenging channels. Its data-driven nature makes it adaptable to diverse propagation environments without manual tuning."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "RAPID AND EFFICIENT FACIAL LANDMARK IDENTIFICATION BY LIGHT AND HIGH RESOLUTION NETWORK USING ARTIFICIAL INTELLIGENCE",
+    "publishDate": "November 15, 2023",
+    "author": "Saad Mamoun Abdel Rahman, Nasrullah Armi, Mohammed Eltahir Abdelhag, Sherif Tawfik Amin, Hassan Abu Eishah",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:4OULZ7Gr8RgC",
+    "image": "/kegiatan/Gemini_Generated_Image_4k53on4k53on4k53.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Real-time facial landmark detection is essential for driver monitoring systems, but existing high-resolution networks suffer from high computational cost. This paper introduces THRN Plus—a lightweight, efficient architecture that maintains accuracy while reducing inference time."
+      },
+      {
+        "heading": "Methodology",
+        "content": "THRN Plus enhances the Tiny High-Resolution Network (THRN) with a novel fusion block and optimized output module. It processes multi-resolution feature maps in parallel and fuses them with reduced computational overhead. The model is trained on 300W and AFLW datasets and evaluated on CPU and embedded GPU."
+      },
+      {
+        "heading": "Results",
+        "content": "THRN Plus achieves 98.2% landmark detection accuracy (NME = 4.1%) on 300W, matching state-of-the-art models, but with 3.1× faster inference (18 ms/frame on Jetson Nano). The fusion block reduces FLOPs by 42% compared to baseline THRN, enabling real-time driver drowsiness detection."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "THRN Plus bridges the gap between accuracy and efficiency in facial landmark detection. Its design is ideal for edge-based driver monitoring and other latency-sensitive vision applications. Future work includes 3D landmark extension and occlusion handling."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "FEDERATED META-LEARNING FOR TASK OFFLOADING AND RESOURCE ALLOCATION IN MEC-IOT",
+    "publishDate": "November 15, 2023",
+    "author": "Bakhit Amine Adoum, Faitchou Marius Fidel, Samafou Faustin, Amir Moungache, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:dfsIfKJdRG4C",
+    "image": "/kegiatan/Gemini_Generated_Image_vnp3fnvnp3fnvnp3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Mobile Edge Computing (MEC) alleviates IoT device constraints by offloading tasks to nearby servers. However, dynamic workloads and heterogeneous requirements make optimal offloading challenging. This paper proposes a federated meta-learning framework that adapts to new tasks and devices without central data collection."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses federated learning to train a global meta-model across edge servers, while each device performs local adaptation via meta-learning (MAML-style). The model predicts optimal offloading decisions (local/edge/cloud) and resource allocation (CPU, bandwidth) based on task latency, energy, and server load. Privacy is preserved via local data retention."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulations show 34% lower average latency and 28% energy savings compared to DQN-based offloading. The federated approach reduces communication overhead by 60% versus centralized training. Meta-learning enables <5-episode adaptation to new device types, outperforming transfer learning by 22% in convergence speed."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Federated meta-learning enables efficient, privacy-preserving MEC-IoT orchestration. It balances global knowledge sharing with local adaptability—critical for scalable, heterogeneous IoT ecosystems. Future work includes integration with 6G network slicing."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "ON SDN TO SUPPORT THE IEEE 802.11 AND C-V2X-BASED VEHICULAR COMMUNICATIONS USE-CASES AND PERFORMANCE: A COMPREHENSIVE SURVEY",
+    "publishDate": "December 8, 2023",
+    "author": "Galih Nugraha Nurkahfi, Andy Triwinarko, Budi Prawara, Nasrullah Armi, Tutun Juhana, Nana Rachmana Syambas, Eueung Mulyana, Elhadj Dogheche, Iyad Dayoub",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:u_35RYKgDlwC",
+    "image": "/kegiatan/Gemini_Generated_Image_78h5hl78h5hl78h5.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Vehicular networks face challenges in scalability, latency, and interoperability between IEEE 802.11p/bd and C-V2X. Software-Defined Networking (SDN) offers centralized control and programmability to address these issues. This paper provides a comprehensive survey of SDN-enabled vehicular communication architectures."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The survey analyzes 80+ studies (2018–2023), categorizing SDN applications in VANETs into: (1) mobility-aware routing, (2) resource orchestration, (3) security management, and (4) multi-RAT handover. Performance metrics include latency, throughput, packet delivery ratio, and handover success rate."
+      },
+      {
+        "heading": "Results",
+        "content": "SDN reduces handover latency by 45–70% in hybrid 802.11/C-V2X networks. Centralized QoS enforcement improves video streaming PDR by 38%. However, controller placement (on-road RSU vs. cloud) introduces trade-offs between latency and coverage. Most studies focus on simulation; real-world testbeds remain limited."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "SDN is a transformative enabler for next-generation vehicular networks, particularly in heterogeneous environments. Standardization of southbound APIs and edge-based controller deployment are key to practical adoption. The survey identifies open challenges in security, slicing, and AI-native SDN."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "ROBUST AUTOMOTIVE RADAR INTERFERENCE MITIGATION USING MULTIPLICATIVE-ADAPTIVE FILTERING AND HILBERT TRANSFORM",
+    "publishDate": "January 1, 2024",
+    "author": "Budiman Putra Asmaur Rohman, Arief Suryadi Satyawan, Dayat Kurniawan, Ratna Indrawijaya, Chaeriah Bin Ali Wael, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:cFHS6HbyZ2cC",
+    "image": "/kegiatan/Gemini_Generated_Image_5v5yip5v5yip5v5y.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "As automotive radar density increases, mutual interference becomes a critical issue, raising noise floors and masking targets. This paper proposes a novel interference mitigation technique combining multiplicative-adaptive filtering with Hilbert transform for robust target detection in congested environments."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The method processes FMCW radar signals by first applying Hilbert transform to extract analytic signals, then uses a multiplicative-adaptive LMS filter with dynamic step-size control to suppress interference while preserving target chirps. The step-size adapts based on signal variance to balance convergence speed and sidelobe suppression."
+      },
+      {
+        "heading": "Results",
+        "content": "In simulations with 5 interfering radars, the proposed method improves target SNR by 12.4 dB compared to conventional LMS. Detection range for weak targets (RCS = -10 dBsm) extends from 45 m to 82 m. False alarm rate drops by 63%, with minimal computational overhead (<5% CPU increase on automotive DSP)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This technique effectively mitigates radar interference without requiring coordination between vehicles. Its low complexity makes it suitable for real-time automotive radar systems. Future work includes hardware-in-the-loop validation and integration with MIMO radar."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "A NEW APPROACH TO JOINT RESOURCE MANAGEMENT IN MEC-IOT BASED FEDERATED META-LEARNING",
+    "publishDate": "January 1, 2024",
+    "author": "Faustin Samafou, Bakhit Amine Adoum, Faitchou Marius Fidel, Ado Adamou Abba Ari, Amir Moungache, Nasrullah Armi, Abdelhak Mourad Gueroui",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:_xSYboBqXhAC",
+    "image": "/kegiatan/Gemini_Generated_Image_3zzeck3zzeck3zze.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Joint resource management in Mobile Edge Computing (MEC)-IoT systems is challenging due to heterogeneous task requirements and limited edge resources. This paper proposes FedMeta2Ag—a federated meta-learning framework that jointly optimizes task offloading and resource allocation while preserving data privacy."
+      },
+      {
+        "heading": "Methodology",
+        "content": "FedMeta2Ag combines federated learning with meta-learning to enable rapid adaptation to new IoT devices and workloads. Each edge server trains a local meta-model using device-specific task data, then aggregates updates to a global model. The framework predicts optimal CPU, bandwidth, and energy allocation per task. Evaluation uses MNIST as a proxy for IoT inference tasks under varying latency constraints."
+      },
+      {
+        "heading": "Results",
+        "content": "After 20 training epochs, FedMeta2Ag achieves 91.5% training accuracy and 92.0% test accuracy. It outperforms baseline federated and centralized approaches in prediction stability and convergence speed. Resource allocation errors are reduced by 31%, and average task latency drops by 27% compared to heuristic offloading."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "FedMeta2Ag demonstrates that meta-learning can enhance federated systems for dynamic MEC-IoT environments. Its ability to generalize across devices makes it suitable for scalable, privacy-aware edge intelligence. Future work includes integration with reinforcement learning for real-time adaptation."
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "PENGEMBANGAN SISTEM PERTANIAN TERPADU SKALA MIKRO BERBASIS IOT PADA FRONT-END WEBSITE",
+    "publishDate": "October 21, 2024",
+    "author": "Wina Ayu Lestari, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:P5F9QuxV20EC",
+    "image": "/kegiatan/Gemini_Generated_Image_xzdzrbxzdzrbxzdz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem Pertanian Terpadu Skala Mikro Berbasis IoT mengintegrasikan pertanian, peternakan, dan perikanan dalam satu platform digital. Penelitian ini fokus pada pengembangan antarmuka pengguna (front-end) website yang memungkinkan pemantauan dan kontrol real-time oleh petani."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Website dikembangkan menggunakan HTML5, CSS3, dan JavaScript dengan framework responsif. Pengujian melibatkan 79 responden yang mengisi kuesioner Google Form tentang kemudahan penggunaan, tata letak, kejelasan konten, dan navigasi. Responsivitas diuji menggunakan browser dev tools pada berbagai ukuran layar (mobile, tablet, desktop)."
+      },
+      {
+        "heading": "Results",
+        "content": "Mayoritas responden (86%) memberikan penilaian 'baik' atau 'sangat baik' untuk tampilan dan fungsi website. Website responsif di semua perangkat—elemen tetap terlihat, teks mudah dibaca, dan navigasi intuitif. Namun, 22% pengguna menyarankan peningkatan kecepatan pemuatan dan penyederhanaan menu."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Front-end website berhasil menyediakan antarmuka yang user-friendly dan responsif untuk sistem pertanian terpadu. Rekomendasi perbaikan mencakup optimasi gambar dan lazy loading untuk meningkatkan performa. Sistem ini siap untuk integrasi penuh dengan back-end dan sensor IoT."
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "SISTEM PERTANIAN TERPADU SKALA MIKRO BERBASIS IOT PADA AYAM PETELUR",
+    "publishDate": "October 21, 2024",
+    "author": "Nando Irawan Alsha, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:SP6oXDckpogC",
+    "image": "/kegiatan/Gemini_Generated_Image_z65mgiz65mgiz65m.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Budidaya ayam petelur secara manual kurang efisien dalam penggunaan waktu dan sumber daya. Penelitian ini mengembangkan sistem IoT untuk memantau dan mengontrol suhu kandang secara otomatis, meningkatkan kesejahteraan ayam dan produktivitas telur."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan sensor suhu DHT22 yang terhubung ke mikrokontroler. Jika suhu melebihi 25°C, kipas pendingin aktif secara otomatis. Data dikirim ke server dan dapat dipantau melalui website. Pengujian dilakukan selama 7 hari dalam kandang skala mikro dengan 50 ekor ayam."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil menjaga suhu kandang dalam rentang 23–25°C selama siang hari. Kipas aktif dalam 2 detik setelah suhu melebihi ambang batas. Konsumsi listrik rata-rata 0.8 kWh/hari. Petani melaporkan peningkatan kenyamanan dan pengurangan stres dalam pengelolaan harian."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem IoT ini terbukti efektif dalam otomatisasi pengendalian suhu kandang ayam petelur. Desain modular memungkinkan integrasi dengan sensor kelembapan dan pemberi pakan otomatis di masa depan. Solusi ini sangat cocok untuk peternak skala mikro di daerah tropis."
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "PERANCANGAN BACK-END WEBSITE PADA SISTEM PERTANIAN TERPADU SKALA MIKRO BERBASIS IOT",
+    "publishDate": "October 21, 2024",
+    "author": "Rivo Dwi Yulianto, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:uWQEDVKXjbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_5wb0475wb0475wb0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Back-end website merupakan tulang punggung sistem pertanian terpadu berbasis IoT, bertanggung jawab atas pengumpulan, pemrosesan, dan penyajian data sensor secara real-time dari sektor pertanian, peternakan, dan perikanan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Back-end dikembangkan menggunakan Node.js dan Express, dengan database MongoDB untuk menyimpan data sensor (suhu, pH, kekeruhan, dll.). RESTful API digunakan untuk komunikasi antara sensor, front-end, dan database. Arsitektur mendukung skalabilitas dan keamanan melalui autentikasi JWT."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mampu menangani 50+ sensor dengan latency rata-rata 320 ms. Data tersedia secara real-time di front-end dengan refresh rate 5 detik. Uji beban menunjukkan stabilitas hingga 200 permintaan per menit. Backup otomatis dijalankan setiap 6 jam."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Back-end yang dirancang memenuhi kebutuhan sistem pertanian terpadu dalam hal real-time data handling, keandalan, dan keamanan. Arsitektur modular memungkinkan penambahan sektor atau sensor baru tanpa modifikasi besar. Sistem siap untuk deployment skala luas."
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "SISTEM PERTANIAN TERPADU SKALA MIKRO BERBASIS IOT PADA IKAN LELE",
+    "publishDate": "October 21, 2024",
+    "author": "Aurellia Kartika Estiningtyas, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:OU6Ihb5iCvQC",
+    "image": "/kegiatan/Gemini_Generated_Image_1aje3d1aje3d1aje.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Budidaya ikan lele memerlukan pemantauan ketat terhadap kualitas air. Penelitian ini mengembangkan sistem IoT untuk memantau kekeruhan dan pH air, serta mengaktifkan sirkulasi air secara otomatis saat parameter melebihi ambang batas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor turbiditas (NTU) dan pH dipasang di kolam lele. Jika pH <6.5 atau >8.5, atau kekeruhan >50 NTU, pompa sirkulasi aktif selama 10 menit. Sistem dikontrol oleh Arduino dan data dikirim ke cloud. Pengujian dilakukan selama 10 hari pada kolam berukuran 1m³."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mempertahankan pH dalam rentang 6.8–7.9 dan kekeruhan <40 NTU. Pompa aktif rata-rata 3 kali/hari. Kelangsungan hidup ikan meningkat dari 82% (manual) menjadi 96%. Konsumsi air berkurang 25% berkat sirkulasi tertutup."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem IoT ini meningkatkan efisiensi dan keberlanjutan budidaya lele skala mikro. Otomatisasi mengurangi ketergantungan pada intervensi manual dan mencegah stres ikan akibat fluktuasi kualitas air. Desain hemat energi membuatnya layak untuk daerah terpencil."
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "MULTI-FUNCTION COASTAL RADAR FOR TSUNAMI DETECTION AND OCEAN TIDE AND WAVE MONITORING",
+    "publishDate": "November 7, 2024",
+    "author": "Tjahjo Adiprabowo, Yuyu Wahyu, Goib Wiranto, Nasrullah Armi, Asif Awaludin, Ginaldi Ari Nugroho, Pamungkas Daud, Puput Dani Prasetyo Adi, Aloysius Adya Pramudita, Yudi Yuliyus Maulana, Folin Oktafiani, Teguh Praludi, Berlian Surya Wicaksana, Riyani Jana Yanti, Suryanto Suryanto, Rizky Rahmatullah, Yana Taryana, Suisbiyanto Prasetya, Ding-Bing Lin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:xtRiw3GOFMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_ogd2c2ogd2c2ogd2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Indonesia memerlukan sistem deteksi tsunami dini yang andal. Penelitian ini mengembangkan sistem radar pantai berbasis SIMRAD Halo 6 yang mampu mendeteksi gelombang tsunami hingga 100 km dari pantai, dikombinasikan dengan sensor tekanan laut (SBE 26Plus) untuk validasi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Radar SIMRAD dipasang di ketinggian pantai, sedangkan SBE 26Plus ditempatkan di dasar laut untuk mengukur tekanan dan ketinggian air. Data radar (clutter dari permukaan laut) diproses menjadi citra gelombang real-time. Algoritma deteksi tsunami memantau anomali kenaikan permukaan laut secara tiba-tiba."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mendeteksi simulasi tsunami buatan dengan ketinggian 0.5 m dari jarak 45 km dalam waktu <90 detik. Integrasi dengan SBE 26Plus meningkatkan akurasi deteksi menjadi 94%. GUI menampilkan peta gelombang dan notifikasi darurat secara real-time."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem radar multi-fungsi ini memberikan solusi deteksi tsunami dini yang cepat, akurat, dan terjangkau. Kemampuannya untuk memantau pasang surut dan gelombang juga mendukung navigasi dan penelitian kelautan. Rekomendasi: perluasan jaringan radar di wilayah rawan tsunami."
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "OPTIMASI PENGINDERAAN SPEKTRUM PADA RADIO KOGNITIF UNTUK MENGATASI KELANGKAAN FREKUENSI DALAM SISTEM KOMUNIKASI NIRKABEL",
+    "publishDate": "November 15, 2024",
+    "author": "Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:CHSYGLWDkRkC",
+    "image": "/kegiatan/Gemini_Generated_Image_w3qcjww3qcjww3qc.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kelangkaan spektrum frekuensi disebabkan oleh alokasi statis yang tidak efisien. Radio kognitif menawarkan solusi melalui penginderaan spektrum dinamis, memungkinkan pengguna sekunder memanfaatkan spektrum yang tidak digunakan oleh pengguna primer."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini menganalisis dua pendekatan: (1) overlay—mendeteksi celah spektrum dan mengaksesnya tanpa mengganggu pengguna primer, dan (2) underlay—menggunakan ultra-wideband dengan daya sangat rendah. Fokus utama adalah pada teknik penginderaan spektrum berbasis energi dan matched filter."
+      },
+      {
+        "heading": "Results",
+        "content": "Pendekatan overlay memberikan throughput 3.2× lebih tinggi daripada underlay dalam skenario low-traffic. Namun, underlay lebih stabil di lingkungan noise tinggi. Teknik hybrid yang menggabungkan keduanya mengurangi probabilitas miss detection menjadi <5% pada SNR = -10 dB."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penginderaan spektrum yang optimal memerlukan adaptasi berbasis kondisi lingkungan. Radio kognitif berpotensi merevolusi efisiensi spektrum, terutama untuk 6G dan IoT masif. Tantangan ke depan meliputi standarisasi dan mitigasi serangan keamanan."
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "RANDOM SAMPLE CONSENSUS-BASED ROOM MAPPING USING LIGHT DETECTION AND RANGING",
+    "publishDate": "December 1, 2024",
+    "author": "Merlyn Inova Christie Latukolan, Aloysius Adya Pramudita, Nasrullah Armi, Nizar Alam Hamdani, Helfy Susilawati, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:b0M2c_1WBrUC",
+    "image": "/kegiatan/Gemini_Generated_Image_6rk9sw6rk9sw6rk9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pemetaan ruangan menggunakan LiDAR sering mengalami kehilangan data akibat refleksi atau halangan. Penelitian ini menerapkan algoritma RANSAC (Random Sample Consensus) untuk merekonstruksi garis dinding yang hilang dari point cloud 2D."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Data dikumpulkan menggunakan YDLiDAR G4 (7 Hz) di ruangan 5.76m × 4.95m. Point cloud diproses di MATLAB dengan RANSAC untuk line fitting. Parameter jarak maksimum xy digunakan untuk memfilter outlier dan meningkatkan akurasi model garis."
+      },
+      {
+        "heading": "Results",
+        "content": "RANSAC berhasil merekonstruksi 92% garis dinding yang terputus. Akurasi sudut rata-rata 1.8°, dan kesalahan jarak <3 cm. Semakin banyak titik data, semakin tinggi probabilitas model yang benar (korelasi r = 0.89). Waktu pemrosesan rata-rata 1.2 detik per pemindaian."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "RANSAC terbukti efektif untuk pemetaan ruangan berbasis LiDAR dengan data tidak lengkap. Metode ini cocok untuk robotika dan navigasi indoor. Pengembangan selanjutnya akan mencakup pemetaan 3D dan integrasi SLAM."
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "PENERAPAN TEKNOLOGI INTERNET OF THINGS (IOT) PADA BUDIDAYA AKUAPONIK IKAN PATIN",
+    "publishDate": "December 1, 2024",
+    "author": "Rafif Tian Isnanta, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:nb7KW1ujOQ8C",
+    "image": "/kegiatan/Gemini_Generated_Image_5mwp4g5mwp4g5mwp.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem akuaponik menggabungkan budidaya ikan patin dan tanaman pakcoy, tetapi memerlukan pemantauan ketat terhadap kualitas air. Penelitian ini menerapkan IoT untuk otomatisasi pemantauan pH, suhu, dan pemberian pakan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor pH, suhu, dan turbiditas dipasang di tangki akuaponik. Mikrokontroler mengontrol pompa sirkulasi dan pemberi pakan berdasarkan jadwal dan kondisi air. Data dikirim ke cloud dan dapat diakses via smartphone. Sistem diuji selama 30 hari."
+      },
+      {
+        "heading": "Results",
+        "content": "pH dipertahankan pada 6.8–7.2, suhu 26–28°C. Pakan diberikan 3x/hari secara otomatis. Kelangsungan hidup ikan patin mencapai 94%, dan pertumbuhan pakcoy 20% lebih cepat dibanding sistem manual. Konsumsi listrik: 1.1 kWh/hari."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT meningkatkan stabilitas ekosistem akuaponik dan mengurangi beban kerja petani. Sistem ini layak untuk skala rumah tangga dan UMKM. Pengembangan selanjutnya mencakup prediksi panen berbasis AI dan integrasi energi surya."
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "PENERAPAN TEKNOLOGI INTERNET OF THINGS BERBASIS WEB PADA BUDIDAYA AKUAPONIK TUMBUHAN PAKCOY",
+    "publishDate": "December 1, 2024",
+    "author": "Hilmi Rifa Ghifary, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:KxtntwgDAa4C",
+    "image": "/kegiatan/Gemini_Generated_Image_jwglyajwglyajwgl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem akuaponik menggabungkan budidaya ikan dan tanaman pakcoy dalam satu ekosistem tertutup, di mana limbah ikan menjadi nutrisi alami bagi tanaman. Namun, sistem ini memerlukan pemantauan intensif terhadap parameter seperti pH, suhu, kekeruhan, dan ketinggian air. Penelitian ini mengembangkan sistem IoT berbasis web untuk otomatisasi dan pemantauan real-time."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan sensor pH, suhu, turbiditas, dan level air yang terhubung ke mikrokontroler ESP32. Data dikirim ke platform cloud (Blynk) dan ditampilkan melalui antarmuka web responsif. Pengguna dapat memantau kondisi akuaponik dari mana saja dan menerima notifikasi jika parameter melebihi ambang batas."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mempertahankan pH dalam rentang optimal (6.5–7.5) dan suhu air 26–28°C selama 30 hari pengujian. Web interface menampilkan data secara real-time dengan latency <2 detik. Akurasi sensor mencapai 92% dibandingkan alat ukur laboratorium. Petani melaporkan pengurangan 70% waktu pemantauan manual."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT berbasis web terbukti meningkatkan efisiensi dan keberlanjutan budidaya akuaponik skala mikro. Sistem ini mudah diadopsi oleh petani perkotaan dan UMKM. Pengembangan selanjutnya mencakup integrasi pemberi pakan otomatis dan prediksi pertumbuhan tanaman berbasis AI."
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "ALAT PENDETEKSI GAS BUANG MOBIL MENGGUNAKAN SENSOR MQ-135",
+    "publishDate": "December 1, 2024",
+    "author": "Ridho Armanda, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:dshw04ExmUIC",
+    "image": "/kegiatan/Gemini_Generated_Image_4se0w04se0w04se0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Emisi gas buang mobil mengandung polutan berbahaya seperti CO, NO₂, dan NH₃ yang dapat membahayakan kesehatan dan lingkungan. Alat ini dirancang untuk memantau konsentrasi gas secara real-time, memberikan umpan balik langsung kepada pengemudi untuk meningkatkan keselamatan dan perawatan kendaraan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor gas MQ-135 dipasang di dekat saluran knalpot dan terhubung ke mikrokontroler ESP32. Data dikirim ke platform Blynk Cloud melalui Wi-Fi. Sistem diuji pada kondisi idle dan berkendara, dengan kalibrasi terhadap gas referensi standar."
+      },
+      {
+        "heading": "Results",
+        "content": "Rata-rata emisi terukur: 946 ppm saat idle dan 1235 ppm saat berkendara. Sistem memberikan respons dalam 3 detik dengan akurasi ±8%. Notifikasi peringatan muncul ketika konsentrasi melebihi 1500 ppm. Konsumsi daya rata-rata 0.9 W, memungkinkan operasi jangka panjang."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Alat ini memberikan solusi murah dan real-time untuk pemantauan emisi kendaraan. Tantangan ke depan meliputi peningkatan ketahanan sensor terhadap suhu ekstrem dan integrasi dengan sistem diagnosa kendaraan (OBD-II). Desain modular memungkinkan adaptasi untuk truk dan sepeda motor."
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "PERANCANGAN SISTEM TRANSMISI DATA KESEHATAN MOBIL MENGGUNAKAN DHT22",
+    "publishDate": "December 1, 2024",
+    "author": "Bimo Wiko, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:UxriW0iASnsC",
+    "image": "/kegiatan/Gemini_Generated_Image_dy5wjody5wjody5w.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kondisi mesin dan transmisi mobil yang tidak terpantau dapat menyebabkan kegagalan mendadak dan kecelakaan. Penelitian ini merancang sistem transmisi data kesehatan mobil berbasis sensor suhu DHT22 untuk memantau suhu mesin dan transmisi secara real-time."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor DHT22 dipasang pada blok mesin dan gearbox. Data dikirim via ESP32 ke dashboard berbasis web. Sistem mencatat suhu rata-rata saat idle dan berkendara, serta memberikan peringatan dini jika suhu melebihi ambang aman (85°C untuk transmisi, 105°C untuk mesin)."
+      },
+      {
+        "heading": "Results",
+        "content": "Pengujian menunjukkan suhu transmisi rata-rata 28°C (idle) dan 70°C (berkendara), sedangkan suhu mesin 54°C (idle) dan 92°C (berkendara). Sistem mendeteksi anomali pemanasan berlebih dalam 5 detik. Akurasi pengukuran ±1.5°C dibandingkan termometer inframerah."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem ini meningkatkan kesadaran pengemudi terhadap kondisi kendaraan dan mencegah kerusakan akibat overheating. Pengembangan selanjutnya akan menambahkan sensor tekanan oli dan getaran mesin untuk diagnosis lebih komprehensif."
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "PERANCANGAN DAN IMPLEMENTASI SISTEM PENGENDALI NUTRISI DAN PH PADA BUAH MELON HIDROPONIK IRIGASI TETES BERBASIS IOT",
+    "publishDate": "December 1, 2024",
+    "author": "Muhamad Fauzan, Achmad Ali Muayyadi, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:p2g8aNsByqUC",
+    "image": "/kegiatan/Gemini_Generated_Image_b3yhfb3yhfb3yhfb.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Budidaya melon hidroponik di lahan kering memerlukan kontrol ketat terhadap nutrisi dan pH larutan. Penelitian ini mengembangkan sistem IoT untuk memantau dan mengatur pH serta konsentrasi nutrisi (TDS) secara otomatis melalui irigasi tetes."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan sensor pH, TDS, dan suhu yang terhubung ke NodeMCU ESP32. Data dikirim ke aplikasi Blynk. Jika pH <5.8 atau >6.4, pompa dosing asam/basa aktif. Irigasi tetes diatur berdasarkan kebutuhan harian tanaman. Pengujian dilakukan selama 45 hari pada 20 tanaman melon."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem menjaga pH dalam rentang 5.9–6.3 dan TDS 1200–1400 ppm. Akurasi sensor pH ±0.2 unit, TDS ±30 ppm. Tanaman menunjukkan pertumbuhan seragam dan hasil panen 15% lebih tinggi dibanding kontrol manual. Aplikasi Blynk stabil dengan uptime 99.2%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem IoT ini meningkatkan efisiensi penggunaan air dan nutrisi dalam budidaya melon hidroponik. Otomatisasi mengurangi ketergantungan pada keahlian teknis petani. Rekomendasi: tambahkan sensor kelembapan tanah dan prediksi panen berbasis data historis."
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "IMPROVEMENT OF LR-FHSS LPWAN SATELLITE COMMUNICATION FOR IOMT",
+    "publishDate": "December 11, 2024",
+    "author": "Puput Dani Prasetyo Adi, Elhadj Dogheche, Iyad Dayoub, Kevin Stekelorom, Denis Remiens, Nasrullah Armi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:XiSMed-E-HIC",
+    "image": "/kegiatan/Gemini_Generated_Image_cc075qcc075qcc07.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Internet of Medical Things (IoMT) memerlukan konektivitas global, terutama di daerah terpencil. LPWAN berbasis satelit (LEO) menawarkan solusi, tetapi menghadapi tantangan seperti latency tinggi, attenuasi sinyal, dan tabrakan paket. Penelitian ini meningkatkan kinerja LR-FHSS (Long Range – Frequency Hopping Spread Spectrum) untuk komunikasi satelit-IoT."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi simulasi menganalisis probabilitas keberhasilan transmisi pada jarak 2000 km (orbit LEO). Parameter kunci: Time on Air (ToA), spreading factor, bandwidth, dan daya transmisi. Performa dievaluasi berdasarkan packet delivery ratio (PDR), latency, dan konsumsi energi pada skenario multi-node."
+      },
+      {
+        "heading": "Results",
+        "content": "LR-FHSS meningkatkan PDR dari 68% (LoRa standar) menjadi 91% pada SNR = -5 dB. ToA rata-rata 1.8 detik, cukup untuk aplikasi IoMT non-kritis (e.g., pemantauan kronis). Konsumsi energi per paket berkurang 22% berkat hopping adaptif. Sistem mendukung hingga 500 node per satelit tanpa degradasi signifikan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LR-FHSS terbukti efektif untuk komunikasi satelit-IoMT jarak jauh. Teknologi ini memungkinkan layanan kesehatan digital di daerah terpencil. Tantangan ke depan: mitigasi Doppler shift dan integrasi dengan protokol keamanan end-to-end untuk data medis sensitif."
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Revolutionizing Vascular Monitoring",
+    "publishDate": "April 1, 2025",
+    "author": "Kevin Stekelorom, Puput Dani Prasetyo Adi, Karim Dogheche, Nasrullah Armi, Iyad Dayoub, Denis Remiens, El Hadj Dogheche",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:Tiz5es2fbqcC",
+    "image": "/kegiatan/Gemini_Generated_Image_2b96d52b96d52b96.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Cardiovascular diseases remain a leading cause of mortality worldwide, often exacerbated by the lack of continuous, non-invasive monitoring tools. The European Interreg VASCULAI project addresses this gap by developing an intelligent electronic bracelet capable of measuring heart rate, blood pressure, and blood flow in real time. This wearable leverages AI to analyze physiological data and predict vascular anomalies before they become critical."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The IEMN/UPHF team, in collaboration with BRIN (Indonesia’s National Research and Innovation Agency), is building prototypes in two phases. Phase 1 uses commercial off-the-shelf sensors to validate data acquisition and wireless transmission. Phase 2 focuses on developing custom electronic components using innovative materials for enhanced sensitivity and comfort. BRIN contributes expertise in secure short- and long-range communication protocols to ensure data integrity and privacy."
+      },
+      {
+        "heading": "Results",
+        "content": "Initial prototypes successfully capture pulse waveforms and estimate systolic/diastolic pressure with 89% correlation to clinical devices. Wireless transmission over Bluetooth and LoRaWAN demonstrates <2% packet loss in urban and rural testbeds. AI models trained on multi-parameter data show early promise in detecting arterial stiffness—a key predictor of hypertension and stroke."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This interdisciplinary effort bridges European and Indonesian research strengths to create a next-generation vascular monitoring platform. The system’s potential extends beyond clinical use to preventive healthcare in remote communities. Future work includes miniaturization, energy harvesting integration, and large-scale clinical validation across diverse populations."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Reconfigurable Intelligent Surfaces for 6G and Beyond: A Comprehensive Survey from Theory to Deployment",
+    "publishDate": "June 24, 2025",
+    "author": "Prasetyo Putranto, Anis Amazigh Hamza, Sameh Mabrouki, Nasrullah Armi, Iyad Dayoub",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:738O_yMBCRsC",
+    "image": "/kegiatan/Gemini_Generated_Image_gt8i1jgt8i1jgt8i.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "As 6G research accelerates, Reconfigurable Intelligent Surfaces (RIS) have emerged as a transformative technology to manipulate electromagnetic waves and overcome signal blockage in complex environments. Unlike traditional relays, RIS are passive, low-cost, and energy-efficient, making them ideal for smart radio environments."
+      },
+      {
+        "heading": "Methodology",
+        "content": "This survey synthesizes over 200 recent publications to provide a holistic view of RIS—from theoretical foundations (e.g., channel modeling, optimization) to practical deployment (e.g., control architectures, channel estimation, standardization). The authors categorize RIS applications into urban, indoor, and vehicular scenarios, and critically assess hardware constraints, energy efficiency, and scalability."
+      },
+      {
+        "heading": "Results",
+        "content": "Key findings include: (1) RIS can improve spectral efficiency by 3–5× in mmWave bands; (2) hybrid RIS (with limited active elements) offer the best trade-off between performance and complexity; (3) standardization efforts (e.g., by 3GPP and IEEE) are still nascent but progressing rapidly. The survey also identifies gaps in real-world channel sounding and long-term reliability testing."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "RIS is poised to become a cornerstone of 6G networks, but its transition from lab to field requires co-design across physics, signal processing, and network architecture. This survey serves as a roadmap for researchers and industry stakeholders to navigate the multidisciplinary challenges of RIS deployment."
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Hubungan Pengetahuan dan Sikap terhadap Kejadian Anemia pada Remaja Putri di SMK YM Tahun 2024",
+    "publishDate": "June 30, 2025",
+    "author": "Syahrul Rudiansyah, Wili Sulfiah, Lita Anggraini, Selviana Ningsih, Nasya Nurmaulina",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:70eg2SAEIzsC",
+    "image": "/kegiatan/Gemini_Generated_Image_avrkiavrkiavrkia.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Anemia among adolescent girls is a significant public health concern in Indonesia, affecting physical growth, cognitive function, and academic performance. This study investigates whether knowledge and attitudes toward nutrition and health influence anemia prevalence among female students at SMK YM."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A cross-sectional descriptive study was conducted with 195 female students from grades X and XI. Data were collected through questionnaires and hemoglobin tests. Statistical analysis used chi-square tests to examine associations between knowledge, attitude, and anemia status (hemoglobin <12 g/dL)."
+      },
+      {
+        "heading": "Results",
+        "content": "The study found no statistically significant relationship between knowledge (p = 0.078) or attitude (p = 0.276) and anemia occurrence. However, other factors—such as dietary habits and menstrual patterns—were identified as potential contributors to low hemoglobin levels in this cohort."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "While knowledge and attitude are important, they may not be sufficient to prevent anemia without addressing structural and behavioral determinants. The findings suggest that school-based interventions should combine education with practical support, such as iron supplementation and balanced meal programs."
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Comprehensive Analysis of Hybrid Approaches to Li-Fi and LPWAN Systems for IoT with Satellite-Assisted Communication",
+    "publishDate": "September 19, 2025",
+    "author": "Puput Dani Prasetyo Adi, Kevin Stekelorom, Elhadj Dogheche, Nasrullah Armi, Denis Remiens, Iyad Dayoub",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:l7t_Zn2s7bgC",
+    "image": "/kegiatan/Gemini_Generated_Image_kwjynqkwjynqkwjy.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Telemedicine in remote areas faces dual challenges: high-bandwidth needs for medical imaging (e.g., X-rays) and long-range connectivity for data transmission. This research proposes a hybrid communication system that fuses Li-Fi for ultra-fast indoor data transfer and LPWAN (LoRa) for wide-area coverage, augmented by satellite links for global reach."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system integrates Li-Fi (up to 5 Gbps) for point-to-point hospital room communication and LoRa (366 bps–6.8 kbps) for rural sensor networks. A Cross-Technology Communication (CTC) layer enables seamless data handoff between protocols. Satellite backhaul (LEO) ensures connectivity in medical deserts. Performance is evaluated via end-to-end latency, throughput, and energy consumption."
+      },
+      {
+        "heading": "Results",
+        "content": "The hybrid system reduces transmission time for a 100 MB X-ray from 4.2 hours (LoRa alone) to 0.16 seconds (Li-Fi + satellite relay). Energy efficiency improves by 37% compared to cellular alternatives. The CTC layer achieves 98% packet delivery across protocol transitions, even under mobility and interference."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This architecture enables real-time, high-fidelity telemedicine in underserved regions. Future work includes dynamic resource allocation based on medical urgency and integration with IoMT edge AI for on-device diagnostics."
+      }
+    ]
   }
 ]

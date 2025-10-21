@@ -3414,5 +3414,135 @@
         "content": "Autoencoder CNN yang dioptimalkan memungkinkan kompresi gambar yang sangat efisien untuk jaringan LoRa. Ini membuka jalan bagi aplikasi telemetri visual pada kendaraan otonom di daerah terpencil. Penelitian selanjutnya akan mengintegrasikan dengan sistem deteksi objek end-to-end."
       }
     ]
+  },
+  {
+    "id": 132,
+    "title": "Restorasi Citra Wajah Terdegradasi Menggunakan Model GAN dan Fungsi Loss",
+    "publishDate": "April 30, 2025",
+    "author": "Beni Wijaya, Mokh Mirza Etnisa Haqiqi, Arief Suryadi Satyawan, Helfy Susilawati",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:xtRiw3GOFMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_7mvcq57mvcq57mvc.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Citra wajah yang terdegradasi akibat oklusi atau kerusakan mengganggu sistem pengenalan wajah dan aplikasi forensik. Penelitian ini mengembangkan model GAN berbasis encoder-decoder dengan skip connection dan residual block untuk merekonstruksi area wajah yang hilang secara realistis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset terdiri dari 1.000 pasang citra (500 asli + 500 dengan oklusi buatan). Model dilatih selama 50 epoch menggunakan loss adversarial dan rekonstruksi. Arsitektur mencakup 4 residual blocks dan skip connections untuk mempertahankan detail tingkat tinggi. Evaluasi dilakukan secara kualitatif dan melalui stabilitas loss."
+      },
+      {
+        "heading": "Results",
+        "content": "Loss generator menurun dari 0.80 ke 0.67, sementara loss discriminator stabil di 0.70. Rekonstruksi fitur wajah (mata, hidung, mulut) menunjukkan ketelitian visual tinggi. Artefak minor muncul pada area tekstur kompleks seperti rambut, tetapi struktur wajah tetap konsisten."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Model GAN yang diusulkan efektif dalam restorasi wajah terdegradasi. Pendekatan ini mendukung aplikasi keamanan dan digital forensics. Rekomendasi: perluasan dataset dengan variasi etnis dan kondisi pencahayaan, serta eksplorasi arsitektur berbasis attention."
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Optimizing Autonomous Navigation: Advances in LiDAR-based Object Recognition with Modified Voxel-RCNN",
+    "publishDate": "May 8, 2025",
+    "author": "Firman, Arief Suryadi Satyawan, Helfy Susilawati, Mokh Mirza Etnisa Haqiqi, Khaulyca Arva Artemysia, Sani Moch Sopian, Beni Wijaya, Muhammad Ikbal Samie",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:CHSYGLWDkRkC",
+    "image": "/kegiatan/Gemini_Generated_Image_s6yjlrs6yjlrs6yj.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kendaraan otonom memerlukan deteksi objek 3D yang akurat di lingkungan dinamis. Penelitian ini meningkatkan Voxel-RCNN untuk pengenalan objek berbasis LiDAR dalam skenario terbatas, dengan fokus pada enam kelas: manusia, mobil, sepeda, pohon, gerobak, dan dinding."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset point cloud dikonversi ke format KITTI. Dua modifikasi utama diterapkan pada Voxel-RCNN: (1) peningkatan backbone dengan residual connections, (2) optimasi voxel size dan anchor design. Model dilatih selama 600 epoch dan dievaluasi menggunakan mAP, precision, recall, dan F1-score."
+      },
+      {
+        "heading": "Results",
+        "content": "Modification 2 meningkatkan skor deteksi 3D untuk mobil (skenario sulit) dari 4.39 ke 10.31. Modification 3 mencapai loss pelatihan terendah (1.68) dan mengurangi loss hingga 29.1%. Namun, kinerja dunia nyata menunjukkan perlunya keseimbangan antara akurasi pelatihan dan generalisasi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Modifikasi Voxel-RCNN secara signifikan meningkatkan deteksi objek LiDAR untuk navigasi otonom. Sistem ini telah diintegrasikan ke prototipe kendaraan BRIN. Penelitian lanjutan akan mengeksplorasi pelacakan multi-objek dan sensor fusion dengan kamera."
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Enhancing Negative Film Colorization through Systematic CycleGAN Architectural Modifications: A Comprehensive Analysis of Generator and Discriminator Performance",
+    "publishDate": "June 17, 2025",
+    "author": "Khaulyca Arva Artemysia, Arief Suryadi Satyawan, Mokhammad Mirza Etnisa Haqiqi, Helfy Susilawati, Beni Wijaya, Sani Moch Sopian, Muhammad Ikbal Shamie, Firman",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:SP6oXDckpogC",
+    "image": "/kegiatan/Gemini_Generated_Image_trd2shtrd2shtrd2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Film negatif memiliki tantangan unik: inversi warna dan kehilangan detail. Penelitian ini memodifikasi CycleGAN untuk colorisasi film negatif digital, fokus pada arsitektur jaringan tanpa metrik eksternal seperti PSNR atau FID."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset: 500 citra negatif + 500 citra warna tidak berpasangan. 19 modifikasi arsitektur diuji secara individual, termasuk penambahan residual blocks, perubahan jumlah filter, fungsi aktivasi, dan koneksi antar lapisan. Evaluasi berdasarkan stabilitas loss generator/discriminator dan kualitas visual."
+      },
+      {
+        "heading": "Results",
+        "content": "Modification 4 paling optimal: loss generator (G: 2.39–4.07, F: 2.82–3.66), discriminator (D_X: 0.36–0.93, D_Y: 0.15–1.39). Hasil colorisasi lebih akurat dan estetis dibanding baseline, dengan konsistensi warna dan detail yang lebih baik."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Modifikasi arsitektur CycleGAN secara sistematis dapat meningkatkan kualitas colorisasi film negatif. Pendekatan ini membuka jalan untuk pelestarian arsip film analog secara digital. Penelitian selanjutnya akan mengintegrasikan metrik persepsi dan dataset lebih besar."
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Development of a Modified CycleGAN Model with Residual Blocks and Perceptual Loss for Image Dehazing",
+    "publishDate": "July 1, 2025",
+    "author": "Sani Moch Sopian, Arief Suryadi Satyawan, Mokhammad Mirza Etnisa Haqiqi, Helfy Susilawati, Beni Wijaya, Khaulyca Arva Artemysia, Muhammad Ikbal Samie",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:P5F9QuxV20EC",
+    "image": "/kegiatan/Gemini_Generated_Image_h2hqaoh2hqaoh2hq.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kabut mengurangi kontras dan kejelasan citra, mengganggu aplikasi seperti kendaraan otonom dan penginderaan jauh. Penelitian ini mengusulkan modifikasi CycleGAN untuk dehazing citra tunggal menggunakan data tidak berpasangan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sepuluh varian arsitektur dikembangkan dengan kombinasi: residual blocks, attention mechanism, perceptual loss (VGG19), dan haze-aware loss. Dataset terdiri dari citra berkabut dan jernih. Evaluasi menggunakan PSNR, SSIM, LPIPS, dan analisis visual."
+      },
+      {
+        "heading": "Results",
+        "content": "Modification 10 (perceptual + haze-aware loss) terbaik: PSNR 7.99, SSIM 0.4202, LPIPS 0.6577. Loss generator stabil (G: 0.91, F: 0.57), menunjukkan keseimbangan antara realisme dan akurasi. Citra hasil lebih tajam dengan detail tepi yang terpelihara."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "CycleGAN yang dimodifikasi secara signifikan meningkatkan kualitas dehazing. Integrasi perceptual loss membuktikan pentingnya mempertimbangkan persepsi manusia dalam restorasi citra. Model ini siap diuji pada sistem kendaraan otonom nyata."
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Enhancing Hazy Image Dehazing Using a Modified CycleGAN",
+    "publishDate": "July 23, 2025",
+    "author": "Sani Moch Sopian, Arief Suryadi Satyawan, Mokhammad Mirza Etnisa Haqiqi, Helfy Susilawati, Rifki Nurpalah, Nizar Alam Hamdani",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:UxriW0iASnsC",
+    "image": "/kegiatan/Gemini_Generated_Image_jvpychjvpychjvpy.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Dehazing citra berkabut sangat penting untuk sistem visi mesin. Penelitian ini menyempurnakan CycleGAN dengan modifikasi arsitektur untuk meningkatkan kinerja dehazing pada data tidak berpasangan dalam skenario dunia nyata."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset: 50 citra berkabut + 50 citra jernih. Sepuluh modifikasi generator diuji, menggabungkan residual blocks, dilated convolutions, self-attention, dan loss tambahan. Pelatihan dilakukan secara unsupervised. Evaluasi menggunakan PSNR, SSIM, LPIPS, dan analisis visual."
+      },
+      {
+        "heading": "Results",
+        "content": "Modification 5 menunjukkan keseimbangan terbaik antara stabilitas pelatihan dan kualitas output. Meski PSNR tidak tertinggi, citra hasil memiliki kontras lebih baik dan detail lebih alami dibanding baseline. Self-attention terbukti efektif dalam mempertahankan konteks global."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Modifikasi arsitektur CycleGAN meningkatkan kemampuan dehazing tanpa data berpasangan. Pendekatan ini mendukung aplikasi kendaraan otonom di daerah berkabut seperti dataran tinggi. Penelitian selanjutnya akan menguji pada dataset lebih besar dan kondisi cuaca beragam."
+      }
+    ]
   }
 ]

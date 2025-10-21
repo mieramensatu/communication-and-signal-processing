@@ -1494,5 +1494,40 @@
     "title": "Optimized CNN-Based Autoencoder for Efficient Image Compression in LoRa Networks for Autonomous Electric Vehicles",
     "desc": "Autoencoder CNN dengan kompresi adaptif mencapai PSNR >24 dB pada rasio kompresi 15:1, menghasilkan file ~1.2 KB yang dapat ditransmisikan melalui LoRa dalam 0.2 detik, ideal untuk telemetri kendaraan otonom.",
     "img": "/kegiatan/Gemini_Generated_Image_4c95504c95504c95.png"
+  },
+  {
+    "id": 132,
+    "author": ["Beni Wijaya", "Mokh Mirza Etnisa Haqiqi", "Arief Suryadi Satyawan", "Helfy Susilawati"],
+    "title": "Restorasi Citra Wajah Terdegradasi Menggunakan Model GAN dan Fungsi Loss",
+    "desc": "Model GAN berbasis encoder-decoder dengan residual blocks berhasil merekonstruksi fitur wajah (mata, hidung, mulut) dari citra teroklusi, dengan loss generator stabil di 0.67 setelah 50 epoch pelatihan.",
+    "img": "/kegiatan/Gemini_Generated_Image_7mvcq57mvcq57mvc.png"
+  },
+  {
+    "id": 133,
+    "author": ["Firman", "Arief Suryadi Satyawan", "Helfy Susilawati", "Mokh Mirza Etnisa Haqiqi", "Khaulyca Arva Artemysia", "Sani Moch Sopian", "Beni Wijaya", "Muhammad Ikbal Samie"],
+    "title": "Optimizing Autonomous Navigation: Advances in LiDAR-based Object Recognition with Modified Voxel-RCNN",
+    "desc": "Modifikasi Voxel-RCNN meningkatkan skor deteksi 3D untuk mobil dari 4.39 ke 10.31 dan mengurangi loss pelatihan hingga 29.1%, memperkuat kemampuan navigasi otonom di lingkungan dinamis.",
+    "img": "/kegiatan/Gemini_Generated_Image_s6yjlrs6yjlrs6yj.png"
+  },
+  {
+    "id": 134,
+    "author": ["Khaulyca Arva Artemysia", "Arief Suryadi Satyawan", "Mokhammad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Beni Wijaya", "Sani Moch Sopian", "Muhammad Ikbal Shamie", "Firman"],
+    "title": "Enhancing Negative Film Colorization through Systematic CycleGAN Architectural Modifications: A Comprehensive Analysis of Generator and Discriminator Performance",
+    "desc": "Modification 4 pada CycleGAN menghasilkan colorisasi film negatif dengan loss generator stabil dan kualitas visual superior, membuka jalan bagi pelestarian arsip film analog secara digital.",
+    "img": "/kegiatan/Gemini_Generated_Image_trd2shtrd2shtrd2.png"
+  },
+  {
+    "id": 135,
+    "author": ["Sani Moch Sopian", "Arief Suryadi Satyawan", "Mokhammad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Beni Wijaya", "Khaulyca Arva Artemysia", "Muhammad Ikbal Samie"],
+    "title": "Development of a Modified CycleGAN Model with Residual Blocks and Perceptual Loss for Image Dehazing",
+    "desc": "CycleGAN dengan perceptual loss dan haze-aware loss mencapai SSIM 0.4202 dan LPIPS 0.6577, menghasilkan citra dehazing yang lebih tajam dan natural untuk aplikasi kendaraan otonom.",
+    "img": "/kegiatan/Gemini_Generated_Image_h2hqaoh2hqaoh2hq.png"
+  },
+  {
+    "id": 136,
+    "author": ["Sani Moch Sopian", "Arief Suryadi Satyawan", "Mokhammad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Rifki Nurpalah", "Nizar Alam Hamdani"],
+    "title": "Enhancing Hazy Image Dehazing Using a Modified CycleGAN",
+    "desc": "Modification 5 pada CycleGAN dengan self-attention dan dilated convolutions menghasilkan citra dehazing dengan kontras dan detail lebih baik, meski pada dataset kecil (50 pasang citra).",
+    "img": "/kegiatan/Gemini_Generated_Image_jvpychjvpychjvpy.png"
   }
 ]

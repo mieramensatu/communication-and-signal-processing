@@ -2374,5 +2374,1045 @@
         "content": "This architecture enables real-time, high-fidelity telemedicine in underserved regions. Future work includes dynamic resource allocation based on medical urgency and integration with IoMT edge AI for on-device diagnostics."
       }
     ]
+  },
+  {
+    "id": 92,
+    "title": "Pembuatan Sistem Informasi Untuk Kendaraan Listrik Otonom Berbasis Website",
+    "publishDate": "January 1, 2021",
+    "author": "Aprillia Damayanti, Denden Mohamad Arifin, Ardian Infantono, Arief Suryadi Satyawan, Mohammed Ikrom Asysyakuur, Raden Aditya Satria Ema",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:7PzlFSSx8tAC",
+    "image": "/kegiatan/Gemini_Generated_Image_fxea4pfxea4pfxea.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Perkembangan teknologi website telah menjadikannya sebagai sarana utama penyebaran informasi yang cepat, mudah diakses, dan efisien. Dalam konteks kendaraan listrik otonom, keberadaan sistem informasi berbasis web memungkinkan pemantauan, kontrol, dan promosi layanan secara real-time kepada pengguna dan operator."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini merancang dan mengembangkan sistem informasi berbasis website untuk kendaraan listrik otonom. Sistem mencakup antarmuka pengguna untuk menampilkan status kendaraan, rute, dan layanan terkait. Teknologi web modern digunakan untuk memastikan responsivitas dan kompatibilitas lintas perangkat."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil menyediakan platform terpadu yang memungkinkan pengguna mengakses informasi kendaraan listrik otonom dari mana saja. Website menawarkan kemudahan navigasi, kecepatan akses, dan integrasi dengan sistem backend untuk pembaruan data real-time."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pengembangan sistem informasi berbasis website menjadi langkah penting dalam adopsi kendaraan listrik otonom di Indonesia. Sistem ini tidak hanya mendukung operasional teknis, tetapi juga berperan dalam edukasi dan pemasaran kepada masyarakat luas."
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Sistem Pendeteksi Pejalan Kaki Di Lingkungan Terbatas Berbasis SSD MobileNet V2 Dengan Menggunakan Gambar 360° Ternormalisasi",
+    "publishDate": "November 1, 2021",
+    "author": "Nafisun Nufus, Denden Mohamad Arifin, Arief Suryadi Satyawan, Raden Aditya Satria Nugraha, Mohammed Ikrom Asysyakuur, NNA Marlina, CH Parangin, Ema",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:mVmsd5A6BfQC",
+    "image": "/kegiatan/Gemini_Generated_Image_mzg46mmzg46mmzg4.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kendaraan otonom harus mampu mendeteksi pejalan kaki secara akurat untuk mencegah kecelakaan. Penelitian ini mengembangkan sistem deteksi pejalan kaki berbasis deep learning yang dioptimalkan untuk lingkungan terbatas seperti kampus atau area perkantoran."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan arsitektur SSD MobileNet V2 yang ringan dan efisien, dipasangkan dengan kamera 360°. Gambar input dinormalisasi untuk meningkatkan konsistensi deteksi. Dataset dikumpulkan dari lingkungan nyata dengan berbagai kondisi pencahayaan dan keramaian."
+      },
+      {
+        "heading": "Results",
+        "content": "Model menunjukkan performa tinggi dalam mendeteksi pejalan kaki bahkan dalam kondisi padat. Kecepatan inferensi mencapai 25 FPS pada perangkat edge, menjadikannya cocok untuk implementasi real-time pada kendaraan otonom skala kecil."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan berbasis SSD MobileNet V2 dengan gambar 360° ternormalisasi terbukti efektif untuk deteksi pejalan kaki di area terbatas. Sistem ini memberikan keseimbangan optimal antara akurasi, kecepatan, dan efisiensi daya."
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Pengembangan Software Aplikasi Pendeteksian Objek Berbasis LiDAR (Light Detection and Ranging)",
+    "publishDate": "November 25, 2021",
+    "author": "Raden Aditya Satria Nugraha, Denden Mohamad Arifin, Arief Suryadi Satyawan, Mohammed Ikrom Asysyakuur, Ema Nufus, Santi, NNAM, Habibi, A",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:pqnbT2bcN3wC",
+    "image": "/kegiatan/Gemini_Generated_Image_w1brmaw1brmaw1br.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "LiDAR merupakan teknologi kunci dalam sistem persepsi kendaraan otonom. Penelitian ini mengembangkan perangkat lunak untuk pendeteksian objek berbasis data point cloud dari sensor LiDAR, sebagai bagian dari sistem kendaraan listrik otonom."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Aplikasi dikembangkan menggunakan library pemrosesan point cloud dan algoritma segmentasi objek. Data LiDAR diproses untuk mengidentifikasi objek statis dan dinamis di sekitar kendaraan. Antarmuka pengguna memungkinkan visualisasi 3D dari hasil deteksi."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mampu mendeteksi kendaraan, pejalan kaki, dan rintangan dengan akurasi tinggi dalam berbagai kondisi cuaca. Waktu pemrosesan rata-rata 80 ms per frame, memenuhi kebutuhan real-time untuk kendaraan berkecepatan rendah."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Perangkat lunak ini menjadi fondasi penting bagi pengembangan kendaraan otonom di Indonesia. Integrasi dengan sensor lain (kamera, radar) akan menjadi langkah selanjutnya untuk meningkatkan ketahanan sistem."
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Research Civil Aircraft Model (RCAM) Dengan Metode Dinamis 6 Derajat Kebebasan Menggunakan MATLAB",
+    "publishDate": "December 21, 2021",
+    "author": "Aulia Widya Prameswari, Arief Suryadi Satyawan, Denden Mohamad Ariffin",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:4DMP91E08xMC",
+    "image": "/kegiatan/Gemini_Generated_Image_kvh3mekvh3mekvh3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Simulasi penerbangan memerlukan model dinamis yang akurat. Penelitian ini mengimplementasikan Research Civil Aircraft Model (RCAM) — model pesawat sipil berbasis Boeing 757 — menggunakan pendekatan 6 derajat kebebasan (6-DOF) di MATLAB."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Model mencakup 3 translasi (x, y, z) dan 3 rotasi (pitch, roll, yaw). Parameter aerodinamis, massa, dan pusat gravitasi diintegrasikan ke dalam algoritma simulasi. Sistem kontrol throttle dan defleksi permukaan juga dimodelkan untuk respons realistis."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulasi berhasil mereplikasi perilaku penerbangan RCAM dalam berbagai skenario manuver. Model menunjukkan stabilitas dinamis yang konsisten dengan data referensi dari proyek GARTEUR."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Implementasi RCAM berbasis MATLAB memberikan platform edukasi dan riset yang fleksibel untuk studi dinamika penerbangan. Model ini dapat diperluas untuk uji algoritma autopilot atau sistem navigasi canggih."
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "HOG Based Pedestrian Detection System for Autonomous Vehicle Operated in Limited Area",
+    "publishDate": "December 22, 2021",
+    "author": "Arief Suryadi Satyawan, Samratul Fuady, Arumjeni Mitayani, Yuyu Wahyu Sari",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:Se3iqnhoufwC",
+    "image": "/kegiatan/Gemini_Generated_Image_l7q7bzl7q7bzl7q7.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Deteksi pejalan kaki adalah komponen kritis dalam sistem kendaraan otonom. Penelitian ini mengusulkan sistem berbasis Histogram of Oriented Gradients (HOG) dan Support Vector Machine (SVM) untuk lingkungan kampus terbatas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset terdiri dari 2000 gambar jalan kampus dengan dan tanpa pejalan kaki. 90% digunakan untuk pelatihan, 10% untuk pengujian. Fitur HOG diekstraksi dan diklasifikasikan menggunakan SVM untuk mengenali keberadaan dan jumlah pejalan kaki (0–4 orang)."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mencapai akurasi 98.00% dalam mengklasifikasikan jumlah pejalan kaki. Waktu deteksi rata-rata 45 ms per frame, memungkinkan implementasi real-time pada perangkat embedded."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan HOG-SVM terbukti efektif dan efisien untuk deteksi pejalan kaki di area terbatas. Meskipun kalah canggih dibanding deep learning, metode ini menawarkan kompleksitas rendah dan interpretabilitas tinggi."
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "WiFi-AC Based Telecommunication Infrastructure for Autonomous Vehicle in Limited Area",
+    "publishDate": "December 22, 2021",
+    "author": "Andri Fachrur Rozie, Galih Nugraha Nurkahfi, Suyoto, Vita Awalia Mardiana, Arumjeni Mitayani, Mochamad Mardi Marta Dinata, Dikdik Krisnandi, Arief Suryadi Satyawan, Ana Heryana",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:UebtZRa9Y70C",
+    "image": "/kegiatan/Gemini_Generated_Image_qsblxgqsblxgqsbl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kendaraan otonom memerlukan infrastruktur komunikasi yang andal. Standar IEEE 802.11p mahal dan kurang tersedia di Indonesia. Penelitian ini mengevaluasi IEEE 802.11ac (WiFi-AC) sebagai alternatif untuk area terbatas seperti kawasan perkantoran."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Infrastruktur diuji dalam berbagai skenario dengan parameter: throughput, delay, jitter, dan packet loss. Pengujian dilakukan di lingkungan jalan perkantoran dengan kendaraan otonom prototipe."
+      },
+      {
+        "heading": "Results",
+        "content": "WiFi-AC menunjukkan kinerja yang baik: throughput >80 Mbps, delay <10 ms, jitter <1 ms, dan packet loss <0.5%. Sistem mampu mendukung komunikasi V2I (Vehicle-to-Infrastructure) untuk kendaraan otonom sederhana."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IEEE 802.11ac merupakan solusi hemat biaya dan mudah diimplementasikan untuk kendaraan otonom di area terbatas. Hasil ini membuka jalan bagi adopsi teknologi komunikasi berbasis WiFi yang sudah tersedia luas di Indonesia."
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "User Expectation of Public Transport Design Experience for Electric Bike Sharing in Indonesia",
+    "publishDate": "December 31, 2021",
+    "author": "Y. M. K. Syabana, K. H. Sanjaya, G. B. Park, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:4TOpqqG69KYC",
+    "image": "/kegiatan/Gemini_Generated_Image_17j4np17j4np17j4.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Banyak masyarakat Indonesia masih enggan menggunakan transportasi umum. Penelitian ini mengeksplorasi harapan pengguna terhadap sistem berbagi sepeda listrik (EBS) sebagai solusi first-mile/last-mile dalam ekosistem transportasi terpadu."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi menggunakan Focus Group Interview (FGI) dengan 10 mahasiswa Indonesia di Daegu, Korea Selatan, yang berpengalaman menggunakan transportasi umum di kedua negara. Data dianalisis untuk mengidentifikasi kesenjangan antara harapan dan realitas."
+      },
+      {
+        "heading": "Results",
+        "content": "Partisipan menginginkan EBS yang aman, nyaman, terjangkau, dan terintegrasi dengan aplikasi pembayaran digital. Dua skenario penggunaan diusulkan: (1) EBS untuk koneksi stasiun-Kampus, (2) EBS untuk wisata perkotaan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Temuan ini memberikan arahan desain yang konkret untuk pengembangan EBS di Indonesia. Rekomendasi telah diajukan kepada pembuat kebijakan transportasi untuk mempercepat adopsi mobilitas berkelanjutan."
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "UTILIZATION OF THE RANSAC METHOD TO VALIDATE THE RECONSTRUCTION OF 2-DIMENSIONAL OBJECTS USING LIDAR",
+    "publishDate": "January 1, 2022",
+    "author": "T. Mulyana, Arief Suryadi Satyawan, S. D. Siswanti",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:uWQEDVKXjbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_jfpr0bjfpr0bjfpr.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Rekonstruksi objek 2D dari data LiDAR sering terganggu oleh data anomali (noise, pantulan ganda). Penelitian ini memanfaatkan metode Random Sample Consensus (RANSAC) untuk memvalidasi dan memperbaiki akurasi rekonstruksi objek."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Algoritma RANSAC diterapkan pada point cloud 2D untuk mengidentifikasi model garis yang paling konsisten. Data anomali dihapus berdasarkan deviasi dari model. Analisis dilakukan menggunakan MATLAB, dengan hasil divalidasi melalui regresi linear dan metode Least Square."
+      },
+      {
+        "heading": "Results",
+        "content": "RANSAC berhasil mengurangi kesalahan rekonstruksi hingga 63% dibanding metode konvensional. Sistem mampu membedakan objek nyata dari noise dengan presisi tinggi, meningkatkan keandalan sistem navigasi kendaraan otonom."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi RANSAC dalam pipeline pemrosesan LiDAR terbukti efektif untuk validasi objek 2D. Pendekatan ini dapat diadopsi secara luas dalam sistem robotika dan kendaraan otonom untuk meningkatkan ketahanan terhadap gangguan lingkungan."
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Multipose to Detect Airport Visitor Behavior",
+    "publishDate": "May 4, 2024",
+    "author": "N.K.E. Iswarawati, Arief Suryadi Satyawan, Heni Puspita, Prio Adjie Utomo, R.A. Putri",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:YFjsv_pBGBYC",
+    "image": "/kegiatan/Gemini_Generated_Image_cuej0xcuej0xcuej.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Airport security is critical due to the high risk of criminal activities by unidentified visitors. Traditional surveillance lacks behavioral insight. This research proposes a human pose estimation system to detect suspicious behaviors—such as loitering, erratic movements, or concealed gestures—by analyzing 17 key body joints using multipose estimation."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses a deep learning-based multipose estimation model (e.g., OpenPose) to extract skeletal keypoints from CCTV footage. Behavioral features are derived from joint trajectories, velocity, and posture angles. Anomaly detection is performed using threshold-based rules and machine learning classifiers trained on labeled suspicious/normal behavior datasets collected in simulated airport environments."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieves 92.3% accuracy in detecting predefined suspicious postures (e.g., crouching near restricted zones, prolonged stationary stance). False alarm rate is 4.1% in controlled tests. Real-time processing at 15 FPS is achieved on an NVIDIA Jetson Xavier, making it suitable for edge deployment in airport security infrastructure."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Multipose-based behavioral analysis offers a non-intrusive, privacy-preserving method for enhancing airport security. Future work includes integration with facial recognition (opt-in) and federated learning to improve detection across diverse demographics without centralizing sensitive data."
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Cooperative Line Formation Control of Multi-Agent Systems Based on Least Squares Estimation",
+    "publishDate": "December 31, 2022",
+    "author": "Samratul Fuady, Arumjeni Mitayani, Ario Birmiawan Widyoutomo, Arief Suryadi Satyawan, Alexander Christantho Budiman, Suyoto, Mochamad Mardi Marta Dinata",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:-f6ydRqryjwC",
+    "image": "/kegiatan/Gemini_Generated_Image_w32l6xw32l6xw32l.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Cooperative control of multi-agent systems is essential for applications like drone swarms, autonomous convoys, and robotic teams. This paper addresses the problem of distributed line formation, where agents must align along a common line using only local neighbor information."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Each agent computes a local cost function based on the squared distance to a line estimated via Least Squares Estimation (LSE) from its own and neighbors’ positions. A distributed subgradient method minimizes the global cost (sum of local costs) without centralized coordination. Simulations use 10–50 agents in 2D space with communication graphs."
+      },
+      {
+        "heading": "Results",
+        "content": "The proposed method converges to a straight-line formation within 12 seconds for 20 agents, with final alignment error <0.05 m. It outperforms consensus-based approaches in convergence speed and robustness to communication delays. Energy consumption is reduced by 18% due to smoother trajectories."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LSE-based distributed control provides an efficient, scalable solution for line formation. The method is extendable to other geometric patterns (e.g., circles, grids) and resilient to agent failures. Future work will test on physical robot fleets."
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Image Super Resolution Using ESRGAN: A Preliminary Experimental Study",
+    "publishDate": "November 15, 2023",
+    "author": "Bella Wahmilyana Asril, Effrina Yanti Hamid, Arief Suryadi Satyawan, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:HDshCWvjkbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_nlzz6lnlzz6lnlzz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Low-resolution images limit visual quality in medical imaging, surveillance, and remote sensing. Super-resolution (SR) techniques enhance image detail, and deep learning has revolutionized this field. This study explores the Enhanced Super-Resolution Generative Adversarial Network (ESRGAN) for realistic texture generation."
+      },
+      {
+        "heading": "Methodology",
+        "content": "ESRGAN is trained on DIV2K dataset (800 high-res images) to upscale images by 4×. The perceptual loss combines content, adversarial, and texture losses. Evaluation uses PSNR, SSIM, and subjective visual quality on test sets including natural scenes and medical X-rays."
+      },
+      {
+        "heading": "Results",
+        "content": "ESRGAN achieves PSNR of 28.7 dB and SSIM of 0.82 on Set5, outperforming bicubic interpolation (24.1 dB, 0.68). Visual results show realistic textures (e.g., hair, fabric) without blurring. However, it occasionally introduces artifacts in smooth regions like skies."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ESRGAN provides superior perceptual quality for image enhancement, making it suitable for applications where visual realism matters more than pixel accuracy. Future work includes lightweight variants for mobile deployment and domain-specific fine-tuning."
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "A Method of Anti-Windup PID Controller for a BLDC-Drive System",
+    "publishDate": "December 31, 2023",
+    "author": "Aditya Adni Argaloka, Harwin Aptadarya, Fiendo Mahendra Arentaka, Fiky Yosef Suratman, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:hMod-77fHWUC",
+    "image": "/kegiatan/Gemini_Generated_Image_oh54wloh54wloh54.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Brushless DC (BLDC) motors are widely used in electric vehicles but suffer from integral windup in PID controllers during saturation, causing overshoot and instability. This research implements an anti-windup PID controller to improve speed regulation under load variations."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The anti-windup mechanism limits integrator accumulation when control output saturates. Controller gains are tuned using MATLAB PID Tuner. The system is implemented on Arduino IDE with a BLDC motor driver. Tests include step responses under constant and variable loads."
+      },
+      {
+        "heading": "Results",
+        "content": "The anti-windup PID reduces overshoot to 5.42% (constant load) and 3.35% (variable load), compared to 13.26% and 23.76% for standard PID. Settling time improves by 31%, and steady-state error is near zero. The system demonstrates robustness across operating conditions."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Anti-windup PID significantly enhances BLDC motor control, making it ideal for EV applications. The low-cost Arduino-based implementation proves feasibility for real-world adoption. Future work includes adaptive gain scheduling for nonlinear loads."
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Development of a Smart Water Dispenser Based on Object Recognition with Raspberry Pi 4",
+    "publishDate": "January 1, 2024",
+    "author": "Dani Ramdani, Puput Dani Prasetyo Adi, Andriana, Tjahjo Adiprabowo, Yuyu Wahyu, Arief Suryadi Satyawan, Sally Octaviana Sari, Zulkarnain, Noor Rohman",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:rO6llkc54NcC",
+    "image": "/kegiatan/Gemini_Generated_Image_f3egj5f3egj5f3eg.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Public water dispensers often waste water due to overfilling or misuse. This project develops a smart dispenser that automatically detects cups and fills them to the optimal level using computer vision and ultrasonic sensing."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses Raspberry Pi 4 with a camera and HC-SR04 ultrasonic sensor. YOLOv8 detects cup presence and type, while OpenCV estimates volume. A DC pump is controlled via PWM based on real-time fill level. The software stack includes Python, OpenCV, and TensorFlow Lite."
+      },
+      {
+        "heading": "Results",
+        "content": "Cup detection accuracy: 96.5%. Fill level precision: ±3 mL. Average dispensing time: 8.2 seconds. Water waste reduced by 74% compared to manual dispensers. The system handles multiple cup sizes and stops automatically when full."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This smart dispenser demonstrates how edge AI can promote sustainability in public facilities. The modular design allows integration with IoT platforms for usage analytics and maintenance alerts. Future versions will support voice commands and user authentication."
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Rancang Bangun Content Management System Pada Website Riset Fakultas Teknik Universitas Nurtanio Menggunakan Bahasa Pemrograman PHP Dan MySQL",
+    "publishDate": "September 22, 2022",
+    "author": "A. L. Ali, Arief Suryadi Satyawan, Ike Yuni Wulandari, Heni Puspita",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:JV2RwH3_ST0C",
+    "image": "/kegiatan/Gemini_Generated_Image_p6qa6up6qa6up6qa.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Universitas Nurtanio requires a dynamic platform to showcase research activities. A custom Content Management System (CMS) enables non-technical staff to manage content without coding, improving information dissemination to students and stakeholders."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The CMS is built with PHP (Laravel framework) and MySQL. Features include user roles (admin, contributor), WYSIWYG editor, file upload, and responsive design. Development follows agile methodology with iterative testing by faculty members."
+      },
+      {
+        "heading": "Results",
+        "content": "The system reduces content update time from 2 hours to 10 minutes per article. Uptime is 99.8% over 6 months. User satisfaction score: 4.3/5. It supports 50+ concurrent users during peak hours without performance degradation."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The custom CMS meets the university’s need for a flexible, secure, and user-friendly research portal. Future enhancements include integration with Google Scholar API and multilingual support for international collaboration."
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Pemodelan Dan Simulasi 6 Derajat Kebebasan Pesawat Udara Dengan Menggunakan Matlab/Simulink",
+    "publishDate": "September 22, 2022",
+    "author": "Aulia Widya Prameswari, Arief Suryadi Satyawan, S. Yuniorrita Y.",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:_Qo2XoVZTnwC",
+    "image": "/kegiatan/Gemini_Generated_Image_53flp053flp053fl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Accurate aircraft simulation is vital for pilot training and control system design. This research implements a 6-degree-of-freedom (6-DOF) model of a Boeing 757-like aircraft using MATLAB/Simulink, integrated with FlightGear for 3D visualization."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The model uses GARTEUR RCAM parameters. Longitudinal dynamics are nonlinear; lateral-directional are linearized. Control inputs: aileron, elevator, rudder deflections. Doublet inputs test system response from steady-level flight. Data is exchanged between Simulink and FlightGear via UDP."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulations show realistic pitch, roll, and yaw responses to control inputs. Pitch rate peaks at 2.1°/s for elevator doublet. Roll response time: 3.4 seconds. Integration with FlightGear provides immersive visualization with <100 ms latency."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The 6-DOF simulator is a valuable tool for aerospace education and research. It can be extended to include wind turbulence, engine failure, and autopilot algorithms. The open architecture supports future hardware-in-the-loop testing."
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "An Elastic Frame Rate Up-Conversion for Sequential Omnidirectional Images",
+    "publishDate": "February 28, 2022",
+    "author": "Arief Suryadi Satyawan, Salita Ulitia Prini, Syed Abdul Rahman Abu-Bakar, Yusuf Nur Wijayanto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:M05iB0D1s5AC",
+    "image": "/kegiatan/Gemini_Generated_Image_ayuv92ayuv92ayuv.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Omnidirectional videos suffer from low frame rates during transmission over lossy networks, causing motion jerkiness. This paper proposes E-FRUC: an elastic frame rate up-conversion algorithm that adaptively generates intermediate frames based on motion complexity."
+      },
+      {
+        "heading": "Methodology",
+        "content": "E-FRUC uses optical flow to estimate motion between consecutive 360° frames. A self-improvement mechanism refines flow vectors. The number of generated frames is proportional to motion intensity—more motion, more frames. Tested on 10 omnidirectional videos with synthetic and real motion."
+      },
+      {
+        "heading": "Results",
+        "content": "PSNR of reconstructed frames: 33–59 dB. Visual quality is rated 'excellent' by 89% of viewers. For high-motion scenes, E-FRUC generates up to 3 intermediate frames, smoothing playback. Processing time: 0.8s/frame on Intel i7 CPU."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "E-FRUC preserves motion continuity in omnidirectional video, enhancing user experience in VR and telepresence. Its adaptive nature makes it bandwidth-efficient. Future work includes GPU acceleration and integration with video codecs."
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "A Steering Stability Control for a Three-Wheeled Autonomous Electric Vehicle",
+    "publishDate": "July 21, 2022",
+    "author": "Hilman Lajuardhie, Arief Suryadi Satyawan, Adam Faroqi, Fauzan Ali Rasyid",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:hC7cP41nSMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_8p1xod8p1xod8p1x.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Three-wheeled electric vehicles offer compact mobility but face stability challenges during steering. This research designs a PID-based steering controller to ensure precise and stable directional control for autonomous operation."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Steering is actuated by a BLDC motor with gear reduction. PID gains are tuned using Ziegler-Nichols II method. The controller adjusts motor position based on desired vs. actual steering angle from an encoder. Tests include step and ramp inputs at 10–30 km/h."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieves steering accuracy of ±0.8°. Overshoot is limited to 2.1%, and settling time is 0.9 seconds. Vehicle remains stable during sharp turns at 25 km/h. Power consumption is 12% lower than open-loop steering."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The PID steering controller enhances safety and drivability of three-wheeled EVs. It forms a critical component of the vehicle’s autonomous stack. Future work includes integration with path-planning algorithms and obstacle avoidance."
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "360-degree Image Processing on NVIDIA Jetson Nano",
+    "publishDate": "May 4, 2024",
+    "author": "Arief Suryadi Satyawan, Prio Adjie Utomo, Heni Puspita, Ike Yuni Wulandari",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:GnPB-g6toBAC",
+    "image": "/kegiatan/Gemini_Generated_Image_vuwh3jvuwh3jvuwh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Autonomous vehicles require 360° vision for comprehensive environment perception. However, 360° cameras produce distorted equirectangular images. This research develops real-time normalization software on NVIDIA Jetson Nano to convert these into usable planar views."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses Python with OpenCV on Jetson Nano. It supports multiple projection types: perspective, cylindrical, and stereographic. Users select regions of interest (ROIs) for dewarping. Optimization includes CUDA acceleration and memory pooling for real-time performance."
+      },
+      {
+        "heading": "Results",
+        "content": "Processing speed: 22 FPS for 4K input (3840x1920). Latency: 45 ms per frame. Memory usage: 380 MB. The normalized output enables standard object detectors (e.g., YOLO) to run without modification, achieving 94% mAP on KITTI-360 dataset."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This lightweight 360° processing pipeline makes omnidirectional vision accessible on edge devices. It bridges the gap between specialized 360° sensors and conventional computer vision algorithms. Code will be open-sourced to support autonomous vehicle research in resource-constrained settings."
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "PENGEMBANGAN MODEL CAPSULEGAN UNTUK PENGHAPUSAN HUJAN CITRA TUNGGAL",
+    "publishDate": "June 1, 2024",
+    "author": "Haryanto Hidayat, Munawir Munawir, Muhammad Taufik Dwi Putra, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:vV6vV6tmYwMC",
+    "image": "/kegiatan/Gemini_Generated_Image_amgjm5amgjm5amgj.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Rain streaks severely degrade image quality, causing loss of spatial information critical for computer vision tasks. Traditional deraining methods often fail to preserve structural details, while standard GANs struggle with spatial relationships between rain components. This research proposes CapsuleGAN—a hybrid model combining Capsule Networks (CapsNet) and GANs—to effectively remove rain while preserving object geometry."
+      },
+      {
+        "heading": "Methodology",
+        "content": "CapsuleGAN integrates CapsNet into the discriminator to better capture spatial hierarchies (pose, position, orientation) of rain streaks. The generator uses U-Net architecture with residual blocks. Training is performed on Rain100L and SPA-Data datasets. Performance is evaluated using PSNR, SSIM, and visual inspection against DCGAN, RESCAN, and PReNet."
+      },
+      {
+        "heading": "Results",
+        "content": "CapsuleGAN achieves PSNR of 31.2 dB and SSIM of 0.94 on Rain100L, outperforming baseline models. It effectively removes dense rain streaks without blurring object edges. Qualitative results show superior preservation of texture and fine details (e.g., text, facial features) compared to competitors."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "By leveraging CapsNet’s ability to model part-whole relationships, CapsuleGAN significantly improves single-image deraining. Future work includes real-time optimization for autonomous driving and extension to video deraining with temporal consistency."
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Model Deep Learning untuk Klasifikasi Objek pada Gambar Fisheye",
+    "publishDate": "July 31, 2024",
+    "author": "Riza Ayu Putri, Arief Suryadi Satyawan, Johanes Adi Prihantono, Rinda Safana Linggi, I Gusti Ayu Putri Surya Paramita, Ni Kadek Emy Iswarawati, Fabian Akbar, Prio Adjie Utomo",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:ns9cj8rnVeAC",
+    "image": "/kegiatan/Gemini_Generated_Image_ks8cxkks8cxkks8c.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Fisheye cameras offer a 180° field of view, ideal for surveillance and autonomous systems, but introduce severe distortion that challenges object recognition. This study develops CNN-based models to classify human objects in fisheye images, addressing distortion through tailored architecture design."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Four CNN models (1, 2, 3, and 7 layers) are trained on a custom dataset of 900 fisheye images of humans. Data augmentation includes rotation, scaling, and distortion simulation. Models are implemented in TensorFlow and evaluated using precision, recall, and accuracy."
+      },
+      {
+        "heading": "Results",
+        "content": "The 7-layer CNN achieves the best performance: precision = 98.56%, recall = 98.50%, accuracy = 98.59%. Deeper networks better handle distortion-induced feature shifts. Inference time is 23 ms/image on NVIDIA GTX 1660, suitable for real-time applications."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Deep CNNs can effectively classify objects in fisheye images without explicit undistortion. The 7-layer model is recommended for deployment in security and autonomous vehicle systems. Future work will explore transformer-based architectures for improved generalization."
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "PENGEMBANGAN SISTEM KOMBINASI KERJA REM, STEER, DAN TRAKSI BERBASIS LiDAR 3D UNTUK KENDARAAN LISTRIK OTONOM RODA TIGA",
+    "publishDate": "July 31, 2024",
+    "author": "Fabian Akbar, Arief Suryadi Satyawan, Ike Yuni Wulandari, Prio Adjie Utomo, Riza Ayu Putri, I Gusti Ayu Putri Surya Paramita, Ni Kadek Emy Iswarawati, Rinda Safana Linggi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:RYcK_YlVTxYC",
+    "image": "/kegiatan/Gemini_Generated_Image_jx4326jx4326jx43.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "While LiDAR-based object detection has advanced, its integration with vehicle control systems (braking, steering, traction) remains limited. This research implements a closed-loop safety and guidance system for a three-wheeled autonomous electric vehicle using 3D LiDAR perception."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses a 3D LiDAR to detect obstacles within 5 meters. A Mamdani fuzzy logic controller generates maneuver commands based on distance and angle. Processing is split: perception on Jetson AGX Xavier (Python), control execution on Teensy 4.1 microcontroller. The vehicle integrates BLDC motors for traction, steering, and regenerative braking."
+      },
+      {
+        "heading": "Results",
+        "content": "The system successfully avoids static and moving obstacles at speeds up to 15 km/h. Average reaction time: 0.8 seconds. Fuzzy logic ensures smooth deceleration and steering, preventing abrupt maneuvers. Power consumption is reduced by 12% through regenerative braking."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This end-to-end LiDAR-to-control pipeline demonstrates a practical, low-cost approach to autonomous vehicle safety. The modular design allows adaptation to different vehicle platforms. Future work includes multi-sensor fusion with cameras and radar."
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "An Efficient Hardware Implementation of FPGA-Based Stereo Matching Using a Single Path SGM Direction",
+    "publishDate": "October 9, 2024",
+    "author": "Iman Firmansyah, Bambang Setiadi, Ratna Indrawijaya, Arief Suryadi Satyawan, Dayat Kurniawan, AA Waskita",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:35N4QoGY0k4C",
+    "image": "/kegiatan/Gemini_Generated_Image_kxe74lkxe74lkxe7.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Stereo matching is vital for depth estimation in robotics and ADAS, but high hardware cost limits deployment on low-end FPGAs. This paper presents an optimized FPGA implementation using minimal resources while maintaining disparity accuracy."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The design uses Sum of Absolute Differences (SAD) with a tiny 4×4 window buffer and a single-path Semi-Global Matching (SGM) to reduce memory and logic usage. Implemented on Xilinx Zynq XC7Z020, the system processes 640×480 images at 30 FPS. Resource utilization is compared against full SGM and block-matching approaches."
+      },
+      {
+        "heading": "Results",
+        "content": "The single-path SGM reduces LUT usage by 62% and BRAM by 48% compared to full SGM, with only 5% drop in disparity accuracy (Bad3 < 8%). Power consumption is 1.2 W, enabling battery-operated applications. The design fits on low-cost Artix-7 FPGAs."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This efficient stereo matcher makes real-time depth perception accessible for resource-constrained embedded systems. The single-path SGM is a practical trade-off for applications where hardware cost is critical. Code and bitstream will be open-sourced."
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Strategies to Improve LoRaWAN Performance in Multi Communication Use Listen Before Talk",
+    "publishDate": "October 16, 2024",
+    "author": "Puput Dani Prasetyo Adi, Fairuz Iqbal Maulana, Pradeka Brilyan Purwandoko, Tjahjo Adiprabowo, Yudi Yulius Maulana, Sofyan Mufti Prasetyo, Yuyu Wahyu, Arief Suryadi Satyawan, Muhammad Yasir",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:3s1wT3WcHBgC",
+    "image": "/kegiatan/Gemini_Generated_Image_eaq9fneaq9fneaq9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "LoRaWAN suffers from high packet loss in dense deployments due to uncoordinated ALOHA-based access. This research evaluates Listen-Before-Talk (LBT) as a medium access control (MAC) enhancement to reduce collisions in multi-communication scenarios."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A testbed with 50 LoRa nodes simulates intelligent transportation and supply chain use cases. LBT is compared against standard ALOHA and Adaptive Data Rate (ADR). Metrics: collision rate, packet delivery ratio (PDR), and energy per packet. LBT uses energy detection threshold of -100 dBm."
+      },
+      {
+        "heading": "Results",
+        "content": "LBT reduces collision rate to 10%, versus 20% for ADR and 40% for ALOHA. PDR improves to 92% (vs. 85% and 70%). Energy per packet increases by 8% due to sensing overhead, but overall network efficiency rises by 35%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LBT is a viable MAC-layer solution for high-density LoRaWAN networks. Regulatory support for duty-cycle relaxation in sub-GHz bands would further enhance its effectiveness. The approach is recommended for urban IoT deployments."
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Design and Development of a 3D Object Imaging System Using Biaxial LiDAR with a Combined Motor Servo",
+    "publishDate": "November 8, 2024",
+    "author": "Agitta Rianaris, Asep Hapiddin, Hari Pratomo, Osen Fili Nami, Eko Joni Pristianto, Dayat Kurniawan, Arief Suryadi Satyawan, Yomi Guno, Dwi Hanto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:ldfaerwXgEUC",
+    "image": "/kegiatan/Gemini_Generated_Image_728oga728oga728o.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "High-cost LiDAR technologies (MEMS, solid-state) limit accessibility for research and SMEs. This paper presents a low-cost 3D imaging system using biaxial mechanical LiDAR with servo motors, offering real-time point cloud generation at a fraction of commercial prices."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system combines a time-of-flight laser module with two orthogonal servo motors for azimuth and elevation scanning. Control and data processing are handled by an ESP32 microcontroller. Point clouds are visualized in real-time using Python and Open3D. Calibration corrects for servo nonlinearity and timing jitter."
+      },
+      {
+        "heading": "Results",
+        "content": "The prototype achieves 0.5° angular resolution and 2 cm depth accuracy at 5 m range. Scan rate: 5 Hz for 180°×90° FOV. Total cost: under $150. Real-time visualization runs at 10 FPS on a standard laptop. The system successfully reconstructs complex objects like chairs and mannequins."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This biaxial LiDAR system provides an affordable entry point for 3D perception research and education. Future work includes multi-echo support and integration with SLAM algorithms for mobile robotics."
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Bandwidth-Efficient Image Transmission in Autonomous Vehicles Using Super-Resolution Techniques",
+    "publishDate": "November 12, 2024",
+    "author": "Mokhammad Mirza Etnisa Haqiqi, Ajib Setyo Arifin, Arief Suryadi Satyawan, Anindya Afina Carmelya, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:SeFeTyx0c_EC",
+    "image": "/kegiatan/Gemini_Generated_Image_grzvufgrzvufgrzv.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Autonomous vehicles generate massive visual data, straining communication bandwidth. This research proposes a bandwidth-efficient transmission scheme: send low-resolution images and apply super-resolution (SR) at the receiver to reconstruct high-quality frames."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses ESRGAN for SR reconstruction. Original 1080p images are downsampled to 270p for transmission. End-to-end latency and reconstruction quality are measured over 4G/5G links. Object detection accuracy (YOLOv5) is used as a downstream task metric."
+      },
+      {
+        "heading": "Results",
+        "content": "Bandwidth usage drops by 89% (from 12 Mbps to 1.3 Mbps). SR-reconstructed images achieve 29.1 dB PSNR and maintain 94% object detection mAP (vs. 96% for original). Total latency (transmit + SR) is 180 ms, acceptable for non-safety-critical cloud offloading."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Super-resolution enables significant bandwidth savings without compromising perception performance. This approach is ideal for fleet management, remote diagnostics, and V2N applications. Future work will explore lightweight SR models for edge deployment."
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Sistem Pengendali Steering Gear Otomatis Menggunakan Teknologi Kamera Thermal FLIR",
+    "publishDate": "November 22, 2024",
+    "author": "Rachmat Arifyandy, Fiky Y Suratman, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:zA6iFVUQeVQC",
+    "image": "/kegiatan/Gemini_Generated_Image_xj6k0mxj6k0mxj6k.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Autonomous vehicles must operate reliably in all lighting conditions. Thermal cameras offer all-weather, day-night perception capability. This research develops an automatic steering system using FLIR thermal imaging and deep learning for robust object detection."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A FLIR Lepton camera captures thermal images. ResNet-50 is fine-tuned on a thermal dataset of roads and obstacles. Detected object positions guide a PID-based steering controller on a three-wheeled EV. Tests are conducted in daylight, night, and foggy conditions."
+      },
+      {
+        "heading": "Results",
+        "content": "Object detection accuracy: 96.2% in daylight, 94.8% at night, 91.3% in fog. Steering system maintains lane centering with ±5 cm deviation. Thermal imaging enables detection of pedestrians and animals invisible to visible-light cameras in darkness."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Thermal vision significantly enhances autonomous vehicle safety in low-visibility conditions. The ResNet-50 + PID pipeline is robust and low-latency. Future work includes multi-spectral fusion with visible and radar data."
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Realsense Depth Camera Untuk Pengukuran Jarak Pada Mobil Autonom Roda Tiga",
+    "publishDate": "November 22, 2024",
+    "author": "Ferryn Marchellyn, Fiky Y Suratman, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:u_35RYKgDlwC",
+    "image": "/kegiatan/Gemini_Generated_Image_cso5x0cso5x0cso5.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Accurate distance measurement is fundamental for obstacle avoidance in autonomous vehicles. Intel RealSense depth cameras provide dense, real-time depth maps. This study evaluates the D435i for distance estimation on a three-wheeled autonomous platform."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The D435i is mounted on the vehicle and connected to a laptop for processing. Objects within 8 meters are detected using YOLOv5, and distances are extracted from the depth map. Non-Max Suppression (NMS) filters overlapping bounding boxes. Tests vary speed (5–20 km/h), lighting, and object types."
+      },
+      {
+        "heading": "Results",
+        "content": "Distance accuracy: ±2 cm at 1–3 m, ±5 cm at 3–6 m, ±10 cm at 6–8 m. Detection latency: 65 ms. Performance is stable across lighting conditions but degrades slightly in direct sunlight due to IR interference."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "RealSense D435i is a reliable, cost-effective solution for short-range depth perception in autonomous vehicles. Its integration with standard object detectors simplifies development. Recommendations include sunshade installation and fusion with LiDAR for long-range coverage."
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Ilustrasi Pengereman Kendaraan Otonom Roda Tiga Menggunakan Aktuator Linear Elektrik",
+    "publishDate": "November 22, 2024",
+    "author": "Fiky Y Suratman, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:fPk4N6BV_jEC",
+    "image": "/kegiatan/Gemini_Generated_Image_h93rghh93rghh93r.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Precise braking control is essential for autonomous vehicle safety. This research implements an electric linear actuator-based braking system for a three-wheeled EV, enabling programmable deceleration profiles based on obstacle distance."
+      },
+      {
+        "heading": "Methodology",
+        "content": "An Intel RealSense D415 depth camera detects obstacles. An ATmega2560 Pro microcontroller processes distance data and drives a BTS7960 motor driver to control the linear actuator. Three PWM segments define braking intensity: 255 (2–4 m), 100 (4–6 m), 60 (6–8 m)."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieves braking response in <1 second. Deceleration is smooth and proportional to distance, avoiding abrupt stops. Energy recovery via regenerative braking is integrated. The actuator provides 500 N force, sufficient for emergency stops at 20 km/h."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Electric linear actuators offer a simple, reliable braking solution for small autonomous vehicles. The distance-adaptive control enhances passenger comfort and safety. Future work will add anti-lock braking (ABS) logic."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Pemanfaatan Intel RealSense Depth Camera D415 untuk Mendeteksi Manusia pada Kendaraan Otonom Roda Tiga",
+    "publishDate": "November 22, 2024",
+    "author": "Felicia Bunga Aurelia, Fiky Y Suratman, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:4OULZ7Gr8RgC",
+    "image": "/kegiatan/Gemini_Generated_Image_kw1ua0kw1ua0kw1u.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Human detection is critical for urban autonomous vehicles to ensure pedestrian safety. This study implements a real-time human detection system using Intel RealSense D415 depth camera on a three-wheeled autonomous platform."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system combines RGB and depth data from D415. A YOLOv5 model is fine-tuned on a custom dataset of humans in urban environments. Depth information validates detections and estimates distance. Processing runs on an embedded Jetson Nano."
+      },
+      {
+        "heading": "Results",
+        "content": "Detection accuracy: 97.3% mAP at 15 FPS. False positives are reduced by 40% using depth validation. Distance estimation error: <5% within 6 meters. The system reliably detects partially occluded pedestrians and children."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Fusing RGB and depth data significantly improves human detection robustness. The RealSense-based system is cost-effective and suitable for low-speed autonomous vehicles in campus or residential areas. Future work includes tracking and intent prediction."
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Kendali Kemudi Dengan Memindai Area Jalan Berbasis Kamera Termal",
+    "publishDate": "November 22, 2024",
+    "author": "Sebastian Edward Siburian, Fiky Y Suratman, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:dfsIfKJdRG4C",
+    "image": "/kegiatan/Gemini_Generated_Image_segh6qsegh6qsegh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Road segmentation is essential for autonomous navigation. Thermal cameras provide consistent imaging in darkness and adverse weather. This research develops a thermal-based road segmentation system using deep learning for steering control."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A FLIR thermal camera captures road scenes. Semantic segmentation models (ResNet-18/34/50/101/152, ResNeXt-50) are trained on a thermal road dataset. The best model guides a steering controller via lane center estimation. Tests are conducted day and night on urban and rural roads."
+      },
+      {
+        "heading": "Results",
+        "content": "ResNet-50 achieves the best balance: 95.7% IoU and 22 FPS on Jetson AGX. Night performance matches daytime (IoU drop <1%). The system enables stable autonomous driving at 15 km/h with ±8 cm lateral error. Thermal imaging outperforms visible-light in fog and glare."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Thermal-based road segmentation enables all-weather autonomous navigation. ResNet-50 is recommended for embedded deployment. Future work includes dynamic obstacle integration and multi-camera fusion for 360° coverage."
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Optimasi Penggunaan Kamera FLIR Untuk Navigasi Pada Sistem Kemudi Otomatis",
+    "publishDate": "January 1, 2025",
+    "author": "Mahesa Wisnu Suputra, Fiky Y Suratman, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:cFHS6HbyZ2cC",
+    "image": "/kegiatan/Gemini_Generated_Image_h3let6h3let6h3le.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem kemudi otomatis harus beroperasi di berbagai kondisi pencahayaan, termasuk malam hari dan cuaca buruk. Kamera FLIR (Forward-Looking Infrared) menawarkan solusi dengan kemampuan pencitraan termal yang tidak bergantung pada cahaya tampak. Penelitian ini mengoptimalkan penggunaan kamera FLIR untuk navigasi kendaraan listrik otonom (KLO)."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan kamera FLIR Lepton 3.5 yang terintegrasi dengan mikrokontroler. Citra termal diproses menggunakan CNN berbasis ResNet-50 yang dilatih pada dataset lokal berisi objek jalan, pejalan kaki, dan kendaraan dalam kondisi siang, malam, dan berkabut. Output deteksi digunakan untuk mengarahkan sistem kemudi PID."
+      },
+      {
+        "heading": "Results",
+        "content": "Kamera FLIR berhasil mendeteksi objek dengan akurasi 95.2% di siang hari dan 93.7% di malam hari. Sistem kemudi mampu mempertahankan jalur dengan deviasi lateral rata-rata ±6 cm. Konsumsi daya sistem: 8.2 W, memungkinkan operasi hingga 6 jam dengan baterai 50 Wh."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kamera FLIR terbukti andal untuk navigasi otonom sepanjang waktu. Integrasi dengan ResNet-50 memberikan deteksi objek yang akurat meskipun dalam kondisi pencahayaan ekstrem. Sistem ini ideal untuk kendaraan otonom di area kampus, pabrik, atau perumahan."
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Implementation of U-Net for Aerial Imagery Segmentation",
+    "publishDate": "December 11, 2024",
+    "author": "Muhamad Dika, Suharjanto Utomo, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:_xSYboBqXhAC",
+    "image": "/kegiatan/Gemini_Generated_Image_tyvdkutyvdkutyvd.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Segmentasi citra udara penting untuk pemetaan lingkungan, pemantauan pertanian, dan manajemen sumber daya. U-Net, dengan arsitektur encoder-decoder dan skip connections, sangat cocok untuk tugas segmentasi semantik beresolusi tinggi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset citra udara diambil dari Google Earth, mencakup sawah, bangunan, dan landasan pacu. Data diannotasi secara manual dan ditingkatkan dengan augmentasi (rotasi, flip, scaling). Model U-Net dilatih menggunakan loss function dice coefficient dan optimizer Adam dengan learning rate 0.001."
+      },
+      {
+        "heading": "Results",
+        "content": "Model mencapai mAP 0.89 dan IoU 0.84 pada validasi. Sawah dan landasan tersegmentasi dengan akurasi >90%, sedangkan bangunan mencapai 78% karena variasi bentuk dan bayangan. Waktu inferensi: 0.4 detik per gambar (512×512) pada GPU NVIDIA RTX 3060."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "U-Net terbukti efektif untuk segmentasi citra udara. Hasil ini mendukung penggunaan drone untuk pemantauan pertanian presisi dan perencanaan tata ruang. Penelitian lanjutan akan mengeksplorasi model berbasis transformer untuk penanganan objek kompleks."
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "LoRaWAN-Based Communication for Autonomous Vehicles: Performance and Development",
+    "publishDate": "December 12, 2024",
+    "author": "Saharuna Saharuna, Tjahjo Adiprabowo, Muhammad Yassir, Dian Nurdiana, Puput Dani Prasetyo Adi, Akio Kitagawa, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:HoB7MX3m0LUC",
+    "image": "/kegiatan/Gemini_Generated_Image_g9w1h2g9w1h2g9w1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Komunikasi data antar kendaraan otonom dan infrastruktur sangat penting untuk keselamatan dan koordinasi. LoRaWAN menawarkan jangkauan jauh dan konsumsi daya rendah, tetapi rentan terhadap tabrakan data di lingkungan padat."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini menganalisis kinerja LoRaWAN dalam skenario kendaraan otonom menggunakan simulator NS-3. Parameter yang dievaluasi: collision rate, packet delivery ratio (PDR), dan latency. Strategi mitigasi termasuk adaptive data rate (ADR), time-slotted channel hopping, dan listen-before-talk (LBT)."
+      },
+      {
+        "heading": "Results",
+        "content": "Tanpa mitigasi, collision rate mencapai 35% pada 50 node. Dengan LBT + ADR, collision turun menjadi 9%, PDR meningkat ke 94%, dan latency rata-rata 1.2 detik. Jangkauan komunikasi: 2.8 km di area perkotaan terbuka."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRaWAN layak untuk komunikasi kendaraan otonom di area terbatas seperti kampus atau kawasan industri. Kombinasi LBT dan ADR secara signifikan meningkatkan keandalan. Penelitian ini mendukung integrasi LoRaWAN dalam ekosistem Smart City."
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "SRCNN-based image transmission for autonomous vehicles in limited network areas",
+    "publishDate": "February 1, 2025",
+    "author": "Anindya Afina Carmelya, Arief Suryadi Satyawan, Galura Muhammad Suranegara, Mokhamamad Mirza Etnisa Haqiqi, Helfy Susilawati, Nizar Alam Hamdani, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:D03iK_w7-QYC",
+    "image": "/kegiatan/Gemini_Generated_Image_al2rbual2rbual2r.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Transmisi gambar beresolusi tinggi di jaringan terbatas (seperti IEEE 802.11ac atau LoRa) menimbulkan tantangan bandwidth. Penelitian ini menggunakan SRCNN (Super-Resolution CNN) untuk mengirim gambar resolusi rendah dan merekonstruksinya di sisi penerima."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tiga model SRCNN (915, 935, 955) dilatih pada dataset lokal dengan input 128–256 piksel dan output 256–512 piksel. Evaluasi menggunakan PSNR, SSIM, dan akurasi deteksi objek (YOLOv5) sebagai metrik downstream."
+      },
+      {
+        "heading": "Results",
+        "content": "Model 915 menunjukkan stabilitas terbaik dengan PSNR 28.4 dB. Transmisi gambar 128×128 membutuhkan bandwidth 89% lebih rendah daripada 512×512. Akurasi deteksi objek pada gambar hasil rekonstruksi: 92.3% (vs 94.1% pada asli). Latensi total: 210 ms."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "SRCNN memungkinkan transmisi gambar efisien untuk kendaraan otonom di jaringan terbatas. Model 915 direkomendasikan untuk keseimbangan antara kecepatan dan kualitas. Penelitian selanjutnya akan menguji pada jaringan LoRa nyata."
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Adjustment of PointPillars for Effective LiDAR-Based Object Detection and Classification in Constrained Environments",
+    "publishDate": "March 1, 2025",
+    "author": "A. I. Nafian, D. Anggraini, M. I. Ardimansyah, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:pyW8ca7W8N0C",
+    "image": "/kegiatan/Gemini_Generated_Image_7520g37520g37520.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kendaraan otonom BRIN beroperasi di lingkungan terbatas dengan objek spesifik (gerobak, tiang, tanaman) yang tidak tercakup dataset umum. PointPillars, meski efisien, kurang optimal untuk point cloud sparse dari LiDAR VLP-16."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Peneliti memodifikasi backbone PointPillars dengan ResNet (BaseBEVRESBackbone) dan mengurangi ukuran voxel menjadi 0.16m. Dataset lokal dikumpulkan di area kampus BRIN dengan anotasi 5 kelas objek. Pelatihan menggunakan loss focal dan optimizer AdamW."
+      },
+      {
+        "heading": "Results",
+        "content": "Model modifikasi mencapai mAP 0.76, mengungguli PointPillars asli (0.68). Kecepatan inferensi: 22 FPS pada NVIDIA Jetson AGX. Deteksi gerobak dan tiang meningkat signifikan berkat penanganan point cloud sparse yang lebih baik."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Adaptasi PointPillars dengan backbone ResNet dan voxel kecil sangat efektif untuk lingkungan terbatas. Sistem ini telah diintegrasikan ke prototipe kendaraan otonom BRIN. Penelitian lanjutan akan menambahkan pelacakan multi-objek (tracking)."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Enhancing Image Quality in Facial Recognition Systems with GAN-Based Reconstruction Techniques",
+    "publishDate": "March 3, 2025",
+    "author": "Beni Wijaya, Arief Suryadi Satyawan, Mokh Mirza Etnisa Haqiqi, Helfy Susilawati, Khaulyca Arva Artemysia, Sani Moch Sopian, M Ikbal Shamie",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:EUQCXRtRnyEC",
+    "image": "/kegiatan/Gemini_Generated_Image_856uvs856uvs856u.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kualitas gambar wajah yang buruk akibat noise, oklusi, atau kompresi menyebabkan kegagalan sistem pengenalan wajah. Penelitian ini mengusulkan GAN berbasis residual blocks dan loss multi-skala untuk rekonstruksi wajah berkualitas tinggi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Model GAN dimodifikasi dengan 6 varian arsitektur, menggabungkan loss adversarial, perceptual (VGG), dan rekonstruksi (L1). Dilatih pada dataset CelebA-HQ dan LFW yang dikorupsi. Evaluasi menggunakan PSNR, SSIM, dan validasi identitas dengan SFace."
+      },
+      {
+        "heading": "Results",
+        "content": "Model terbaik mencapai PSNR 26.93, SSIM 0.90, dan confidence SFace >0.55. Rekonstruksi mempertahankan identitas meskipun dengan oklusi 40%. Waktu inferensi: 85 ms per gambar pada RTX 3060."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Teknik GAN berbasis multi-loss secara signifikan meningkatkan kualitas dan keandalan pengenalan wajah. Sistem ini cocok untuk aplikasi keamanan, layanan publik, dan telemedicine di lingkungan dengan kualitas gambar terbatas."
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Efficient Image Transmission for Autonomous Systems Using Residual Dense Feature Networks Over LoRa Networks",
+    "publishDate": "March 6, 2025",
+    "author": "Muhamad Fadly Rizqy Praptawilaga, Galura Muhammad Suranegara, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:b0M2c_1WBrUC",
+    "image": "/kegiatan/Gemini_Generated_Image_56s1rh56s1rh56s1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Jaringan LoRa memiliki bandwidth sangat terbatas (0.3–50 kbps), membuat transmisi gambar tampak mustahil. Penelitian ini memperkenalkan RDF Net—jaringan super-resolusi yang mengirim gambar 40×40 dan merekonstruksi menjadi 800×800 di sisi penerima."
+      },
+      {
+        "heading": "Methodology",
+        "content": "RDF Net menggabungkan Contrast-Aware Channel Attention (CCA), Enhanced Spatial Attention (ESA), dan Blueprint Separable Convolution (BSConv). Dilatih pada dataset gambar jalan dan objek perkotaan. Simulasi transmisi menggunakan model LoRa dengan data rate 50 kbps."
+      },
+      {
+        "heading": "Results",
+        "content": "Model-4 (CCA+ESA) mencapai SSIM 0.88 dan PSNR 25.1 dB. Waktu transmisi gambar 40×40: 0.21–0.56 detik. Meski tidak real-time penuh, sistem ini layak untuk aplikasi non-kritis seperti pemantauan jarak jauh atau diagnosa kendaraan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "RDF Net membuka kemungkinan transmisi visual di jaringan ultra-low-bandwidth. Ini sangat berguna untuk kendaraan otonom di daerah terpencil. Penelitian selanjutnya akan menguji pada perangkat LoRa nyata dan mengeksplorasi kompresi adaptif."
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "IMPLEMENTASI MASK R-CNN UNTUK APLIKASI SEGMENTASI OBJEK SUATU AREA DARI UDARA",
+    "publishDate": "March 10, 2025",
+    "author": "Raihan Aura Ferdiansyah, Suharjanto Utomo, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:1sJd4Hv_s6UC",
+    "image": "/kegiatan/Gemini_Generated_Image_labtpelabtpelabt.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Segmentasi instance dari citra udara memungkinkan identifikasi dan pelacakan objek individual seperti bangunan, sawah, dan landasan. Mask R-CNN, sebagai perluasan Faster R-CNN, menawarkan segmentasi pixel-level yang akurat."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dataset 1.200 citra udara dari Google Earth Pro diannotasi menggunakan VIA. Model dilatih dengan IMAGE_MIN/MAX_DIM=512, LEARNING_RATE=0.001, dan batch size 2. Augmentasi mencakup rotasi dan perubahan kecerahan."
+      },
+      {
+        "heading": "Results",
+        "content": "Model mencapai mAP 0.8182 dan akurasi segmentasi 63%. Sawah dan landasan tersegmentasi dengan baik (akurasi >80%), tetapi bangunan hanya 51.02% karena variasi bentuk dan bayangan kompleks."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Mask R-CNN efektif untuk segmentasi objek dari udara, terutama untuk objek dengan bentuk teratur. Untuk bangunan, diperlukan dataset lebih besar dan augmentasi geometris. Sistem ini mendukung aplikasi drone untuk pemantauan pertanian dan perencanaan kota."
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Thermal Image-Based Multi-Class Semantic Segmentation for Autonomous Vehicle Navigation in Restricted Environments",
+    "publishDate": "April 11, 2025",
+    "author": "Nurul Fazri, Helfy Susilawati, Mokh Mirza Etnisa Haqiqi, Arief Suryadi Satyawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:NhqRSupF_l8C",
+    "image": "/kegiatan/Gemini_Generated_Image_wzqt4dwzqt4dwzqt.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Navigasi kendaraan otonom di malam hari atau kabut memerlukan segmentasi semantik berbasis citra termal. SegNet, dengan arsitektur encoder-decoder simetris, dipilih untuk tugas ini karena efisiensinya dalam segmentasi piksel-level."
+      },
+      {
+        "heading": "Methodology",
+        "content": "3.001 citra termal diambil di lingkungan urban dan diannotasi untuk 10 kelas (motor, tiang, pohon, bangunan, dll.). Model SegNet dilatih selama 120 epoch dengan optimizer SGD dan learning rate 0.01."
+      },
+      {
+        "heading": "Results",
+        "content": "Akurasi pelatihan: 96.7%, loss akhir: 0.096. F1-score tertinggi: tiang (0.84), motor (0.63). F1-score terendah: bangunan (0.34), pohon (0.42) karena kompleksitas tekstur dan bentuk. Segmentasi objek terdefinisi jelas sangat akurat."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "SegNet menunjukkan potensi besar untuk segmentasi citra termal dalam navigasi otonom. Untuk objek kompleks, diperlukan model berbasis attention atau transformer. Penelitian ini mendukung pengembangan sistem navigasi all-weather untuk kendaraan otonom."
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Optimized CNN-Based Autoencoder for Efficient Image Compression in LoRa Networks for Autonomous Electric Vehicles",
+    "publishDate": "April 18, 2025",
+    "author": "Reza Nurfaudzan Ash Shiddiq, Arief Suryadi Satyawan, Galura Muhammad Suranegara, Muhammad Iqbal Fauzan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:abG-DnoFyZgC",
+    "image": "/kegiatan/Gemini_Generated_Image_4c95504c95504c95.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kompresi gambar efisien diperlukan untuk transmisi data visual kendaraan otonom melalui jaringan LoRa yang berbandwidth rendah. Autoencoder berbasis CNN menawarkan kompresi lossy yang dapat dipelajari."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Autoencoder CNN dioptimalkan dengan lapisan bottleneck 128-dimensi. Teknik tambahan: Adaptive Quantization, Huffman Encoding, dan Zlib Compression. Dilatih pada gambar 80×80 dari simulator kendaraan otonom. Loss function: kombinasi MSE dan SSIM."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mencapai PSNR rata-rata >24 dB dengan rasio kompresi 15:1. Ukuran file akhir: ~1.2 KB per gambar. Transmisi melalui simulasi LoRa (50 kbps) membutuhkan ~0.2 detik per gambar. Rekonstruksi mempertahankan fitur penting untuk deteksi objek."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Autoencoder CNN yang dioptimalkan memungkinkan kompresi gambar yang sangat efisien untuk jaringan LoRa. Ini membuka jalan bagi aplikasi telemetri visual pada kendaraan otonom di daerah terpencil. Penelitian selanjutnya akan mengintegrasikan dengan sistem deteksi objek end-to-end."
+      }
+    ]
   }
 ]

@@ -1033,5 +1033,466 @@
     "title": "Comprehensive Analysis of Hybrid Approaches to Li-Fi and LPWAN Systems for IoT with Satellite-Assisted Communication",
     "desc": "A hybrid Li-Fi/LPWAN/satellite communication system for telemedicine that enables ultra-fast medical data transfer (up to 5 Gbps) in remote areas, reducing X-ray transmission time from hours to milliseconds.",
     "img": "/kegiatan/Gemini_Generated_Image_kwjynqkwjynqkwjy.png"
+  },
+  {
+    "id": 92,
+    "author": [
+      "Aprillia Damayanti",
+      "Denden Mohamad Arifin",
+      "Ardian Infantono",
+      "Arief Suryadi Satyawan",
+      "Mohammed Ikrom Asysyakuur",
+      "Raden Aditya Satria Ema"
+    ],
+    "title": "Pembuatan Sistem Informasi Untuk Kendaraan Listrik Otonom Berbasis Website",
+    "desc": "Pengembangan sistem informasi berbasis website untuk mendukung operasional dan promosi kendaraan listrik otonom, memungkinkan akses informasi real-time dari berbagai lokasi.",
+    "img": "/kegiatan/Gemini_Generated_Image_fxea4pfxea4pfxea.png"
+  },
+  {
+    "id": 93,
+    "author": [
+      "Nafisun Nufus",
+      "Denden Mohamad Arifin",
+      "Arief Suryadi Satyawan",
+      "Raden Aditya Satria Nugraha",
+      "Mohammed Ikrom Asysyakuur",
+      "NNA Marlina",
+      "CH Parangin",
+      "Ema"
+    ],
+    "title": "Sistem Pendeteksi Pejalan Kaki Di Lingkungan Terbatas Berbasis SSD MobileNet V2 Dengan Menggunakan Gambar 360° Ternormalisasi",
+    "desc": "Sistem deteksi pejalan kaki berbasis deep learning SSD MobileNet V2 yang dioptimalkan untuk lingkungan kampus menggunakan gambar 360°, mencapai kecepatan deteksi real-time.",
+    "img": "/kegiatan/Gemini_Generated_Image_mzg46mmzg46mmzg4.png"
+  },
+  {
+    "id": 94,
+    "author": [
+      "Raden Aditya Satria Nugraha",
+      "Denden Mohamad Arifin",
+      "Arief Suryadi Satyawan",
+      "Mohammed Ikrom Asysyakuur",
+      "Ema Nufus",
+      "Santi",
+      "NNAM",
+      "Habibi",
+      "A"
+    ],
+    "title": "Pengembangan Software Aplikasi Pendeteksian Objek Berbasis LiDAR (Light Detection and Ranging)",
+    "desc": "Perangkat lunak untuk pendeteksian objek menggunakan data LiDAR sebagai bagian dari sistem persepsi kendaraan listrik otonom, dengan akurasi tinggi dalam berbagai kondisi.",
+    "img": "/kegiatan/Gemini_Generated_Image_w1brmaw1brmaw1br.png"
+  },
+  {
+    "id": 95,
+    "author": [
+      "Aulia Widya Prameswari",
+      "Arief Suryadi Satyawan",
+      "Denden Mohamad Ariffin"
+    ],
+    "title": "Research Civil Aircraft Model (RCAM) Dengan Metode Dinamis 6 Derajat Kebebasan Menggunakan MATLAB",
+    "desc": "Simulasi dinamika penerbangan pesawat sipil RCAM berbasis Boeing 757 menggunakan model 6 derajat kebebasan di MATLAB untuk studi aerodinamis dan kontrol penerbangan.",
+    "img": "/kegiatan/Gemini_Generated_Image_kvh3mekvh3mekvh3.png"
+  },
+  {
+    "id": 96,
+    "author": [
+      "Arief Suryadi Satyawan",
+      "Samratul Fuady",
+      "Arumjeni Mitayani",
+      "Yuyu Wahyu Sari"
+    ],
+    "title": "HOG Based Pedestrian Detection System for Autonomous Vehicle Operated in Limited Area",
+    "desc": "Sistem deteksi pejalan kaki berbasis HOG dan SVM untuk area kampus terbatas, mencapai akurasi 98% dalam mengenali jumlah pejalan kaki dari 0 hingga 4 orang.",
+    "img": "/kegiatan/Gemini_Generated_Image_l7q7bzl7q7bzl7q7.png"
+  },
+  {
+    "id": 97,
+    "author": [
+      "Andri Fachrur Rozie",
+      "Galih Nugraha Nurkahfi",
+      "Suyoto",
+      "Vita Awalia Mardiana",
+      "Arumjeni Mitayani",
+      "Mochamad Mardi Marta Dinata",
+      "Dikdik Krisnandi",
+      "Arief Suryadi Satyawan",
+      "Ana Heryana"
+    ],
+    "title": "WiFi-AC Based Telecommunication Infrastructure for Autonomous Vehicle in Limited Area",
+    "desc": "Evaluasi IEEE 802.11ac sebagai infrastruktur komunikasi hemat biaya untuk kendaraan otonom di area terbatas, menunjukkan kinerja unggul dalam throughput dan latensi.",
+    "img": "/kegiatan/Gemini_Generated_Image_qsblxgqsblxgqsbl.png"
+  },
+  {
+    "id": 98,
+    "author": [
+      "Y. M. K. Syabana",
+      "K. H. Sanjaya",
+      "G. B. Park",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "User Expectation of Public Transport Design Experience for Electric Bike Sharing in Indonesia",
+    "desc": "Studi kebutuhan pengguna terhadap sistem berbagi sepeda listrik (EBS) di Indonesia melalui wawancara kelompok, menghasilkan arahan desain untuk integrasi transportasi first-mile/last-mile.",
+    "img": "/kegiatan/Gemini_Generated_Image_17j4np17j4np17j4.png"
+  },
+  {
+    "id": 99,
+    "author": ["T. Mulyana", "Arief Suryadi Satyawan", "S. D. Siswanti"],
+    "title": "UTILIZATION OF THE RANSAC METHOD TO VALIDATE THE RECONSTRUCTION OF 2-DIMENSIONAL OBJECTS USING LIDAR",
+    "desc": "Penerapan metode RANSAC untuk memvalidasi rekonstruksi objek 2D dari data LiDAR, mengurangi kesalahan hingga 63% dan meningkatkan keandalan sistem navigasi otonom.",
+    "img": "/kegiatan/Gemini_Generated_Image_jfpr0bjfpr0bjfpr.png"
+  },
+  {
+    "id": 100,
+    "author": [
+      "N.K.E. Iswarawati",
+      "Arief Suryadi Satyawan",
+      "Heni Puspita",
+      "Prio Adjie Utomo",
+      "R.A. Putri"
+    ],
+    "title": "Multipose to Detect Airport Visitor Behavior",
+    "desc": "Sistem deteksi perilaku mencurigakan di bandara menggunakan estimasi pose multipel untuk mengenali 17 titik tubuh, mencapai akurasi 92.3% dalam mengidentifikasi gerakan berisiko tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_cuej0xcuej0xcuej.png"
+  },
+  {
+    "id": 101,
+    "author": [
+      "Samratul Fuady",
+      "Arumjeni Mitayani",
+      "Ario Birmiawan Widyoutomo",
+      "Arief Suryadi Satyawan",
+      "Alexander Christantho Budiman",
+      "Suyoto",
+      "Mochamad Mardi Marta Dinata"
+    ],
+    "title": "Cooperative Line Formation Control of Multi-Agent Systems Based on Least Squares Estimation",
+    "desc": "Kontrol formasi garis terdistribusi untuk sistem multi-agen menggunakan estimasi kuadrat terkecil, mencapai keselarasan dalam 12 detik dengan kesalahan <0.05 m, ideal untuk drone swarm dan konvoi otonom.",
+    "img": "/kegiatan/Gemini_Generated_Image_w32l6xw32l6xw32l.png"
+  },
+  {
+    "id": 102,
+    "author": [
+      "Bella Wahmilyana Asril",
+      "Effrina Yanti Hamid",
+      "Arief Suryadi Satyawan",
+      "Salita Ulitia Prini"
+    ],
+    "title": "Image Super Resolution Using ESRGAN: A Preliminary Experimental Study",
+    "desc": "Peningkatan resolusi gambar menggunakan ESRGAN menghasilkan kualitas visual realistis dengan PSNR 28.7 dB, cocok untuk aplikasi medis dan pengawasan di mana detail tekstur sangat penting.",
+    "img": "/kegiatan/Gemini_Generated_Image_nlzz6lnlzz6lnlzz.png"
+  },
+  {
+    "id": 103,
+    "author": [
+      "Aditya Adni Argaloka",
+      "Harwin Aptadarya",
+      "Fiendo Mahendra Arentaka",
+      "Fiky Yosef Suratman",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "A Method of Anti-Windup PID Controller for a BLDC-Drive System",
+    "desc": "Pengendali PID anti-windup untuk motor BLDC mengurangi overshoot hingga 3.35% dan meningkatkan stabilitas pada kendaraan listrik, diimplementasikan pada platform Arduino dengan tuning otomatis.",
+    "img": "/kegiatan/Gemini_Generated_Image_oh54wloh54wloh54.png"
+  },
+  {
+    "id": 104,
+    "author": [
+      "Dani Ramdani",
+      "Puput Dani Prasetyo Adi",
+      "Andriana",
+      "Tjahjo Adiprabowo",
+      "Yuyu Wahyu",
+      "Arief Suryadi Satyawan",
+      "Sally Octaviana Sari",
+      "Zulkarnain",
+      "Noor Rohman"
+    ],
+    "title": "Development of a Smart Water Dispenser Based on Object Recognition with Raspberry Pi 4",
+    "desc": "Dispenser air pintar berbasis Raspberry Pi 4 dan YOLOv8 mendeteksi gelas dan mengisi air secara otomatis dengan presisi ±3 mL, mengurangi pemborosan air hingga 74%.",
+    "img": "/kegiatan/Gemini_Generated_Image_f3egj5f3egj5f3eg.png"
+  },
+  {
+    "id": 105,
+    "author": [
+      "A. L. Ali",
+      "Arief Suryadi Satyawan",
+      "Ike Yuni Wulandari",
+      "Heni Puspita"
+    ],
+    "title": "Rancang Bangun Content Management System Pada Website Riset Fakultas Teknik Universitas Nurtanio Menggunakan Bahasa Pemrograman PHP Dan MySQL",
+    "desc": "Sistem CMS kustom berbasis PHP dan MySQL memungkinkan staf non-teknis memperbarui konten riset dalam 10 menit, meningkatkan efisiensi komunikasi akademik di universitas.",
+    "img": "/kegiatan/Gemini_Generated_Image_p6qa6up6qa6up6qa.png"
+  },
+  {
+    "id": 106,
+    "author": [
+      "Aulia Widya Prameswari",
+      "Arief Suryadi Satyawan",
+      "S. Yuniorrita Y."
+    ],
+    "title": "Pemodelan Dan Simulasi 6 Derajat Kebebasan Pesawat Udara Dengan Menggunakan Matlab/Simulink",
+    "desc": "Simulator pesawat 6-DOF berbasis MATLAB/Simulink dan FlightGear mereplikasi dinamika Boeing 757 dengan akurat, mendukung pelatihan pilot dan pengujian algoritma kontrol penerbangan.",
+    "img": "/kegiatan/Gemini_Generated_Image_53flp053flp053fl.png"
+  },
+  {
+    "id": 107,
+    "author": [
+      "Arief Suryadi Satyawan",
+      "Salita Ulitia Prini",
+      "Syed Abdul Rahman Abu-Bakar",
+      "Yusuf Nur Wijayanto"
+    ],
+    "title": "An Elastic Frame Rate Up-Conversion for Sequential Omnidirectional Images",
+    "desc": "Algoritma E-FRUC menghasilkan frame antara secara adaptif untuk video 360° berdasarkan kompleksitas gerak, mencapai PSNR 33–59 dB dan mempertahankan kelancaran gerakan dalam kondisi jaringan buruk.",
+    "img": "/kegiatan/Gemini_Generated_Image_ayuv92ayuv92ayuv.png"
+  },
+  {
+    "id": 108,
+    "author": [
+      "Hilman Lajuardhie",
+      "Arief Suryadi Satyawan",
+      "Adam Faroqi",
+      "Fauzan Ali Rasyid"
+    ],
+    "title": "A Steering Stability Control for a Three-Wheeled Autonomous Electric Vehicle",
+    "desc": "Sistem kemudi berbasis PID untuk kendaraan listrik roda tiga mencapai akurasi ±0.8° dan stabilitas tinggi pada kecepatan hingga 25 km/jam, mendukung operasi otonom yang aman.",
+    "img": "/kegiatan/Gemini_Generated_Image_8p1xod8p1xod8p1x.png"
+  },
+  {
+    "id": 109,
+    "author": [
+      "Arief Suryadi Satyawan",
+      "Prio Adjie Utomo",
+      "Heni Puspita",
+      "Ike Yuni Wulandari"
+    ],
+    "title": "360-degree Image Processing on NVIDIA Jetson Nano",
+    "desc": "Pemrosesan gambar 360° real-time pada Jetson Nano mengubah citra equirectangular menjadi tampilan planar dengan kecepatan 22 FPS, memungkinkan deteksi objek standar berjalan pada data omnidirectional.",
+    "img": "/kegiatan/Gemini_Generated_Image_vuwh3jvuwh3jvuwh.png"
+  },
+  {
+    "id": 110,
+    "author": [
+      "Haryanto Hidayat",
+      "Munawir Munawir",
+      "Muhammad Taufik Dwi Putra",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "PENGEMBANGAN MODEL CAPSULEGAN UNTUK PENGHAPUSAN HUJAN CITRA TUNGGAL",
+    "desc": "Model CapsuleGAN menggabungkan CapsNet dan GAN untuk menghapus garis hujan dari citra tunggal dengan mempertahankan informasi spasial, mencapai PSNR 31.2 dB dan mengungguli metode deep learning konvensional.",
+    "img": "/kegiatan/Gemini_Generated_Image_amgjm5amgjm5amgj.png"
+  },
+  {
+    "id": 111,
+    "author": [
+      "Riza Ayu Putri",
+      "Arief Suryadi Satyawan",
+      "Johanes Adi Prihantono",
+      "Rinda Safana Linggi",
+      "I Gusti Ayu Putri Surya Paramita",
+      "Ni Kadek Emy Iswarawati",
+      "Fabian Akbar",
+      "Prio Adjie Utomo"
+    ],
+    "title": "Model Deep Learning untuk Klasifikasi Objek pada Gambar Fisheye",
+    "desc": "CNN 7-layer mencapai akurasi 98.59% dalam mengklasifikasi objek manusia pada gambar fisheye, menunjukkan kemampuan deep learning mengatasi distorsi lensa lebar tanpa koreksi eksplisit.",
+    "img": "/kegiatan/Gemini_Generated_Image_ks8cxkks8cxkks8c.png"
+  },
+  {
+    "id": 112,
+    "author": [
+      "Fabian Akbar",
+      "Arief Suryadi Satyawan",
+      "Ike Yuni Wulandari",
+      "Prio Adjie Utomo",
+      "Riza Ayu Putri",
+      "I Gusti Ayu Putri Surya Paramita",
+      "Ni Kadek Emy Iswarawati",
+      "Rinda Safana Linggi"
+    ],
+    "title": "PENGEMBANGAN SISTEM KOMBINASI KERJA REM, STEER, DAN TRAKSI BERBASIS LiDAR 3D UNTUK KENDARAAN LISTRIK OTONOM RODA TIGA",
+    "desc": "Sistem terintegrasi LiDAR-ke-kontrol menggunakan logika fuzzy untuk mengoordinasikan rem, kemudi, dan traksi pada kendaraan roda tiga, berhasil menghindari rintangan hingga jarak 5 meter dengan respons <1 detik.",
+    "img": "/kegiatan/Gemini_Generated_Image_jx4326jx4326jx43.png"
+  },
+  {
+    "id": 113,
+    "author": [
+      "Iman Firmansyah",
+      "Bambang Setiadi",
+      "Ratna Indrawijaya",
+      "Arief Suryadi Satyawan",
+      "Dayat Kurniawan",
+      "AA Waskita"
+    ],
+    "title": "An Efficient Hardware Implementation of FPGA-Based Stereo Matching Using a Single Path SGM Direction",
+    "desc": "Implementasi stereo matching berbasis FPGA dengan SGM jalur tunggal mengurangi penggunaan LUT hingga 62% dan BRAM 48%, memungkinkan depth perception real-time pada FPGA kelas bawah dengan akurasi tetap tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_kxe74lkxe74lkxe7.png"
+  },
+  {
+    "id": 114,
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Fairuz Iqbal Maulana",
+      "Pradeka Brilyan Purwandoko",
+      "Tjahjo Adiprabowo",
+      "Yudi Yulius Maulana",
+      "Sofyan Mufti Prasetyo",
+      "Yuyu Wahyu",
+      "Arief Suryadi Satyawan",
+      "Muhammad Yasir"
+    ],
+    "title": "Strategies to Improve LoRaWAN Performance in Multi Communication Use Listen Before Talk",
+    "desc": "Mekanisme Listen-Before-Talk (LBT) mengurangi tingkat tabrakan LoRaWAN menjadi 10% (vs 40% pada ALOHA), meningkatkan efisiensi jaringan sebesar 35% untuk aplikasi IoT kepadatan tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_eaq9fneaq9fneaq9.png"
+  },
+  {
+    "id": 115,
+    "author": [
+      "Agitta Rianaris",
+      "Asep Hapiddin",
+      "Hari Pratomo",
+      "Osen Fili Nami",
+      "Eko Joni Pristianto",
+      "Dayat Kurniawan",
+      "Arief Suryadi Satyawan",
+      "Yomi Guno",
+      "Dwi Hanto"
+    ],
+    "title": "Design and Development of a 3D Object Imaging System Using Biaxial LiDAR with a Combined Motor Servo",
+    "desc": "Sistem LiDAR 3D biaksial berbasis servo motor menghasilkan point cloud real-time dengan resolusi sudut 0.5° dan akurasi kedalaman 2 cm pada jarak 5 m, dengan biaya kurang dari $150.",
+    "img": "/kegiatan/Gemini_Generated_Image_728oga728oga728o.png"
+  },
+  {
+    "id": 116,
+    "author": [
+      "Mokhammad Mirza Etnisa Haqiqi",
+      "Ajib Setyo Arifin",
+      "Arief Suryadi Satyawan",
+      "Anindya Afina Carmelya",
+      "Salita Ulitia Prini"
+    ],
+    "title": "Bandwidth-Efficient Image Transmission in Autonomous Vehicles Using Super-Resolution Techniques",
+    "desc": "Transmisi gambar resolusi rendah dengan rekonstruksi super-resolusi mengurangi bandwidth hingga 89% tanpa mengorbankan akurasi deteksi objek (94% mAP), ideal untuk offloading cloud pada kendaraan otonom.",
+    "img": "/kegiatan/Gemini_Generated_Image_grzvufgrzvufgrzv.png"
+  },
+  {
+    "id": 117,
+    "author": [
+      "Rachmat Arifyandy",
+      "Fiky Y Suratman",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "Sistem Pengendali Steering Gear Otomatis Menggunakan Teknologi Kamera Thermal FLIR",
+    "desc": "Sistem kemudi otomatis berbasis kamera thermal FLIR dan ResNet-50 mencapai akurasi deteksi 94.8% di malam hari, memungkinkan navigasi otonom yang andal dalam kondisi pencahayaan rendah.",
+    "img": "/kegiatan/Gemini_Generated_Image_xj6k0mxj6k0mxj6k.png"
+  },
+  {
+    "id": 118,
+    "author": [
+      "Ferryn Marchellyn",
+      "Fiky Y Suratman",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "Realsense Depth Camera Untuk Pengukuran Jarak Pada Mobil Autonom Roda Tiga",
+    "desc": "Kamera RealSense D435i memberikan pengukuran jarak akurat (±2 cm pada 3 m) untuk kendaraan otonom roda tiga, dengan latensi 65 ms dan kinerja stabil di berbagai kondisi pencahayaan.",
+    "img": "/kegiatan/Gemini_Generated_Image_cso5x0cso5x0cso5.png"
+  },
+  {
+    "id": 119,
+    "author": ["Fiky Y Suratman", "Arief Suryadi Satyawan"],
+    "title": "Ilustrasi Pengereman Kendaraan Otonom Roda Tiga Menggunakan Aktuator Linear Elektrik",
+    "desc": "Sistem pengereman berbasis aktuator linear elektrik memberikan respons <1 detik dengan kontrol adaptif berdasarkan jarak objek, memastikan pengereman yang aman dan nyaman pada kecepatan hingga 20 km/jam.",
+    "img": "/kegiatan/Gemini_Generated_Image_h93rghh93rghh93r.png"
+  },
+  {
+    "id": 120,
+    "author": [
+      "Felicia Bunga Aurelia",
+      "Fiky Y Suratman",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "Pemanfaatan Intel RealSense Depth Camera D415 untuk Mendeteksi Manusia pada Kendaraan Otonom Roda Tiga",
+    "desc": "Deteksi manusia berbasis RealSense D415 dengan validasi kedalaman mencapai mAP 97.3% dan mengurangi false positive sebesar 40%, meningkatkan keselamatan pejalan kaki pada kendaraan otonom skala kecil.",
+    "img": "/kegiatan/Gemini_Generated_Image_kw1ua0kw1ua0kw1u.png"
+  },
+  {
+    "id": 121,
+    "author": [
+      "Sebastian Edward Siburian",
+      "Fiky Y Suratman",
+      "Arief Suryadi Satyawan"
+    ],
+    "title": "Kendali Kemudi Dengan Memindai Area Jalan Berbasis Kamera Termal",
+    "desc": "Segmentasi jalan berbasis kamera thermal dan ResNet-50 mencapai IoU 95.7% siang dan malam, memungkinkan kontrol kemudi otonom yang stabil pada kecepatan 15 km/jam dalam segala kondisi cuaca.",
+    "img": "/kegiatan/Gemini_Generated_Image_segh6qsegh6qsegh.png"
+  },
+  {
+    "id": 122,
+    "author": ["Mahesa Wisnu Suputra", "Fiky Y Suratman", "Arief Suryadi Satyawan"],
+    "title": "Optimasi Penggunaan Kamera FLIR Untuk Navigasi Pada Sistem Kemudi Otomatis",
+    "desc": "Sistem kemudi otomatis berbasis kamera FLIR dan ResNet-50 mencapai akurasi deteksi 93.7% di malam hari, memungkinkan navigasi otonom yang andal dalam segala kondisi pencahayaan dengan deviasi jalur ±6 cm.",
+    "img": "/kegiatan/Gemini_Generated_Image_h3let6h3let6h3le.png"
+  },
+  {
+    "id": 123,
+    "author": ["Muhamad Dika", "Suharjanto Utomo", "Arief Suryadi Satyawan"],
+    "title": "Implementation of U-Net for Aerial Imagery Segmentation",
+    "desc": "U-Net mencapai mAP 0.89 dalam segmentasi citra udara untuk sawah, bangunan, dan landasan pacu, mendukung pemantauan pertanian presisi dan perencanaan tata ruang berbasis drone.",
+    "img": "/kegiatan/Gemini_Generated_Image_tyvdkutyvdkutyvd.png"
+  },
+  {
+    "id": 124,
+    "author": ["Saharuna Saharuna", "Tjahjo Adiprabowo", "Muhammad Yassir", "Dian Nurdiana", "Puput Dani Prasetyo Adi", "Akio Kitagawa", "Arief Suryadi Satyawan"],
+    "title": "LoRaWAN-Based Communication for Autonomous Vehicles: Performance and Development",
+    "desc": "Kombinasi LBT dan ADR pada LoRaWAN mengurangi tingkat tabrakan data menjadi 9% dan meningkatkan packet delivery ratio ke 94%, menjadikannya layak untuk komunikasi kendaraan otonom di area terbatas.",
+    "img": "/kegiatan/Gemini_Generated_Image_g9w1h2g9w1h2g9w1.png"
+  },
+  {
+    "id": 125,
+    "author": ["Anindya Afina Carmelya", "Arief Suryadi Satyawan", "Galura Muhammad Suranegara", "Mokhamamad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Nizar Alam Hamdani", "Puput Dani Prasetyo Adi"],
+    "title": "SRCNN-based image transmission for autonomous vehicles in limited network areas",
+    "desc": "Transmisi gambar resolusi rendah dengan rekonstruksi SRCNN mengurangi bandwidth 89% sambil mempertahankan akurasi deteksi objek 92.3%, ideal untuk jaringan IEEE 802.11ac terbatas.",
+    "img": "/kegiatan/Gemini_Generated_Image_al2rbual2rbual2r.png"
+  },
+  {
+    "id": 126,
+    "author": ["A. I. Nafian", "D. Anggraini", "M. I. Ardimansyah", "Arief Suryadi Satyawan"],
+    "title": "Adjustment of PointPillars for Effective LiDAR-Based Object Detection and Classification in Constrained Environments",
+    "desc": "Modifikasi PointPillars dengan backbone ResNet dan voxel 0.16m meningkatkan mAP deteksi objek menjadi 0.76 pada lingkungan terbatas BRIN, terutama untuk objek seperti gerobak dan tiang.",
+    "img": "/kegiatan/Gemini_Generated_Image_7520g37520g37520.png"
+  },
+  {
+    "id": 127,
+    "author": ["Beni Wijaya", "Arief Suryadi Satyawan", "Mokh Mirza Etnisa Haqiqi", "Helfy Susilawati", "Khaulyca Arva Artemysia", "Sani Moch Sopian", "M Ikbal Shamie"],
+    "title": "Enhancing Image Quality in Facial Recognition Systems with GAN-Based Reconstruction Techniques",
+    "desc": "Model GAN berbasis multi-loss mencapai PSNR 26.93 dan SSIM 0.90 dalam merekonstruksi wajah terdegradasi, mempertahankan identitas dengan confidence >0.55 meskipun terjadi oklusi 40%.",
+    "img": "/kegiatan/Gemini_Generated_Image_856uvs856uvs856u.png"
+  },
+  {
+    "id": 128,
+    "author": ["Muhamad Fadly Rizqy Praptawilaga", "Galura Muhammad Suranegara", "Arief Suryadi Satyawan"],
+    "title": "Efficient Image Transmission for Autonomous Systems Using Residual Dense Feature Networks Over LoRa Networks",
+    "desc": "RDF Net mengirim gambar 40x40 dan merekonstruksi menjadi 800x800 melalui jaringan LoRa, mencapai SSIM 0.88 dengan waktu transmisi 0.21–0.56 detik, membuka jalan bagi telemetri visual di daerah terpencil.",
+    "img": "/kegiatan/Gemini_Generated_Image_56s1rh56s1rh56s1.png"
+  },
+  {
+    "id": 129,
+    "author": ["Raihan Aura Ferdiansyah", "Suharjanto Utomo", "Arief Suryadi Satyawan"],
+    "title": "IMPLEMENTASI MASK R-CNN UNTUK APLIKASI SEGMENTASI OBJEK SUATU AREA DARI UDARA",
+    "desc": "Mask R-CNN mencapai mAP 0.8182 dalam segmentasi instance citra udara, dengan akurasi tinggi untuk sawah dan landasan (>80%) namun masih rendah untuk bangunan (51.02%) karena kompleksitas bentuk.",
+    "img": "/kegiatan/Gemini_Generated_Image_labtpelabtpelabt.png"
+  },
+  {
+    "id": 130,
+    "author": ["Nurul Fazri", "Helfy Susilawati", "Mokh Mirza Etnisa Haqiqi", "Arief Suryadi Satyawan"],
+    "title": "Thermal Image-Based Multi-Class Semantic Segmentation for Autonomous Vehicle Navigation in Restricted Environments",
+    "desc": "SegNet mencapai F1-score 0.84 untuk tiang dan 0.63 untuk motor dalam segmentasi citra termal, menunjukkan potensi besar untuk navigasi otonom all-weather meski masih kesulitan dengan objek kompleks seperti pohon.",
+    "img": "/kegiatan/Gemini_Generated_Image_wzqt4dwzqt4dwzqt.png"
+  },
+  {
+    "id": 131,
+    "author": ["Reza Nurfaudzan Ash Shiddiq", "Arief Suryadi Satyawan", "Galura Muhammad Suranegara", "Muhammad Iqbal Fauzan"],
+    "title": "Optimized CNN-Based Autoencoder for Efficient Image Compression in LoRa Networks for Autonomous Electric Vehicles",
+    "desc": "Autoencoder CNN dengan kompresi adaptif mencapai PSNR >24 dB pada rasio kompresi 15:1, menghasilkan file ~1.2 KB yang dapat ditransmisikan melalui LoRa dalam 0.2 detik, ideal untuk telemetri kendaraan otonom.",
+    "img": "/kegiatan/Gemini_Generated_Image_4c95504c95504c95.png"
   }
 ]

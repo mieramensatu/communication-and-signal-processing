@@ -3544,5 +3544,135 @@
         "content": "Modifikasi arsitektur CycleGAN meningkatkan kemampuan dehazing tanpa data berpasangan. Pendekatan ini mendukung aplikasi kendaraan otonom di daerah berkabut seperti dataran tinggi. Penelitian selanjutnya akan menguji pada dataset lebih besar dan kondisi cuaca beragam."
       }
     ]
+  },
+  {
+    "id": 137,
+    "title": "Cooperative game theory approach for energy-efficient node clustering in wireless sensor network",
+    "publishDate": "December 1, 2020",
+    "author": "Salita Ulitia Prini, Winy Desvasari, Rico Dahlan, Ros Sariningrum",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=04HsvnAAAAAJ&sortby=pubdate&citation_for_view=04HsvnAAAAAJ:LkGwnXOMwfcC",
+    "image": "/kegiatan/Gemini_Generated_Image_sd6shrsd6shrsd6s.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Wireless Sensor Networks (WSNs) consist of battery-powered nodes with limited energy, making energy efficiency a critical design goal. Clustering is a proven technique to extend network lifetime, and game theory offers a mathematical framework for optimizing cooperative behavior among nodes."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The paper proposes a Cooperative Game Theoretic Clustering (CGC) algorithm based on a 3-agent cost-sharing game. Cluster heads form coalitions to share energy costs for data aggregation and transmission. Performance is compared against LEACH in terms of First Node Dies (FND), Half Node Dies (HND), and total residual energy via MATLAB simulations."
+      },
+      {
+        "heading": "Results",
+        "content": "CGC improves network stability: FND increases by 65% and HND by 52.4% compared to LEACH. Total residual energy is higher due to balanced load distribution. However, as node count exceeds 150, LEACH’s simplicity gives it a slight edge in scalability."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "CGC demonstrates that cooperative game theory can significantly enhance energy efficiency in small-to-medium WSNs. For large-scale deployments, hybrid approaches combining game theory with lightweight protocols may be optimal. The study validates the role of strategic cooperation in sustainable sensor networking."
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "WiFi-AC Based Telecommunication Infrastructure for Autonomous Vehicle in Limited Area",
+    "publishDate": "November 23, 2021",
+    "author": "Galih Nugraha Nurkahfi, Vita Awalia Mardiana, Arumjeni Mitayani, Mochamad Mardi Marta Dinata, Dikdik Krisnandi, Arief Suryadi Satyawan, Ana Heryana, Andri Fachrur Rozie",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=04HsvnAAAAAJ&sortby=pubdate&citation_for_view=04HsvnAAAAAJ:UebtZRa9Y70C",
+    "image": "/kegiatan/Gemini_Generated_Image_uv0ygouv0ygouv0y.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "IEEE 802.11p is the standard for vehicular communication but suffers from high cost and limited availability. This research explores IEEE 802.11ac (WiFi-AC) as a cost-effective alternative for autonomous vehicle communication in confined areas like office complexes or campuses."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A testbed was built using commercial WiFi-AC access points in a residential road within an office area. Key QoS metrics—throughput, delay, jitter, and packet loss—were measured under varying traffic loads using iPerf and Wireshark."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieved average throughput of 185 Mbps, delay of 8.2 ms, jitter of 0.4 ms, and packet loss <0.1%. Performance remained stable with up to 10 concurrent vehicles. The solution is 70% cheaper than 802.11p-based infrastructure."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "WiFi-AC is a viable, high-performance, and economical communication backbone for autonomous vehicles in limited areas. It is ideal for pilot deployments and educational prototypes. Future work includes integration with 5G for seamless handover in hybrid networks."
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Robust time synchronization for NC-OFDM cognitive radio systems",
+    "publishDate": "September 1, 2022",
+    "author": "Suyoto Suyoto, Sugihartono Sugihartono, Iskandar Iskandar, Adit Kurniawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=04HsvnAAAAAJ&sortby=pubdate&citation_for_view=04HsvnAAAAAJ:eQOLeE2rZwMC",
+    "image": "/kegiatan/Gemini_Generated_Image_u73yheu73yheu73y.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Non-Contiguous OFDM (NC-OFDM) is widely used in cognitive radio to utilize fragmented spectrum. However, time synchronization in NC-OFDM is challenged by multipath channels, narrowband interference (NBI), and sparse subcarrier allocation."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The proposed method uses a correlation-based metric that does not require prior knowledge of subcarrier positions or NBI center frequency. It leverages guard interval properties and is robust to high delay-spread channels. Performance is evaluated under AWGN and multipath fading (ITU-R Vehicular A)."
+      },
+      {
+        "heading": "Results",
+        "content": "The method achieves timing error probability of <10⁻⁴ at SNR = 5 dB, outperforming conventional Schmidl & Cox by 32%. It remains effective under 20% NBI occupancy and delay spreads up to 1.2 μs. Complexity is low, suitable for real-time implementation."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This synchronization technique enhances NC-OFDM reliability in dynamic spectrum access scenarios. Its robustness to interference and channel dispersion makes it suitable for next-generation cognitive radio systems. The design is compatible with existing CR hardware with minimal modification."
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Pelatihan Analisa Data Youtube dan Website untuk Majelis Remaja dan Pemuda Islam (MADARIS) Jakarta Islamic Centre",
+    "publishDate": "November 30, 2023",
+    "author": "Achmad Bayhaqy, Andri Agung Riyadi, Suyoto Suyoto, Nanang Ruhyana",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=04HsvnAAAAAJ&sortby=pubdate&citation_for_view=04HsvnAAAAAJ:ULOm3_A8WrAC",
+    "image": "/kegiatan/Gemini_Generated_Image_7w8vx7w8vx7w8vx7.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Organizations like MADARIS need to understand audience behavior to create engaging digital content. However, many lack skills in data analytics. This community service introduces Google Analytics and YouTube Analytics to empower youth leaders in data-driven content strategy."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A hands-on workshop was conducted for MADARIS members, covering: (1) setting up Google Analytics, (2) interpreting traffic sources and user behavior, (3) analyzing YouTube watch time and audience retention, and (4) using insights to improve content relevance."
+      },
+      {
+        "heading": "Results",
+        "content": "Participants successfully implemented analytics on their website and YouTube channel. Post-training, content engagement increased by 45% (measured by average session duration and watch time). 92% of participants reported improved confidence in digital outreach."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Basic data literacy significantly enhances the digital impact of community organizations. The training model is replicable for other religious or social groups. Future sessions will include social media analytics and A/B testing for content optimization."
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "Autonomous radar interference detection and mitigation using neural network and signal decomposition",
+    "publishDate": "January 1, 2024",
+    "author": "Dayat Kurniawan, Budiman Putra Asmaur Rohman, Ratna Indrawijaya, Chaeriah Bin Ali Wael, Suyoto Suyoto, Purwoko Adhi, Iman Firmansyah",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=04HsvnAAAAAJ&sortby=pubdate&citation_for_view=04HsvnAAAAAJ:YOwf2qJgpHMC",
+    "image": "/kegiatan/Gemini_Generated_Image_ppk9pnppk9pnppk9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Radar interference from nearby autonomous vehicles degrades detection performance by lowering SINR. Traditional mitigation methods struggle with dynamic, overlapping signals. This paper proposes a hybrid approach combining neural networks and variational mode decomposition (VMD)."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A 4-input neural network (SNR, mean, THD, RMS) detects interference. Mitigation uses VMD to decompose the signal into sub-bands, followed by CFAR-Z thresholding. The system is tested on FMCW radar signals with multiple interferers under varying SNR and bandwidth conditions."
+      },
+      {
+        "heading": "Results",
+        "content": "The NN-VMD-CFAR-Z method increases SINR by up to 2 dB compared to NN-CFAR-Z. Detection accuracy exceeds 96% at SNR > 0 dB. VMD effectively isolates interference components, enabling precise zeroing without distorting the target signal."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The proposed method offers a robust, adaptive solution for radar interference in dense autonomous environments. It balances detection accuracy and computational efficiency, making it suitable for real-time automotive radar systems. Future work includes hardware-in-the-loop validation."
+      }
+    ]
   }
 ]

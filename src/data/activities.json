@@ -86,7 +86,8 @@
       "Arief Suryadi Satyawan",
       "Vita Awalia Mardiana",
       "Nasrullah Armi",
-      "Dayat Kurniawan"
+      "Dayat Kurniawan",
+      "Suyoto Suyoto"
     ],
     "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
     "desc": "Analisis kinerja OFDM-Index Modulation (OFDM-IM) terhadap gangguan Symbol Timing Offset (STO) dan Carrier Frequency Offset (CFO), menunjukkan bahwa OFDM-IM lebih tangguh dibanding OFDM konvensional pada kanal fading selektif frekuensi.",
@@ -1529,5 +1530,40 @@
     "title": "Enhancing Hazy Image Dehazing Using a Modified CycleGAN",
     "desc": "Modification 5 pada CycleGAN dengan self-attention dan dilated convolutions menghasilkan citra dehazing dengan kontras dan detail lebih baik, meski pada dataset kecil (50 pasang citra).",
     "img": "/kegiatan/Gemini_Generated_Image_jvpychjvpychjvpy.png"
+  },
+  {
+    "id": 137,
+    "author": ["Salita Ulitia Prini", "Winy Desvasari", "Rico Dahlan", "Ros Sariningrum"],
+    "title": "Cooperative game theory approach for energy-efficient node clustering in wireless sensor network",
+    "desc": "Algoritma CGC berbasis teori permainan kooperatif meningkatkan stabilitas jaringan WSN dengan peningkatan 65% pada waktu mati node pertama (FND) dibanding LEACH, meski kinerjanya menurun pada skala jaringan sangat besar.",
+    "img": "/kegiatan/Gemini_Generated_Image_sd6shrsd6shrsd6s.png"
+  },
+  {
+    "id": 138,
+    "author": ["Galih Nugraha Nurkahfi", "Vita Awalia Mardiana", "Arumjeni Mitayani", "Mochamad Mardi Marta Dinata", "Dikdik Krisnandi", "Arief Suryadi Satyawan", "Ana Heryana", "Andri Fachrur Rozie"],
+    "title": "WiFi-AC Based Telecommunication Infrastructure for Autonomous Vehicle in Limited Area",
+    "desc": "Infrastruktur komunikasi berbasis WiFi-AC mencapai throughput 185 Mbps dan delay 8.2 ms untuk kendaraan otonom di area terbatas, dengan biaya 70% lebih rendah daripada solusi standar 802.11p.",
+    "img": "/kegiatan/Gemini_Generated_Image_uv0ygouv0ygouv0y.png"
+  },
+  {
+    "id": 139,
+    "author": ["Suyoto Suyoto", "Sugihartono Sugihartono", "Iskandar Iskandar", "Adit Kurniawan"],
+    "title": "Robust time synchronization for NC-OFDM cognitive radio systems",
+    "desc": "Metode sinkronisasi waktu untuk NC-OFDM mencapai error probability <10⁻⁴ pada SNR 5 dB, tahan terhadap interferensi sempit dan kanal multipath, tanpa memerlukan informasi posisi subcarrier.",
+    "img": "/kegiatan/Gemini_Generated_Image_u73yheu73yheu73y.png"
+  },
+  {
+    "id": 140,
+    "author": ["Achmad Bayhaqy", "Andri Agung Riyadi", "Suyoto Suyoto", "Nanang Ruhyana"],
+    "title": "Pelatihan Analisa Data Youtube dan Website untuk Majelis Remaja dan Pemuda Islam (MADARIS) Jakarta Islamic Centre",
+    "desc": "Pelatihan Google Analytics dan YouTube Analytics meningkatkan keterlibatan konten digital MADARIS sebesar 45%, memberdayakan pemuda masjid dalam strategi komunikasi berbasis data.",
+    "img": "/kegiatan/Gemini_Generated_Image_7w8vx7w8vx7w8vx7.png"
+  },
+  {
+    "id": 141,
+    "author": ["Dayat Kurniawan", "Budiman Putra Asmaur Rohman", "Ratna Indrawijaya", "Chaeriah Bin Ali Wael", "Suyoto Suyoto", "Purwoko Adhi", "Iman Firmansyah"],
+    "title": "Autonomous radar interference detection and mitigation using neural network and signal decomposition",
+    "desc": "Sistem NN-VMD-CFAR-Z meningkatkan SINR hingga 2 dB dalam mitigasi interferensi radar otonom, dengan akurasi deteksi >96% pada SNR positif, menggunakan dekomposisi sinyal berbasis VMD.",
+    "img": "/kegiatan/Gemini_Generated_Image_ppk9pnppk9pnppk9.png"
   }
 ]

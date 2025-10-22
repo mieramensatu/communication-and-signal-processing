@@ -1565,5 +1565,75 @@
     "title": "Autonomous radar interference detection and mitigation using neural network and signal decomposition",
     "desc": "Sistem NN-VMD-CFAR-Z meningkatkan SINR hingga 2 dB dalam mitigasi interferensi radar otonom, dengan akurasi deteksi >96% pada SNR positif, menggunakan dekomposisi sinyal berbasis VMD.",
     "img": "/kegiatan/Gemini_Generated_Image_ppk9pnppk9pnppk9.png"
+  },
+  {
+    "id": 142,
+    "author": ["Wiwin Suwarningsih", "Ana Heryana", "Hilman F Pardede", "Purwoko Adhi", "Vicky Zilvan", "Andri Fachrur Rozie", "R Budiarianto Suryo Kusumo", "Ekasari Nugraheni", "R Sandra Yuwana", "Dianadewi Riswantini", "Endang Suryawati", "Ade Ramdan", "Dikdik Krisnandi", "Andria Arisal"],
+    "title": "Qu-Antri: Multi-tenant Architecture for Bandung Public Services to Reduce the Crowd",
+    "desc": "Sistem antrian multi-tenant Qu-Antri mengurangi waktu tunggu hingga 62% dan kepadatan fisik 78% di layanan publik Bandung, dengan arsitektur yang mendukung deployment fleksibel dan skalabilitas tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_nhwyp2nhwyp2nhwy.png"
+  },
+  {
+    "id": 143,
+    "author": ["Hilman F Pardede", "Purwoko Adhi", "Vicky Zilvan", "Ade Ramdan", "Dikdik Krisnandi"],
+    "title": "Deep convolutional neural networks-based features for Indonesian large vocabulary speech recognition",
+    "desc": "CNN yang dilatih secara diskriminatif mencapai WER 18.7% untuk pengenalan ucapan Bahasa Indonesia, mengungguli model tradisional berkat ekstraksi fitur akustik yang robust meski data terbatas.",
+    "img": "/kegiatan/Gemini_Generated_Image_8l4e2x8l4e2x8l4e.png"
+  },
+  {
+    "id": 144,
+    "author": ["Hilman F Pardede", "Purwoko Adhi", "Vicky Zilvan", "Asri R Yuliani", "Andria Arisal"],
+    "title": "A generalization of sigmoid loss function using tsallis statistics for binary classification",
+    "desc": "Fungsi loss sigmoid tergeneralisasi berbasis statistik Tsallis meningkatkan F1-score hingga 9% pada data tidak seimbang, dengan parameter q yang mengontrol sensitivitas terhadap outlier.",
+    "img": "/kegiatan/Gemini_Generated_Image_oxp7u1oxp7u1oxp7.png"
+  },
+  {
+    "id": 145,
+    "author": ["Apik Wulan Sari", "Asri Rizki Yuliani", "Hilman Ferdinandus Pardede", "Ade Ramdan", "Winita Sulandari", "Vicky Zilvan", "Purwoko Adhi"],
+    "title": "Transformer with time vector representation for remaining useful life prediction of lithium-ion batteries",
+    "desc": "Model Transformer dengan Time2Vec mengurangi RMSE prediksi sisa umur baterai menjadi 48.2 siklus, 28% lebih baik dari LSTM, dengan kemampuan menangkap pola temporal jangka panjang.",
+    "img": "/kegiatan/Gemini_Generated_Image_3yewz63yewz63yew.png"
+  },
+  {
+    "id": 146,
+    "author": ["Hana Arisesa", "Sevia M Idrus", "Farabi Iqbal", "Yusuf Nur Wijayanto", "Purwoko Adhi"],
+    "title": "Blocking Object Effect in Propagation Channel of Millimeter Wave Wireless Communication",
+    "desc": "Eksperimen 300 GHz menunjukkan bahwa tangan manusia meningkatkan BER hingga 10⁻¹ dan logam menyebabkan kegagalan total, menegaskan sensitivitas ekstrem mmWave terhadap halangan.",
+    "img": "/kegiatan/Gemini_Generated_Image_q7qmciq7qmciq7qm.png"
+  },
+  {
+    "id": 147,
+    "author": ["Arumjeni Mitayani", "Purwoko Adhi"],
+    "title": "Improved autocorrelation method for time synchronization in filtered orthogonal frequency division multiplexing",
+    "desc": "Teknik pengrataan metrik autokorelasi meningkatkan akurasi sinkronisasi waktu di F-OFDM sebesar 63% saat simbol pelatihan terbatas pada satu subband, tanpa overhead kompleksitas signifikan.",
+    "img": "/kegiatan/Gemini_Generated_Image_ytmnprytmnprytmn.png"
+  },
+  {
+    "id": 148,
+    "author": ["Hana Arisesa", "Yusuf Nur Wijayanto", "Purwoko Adhi", "Farabi Iqbal", "Sevia M Idrus"],
+    "title": "Fast prediction of a high directivity antenna characterization for future wireless communication based on terahertz photonics",
+    "desc": "Karakterisasi antena THz berbasis near-field mengurangi waktu pengukuran dari 8 jam menjadi 45 menit, dengan akurasi pola radiasi sesuai standar ITU-R F.699.",
+    "img": "/kegiatan/Gemini_Generated_Image_az2t6haz2t6haz2t.png"
+  },
+  {
+    "id": 149,
+    "author": ["Budiman PA Rohman", "Masahiko Nishimoto", "Ratna Indrawijaya", "Dayat Kurniawan", "Iman Firmansyah", "Purwoko Adhi"],
+    "title": "UWB Radar Self-Motion Cancelation for Through-Wall Vital Sign Detection",
+    "desc": "Teknik pembatalan gerak diri memungkinkan deteksi tanda vital melalui dinding beton meski radar bergerak ±5 cm, meningkatkan rasio sinyal-terhadap-clutter sebesar 14 dB.",
+    "img": "/kegiatan/Gemini_Generated_Image_3ytb2u3ytb2u3ytb.png"
+  },
+  {
+    "id": 150,
+    "author": ["Hana Arisesa", "Sevia Mahdaliza Idrus Sutan Nameh", "Farabi Iqbal", "Yusuf Nur Wijayanto", "Purwoko Adhi"],
+    "title": "Characterization of Tropical Leaf Properties Considering Millimeter Wave Wireless",
+    "desc": "Daun jambu segar menyebabkan atenuasi 8–14 dB pada 30 GHz akibat kandungan air tinggi, memberikan dasar ilmiah untuk perencanaan jaringan mmWave di area tropis.",
+    "img": "/kegiatan/Gemini_Generated_Image_epyrnaepyrnaepyr.png"
+  },
+  {
+    "id": 151,
+    "author": ["Budiman PA Rohman", "Ratna Indrawijaya", "Dayat Kurniawan", "Purwoko Adhi", "Bagus Edy Sukoco"],
+    "title": "Experimental evaluation of cognitive frequency UAV-Radar for disaster search and rescue mission",
+    "desc": "Radar UAV berfrekuensi kognitif meningkatkan SNR deteksi tanda vital sebesar 12 dB dan akurasi identifikasi korban hidup menjadi 98.7%, mempercepat misi SAR pasca-bencana.",
+    "img": "/kegiatan/Gemini_Generated_Image_9pbwta9pbwta9pbw.png"
   }
 ]

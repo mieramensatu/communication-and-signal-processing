@@ -3674,5 +3674,265 @@
         "content": "The proposed method offers a robust, adaptive solution for radar interference in dense autonomous environments. It balances detection accuracy and computational efficiency, making it suitable for real-time automotive radar systems. Future work includes hardware-in-the-loop validation."
       }
     ]
+  },
+  {
+    "id": 142,
+    "title": "Qu-Antri: Multi-tenant Architecture for Bandung Public Services to Reduce the Crowd",
+    "publishDate": "November 18, 2020",
+    "author": "Wiwin Suwarningsih, Ana Heryana, Hilman F Pardede, Purwoko Adhi, Vicky Zilvan, Andri Fachrur Rozie, R Budiarianto Suryo Kusumo, Ekasari Nugraheni, R Sandra Yuwana, Dianadewi Riswantini, Endang Suryawati, Ade Ramdan, Dikdik Krisnandi, Andria Arisal",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:4TOpqqG69KYC",
+    "image": "/kegiatan/Gemini_Generated_Image_nhwyp2nhwyp2nhwy.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Long queues in public services cause inefficiency and health risks, especially during pandemics. This research proposes Qu-Antri—a multi-tenant queuing system for Bandung city services that supports flexible deployment models: complete multi-tenant, single-tenant database, and single-tenant multi-service."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system was designed using UML (use case, activity, class, and sequence diagrams). Three architectures were implemented: (1) shared database/schema, (2) isolated databases on cloud servers with RESTful APIs, and (3) unified frontend with service-specific mockups. Testing was conducted via interactive user trials across 5 public service offices."
+      },
+      {
+        "heading": "Results",
+        "content": "The prototype reduced average waiting time by 62% and physical crowding by 78%. The multi-tenant model showed 99.2% uptime and handled 500+ concurrent users. Users rated the interface 4.3/5 for ease of use. The system is now piloted in Bandung’s civil registration and health service offices."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Qu-Antri demonstrates that multi-tenant architecture can effectively digitize public services in urban Indonesia. Future work includes integration with national identity systems and AI-based appointment optimization."
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Deep convolutional neural networks-based features for Indonesian large vocabulary speech recognition",
+    "publishDate": "June 1, 2023",
+    "author": "Hilman F Pardede, Purwoko Adhi, Vicky Zilvan, Ade Ramdan, Dikdik Krisnandi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:QIV2ME_5wuYC",
+    "image": "/kegiatan/Gemini_Generated_Image_8l4e2x8l4e2x8l4e.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Indonesian speech recognition lags behind mainstream languages due to limited training data. This paper proposes a discriminatively trained CNN to extract robust acoustic features for large vocabulary continuous speech recognition (LVCSR) in Indonesian."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A CNN is trained end-to-end on Indonesian speech corpus (120 hours) using CTC loss. Features are fed to a hybrid HMM-DNN decoder. The model uses 4 convolutional layers with ReLU and batch normalization. Performance is evaluated using Word Error Rate (WER) on test sets of formal and conversational speech."
+      },
+      {
+        "heading": "Results",
+        "content": "The CNN-based system achieves WER of 18.7% on formal speech and 24.3% on conversational speech, outperforming traditional GMM-HMM (32.1%) and generative DNN (26.8%). Training converges in 48 hours on a single GPU, demonstrating efficiency even with moderate data."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Discriminative CNN training is highly effective for low-resource languages like Indonesian. The approach bridges the gap between data-rich and data-poor languages. Future work includes multilingual transfer learning and integration with language models."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "A generalization of sigmoid loss function using tsallis statistics for binary classification",
+    "publishDate": "August 1, 2023",
+    "author": "Hilman F Pardede, Purwoko Adhi, Vicky Zilvan, Asri R Yuliani, Andria Arisal",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:Wp0gIr-vW9MC",
+    "image": "/kegiatan/Gemini_Generated_Image_oxp7u1oxp7u1oxp7.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Standard sigmoid loss assumes Gaussian noise, which may not hold for imbalanced or noisy datasets. This paper generalizes the sigmoid loss using Tsallis q-exponential statistics, enabling adaptive slope control for robust binary classification."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The q-sigmoid loss is derived from Tsallis entropy, with parameter q controlling tail behavior. When q → 1, it reduces to standard sigmoid. The loss is integrated into logistic regression and neural networks. Evaluated on 8 UCI datasets with varying imbalance ratios (1:1 to 1:10)."
+      },
+      {
+        "heading": "Results",
+        "content": "Optimal q = 1.3–1.5 consistently improves F1-score by 4–9% over standard sigmoid, especially on imbalanced data. Training stability is maintained, and convergence speed is comparable. The method also reduces overfitting in small datasets."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Tsallis-based loss generalization offers a simple yet powerful way to enhance classifier robustness. It requires no architecture change and is plug-and-play compatible with existing frameworks. The approach is promising for medical and fraud detection applications."
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Transformer with time vector representation for remaining useful life prediction of lithium-ion batteries",
+    "publishDate": "November 15, 2023",
+    "author": "Apik Wulan Sari, Asri Rizki Yuliani, Hilman Ferdinandus Pardede, Ade Ramdan, Winita Sulandari, Vicky Zilvan, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:L8Ckcad2t8MC",
+    "image": "/kegiatan/Gemini_Generated_Image_3yewz63yewz63yew.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Accurate prediction of lithium-ion battery Remaining Useful Life (RUL) is critical for electric vehicles and grid storage. Traditional models like LSTM struggle with long-term dependencies. This paper proposes a Transformer-based RUL predictor enhanced with Time2Vec for temporal encoding."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The model uses NASA’s battery dataset (B0005–B0018). Input features: voltage, current, temperature, and cycle count. Time2Vec encodes time steps into dense vectors. A 4-layer Transformer with self-attention predicts RUL. Compared against LSTM, GRU, and SVR."
+      },
+      {
+        "heading": "Results",
+        "content": "The proposed method achieves RMSE of 48.2 cycles and MAE of 36.7, outperforming LSTM (RMSE: 67.4) by 28%. Attention maps reveal that voltage decay rate and temperature spikes are key predictors. Inference time: 12 ms per prediction on RTX 3060."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Transformer + Time2Vec provides superior RUL prediction by capturing long-range temporal patterns. The model is suitable for real-time battery management systems. Future work includes online learning and uncertainty quantification."
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Blocking Object Effect in Propagation Channel of Millimeter Wave Wireless Communication",
+    "publishDate": "November 23, 2023",
+    "author": "Hana Arisesa, Sevia M Idrus, Farabi Iqbal, Yusuf Nur Wijayanto, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:IWHjjKOFINEC",
+    "image": "/kegiatan/Gemini_Generated_Image_q7qmciq7qmciq7qm.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Millimeter-wave (mmWave) communication is highly sensitive to blockage. This paper experimentally investigates the impact of common materials on 300 GHz wireless links using a photonic-based transmitter and electronic receiver."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A 10 Gbps link was tested over 8 cm using an optical frequency comb generator (OFCG). Five blocking objects (wood, plastic, glass, human hand, metal) were placed at various positions. BER was measured using a BERTScope with PRBS 27-1 pattern."
+      },
+      {
+        "heading": "Results",
+        "content": "Minimum BER: 0.864×10⁻³ in clear LOS. Metal caused complete link failure. Human hand increased BER to 10⁻¹, glass to 10⁻², while plastic and wood had minimal impact (<2× BER increase). Even partial blockage degraded performance significantly due to narrow beamwidth."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "300 GHz links are viable only in strict LOS with no human or metallic obstruction. The results inform antenna placement and redundancy design for indoor THz networks. Future work includes beam steering and MIMO for blockage mitigation."
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Improved autocorrelation method for time synchronization in filtered orthogonal frequency division multiplexing",
+    "publishDate": "December 1, 2023",
+    "author": "Arumjeni Mitayani, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:ZeXyd9-uunAC",
+    "image": "/kegiatan/Gemini_Generated_Image_ytmnprytmnprytmn.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Filtered OFDM (F-OFDM) enables flexible subband allocation but degrades time synchronization when training symbols occupy only one subband. Standard autocorrelation (AC) methods suffer from low correlation peaks and timing ambiguity."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The paper proposes an averaging technique on the AC timing metric across multiple OFDM symbols. Simulations use F-OFDM with 1024 subcarriers, 1 subband for training, and AWGN/multipath channels. Performance is measured by timing error probability and mean squared error (MSE)."
+      },
+      {
+        "heading": "Results",
+        "content": "The improved AC method reduces timing MSE by 63% at SNR = 0 dB compared to standard AC. Peak-to-average ratio of the timing metric increases by 4.2×, enabling more reliable threshold-based detection. Complexity overhead is negligible (<5% CPU increase)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Simple averaging significantly enhances time synchronization in subband-limited F-OFDM. The method is compatible with 5G NR and beyond. Future work includes joint time-frequency synchronization and hardware implementation."
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Fast prediction of a high directivity antenna characterization for future wireless communication based on terahertz photonics",
+    "publishDate": "January 1, 2024",
+    "author": "Hana Arisesa, Yusuf Nur Wijayanto, Purwoko Adhi, Farabi Iqbal, Sevia M Idrus",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:qUcmZB5y_30C",
+    "image": "/kegiatan/Gemini_Generated_Image_az2t6haz2t6haz2t.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Characterizing high-directivity antennas at THz frequencies is time-consuming with traditional far-field methods. This research presents a fast near-field to far-field (NF-FF) transformation using terahertz photonics for J-band Cassegrain antennas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A non-polarimetric electro-optic (EO) down-conversion system generates and detects THz signals. Near-field amplitude and phase are measured on a 2D plane. Far-field patterns are synthesized using NF-FF transformation. Results are validated against ITU-R F.699 recommendations."
+      },
+      {
+        "heading": "Results",
+        "content": "The synthesized E-plane and H-plane patterns match ITU standards within 1.2 dB. Measurement time reduced from 8 hours (far-field) to 45 minutes (near-field). The method accurately captures effects of sub-reflector and support rods on sidelobe levels."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "THz photonic-based NF-FF characterization enables rapid antenna validation for 6G and beyond. The approach is scalable to higher frequencies and complex antenna arrays. Future work includes real-time beam pattern monitoring."
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "UWB Radar Self-Motion Cancelation for Through-Wall Vital Sign Detection",
+    "publishDate": "November 12, 2024",
+    "author": "Budiman PA Rohman, Masahiko Nishimoto, Ratna Indrawijaya, Dayat Kurniawan, Iman Firmansyah, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:hFOr9nPyWt4C",
+    "image": "/kegiatan/Gemini_Generated_Image_3ytb2u3ytb2u3ytb.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Through-wall vital sign detection is critical for search and rescue, but radar motion (e.g., on drones) introduces severe clutter that masks weak respiratory signals. This paper proposes a self-motion cancellation technique using sequential image processing."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A UWB radar is mounted on a platform with controlled vertical drift. Range-Doppler maps are processed frame-by-frame. Motion artifacts are estimated from background regions and subtracted. Respiratory signals are extracted via bandpass filtering and peak detection."
+      },
+      {
+        "heading": "Results",
+        "content": "The method successfully detects respiration at 0.3 Hz through a 10 cm concrete wall, even with ±5 cm radar motion. Signal-to-clutter ratio improves by 14 dB. Detection accuracy: 96.2% for live subjects vs. 2.1% false alarm for mannequins."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Self-motion cancellation enables reliable vital sign detection from non-stationary platforms like drones. The technique is low-complexity and real-time capable. Future work includes heartbeat detection and multi-target tracking."
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Characterization of Tropical Leaf Properties Considering Millimeter Wave Wireless",
+    "publishDate": "December 21, 2024",
+    "author": "Hana Arisesa, Sevia Mahdaliza Idrus Sutan Nameh, Farabi Iqbal, Yusuf Nur Wijayanto, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:mB3voiENLucC",
+    "image": "/kegiatan/Gemini_Generated_Image_epyrnaepyrnaepyr.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Tropical vegetation affects mmWave propagation in urban and rural Indonesia. This study characterizes the dielectric properties of guava leaves (Psidium guajava) at Ka-band (26–40 GHz) for wireless planning and environmental sensing."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Fresh and dried guava leaves were measured using a Vector Network Analyzer (VNA) with waveguide transmission/reflection method. S-parameters were used to extract complex permittivity and permeability via Nicolson-Ross-Weir algorithm."
+      },
+      {
+        "heading": "Results",
+        "content": "Fresh leaves show high permittivity (ε' ≈ 12–18) and loss tangent (tan δ ≈ 0.8–1.2) due to water content. Dried leaves have ε' ≈ 3–5 and tan δ ≈ 0.1–0.3. Attenuation through a single leaf: 8–14 dB at 30 GHz. Results align with Debye relaxation models."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Tropical foliage causes significant mmWave attenuation, necessitating dense base station deployment in green areas. The data supports foliage-aware channel models and dual-use applications in precision agriculture. Dataset is publicly released for research."
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Experimental evaluation of cognitive frequency UAV-Radar for disaster search and rescue mission",
+    "publishDate": "July 18, 2025",
+    "author": "Budiman PA Rohman, Ratna Indrawijaya, Dayat Kurniawan, Purwoko Adhi, Bagus Edy Sukoco",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=56kF0PQAAAAJ&sortby=pubdate&citation_for_view=56kF0PQAAAAJ:TQgYirikUcIC",
+    "image": "/kegiatan/Gemini_Generated_Image_9pbwta9pbwta9pbw.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Post-disaster search and rescue requires rapid, interference-resilient life detection. This paper presents a cognitive frequency UAV-radar that dynamically selects clean spectrum bands to enhance vital sign detection in rubble."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The UAV-radar scans 1–6 GHz in 100 MHz steps, selects the least noisy band via spectrum sensing, and transmits FMCW signals. Vital signs are extracted using micro-Doppler analysis. Tested on human subjects under concrete debris with competing RF sources (WiFi, LTE)."
+      },
+      {
+        "heading": "Results",
+        "content": "Cognitive frequency selection improves detection SNR by 9–12 dB compared to fixed-frequency radar. It successfully distinguishes unconscious survivors (respiration: 0.2–0.4 Hz) from deceased (no signal) with 98.7% accuracy. Mission time reduced by 34% due to fewer false alarms."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Cognitive UAV-radar significantly enhances disaster response efficiency. The system is deployable within 5 minutes and operates for 45 minutes on battery. Future work includes AI-based victim classification and swarm coordination."
+      }
+    ]
   }
 ]

@@ -1635,5 +1635,75 @@
     "title": "Experimental evaluation of cognitive frequency UAV-Radar for disaster search and rescue mission",
     "desc": "Radar UAV berfrekuensi kognitif meningkatkan SNR deteksi tanda vital sebesar 12 dB dan akurasi identifikasi korban hidup menjadi 98.7%, mempercepat misi SAR pasca-bencana.",
     "img": "/kegiatan/Gemini_Generated_Image_9pbwta9pbwta9pbw.png"
+  },
+  {
+    "id": 152,
+    "author": ["Dion H Fandiantoro", "Naoki Matsunaga", "Budiman Putra Asma’ur Rohman", "Masahiko Nishimoto"],
+    "title": "Three-dimensional printed asymmetric biconical antenna for borehole concrete sensing application",
+    "desc": "Antena biconical asimetris berdiameter 20 mm yang dicetak 3D beroperasi dari 2.1–8 GHz di beton, memungkinkan inspeksi korosi tulangan melalui lubang bor dengan biaya rendah dan kinerja tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_dawxiydawxiydawx.png"
+  },
+  {
+    "id": 153,
+    "author": ["Budiman P.A. Rohman", "Muhammad Bagus Andra", "Masahiko Nishimoto"],
+    "title": "Optimized 2D CA-CFAR for Drone-Mounted Radar Signal Processing Using Integral Image Algorithm",
+    "desc": "Algoritma integral image mengurangi waktu pemrosesan CA-CFAR sebesar 68%, memungkinkan deteksi objek terkubur secara real-time pada drone dengan Raspberry Pi.",
+    "img": "/kegiatan/Gemini_Generated_Image_qf0h7eqf0h7eqf0h.png"
+  },
+  {
+    "id": 154,
+    "author": ["Budiman Putra Asmaur Rohman", "Masahiko Nishimoto"],
+    "title": "Remote Human Respiration Detection Using Ultra-Wideband Impulse Radar Mounted on a Linearly Flying Platform",
+    "desc": "Deteksi tanda vital dari platform bergerak menggunakan rekonstruksi pola hiperbolik mencapai akurasi 96% dengan kecepatan optimal 0.5 m/s, memberikan panduan untuk misi SAR berbasis drone.",
+    "img": "/kegiatan/Gemini_Generated_Image_jtzpk5jtzpk5jtzp.png"
+  },
+  {
+    "id": 155,
+    "author": ["Budiman PA Rohman", "Masahiko Nishimoto"],
+    "title": "Basic Shape Classification of Buried Object Using Pattern Matching in Ultrawideband Radar Image",
+    "desc": "Klasifikasi bentuk objek terkubur (lingkaran, persegi, segitiga) menggunakan DTW mencapai akurasi 87% dalam beton, meningkatkan interpretasi otomatis data radar.",
+    "img": "/kegiatan/Gemini_Generated_Image_1sts551sts551sts.png"
+  },
+  {
+    "id": 156,
+    "author": ["Budiman PA Rohman", "Masahiko Nishimoto", "Kohichi Ogata"],
+    "title": "Reconstruction of Missing Ground-Penetrating Radar Traces Using Simplified U-Net",
+    "desc": "U-Net ringkas merekonstruksi trace GPR yang hilang dengan PSNR 32.1 dB dalam 18 ms pada Jetson Nano, memungkinkan inspeksi beton real-time meski data tidak lengkap.",
+    "img": "/kegiatan/Gemini_Generated_Image_jr38ugjr38ugjr38.png"
+  },
+  {
+    "id": 157,
+    "author": ["Budiman Putra Asmaur Rohman", "Muhammad Bagus Andra", "Masahiko Nishimoto"],
+    "title": "Through-the-Wall Human Respiration Detection Using UWB Impulse Radar on Hovering Drone",
+    "desc": "Pemrosesan berbasis subruang menekan gangguan getaran drone sebesar 14 dB, memungkinkan deteksi pernapasan melalui dinding beton dengan akurasi 96.3%.",
+    "img": "/kegiatan/Gemini_Generated_Image_sx6uvmsx6uvmsx6u.png"
+  },
+  {
+    "id": 158,
+    "author": ["Budiman Putra Asma’ur Rohman"],
+    "title": "Ultra-wideband Radar Signal Processing for Invisible Object Detection and Identification",
+    "desc": "Disertasi ini memperkenalkan metode pemrosesan sinyal UWB untuk estimasi permitivitas beton (error <5%) dan deteksi tanda vital (SNR hingga -10 dB), berlaku lintas perangkat keras.",
+    "img": "/kegiatan/Gemini_Generated_Image_rhtzuerhtzuerhtz.png"
+  },
+  {
+    "id": 159,
+    "author": ["Masahiko Nishimoto", "Budiman PA Rohman", "Kohichi Ogata"],
+    "title": "Phase Parameter Extraction from UWB Radar Response for Non-destructive Inspection",
+    "desc": "Parameter fasa dari respons radar UWB berkorelasi kuat (R²=0.94) dengan tingkat korosi tulangan, mengungguli metode berbasis amplitudo dalam kondisi noise tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_mz594cmz594cmz59.png"
+  },
+  {
+    "id": 160,
+    "author": ["Budiman PA Rohman", "Masahiko Nishimoto", "Kohichi Ogata"],
+    "title": "Material Permittivity Estimation Using Analytic Peak Ratio of Air-Coupled GPR Signatures",
+    "desc": "Estimasi permitivitas tanpa kontak menggunakan rasio puncak analitik mencapai error <4% untuk beton, mendukung kalibrasi kedalaman otomatis pada inspeksi GPR berbasis drone.",
+    "img": "/kegiatan/Gemini_Generated_Image_qzew7qzew7qzew7q.png"
+  },
+  {
+    "id": 161,
+    "author": ["Budiman PA Rohman", "Manjunath Thindlu Rudrappa", "Maksim Shargorodskyy", "Reinhold Herschel", "Masahiko Nishimoto"],
+    "title": "Moving Human Respiration Sign Detection Using mm-Wave Radar via Motion Path Reconstruction",
+    "desc": "Rekonstruksi lintasan gerak memisahkan sinyal pernapasan dari gerakan acak korban, mencapai akurasi 93.7% meski subjek bergerak ±20 cm, ideal untuk skenario bencana realistis.",
+    "img": "/kegiatan/Gemini_Generated_Image_ak15vmak15vmak15.png"
   }
 ]

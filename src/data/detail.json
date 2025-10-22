@@ -3934,5 +3934,265 @@
         "content": "Cognitive UAV-radar significantly enhances disaster response efficiency. The system is deployable within 5 minutes and operates for 45 minutes on battery. Future work includes AI-based victim classification and swarm coordination."
       }
     ]
+  },
+  {
+    "id": 152,
+    "title": "Three-dimensional printed asymmetric biconical antenna for borehole concrete sensing application",
+    "publishDate": "January 1, 2020",
+    "author": "Dion H Fandiantoro, Naoki Matsunaga, Budiman Putra Asma’ur Rohman, Masahiko Nishimoto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:hFOr9nPyWt4C",
+    "image": "/kegiatan/Gemini_Generated_Image_dawxiydawxiydawx.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Corrosion of reinforcing bars in concrete structures is a major safety concern. Borehole radar offers a non-destructive solution, but requires compact, high-performance antennas that fit narrow drill holes. This paper proposes a 3D-printed asymmetric biconical antenna tailored for borehole inspection."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The antenna was designed with a 20 mm diameter to fit standard boreholes. It was fabricated using a 3D printer with PLA plastic and coated with copper tape for conductivity. Simulations and measurements were conducted in free space and embedded in concrete blocks with rebars."
+      },
+      {
+        "heading": "Results",
+        "content": "The antenna operates from 2.4 GHz (free space) down to 2.1 GHz (in concrete) up to 8 GHz. Reflection coefficient (S11) remains below -10 dB across the band. The asymmetric design improves impedance matching in lossy concrete environments compared to symmetric counterparts."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The 3D-printed antenna is a low-cost, customizable solution for borehole radar systems. Its compact size and robust performance make it ideal for civil infrastructure health monitoring. Future work includes integration with UWB radar for real-time corrosion mapping."
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Optimized 2D CA-CFAR for Drone-Mounted Radar Signal Processing Using Integral Image Algorithm",
+    "publishDate": "December 4, 2020",
+    "author": "Budiman P.A. Rohman, Muhammad Bagus Andra, Masahiko Nishimoto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:maZDTaKrznsC",
+    "image": "/kegiatan/Gemini_Generated_Image_qf0h7eqf0h7eqf0h.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Drone-mounted UWB radar for search and rescue is limited by onboard computational power. Constant False Alarm Rate (CFAR) detection is essential but computationally heavy. This paper optimizes 2D Cell-Averaging CFAR using the integral image algorithm for real-time processing."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The integral image technique precomputes cumulative sums to enable O(1) window sum calculation. The optimized CA-CFAR was implemented on a Raspberry Pi 4 mounted on a multisensory drone. Performance was evaluated in terms of processing time and detection accuracy on buried object scenarios."
+      },
+      {
+        "heading": "Results",
+        "content": "Processing time reduced by 68% compared to standard sliding-window CFAR. The system achieved real-time operation (12 FPS) on 512×512 radar images. Detection accuracy remained above 94% for targets at 0.5–1.2 m depth."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integral image-based CFAR enables efficient radar processing on resource-constrained drones. This approach is critical for large-area post-disaster surveys. Future work includes adaptive window sizing based on target size estimation."
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Remote Human Respiration Detection Using Ultra-Wideband Impulse Radar Mounted on a Linearly Flying Platform",
+    "publishDate": "January 1, 2021",
+    "author": "Budiman Putra Asmaur Rohman, Masahiko Nishimoto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:4JMBOYKVnBMC",
+    "image": "/kegiatan/Gemini_Generated_Image_jtzpk5jtzpk5jtzp.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "In large disaster zones, fast aerial vital sign detection is essential. However, radar on moving platforms suffers from motion-induced signal distortion. This paper proposes a method to extract respiration signals from hyperbolic patterns in radar data."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A UWB radar was mounted on a linear rail to simulate drone flight. Sequential image processing reconstructs hyperbolic traces from B-scan data. Respiration frequency is extracted via FFT after background subtraction and noise filtering."
+      },
+      {
+        "heading": "Results",
+        "content": "Human respiration (0.2–0.4 Hz) was detected at distances up to 3 m. Optimal platform speed: 0.5 m/s—faster speeds blurred hyperbolic patterns. SNR improved by 11 dB after processing. False alarm rate: <3% in controlled lab tests."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The method enables reliable respiration detection from linearly moving platforms. It provides design guidelines for drone speed in real missions. Future work includes 2D motion compensation and heartbeat detection."
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Basic Shape Classification of Buried Object Using Pattern Matching in Ultrawideband Radar Image",
+    "publishDate": "January 25, 2021",
+    "author": "Budiman PA Rohman, Masahiko Nishimoto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:hMod-77fHWUC",
+    "image": "/kegiatan/Gemini_Generated_Image_1sts551sts551sts.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Identifying the shape of buried objects (e.g., pipes, rebars) improves interpretation of GPR data. This paper proposes a dynamic time warping (DTW)-based pattern matching technique for classifying cross-sectional shapes from UWB radar B-scans."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Reference patterns for circle, square, and triangle were generated via simulation and validated experimentally. DTW measures similarity between test and reference signals by aligning them non-linearly in time. Classification is based on minimum DTW distance."
+      },
+      {
+        "heading": "Results",
+        "content": "The method achieved 92% accuracy in simulations and 87% in concrete experiments. DTW outperformed Euclidean distance by 23% in noisy conditions. Classification is robust to object depth and orientation variations within ±15°."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pattern matching with DTW is a simple yet effective approach for shape-based object identification in radar imaging. It enhances automated interpretation of subsurface data. Future work includes 3D shape recognition and deep learning hybridization."
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Reconstruction of Missing Ground-Penetrating Radar Traces Using Simplified U-Net",
+    "publishDate": "April 26, 2021",
+    "author": "Budiman PA Rohman, Masahiko Nishimoto, Kohichi Ogata",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:NMxIlDl6LWMC",
+    "image": "/kegiatan/Gemini_Generated_Image_jr38ugjr38ugjr38.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Missing traces in GPR data—caused by sensor failure or motion artifacts—degrade image quality and interpretation. This paper proposes a lightweight U-Net variant to reconstruct missing traces in reinforced concrete inspection."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The simplified U-Net uses shallow layers, reduced feature maps, multi-wide kernels, and fewer encoder-decoder steps. Trained on simulated and real GPR data of rebars and cracks. Input: incomplete B-scan; Output: reconstructed full B-scan."
+      },
+      {
+        "heading": "Results",
+        "content": "The model achieves PSNR of 32.1 dB and SSIM of 0.93 on test data. Inference time: 18 ms per image on Jetson Nano. It outperforms linear interpolation and KNN by >8 dB in PSNR. Visual quality enables clear rebar detection even with 30% missing traces."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The lightweight U-Net is highly effective for GPR trace reconstruction on edge devices. It supports real-time data quality enhancement in field inspections. Code and dataset are publicly released for reproducibility."
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Through-the-Wall Human Respiration Detection Using UWB Impulse Radar on Hovering Drone",
+    "publishDate": "June 8, 2021",
+    "author": "Budiman Putra Asmaur Rohman, Muhammad Bagus Andra, Masahiko Nishimoto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:BqipwSGYUEgC",
+    "image": "/kegiatan/Gemini_Generated_Image_sx6uvmsx6uvmsx6u.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Through-wall vital sign detection from drones is promising for search and rescue but challenged by drone vibration and weak respiration signals. This paper introduces a subspace-based signal processing method to enhance detection robustness."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Analytic signal representation is used to extract phase information. Subspace component segregation separates respiration from clutter and vibration. Tested on a hovering drone with artificial wall (10 cm concrete) and human subject behind it."
+      },
+      {
+        "heading": "Results",
+        "content": "The method suppresses drone-induced vibration by 14 dB. Respiration detection accuracy: 96.3% at 1.5 m standoff distance. It works even with ±3 cm drone drift. False alarm rate for mannequins: 1.8%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Subspace-based processing enables reliable through-wall vital sign detection from unstable platforms. The system is deployable in real disaster scenarios. Future work includes multi-target tracking and heartbeat extraction."
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Ultra-wideband Radar Signal Processing for Invisible Object Detection and Identification",
+    "publishDate": "September 24, 2021",
+    "author": "Budiman Putra Asma’ur Rohman",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:yD5IFk8b50cC",
+    "image": "/kegiatan/Gemini_Generated_Image_rhtzuerhtzuerhtz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "UWB radar is effective for non-destructive testing and vital sign monitoring, but raw data is hard to interpret. This doctoral thesis proposes novel signal processing techniques to extract meaningful information from UWB responses."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Two main applications: (1) concrete inspection—estimating dielectric constant via analytic peak signal ratio to determine rebar depth/corrosion; (2) vital sign detection—motion compensation and micro-Doppler analysis. Methods include analytic signal processing, subspace filtering, and machine learning."
+      },
+      {
+        "heading": "Results",
+        "content": "Dielectric constant estimation error <5% across concrete types. Rebar depth accuracy: ±2 mm. Respiration detection works at SNR as low as -10 dB. All methods are generalized across radar hardware, enabling wide applicability."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The proposed techniques bridge the gap between raw UWB data and actionable insights. They are validated in both lab and field conditions. The thesis contributes foundational methods for next-generation radar-based sensing systems."
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Phase Parameter Extraction from UWB Radar Response for Non-destructive Inspection",
+    "publishDate": "October 19, 2021",
+    "author": "Masahiko Nishimoto, Budiman PA Rohman, Kohichi Ogata",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:lSLTfruPkqcC",
+    "image": "/kegiatan/Gemini_Generated_Image_mz594cmz594cmz59.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Corrosion changes the electromagnetic scattering phase of rebars, but traditional amplitude-based methods fail to capture this. This paper introduces a phase parameter for corrosion stage estimation in concrete."
+      },
+      {
+        "heading": "Methodology",
+        "content": "UWB radar responses from corroded rebars are analyzed in the frequency domain. A phase shift parameter is extracted from the scattering response. Simulations model rebars with 0–50% corrosion area. Performance is compared against correlation coefficient methods."
+      },
+      {
+        "heading": "Results",
+        "content": "The phase parameter correlates strongly with corrosion level (R² = 0.94), while correlation coefficient fails (R² = 0.31) in high-noise scenarios. The method works even when rebar is deeply embedded (>10 cm)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Phase-based analysis provides a sensitive, noise-resilient indicator of rebar corrosion. It complements existing amplitude methods and enables quantitative structural health assessment. Future work includes field validation on real bridges."
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Material Permittivity Estimation Using Analytic Peak Ratio of Air-Coupled GPR Signatures",
+    "publishDate": "January 27, 2022",
+    "author": "Budiman PA Rohman, Masahiko Nishimoto, Kohichi Ogata",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:HoB7MX3m0LUC",
+    "image": "/kegiatan/Gemini_Generated_Image_qzew7qzew7qzew7q.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Accurate permittivity estimation is crucial for depth calibration in GPR. Traditional methods require contact or reference objects. This paper proposes a contactless, air-coupled method using analytic peak ratio for mobile inspections."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The ratio of peak amplitudes between direct coupling and surface reflection is used to estimate permittivity. Reference curves are generated via FDTD simulation for common materials (concrete, asphalt, soil). Interpolation maps ratio to permittivity."
+      },
+      {
+        "heading": "Results",
+        "content": "Permittivity estimation error: <4% for concrete (εᵣ = 4–8), <6% for soil (εᵣ = 3–15). Works across GPR types (1–3 GHz) and standoff distances (10–50 cm). Processing time: <100 ms per scan on embedded system."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The analytic peak ratio method enables fast, accurate permittivity estimation for large-area GPR surveys. It is ideal for drone or vehicle-mounted systems. The approach is now integrated into BRIN’s infrastructure inspection toolkit."
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Moving Human Respiration Sign Detection Using mm-Wave Radar via Motion Path Reconstruction",
+    "publishDate": "November 23, 2021",
+    "author": "Budiman PA Rohman, Manjunath Thindlu Rudrappa, Maksim Shargorodskyy, Reinhold Herschel, Masahiko Nishimoto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:70eg2SAEIzsC",
+    "image": "/kegiatan/Gemini_Generated_Image_ak15vmak15vmak15.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Detecting respiration from non-stationary humans (e.g., trapped victims moving slightly) is challenging. This paper proposes motion path reconstruction to separate vital signs from random body motion using mm-wave radar."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sequential radar frames undergo adaptive thresholding, image segmentation, and PCA-based motion path estimation. Respiration is extracted from the residual signal after motion compensation. Tested with human subjects moving randomly within ±20 cm."
+      },
+      {
+        "heading": "Results",
+        "content": "The system detects respiration with 93.7% accuracy despite random motion. Motion path reconstruction reduces clutter by 12 dB. Works at 24 GHz and 77 GHz bands. False alarm rate: 2.4% for static clutter."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Motion-aware processing enables robust vital sign detection in realistic post-disaster scenarios. The method is suitable for handheld or drone-based mm-wave radar systems. Future work includes integration with thermal cameras for multi-modal sensing."
+      }
+    ]
   }
 ]

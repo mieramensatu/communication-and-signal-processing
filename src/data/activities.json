@@ -1705,5 +1705,33 @@
     "title": "Moving Human Respiration Sign Detection Using mm-Wave Radar via Motion Path Reconstruction",
     "desc": "Rekonstruksi lintasan gerak memisahkan sinyal pernapasan dari gerakan acak korban, mencapai akurasi 93.7% meski subjek bergerak ±20 cm, ideal untuk skenario bencana realistis.",
     "img": "/kegiatan/Gemini_Generated_Image_ak15vmak15vmak15.png"
+  },
+  {
+    "id": 162,
+    "author": ["Ratna Indrawijaya", "Budiman Putra Asma’ur Rohman"],
+    "title": "Cognitive Linear Trajectory on GPR Imaging Using Lightweight Machine Learning",
+    "desc": "Sistem GPR bertrajektori kognitif menggunakan CNN ringkas untuk mendeteksi keberadaan objek secara real-time, mengurangi waktu pemindaian hingga 35% tanpa kehilangan detail gambar.",
+    "img": "/kegiatan/Gemini_Generated_Image_47npaa47npaa47np.png"
+  },
+  {
+    "id": 163,
+    "author": ["Budiman Putra Asmaur Rohman", "Masahiko Nishimoto", "Ratna Indrawijaya", "Dayat Kurniawan", "Iman Firmansyah", "Bagus Edy Sukoco"],
+    "title": "Ground Penetrating Radar Data Inversion Using Dual-Input Convolutional Autoencoder for Ferroconcrete Inspection",
+    "desc": "Autoencoder konvolusional berinput ganda (amplitudo dan fasa) mengubah data GPR menjadi visualisasi intuitif tulangan dan retak beton dengan akurasi posisi <3 mm.",
+    "img": "/kegiatan/Gemini_Generated_Image_5c72bc5c72bc5c72.png"
+  },
+  {
+    "id": 164,
+    "author": ["Chantika Rahma Galih Abu A’syifa", "Brahmantya Aji Pramudita", "Budiman Putra Asma’ur Rohman", "Dhoni Putra Setiawan"],
+    "title": "Comparing Predictive Capabilities of Machine Learning Models in Weather Forecasting",
+    "desc": "XGBoost mengungguli model ML lain dalam prediksi cuaca jangka pendek dengan akurasi 92.3%, terutama unggul dalam mendeteksi kejadian langka seperti badai (recall 84%).",
+    "img": "/kegiatan/Gemini_Generated_Image_mcsb0emcsb0emcsb.png"
+  },
+  {
+    "id": 165,
+    "author": ["Rischa Zefaniya Br Sinulingga", "Brahmantya Aji Pramudita", "Budiman Putra Asma’ur Rohman", "Dhoni Putra Setiawan"],
+    "title": "Optimizing Machine Learning for Imbalanced Rainfall Data Prediction",
+    "desc": "XGBoost dengan pembobotan kelas mencapai F2-score 0.87 dalam memprediksi hujan ekstrem, mengurangi false negative hingga 42%—kritis untuk sistem peringatan dini bencana hidrometeorologi.",
+    "img": "/kegiatan/Gemini_Generated_Image_g7or19g7or19g7or.png"
   }
 ]

@@ -4194,5 +4194,109 @@
         "content": "Motion-aware processing enables robust vital sign detection in realistic post-disaster scenarios. The method is suitable for handheld or drone-based mm-wave radar systems. Future work includes integration with thermal cameras for multi-modal sensing."
       }
     ]
+  },
+  {
+    "id": 162,
+    "title": "Cognitive Linear Trajectory on GPR Imaging Using Lightweight Machine Learning",
+    "publishDate": "November 15, 2023",
+    "author": "Ratna Indrawijaya, Budiman Putra Asma’ur Rohman",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:D03iK_w7-QYC",
+    "image": "/kegiatan/Gemini_Generated_Image_47npaa47npaa47np.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Ground Penetrating Radar (GPR) inspection of large structures like buildings or utility corridors is time-consuming. Fixed-speed scanning wastes time on empty regions. This paper proposes a cognitive linear trajectory that adapts scanning speed based on real-time object detection."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A lightweight 1D Convolutional Neural Network (CNN) processes A-scan data to estimate the probability of subsurface objects. If an object is likely present, the GPR slows down to capture high-resolution data; otherwise, it speeds up. The system was evaluated on synthetic GPR data of rebars and voids."
+      },
+      {
+        "heading": "Results",
+        "content": "The CNN achieved >80% accuracy in object existence detection. The adaptive trajectory reduced total scanning time by 35% while preserving image detail in regions of interest. Inference latency: <5 ms per A-scan on an embedded ARM Cortex-A72 processor."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Cognitive trajectory control enables efficient GPR surveying without sacrificing data quality. Future work includes real-world validation on concrete structures and integration with robotic scanning platforms."
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Ground Penetrating Radar Data Inversion Using Dual-Input Convolutional Autoencoder for Ferroconcrete Inspection",
+    "publishDate": "August 31, 2024",
+    "author": "Budiman Putra Asmaur Rohman, Masahiko Nishimoto, Ratna Indrawijaya, Dayat Kurniawan, Iman Firmansyah, Bagus Edy Sukoco",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:_xSYboBqXhAC",
+    "image": "/kegiatan/Gemini_Generated_Image_5c72bc5c72bc5c72.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "GPR B-scans are difficult to interpret for non-experts, especially in reinforced concrete inspection. This paper proposes a dual-input convolutional autoencoder to invert GPR scattering data into intuitive visualizations of internal structures (rebars, cracks)."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The model takes both amplitude and phase of GPR signals as dual inputs. A symmetric encoder-decoder architecture with skip connections reconstructs cross-sectional images. Training uses FDTD-simulated data for three scenarios: rebar-only, crack-only, and combined. Loss function combines MSE and structural similarity (SSIM)."
+      },
+      {
+        "heading": "Results",
+        "content": "The autoencoder achieves PSNR of 29.4 dB and SSIM of 0.88 on test data. Rebar diameter and crack width are visualized with <3 mm error. The model generalizes well across randomized concrete properties (permittivity 4–8, loss tangent 0.01–0.05)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Dual-input autoencoder significantly enhances GPR interpretability for civil engineers. The system is being integrated into BRIN’s infrastructure health monitoring toolkit. Future work includes real-data fine-tuning and 3D extension."
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Comparing Predictive Capabilities of Machine Learning Models in Weather Forecasting",
+    "publishDate": "July 3, 2025",
+    "author": "Chantika Rahma Galih Abu A’syifa, Brahmantya Aji Pramudita, Budiman Putra Asma’ur Rohman, Dhoni Putra Setiawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:CHSYGLWDkRkC",
+    "image": "/kegiatan/Gemini_Generated_Image_mcsb0emcsb0emcsb.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Weather forecasting is critical for agriculture, transport, and disaster preparedness. Traditional numerical models struggle with non-linear feature interactions and imbalanced data. This study evaluates four ML classifiers for short-term weather prediction."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Decision Tree, Random Forest, SVM, and XGBoost were trained on 5 years of meteorological data (temperature, humidity, pressure, wind speed) from BMKG Indonesia. Task: classify next-day weather into 5 classes (sunny, cloudy, rain, heavy rain, storm). Metrics: accuracy, F1-score, and AUC-ROC."
+      },
+      {
+        "heading": "Results",
+        "content": "XGBoost outperformed others: accuracy = 92.3%, F1 = 0.91. Random Forest was close (89.7%), while SVM and Decision Tree lagged (<85%). XGBoost handled class imbalance best, especially for rare 'storm' events (recall = 84%)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "XGBoost is the most robust ML model for operational weather forecasting in tropical climates. The system is being piloted with local agricultural cooperatives. Future work includes ensemble methods and satellite data integration."
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Optimizing Machine Learning for Imbalanced Rainfall Data Prediction",
+    "publishDate": "August 2, 2025",
+    "author": "Rischa Zefaniya Br Sinulingga, Brahmantya Aji Pramudita, Budiman Putra Asma’ur Rohman, Dhoni Putra Setiawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=W4HtVZ4AAAAJ&sortby=pubdate&citation_for_view=W4HtVZ4AAAAJ:xtRiw3GOFMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_g7or19g7or19g7or.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Rainfall prediction is vital for flood and landslide mitigation, but datasets are highly imbalanced (few extreme rainfall events). Standard ML models bias toward majority classes. This paper evaluates resampling and cost-sensitive techniques to improve minority class prediction."
+      },
+      {
+        "heading": "Methodology",
+        "content": "SMOTE, ADASYN, and class-weighted XGBoost were tested on 10 years of hourly rainfall data from 50 BMKG stations. Target: binary classification of 'extreme rainfall' (>50 mm/h). Evaluation: precision, recall, and F2-score (prioritizing recall)."
+      },
+      {
+        "heading": "Results",
+        "content": "Class-weighted XGBoost achieved the best F2-score (0.87) with recall = 89% for extreme events. SMOTE improved recall to 85% but reduced precision. The optimized model reduced false negatives by 42% compared to baseline, critical for early warning systems."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Cost-sensitive learning is more effective than resampling for extreme rainfall prediction. The model is being integrated into Indonesia’s national hydrometeorological alert system. Future work includes spatio-temporal modeling using graph neural networks."
+      }
+    ]
   }
 ]

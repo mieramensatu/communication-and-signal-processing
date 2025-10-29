@@ -1428,7 +1428,11 @@
   },
   {
     "id": 122,
-    "author": ["Mahesa Wisnu Suputra", "Fiky Y Suratman", "Arief Suryadi Satyawan"],
+    "author": [
+      "Mahesa Wisnu Suputra",
+      "Fiky Y Suratman",
+      "Arief Suryadi Satyawan"
+    ],
     "title": "Optimasi Penggunaan Kamera FLIR Untuk Navigasi Pada Sistem Kemudi Otomatis",
     "desc": "Sistem kemudi otomatis berbasis kamera FLIR dan ResNet-50 mencapai akurasi deteksi 93.7% di malam hari, memungkinkan navigasi otonom yang andal dalam segala kondisi pencahayaan dengan deviasi jalur ±6 cm.",
     "img": "/kegiatan/Gemini_Generated_Image_h3let6h3let6h3le.png"
@@ -1442,161 +1446,319 @@
   },
   {
     "id": 124,
-    "author": ["Saharuna Saharuna", "Tjahjo Adiprabowo", "Muhammad Yassir", "Dian Nurdiana", "Puput Dani Prasetyo Adi", "Akio Kitagawa", "Arief Suryadi Satyawan"],
+    "author": [
+      "Saharuna Saharuna",
+      "Tjahjo Adiprabowo",
+      "Muhammad Yassir",
+      "Dian Nurdiana",
+      "Puput Dani Prasetyo Adi",
+      "Akio Kitagawa",
+      "Arief Suryadi Satyawan"
+    ],
     "title": "LoRaWAN-Based Communication for Autonomous Vehicles: Performance and Development",
     "desc": "Kombinasi LBT dan ADR pada LoRaWAN mengurangi tingkat tabrakan data menjadi 9% dan meningkatkan packet delivery ratio ke 94%, menjadikannya layak untuk komunikasi kendaraan otonom di area terbatas.",
     "img": "/kegiatan/Gemini_Generated_Image_g9w1h2g9w1h2g9w1.png"
   },
   {
     "id": 125,
-    "author": ["Anindya Afina Carmelya", "Arief Suryadi Satyawan", "Galura Muhammad Suranegara", "Mokhamamad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Nizar Alam Hamdani", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Anindya Afina Carmelya",
+      "Arief Suryadi Satyawan",
+      "Galura Muhammad Suranegara",
+      "Mokhamamad Mirza Etnisa Haqiqi",
+      "Helfy Susilawati",
+      "Nizar Alam Hamdani",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "SRCNN-based image transmission for autonomous vehicles in limited network areas",
     "desc": "Transmisi gambar resolusi rendah dengan rekonstruksi SRCNN mengurangi bandwidth 89% sambil mempertahankan akurasi deteksi objek 92.3%, ideal untuk jaringan IEEE 802.11ac terbatas.",
     "img": "/kegiatan/Gemini_Generated_Image_al2rbual2rbual2r.png"
   },
   {
     "id": 126,
-    "author": ["A. I. Nafian", "D. Anggraini", "M. I. Ardimansyah", "Arief Suryadi Satyawan"],
+    "author": [
+      "A. I. Nafian",
+      "D. Anggraini",
+      "M. I. Ardimansyah",
+      "Arief Suryadi Satyawan"
+    ],
     "title": "Adjustment of PointPillars for Effective LiDAR-Based Object Detection and Classification in Constrained Environments",
     "desc": "Modifikasi PointPillars dengan backbone ResNet dan voxel 0.16m meningkatkan mAP deteksi objek menjadi 0.76 pada lingkungan terbatas BRIN, terutama untuk objek seperti gerobak dan tiang.",
     "img": "/kegiatan/Gemini_Generated_Image_7520g37520g37520.png"
   },
   {
     "id": 127,
-    "author": ["Beni Wijaya", "Arief Suryadi Satyawan", "Mokh Mirza Etnisa Haqiqi", "Helfy Susilawati", "Khaulyca Arva Artemysia", "Sani Moch Sopian", "M Ikbal Shamie"],
+    "author": [
+      "Beni Wijaya",
+      "Arief Suryadi Satyawan",
+      "Mokh Mirza Etnisa Haqiqi",
+      "Helfy Susilawati",
+      "Khaulyca Arva Artemysia",
+      "Sani Moch Sopian",
+      "M Ikbal Shamie"
+    ],
     "title": "Enhancing Image Quality in Facial Recognition Systems with GAN-Based Reconstruction Techniques",
     "desc": "Model GAN berbasis multi-loss mencapai PSNR 26.93 dan SSIM 0.90 dalam merekonstruksi wajah terdegradasi, mempertahankan identitas dengan confidence >0.55 meskipun terjadi oklusi 40%.",
     "img": "/kegiatan/Gemini_Generated_Image_856uvs856uvs856u.png"
   },
   {
     "id": 128,
-    "author": ["Muhamad Fadly Rizqy Praptawilaga", "Galura Muhammad Suranegara", "Arief Suryadi Satyawan"],
+    "author": [
+      "Muhamad Fadly Rizqy Praptawilaga",
+      "Galura Muhammad Suranegara",
+      "Arief Suryadi Satyawan"
+    ],
     "title": "Efficient Image Transmission for Autonomous Systems Using Residual Dense Feature Networks Over LoRa Networks",
     "desc": "RDF Net mengirim gambar 40x40 dan merekonstruksi menjadi 800x800 melalui jaringan LoRa, mencapai SSIM 0.88 dengan waktu transmisi 0.21–0.56 detik, membuka jalan bagi telemetri visual di daerah terpencil.",
     "img": "/kegiatan/Gemini_Generated_Image_56s1rh56s1rh56s1.png"
   },
   {
     "id": 129,
-    "author": ["Raihan Aura Ferdiansyah", "Suharjanto Utomo", "Arief Suryadi Satyawan"],
+    "author": [
+      "Raihan Aura Ferdiansyah",
+      "Suharjanto Utomo",
+      "Arief Suryadi Satyawan"
+    ],
     "title": "IMPLEMENTASI MASK R-CNN UNTUK APLIKASI SEGMENTASI OBJEK SUATU AREA DARI UDARA",
     "desc": "Mask R-CNN mencapai mAP 0.8182 dalam segmentasi instance citra udara, dengan akurasi tinggi untuk sawah dan landasan (>80%) namun masih rendah untuk bangunan (51.02%) karena kompleksitas bentuk.",
     "img": "/kegiatan/Gemini_Generated_Image_labtpelabtpelabt.png"
   },
   {
     "id": 130,
-    "author": ["Nurul Fazri", "Helfy Susilawati", "Mokh Mirza Etnisa Haqiqi", "Arief Suryadi Satyawan"],
+    "author": [
+      "Nurul Fazri",
+      "Helfy Susilawati",
+      "Mokh Mirza Etnisa Haqiqi",
+      "Arief Suryadi Satyawan"
+    ],
     "title": "Thermal Image-Based Multi-Class Semantic Segmentation for Autonomous Vehicle Navigation in Restricted Environments",
     "desc": "SegNet mencapai F1-score 0.84 untuk tiang dan 0.63 untuk motor dalam segmentasi citra termal, menunjukkan potensi besar untuk navigasi otonom all-weather meski masih kesulitan dengan objek kompleks seperti pohon.",
     "img": "/kegiatan/Gemini_Generated_Image_wzqt4dwzqt4dwzqt.png"
   },
   {
     "id": 131,
-    "author": ["Reza Nurfaudzan Ash Shiddiq", "Arief Suryadi Satyawan", "Galura Muhammad Suranegara", "Muhammad Iqbal Fauzan"],
+    "author": [
+      "Reza Nurfaudzan Ash Shiddiq",
+      "Arief Suryadi Satyawan",
+      "Galura Muhammad Suranegara",
+      "Muhammad Iqbal Fauzan"
+    ],
     "title": "Optimized CNN-Based Autoencoder for Efficient Image Compression in LoRa Networks for Autonomous Electric Vehicles",
     "desc": "Autoencoder CNN dengan kompresi adaptif mencapai PSNR >24 dB pada rasio kompresi 15:1, menghasilkan file ~1.2 KB yang dapat ditransmisikan melalui LoRa dalam 0.2 detik, ideal untuk telemetri kendaraan otonom.",
     "img": "/kegiatan/Gemini_Generated_Image_4c95504c95504c95.png"
   },
   {
     "id": 132,
-    "author": ["Beni Wijaya", "Mokh Mirza Etnisa Haqiqi", "Arief Suryadi Satyawan", "Helfy Susilawati"],
+    "author": [
+      "Beni Wijaya",
+      "Mokh Mirza Etnisa Haqiqi",
+      "Arief Suryadi Satyawan",
+      "Helfy Susilawati"
+    ],
     "title": "Restorasi Citra Wajah Terdegradasi Menggunakan Model GAN dan Fungsi Loss",
     "desc": "Model GAN berbasis encoder-decoder dengan residual blocks berhasil merekonstruksi fitur wajah (mata, hidung, mulut) dari citra teroklusi, dengan loss generator stabil di 0.67 setelah 50 epoch pelatihan.",
     "img": "/kegiatan/Gemini_Generated_Image_7mvcq57mvcq57mvc.png"
   },
   {
     "id": 133,
-    "author": ["Firman", "Arief Suryadi Satyawan", "Helfy Susilawati", "Mokh Mirza Etnisa Haqiqi", "Khaulyca Arva Artemysia", "Sani Moch Sopian", "Beni Wijaya", "Muhammad Ikbal Samie"],
+    "author": [
+      "Firman",
+      "Arief Suryadi Satyawan",
+      "Helfy Susilawati",
+      "Mokh Mirza Etnisa Haqiqi",
+      "Khaulyca Arva Artemysia",
+      "Sani Moch Sopian",
+      "Beni Wijaya",
+      "Muhammad Ikbal Samie"
+    ],
     "title": "Optimizing Autonomous Navigation: Advances in LiDAR-based Object Recognition with Modified Voxel-RCNN",
     "desc": "Modifikasi Voxel-RCNN meningkatkan skor deteksi 3D untuk mobil dari 4.39 ke 10.31 dan mengurangi loss pelatihan hingga 29.1%, memperkuat kemampuan navigasi otonom di lingkungan dinamis.",
     "img": "/kegiatan/Gemini_Generated_Image_s6yjlrs6yjlrs6yj.png"
   },
   {
     "id": 134,
-    "author": ["Khaulyca Arva Artemysia", "Arief Suryadi Satyawan", "Mokhammad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Beni Wijaya", "Sani Moch Sopian", "Muhammad Ikbal Shamie", "Firman"],
+    "author": [
+      "Khaulyca Arva Artemysia",
+      "Arief Suryadi Satyawan",
+      "Mokhammad Mirza Etnisa Haqiqi",
+      "Helfy Susilawati",
+      "Beni Wijaya",
+      "Sani Moch Sopian",
+      "Muhammad Ikbal Shamie",
+      "Firman"
+    ],
     "title": "Enhancing Negative Film Colorization through Systematic CycleGAN Architectural Modifications: A Comprehensive Analysis of Generator and Discriminator Performance",
     "desc": "Modification 4 pada CycleGAN menghasilkan colorisasi film negatif dengan loss generator stabil dan kualitas visual superior, membuka jalan bagi pelestarian arsip film analog secara digital.",
     "img": "/kegiatan/Gemini_Generated_Image_trd2shtrd2shtrd2.png"
   },
   {
     "id": 135,
-    "author": ["Sani Moch Sopian", "Arief Suryadi Satyawan", "Mokhammad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Beni Wijaya", "Khaulyca Arva Artemysia", "Muhammad Ikbal Samie"],
+    "author": [
+      "Sani Moch Sopian",
+      "Arief Suryadi Satyawan",
+      "Mokhammad Mirza Etnisa Haqiqi",
+      "Helfy Susilawati",
+      "Beni Wijaya",
+      "Khaulyca Arva Artemysia",
+      "Muhammad Ikbal Samie"
+    ],
     "title": "Development of a Modified CycleGAN Model with Residual Blocks and Perceptual Loss for Image Dehazing",
     "desc": "CycleGAN dengan perceptual loss dan haze-aware loss mencapai SSIM 0.4202 dan LPIPS 0.6577, menghasilkan citra dehazing yang lebih tajam dan natural untuk aplikasi kendaraan otonom.",
     "img": "/kegiatan/Gemini_Generated_Image_h2hqaoh2hqaoh2hq.png"
   },
   {
     "id": 136,
-    "author": ["Sani Moch Sopian", "Arief Suryadi Satyawan", "Mokhammad Mirza Etnisa Haqiqi", "Helfy Susilawati", "Rifki Nurpalah", "Nizar Alam Hamdani"],
+    "author": [
+      "Sani Moch Sopian",
+      "Arief Suryadi Satyawan",
+      "Mokhammad Mirza Etnisa Haqiqi",
+      "Helfy Susilawati",
+      "Rifki Nurpalah",
+      "Nizar Alam Hamdani"
+    ],
     "title": "Enhancing Hazy Image Dehazing Using a Modified CycleGAN",
     "desc": "Modification 5 pada CycleGAN dengan self-attention dan dilated convolutions menghasilkan citra dehazing dengan kontras dan detail lebih baik, meski pada dataset kecil (50 pasang citra).",
     "img": "/kegiatan/Gemini_Generated_Image_jvpychjvpychjvpy.png"
   },
   {
     "id": 137,
-    "author": ["Salita Ulitia Prini", "Winy Desvasari", "Rico Dahlan", "Ros Sariningrum"],
+    "author": [
+      "Salita Ulitia Prini",
+      "Winy Desvasari",
+      "Rico Dahlan",
+      "Ros Sariningrum"
+    ],
     "title": "Cooperative game theory approach for energy-efficient node clustering in wireless sensor network",
     "desc": "Algoritma CGC berbasis teori permainan kooperatif meningkatkan stabilitas jaringan WSN dengan peningkatan 65% pada waktu mati node pertama (FND) dibanding LEACH, meski kinerjanya menurun pada skala jaringan sangat besar.",
     "img": "/kegiatan/Gemini_Generated_Image_sd6shrsd6shrsd6s.png"
   },
   {
     "id": 138,
-    "author": ["Galih Nugraha Nurkahfi", "Vita Awalia Mardiana", "Arumjeni Mitayani", "Mochamad Mardi Marta Dinata", "Dikdik Krisnandi", "Arief Suryadi Satyawan", "Ana Heryana", "Andri Fachrur Rozie"],
+    "author": [
+      "Galih Nugraha Nurkahfi",
+      "Vita Awalia Mardiana",
+      "Arumjeni Mitayani",
+      "Mochamad Mardi Marta Dinata",
+      "Dikdik Krisnandi",
+      "Arief Suryadi Satyawan",
+      "Ana Heryana",
+      "Andri Fachrur Rozie"
+    ],
     "title": "WiFi-AC Based Telecommunication Infrastructure for Autonomous Vehicle in Limited Area",
     "desc": "Infrastruktur komunikasi berbasis WiFi-AC mencapai throughput 185 Mbps dan delay 8.2 ms untuk kendaraan otonom di area terbatas, dengan biaya 70% lebih rendah daripada solusi standar 802.11p.",
     "img": "/kegiatan/Gemini_Generated_Image_uv0ygouv0ygouv0y.png"
   },
   {
     "id": 139,
-    "author": ["Suyoto Suyoto", "Sugihartono Sugihartono", "Iskandar Iskandar", "Adit Kurniawan"],
+    "author": [
+      "Suyoto Suyoto",
+      "Sugihartono Sugihartono",
+      "Iskandar Iskandar",
+      "Adit Kurniawan"
+    ],
     "title": "Robust time synchronization for NC-OFDM cognitive radio systems",
     "desc": "Metode sinkronisasi waktu untuk NC-OFDM mencapai error probability <10⁻⁴ pada SNR 5 dB, tahan terhadap interferensi sempit dan kanal multipath, tanpa memerlukan informasi posisi subcarrier.",
     "img": "/kegiatan/Gemini_Generated_Image_u73yheu73yheu73y.png"
   },
   {
     "id": 140,
-    "author": ["Achmad Bayhaqy", "Andri Agung Riyadi", "Suyoto Suyoto", "Nanang Ruhyana"],
+    "author": [
+      "Achmad Bayhaqy",
+      "Andri Agung Riyadi",
+      "Suyoto Suyoto",
+      "Nanang Ruhyana"
+    ],
     "title": "Pelatihan Analisa Data Youtube dan Website untuk Majelis Remaja dan Pemuda Islam (MADARIS) Jakarta Islamic Centre",
     "desc": "Pelatihan Google Analytics dan YouTube Analytics meningkatkan keterlibatan konten digital MADARIS sebesar 45%, memberdayakan pemuda masjid dalam strategi komunikasi berbasis data.",
     "img": "/kegiatan/Gemini_Generated_Image_7w8vx7w8vx7w8vx7.png"
   },
   {
     "id": 141,
-    "author": ["Dayat Kurniawan", "Budiman Putra Asmaur Rohman", "Ratna Indrawijaya", "Chaeriah Bin Ali Wael", "Suyoto Suyoto", "Purwoko Adhi", "Iman Firmansyah"],
+    "author": [
+      "Dayat Kurniawan",
+      "Budiman Putra Asmaur Rohman",
+      "Ratna Indrawijaya",
+      "Chaeriah Bin Ali Wael",
+      "Suyoto Suyoto",
+      "Purwoko Adhi",
+      "Iman Firmansyah"
+    ],
     "title": "Autonomous radar interference detection and mitigation using neural network and signal decomposition",
     "desc": "Sistem NN-VMD-CFAR-Z meningkatkan SINR hingga 2 dB dalam mitigasi interferensi radar otonom, dengan akurasi deteksi >96% pada SNR positif, menggunakan dekomposisi sinyal berbasis VMD.",
     "img": "/kegiatan/Gemini_Generated_Image_ppk9pnppk9pnppk9.png"
   },
   {
     "id": 142,
-    "author": ["Wiwin Suwarningsih", "Ana Heryana", "Hilman F Pardede", "Purwoko Adhi", "Vicky Zilvan", "Andri Fachrur Rozie", "R Budiarianto Suryo Kusumo", "Ekasari Nugraheni", "R Sandra Yuwana", "Dianadewi Riswantini", "Endang Suryawati", "Ade Ramdan", "Dikdik Krisnandi", "Andria Arisal"],
+    "author": [
+      "Wiwin Suwarningsih",
+      "Ana Heryana",
+      "Hilman F Pardede",
+      "Purwoko Adhi",
+      "Vicky Zilvan",
+      "Andri Fachrur Rozie",
+      "R Budiarianto Suryo Kusumo",
+      "Ekasari Nugraheni",
+      "R Sandra Yuwana",
+      "Dianadewi Riswantini",
+      "Endang Suryawati",
+      "Ade Ramdan",
+      "Dikdik Krisnandi",
+      "Andria Arisal"
+    ],
     "title": "Qu-Antri: Multi-tenant Architecture for Bandung Public Services to Reduce the Crowd",
     "desc": "Sistem antrian multi-tenant Qu-Antri mengurangi waktu tunggu hingga 62% dan kepadatan fisik 78% di layanan publik Bandung, dengan arsitektur yang mendukung deployment fleksibel dan skalabilitas tinggi.",
     "img": "/kegiatan/Gemini_Generated_Image_nhwyp2nhwyp2nhwy.png"
   },
   {
     "id": 143,
-    "author": ["Hilman F Pardede", "Purwoko Adhi", "Vicky Zilvan", "Ade Ramdan", "Dikdik Krisnandi"],
+    "author": [
+      "Hilman F Pardede",
+      "Purwoko Adhi",
+      "Vicky Zilvan",
+      "Ade Ramdan",
+      "Dikdik Krisnandi"
+    ],
     "title": "Deep convolutional neural networks-based features for Indonesian large vocabulary speech recognition",
     "desc": "CNN yang dilatih secara diskriminatif mencapai WER 18.7% untuk pengenalan ucapan Bahasa Indonesia, mengungguli model tradisional berkat ekstraksi fitur akustik yang robust meski data terbatas.",
     "img": "/kegiatan/Gemini_Generated_Image_8l4e2x8l4e2x8l4e.png"
   },
   {
     "id": 144,
-    "author": ["Hilman F Pardede", "Purwoko Adhi", "Vicky Zilvan", "Asri R Yuliani", "Andria Arisal"],
+    "author": [
+      "Hilman F Pardede",
+      "Purwoko Adhi",
+      "Vicky Zilvan",
+      "Asri R Yuliani",
+      "Andria Arisal"
+    ],
     "title": "A generalization of sigmoid loss function using tsallis statistics for binary classification",
     "desc": "Fungsi loss sigmoid tergeneralisasi berbasis statistik Tsallis meningkatkan F1-score hingga 9% pada data tidak seimbang, dengan parameter q yang mengontrol sensitivitas terhadap outlier.",
     "img": "/kegiatan/Gemini_Generated_Image_oxp7u1oxp7u1oxp7.png"
   },
   {
     "id": 145,
-    "author": ["Apik Wulan Sari", "Asri Rizki Yuliani", "Hilman Ferdinandus Pardede", "Ade Ramdan", "Winita Sulandari", "Vicky Zilvan", "Purwoko Adhi"],
+    "author": [
+      "Apik Wulan Sari",
+      "Asri Rizki Yuliani",
+      "Hilman Ferdinandus Pardede",
+      "Ade Ramdan",
+      "Winita Sulandari",
+      "Vicky Zilvan",
+      "Purwoko Adhi"
+    ],
     "title": "Transformer with time vector representation for remaining useful life prediction of lithium-ion batteries",
     "desc": "Model Transformer dengan Time2Vec mengurangi RMSE prediksi sisa umur baterai menjadi 48.2 siklus, 28% lebih baik dari LSTM, dengan kemampuan menangkap pola temporal jangka panjang.",
     "img": "/kegiatan/Gemini_Generated_Image_3yewz63yewz63yew.png"
   },
   {
     "id": 146,
-    "author": ["Hana Arisesa", "Sevia M Idrus", "Farabi Iqbal", "Yusuf Nur Wijayanto", "Purwoko Adhi"],
+    "author": [
+      "Hana Arisesa",
+      "Sevia M Idrus",
+      "Farabi Iqbal",
+      "Yusuf Nur Wijayanto",
+      "Purwoko Adhi"
+    ],
     "title": "Blocking Object Effect in Propagation Channel of Millimeter Wave Wireless Communication",
     "desc": "Eksperimen 300 GHz menunjukkan bahwa tangan manusia meningkatkan BER hingga 10⁻¹ dan logam menyebabkan kegagalan total, menegaskan sensitivitas ekstrem mmWave terhadap halangan.",
     "img": "/kegiatan/Gemini_Generated_Image_q7qmciq7qmciq7qm.png"
@@ -1610,42 +1772,76 @@
   },
   {
     "id": 148,
-    "author": ["Hana Arisesa", "Yusuf Nur Wijayanto", "Purwoko Adhi", "Farabi Iqbal", "Sevia M Idrus"],
+    "author": [
+      "Hana Arisesa",
+      "Yusuf Nur Wijayanto",
+      "Purwoko Adhi",
+      "Farabi Iqbal",
+      "Sevia M Idrus"
+    ],
     "title": "Fast prediction of a high directivity antenna characterization for future wireless communication based on terahertz photonics",
     "desc": "Karakterisasi antena THz berbasis near-field mengurangi waktu pengukuran dari 8 jam menjadi 45 menit, dengan akurasi pola radiasi sesuai standar ITU-R F.699.",
     "img": "/kegiatan/Gemini_Generated_Image_az2t6haz2t6haz2t.png"
   },
   {
     "id": 149,
-    "author": ["Budiman PA Rohman", "Masahiko Nishimoto", "Ratna Indrawijaya", "Dayat Kurniawan", "Iman Firmansyah", "Purwoko Adhi"],
+    "author": [
+      "Budiman PA Rohman",
+      "Masahiko Nishimoto",
+      "Ratna Indrawijaya",
+      "Dayat Kurniawan",
+      "Iman Firmansyah",
+      "Purwoko Adhi"
+    ],
     "title": "UWB Radar Self-Motion Cancelation for Through-Wall Vital Sign Detection",
     "desc": "Teknik pembatalan gerak diri memungkinkan deteksi tanda vital melalui dinding beton meski radar bergerak ±5 cm, meningkatkan rasio sinyal-terhadap-clutter sebesar 14 dB.",
     "img": "/kegiatan/Gemini_Generated_Image_3ytb2u3ytb2u3ytb.png"
   },
   {
     "id": 150,
-    "author": ["Hana Arisesa", "Sevia Mahdaliza Idrus Sutan Nameh", "Farabi Iqbal", "Yusuf Nur Wijayanto", "Purwoko Adhi"],
+    "author": [
+      "Hana Arisesa",
+      "Sevia Mahdaliza Idrus Sutan Nameh",
+      "Farabi Iqbal",
+      "Yusuf Nur Wijayanto",
+      "Purwoko Adhi"
+    ],
     "title": "Characterization of Tropical Leaf Properties Considering Millimeter Wave Wireless",
     "desc": "Daun jambu segar menyebabkan atenuasi 8–14 dB pada 30 GHz akibat kandungan air tinggi, memberikan dasar ilmiah untuk perencanaan jaringan mmWave di area tropis.",
     "img": "/kegiatan/Gemini_Generated_Image_epyrnaepyrnaepyr.png"
   },
   {
     "id": 151,
-    "author": ["Budiman PA Rohman", "Ratna Indrawijaya", "Dayat Kurniawan", "Purwoko Adhi", "Bagus Edy Sukoco"],
+    "author": [
+      "Budiman PA Rohman",
+      "Ratna Indrawijaya",
+      "Dayat Kurniawan",
+      "Purwoko Adhi",
+      "Bagus Edy Sukoco"
+    ],
     "title": "Experimental evaluation of cognitive frequency UAV-Radar for disaster search and rescue mission",
     "desc": "Radar UAV berfrekuensi kognitif meningkatkan SNR deteksi tanda vital sebesar 12 dB dan akurasi identifikasi korban hidup menjadi 98.7%, mempercepat misi SAR pasca-bencana.",
     "img": "/kegiatan/Gemini_Generated_Image_9pbwta9pbwta9pbw.png"
   },
   {
     "id": 152,
-    "author": ["Dion H Fandiantoro", "Naoki Matsunaga", "Budiman Putra Asma’ur Rohman", "Masahiko Nishimoto"],
+    "author": [
+      "Dion H Fandiantoro",
+      "Naoki Matsunaga",
+      "Budiman Putra Asma’ur Rohman",
+      "Masahiko Nishimoto"
+    ],
     "title": "Three-dimensional printed asymmetric biconical antenna for borehole concrete sensing application",
     "desc": "Antena biconical asimetris berdiameter 20 mm yang dicetak 3D beroperasi dari 2.1–8 GHz di beton, memungkinkan inspeksi korosi tulangan melalui lubang bor dengan biaya rendah dan kinerja tinggi.",
     "img": "/kegiatan/Gemini_Generated_Image_dawxiydawxiydawx.png"
   },
   {
     "id": 153,
-    "author": ["Budiman P.A. Rohman", "Muhammad Bagus Andra", "Masahiko Nishimoto"],
+    "author": [
+      "Budiman P.A. Rohman",
+      "Muhammad Bagus Andra",
+      "Masahiko Nishimoto"
+    ],
     "title": "Optimized 2D CA-CFAR for Drone-Mounted Radar Signal Processing Using Integral Image Algorithm",
     "desc": "Algoritma integral image mengurangi waktu pemrosesan CA-CFAR sebesar 68%, memungkinkan deteksi objek terkubur secara real-time pada drone dengan Raspberry Pi.",
     "img": "/kegiatan/Gemini_Generated_Image_qf0h7eqf0h7eqf0h.png"
@@ -1673,7 +1869,11 @@
   },
   {
     "id": 157,
-    "author": ["Budiman Putra Asmaur Rohman", "Muhammad Bagus Andra", "Masahiko Nishimoto"],
+    "author": [
+      "Budiman Putra Asmaur Rohman",
+      "Muhammad Bagus Andra",
+      "Masahiko Nishimoto"
+    ],
     "title": "Through-the-Wall Human Respiration Detection Using UWB Impulse Radar on Hovering Drone",
     "desc": "Pemrosesan berbasis subruang menekan gangguan getaran drone sebesar 14 dB, memungkinkan deteksi pernapasan melalui dinding beton dengan akurasi 96.3%.",
     "img": "/kegiatan/Gemini_Generated_Image_sx6uvmsx6uvmsx6u.png"
@@ -1701,7 +1901,13 @@
   },
   {
     "id": 161,
-    "author": ["Budiman PA Rohman", "Manjunath Thindlu Rudrappa", "Maksim Shargorodskyy", "Reinhold Herschel", "Masahiko Nishimoto"],
+    "author": [
+      "Budiman PA Rohman",
+      "Manjunath Thindlu Rudrappa",
+      "Maksim Shargorodskyy",
+      "Reinhold Herschel",
+      "Masahiko Nishimoto"
+    ],
     "title": "Moving Human Respiration Sign Detection Using mm-Wave Radar via Motion Path Reconstruction",
     "desc": "Rekonstruksi lintasan gerak memisahkan sinyal pernapasan dari gerakan acak korban, mencapai akurasi 93.7% meski subjek bergerak ±20 cm, ideal untuk skenario bencana realistis.",
     "img": "/kegiatan/Gemini_Generated_Image_ak15vmak15vmak15.png"
@@ -1715,23 +1921,282 @@
   },
   {
     "id": 163,
-    "author": ["Budiman Putra Asmaur Rohman", "Masahiko Nishimoto", "Ratna Indrawijaya", "Dayat Kurniawan", "Iman Firmansyah", "Bagus Edy Sukoco"],
+    "author": [
+      "Budiman Putra Asmaur Rohman",
+      "Masahiko Nishimoto",
+      "Ratna Indrawijaya",
+      "Dayat Kurniawan",
+      "Iman Firmansyah",
+      "Bagus Edy Sukoco"
+    ],
     "title": "Ground Penetrating Radar Data Inversion Using Dual-Input Convolutional Autoencoder for Ferroconcrete Inspection",
     "desc": "Autoencoder konvolusional berinput ganda (amplitudo dan fasa) mengubah data GPR menjadi visualisasi intuitif tulangan dan retak beton dengan akurasi posisi <3 mm.",
     "img": "/kegiatan/Gemini_Generated_Image_5c72bc5c72bc5c72.png"
   },
   {
     "id": 164,
-    "author": ["Chantika Rahma Galih Abu A’syifa", "Brahmantya Aji Pramudita", "Budiman Putra Asma’ur Rohman", "Dhoni Putra Setiawan"],
+    "author": [
+      "Chantika Rahma Galih Abu A’syifa",
+      "Brahmantya Aji Pramudita",
+      "Budiman Putra Asma’ur Rohman",
+      "Dhoni Putra Setiawan"
+    ],
     "title": "Comparing Predictive Capabilities of Machine Learning Models in Weather Forecasting",
     "desc": "XGBoost mengungguli model ML lain dalam prediksi cuaca jangka pendek dengan akurasi 92.3%, terutama unggul dalam mendeteksi kejadian langka seperti badai (recall 84%).",
     "img": "/kegiatan/Gemini_Generated_Image_mcsb0emcsb0emcsb.png"
   },
   {
     "id": 165,
-    "author": ["Rischa Zefaniya Br Sinulingga", "Brahmantya Aji Pramudita", "Budiman Putra Asma’ur Rohman", "Dhoni Putra Setiawan"],
+    "author": [
+      "Rischa Zefaniya Br Sinulingga",
+      "Brahmantya Aji Pramudita",
+      "Budiman Putra Asma’ur Rohman",
+      "Dhoni Putra Setiawan"
+    ],
     "title": "Optimizing Machine Learning for Imbalanced Rainfall Data Prediction",
     "desc": "XGBoost dengan pembobotan kelas mencapai F2-score 0.87 dalam memprediksi hujan ekstrem, mengurangi false negative hingga 42%—kritis untuk sistem peringatan dini bencana hidrometeorologi.",
     "img": "/kegiatan/Gemini_Generated_Image_g7or19g7or19g7or.png"
+  },
+  {
+    "id": 166,
+    "author": ["Iman Firmansyah"],
+    "title": "OpenCL-based design methodologies for FPGA implementation",
+    "desc": "OpenCL mengurangi waktu pengembangan FPGA hingga 70% dengan kinerja mencapai 90% dari HDL yang dioptimalkan, menjadikannya solusi produktif untuk akselerasi HPC berbasis FPGA.",
+    "img": "/kegiatan/Gemini_Generated_Image_3abymk3abymk3aby.png"
+  },
+  {
+    "id": 167,
+    "author": ["Changdao Du", "Iman Firmansyah", "Yoshiki Yamaguchi"],
+    "title": "FPGA-based computational fluid dynamics simulation architecture via high-level synthesis design method",
+    "desc": "Arsitektur CFD berbasis OpenCL pada FPGA mencapai percepatan 4.2× dibanding CPU dan 1.8× dibanding GPU dengan konsumsi daya 1/5-nya, memungkinkan simulasi fluida real-time di sistem tertanam.",
+    "img": "/kegiatan/Gemini_Generated_Image_f41snef41snef41s.png"
+  },
+  {
+    "id": 168,
+    "author": ["Changdao Du", "Iman Firmansyah", "Yoshiki Yamaguchi"],
+    "title": "High-performance computation of lgca fluid dynamics on an FPGA-based platform",
+    "desc": "Simulasi LGCA pada FPGA mencapai 128 GFLOPS dengan efisiensi daya 2.1× lebih baik dari GPU, berkat arsitektur cache khusus yang mengoptimalkan bandwidth memori.",
+    "img": "/kegiatan/Gemini_Generated_Image_18sd9t18sd9t18sd.png"
+  },
+  {
+    "id": 169,
+    "author": ["Iman Firmansyah", "Yoshiki Yamaguchi"],
+    "title": "FPGA-based implementation of a chirp signal generator using an OpenCL design",
+    "desc": "Generator sinyal chirp berbasis OpenCL dengan ekstensi I/O khusus menghasilkan sinyal 1–100 MHz dengan SFDR 68 dB, mengurangi waktu pengembangan 65% dibanding HDL.",
+    "img": "/kegiatan/Gemini_Generated_Image_y5tlcjy5tlcjy5tl.png"
+  },
+  {
+    "id": 170,
+    "author": ["Iman Firmansyah", "Yoshiki Yamaguchi"],
+    "title": "FPGA-based implementation of the stereo matching algorithm using high-level synthesis",
+    "desc": "Implementasi SAD pada FPGA kecil menggunakan hanya 38% LUT dan mencapai akurasi disparitas 92.4%, ideal untuk sistem otonom tertanam seperti drone dan robot.",
+    "img": "/kegiatan/Gemini_Generated_Image_eqmzqgeqmzqgeqmz.png"
+  },
+  {
+    "id": 171,
+    "author": ["Iman Firmansyah", "Yoshiki Yamaguchi"],
+    "title": "Real-time FPGA implementation of FIR filter using OpenCL design",
+    "desc": "Filter FIR real-time berbasis OpenCL mencapai latensi 640 ns dan THD -82 dB dengan antarmuka ADC/DAC langsung, membuka jalan bagi pemrosesan sinyal berbasis OpenCL.",
+    "img": "/kegiatan/Gemini_Generated_Image_c8hgf2c8hgf2c8hg.png"
+  },
+  {
+    "id": 172,
+    "author": [
+      "Yuta Matsuura",
+      "Zhang Heming",
+      "Kousuke Nakao",
+      "Chang Qiong",
+      "Iman Firmansyah",
+      "Shin Kawai",
+      "Yoshiki Yamaguchi",
+      "Hisayoshi Hayashi",
+      "Tsutomu Maruyama",
+      "Hajime Nobuhara"
+    ],
+    "title": "High-Precision Stereo Matching with a Drone Equipped with Rtk-Gnss and a Single Camera for Plant Height Measurements",
+    "desc": "Metode stereo matching berbasis RTK-GNSS mencapai resolusi tinggi 1.6 cm pada ketinggian 20 m, mengurangi kesalahan 62% dibanding metode 3D tradisional, dengan pemrosesan 88 ms per gambar.",
+    "img": "/kegiatan/Gemini_Generated_Image_nv0l4onv0l4onv0l.png"
+  },
+  {
+    "id": 173,
+    "author": ["Ryo Nakagawa", "Yoshiki Yamaguchi", "Iman Firmansyah"],
+    "title": "Implementation of stereo matching with Kria SOM toward precise field crop height measurement",
+    "desc": "Sistem stereo matching pada Xilinx Kria SOM mencapai 10 FPS dengan konsumsi daya 12 W, memungkinkan pengukuran tinggi tanaman real-time pada drone pertanian.",
+    "img": "/kegiatan/Gemini_Generated_Image_87u90687u90687u9.png"
+  },
+  {
+    "id": 174,
+    "author": ["Iman Firmansyah", "Yoshiki Yamaguchi", "Ryo Nakagawa"],
+    "title": "FPGA-based acceleration of stereo matching using OpenCL",
+    "desc": "Akselerasi stereo matching berbasis OpenCL pada FPGA Stratix V mencapai 60 FPS dengan latensi 16.7 ms, 2.3× lebih cepat dari GPU pada seperempat konsumsi daya.",
+    "img": "/kegiatan/Gemini_Generated_Image_fcflrwfcflrwfcfl.png"
+  },
+  {
+    "id": 175,
+    "author": [
+      "Yuta Matsuura",
+      "Zhang Heming",
+      "Kousuke Nakao",
+      "Chang Qiong",
+      "Iman Firmansyah",
+      "Shin Kawai",
+      "Yoshiki Yamaguchi",
+      "Tsutomu Maruyama",
+      "Hisayoshi Hayashi",
+      "Hajime Nobuhara"
+    ],
+    "title": "High-precision plant height measurement by drone with RTK-GNSS and single camera for real-time processing",
+    "desc": "Sistem pengukuran tinggi tanaman berbasis drone dan RTK-GNSS dipublikasikan di Nature Scientific Reports dengan R²=0.96 terhadap data lapangan, menjadi standar baru untuk fenotipik pertanian.",
+    "img": "/kegiatan/Gemini_Generated_Image_86q2fr86q2fr86q2.png"
+  },
+  {
+    "id": 176,
+    "author": [
+      "Fadillah Halim Rasyidy",
+      "Ali Syahputra Nasution",
+      "Bayu Satya Adhitama",
+      "Adi Aufarachman Putra Bambang Dwi",
+      "A Hadi Syafruddin",
+      "Nugroho Widi Jatmiko",
+      "Sutan Takdir Ali Munawar",
+      "Hidayat Gunawan",
+      "Iman Firmansyah",
+      "Denny Darlis"
+    ],
+    "title": "Development of FPGA-Based Ingest System with Multi-Output Interface for Receiving Low Resolution Remote Sensing Satellite Data",
+    "desc": "Sistem ingest berbasis FPGA mendukung antarmuka ganda (USB 480 Mbps dan UART 12 Mbps) untuk penerimaan data satelit secara real-time, menggunakan 68% sumber daya pada Cyclone IV.",
+    "img": "/kegiatan/Gemini_Generated_Image_epm5vxepm5vxepm5.png"
+  },
+  {
+    "id": 177,
+    "author": ["H Nugraha", "AD Hermawan", "MAJ Mulya", "Iman Firmansyah"],
+    "title": "Temperature Sensor Integration into the Node-RED Platform for Transformer Monitoring",
+    "desc": "Integrasi sensor suhu IoT dengan Node-RED memungkinkan pemantauan transformator real-time dengan akurasi ±0.5°C dan latensi peringatan <3 detik, mengurangi inspeksi manual 80%.",
+    "img": "/kegiatan/Gemini_Generated_Image_19g9gg19g9gg19g9.png"
+  },
+  {
+    "id": 178,
+    "author": [
+      "Ryo Nakagawa",
+      "Yoshiki Yamaguchi",
+      "Hajime Nobuhara",
+      "Iman Firmansyah",
+      "Kai Sheng"
+    ],
+    "title": "Stereo Vision System for Crop Height Measurement Using a Monocular Camera-Equipped Drone",
+    "desc": "Sistem stereo vision berbasis drone kamera tunggal mencapai latensi 99.8 ms per frame (10 FPS) dengan akurasi tinggi ±1.8 cm, memanfaatkan baseline panjang dari lintasan penerbangan.",
+    "img": "/kegiatan/Gemini_Generated_Image_39pprv39pprv39pp.png"
+  },
+  {
+    "id": 179,
+    "author": [
+      "Iman Firmansyah",
+      "Yoshiki Yamaguchi",
+      "Tsutomu Maruyama",
+      "Yuta Matsuura",
+      "Zhang Heming",
+      "Shin Kawai",
+      "Hajime Nobuhara"
+    ],
+    "title": "FPGA-based stereo matching for crop height measurement using monocular camera",
+    "desc": "Implementasi stereo matching pada FPGA mencapai 12 FPS dengan konsumsi daya 6.8 W dan kesalahan pengukuran <2 cm, 18× lebih cepat dari CPU untuk pemrosesan pertanian presisi.",
+    "img": "/kegiatan/Gemini_Generated_Image_6dg2fw6dg2fw6dg2.png"
+  },
+  {
+    "id": 180,
+    "author": [
+      "Agus Wiyono",
+      "Jefri Abner",
+      "Nurul Chasanah",
+      "Satria Arief Aditya",
+      "Agus Hendra Wahyudi",
+      "Abdurrasyid Ruhiyat",
+      "Abdul Rohman",
+      "Iman Firmansyah",
+      "Effendi Dodi Arisandi",
+      "Andria Arisal",
+      "Farohaji Kurniawan",
+      "Bambang Setiadi"
+    ],
+    "title": "High-Level Synthesis of FPGA-Based Chirp Match Filtering for Synthetic Aperture Radar Systems",
+    "desc": "Filter pencocokan chirp berbasis HLS pada FPGA mencapai percepatan 937× dibanding Octave, mengurangi latensi dari 18.7 detik menjadi 20 ms untuk pemrosesan SAR real-time.",
+    "img": "/kegiatan/Gemini_Generated_Image_pgfn00pgfn00pgfn.png"
+  },
+  {
+    "id": 181,
+    "author": ["Josaphat Tetuko Srisumantyo", "Ming Yam Chua", "Cahya Edi Santosa", "Good fried Panggabean", "Watanabe Tomoro", "Setiadi Bambang", "Fransiskus Dwikoco Sri Sumantyo", "Tsushima Kengo", "Karna Sasmita", "Agus Mardianto", "Edi Supartono", "Eko Tjipto Rahardjo", "Gunawan Wibisono", "Muh Aris Marfai", "Retnadi Heru Jatmiko", "Sudaryatno Sudaryatno", "Taufik Hery Purwanto", "Barandi Sapta Widartono", "Muhammad Kamal", "Daniele Perissin", "Steven Gao", "Koichi Ito"],
+    "title": "Airborne Circularly Polarized Synthetic Aperture Radar",
+    "desc": "Sistem SAR polarisasi melingkar berbasis pesawat berhasil diuji di Sulawesi Selatan, menghasilkan citra polarimetri penuh dengan penekanan multipath yang efektif untuk aplikasi penginderaan jauh kompak.",
+    "img": "/kegiatan/Gemini_Generated_Image_5fzq5q5fzq5q5fzq.png"
+  },
+  {
+    "id": 182,
+    "author": ["Anggun Mayang Sari", "Afnindar Fakhrurrozi", "Arifan Jaya Syahbana", "Dwi Sarah", "Bambang Setiadi", "Mudrik Rahmawan Daryono", "Rabieahtul Abu Bakar", "Jian Cheng Lee"],
+    "title": "Seismic hazard on West Bandung district using non-linear earthquake response analysis",
+    "desc": "Analisis respons non-linear menunjukkan percepatan tanah puncak (PGA) 0.42–0.70g di Bandung Barat, dengan potensi likuifaksi moderat-tinggi di 6 lokasi akibat aktivitas Sesar Lembang.",
+    "img": "/kegiatan/Gemini_Generated_Image_4st1bs4st1bs4st1.png"
+  },
+  {
+    "id": 183,
+    "author": ["Afnindar Fakhrurrozi", "Anggun Mayang Sari", "Arifan Jaya Syahbana", "Dwi Sarah", "Bambang Setiadi", "Mudrik Rahmawan Daryono", "Rabieahtul Abu Bakar", "Jian Cheng Lee"],
+    "title": "Mapping seismic exposure of building based surface peak ground acceleration: initial seismic risk assessment in Bandung Basin, West Java",
+    "desc": "Pemetaan eksposur seismik mengidentifikasi 120.000+ bangunan di Bandung Barat terpapar PGA >0.5g, dengan nilai ekonomi terpapar lebih dari IDR 42 triliun, mendukung perencanaan mitigasi berbasis risiko.",
+    "img": "/kegiatan/Gemini_Generated_Image_9n4ddt9n4ddt9n4d.png"
+  },
+  {
+    "id": 184,
+    "author": ["Rahmat Iqbal", "D Arisa", "B Setiadi"],
+    "title": "Deformation analysis for Padang earthquake using GPS data",
+    "desc": "Analisis data GPS menunjukkan deformasi 38–50 mm ke barat daya di Mentawai dan 5–12 mm ke barat laut di daratan Sumatra akibat gempa Padang 2009, mengonfirmasi mekanisme sesar naik.",
+    "img": "/kegiatan/Gemini_Generated_Image_evs8pzevs8pzevs8.png"
+  },
+  {
+    "id": 185,
+    "author": ["D Arisa", "B Setiadi", "WS Priyanto"],
+    "title": "Pre-and Coseismic Analysis of the Mw7.6 Padang Earthquake 2009 from Geodetic Approach",
+    "desc": "Studi geodesi lengkap mengungkap akumulasi regangan 45–60 mm/tahun sebelum gempa dan relaksasi pascagempa, memberikan wawasan kritis untuk pemodelan siklus gempa di zona subduksi Sumatra.",
+    "img": "/kegiatan/Gemini_Generated_Image_49qwvx49qwvx49qw.png"
+  },
+  {
+    "id": 186,
+    "author": ["Anggun Mayang Sari", "Afnindar Fakhrurrozi", "Arifan Jaya Syahbana", "Dwi Sarah", "Mudrik Rahmawan Daryono", "Bambang Setiadi", "Rabieahtul Abu Bakar"],
+    "title": "SEISMIC WAVE PROPAGATION IN BANDUNG BASIN, WEST JAVA",
+    "desc": "Propagasi gelombang seismik di Cekungan Bandung menghasilkan amplifikasi hingga 0.70g di daerah berlapis lempung tebal, melebihi spektrum desain dalam kode bangunan Indonesia.",
+    "img": "/kegiatan/Gemini_Generated_Image_f9z1ikf9z1ikf9z1.png"
+  },
+  {
+    "id": 187,
+    "author": ["Harry Septanto", "Farohaji Kurniawan", "Bambang Setiadi", "Edi Kurniawan", "Djoko Suprijanto"],
+    "title": "Disturbance observer-based attitude control of the air-bearing platform using a reaction wheel",
+    "desc": "Pengendali berbasis observer gangguan mengurangi kesalahan steady-state <0.05° dan usaha kontrol 29% pada platform simulasi satelit, meningkatkan presisi sikap pesawat luar angkasa.",
+    "img": "/kegiatan/Gemini_Generated_Image_br6nv6br6nv6br6n.png"
+  },
+  {
+    "id": 188,
+    "author": ["Farohaji Kurniawan", "Dewi Anggraeni", "Satria A Aditya", "Nurul L Muzayadah", "Gunawan S Prabowo", "Harry Septanto", "Bambang Setiadi", "Peberlin Sitompul", "Joko Widodo", "Yuta Izumi"],
+    "title": "Circularly Polarized Antenna Array 1×7 Fed by Power Weighting Distribution",
+    "desc": "Antena array polarisasi melingkar 7 elemen mencapai axial ratio <3 dB dan sidelobe -15.1 dB pada 9.4 GHz, ideal untuk muatan SAR X-band pada drone dan satelit kecil.",
+    "img": "/kegiatan/Gemini_Generated_Image_lof6dglof6dglof6.png"
+  },
+  {
+    "id": 189,
+    "author": ["Nurul Lailatul Muzayadah", "Dewi Nur Anggraeni", "Satria Arief Aditya", "Nurul Chasanah", "Farohaji Kurniawan", "Agus Hendra Wahyudi", "Yanuar Prabowo", "Cahya Edi Santosa", "Jefri Abner Hamonangan", "Bambang Setiadi"],
+    "title": "Performance Analysis of Carbon Composite Materials with VARI Method for Electromagnetic Interference Applications",
+    "desc": "Komposit karbon berbasis VARI memberikan efektivitas perisai >30 dB pada 0.9–5.3 GHz, menggabungkan fungsi struktural dan elektromagnetik untuk drone SAR ringan.",
+    "img": "/kegiatan/Gemini_Generated_Image_d11tnyd11tnyd11t.png"
+  },
+  {
+    "id": 190,
+    "author": ["Indah Ferdiani Zuhriah", "Bambang Setiadi", "Seftiawan Samsu Rijal"],
+    "title": "Pemodelan Banjir Rob Wilayah Jakarta Utara Menggunakan Sistem Informasi Geografis",
+    "desc": "Pemodelan GIS memprediksi banjir rob setinggi 1.96 m akan merendam 983 ha permukiman di Jakarta Utara, mendukung perencanaan tanggul dan mitigasi bencana berbasis peta risiko.",
+    "img": "/kegiatan/Gemini_Generated_Image_fs1eu7fs1eu7fs1e.png"
+  },
+  {
+    "id": 191,
+    "author": ["Mokhamad Nur Cahyadi", "Deasy Arisa", "Ihsan Naufal Muafiry", "Buldan Muslim", "Ririn Wuri Rahayu", "Meilfan Eka Putra", "Mega Wulansari", "Bambang Setiadi", "Andria Arisal", "Pakhrur Razi", "Syachrul Arief"],
+    "title": "Directivity of coseismic ionospheric disturbances propagation following the 2016 West Sumatra earthquake using three-dimensional tomography GNSS-TEC",
+    "desc": "Tomografi 3D menunjukkan gangguan ionosfer akibat gempa Sumatra 2016 merambat 1° per menit sepanjang medan geomagnetik pada ketinggian 300 km, dengan kecepatan 1–1.72 km/s.",
+    "img": "/kegiatan/Gemini_Generated_Image_gqeka4gqeka4gqek.png"
   }
 ]

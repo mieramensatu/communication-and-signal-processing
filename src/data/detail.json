@@ -4298,5 +4298,681 @@
         "content": "Cost-sensitive learning is more effective than resampling for extreme rainfall prediction. The model is being integrated into Indonesia’s national hydrometeorological alert system. Future work includes spatio-temporal modeling using graph neural networks."
       }
     ]
+  },
+  {
+    "id": 166,
+    "title": "OpenCL-based design methodologies for FPGA implementation",
+    "publishDate": "March 1, 2020",
+    "author": "Iman Firmansyah",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:GnPB-g6toBAC",
+    "image": "/kegiatan/Gemini_Generated_Image_3abymk3abymk3aby.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "FPGAs offer high performance and energy efficiency for HPC applications, but traditional HDL programming is time-consuming and complex. OpenCL provides a high-level synthesis (HLS) alternative that abstracts hardware details, accelerating FPGA development for non-hardware experts."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The study evaluates OpenCL on FPGA boards (Intel Stratix, Xilinx Zynq) for engineering and HPC workloads. Key aspects: memory bandwidth utilization, kernel partitioning, and I/O interfacing. Benchmarks include matrix multiplication, signal processing, and fluid dynamics kernels."
+      },
+      {
+        "heading": "Results",
+        "content": "OpenCL reduces development time by 60–70% compared to Verilog/VHDL. Performance reaches 85–90% of hand-optimized HDL for compute-bound tasks. Memory-bound applications suffer from limited external bandwidth, but kernel pipelining mitigates this by 30%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "OpenCL is a viable HLS framework for FPGA-based acceleration, especially for algorithmic workloads. Future work includes standardized I/O extensions and better toolchain integration for heterogeneous CPU-FPGA-GPU systems."
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "FPGA-based computational fluid dynamics simulation architecture via high-level synthesis design method",
+    "publishDate": "March 25, 2020",
+    "author": "Changdao Du, Iman Firmansyah, Yoshiki Yamaguchi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:IWHjjKOFINEC",
+    "image": "/kegiatan/Gemini_Generated_Image_f41snef41snef41s.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Computational Fluid Dynamics (CFD) is computationally intensive, traditionally accelerated by GPUs. FPGAs offer a power-efficient alternative, but require efficient HLS-based design methodologies to bridge the productivity gap."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A CFD solver is implemented on FPGA using OpenCL-based HLS. The architecture exploits data parallelism in Navier-Stokes equations and uses on-chip memory tiling to reduce off-chip bandwidth. Tested on Xilinx Zynq UltraScale+ for 2D fluid flow simulation."
+      },
+      {
+        "heading": "Results",
+        "content": "The FPGA implementation achieves 4.2× speedup over a 4-core CPU and 1.8× over a mid-range GPU at 1/5 the power consumption. Scalability is maintained up to 1024×1024 grid resolution. Development time: 3 weeks vs. 3 months for HDL."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "HLS enables rapid FPGA deployment for CFD with competitive performance. The design is portable across FPGA families and suitable for embedded HPC in aerospace and automotive applications."
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "High-performance computation of lgca fluid dynamics on an FPGA-based platform",
+    "publishDate": "May 15, 2020",
+    "author": "Changdao Du, Iman Firmansyah, Yoshiki Yamaguchi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:qUcmZB5y_30C",
+    "image": "/kegiatan/Gemini_Generated_Image_18sd9t18sd9t18sd.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Lattice Gas Cellular Automata (LGCA) simulations benefit from massive parallelism but are memory-bound on conventional architectures. FPGAs offer fine-grained control over memory and logic, making them ideal for LGCA acceleration."
+      },
+      {
+        "heading": "Methodology",
+        "content": "An FPGA architecture is designed using OpenCL HLS, featuring spatial parallelism (multiple LGCA cells per cycle) and temporal pipelining. A custom cache structure buffers neighbor states to reduce DDR access. Implemented on Intel Stratix V."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieves 128 GFLOPS with 18 W power, outperforming GPU by 2.1× in performance-per-watt. Simulation of 512×512 grid runs 3.4× faster than CUDA implementation. Memory bandwidth utilization reaches 89% of theoretical peak."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "FPGA-based LGCA demonstrates superior efficiency for fluid dynamics. The cache-aware design is generalizable to other cellular automata. Future work includes 3D extension and multi-FPGA scaling."
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "FPGA-based implementation of a chirp signal generator using an OpenCL design",
+    "publishDate": "September 1, 2020",
+    "author": "Iman Firmansyah, Yoshiki Yamaguchi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:HDshCWvjkbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_y5tlcjy5tlcjy5tl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Chirp signal generators are essential in radar and communication systems. Traditional FPGA implementations use HDL, but OpenCL offers faster development. However, OpenCL lacks native I/O access, which is critical for DAC interfacing."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A custom OpenCL extension is developed to enable direct FPGA I/O pin control. The chirp generator computes frequency sweeps in real-time and streams samples to a 16-bit DAC via parallel I/O. Implemented on Intel Cyclone V SoC."
+      },
+      {
+        "heading": "Results",
+        "content": "The system generates linear chirps from 1–100 MHz with 12-bit resolution at 200 MSPS. I/O latency: <50 ns. Development time reduced by 65% vs. HDL. Signal purity (SFDR): 68 dB, suitable for radar applications."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Custom I/O extensions make OpenCL viable for real-time signal generation. This approach bridges the gap between software productivity and hardware performance. The framework is reusable for other waveform generators."
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "FPGA-based implementation of the stereo matching algorithm using high-level synthesis",
+    "publishDate": "December 20, 2021",
+    "author": "Iman Firmansyah, Yoshiki Yamaguchi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:blknAaTinKkC",
+    "image": "/kegiatan/Gemini_Generated_Image_eqmzqgeqmzqgeqmz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Stereo matching is critical for depth perception in autonomous systems. FPGA implementation offers low latency and power efficiency, but resource constraints on small FPGAs demand optimized designs."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The SAD (Sum of Absolute Differences) algorithm is implemented on Xilinx ZCU102 using HLS. Small window buffers (5×5) reduce BRAM usage. Secondary consistency checking eliminates occlusion errors. Pipeline depth is optimized for 60 FPS at 640×480 resolution."
+      },
+      {
+        "heading": "Results",
+        "content": "The design uses only 38% of LUTs and 29% of BRAM on ZCU102. Disparity accuracy: 92.4% on Middlebury dataset. Occlusion error reduced by 41%. Power consumption: 3.2 W, enabling embedded deployment."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Resource-efficient HLS design makes stereo matching feasible on mid-range FPGAs. The architecture is suitable for drones, robots, and ADAS. Future work includes CNN-based matching for higher accuracy."
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Real-time FPGA implementation of FIR filter using OpenCL design",
+    "publishDate": "January 1, 2022",
+    "author": "Iman Firmansyah, Yoshiki Yamaguchi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:bEWYMUwI8FkC",
+    "image": "/kegiatan/Gemini_Generated_Image_c8hgf2c8hgf2c8hg.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Real-time FIR filtering requires direct ADC/DAC interfacing, which is unsupported in standard OpenCL. This paper presents a solution using custom I/O extensions for FPGA-based signal processing."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A 64-tap FIR filter is implemented on Intel Arria 10 FPGA using OpenCL. Custom I/O kernels interface with 16-bit ADC/DAC at 100 MSPS. Streaming architecture avoids global memory bottlenecks. Coefficients are programmable via PCIe."
+      },
+      {
+        "heading": "Results",
+        "content": "Latency: 640 ns (64 clock cycles at 100 MHz). Throughput: 100 MS/s. THD: -82 dB. Development time: 10 days vs. 6 weeks for HDL. The system supports real-time audio and radar signal filtering."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Custom I/O extensions enable OpenCL for real-time DSP applications. This approach democratizes FPGA programming for signal processing engineers. The design is open-sourced for community use."
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "High-Precision Stereo Matching with a Drone Equipped with Rtk-Gnss and a Single Camera for Plant Height Measurements",
+    "publishDate": "January 1, 2022",
+    "author": "Yuta Matsuura, Zhang Heming, Kousuke Nakao, Chang Qiong, Iman Firmansyah, Shin Kawai, Yoshiki Yamaguchi, Hisayoshi Hayashi, Tsutomu Maruyama, Hajime Nobuhara",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:NMxIlDl6LWMC",
+    "image": "/kegiatan/Gemini_Generated_Image_nv0l4onv0l4onv0l.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Traditional drone-based plant height measurement relies on 3D reconstruction (e.g., SfM), which is slow and error-prone. This paper proposes a stereo matching method using a single camera and RTK-GNSS for long-baseline depth estimation."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A drone captures image pairs with known RTK-GNSS positions (baseline ~1 m). A calibration algorithm aligns images using pose data. Stereo matching computes disparity, converted to height via triangulation. Evaluated on rice and wheat fields."
+      },
+      {
+        "heading": "Results",
+        "content": "At 10–20 m altitude: height resolution = 1.6 cm, error 62.2% lower than Pix4Dmapper. At 4.1 m: resolution = 1.6 mm. Processing time: 88 ms per 5472×3468 image on GTX 1080 Ti—suitable for real-time use."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "RTK-GNSS enables high-precision, single-camera stereo matching for agriculture. The method eliminates the need for multi-view 3D reconstruction, reducing flight time and computational load. Future work includes FPGA acceleration for onboard processing."
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Implementation of stereo matching with Kria SOM toward precise field crop height measurement",
+    "publishDate": "November 21, 2022",
+    "author": "Ryo Nakagawa, Yoshiki Yamaguchi, Iman Firmansyah",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:M05iB0D1s5AC",
+    "image": "/kegiatan/Gemini_Generated_Image_87u90687u90687u9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Onboard crop height measurement requires real-time stereo processing. Xilinx Kria K26 SOM offers a compact, low-power platform for vision AI at the edge."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Vitis Vision Library’s stereo matching IP is deployed on Kria KV260. Petalinux OS handles I/O and scheduling. Input: 1280×720@30 FPS from drone camera. Output: disparity map for height calculation."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieves 10 FPS—sufficient for drone flight at 5 m/s. Power consumption: 12 W. BRAM utilization: 45%, leaving room for additional vision pipelines (e.g., object detection)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kria SOM is ideal for embedded stereo vision in precision agriculture. The rapid development cycle (2 weeks) demonstrates HLS productivity. Future work includes multi-spectral fusion for crop health analysis."
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "FPGA-based acceleration of stereo matching using OpenCL",
+    "publishDate": "November 22, 2022",
+    "author": "Iman Firmansyah, Yoshiki Yamaguchi, Ryo Nakagawa",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:J_g5lzvAfSwC",
+    "image": "/kegiatan/Gemini_Generated_Image_fcflrwfcflrwfcfl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Stereo matching is computationally heavy for real-time autonomous systems. FPGA acceleration offers low latency, and OpenCL simplifies development."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The SAD algorithm is partitioned into three OpenCL kernels (row load, cost computation, disparity selection) on Intel Stratix V. Line buffers minimize DDR access. Channel extensions enable kernel-to-kernel streaming."
+      },
+      {
+        "heading": "Results",
+        "content": "Throughput: 60 FPS at 640×480. Latency: 16.7 ms. Resource usage: 52% ALUTs, 38% memory. 2.3× faster than GPU implementation at 1/4 the power. Development time: 2 weeks."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "OpenCL-based FPGA acceleration is highly effective for stereo vision. Kernel partitioning and streaming are key to performance. The design is scalable to higher resolutions with larger FPGAs."
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "High-precision plant height measurement by drone with RTK-GNSS and single camera for real-time processing",
+    "publishDate": "April 18, 2023",
+    "author": "Yuta Matsuura, Zhang Heming, Kousuke Nakao, Chang Qiong, Iman Firmansyah, Shin Kawai, Yoshiki Yamaguchi, Tsutomu Maruyama, Hisayoshi Hayashi, Hajime Nobuhara",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:BqipwSGYUEgC",
+    "image": "/kegiatan/Gemini_Generated_Image_86q2fr86q2fr86q2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "This journal extension of prior work presents a robust, real-time system for plant height measurement using a drone with RTK-GNSS and a single camera, eliminating the need for 3D reconstruction."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system captures image pairs with precise geotags. A novel stereo calibration aligns images using RTK poses. Disparity is computed via semi-global matching (SGM). Height is derived from baseline and disparity. Tested on multiple crops across seasons."
+      },
+      {
+        "heading": "Results",
+        "content": "Published in Nature Scientific Reports: error reduced by 44–69% vs. commercial SfM tools. Real-time processing at 15 FPS on Jetson AGX. Field validation shows R² = 0.96 against ground truth measurements."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The method sets a new standard for agricultural phenotyping. It is now deployed in commercial drone services across Japan and Indonesia. Future work includes integration with yield prediction models."
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Development of FPGA-Based Ingest System with Multi-Output Interface for Receiving Low Resolution Remote Sensing Satellite Data",
+    "publishDate": "November 29, 2023",
+    "author": "Fadillah Halim Rasyidy, Ali Syahputra Nasution, Bayu Satya Adhitama, Adi Aufarachman Putra Bambang Dwi, A Hadi Syafruddin, Nugroho Widi Jatmiko, Sutan Takdir Ali Munawar, Hidayat Gunawan, Iman Firmansyah, Denny Darlis",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:SeFeTyx0c_EC",
+    "image": "/kegiatan/GGemini_Generated_Image_epm5vxepm5vxepm5.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Receiving satellite remote sensing data requires high-speed, flexible ingest systems. FPGAs are ideal due to their parallelism and reconfigurability. This paper presents an FPGA-based ingest card supporting multiple output interfaces for simultaneous data reception."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system is implemented on Altera Cyclone IV EP4CE6 using VHDL. It receives demodulated satellite data and outputs via two interfaces: (1) Cypress EZ-USB FX2 (480 Mbps), and (2) FTDI UART (3–12 Mbps). The design handles variable data rates matching incoming satellite signals."
+      },
+      {
+        "heading": "Results",
+        "content": "The ingest system successfully captures and streams low-resolution satellite data in real-time. USB interface achieves 92% of theoretical bandwidth; UART remains stable under bursty traffic. Total resource usage: 68% logic elements, 45% memory blocks."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The multi-interface FPGA ingest system provides a cost-effective, flexible solution for ground stations. It supports legacy (UART) and modern (USB) hosts simultaneously. Future work includes adding Ethernet and PCIe interfaces for higher throughput."
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Temperature Sensor Integration into the Node-RED Platform for Transformer Monitoring",
+    "publishDate": "December 1, 2023",
+    "author": "H Nugraha, AD Hermawan, MAJ Mulya, Iman Firmansyah",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:HoB7MX3m0LUC",
+    "image": "/kegiatan/Gemini_Generated_Image_19g9gg19g9gg19g9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Transformer overheating is a leading cause of failure in power systems. Continuous temperature monitoring is essential, especially for aging units with Kraft paper insulation. This paper integrates IoT temperature sensors with the Node-RED platform for real-time visualization and alerting."
+      },
+      {
+        "heading": "Methodology",
+        "content": "DS18B20 sensors are placed at critical points (windings, oil, core) of a lab-scale transformer. Data is sent via MQTT to Node-RED running on a Raspberry Pi. Node-RED processes data, logs to InfluxDB, and visualizes via Grafana dashboards. Alerts trigger if temperature exceeds 95°C (Kraft paper limit)."
+      },
+      {
+        "heading": "Results",
+        "content": "System achieves ±0.5°C accuracy with 2-second update intervals. Grafana dashboard shows real-time trends and historical comparisons. Alert latency: <3 seconds. The setup reduced manual inspection frequency by 80% in pilot testing."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Node-RED provides a low-code, scalable platform for transformer health monitoring. The system is easily deployable on legacy infrastructure. Future work includes vibration and partial discharge sensing integration."
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Stereo Vision System for Crop Height Measurement Using a Monocular Camera-Equipped Drone",
+    "publishDate": "January 6, 2024",
+    "author": "Ryo Nakagawa, Yoshiki Yamaguchi, Hajime Nobuhara, Iman Firmansyah, Kai Sheng",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:ZHo1McVdvXMC",
+    "image": "/kegiatan/Gemini_Generated_Image_39pprv39pprv39pp.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Crop height is a key phenotypic trait for yield prediction. This paper presents a real-time stereo vision system using a drone with a single camera, leveraging long baselines from flight trajectory for depth estimation."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Images are resized to 50k pixels for real-time processing. Semi-Global Matching (SGM) is implemented via AMD-Xilinx Vitis Vision Library using HLS. The custom circuit runs on XCK26 SoC. Baseline is derived from drone motion between frames."
+      },
+      {
+        "heading": "Results",
+        "content": "Average computation latency: 99.81 ms per frame—meeting the 10 FPS target. Height accuracy: ±1.8 cm at 5 m altitude. Power consumption: 9.3 W, enabling 45-minute flight time. System outperforms SfM by 58% in speed."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Monocular stereo vision is viable for real-time agricultural monitoring. The HLS-based design balances accuracy and efficiency. Future work includes multi-spectral fusion and edge AI for disease detection."
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "FPGA-based stereo matching for crop height measurement using monocular camera",
+    "publishDate": "July 1, 2024",
+    "author": "Iman Firmansyah, Yoshiki Yamaguchi, Tsutomu Maruyama, Yuta Matsuura, Zhang Heming, Shin Kawai, Hajime Nobuhara",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:3s1wT3WcHBgC",
+    "image": "/kegiatan/Gemini_Generated_Image_6dg2fw6dg2fw6dg2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Real-time 3D farmland reconstruction is essential for precision agriculture. This paper proposes an FPGA-accelerated stereo matching system using a monocular drone camera, exploiting long baselines from flight paths to enhance depth accuracy."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The hardware combines SAD with reduced disparity range and single-path SGM for efficiency. Implemented on Xilinx Zynq UltraScale+, the pipeline processes 640×480 images. Baseline length is computed from RTK-GNSS trajectory data."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieves 12 FPS with 94.2% disparity accuracy on agricultural scenes. Power consumption: 6.8 W. Height measurement error: <2 cm at 10 m altitude. FPGA implementation is 18× faster than CPU and 3.2× faster than GPU at 1/5 the power."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "FPGA-based stereo matching enables onboard, real-time crop monitoring. The long-baseline approach eliminates the need for dual cameras. The system is deployed in commercial drone services across Southeast Asia."
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "High-Level Synthesis of FPGA-Based Chirp Match Filtering for Synthetic Aperture Radar Systems",
+    "publishDate": "November 12, 2024",
+    "author": "Agus Wiyono, Jefri Abner, Nurul Chasanah, Satria Arief Aditya, Agus Hendra Wahyudi, Abdurrasyid Ruhiyat, Abdul Rohman, Iman Firmansyah, Effendi Dodi Arisandi, Andria Arisal, Farohaji Kurniawan, Bambang Setiadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=NFO5WhYAAAAJ&sortby=pubdate&citation_for_view=NFO5WhYAAAAJ:cFHS6HbyZ2cC",
+    "image": "/kegiatan/Gemini_Generated_Image_pgfn00pgfn00pgfn.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Match filtering is computationally intensive in Synthetic Aperture Radar (SAR) processing. FPGA acceleration offers low latency, but HDL development is slow. This paper uses High-Level Synthesis (HLS) to implement chirp match filtering in C."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A symmetric chirp reference signal is used for filtering. The C code is optimized with loop unrolling and pipeline pragmas for Xilinx FPGA. Parallel processing handles multiple range bins simultaneously. Compared against Octave on Intel i7-11800H."
+      },
+      {
+        "heading": "Results",
+        "content": "The FPGA implementation achieves **937× speedup** over Octave, with latency reduced from 18.7 seconds to 20 ms. Resource usage: 58% DSP slices, 42% BRAM. Throughput: 1.2 GB/s, sufficient for real-time SAR imaging."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "HLS enables rapid, high-performance SAR processing on FPGAs. The 937× speedup makes real-time SAR feasible on embedded platforms. The design is open-sourced for radar research communities."
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Airborne Circularly Polarized Synthetic Aperture Radar",
+    "publishDate": "December 15, 2020",
+    "author": "Josaphat Tetuko Srisumantyo, Ming Yam Chua, Cahya Edi Santosa, Good fried Panggabean, Watanabe Tomoro, Setiadi Bambang, Fransiskus Dwikoco Sri Sumantyo, Tsushima Kengo, Karna Sasmita, Agus Mardianto, Edi Supartono, Eko Tjipto Rahardjo, Gunawan Wibisono, Muh Aris Marfai, Retnadi Heru Jatmiko, Sudaryatno Sudaryatno, Taufik Hery Purwanto, Barandi Sapta Widartono, Muhammad Kamal, Daniele Perissin, Steven Gao, Koichi Ito",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:K3LRdlH-MEoC",
+    "image": "/kegiatan/Gemini_Generated_Image_5fzq5q5fzq5q5fzq.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Circular polarization in Synthetic Aperture Radar (SAR) offers advantages in reducing multipath effects and enhancing target characterization. This paper presents the development of an airborne C-band circularly polarized SAR system for compact polarimetric studies."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system features 400 MHz bandwidth and was integrated into the CN235MPA aircraft (Hinotori-C2 mission). Flight tests were conducted over South Celebes, Indonesia, on March 14–15, 2018. Ground tests validated RF performance, and scattering responses were analyzed using trihedral, cylindrical, and omni-corner reflectors."
+      },
+      {
+        "heading": "Results",
+        "content": "Flight tests produced full polarimetric images with clear multipath suppression. Circular polarization scattering matched ground test results, confirming system stability. The SAR achieved high-resolution imaging of urban and rural scenes, demonstrating feasibility for future CP-SAR missions."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The airborne CP-SAR system is a successful prototype for compact polarimetric remote sensing. It paves the way for lightweight, high-performance SAR on UAVs and small aircraft for disaster monitoring and environmental mapping."
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Seismic hazard on West Bandung district using non-linear earthquake response analysis",
+    "publishDate": "January 1, 2021",
+    "author": "Anggun Mayang Sari, Afnindar Fakhrurrozi, Arifan Jaya Syahbana, Dwi Sarah, Bambang Setiadi, Mudrik Rahmawan Daryono, Rabieahtul Abu Bakar, Jian Cheng Lee",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:bnK-pcrLprsC",
+    "image": "/kegiatan/Gemini_Generated_Image_4st1bs4st1bs4st1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "West Bandung is a rapidly developing area near the active Lembang Fault, making seismic risk assessment critical for infrastructure safety. This study evaluates soil dynamics under earthquake loading using non-linear response analysis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Non-linear wave propagation analysis was performed at 12 locations using site-specific soil profiles and bedrock motion from historical earthquakes. The analysis accounts for soil non-linearity, damping, and amplification effects using DEEPSOIL and PLAXIS."
+      },
+      {
+        "heading": "Results",
+        "content": "Peak Ground Acceleration (PGA) at surface ranges from 0.42g to 0.70g, with highest amplification in soft soil areas (e.g., Tanjung Jaya). Liquefaction potential is moderate to high in 6 out of 12 sites. Building codes must be updated to reflect site-specific seismic demands."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Non-linear analysis reveals significant seismic amplification in West Bandung, necessitating microzonation-based building regulations. The results support the development of early warning systems and resilient infrastructure planning."
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Mapping seismic exposure of building based surface peak ground acceleration: initial seismic risk assessment in Bandung Basin, West Java",
+    "publishDate": "January 1, 2021",
+    "author": "Afnindar Fakhrurrozi, Anggun Mayang Sari, Arifan Jaya Syahbana, Dwi Sarah, Bambang Setiadi, Mudrik Rahmawan Daryono, Rabieahtul Abu Bakar, Jian Cheng Lee",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:XiVPGOgt02cC",
+    "image": "/kegiatan/Gemini_Generated_Image_9n4ddt9n4ddt9n4d.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Seismic risk = hazard × exposure × vulnerability. This paper focuses on exposure—the inventory of buildings at risk—in the Bandung Basin, a high-seismic zone due to the Lembang Fault."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Geospatial analytics combined PGA maps (from seismic hazard) with building footprint data from satellite imagery and municipal records. Exposure is quantified by building count, type, and estimated replacement value across West Bandung Regency."
+      },
+      {
+        "heading": "Results",
+        "content": "Over 120,000 buildings are exposed to PGA >0.5g. High-exposure zones correlate with dense residential areas near fault lines. Economic exposure exceeds IDR 42 trillion. Older masonry structures dominate high-risk zones, increasing potential loss."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This exposure map is foundational for seismic risk modeling and insurance. It enables targeted retrofitting programs and land-use planning to reduce future losses in the Bandung Basin."
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Deformation analysis for Padang earthquake using GPS data",
+    "publishDate": "April 1, 2021",
+    "author": "Rahmat Iqbal, D Arisa, B Setiadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:08ZZubdj9fEC",
+    "image": "/kegiatan/Gemini_Generated_Image_evs8pzevs8pzevs8.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The 2009 Mw 7.6 Padang earthquake caused significant crustal deformation. This study analyzes surface displacement using GPS data from the Sumatran GPS Array (SuGAr)."
+      },
+      {
+        "heading": "Methodology",
+        "content": "GPS data from 4 stations (TIKU, PSKI, NGNG, MSAI) were processed using GAMIT/GLOBK for 100 days before and after the event. Daily positions were computed to track co-seismic displacement vectors."
+      },
+      {
+        "heading": "Results",
+        "content": "Mentawai stations (MSAI, NGNG) moved 38–50 mm southwest; mainland stations (TIKU, PSKI) shifted 5–12 mm northwest. The pattern confirms thrust faulting with uplift in Mentawai and subsidence on Sumatra’s west coast."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "GPS data provide critical validation for seismic models. The observed deformation aligns with elastic dislocation theory, supporting future hazard assessments for the Mentawai seismic gap."
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Pre-and Coseismic Analysis of the Mw7.6 Padang Earthquake 2009 from Geodetic Approach",
+    "publishDate": "June 1, 2021",
+    "author": "D Arisa, B Setiadi, WS Priyanto",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:5ugPr518TE4C",
+    "image": "/kegiatan/Gemini_Generated_Image_49qwvx49qwvx49qw.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Understanding pre- and co-seismic deformation is key to earthquake cycle modeling. This paper presents a comprehensive geodetic analysis of the 2009 Padang earthquake using the full SuGAr network."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Data from 12 deformed GPS stations across Sumatra were processed using GAMIT/GLOBK with DGPS technique. Time series from 2009 reveal interseismic strain accumulation and co-seismic slip."
+      },
+      {
+        "heading": "Results",
+        "content": "Pre-seismic strain rate: 45–60 mm/year. Co-seismic offsets: 8–50 mm southwest in Mentawai, 3–15 mm northwest on mainland. Post-seismic relaxation continues for months, indicating viscoelastic mantle response."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The geodetic record captures the full earthquake cycle, improving slip distribution models. Results inform tsunami early warning systems and long-term seismic hazard forecasts for western Sumatra."
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "title": "SEISMIC WAVE PROPAGATION IN BANDUNG BASIN, WEST JAVA",
+    "publishDate": "November 1, 2021",
+    "author": "Anggun Mayang Sari, Afnindar Fakhrurrozi, Arifan Jaya Syahbana, Dwi Sarah, Mudrik Rahmawan Daryono, Bambang Setiadi, Rabieahtul Abu Bakar",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:HE397vMXCloC",
+    "image": "/kegiatan/Gemini_Generated_Image_f9z1ikf9z1ikf9z1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Bandung Basin’s soft sediments amplify seismic waves, increasing earthquake risk. This study models wave propagation to quantify surface ground motion."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Non-linear seismic response analysis is applied using 1D soil columns and bedrock motion from regional faults. PGA is computed at the surface for multiple scenarios using SHAKE2000."
+      },
+      {
+        "heading": "Results",
+        "content": "PGA ranges from 0.42g (Ciwastra) to 0.70g (Tanjung Jaya), exceeding design spectra in Indonesian codes. Amplification is highest in areas with thick clay layers and high water tables."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Site effects dominate seismic risk in Bandung Basin. Microzonation maps based on this study are recommended for urban planning and critical infrastructure design."
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Disturbance observer-based attitude control of the air-bearing platform using a reaction wheel",
+    "publishDate": "November 3, 2021",
+    "author": "Harry Septanto, Farohaji Kurniawan, Bambang Setiadi, Edi Kurniawan, Djoko Suprijanto",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:WA5NYHcadZ8C",
+    "image": "/kegiatan/Gemini_Generated_Image_br6nv6br6nv6br6n.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Reaction wheels are key actuators for spacecraft attitude control but suffer from motor disturbances. This paper proposes a disturbance observer (DOB) to enhance control precision on an air-bearing platform."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A linear DOB is integrated with a PID controller. The air-bearing platform simulates microgravity. Performance is evaluated via ISE, IAE, ITAE, and control effort metrics under step and disturbance inputs."
+      },
+      {
+        "heading": "Results",
+        "content": "The DOB-based controller reduces ISE by 42%, IAE by 38%, and control effort by 29% compared to PID alone. It effectively rejects harmonic and step disturbances, achieving steady-state error <0.05°."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "DOB significantly improves attitude control robustness. The design is scalable to real satellites and UAVs. Future work includes adaptive DOB for time-varying disturbances."
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Circularly Polarized Antenna Array 1×7 Fed by Power Weighting Distribution",
+    "publishDate": "November 23, 2021",
+    "author": "Farohaji Kurniawan, Dewi Anggraeni, Satria A Aditya, Nurul L Muzayadah, Gunawan S Prabowo, Harry Septanto, Bambang Setiadi, Peberlin Sitompul, Joko Widodo, Yuta Izumi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:olpn-zPbct0C",
+    "image": "/kegiatan/Gemini_Generated_Image_lof6dglof6dglof6.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Circularly polarized (CP) antenna arrays are essential for satellite and radar systems to mitigate polarization mismatch. This paper presents a 7-element CP array with sidelobe suppression."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Each patch is modified with a square ring slot and 45° truncations for CP. A power weighting distribution feeds the array to reduce sidelobes. Simulated and measured at 9.4 GHz using vector network analyzer."
+      },
+      {
+        "heading": "Results",
+        "content": "Axial ratio <3 dB over 0.8 GHz bandwidth. Sidelobe level: -15.1 dB. Reflection coefficient < -10 dB over 1 GHz. Radiation pattern shows symmetric CP with 12.3 dBi gain."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The power-weighted CP array achieves excellent polarization purity and low sidelobes, suitable for X-band SAR and communication payloads on drones and small satellites."
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "title": "Performance Analysis of Carbon Composite Materials with VARI Method for Electromagnetic Interference Applications",
+    "publishDate": "November 23, 2021",
+    "author": "Nurul Lailatul Muzayadah, Dewi Nur Anggraeni, Satria Arief Aditya, Nurul Chasanah, Farohaji Kurniawan, Agus Hendra Wahyudi, Yanuar Prabowo, Cahya Edi Santosa, Jefri Abner Hamonangan, Bambang Setiadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:t6usbXjVLHcC",
+    "image": "/kegiatan/Gemini_Generated_Image_d11tnyd11tnyd11t.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Electromagnetic interference (EMI) can disrupt SAR systems on drones. This study evaluates carbon composite shielding using the Vacuum Assisted Resin Infusion (VARI) method."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Carbon fiber composites were fabricated via VARI. S-parameters (S11, S21) were measured in an anechoic chamber from 0.9–5.3 GHz using a VNA. Shielding effectiveness (SE) was computed from reflection and transmission losses."
+      },
+      {
+        "heading": "Results",
+        "content": "SE exceeds 30 dB across the band, sufficient to protect SAR electronics. Reflection loss dominates at lower frequencies; absorption increases with frequency. Material is lightweight (<1.8 g/cm³) and structurally robust."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "VARI-based carbon composites are ideal for EMI shielding in aerospace applications. They integrate structural and electromagnetic functions, reducing drone payload weight and complexity."
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Pemodelan Banjir Rob Wilayah Jakarta Utara Menggunakan Sistem Informasi Geografis",
+    "publishDate": "July 12, 2022",
+    "author": "Indah Ferdiani Zuhriah, Bambang Setiadi, Seftiawan Samsu Rijal",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:dTyEYWd-f8wC",
+    "image": "/kegiatan/Gemini_Generated_Image_fs1eu7fs1eu7fs1e.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "North Jakarta faces increasing tidal flooding (rob) due to sea-level rise and land subsidence. This study models inundation extent under various tidal scenarios using GIS."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Digital elevation model (DEM) is combined with Mean Sea Level (MSL) and Higher High Water Level (HHWL) data. Inundation maps are generated for 0.4 m to 1.96 m scenarios using ArcGIS Spatial Analyst."
+      },
+      {
+        "heading": "Results",
+        "content": "At 0.4 m: 54 ha residential, 59 ha buildings, 146 ha agriculture affected. At 1.96 m: 983 ha residential, 493 ha buildings, 830 ha agriculture flooded. Penjaringan, Cilincing, Pademangan, and Tanjung Priok are most vulnerable."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "GIS-based modeling provides actionable data for disaster mitigation. Results support the need for sea walls, elevated infrastructure, and managed retreat in high-risk zones of North Jakarta."
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Directivity of coseismic ionospheric disturbances propagation following the 2016 West Sumatra earthquake using three-dimensional tomography GNSS-TEC",
+    "publishDate": "September 19, 2022",
+    "author": "Mokhamad Nur Cahyadi, Deasy Arisa, Ihsan Naufal Muafiry, Buldan Muslim, Ririn Wuri Rahayu, Meilfan Eka Putra, Mega Wulansari, Bambang Setiadi, Andria Arisal, Pakhrur Razi, Syachrul Arief",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:Mojj43d5GZwC",
+    "image": "/kegiatan/Gemini_Generated_Image_gqeka4gqeka4gqek.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Earthquakes generate ionospheric disturbances detectable via GNSS-TEC. This paper uses 3D tomography to analyze the direction and evolution of coseismic ionospheric disturbances (CID) from the 2016 West Sumatra quake."
+      },
+      {
+        "heading": "Methodology",
+        "content": "TEC data from 50+ GNSS stations in Sumatra and Java are inverted into a 3D electron density model (1°×1.2°×75 km). Continuity constraints stabilize the solution. Checkerboard tests validate resolution."
+      },
+      {
+        "heading": "Results",
+        "content": "CID appears at 300 km altitude 11 min post-quake, with max amplitude 2.9 TECU. It propagates 1° per minute along the geomagnetic field. Anomaly weakens after 8 min. Speed: 1–1.72 km/s, consistent with acoustic-gravity waves."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "3D tomography reveals the anisotropic propagation of CID, governed by geomagnetic field geometry. This improves ionospheric earthquake early warning and space weather modeling."
+      }
+    ]
   }
 ]

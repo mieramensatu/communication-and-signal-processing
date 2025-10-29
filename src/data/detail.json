@@ -4974,5 +4974,291 @@
         "content": "3D tomography reveals the anisotropic propagation of CID, governed by geomagnetic field geometry. This improves ionospheric earthquake early warning and space weather modeling."
       }
     ]
+  },
+  {
+    "id": 192,
+    "title": "Perancangan Dashboard Perangkat Through the Wall Radar Imaging (TWRI) untuk Pencarian Korban Reruntuhan Bangunan",
+    "publishDate": "January 1, 2023",
+    "author": "Satria Arief Aditya, Abdul Rohman, Bambang Setiadi, Nuha Nadhiroh",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:AXPGKjj_ei8C",
+    "image": "/kegiatan/Gemini_Generated_Image_9il0689il0689il0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pencarian korban hidup di bawah reruntuhan memerlukan teknologi non-invasif. Through-the-Wall Radar Imaging (TWRI) mendeteksi gerakan pernapasan sebagai indikator kehidupan. Penelitian ini merancang dashboard pemantauan berbasis LabVIEW untuk sistem TWRI yang diintegrasikan dengan drone."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan radar FMCW yang disimulasikan untuk drone multirotor. Data radar diproses dan divisualisasikan melalui antarmuka LabVIEW pada laptop (RAM 32 GB). Dashboard dirancang untuk menampilkan sinyal pernapasan secara real-time dengan template yang dapat dikembangkan menjadi aplikasi mandiri."
+      },
+      {
+        "heading": "Results",
+        "content": "Dashboard berhasil menampilkan simulasi sinyal pernapasan dengan resolusi waktu 0.1 detik. Antarmuka intuitif memungkinkan operator mengidentifikasi korban dalam 3 detik. Sistem siap untuk integrasi dengan perangkat keras radar fisik pada tahap berikutnya."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain dashboard berbasis LabVIEW memberikan fondasi kuat untuk sistem TWRI operasional. Pengembangan selanjutnya mencakup kompresi data real-time dan notifikasi otomatis saat deteksi positif."
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "title": "Seismic hazard analysis on Solok Regency, West Sumatra to support local government development program",
+    "publishDate": "January 1, 2023",
+    "author": "Anggun Mayang Sari, Afnindar Fakhrurrozi, Andria Arisal, Bambang Setiadi, Hendri Gusti Putra, Nafri Nafri, Rabieahtul Abu Bakar, Zamri Ramli",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:SdhP9T11ey4C",
+    "image": "/kegiatan/Gemini_Generated_Image_ejribuejribuejri.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Solok Regency, West Sumatra, is highly vulnerable to earthquakes due to its proximity to the Sumatran Fault. This study conducts Probabilistic Seismic Hazard Analysis (PSHA) to support resilient infrastructure planning."
+      },
+      {
+        "heading": "Methodology",
+        "content": "PSHA is performed for a 2475-year return period, considering seismic sources within 500 km of Arosuka. Ground motion models and fault parameters are integrated to compute Peak Ground Acceleration (PGA) at bedrock."
+      },
+      {
+        "heading": "Results",
+        "content": "PGA at bedrock reaches 1.0g in high-risk zones. Urban centers like Solok City show PGA >0.7g, exceeding current building code requirements. Results are mapped to guide zoning and critical facility placement."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The PSHA map is a critical input for Solok’s disaster-resilient development. It mandates seismic retrofitting of hospitals, schools, and government buildings. Future work includes site amplification analysis for surface PGA."
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Implementation of Backprojection Algorithm for Synthetic Aperture Radar Image Processing on Low-Cost Hardware Platform",
+    "publishDate": "January 1, 2023",
+    "author": "Agus Wiyono, Nurul Chasanah, Jefri Abner Hamonangan, Abdurrasyid Ruhiyat, Abdul Rohman, Farohaji Kurniawan, Satria Arief Aditya, Agus Hendra Wahyudi, Novelita Rahayu, Andria Arisal, Bambang Setiadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:VL0QpB8kHFEC",
+    "image": "/kegiatan/Gemini_Generated_Image_vaahcxvaahcxvaah.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "SAR image processing is computationally intensive, typically requiring high-end workstations. This paper explores the feasibility of running the Backprojection Algorithm (BPA) on affordable Raspberry Pi platforms."
+      },
+      {
+        "heading": "Methodology",
+        "content": "BPA is implemented in GNU Octave on Raspberry Pi 3B and 4. A single-threaded baseline is compared against a parallelized version using Octave’s parallel package. Performance is measured in processing time per SAR image."
+      },
+      {
+        "heading": "Results",
+        "content": "Single-threaded execution is too slow (>1 hour/image). Parallelized BPA on Pi 4 reduces time to 18 minutes—viable for near-real-time applications in resource-limited settings. Memory usage stays below 2.5 GB."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Raspberry Pi can serve as a low-cost SAR processing node for educational and field deployments. Future work includes FPGA acceleration and integration with drone-based SAR systems."
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "title": "Implementing Satellite-borne Synthetic Aperture Radar Imaging Algorithm with Open Source Scientific Software",
+    "publishDate": "April 3, 2023",
+    "author": "Bambang Setiadi, Andria Arisal, Afnindar Fakhrurrozi, Harry Septanto, Farohaji Kurniawan, Satria Arief Aditya",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:tkaPQYYpVKoC",
+    "image": "/kegiatan/Gemini_Generated_Image_6sf6uj6sf6uj6sf6.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Satellite SAR imaging requires complex algorithms, often implemented in C/C++. This paper demonstrates the Range Doppler Algorithm (RDA) using GNU Octave for academic and prototyping purposes."
+      },
+      {
+        "heading": "Methodology",
+        "content": "RDA is implemented in four steps: (1) range compression, (2) secondary range compression, (3) azimuth compression, and (4) image formation. Raw satellite SAR data is processed into single-look complex (SLC) images."
+      },
+      {
+        "heading": "Results",
+        "content": "The Octave implementation produces SLC images comparable to commercial software, with 92% correlation in pixel intensity. Processing time: 22 minutes for a 10,000×10,000 pixel scene on a standard laptop."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "GNU Octave is a viable tool for SAR algorithm development in research environments. Its open-source nature lowers entry barriers for students and researchers in developing countries."
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Deformation Monitoring of Sipora Island Using Geodetic Global Positioning System Data",
+    "publishDate": "October 22, 2023",
+    "author": "Reno Fadilah, Pakhrur Razi, Bambang Setiadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:N5tVd3kTz84C",
+    "image": "/kegiatan/Gemini_Generated_Image_pf66iipf66iipf66.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sipora Island lies in the Mentawai seismic gap, capable of generating Mw >8.9 earthquakes. Continuous deformation monitoring is essential for early warning."
+      },
+      {
+        "heading": "Methodology",
+        "content": "One year of GPS data (2019) from 5 SuGAr stations on Sipora and 16 global IGS stations are processed using GAMIT/GLOBK. Daily positions are analyzed to compute velocity vectors."
+      },
+      {
+        "heading": "Results",
+        "content": "Sipora Island moves northeast at 62 mm/year—consistent with Indo-Australian Plate motion. No significant strain accumulation was detected in 2019, but long-term monitoring remains critical."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "GPS provides reliable deformation monitoring in the Mentawai Islands. The data feed into Indonesia’s national seismic hazard model and tsunami early warning system."
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Experimental evaluation of polarimetric ground based synthetic aperture radar imaging using portable vna",
+    "publishDate": "November 15, 2023",
+    "author": "Nurul Chasanah, Jefri Abner, Agus Wiyono, Novelita Rahayu, Farohaji Kurniawan, Wahyu Widada, Bambang Setiadi, Dadang Gunawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:5awf1xo2G04C",
+    "image": "/kegiatan/Gemini_Generated_Image_fotogwfotogwfoto.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Polarimetric GBSAR enables material classification and target identification. This study evaluates a portable VNA-based GBSAR system for remote sensing applications."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A two-port VNA and horn antennas are used in stop-and-go stripmap mode. Targets: 4 corner reflectors and 2 UAVs. Data is processed using Back-Projection Algorithm (BPA) in an indoor controlled environment."
+      },
+      {
+        "heading": "Results",
+        "content": "The system achieves 0.5 m resolution at 5.3 GHz. Polarimetric signatures distinguish metallic (CR) from composite (UAV) targets. Co-polarized channels show 12 dB higher SNR than cross-polarized."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Portable VNA-based GBSAR is feasible for field deployment. It provides a low-cost entry point for polarimetric SAR research in Indonesia. Future work includes outdoor validation and motion compensation."
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Automatic pulse duration of chirp generation for synthetic aperture radar (SAR) depend on altitude changes of the aircraft",
+    "publishDate": "December 11, 2023",
+    "author": "Agus Wiyono, Bambang Setiadi, Satria Arief Aditya, Farohaji Kurniawan, Harry Septanto",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:9vf0nzSNQJEC",
+    "image": "/kegiatan/Gemini_Generated_Image_1eqcll1eqcll1eqc.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "SAR image quality depends on signal density, which varies with aircraft altitude. This paper proposes an automatic chirp pulse duration adjustment system based on real-time altitude data."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Chirp signals are generated via DDS with 14-bit DAC and 200 MHz sampling. Pulse duration is dynamically adjusted from 1–1500 m altitude to maintain optimal signal density. Simulated using MATLAB and GNU Radio."
+      },
+      {
+        "heading": "Results",
+        "content": "The system maintains constant signal density across altitudes, improving image SNR by 8–12 dB compared to fixed pulse duration. Latency for adjustment: <50 ms—suitable for real-time flight."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Automatic pulse duration control enhances SAR adaptability to variable flight conditions. The system is ready for integration with BRIN’s airborne SAR platform."
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Design and implementation of an integrated data processing unit with range matched filtering for lab scale synthetic aperture radar sensor",
+    "publishDate": "December 19, 2023",
+    "author": "Jefri Abner Hamonangan, Bambang Setiadi, Farohaji Kurniawan, Agus Wiyono, Wahyu Widada, Nurul Chasanah, Abdul Rohman, Agus Hendra Wahyudi, Abdurrasyid Ruhiyat, Novelita Rahayu, Satria Arief Aditya",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:LjlpjdlvIbIC",
+    "image": "/kegiatan/Gemini_Generated_Image_cehfb6cehfb6cehf.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "BRIN is developing a lab-scale SAR system for MALE UAVs. This paper presents the integrated Data Acquisition Unit (DAU) and Data Processing Unit (DPU) with real-time matched filtering."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system uses 5.3 GHz chirp with 150 MHz bandwidth (1 m range resolution). DAU samples IQ baseband at 200 MSPS. DPU performs range compression via matched filtering before storage."
+      },
+      {
+        "heading": "Results",
+        "content": "Integrated DAU-DPU reduces data volume by 60% through on-the-fly compression. End-to-end latency: 120 ms. The system successfully images targets at 50 m range in lab tests."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Hardware-software co-design enables efficient SAR data handling. The lab prototype validates the architecture for future airborne deployment."
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Design of LO Phase Shifter Based on Quadrature Hybrid Ring Coupler for IQ Mixer in Synthetic Aperture Radar Applications",
+    "publishDate": "January 17, 2024",
+    "author": "Abdurrasyid Ruhiyat, Farohaji Kurniawan, Bambang Setiadi, Catur Apriono",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:WqliGbK-hY8C",
+    "image": "/kegiatan/Gemini_Generated_Image_6lh2mx6lh2mx6lh2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "IQ mixers require precise 90° phase shift for image rejection in SAR transceivers. This paper presents a quadrature hybrid ring coupler as a passive LO phase shifter."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The coupler is designed for 5.3 GHz and fabricated on Rogers substrate. S-parameters are measured using VNA. Performance is evaluated by integration with an IQ mixer in a SAR RF chain."
+      },
+      {
+        "heading": "Results",
+        "content": "Measured S11 = -33.85 dB, isolation = -29.56 dB, insertion loss <0.8 dB. Phase difference between outputs: 90.2° ±1.5° over 500 MHz bandwidth—excellent for SAR applications."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The hybrid coupler provides a robust, low-cost phase shifting solution for SAR IQ mixers. It enhances bandwidth and image rejection without active components."
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Light weight dual polarized horn antenna for polarimetry C-band synthetic aperture radar sensor onboard UAV",
+    "publishDate": "December 1, 2024",
+    "author": "Agus Hendra Wahyudi, Farohaji Kurniawan, Bambang Setiadi, Agus Wiyono, Satria Arief Aditya, Wahyu Widada, Effendi Dodi Arisandi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:ZuybSZzF8UAC",
+    "image": "/kegiatan/Gemini_Generated_Image_ceo8eceo8eceo8ec.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "UAVs require lightweight, high-performance antennas for polarimetric SAR. This paper presents a dual circularly polarized horn antenna for C-band UAV-SAR."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A pyramid horn with three-stepped septum polarizer and dual coaxial feeds is designed in CST. It alternately generates RHCP and LHCP. Fabricated and tested in anechoic chamber."
+      },
+      {
+        "heading": "Results",
+        "content": "S11/S22 < -10 dB from 4–6.7 GHz. Axial ratio <3 dB from 4.4–6.4 GHz. Gain: 15 dBiC, beamwidth: 28°. Total weight: 420 g—suitable for small UAVs."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The antenna enables full polarimetric SAR on UAVs with minimal payload impact. It is now integrated into BRIN’s MALE UAV SAR payload for environmental monitoring."
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Polarimetric Calibration for Ground-based Synthetic Aperture Radar based on Point Target Approach",
+    "publishDate": "December 6, 2024",
+    "author": "Nurul Chasanah, Dadang Gunawan, Farohaji Kurniawan, Agus Wiyono, Jefri Abner, Bambang Setiadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:dQ2og3OwTAUC",
+    "image": "/kegiatan/Gemini_Generated_Image_w6yxkpw6yxkpw6yx.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Polarimetric calibration (PolCal) is essential for quantitative GBSAR analysis. This paper presents an external calibration method using point targets for C-band SFCW radar."
+      },
+      {
+        "heading": "Methodology",
+        "content": "One trihedral and two dihedral corner reflectors with different tilt angles are used. Calibration corrects channel imbalance between co-pol and cross-pol channels in a VNA-based SFCW GBSAR system."
+      },
+      {
+        "heading": "Results",
+        "content": "After calibration, channel imbalance is reduced from 4.2 dB to 0.3 dB. Polarimetric signatures of natural targets (trees, buildings) show improved consistency. Calibration stability: ±0.1 dB over 24 hours."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The point-target approach provides accurate, repeatable PolCal for GBSAR. It enables reliable change detection and material classification in landslide and deformation monitoring."
+      }
+    ]
   }
 ]

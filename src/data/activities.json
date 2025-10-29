@@ -2198,5 +2198,82 @@
     "title": "Directivity of coseismic ionospheric disturbances propagation following the 2016 West Sumatra earthquake using three-dimensional tomography GNSS-TEC",
     "desc": "Tomografi 3D menunjukkan gangguan ionosfer akibat gempa Sumatra 2016 merambat 1° per menit sepanjang medan geomagnetik pada ketinggian 300 km, dengan kecepatan 1–1.72 km/s.",
     "img": "/kegiatan/Gemini_Generated_Image_gqeka4gqeka4gqek.png"
+  },
+  {
+    "id": 192,
+    "author": ["Satria Arief Aditya", "Abdul Rohman", "Bambang Setiadi", "Nuha Nadhiroh"],
+    "title": "Perancangan Dashboard Perangkat Through the Wall Radar Imaging (TWRI) untuk Pencarian Korban Reruntuhan Bangunan",
+    "desc": "Dashboard berbasis LabVIEW berhasil menampilkan simulasi sinyal pernapasan korban dengan resolusi waktu 0.1 detik, memungkinkan identifikasi dalam 3 detik untuk sistem pencarian reruntuhan berbasis drone.",
+    "img": "/kegiatan/Gemini_Generated_Image_9il0689il0689il0.png"
+  },
+  {
+    "id": 193,
+    "author": ["Anggun Mayang Sari", "Afnindar Fakhrurrozi", "Andria Arisal", "Bambang Setiadi", "Hendri Gusti Putra", "Nafri Nafri", "Rabieahtul Abu Bakar", "Zamri Ramli"],
+    "title": "Seismic hazard analysis on Solok Regency, West Sumatra to support local government development program",
+    "desc": "Analisis PSHA menunjukkan PGA hingga 1.0g di Solok, Sumatra Barat, melebihi standar bangunan saat ini dan mendukung perencanaan infrastruktur tahan gempa untuk gedung pemerintah dan rumah sakit.",
+    "img": "/kegiatan/Gemini_Generated_Image_ejribuejribuejri.png"
+  },
+  {
+    "id": 194,
+    "author": ["Agus Wiyono", "Nurul Chasanah", "Jefri Abner Hamonangan", "Abdurrasyid Ruhiyat", "Abdul Rohman", "Farohaji Kurniawan", "Satria Arief Aditya", "Agus Hendra Wahyudi", "Novelita Rahayu", "Andria Arisal", "Bambang Setiadi"],
+    "title": "Implementation of Backprojection Algorithm for Synthetic Aperture Radar Image Processing on Low-Cost Hardware Platform",
+    "desc": "Algoritma Backprojection pada Raspberry Pi 4 memproses citra SAR dalam 18 menit—membuka jalan bagi pemrosesan SAR berbiaya rendah di lingkungan sumber daya terbatas.",
+    "img": "/kegiatan/Gemini_Generated_Image_vaahcxvaahcxvaah.png"
+  },
+  {
+    "id": 195,
+    "author": ["Bambang Setiadi", "Andria Arisal", "Afnindar Fakhrurrozi", "Harry Septanto", "Farohaji Kurniawan", "Satria Arief Aditya"],
+    "title": "Implementing Satellite-borne Synthetic Aperture Radar Imaging Algorithm with Open Source Scientific Software",
+    "desc": "Implementasi Range Doppler Algorithm menggunakan GNU Octave menghasilkan citra SAR dengan korelasi 92% terhadap perangkat lunak komersial, mendukung riset SAR berbasis open-source.",
+    "img": "/kegiatan/Gemini_Generated_Image_6sf6uj6sf6uj6sf6.png"
+  },
+  {
+    "id": 196,
+    "author": ["Reno Fadilah", "Pakhrur Razi", "Bambang Setiadi"],
+    "title": "Deformation Monitoring of Sipora Island Using Geodetic Global Positioning System Data",
+    "desc": "Pemantauan GPS menunjukkan Pulau Sipora bergerak 62 mm/tahun ke timur laut, konsisten dengan pergerakan Lempeng Indo-Australia, memberikan data kritis untuk peringatan dini gempa Mentawai.",
+    "img": "/kegiatan/Gemini_Generated_Image_pf66iipf66iipf66.png"
+  },
+  {
+    "id": 197,
+    "author": ["Nurul Chasanah", "Jefri Abner", "Agus Wiyono", "Novelita Rahayu", "Farohaji Kurniawan", "Wahyu Widada", "Bambang Setiadi", "Dadang Gunawan"],
+    "title": "Experimental evaluation of polarimetric ground based synthetic aperture radar imaging using portable vna",
+    "desc": "Sistem GBSAR berbasis VNA portabel mencapai resolusi 0.5 m dan mampu membedakan target logam (reflektor sudut) dari komposit (drone) melalui tanda tangan polarimetri.",
+    "img": "/kegiatan/Gemini_Generated_Image_fotogwfotogwfoto.png"
+  },
+  {
+    "id": 198,
+    "author": ["Agus Wiyono", "Bambang Setiadi", "Satria Arief Aditya", "Farohaji Kurniawan", "Harry Septanto"],
+    "title": "Automatic pulse duration of chirp generation for synthetic aperture radar (SAR) depend on altitude changes of the aircraft",
+    "desc": "Sistem penyesuaian durasi chirp otomatis meningkatkan SNR citra SAR sebesar 8–12 dB pada ketinggian 1–1500 m, memungkinkan operasi SAR yang adaptif pada pesawat tanpa awak.",
+    "img": "/kegiatan/Gemini_Generated_Image_1eqcll1eqcll1eqc.png"
+  },
+  {
+    "id": 199,
+    "author": ["Jefri Abner Hamonangan", "Bambang Setiadi", "Farohaji Kurniawan", "Agus Wiyono", "Wahyu Widada", "Nurul Chasanah", "Abdul Rohman", "Agus Hendra Wahyudi", "Abdurrasyid Ruhiyat", "Novelita Rahayu", "Satria Arief Aditya"],
+    "title": "Design and implementation of an integrated data processing unit with range matched filtering for lab scale synthetic aperture radar sensor",
+    "desc": "Unit pemrosesan terintegrasi mengurangi volume data SAR 60% melalui kompresi real-time, dengan latensi end-to-end 120 ms, memvalidasi arsitektur untuk sistem SAR udara BRIN.",
+    "img": "/kegiatan/Gemini_Generated_Image_cehfb6cehfb6cehf.png"
+  },
+  {
+    "id": 200,
+    "author": ["Abdurrasyid Ruhiyat", "Farohaji Kurniawan", "Bambang Setiadi", "Catur Apriono"],
+    "title": "Design of LO Phase Shifter Based on Quadrature Hybrid Ring Coupler for IQ Mixer in Synthetic Aperture Radar Applications",
+    "desc": "Coupler hibrida kuadratur menghasilkan pergeseran fasa 90.2° ±1.5° pada 5.3 GHz dengan isolasi -29.56 dB, menyediakan solusi pasif yang andal untuk mixer IQ pada transceiver SAR.",
+    "img": "/kegiatan/Gemini_Generated_Image_6lh2mx6lh2mx6lh2.png"
+  },
+  {
+    "id": 201,
+    "author": ["Agus Hendra Wahyudi", "Farohaji Kurniawan", "Bambang Setiadi", "Agus Wiyono", "Satria Arief Aditya", "Wahyu Widada", "Effendi Dodi Arisandi"],
+    "title": "Light weight dual polarized horn antenna for polarimetry C-band synthetic aperture radar sensor onboard UAV",
+    "desc": "Antena horn polarisasi ganda berbobot 420 g mencapai axial ratio <3 dB pada 4.4–6.4 GHz, memungkinkan SAR polarimetri penuh pada UAV kecil untuk pemantauan lingkungan.",
+    "img": "/kegiatan/Gemini_Generated_Image_ceo8eceo8eceo8ec.png"
+  },
+  {
+    "id": 202,
+    "author": ["Nurul Chasanah", "Dadang Gunawan", "Farohaji Kurniawan", "Agus Wiyono", "Jefri Abner", "Bambang Setiadi"],
+    "title": "Polarimetric Calibration for Ground-based Synthetic Aperture Radar based on Point Target Approach",
+    "desc": "Kalibrasi polarimetri menggunakan reflektor sudut mengurangi ketidakseimbangan saluran dari 4.2 dB menjadi 0.3 dB, meningkatkan akurasi deteksi perubahan dan klasifikasi material pada GBSAR.",
+    "img": "/kegiatan/Gemini_Generated_Image_w6yxkpw6yxkpw6yx.png"
   }
 ]

@@ -2275,5 +2275,33 @@
     "title": "Polarimetric Calibration for Ground-based Synthetic Aperture Radar based on Point Target Approach",
     "desc": "Kalibrasi polarimetri menggunakan reflektor sudut mengurangi ketidakseimbangan saluran dari 4.2 dB menjadi 0.3 dB, meningkatkan akurasi deteksi perubahan dan klasifikasi material pada GBSAR.",
     "img": "/kegiatan/Gemini_Generated_Image_w6yxkpw6yxkpw6yx.png"
+  },
+  {
+    "id": 203,
+    "author": ["Andria Arisal", "Bambang Setiadi", "Ichwanul Muslim"],
+    "title": "Analysis of alternatives methodology for large-scale information system implementation",
+    "desc": "Metodologi analisis alternatif berbasis biaya, manfaat, dan risiko membantu pemerintah daerah memilih opsi implementasi SP4N-LAPOR! dengan TCO 68% lebih rendah dan interoperabilitas 92/100.",
+    "img": "/kegiatan/Gemini_Generated_Image_dbly9wdbly9wdbly.png"
+  },
+  {
+    "id": 204,
+    "author": ["Abdul Basit", "Rahaden Bagas Hatmaja", "Suliskania Nurfitri", "Mochamad Furqon Azis Ismail", "Asep Sandra Budiman", "Bambang Setiadi", "Erma Yulihastin", "Widodo S Pranowo", "Mutiara Rachmat Putri", "Kandaga Pujiana", "Bernhard Mayer", "Thomas Pohlmann"],
+    "title": "Temperature variability and its governing mechanisms within the Jailolo Strait, Indonesia",
+    "desc": "Analisis data BRAN2020 mengungkap bahwa variasi suhu di Selat Jailolo didominasi oleh fluks panas permukaan dan pencampuran vertikal, dengan dua minimum termoklin tahunan akibat aliran dari Samudra Pasifik.",
+    "img": "/kegiatan/Gemini_Generated_Image_kyvgpzkyvgpzkyvg.png"
+  },
+  {
+    "id": 205,
+    "author": ["Surfiarti Maharani", "Ashar Muda Lubis", "Elfi Yuliza", "Rida Samdara", "Bambang Setiadi"],
+    "title": "Landslide susceptibility mapping along Taba Penanjung area, Bengkulu province, Indonesia using machine learning (ML) techniques",
+    "desc": "Pemetaan kerentanan longsor menggunakan SVM mencapai akurasi 95.51% dan AUC 0.93, mengidentifikasi 40.97% wilayah Taba Penanjung sebagai zona risiko tinggi untuk mitigasi bencana.",
+    "img": "/kegiatan/Gemini_Generated_Image_nvoi58nvoi58nvoi.png"
+  },
+  {
+    "id": 206,
+    "author": ["Rivilyo Mangolat Rizky Sitanggang", "Wa Ode Dianita Putri Suaiba Dani", "Bambang Setiadi", "Yanif Dwi Kuntjoro"],
+    "title": "Comparative Performance of U-Net CNN in Multi-Class Aircraft Segmentation and Classification Using Polygon and Bounding Box Annotations",
+    "desc": "Annotasi poligon pada U-Net menghasilkan akurasi segmentasi 0.987, sementara bounding box 34% lebih cepat dalam pelatihan—memberikan panduan pemilihan metode berdasarkan kebutuhan presisi vs. kecepatan.",
+    "img": "/kegiatan/Gemini_Generated_Image_dgdnkjdgdnkjdgdn.png"
   }
 ]

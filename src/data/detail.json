@@ -5260,5 +5260,109 @@
         "content": "The point-target approach provides accurate, repeatable PolCal for GBSAR. It enables reliable change detection and material classification in landslide and deformation monitoring."
       }
     ]
+  },
+  {
+    "id": 203,
+    "title": "Analysis of alternatives methodology for large-scale information system implementation",
+    "publishDate": "February 1, 2025",
+    "author": "Andria Arisal, Bambang Setiadi, Ichwanul Muslim",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:hkOj_22Ku90C",
+    "image": "/kegiatan/Gemini_Generated_Image_dbly9wdbly9wdbly.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Indonesia’s SPBE (Electronic-Based Government System) policy mandates integrated digital services, yet fragmented implementations persist. This paper proposes a structured methodology to evaluate alternatives for large-scale information system deployment, focusing on cost, benefit, and risk."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The framework quantifies alternatives using multi-criteria decision analysis (MCDA). Applied to SP4N-LAPOR!—the national public complaint system—stakeholders evaluate options: (1) adopt national system, (2) integrate with local system, or (3) develop custom solution. Metrics include TCO, interoperability score, and security risk."
+      },
+      {
+        "heading": "Results",
+        "content": "The methodology enabled quantitative comparison: national adoption scored highest in interoperability (92/100) and lowest TCO (IDR 1.2B vs. IDR 3.8B for custom). Risk of data silos dropped by 76% under the national option. The approach is now adopted by 3 provincial governments."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "This decision framework supports evidence-based IT governance in public sector. It aligns with SPBE’s goals of integration and efficiency. Future work includes dynamic risk modeling and AI-assisted alternative generation."
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Temperature variability and its governing mechanisms within the Jailolo Strait, Indonesia",
+    "publishDate": "April 1, 2025",
+    "author": "Abdul Basit, Rahaden Bagas Hatmaja, Suliskania Nurfitri, Mochamad Furqon Azis Ismail, Asep Sandra Budiman, Bambang Setiadi, Erma Yulihastin, Widodo S Pranowo, Mutiara Rachmat Putri, Kandaga Pujiana, Bernhard Mayer, Thomas Pohlmann",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:JQOojiI6XY0C",
+    "image": "/kegiatan/Gemini_Generated_Image_kyvgpzkyvgpzkyvg.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The Jailolo Strait is a key conduit of the Indonesian Throughflow (ITF), influencing global climate. This study analyzes temperature variability from 2010–2020 using BRAN2020 reanalysis data to understand heat budget dynamics."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Mixed layer temperature (MLT) and thermocline heat budgets are computed from BRAN2020. Contributions from net surface heat flux (NSHF), vertical mixing, and advection are quantified using residual analysis."
+      },
+      {
+        "heading": "Results",
+        "content": "NSHF dominates semiannual MLT variability. Vertical mixing cools the mixed layer from below. Two thermocline minima occur: April (outflow to Pacific) and August (upwelling). Annual cooling in 100–200 m depth is driven by Pacific water transport, not local forcing."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The Jailolo Strait’s thermal structure is governed by remote Pacific forcing and local mixing—not surface fluxes alone. These insights improve regional ocean models and ITF representation in climate simulations."
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Landslide susceptibility mapping along Taba Penanjung area, Bengkulu province, Indonesia using machine learning (ML) techniques",
+    "publishDate": "October 1, 2025",
+    "author": "Surfiarti Maharani, Ashar Muda Lubis, Elfi Yuliza, Rida Samdara, Bambang Setiadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:W5xh706n7nkC",
+    "image": "/kegiatan/Gemini_Generated_Image_nvoi58nvoi58nvoi.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Taba Penanjung, Bengkulu, is highly prone to landslides due to steep terrain and heavy rainfall. This study develops a Landslide Susceptibility Map (LSM) using five machine learning models."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Fourteen factors (slope, lithology, rainfall, land use, etc.) are used as predictors. Models: Frequency Ratio (FR), Logistic Regression (LR), Random Forest (RF), SVM, and XGBoost. Performance evaluated via accuracy, AUC, and spatial consistency."
+      },
+      {
+        "heading": "Results",
+        "content": "SVM achieves highest accuracy (95.51%) and AUC (0.93). High-susceptibility zones cover 40.97% of the area, concentrated on slopes >30° with clay soil. All models (except FR) show AUC >0.82, confirming robustness."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ML-based LSM provides actionable input for land-use planning and early warning in Bengkulu. SVM is recommended for operational use. The map is integrated into Bengkulu’s provincial disaster management system."
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Comparative Performance of U-Net CNN in Multi-Class Aircraft Segmentation and Classification Using Polygon and Bounding Box Annotations",
+    "publishDate": "October 5, 2025",
+    "author": "Rivilyo Mangolat Rizky Sitanggang, Wa Ode Dianita Putri Suaiba Dani, Bambang Setiadi, Yanif Dwi Kuntjoro",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=gJX1wAMAAAAJ&sortby=pubdate&citation_for_view=gJX1wAMAAAAJ:Fu2w8maKXqMC",
+    "image": "/kegiatan/Gemini_Generated_Image_dgdnkjdgdnkjdgdn.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Military aircraft recognition requires precise segmentation for identification. This study compares polygon vs. bounding box annotations in U-Net-based multi-class aircraft segmentation and classification."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A dataset of 1,200 military aircraft images is annotated with both methods. U-Net CNN is trained for 100 epochs. Metrics: segmentation accuracy (IoU), classification accuracy, training time, and inference latency."
+      },
+      {
+        "heading": "Results",
+        "content": "Polygon annotations yield higher accuracy: test accuracy = 0.987, loss = 0.041. Bounding boxes reduce training time by 34% and inference latency by 28%. Polygon excels in detail capture (e.g., wing shape), while boxes suit real-time applications."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Annotation choice depends on application: polygons for high-precision defense systems, boxes for real-time surveillance. Future work includes hybrid annotation and transformer-based architectures."
+      }
+    ]
   }
 ]

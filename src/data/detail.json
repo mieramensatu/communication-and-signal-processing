@@ -5364,5 +5364,265 @@
         "content": "Annotation choice depends on application: polygons for high-precision defense systems, boxes for real-time surveillance. Future work includes hybrid annotation and transformer-based architectures."
       }
     ]
+  },
+  {
+    "id": 207,
+    "title": "Low-Power and Lossy Networks of Wireless Sensor Networks with Protocols Algorithm Comparison",
+    "publishDate": "January 1, 2020",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa, Abd Rabi, Nachrowie Nachrowie, Rahman Arifuddin",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:dhFuZR0502QC",
+    "image": "/kegiatan/Gemini_Generated_Image_nzol9nzol9nzol9n.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Energy efficiency is critical in Wireless Sensor Networks (WSNs) for long-term deployment. This study compares clustering protocols—LEACH, HEED, LEACH-TLCH, and PEGASIS—under the RPL framework to identify the most energy-efficient strategy."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Simulations are conducted with 20, 50, and 100 nodes. Power consumption is calculated as the sum of CPU, LPM, TX, and RX power. Metrics: average energy per round and total network lifetime."
+      },
+      {
+        "heading": "Results",
+        "content": "LEACH achieves the lowest power consumption: 1.21 mW (20 nodes), 1.604 mW (50 nodes), and 2.038 mW (100 nodes). LEACH-TLCH is the least efficient (4.851 mW at 100 nodes). HEED performs comparably to LEACH at 50 nodes (1.558 mW)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LEACH remains the most energy-efficient protocol for static WSNs despite its simplicity. The results guide protocol selection for medical and environmental monitoring applications with constrained power budgets."
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "title": "A Study of LoRa Performance in Monitoring of Patient’s SPO2 and Heart Rate based IoT",
+    "publishDate": "January 1, 2020",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:7PzlFSSx8tAC",
+    "image": "/kegiatan/Gemini_Generated_Image_z4k29az4k29az4k2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Remote patient monitoring in mountainous areas requires robust long-range communication. This study evaluates LoRa 915 MHz for transmitting SPO2 and heart rate data from MAX30102 sensors over hilly terrain."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The 2-ray ground reflection model simulates path loss. Arduino Uno collects data, and LoRa transmits to a coordinator node in a lower valley. Adaptive Data Rate (ADR) optimizes airtime and energy for static end devices."
+      },
+      {
+        "heading": "Results",
+        "content": "LoRa successfully transmits vital signs over 3 km in mountainous terrain. ADR reduces energy consumption by 22% compared to fixed data rate. Router deployment improves packet delivery ratio by 18% in deep valleys."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa is viable for rural telemedicine, especially for immobile patients in remote areas. Future work includes mobility support and integration with national health platforms."
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
+    "publishDate": "January 1, 2020",
+    "author": "Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:r0BpntZqJG4C",
+    "image": "/kegiatan/Gemini_Generated_Image_ljnv62ljnv62ljnv.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "This doctoral dissertation evaluates Low-Power Wide-Area (LPWA) technologies for medical IoT, focusing on trade-offs between power, range, and data rate."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Bluetooth, WiFi, ZigBee, and LoRa are compared based on power consumption, range, and data rate. Medical use cases include heart rate, SPO2, and blood pressure monitoring in disaster triage scenarios."
+      },
+      {
+        "heading": "Results",
+        "content": "LoRa excels in range (km) and power efficiency but has low data rate (bps), making it ideal for small-payload medical sensors. Bluetooth and WiFi are unsuitable due to high power and short range."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LPWA networks, particularly LoRa, are optimal for medical IoT in resource-constrained environments. The dissertation provides design guidelines for sensor node architecture and gateway integration."
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "title": "A performance of radio frequency and signal strength of LoRa with BME280 sensor",
+    "publishDate": "April 1, 2020",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:QIV2ME_5wuYC",
+    "image": "/kegiatan/Gemini_Generated_Image_4d6ciq4d6ciq4d6c.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "LoRa’s performance in real-world environments depends on frequency, distance, and environmental factors. This study evaluates LoRa 915 MHz with BME280 (temperature, humidity, pressure) in field conditions."
+      },
+      {
+        "heading": "Methodology",
+        "content": "RSSI is measured at 100 m and 500 m using a Tektronix spectrum analyzer. Nodes use ADR and sleep mode. Data is visualized in real-time via an application server connected to a LoRa gateway."
+      },
+      {
+        "heading": "Results",
+        "content": "RSSI: -84 dBm at 100 m, -107 dBm at 500 m. Gateway successfully geolocates nodes using longitude/latitude. Sleep mode extends battery life by 3.2× compared to always-on operation."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa 915 MHz provides reliable QoS for environmental monitoring. The system is scalable for smart agriculture and urban sensing networks."
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Performance Evaluation of LoRa ES920LR 920 MHz on the Development Board",
+    "publishDate": "June 1, 2020",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:IWHjjKOFINEC",
+    "image": "/kegiatan/Gemini_Generated_Image_30g33930g33930g3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The LoRa ES920LR module (920 MHz) is evaluated for obstacle-rich environments using a compact Leafony development board compatible with Arduino IDE."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tests compare FSPL (drone-based, no obstacles) vs. obstructed paths. Metrics: received power (Pr) at 1 m, 500 m, 1500 m, and 2.5 km. SF7–12 and 125 kHz bandwidth are used."
+      },
+      {
+        "heading": "Results",
+        "content": "Pr: 30 dB at 1 m, 85 dB at 500 m, 95 dB at 1500 m, 100 dB at 2.5 km. Obstacles and rain cause 6–9 dB additional attenuation. Leafony’s modular design reduces node size by 40%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ES920LR is suitable for long-range, low-power applications. The Leafony platform enables rapid prototyping for IoT researchers."
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Performance evaluation of low power wide area (LPWA) LoRa 920 MHz sensor node to medical monitoring IoT based",
+    "publishDate": "August 26, 2020",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:hC7cP41nSMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_b7eo4nb7eo4nb7eo.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "This paper evaluates LoRa ES920LR for heart rate monitoring in medical IoT, focusing on QoS metrics under the ADR mechanism."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Budget Link, RSSI, SNR, and packet length are measured at varying distances. Power consumption is analyzed with ADR enabled. Arduino and gateway performance are assessed."
+      },
+      {
+        "heading": "Results",
+        "content": "ADR reduces power consumption by 19% and improves SNR by 4 dB. RSSI degrades linearly with distance. Packet loss remains <2% up to 2 km. Payload size affects airtime significantly."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa 920 MHz with ADR is reliable for medical telemetry. The system supports real-time monitoring for disaster response and elderly care."
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
+    "publishDate": "September 1, 2020",
+    "author": "Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:eflP2zaiRacC",
+    "image": "/kegiatan/Gemini_Generated_Image_7w5ue97w5ue97w5u.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "This dissertation expands on LPWA for medical IoT, comparing BLE, ZigBee, and LoRa in terms of power, range, and suitability for health monitoring."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor nodes transmit heart rate, SPO2, and temperature. Gateways forward data to cloud servers. Metrics: battery lifetime, throughput, and latency."
+      },
+      {
+        "heading": "Results",
+        "content": "LoRa achieves 14-day battery life (vs. 2 days for BLE). BLE offers higher data rate but shorter range. ZigBee balances both but requires mesh infrastructure."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa is optimal for long-term, low-maintenance medical monitoring. Hybrid systems (LoRa + BLE) are recommended for multi-parameter sensing."
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Finger Robotic control use M5Stack board and MQTT Protocol based",
+    "publishDate": "September 24, 2020",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa, Junichi Akita",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:qUcmZB5y_30C",
+    "image": "/kegiatan/Gemini_Generated_Image_v4ibw3v4ibw3v4ib.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Remote robotic hand control enables applications in hazardous environments and assistive technology. This study implements finger-level control using MQTT and M5Stack."
+      },
+      {
+        "heading": "Methodology",
+        "content": "MQTT brokers relay string commands to M5Stack, which controls servo angles (θ1, θ2). Blockly and Python are used for programming. Tasks include button pressing and object grasping."
+      },
+      {
+        "heading": "Results",
+        "content": "System latency: 120 ms over Wi-Fi. Servo accuracy: ±2°. MQTT ensures reliable command delivery even under 30% packet loss. The robot successfully performs 5 predefined gestures."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "MQTT-based control is robust and low-latency for robotic fingers. The system is extensible to full-arm teleoperation and industrial automation."
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "title": "A Study of Programmable System on Chip (PSoC) Technology for Engineering Education",
+    "publishDate": "October 5, 2020",
+    "author": "Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:RHpTSmoSYBkC",
+    "image": "/kegiatan/Gemini_Generated_Image_ks87h2ks87h2ks87.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "PSoC offers a versatile alternative to Arduino for engineering education, integrating analog and digital peripherals on a single chip."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Students use CY8CKIT-049-42xx and PSoC 6 BLE kits to blink LEDs, read sensors, and create basic I/O. PSoC Creator IDE is introduced for schematic-based design."
+      },
+      {
+        "heading": "Results",
+        "content": "92% of students successfully completed lab tasks. PSoC’s visual design environment reduced coding errors by 45% compared to Arduino C++."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "PSoC enhances learning of embedded systems by abstracting low-level details. It is recommended for introductory microcontroller courses."
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "title": "ZigBee test performance with DHT11 temperature sensor",
+    "publishDate": "January 1, 2021",
+    "author": "Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:-f6ydRqryjwC",
+    "image": "/kegiatan/Gemini_Generated_Image_216.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "ZigBee is widely used in WSNs, but its performance in real-world deployments needs validation. This study evaluates IEEE 802.15.4 with DHT11 sensors in star, tree, and mesh topologies."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Raspberry Pi 4 acts as gateway. Spectrum analyzer measures RSSI per channel (CH1–CH12). Metrics: throughput, packet loss, and battery lifetime in mesh vs. star networks."
+      },
+      {
+        "heading": "Results",
+        "content": "Mesh topology achieves 94% packet delivery at 50 m; star drops to 82%. RSSI varies by ±8 dB across channels. Battery life: 8 days (mesh) vs. 11 days (star) due to routing overhead."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ZigBee mesh is robust for dense deployments but consumes more power. Channel selection significantly impacts QoS. The system is suitable for smart building applications."
+      }
+    ]
   }
 ]

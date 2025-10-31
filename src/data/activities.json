@@ -2303,5 +2303,75 @@
     "title": "Comparative Performance of U-Net CNN in Multi-Class Aircraft Segmentation and Classification Using Polygon and Bounding Box Annotations",
     "desc": "Annotasi poligon pada U-Net menghasilkan akurasi segmentasi 0.987, sementara bounding box 34% lebih cepat dalam pelatihan—memberikan panduan pemilihan metode berdasarkan kebutuhan presisi vs. kecepatan.",
     "img": "/kegiatan/Gemini_Generated_Image_dgdnkjdgdnkjdgdn.png"
+  },
+  {
+    "id": 207,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Abd Rabi", "Nachrowie Nachrowie", "Rahman Arifuddin"],
+    "title": "Low-Power and Lossy Networks of Wireless Sensor Networks with Protocols Algorithm Comparison",
+    "desc": "LEACH mengonsumsi daya terendah (2.038 mW pada 100 node), mengungguli HEED, LEACH-TLCH, dan PEGASIS dalam efisiensi energi untuk jaringan sensor nirkabel berdaya rendah.",
+    "img": "/kegiatan/Gemini_Generated_Image_nzol9nzol9nzol9n.png"
+  },
+  {
+    "id": 208,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa"],
+    "title": "A Study of LoRa Performance in Monitoring of Patient’s SPO2 and Heart Rate based IoT",
+    "desc": "LoRa 915 MHz berhasil mengirim data tanda vital pasien melalui medan berbukit hingga 3 km, dengan ADR mengurangi konsumsi daya 22% untuk aplikasi telemedis pedesaan.",
+    "img": "/kegiatan/Gemini_Generated_Image_z4k29az4k29az4k2.png"
+  },
+  {
+    "id": 209,
+    "author": ["Puput Dani Prasetyo Adi"],
+    "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
+    "desc": "Disertasi ini menyimpulkan LoRa sebagai teknologi LPWA terbaik untuk IoT medis karena jangkauan jauh dan efisiensi daya, meskipun laju data rendah, ideal untuk pemantauan tanda vital.",
+    "img": "/kegiatan/Gemini_Generated_Image_ljnv62ljnv62ljnv.png"
+  },
+  {
+    "id": 210,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa"],
+    "title": "A performance of radio frequency and signal strength of LoRa with BME280 sensor",
+    "desc": "LoRa 915 MHz mencapai RSSI -84 dBm pada 100 m dan -107 dBm pada 500 m dengan sensor BME280, mendukung pemantauan lingkungan real-time melalui gateway berbasis LoRa.",
+    "img": "/kegiatan/Gemini_Generated_Image_4d6ciq4d6ciq4d6c.png"
+  },
+  {
+    "id": 211,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa"],
+    "title": "Performance Evaluation of LoRa ES920LR 920 MHz on the Development Board",
+    "desc": "Modul LoRa ES920LR pada papan Leafony mencapai jarak 2.5 km dengan daya terima 100 dB, dengan desain modular yang mengurangi ukuran node 40% untuk prototipe IoT cepat.",
+    "img": "/kegiatan/Gemini_Generated_Image_30g33930g33930g3.png"
+  },
+  {
+    "id": 212,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa"],
+    "title": "Performance evaluation of low power wide area (LPWA) LoRa 920 MHz sensor node to medical monitoring IoT based",
+    "desc": "LoRa 920 MHz dengan ADR mengurangi konsumsi daya 19% dan meningkatkan SNR 4 dB, memungkinkan pemantauan jantung real-time hingga 2 km dengan kehilangan paket <2%.",
+    "img": "/kegiatan/Gemini_Generated_Image_b7eo4nb7eo4nb7eo.png"
+  },
+  {
+    "id": 213,
+    "author": ["Puput Dani Prasetyo Adi"],
+    "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
+    "desc": "Perbandingan LPWA menunjukkan LoRa memberikan masa pakai baterai 14 hari (vs 2 hari BLE), menjadikannya pilihan optimal untuk pemantauan medis jangka panjang.",
+    "img": "/kegiatan/Gemini_Generated_Image_7w5ue97w5ue97w5u.png"
+  },
+  {
+    "id": 214,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Junichi Akita"],
+    "title": "Finger Robotic control use M5Stack board and MQTT Protocol based",
+    "desc": "Kontrol jari robotik berbasis MQTT mencapai latensi 120 ms dan akurasi servo ±2°, memungkinkan teleoperasi jarak jauh untuk aplikasi asisten dan industri.",
+    "img": "/kegiatan/Gemini_Generated_Image_v4ibw3v4ibw3v4ib.png"
+  },
+  {
+    "id": 215,
+    "author": ["Puput Dani Prasetyo Adi"],
+    "title": "A Study of Programmable System on Chip (PSoC) Technology for Engineering Education",
+    "desc": "PSoC mengurangi kesalahan pengkodean 45% dibanding Arduino dalam pendidikan mikrokontroler, berkat antarmuka desain visual di PSoC Creator untuk mahasiswa teknik.",
+    "img": "/kegiatan/Gemini_Generated_Image_ks87h2ks87h2ks87.png"
+  },
+  {
+    "id": 216,
+    "author": ["Puput Dani Prasetyo Adi"],
+    "title": "ZigBee test performance with DHT11 temperature sensor",
+    "desc": "Topologi mesh ZigBee mencapai pengiriman paket 94% pada 50 m, tetapi masa pakai baterai 8 hari (vs 11 hari pada star), memberikan panduan desain untuk jaringan sensor cerdas.",
+    "img": "/kegiatan/Gemini_Generated_Image_lf26ynlf26ynlf26.png"
   }
 ]

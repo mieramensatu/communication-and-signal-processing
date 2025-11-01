@@ -2320,58 +2320,338 @@
   },
   {
     "id": 209,
-    "author": ["Puput Dani Prasetyo Adi"],
-    "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
-    "desc": "Disertasi ini menyimpulkan LoRa sebagai teknologi LPWA terbaik untuk IoT medis karena jangkauan jauh dan efisiensi daya, meskipun laju data rendah, ideal untuk pemantauan tanda vital.",
-    "img": "/kegiatan/Gemini_Generated_Image_ljnv62ljnv62ljnv.png"
-  },
-  {
-    "id": 210,
     "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa"],
     "title": "A performance of radio frequency and signal strength of LoRa with BME280 sensor",
     "desc": "LoRa 915 MHz mencapai RSSI -84 dBm pada 100 m dan -107 dBm pada 500 m dengan sensor BME280, mendukung pemantauan lingkungan real-time melalui gateway berbasis LoRa.",
     "img": "/kegiatan/Gemini_Generated_Image_4d6ciq4d6ciq4d6c.png"
   },
   {
-    "id": 211,
+    "id": 210,
     "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa"],
     "title": "Performance Evaluation of LoRa ES920LR 920 MHz on the Development Board",
     "desc": "Modul LoRa ES920LR pada papan Leafony mencapai jarak 2.5 km dengan daya terima 100 dB, dengan desain modular yang mengurangi ukuran node 40% untuk prototipe IoT cepat.",
     "img": "/kegiatan/Gemini_Generated_Image_30g33930g33930g3.png"
   },
   {
-    "id": 212,
+    "id": 211,
     "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa"],
     "title": "Performance evaluation of low power wide area (LPWA) LoRa 920 MHz sensor node to medical monitoring IoT based",
     "desc": "LoRa 920 MHz dengan ADR mengurangi konsumsi daya 19% dan meningkatkan SNR 4 dB, memungkinkan pemantauan jantung real-time hingga 2 km dengan kehilangan paket <2%.",
     "img": "/kegiatan/Gemini_Generated_Image_b7eo4nb7eo4nb7eo.png"
   },
   {
-    "id": 213,
+    "id": 212,
     "author": ["Puput Dani Prasetyo Adi"],
     "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
     "desc": "Perbandingan LPWA menunjukkan LoRa memberikan masa pakai baterai 14 hari (vs 2 hari BLE), menjadikannya pilihan optimal untuk pemantauan medis jangka panjang.",
     "img": "/kegiatan/Gemini_Generated_Image_7w5ue97w5ue97w5u.png"
   },
   {
-    "id": 214,
+    "id": 213,
     "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Junichi Akita"],
     "title": "Finger Robotic control use M5Stack board and MQTT Protocol based",
     "desc": "Kontrol jari robotik berbasis MQTT mencapai latensi 120 ms dan akurasi servo ±2°, memungkinkan teleoperasi jarak jauh untuk aplikasi asisten dan industri.",
     "img": "/kegiatan/Gemini_Generated_Image_v4ibw3v4ibw3v4ib.png"
   },
   {
-    "id": 215,
+    "id": 214,
     "author": ["Puput Dani Prasetyo Adi"],
     "title": "A Study of Programmable System on Chip (PSoC) Technology for Engineering Education",
     "desc": "PSoC mengurangi kesalahan pengkodean 45% dibanding Arduino dalam pendidikan mikrokontroler, berkat antarmuka desain visual di PSoC Creator untuk mahasiswa teknik.",
     "img": "/kegiatan/Gemini_Generated_Image_ks87h2ks87h2ks87.png"
   },
   {
-    "id": 216,
+    "id": 215,
     "author": ["Puput Dani Prasetyo Adi"],
     "title": "ZigBee test performance with DHT11 temperature sensor",
     "desc": "Topologi mesh ZigBee mencapai pengiriman paket 94% pada 50 m, tetapi masa pakai baterai 8 hari (vs 11 hari pada star), memberikan panduan desain untuk jaringan sensor cerdas.",
     "img": "/kegiatan/Gemini_Generated_Image_lf26ynlf26ynlf26.png"
+  },
+  {
+    "id": 216,
+    "author": ["Fransiska Sisilia Mukti", "Puput Dani Prasetyo Adi", "et. al."],
+    "title": "Integrating Cost-231 Multiwall Propagation and Adaptive Data Rate Method for Access Point Placement Recommendation",
+    "desc": "Kombinasi COST-231 MWM dan ADR merekomendasikan 10–7 titik AP optimal per lantai di kampus, mengurangi kehilangan paket 31% melalui penyesuaian laju data adaptif di lingkungan multi-dinding.",
+    "img": "/kegiatan/Gemini_Generated_Image_revzzbrevzzbrevz.png"
+  },
+  {
+    "id": 217,
+    "author": ["Puput Dani Prasetyo Adi", "Machmud Effendy"],
+    "title": "Evaluasi Kinerja Lpwa Berbasis Internet Of Things Menggunakan Radio Frekuensi LORA 915 MHz dan 920 MHz",
+    "desc": "LoRa 915/920 MHz mencapai masa pakai baterai 12 hari dan PRR 98% pada 2 km, ideal untuk pemantauan tanda vital medis berbasis IoT dengan laju data rendah.",
+    "img": "/kegiatan/Gemini_Generated_Image_zh828qzh828qzh82.png"
+  },
+  {
+    "id": 218,
+    "author": ["Puput Dani Prasetyo Adi", "Victor MM Siregar", "A Kitagawa"],
+    "title": "A Soil moisture sensor based on Internet of Things LoRa",
+    "desc": "Sistem IoT-LoRa mengurangi penggunaan air 37% melalui penyiraman otomatis berbasis kelembaban tanah, dengan latensi 8 detik dan masa pakai baterai 18 hari menggunakan ADR.",
+    "img": "/kegiatan/Gemini_Generated_Image_fgr1zufgr1zufgr1.png"
+  },
+  {
+    "id": 219,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Dwi Arman Prasetya", "Rahman Arifuddin", "Stanislaus Yoseph"],
+    "title": "LoRaWAN Technology in Irrigation Channels in Batu Indonesia",
+    "desc": "Prototipe LoRaWAN mendeteksi kontaminasi air dalam 15 detik dan mengalihkan air bersih ke lahan pertanian, mengurangi paparan tanaman terhadap limbah rumah tangga sebesar 92%.",
+    "img": "/kegiatan/Gemini_Generated_Image_ybwffgybwffgybwf.png"
+  },
+  {
+    "id": 220,
+    "author": ["Windra Swastika", "Romy Budhi Widodo", "Ginza Alfarizha Balqis", "Rehmadenta Sitepu"],
+    "title": "The Effect of Regularization in Convolutional Neural Network for Malaria Parasite Detection",
+    "desc": "Regularisasi dropout (0.5) pada CNN mencapai akurasi 97.2% dalam deteksi parasit malaria dari apus darah, mengurangi overfitting dan meningkatkan generalisasi model medis.",
+    "img": "/kegiatan/Gemini_Generated_Image_ntx5krntx5krntx5.png"
+  },
+  {
+    "id": 221,
+    "author": ["Puput Dani Prasetyo Adi", "Volvo Sihombing", "Victor Marudut Mulia Siregar", "Gomal Juni Yanris", "Fricles Ariwisanto Sianturi", "Windania Purba", "Saut Parsaoran Tamba", "Julianto Simatupang", "Rahman Arifuddin", "Dwi Arman Prasetya"],
+    "title": "A performance evaluation of ZigBee mesh communication on the Internet of Things (IoT)",
+    "desc": "Topologi mesh ZigBee mencapai PRR 94% pada 50 m, meski masa pakai baterai 8 hari (vs 11 hari pada star), memberikan panduan desain untuk IoT di lingkungan kompleks.",
+    "img": "/kegiatan/Gemini_Generated_Image_nga926nga926nga9.png"
+  },
+  {
+    "id": 222,
+    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Dwi Arman Prasetya", "Aries Boedi Setiawan"],
+    "title": "A Performance of ES920LR LoRa for the Internet of Things: A Technology Review",
+    "desc": "Modul LoRa ES920LR (24×17 mm) mencapai PRR 93.94% pada 710 m, cocok untuk integrasi pada drone dan perangkat wearable untuk pemantauan kesehatan real-time.",
+    "img": "/kegiatan/Gemini_Generated_Image_lifqvplifqvplifq.png"
+  },
+  {
+    "id": 223,
+    "author": ["Alfonsius Yohandrik Bi Dawe"],
+    "title": "Electricity monitoring system based on fuzzy logic and Internet of things",
+    "desc": "Sistem rumah pintar berbasis fuzzy logic dan ESP8266 mengurangi konsumsi energi 28% dan mencegah kelebihan beban melalui kontrol pencahayaan berbasis gerak dan cahaya.",
+    "img": "/kegiatan/Gemini_Generated_Image_a6xsala6xsala6xs.png"
+  },
+  {
+    "id": 224,
+    "author": ["Yunus Baweng Jonggo’man"],
+    "title": "Automatic foldron t-shirt with proportional integral derivative method and M5Stack for IoT-server",
+    "desc": "Mesin lipat baju otomatis menggunakan kontrol PID menyelesaikan satu kaos dalam 45 detik (3× lebih cepat), dengan akurasi posisi ±2 mm dan pemantauan IoT real-time.",
+    "img": "/kegiatan/Gemini_Generated_Image_ed7se4ed7se4ed7s.png"
+  },
+  {
+    "id": 225,
+    "author": ["Stanislaus Yosep"],
+    "title": "Implementation of fuzzy logic on Internet of Things-based greenhouse",
+    "desc": "Rumah kaca berbasis LoRa dan logika fuzzy meningkatkan hasil panen pakcoy 22% dengan kontrol otomatis suhu, kelembaban, dan pH, beroperasi offline saat internet terputus.",
+    "img": "/kegiatan/Gemini_Generated_Image_i0jlqdi0jlqdi0jl.png"
+  },
+{
+  "id": 226,
+  "author": ["Yunus Baweng Jonggo’man"],
+  "title": "Automatic T-Shirt Folding And Iron Machine Menggunakan Metode PID (Proportional Integral Derivative)",
+  "desc": "Mesin otomatis melipat dan menyetrika kaos menggunakan kontrol PID dan sensor ultrasonik mencapai presisi ±3 mm dan menyelesaikan satu kaos dalam 48 detik, mengurangi waktu proses laundry secara signifikan.",
+  "img": "/kegiatan/Gemini_Generated_Image_cul0q4cul0q4cul0.png"
+},
+  {
+    "id": 227,
+    "author": ["A Puspita Sari", "Ermanu Azizul Hakim", "D Arman Prasetya", "Rahman Arifuddin", "Puput Dani Prasetyo Adi"],
+    "title": "Sistem Prediksi Kecepatan dan Arah Angin Menggunakan Bidirectional Long Short-Term Memory",
+    "desc": "Model BiLSTM mencapai MAE 0.42 m/s dan 8.3° dalam prediksi angin 1 jam ke depan, mengungguli FCNN dan SLSTM di semua musim berkat pemrosesan temporal dua arah.",
+    "img": "/kegiatan/Gemini_Generated_Image_r4pb25r4pb25r4pb.png"
+  },
+  {
+    "id": 228,
+    "author": ["Yuli Afril Liani", "Ibnu Rasyid Munthe", "Deci Irmayani", "Bayu Eko Broto", "Gomal Juni Yanris", "Dwi Arman Prasetya", "Rudi Haryanto", "Puput Dani Prasetyo Adi", "Ahmad Rofiqul Muslikh", "Rahman Arifuddin"],
+    "title": "The broiler chicken coop temperature monitoring use fuzzy logic and LoRAWAN",
+    "desc": "Sistem LoRaWAN dan logika fuzzy mempertahankan suhu kandang ayam sesuai usia (33°C untuk 0–7 hari), mengurangi kematian 18% dengan jangkauan 15 km dan konsumsi daya 1.8 mW.",
+    "img": "/kegiatan/Gemini_Generated_Image_zdwhkwzdwhkwzdwh.png"
+  },
+  {
+    "id": 229,
+    "author": ["Marianus Tiga", "Puput Dani Prasetyo Adi", "Wahyu Dirgantara"],
+    "title": "Automatic Wastewater Control System for Soil Fertility use Fuzzy Logic and IoT-Based",
+    "desc": "Sistem IoT berbasis logika fuzzy menetralkan pH air limbah ke 6.8±0.2 dan meningkatkan hasil panen 24% melalui irigasi yang aman di daerah tercemar.",
+    "img": "/kegiatan/Gemini_Generated_Image_9m80bc9m80bc9m80.png"
+  },
+  {
+    "id": 230,
+    "author": ["Windania Purba", "Siti Aisyah", "Evta Indra", "Marlince NK Nababan"],
+    "title": "Unilever’s Customer Data Management Information System in Medan City and Approaches to Android Smartphone and IoT Flexibility",
+    "desc": "Sistem berbasis web dan Android mengurangi waktu pengumpulan data 65% dan meningkatkan akurasi peramalan permintaan 31% untuk manajemen rantai pasok Unilever.",
+    "img": "/kegiatan/Gemini_Generated_Image_9wp38r9wp38r9wp3.png"
+  },
+  {
+    "id": 231,
+    "author": ["Supramono Supramono", "Puput Dani Prasetyo Adi"],
+    "title": "Waterfall pattern using Omron CP1E PLC, Fuzzy Logic Method, and PLC-IoT approach",
+    "desc": "PLC Omron CP1E dengan logika fuzzy mencapai akurasi pola air 0.811 pada tekanan 0.206 bar, memungkinkan tampilan air dinamis dengan pemantauan IoT real-time.",
+    "img": "/kegiatan/Gemini_Generated_Image_qtf1swqtf1swqtf1.png"
+  },
+  {
+    "id": 232,
+    "author": ["Puput Dani Prasetyo Adi", "Dwi Arman Prasetya", "Rahman Arifuddin", "Anggraini Puspita Sari", "Fransiska Sisilia Mukti", "Volvo Sihombing", "Agus Anjar", "Elviana Sagala", "Gomal Juni Yanris"],
+    "title": "Application of IoT-LoRa Technology and Design in irrigation canals to improve the quality of agricultural products in Batu Indonesia",
+    "desc": "Sistem IoT-LoRa memastikan 95% air irigasi memenuhi standar pH, meningkatkan hasil panen pakcoy 19% di lahan tercemar Batu, Jawa Timur.",
+    "img": "/kegiatan/Gemini_Generated_Image_4ydsiu4ydsiu4yds.png"
+  },
+  {
+    "id": 233,
+    "author": ["Novilda Elizabeth Mustamu", "MM Victor", "Volvo Sihombing"],
+    "title": "Drone simulation for agriculture and LoRa based approach",
+    "desc": "Simulasi drone pertanian mengurangi penggunaan pestisida 35% melalui penyemprotan tepat sasaran, dengan jangkauan telemetri LoRa 2.1 km dan cakupan 2 hektar per jam.",
+    "img": "/kegiatan/Gemini_Generated_Image_cyq8uecyq8uecyq8.png"
+  },
+  {
+    "id": 234,
+    "author": ["Puput Dani Prasetyo Adi", "Fransiska Sisilia Mukti", "Panggih Nur Adi", "Akio Kitagawa", "Gomal Juni Yanris", "Volvo Sihombing", "Zunaidy Abdullah Siregar"],
+    "title": "ZigBee and LoRa performances on RF Propagation on the Snow Hills area",
+    "desc": "LoRa 915 MHz mencapai PRR 89% pada 1.8 km di daerah bersalju, sementara ZigBee hanya 42% pada 300 m—membuktikan superioritas LoRa di lingkungan ekstrem.",
+    "img": "/kegiatan/Gemini_Generated_Image_hbz68lhbz68lhbz6.png"
+  },
+  {
+    "id": 235,
+    "author": ["Yandri Lesmana", "Rahmadani Pane", "Elysa Rohayani Hsb", "Lukman Hakim", "Nelly Agusti", "Deci Irmayani"],
+    "title": "A review of motion sensors as a home security system and approach to the internet of things project",
+    "desc": "Sensor gerak hibrida (PIR + ultrasonik) mengurangi false alarm menjadi 3% dan memicu alarm aktif untuk mencegah pencurian, meningkatkan keamanan rumah berbasis IoT.",
+    "img": "/kegiatan/Gemini_Generated_Image_5sl0ax5sl0ax5sl0.png"
+  },
+  {
+    "id": 336,
+    "author": ["Puput Dani Prasetyo Adi", "Dwi Arman Prasetya", "Anggraini Puspita Sari", "Rahman Arifuddin", "Elta Sonalitha", "Irfan Mudjahidin"],
+    "title": "Performance of ES920LR LoRa for Monitoring Health Status on LoS and Non-LoS Environment",
+    "desc": "Modul LoRa ES920LR mencapai PRR 93.94% pada 710 m di lingkungan LoS dan tetap andal di Non-LoS dengan SF12, ideal untuk pemantauan kesehatan berbasis drone dan wearable.",
+    "img": "/kegiatan/Gemini_Generated_Image_msty5hmsty5hmsty.png"
+  },
+  {
+    "id": 337,
+    "author": ["Puput Dani Prasetyo Adi"],
+    "title": "Pengabdian Dosen dan Mahasiswa di Sekolah Dasar Negeri 3 Wates dengan Memberikan Metode Belajar Hybrid Learning berbasis Animasi Pembelajaran",
+    "desc": "Animasi pembelajaran meningkatkan nilai kuis Matematika 16.88 poin dan IPA 17.3 poin di SD Negeri 3 Wates, mengatasi penurunan minat belajar selama pandemi.",
+    "img": "/kegiatan/Gemini_Generated_Image_hm6b9nhm6b9nhm6b.png"
+  },
+  {
+    "id": 338,
+    "author": ["Dwi Arman Prasetya", "Ermanu Azizul Hakim", "Rahman Arifuddin", "Puput Dani Prasetyo Adi"],
+    "title": "Implementasi Arduino Nano Berbasis IOT Pada Alat Proteksi Terhadap Gangguan Tegangan Lebih",
+    "desc": "Sistem proteksi berbasis Arduino Nano dan sensor ACS712 merespons gangguan tegangan dalam 12 ms, mengurangi kerusakan peralatan rumah tangga hingga 76%.",
+    "img": "/kegiatan/Gemini_Generated_Image_q2eeuxq2eeuxq2ee.png"
+  },
+  {
+    "id": 339,
+    "author": ["Sandhya Sabila", "Puput Dani Prasetyo Adi", "Subairi Subairi", "M Baidlowi"],
+    "title": "Sistem Otomatis Penggerak Lesan Tembak Untuk Latihan Teknik Tempur Cepat Dengan Metode PID",
+    "desc": "Sistem target tembak otomatis berbasis PID mencapai akurasi ±1.5 cm dan menghilangkan risiko personel dalam latihan tembak tempur TNI.",
+    "img": "/kegiatan/Gemini_Generated_Image_yxzj2pyxzj2pyxzj.png"
+  },
+  {
+    "id": 340,
+    "author": ["Abdul Wahid", "Muhammad Fajar B", "Jumadi Mabe Parenreng", "Seny Luhriyani Sunusi"],
+    "title": "Smart Blended Learning Framework based on Artificial Intelligence using MobileNet Single Shot Detector and Centroid Tracking Algorithm",
+    "desc": "Kerangka pembelajaran hybrid berbasis MobileNet SSD dan pelacakan sentroid meningkatkan kepuasan siswa daring menjadi 89%, menyamai pengalaman belajar luring.",
+    "img": "/kegiatan/Gemini_Generated_Image_kc7hzmkc7hzmkc7h.png"
+  },
+  {
+    "id": 341,
+    "author": ["Puput Dani Prasetyo Adi", "Yuyu Wahyu"],
+    "title": "Performance evaluation of ESP32 Camera Face Recognition for various projects",
+    "desc": "ESP32-CAM mencapai waktu inferensi 0.8–1.2 detik pada resolusi QVGA/CIF, menawarkan solusi pengenalan wajah berbiaya rendah untuk kunci pintu pintar.",
+    "img": "/kegiatan/Gemini_Generated_Image_2a566q2a566q2a56.png"
+  },
+  {
+    "id": 342,
+    "author": ["Sunardi Sunardi", "Eko Yuni Prihantono", "Dwi Ekasari Harmadji", "Andini Risfandini", "Puput Dani Prasetyo Adi"],
+    "title": "Analisis Kelayakan Bisnis: dengan Pendekatan Aspek Keuangan dan Pasar",
+    "desc": "Kerangka analisis kelayakan bisnis selaras dengan UU 23/2014 dan UU 33/2004, divalidasi pada 12 proyek pilot untuk BUMN, BUMD, dan UMKM di Indonesia.",
+    "img": "/kegiatan/Gemini_Generated_Image_hcglghcglghcglgh.png"
+  },
+  {
+    "id": 343,
+    "author": ["Dwi Arman Prasetya", "Anwar Sanusi", "Grahita Chandrarin", "Puput Dani Prasetyo Adi", "Rahman Arifuddin", "Irfan Mujahidin"],
+    "title": "Analisa Kebijakan Dan Dampak Ekonomi Masyarakat Dari Mesin Pengolah Sampah Plastik Menjadi Sumber Energi Di Gadingkasri Malang",
+    "desc": "Mesin pengolah sampah plastik menghemat 35% biaya bahan bakar rumah tangga dan menciptakan 28 lapangan kerja, didukung aplikasi 'SIMANJAH' untuk penjadwalan pengumpulan.",
+    "img": "/kegiatan/Gemini_Generated_Image_ry3235ry3235ry32.png"
+  },
+  {
+    "id": 344,
+    "author": ["Puput Dani Prasetyo Adi", "Yuyu Wahyu"],
+    "title": "Performance evaluation of ESP32 Camera Face Recognition for various projects",
+    "desc": "Studi duplikat: ESP32-CAM dievaluasi untuk pengenalan wajah pada berbagai resolusi, menunjukkan keseimbangan antara kecepatan, jangkauan, dan konsumsi daya.",
+    "img": "/kegiatan/Gemini_Generated_Image_jbdoaujbdoaujbdo.png"
+  },
+  {
+    "id": 345,
+    "author": ["Dwi Arman Prasetya", "Grahita Chandrarin", "Anwar Sanusi", "Irfan Mujahiddin", "Anggraini Puspitasari", "Rahman Arifuddin", "Puput Dani Prasetyo Adi"],
+    "title": "Waste management system using information technology for the improvement of structured environmental ecosystem",
+    "desc": "Sistem pengelolaan sampah berbasis mobile meningkatkan efisiensi pengumpulan 45% dan mengurangi pembuangan liar 58% di Malang melalui aplikasi Android/iOS.",
+    "img": "/kegiatan/Gemini_Generated_Image_qhjk1iqhjk1iqhjk.png"
+  },
+  {
+    "id": 346,
+    "author": ["Puput Dani Prasetyo", "Ricky Santoso Muharam"],
+    "title": "Pengabdian Dosen Dalam Program Pejuang Muda Kementerian Sosial di Manggarai-Nusa Tenggara Timur",
+    "desc": "Program Pejuang Muda melatih siswa memecahkan masalah sosial nyata di Manggarai, NTT, termasuk kemiskinan dan ketergantungan pada tengkulak kopi. Mahasiswa membantu mengidentifikasi potensi komoditas lokal seperti porang sebagai sumber pendapatan berkelanjutan.",
+    "img": "/kegiatan/Gemini_Generated_Image_xwu30pxwu30pxwu3.png"
+  },
+  {
+    "id": 347,
+    "author": ["Puput Dani Prasetyo Adi", "Rumanintya Lisaria Putri", "Resanti Lestari"],
+    "title": "Pengabdian Dosen di PT. Alfan Mechatronics Innovation pada materi PLC dan Penerapan di Masyarakat",
+    "desc": "Dosen magang di industri energi terbarukan mengembangkan solusi berbasis IoT dan jaringan RF, memperkuat sinergi antara universitas dan perusahaan melalui program MBKM Kemendikbudristek.",
+    "img": "/kegiatan/Gemini_Generated_Image_qgh9ceqgh9ceqgh9.png"
+  },
+  {
+    "id": 348,
+    "author": ["Agoestina Mappadang", "Wendi Usino", "Puput Dani Prasetyo Adi"],
+    "title": "Analisis Manfaat dan Risiko Program Pengungkapan Sukarela bagi Wajib Pajak Orang Pribadi",
+    "desc": "Penelitian ini menganalisis Program Pengungkapan Sukarela (PPS) pasca-COVID-19 sebagai upaya meningkatkan kepatuhan pajak wajib pajak orang pribadi di Indonesia.",
+    "img": "/kegiatan/Gemini_Generated_Image_xc5mq0xc5mq0xc5m.png"
+  },
+  {
+    "id": 349,
+    "author": ["Puput Dani Prasetyo Adi", "Yuyu Wahyu", "Akio Kitagawa"],
+    "title": "Analyzes of Chirps Spread Spectrum of ES920LR LoRa 920 MHz",
+    "desc": "Penelitian ini menganalisis sinyal Chirp LoRa 920 MHz menggunakan MATLAB dan Signal Analyzer untuk mengevaluasi performa komunikasi LoRa di frekuensi yang kompatibel dengan Jepang.",
+    "img": "/kegiatan/Gemini_Generated_Image_c0wk3fc0wk3fc0wk.png"
+  },
+  {
+    "id": 350,
+    "author": ["Agoestina Mappadang", "Melan Sinaga", "Puput Dani Prasetyo Adi"],
+    "title": "Pemberdayaan Kepatuhan Wajib Pajak Perorangan, Perhitungan Dan SPT Tahunan Secara E-Filling",
+    "desc": "Pelatihan e-filing meningkatkan pemahaman wajib pajak perorangan dalam pelaporan SPT tahunan secara digital, mengatasi hambatan teknologi dan literasi perpajakan.",
+    "img": "/kegiatan/Gemini_Generated_Image_rzw52drzw52drzw5.png"
+  },
+  {
+    "id": 351,
+    "author": ["Puput Dani Prasetyo Adi", "Nunuk Indarti", "Yuyu Wahyu", "Budi Agung Sudarmanto", "Fransiska Sisilia Mukti", "Jumadi Mabe Parenreng"],
+    "title": "ECG-LPWAN based for Real-time monitoring Patient’s Heart Beat Status",
+    "desc": "Sistem ECG berbasis LoRa 915 MHz memungkinkan pemantauan detak jantung pasien secara real-time melalui platform Thingspeak, mendukung layanan kesehatan jarak jauh.",
+    "img": "/kegiatan/Gemini_Generated_Image_1l40ry1l40ry1l40.png"
+  },
+  {
+    "id": 352,
+    "author": ["Puput Dani Prasetyo Adi", "Abdul Wahid", "Agoestina Mappadang", "Asworoningrum Yulindahwati", "Yudi Prastiyono", "Imam Tahyudin", "La Sinaini", "Sujak Sujak", "Nurindah Nurindah"],
+    "title": "Performance evaluation of LoRa 915 MHz for health monitoring with adaptive data rate",
+    "desc": "Penerapan Adaptive Data Rate (ADR) pada LoRa 915 MHz mengurangi packet loss dan menghemat daya baterai dalam sistem pemantauan kesehatan berbasis IoT.",
+    "img": "/kegiatan/Gemini_Generated_Image_u6jbz4u6jbz4u6jb.png"
+  },
+  {
+    "id": 353,
+    "author": ["Puput Dani Prasetyo Adi", "Dwi Ekasari Harmadji", "Yuyu Wahyu", "Yaya Sulaeman", "Fransiska Sisilia Mukti", "Agoestina Mappadang", "Suprapto Prapto", "Dwi Adi Sunarto", "Yudi Prastiyono", "Otto Endarto"],
+    "title": "Evaluation of Global Positioning System Internet of Things-LoRa based",
+    "desc": "Integrasi GPS U-Blox Neo-6M dengan LoRa 915 MHz memungkinkan pelacakan lokasi real-time dengan akurasi tinggi dan RSSI hingga -118 dBm pada jarak 500 meter.",
+    "img": "/kegiatan/Gemini_Generated_Image_6gbvm06gbvm06gbv.png"
+  },
+  {
+    "id": 354,
+    "author": ["Puput Dani Prasetyo Adi", "Agoestina Mappadang", "Abdul Wahid", "Seny Luhriyani", "Riny Jefri", "Nurindah Nurindah"],
+    "title": "Spreading factor of IoT-LoRa effect for future smart agriculture",
+    "desc": "Penelitian ini mengevaluasi pengaruh Spreading Factor (SF) LoRa terhadap throughput dan packet loss dalam aplikasi pertanian cerdas, menunjukkan trade-off antara jangkauan dan kecepatan data.",
+    "img": "/kegiatan/Gemini_Generated_Image_6evjg66evjg66evj.png"
+  },
+  {
+    "id": 355,
+    "author": ["Puput Dani Prasetyo Adi", "Iwan Purnama", "Agoestina Mappadang", "Budi Agung Sudarmanto", "Latifa Nuraini", "Fauzan Azim", "Muhammad Yusuf Siregar", "Budianto Bangun", "Yudi Prastiyono"],
+    "title": "Performance evaluation of LoRaWAN in pulse status monitoring with clustering of wireless sensor network",
+    "desc": "Penerapan metode clustering HEED pada jaringan sensor nadi berbasis LoRaWAN mengoptimalkan konsumsi daya dan meningkatkan efisiensi transmisi data multi-node.",
+    "img": "/kegiatan/Gemini_Generated_Image_wni4i6wni4i6wni4.png"
+  },
+  {
+    "id": 356,
+    "author": ["Puput Dani Prasetyo Adi", "Rudi Hariyanto", "Fransiska Sisilia Mukti", "Novilda Elizabeth Mustamu", "Windania Purba", "Gomal Juni Yanris Silaen", "Dwi Arman Prasetya", "Saut P. Tamba"],
+    "title": "Smart agriculture based on LoRaWAN",
+    "desc": "Sistem pertanian cerdas berbasis LoRaWAN memantau kelembaban tanah secara real-time dengan konsumsi daya rendah dan komunikasi dua arah (ACK), mendukung pengambilan keputusan irigasi otomatis.",
+    "img": "/kegiatan/Gemini_Generated_Image_dumjugdumjugdumj.png"
   }
 ]

@@ -5419,32 +5419,6 @@
   },
   {
     "id": 209,
-    "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
-    "publishDate": "January 1, 2020",
-    "author": "Puput Dani Prasetyo Adi",
-    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:r0BpntZqJG4C",
-    "image": "/kegiatan/Gemini_Generated_Image_ljnv62ljnv62ljnv.png",
-    "sections": [
-      {
-        "heading": "Introduction",
-        "content": "This doctoral dissertation evaluates Low-Power Wide-Area (LPWA) technologies for medical IoT, focusing on trade-offs between power, range, and data rate."
-      },
-      {
-        "heading": "Methodology",
-        "content": "Bluetooth, WiFi, ZigBee, and LoRa are compared based on power consumption, range, and data rate. Medical use cases include heart rate, SPO2, and blood pressure monitoring in disaster triage scenarios."
-      },
-      {
-        "heading": "Results",
-        "content": "LoRa excels in range (km) and power efficiency but has low data rate (bps), making it ideal for small-payload medical sensors. Bluetooth and WiFi are unsuitable due to high power and short range."
-      },
-      {
-        "heading": "Conclusion",
-        "content": "LPWA networks, particularly LoRa, are optimal for medical IoT in resource-constrained environments. The dissertation provides design guidelines for sensor node architecture and gateway integration."
-      }
-    ]
-  },
-  {
-    "id": 210,
     "title": "A performance of radio frequency and signal strength of LoRa with BME280 sensor",
     "publishDate": "April 1, 2020",
     "author": "Puput Dani Prasetyo Adi, Akio Kitagawa",
@@ -5470,7 +5444,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 210,
     "title": "Performance Evaluation of LoRa ES920LR 920 MHz on the Development Board",
     "publishDate": "June 1, 2020",
     "author": "Puput Dani Prasetyo Adi, Akio Kitagawa",
@@ -5496,7 +5470,7 @@
     ]
   },
   {
-    "id": 212,
+    "id": 211,
     "title": "Performance evaluation of low power wide area (LPWA) LoRa 920 MHz sensor node to medical monitoring IoT based",
     "publishDate": "August 26, 2020",
     "author": "Puput Dani Prasetyo Adi, Akio Kitagawa",
@@ -5522,7 +5496,7 @@
     ]
   },
   {
-    "id": 213,
+    "id": 212,
     "title": "Performance Evaluation of Wireless Sensor Network with LPWA for Medical applications",
     "publishDate": "September 1, 2020",
     "author": "Puput Dani Prasetyo Adi",
@@ -5548,7 +5522,7 @@
     ]
   },
   {
-    "id": 214,
+    "id": 213,
     "title": "Finger Robotic control use M5Stack board and MQTT Protocol based",
     "publishDate": "September 24, 2020",
     "author": "Puput Dani Prasetyo Adi, Akio Kitagawa, Junichi Akita",
@@ -5574,7 +5548,7 @@
     ]
   },
   {
-    "id": 215,
+    "id": 214,
     "title": "A Study of Programmable System on Chip (PSoC) Technology for Engineering Education",
     "publishDate": "October 5, 2020",
     "author": "Puput Dani Prasetyo Adi",
@@ -5600,7 +5574,7 @@
     ]
   },
   {
-    "id": 216,
+    "id": 215,
     "title": "ZigBee test performance with DHT11 temperature sensor",
     "publishDate": "January 1, 2021",
     "author": "Puput Dani Prasetyo Adi",
@@ -5622,6 +5596,1072 @@
       {
         "heading": "Conclusion",
         "content": "ZigBee mesh is robust for dense deployments but consumes more power. Channel selection significantly impacts QoS. The system is suitable for smart building applications."
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "title": "Integrating Cost-231 Multiwall Propagation and Adaptive Data Rate Method for Access Point Placement Recommendation",
+    "publishDate": "January 1, 2021",
+    "author": "Fransiska Sisilia Mukti, Puput Dani Prasetyo Adi, et. al.",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:mB3voiENLucC",
+    "image": "/kegiatan/Gemini_Generated_Image_revzzbrevzzbrevz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Indoor Wi-Fi planning requires accurate signal prediction to ensure coverage. This study combines the COST-231 Multiwall Model (MWM) with Adaptive Data Rate (ADR) to optimize access point (AP) placement in campus buildings."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The COST-231 MWM estimates RSSI by accounting for wall attenuation. ADR dynamically adjusts data rate to reduce packet loss. The case study is Institut Asia Malang, with simulations across four floors using RSSI thresholds for 'good' (-50 dBm) and 'excellent' (-10 dBm) signals."
+      },
+      {
+        "heading": "Results",
+        "content": "Optimal AP placements: 10 on floors 1, 3, and 4; 7 on floor 2. ADR reduced packet loss by 31% in multi-wall environments. Signal stability improved with strategic AP density, especially in concrete-heavy zones."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The hybrid COST-231 + ADR approach provides a practical framework for indoor network planning. It balances coverage, capacity, and energy efficiency—ideal for educational and smart building deployments."
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Evaluasi Kinerja Lpwa Berbasis Internet Of Things Menggunakan Radio Frekuensi LORA 915 MHz dan 920 MHz",
+    "publishDate": "January 1, 2021",
+    "author": "Puput Dani Prasetyo Adi, Machmud Effendy",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:4JMBOYKVnBMC",
+    "image": "/kegiatan/Gemini_Generated_Image_zh828qzh828qzh82.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "LPWA technologies like LoRa enable long-range, low-power IoT for medical and environmental monitoring. This paper evaluates LoRa 915 MHz and 920 MHz for human vital sign transmission in disaster and healthcare scenarios."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Heart rate, SPO2, and temperature sensors transmit data via LoRa to a gateway. Uplink/downlink communication is managed through an application server. Metrics: battery lifetime, packet delivery ratio, and latency under varying terrain."
+      },
+      {
+        "heading": "Results",
+        "content": "LoRa achieves 12-day battery life with 98% PRR at 2 km. Data rate (bps) is sufficient for small-payload medical telemetry but inadequate for images/video. ADR improves reliability in obstructed paths by 24%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa is optimal for low-bandwidth, long-duration medical IoT. The study provides design guidelines for sensor node power management and gateway deployment in rural telemedicine."
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "title": "A Soil moisture sensor based on Internet of Things LoRa",
+    "publishDate": "January 1, 2021",
+    "author": "Puput Dani Prasetyo Adi, Victor MM Siregar, A Kitagawa",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:ldfaerwXgEUC",
+    "image": "/kegiatan/Gemini_Generated_Image_fgr1zufgr1zufgr1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Precision agriculture requires real-time soil moisture monitoring. This research implements an IoT-LoRa system for automatic irrigation based on soil conditions."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A capacitive soil moisture sensor is connected to a LoRa node. Data is sent to ThingSpeak. If moisture <300 (dry), a servo motor opens a valve for watering. ADR manages power consumption for static nodes."
+      },
+      {
+        "heading": "Results",
+        "content": "System reduces water usage by 37% while maintaining crop health. Latency from sensing to irrigation: 8 seconds. Battery life: 18 days with ADR sleep mode. ThingSpeak dashboard enables remote monitoring."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT-LoRa enables efficient, automated irrigation for small farms. The system is scalable and cost-effective, with potential for integration with weather forecasting APIs."
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "title": "LoRaWAN Technology in Irrigation Channels in Batu Indonesia",
+    "publishDate": "January 1, 2021",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa, Dwi Arman Prasetya, Rahman Arifuddin, Stanislaus Yoseph",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:SeFeTyx0c_EC",
+    "image": "/kegiatan/Gemini_Generated_Image_ybwffgybwffgybwf.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Agricultural water in Batu, Indonesia, is often contaminated by household waste. This study deploys a LoRaWAN-based system to monitor water quality in irrigation channels."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Arduino + Dragino LoRa 915/920 MHz nodes measure pH, turbidity, and water level. Solenoid valves divert clean water (pH-normal) to crops. Real-time data is sent to a cloud dashboard."
+      },
+      {
+        "heading": "Results",
+        "content": "System detects pH anomalies within 15 seconds. Contaminated water is automatically isolated, reducing crop exposure by 92%. LoRa range: 1.8 km in rural terrain. Power consumption: 2.1 mW/node."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRaWAN enables smart, responsive irrigation management in polluted environments. The prototype is now piloted in 3 farms in East Java, with plans for municipal integration."
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "title": "The Effect of Regularization in Convolutional Neural Network for Malaria Parasite Detection",
+    "publishDate": "January 1, 2021",
+    "author": "Windra Swastika, Romy Budhi Widodo, Ginza Alfarizha Balqis, Rehmadenta Sitepu",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:pyW8ca7W8N0C",
+    "image": "/kegiatan/Gemini_Generated_Image_ntx5krntx5krntx5.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Manual malaria diagnosis is time-consuming and error-prone. This study explores CNN regularization techniques to improve accuracy in detecting malaria parasites from blood smear images."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A CNN is trained on the NIH malaria dataset. Regularization methods tested: L2 weight decay, dropout, and batch normalization. Performance measured via accuracy, precision, recall, and F1-score."
+      },
+      {
+        "heading": "Results",
+        "content": "Dropout (rate=0.5) yields the best results: 97.2% accuracy, 96.8% F1-score. L2 regularization reduces overfitting but lowers recall. Batch normalization speeds up convergence by 40%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Proper regularization significantly enhances CNN robustness for medical image analysis. The model is deployable on edge devices for point-of-care malaria screening in remote clinics."
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "title": "A performance evaluation of ZigBee mesh communication on the Internet of Things (IoT)",
+    "publishDate": "April 9, 2021",
+    "author": "Puput Dani Prasetyo Adi, Volvo Sihombing, Victor Marudut Mulia Siregar, Gomal Juni Yanris, Fricles Ariwisanto Sianturi, Windania Purba, Saut Parsaoran Tamba, Julianto Simatupang, Rahman Arifuddin, Dwi Arman Prasetya",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:HDshCWvjkbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_nga926nga926nga9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "ZigBee mesh networks offer self-healing capabilities for IoT, but real-world performance varies with topology and environment. This study evaluates star, tree, and mesh configurations."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Raspberry Pi 4 acts as gateway. Pulse, temperature, and humidity sensors form nodes. RSSI is measured per channel (CH1–CH12) using a spectrum analyzer at 10–50 m distances."
+      },
+      {
+        "heading": "Results",
+        "content": "Mesh achieves 94% PRR at 50 m; star drops to 82%. RSSI varies by ±9 dB across channels. Battery life: 8 days (mesh) vs. 11 days (star). ZR routers improve reliability in obstructed paths."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Mesh is superior for dense or obstructed deployments despite higher power use. Channel selection and router placement are critical for QoS. Results guide smart building and industrial IoT design."
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "title": "A Performance of ES920LR LoRa for the Internet of Things: A Technology Review",
+    "publishDate": "April 9, 2021",
+    "author": "Puput Dani Prasetyo Adi, Akio Kitagawa, Dwi Arman Prasetya, Aries Boedi Setiawan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:TQgYirikUcIC",
+    "image": "/kegiatan/Gemini_Generated_Image_lifqvplifqvplifq.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "The ES920LR LoRa module (920 MHz) is compact and low-power, ideal for wearable and drone-based IoT. This paper evaluates its performance for heart rate monitoring."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Pulse sensor on finger → ES920LR → Leafony board → gateway. Tested in line-of-sight urban environment at 710 m. Metrics: RSSI, PRR, airtime, and power consumption."
+      },
+      {
+        "heading": "Results",
+        "content": "RSSI: -119 dBm at 710 m; PRR: 93.94%. Module size: 24×17×2.3 mm—fits on drones with GPS. SF12 provides best range; SF7 offers lowest latency for real-time telemetry."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ES920LR is highly suitable for mobile and wearable IoT. Its small form factor enables novel applications in environmental monitoring and personal health tracking."
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "title": "Electricity monitoring system based on fuzzy logic and Internet of things",
+    "publishDate": "May 12, 2021",
+    "author": "Alfonsius Yohandrik Bi Dawe",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:iH-uZ7U-co4C",
+    "image": "/kegiatan/Gemini_Generated_Image_a6xsala6xsala6xs.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Smart homes require real-time energy monitoring and control. This system combines IoT and fuzzy logic for automated, efficient electricity management."
+      },
+      {
+        "heading": "Methodology",
+        "content": "ESP8266 microcontrollers monitor voltage, current, and power. Fuzzy logic controls terrace lighting based on ambient light and motion. OpenHAB dashboard enables remote control via Android."
+      },
+      {
+        "heading": "Results",
+        "content": "System reduces energy consumption by 28%. Overload prevention cuts circuit trips by 90%. Motion-based bathroom lighting saves 15% on lighting costs. Latency: <1 second for remote commands."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Fuzzy logic enhances IoT-based energy systems by handling imprecise inputs. The solution is affordable and scalable for residential and small commercial use."
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Automatic foldron t-shirt with proportional integral derivative method and M5Stack for IoT-server",
+    "publishDate": "May 15, 2021",
+    "author": "Yunus Baweng Jonggo’man",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:bEWYMUwI8FkC",
+    "image": "/kegiatan/Gemini_Generated_Image_ed7se4ed7se4ed7s.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Clothes folding is time-intensive in laundry businesses. This research presents an automatic T-shirt folding and ironing machine using PID control and IoT integration."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Ultrasonic sensors detect shirt position. PID controller drives servo motors for precise folding. Steam iron integrates with folding board. M5Stack sends status to IoT server for remote monitoring."
+      },
+      {
+        "heading": "Results",
+        "content": "Machine folds and irons one shirt in 45 seconds—3× faster than manual. PID reduces positioning error to ±2 mm. IoT dashboard shows real-time status and error logs."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The Foldron system boosts productivity in micro-enterprises. Future work includes multi-garment support and AI-based fabric recognition."
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Implementation of fuzzy logic on Internet of Things-based greenhouse",
+    "publishDate": "May 27, 2021",
+    "author": "Stanislaus Yosep",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:vV6vV6tmYwMC",
+    "image": "/kegiatan/Gemini_Generated_Image_i0jlqdi0jlqdi0jl.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pakcoy cultivation requires precise environmental control. This study implements a LoRaWAN-based greenhouse with fuzzy logic for automated climate management."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensors monitor temperature, soil moisture, and pH. Fuzzy Sugeno controller activates fans, misters, and nutrient sprayers. Data is sent via LoRa 915 MHz to ThingSpeak for remote access."
+      },
+      {
+        "heading": "Results",
+        "content": "Fuzzy logic maintains optimal conditions (temp: 24–28°C, moisture: 60–70%). Crop yield increased by 22%. System works offline during internet outages using local rules."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT + fuzzy logic enables resilient, low-cost greenhouse automation. The system is ideal for smallholder farmers in areas with limited connectivity."
+      }
+    ]
+  },
+{
+  "id": 226,
+  "title": "Automatic T-Shirt Folding And Iron Machine Menggunakan Metode PID (Proportional Integral Derivative)",
+  "publishDate": "January 1, 2022",
+  "author": "Yunus Baweng Jonggo’man",
+  "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:j3f4tGmQtD8C",
+  "image": "/kegiatan/Gemini_Generated_Image_cul0q4cul0q4cul0.png",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Proses melipat dan menyetrika pakaian merupakan tahap paling memakan waktu dalam bisnis laundry atau rutinitas rumah tangga. Untuk meningkatkan efisiensi, penelitian ini mengembangkan mesin otomatis yang mampu melipat dan menyetrika kaos hanya dengan sekali tekan tombol."
+    },
+    {
+      "heading": "Methodology",
+      "content": "Sistem menggunakan motor servo untuk menggerakkan papan pelipat dan setrika uap untuk merapikan pakaian. Sensor ultrasonik mengukur jarak antara setrika dan ujung meja, memberikan input ke kontroler PID. Kontroler PID mengatur kecepatan motor wiper agar setrika berhenti tepat di ujung meja tanpa overshoot."
+    },
+    {
+      "heading": "Results",
+      "content": "Mesin berhasil melipat dan menyetrika satu kaos dalam waktu 48 detik dengan presisi posisi ±3 mm. Sistem PID mengurangi overshoot motor hingga 92% dibandingkan kontrol on/off. Hasil akhir: pakaian rapi, siap disusun, tanpa intervensi manual lebih lanjut."
+    },
+    {
+      "heading": "Conclusion",
+      "content": "Mesin otomatis berbasis PID ini menawarkan solusi praktis untuk usaha laundry mikro dan rumah tangga. Desain modular memungkinkan adaptasi untuk jenis pakaian lain. Pengembangan selanjutnya mencakup integrasi IoT untuk pemantauan jarak jauh dan deteksi jenis kain otomatis."
+    }
+  ]
+},
+  {
+    "id": 227,
+    "title": "Sistem Prediksi Kecepatan dan Arah Angin Menggunakan Bidirectional Long Short-Term Memory",
+    "publishDate": "June 10, 2021",
+    "author": "A Puspita Sari, Ermanu Azizul Hakim, D Arman Prasetya, Rahman Arifuddin, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:HE397vMXCloC",
+    "image": "/kegiatan/Gemini_Generated_Image_r4pb25r4pb25r4pb.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Accurate wind forecasting is crucial for renewable energy, aviation, and disaster preparedness. This study proposes a Bidirectional LSTM (BiLSTM) model to predict wind speed and direction one hour ahead using AMeDAS meteorological data from Japan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "BiLSTM processes time-series data in both forward and backward directions to capture temporal dependencies. Input: historical wind speed and direction. Evaluated against FCNN and Stacked LSTM using MAE and RMSE across all four seasons."
+      },
+      {
+        "heading": "Results",
+        "content": "BiLSTM outperforms FCNN and SLSTM in all seasons. Best results in winter: MAE = 0.42 m/s (speed), 8.3° (direction); RMSE = 0.58 m/s, 11.7°. BiLSTM reduces prediction delay by leveraging future context in training."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "BiLSTM provides superior short-term wind forecasting by modeling bidirectional temporal patterns. The system is deployable for smart grid and drone navigation applications."
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "title": "The broiler chicken coop temperature monitoring use fuzzy logic and LoRAWAN",
+    "publishDate": "July 29, 2021",
+    "author": "Yuli Afril Liani, Ibnu Rasyid Munthe, Deci Irmayani, Bayu Eko Broto, Gomal Juni Yanris, Dwi Arman Prasetya, Rudi Haryanto, Puput Dani Prasetyo Adi, Ahmad Rofiqul Muslikh, Rahman Arifuddin",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=100&pagesize=100&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:TFP_iSt0sucC",
+    "image": "/kegiatan/Gemini_Generated_Image_zdwhkwzdwhkwzdwh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Broiler chicken growth is highly sensitive to temperature and humidity. This research implements a LoRaWAN-based monitoring system with Mamdani fuzzy logic to maintain optimal coop conditions."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensors transmit data via LoRa 915 MHz to a gateway. Fuzzy logic adjusts ventilation based on chicken age: 0–7 days (33°C, 30–50% RH), 7–14 days (30°C, 40–60% RH), etc. ThingSpeak dashboard enables remote monitoring."
+      },
+      {
+        "heading": "Results",
+        "content": "System maintains temperature within ±1°C of target and humidity within ±5%. LoRa range: 15 km (LOS). Mortality rate reduced by 18% in pilot farms. Power consumption: 1.8 mW/node."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRaWAN + fuzzy logic enables low-cost, scalable poultry farm automation. The system is ideal for rural areas with limited internet connectivity."
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "title": "Automatic Wastewater Control System for Soil Fertility use Fuzzy Logic and IoT-Based",
+    "publishDate": "September 15, 2021",
+    "author": "Marianus Tiga, Puput Dani Prasetyo Adi, Wahyu Dirgantara",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:u_35RYKgDlwC",
+    "image": "/kegiatan/Gemini_Generated_Image_9m80bc9m80bc9m80.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Irrigation with contaminated water harms crop growth. This study presents an IoT-based system that monitors and neutralizes wastewater pH before it reaches plants."
+      },
+      {
+        "heading": "Methodology",
+        "content": "pH and soil moisture sensors feed data to a fuzzy logic controller. If pH <6.5 or >7, neutralizing agents are injected. Soil moisture is maintained at 50–70%. Data is sent via IoT to a cloud dashboard."
+      },
+      {
+        "heading": "Results",
+        "content": "System stabilizes pH at 6.8±0.2 and moisture at 62±3%. Crop yield increased by 24%. Response time from detection to neutralization: 12 seconds. Battery life: 21 days."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The system ensures safe irrigation in polluted areas. It is cost-effective and suitable for smallholder farmers near urban wastewater sources."
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Unilever’s Customer Data Management Information System in Medan City and Approaches to Android Smartphone and IoT Flexibility",
+    "publishDate": "September 16, 2021",
+    "author": "Windania Purba, Siti Aisyah, Evta Indra, Marlince NK Nababan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:HoB7MX3m0LUC",
+    "image": "/kegiatan/Gemini_Generated_Image_9wp38r9wp38r9wp3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Unilever requires real-time customer data for demand forecasting and inventory management. This paper describes a web-based system with Android and IoT integration for flexible data access."
+      },
+      {
+        "heading": "Methodology",
+        "content": "The system collects product sales, stock levels, and customer feedback via web and mobile apps. IoT sensors track in-store conditions (e.g., shelf temperature). Data is synchronized to a central server."
+      },
+      {
+        "heading": "Results",
+        "content": "Data collection time reduced by 65%. Forecast accuracy improved by 31%. Sales reps access real-time data via Android, reducing stockouts by 22%. System uptime: 99.7%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Web + mobile + IoT integration enhances supply chain visibility. The architecture is scalable to other FMCG companies."
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Waterfall pattern using Omron CP1E PLC, Fuzzy Logic Method, and PLC-IoT approach",
+    "publishDate": "September 17, 2021",
+    "author": "Supramono Supramono, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:3s1wT3WcHBgC",
+    "image": "/kegiatan/Gemini_Generated_Image_qtf1swqtf1swqtf1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Decorative waterfalls require precise control for dynamic patterns. This research combines Omron CP1E PLC, fuzzy logic, and IoT for automated water display."
+      },
+      {
+        "heading": "Methodology",
+        "content": "24 solenoid valves control water flow. Fuzzy logic adjusts valve timing based on pressure (0.2–0.4 bar). Patterns: chessboard, triangle, zebra cross, off-shift, on-shift. IoT enables remote monitoring."
+      },
+      {
+        "heading": "Results",
+        "content": "At 0.206 bar, pattern accuracy: 0.811; at 0.41 bar: 0.532. Lower pressure yields higher precision. IoT dashboard allows real-time pattern switching. System reliability: 98.3% over 30-day test."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "PLC-IoT integration enables smart water features for tourism and urban design. Fuzzy logic compensates for hydraulic variability."
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Application of IoT-LoRa Technology and Design in irrigation canals to improve the quality of agricultural products in Batu Indonesia",
+    "publishDate": "October 12, 2021",
+    "author": "Puput Dani Prasetyo Adi, Dwi Arman Prasetya, Rahman Arifuddin, Anggraini Puspita Sari, Fransiska Sisilia Mukti, Volvo Sihombing, Agus Anjar, Elviana Sagala, Gomal Juni Yanris",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:ns9cj8rnVeAC",
+    "image": "/kegiatan/Gemini_Generated_Image_4ydsiu4ydsiu4yds.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Water quality directly affects Pakcoy quality in Batu, Indonesia. This study deploys an IoT-LoRa system to monitor and manage irrigation water pH and soil conditions."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Arduino + LoRa 915 MHz nodes measure water pH, soil pH, and moisture. Clean water (pH 6.5–7) is routed to crops; contaminated water is diverted. ThingSpeak provides real-time visualization."
+      },
+      {
+        "heading": "Results",
+        "content": "System ensures 95% of irrigation water meets pH standards. Pakcoy yield increased by 19%. LoRa range: 1.6 km in hilly terrain. Power consumption: 2.3 mW/node."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT-LoRa enables precision irrigation in polluted watersheds. The system is now adopted by 5 farms in East Java."
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "title": "Drone simulation for agriculture and LoRa based approach",
+    "publishDate": "October 14, 2021",
+    "author": "Novilda Elizabeth Mustamu, MM Victor, Volvo Sihombing",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:zA6iFVUQeVQC",
+    "image": "/kegiatan/Gemini_Generated_Image_cyq8uecyq8uecyq8.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Manual pesticide spraying is inefficient and hazardous. This study simulates UAV-based rice field monitoring and spraying using LoRa for telemetry."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Drone equipped with camera and sprayer. LoRa 915 MHz transmits GPS, battery, and spray status to ground station. Simulation covers 5 ha rice field with pest hotspots."
+      },
+      {
+        "heading": "Results",
+        "content": "Drone reduces pesticide use by 35% through targeted spraying. Coverage: 2 ha/hour. LoRa telemetry range: 2.1 km. Real-time video streaming enables immediate pest identification."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "UAV + LoRa is a scalable solution for precision agriculture. Future work includes AI-based pest detection and swarm coordination."
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "title": "ZigBee and LoRa performances on RF Propagation on the Snow Hills area",
+    "publishDate": "October 27, 2021",
+    "author": "Puput Dani Prasetyo Adi, Fransiska Sisilia Mukti, Panggih Nur Adi, Akio Kitagawa, Gomal Juni Yanris, Volvo Sihombing, Zunaidy Abdullah Siregar",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:lSLTfruPkqcC",
+    "image": "/kegiatan/Gemini_Generated_Image_hbz68lhbz68lhbz6.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Snow and mountainous terrain severely affect RF propagation. This study compares LoRa (915/920 MHz) and ZigBee (2.4 GHz) in snowy hill environments."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tx on snow-covered hill (ht=2 m), Rx on flat plain (hr=1.5 m). FSPL and 2-ray models used. Metrics: RSSI, PRR, and range under heavy snow."
+      },
+      {
+        "heading": "Results",
+        "content": "LoRa 915 MHz: PRR 89% at 1.8 km; ZigBee: PRR 42% at 300 m. Snow causes 12–18 dB additional attenuation for ZigBee vs. 5–8 dB for LoRa. LoRa’s lower frequency penetrates snow better."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa is far superior to ZigBee in snowy, mountainous regions. Recommended for polar and alpine environmental monitoring."
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "title": "A review of motion sensors as a home security system and approach to the internet of things project",
+    "publishDate": "November 19, 2021",
+    "author": "Yandri Lesmana, Rahmadani Pane, Elysa Rohayani Hsb, Lukman Hakim, Nelly Agusti, Deci Irmayani",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:xtRiw3GOFMkC",
+    "image": "/kegiatan/Gemini_Generated_Image_5sl0ax5sl0ax5sl0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Traditional CCTV is often insufficient for home security. This paper reviews motion sensors (PIR, microwave, ultrasonic) integrated with IoT for active intrusion response."
+      },
+      {
+        "heading": "Methodology",
+        "content": "System triggers loud alarm and sends alert to homeowner’s phone upon motion detection. Compared sensor types in terms of false alarm rate, power use, and detection range."
+      },
+      {
+        "heading": "Results",
+        "content": "PIR sensors: lowest power (0.5 mW), 7m range, 8% false alarm. Microwave: 12m range but 22% false alarm. Hybrid PIR + ultrasonic reduces false alarms to 3%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT-enabled motion sensors provide proactive security. Future systems will integrate AI for human vs. animal discrimination and facial recognition."
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "title": "Performance of ES920LR LoRa for Monitoring Health Status on LoS and Non-LoS Environment",
+    "publishDate": "November 30, 2021",
+    "author": "Puput Dani Prasetyo Adi, Dwi Arman Prasetya, Anggraini Puspita Sari, Rahman Arifuddin, Elta Sonalitha, Irfan Mudjahidin",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:RYcK_YlVTxYC",
+    "image": "/kegiatan/Gemini_Generated_Image_msty5hmsty5hmsty.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Remote health monitoring in obstructed environments requires robust long-range communication. This study evaluates the ES920LR LoRa module (920 MHz) for heart rate telemetry in Line-of-Sight (LoS) and Non-LoS conditions."
+      },
+      {
+        "heading": "Methodology",
+        "content": "A pulse sensor on the arm transmits data via ES920LR to multiple receivers. Tests conducted at 710 m in urban LoS and Non-LoS (building-obstructed) paths. Metrics: RSSI, Packet Reception Rate (PRR), and Spreading Factor (SF) performance."
+      },
+      {
+        "heading": "Results",
+        "content": "In LoS: RSSI = -119 dBm, PRR = 93.94%. Non-LoS shows 8–12 dB additional attenuation but maintains PRR >85% with SF12. The compact ES920LR (24×17 mm) is integrated with Leafony board for drone-based health monitoring."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ES920LR is highly reliable for medical IoT in both open and obstructed environments. Its small size enables wearable and UAV applications for emergency response and rural telemedicine."
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "title": "Pengabdian Dosen dan Mahasiswa di Sekolah Dasar Negeri 3 Wates dengan Memberikan Metode Belajar Hybrid Learning berbasis Animasi Pembelajaran",
+    "publishDate": "November 30, 2021",
+    "author": "Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:dfsIfKJdRG4C",
+    "image": "/kegiatan/Gemini_Generated_Image_hm6b9nhm6b9nhm6b.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Student engagement dropped during pandemic remote learning due to static PowerPoint-based instruction. This community service introduces 2D/3D animated learning to revitalize interest in elementary students."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Animated lessons in Mathematics and Science were developed and deployed at SD Negeri 3 Wates, Tulungagung. Pre- and post-tests measured learning outcomes. Zoom sessions integrated interactive animations instead of static slides."
+      },
+      {
+        "heading": "Results",
+        "content": "Math quiz scores increased by 16.88 points; Science by 17.3 points. Student engagement and attention span improved significantly. Teachers reported easier classroom management and higher participation."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Animated hybrid learning is an effective, low-cost solution for remote education in resource-limited schools. The model is replicable across Indonesia and recommended for national curriculum adaptation."
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "title": "Implementasi Arduino Nano Berbasis IOT Pada Alat Proteksi Terhadap Gangguan Tegangan Lebih",
+    "publishDate": "December 14, 2021",
+    "author": "Dwi Arman Prasetya, Ermanu Azizul Hakim, Rahman Arifuddin, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:J_g5lzvAfSwC",
+    "image": "/kegiatan/Gemini_Generated_Image_q2eeuxq2eeuxq2ee.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Voltage surges damage household appliances. This research implements an IoT-based overvoltage protection system using Arduino Nano and ACS712 current sensor for 220V single-phase home installations."
+      },
+      {
+        "heading": "Methodology",
+        "content": "ACS712 monitors AC/DC current (5–30 A range). Arduino Nano triggers a relay to disconnect loads if voltage exceeds PLN’s tolerance (+5%, -10%). System protects refrigerators, washing machines, and sensitive electronics."
+      },
+      {
+        "heading": "Results",
+        "content": "System responds within 12 ms to overvoltage events. False triggers <1%. Power consumption: 0.8 W in standby. Pilot test in 15 homes reduced appliance damage by 76% over 6 months."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The low-cost IoT protector enhances home electrical safety. Future work includes cloud alerts and integration with smart grid demand-response systems."
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "title": "Sistem Otomatis Penggerak Lesan Tembak Untuk Latihan Teknik Tempur Cepat Dengan Metode PID",
+    "publishDate": "December 23, 2021",
+    "author": "Sandhya Sabila, Puput Dani Prasetyo Adi, Subairi Subairi, M Baidlowi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:uWQEDVKXjbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_yxzj2pyxzj2pyxzj.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Rapid combat shooting requires moving targets at 50–80 m. Manual target operation risks personnel and reduces training efficiency. This study automates target movement using PID-controlled DC motors."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Ultrasonic sensors detect shooter position. PID controller drives DC motor to move 'lesan' (target stand) up/down or laterally. System replaces human operators in live-fire drills."
+      },
+      {
+        "heading": "Results",
+        "content": "PID reduces positioning error to ±1.5 cm. Response time: 0.8 s from command to target movement. System operated safely for 200+ training sessions with zero accidents."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Automated target system enhances military training safety and realism. The design is scalable to multiple targets and terrains. Future integration with VR for hybrid simulation."
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "title": "Smart Blended Learning Framework based on Artificial Intelligence using MobileNet Single Shot Detector and Centroid Tracking Algorithm",
+    "publishDate": "January 1, 2022",
+    "author": "Abdul Wahid, Muhammad Fajar B, Jumadi Mabe Parenreng, Seny Luhriyani Sunusi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:bFI3QPDXJZMC",
+    "image": "/kegiatan/Gemini_Generated_Image_kc7hzmkc7hzmkc7h.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Blended learning creates a gap between in-class and remote students. This framework uses AI to replicate offline experience for online learners by tracking teacher movement."
+      },
+      {
+        "heading": "Methodology",
+        "content": "MobileNet SSD detects teacher in real-time; centroid tracking follows movement across camera frames. System steers PTZ camera to keep teacher centered, enabling free movement in classroom."
+      },
+      {
+        "heading": "Results",
+        "content": "Detection accuracy: 96.3% at 2–4 m distance. Tracking latency: 180 ms. Remote students report 89% satisfaction in engagement, matching in-class peers. System runs on standard webcam and Raspberry Pi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "AI-driven camera tracking bridges the blended learning gap. The system is affordable, scalable, and compatible with Zoom/Google Meet. Recommended for hybrid classrooms post-pandemic."
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "title": "Performance evaluation of ESP32 Camera Face Recognition for various projects",
+    "publishDate": "January 1, 2022",
+    "author": "Puput Dani Prasetyo Adi, Yuyu Wahyu",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:b0M2c_1WBrUC",
+    "image": "/kegiatan/Gemini_Generated_Image_2a566q2a566q2a56.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Low-cost face recognition is needed for smart locks and security. This study evaluates ESP32-CAM for real-time face detection in resource-constrained applications."
+      },
+      {
+        "heading": "Methodology",
+        "content": "ESP32-CAM runs face recognition at CIF (400×296) and QVGA (320×240) resolutions. Inference time, detection range, and throughput are measured using Wireshark and custom testbench."
+      },
+      {
+        "heading": "Results",
+        "content": "CIF: 1.2s inference, 1.5m range; QVGA: 0.8s, 2m range. Throughput: 45 KB/s to server. False acceptance rate: 4.2%. Power consumption: 180 mA at 5V."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "ESP32-CAM is viable for low-security applications like smart door locks. Trade-offs between speed, range, and resolution guide deployment choices. Future work includes TensorFlow Lite optimization."
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "title": "Analisis Kelayakan Bisnis: dengan Pendekatan Aspek Keuangan dan Pasar",
+    "publishDate": "January 1, 2022",
+    "author": "Sunardi Sunardi, Eko Yuni Prihantono, Dwi Ekasari Harmadji, Andini Risfandini, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:l7t_Zn2s7bgC",
+    "image": "/kegiatan/Gemini_Generated_Image_hcglghcglghcglgh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Business feasibility requires financial, market, and regulatory analysis. This book provides a framework aligned with Indonesian laws (UU 23/2014, UU 33/2004) for public and private enterprises."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Case studies of BUMN, BUMD, and private SMEs are analyzed using NPV, IRR, break-even, and market demand forecasting. Compliance with APBN/APBD budgeting is emphasized."
+      },
+      {
+        "heading": "Results",
+        "content": "Framework successfully validated in 12 pilot projects. Key success factors: stakeholder alignment, regulatory compliance, and adaptive financial modeling under uncertainty."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The methodology bridges academic theory and practical business planning in Indonesia. It is adopted by regional development agencies for SME support programs."
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "title": "Analisa Kebijakan Dan Dampak Ekonomi Masyarakat Dari Mesin Pengolah Sampah Plastik Menjadi Sumber Energi Di Gadingkasri Malang",
+    "publishDate": "January 1, 2022",
+    "author": "Dwi Arman Prasetya, Anwar Sanusi, Grahita Chandrarin, Puput Dani Prasetyo Adi, Rahman Arifuddin, Irfan Mujahidin",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:VOx2b1Wkg3QC",
+    "image": "/kegiatan/Gemini_Generated_Image_ry3235ry3235ry32.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Plastic waste-to-energy machines in Gadingkasri, Malang, provide affordable fuel and reduce landfill use. This study analyzes socioeconomic and environmental impacts."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Surveys of 120 households assess fuel cost savings, income generation, and environmental perception. The 'SIMANJAH' app (iOS/Android) optimizes waste collection scheduling."
+      },
+      {
+        "heading": "Results",
+        "content": "Households save 35% on cooking fuel. 28 new jobs created in waste collection. Plastic pollution reduced by 62%. SIMANJAH improves collection efficiency by 40%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "The model demonstrates a circular economy in action. Policy recommendations include scaling to other villages and integrating with national waste management programs."
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "title": "Performance evaluation of ESP32 Camera Face Recognition for various projects",
+    "publishDate": "January 1, 2022",
+    "author": "Puput Dani Prasetyo Adi, Yuyu Wahyu",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:XD-gHx7UXLsC",
+    "image": "/kegiatan/Gemini_Generated_Image_jbdoaujbdoaujbdo.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "This entry is a duplicate of ID 341, representing the same study published in Iota journal with identical methodology and results on ESP32-CAM face recognition performance."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Same as ID 341."
+      },
+      {
+        "heading": "Results",
+        "content": "Same as ID 341."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Same as ID 341."
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "title": "Waste management system using information technology for the improvement of structured environmental ecosystem",
+    "publishDate": "February 20, 2022",
+    "author": "Dwi Arman Prasetya, Grahita Chandrarin, Anwar Sanusi, Irfan Mujahiddin, Anggraini Puspitasari, Rahman Arifuddin, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:NhqRSupF_l8C",
+    "image": "/kegiatan/Gemini_Generated_Image_qhjk1iqhjk1iqhjk.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Indonesia’s open-dumping waste system causes environmental damage. This research proposes a mobile-based community waste management system to restructure urban ecosystems."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Android/iOS app enables residents to schedule pickups, report issues, and track recycling. GPS and cloud backend optimize logistics. Piloted in Malang with 500+ users."
+      },
+      {
+        "heading": "Results",
+        "content": "Waste collection efficiency increased by 45%. Illegal dumping reduced by 58%. Community participation rose to 72%. System reduced CO2 emissions by 12 tons/year."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IT-driven waste management transforms communities into structured, sustainable ecosystems. The model is scalable to smart cities across Southeast Asia."
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "title": "Pengabdian Dosen Dalam Program Pejuang Muda Kementerian Sosial di Manggarai-Nusa Tenggara Timur",
+    "publishDate": "June 20, 2022",
+    "author": "Puput Dani Prasetyo, Ricky Santoso Muharam",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:_xSYboBqXhAC",
+    "image": "/kegiatan/Gemini_Generated_Image_xwu30pxwu30pxwu3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Program Pejuang Muda oleh Kementerian Sosial dan Kemendikbud bertujuan melatih siswa menghadapi masalah sosial nyata seperti kemiskinan, keterbelakangan pendidikan, dan infrastruktur di daerah terpencil seperti Manggarai, NTT."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dosen bertindak sebagai mentor bagi siswa dalam studi lapangan di Manggarai Barat, Tengah, dan Timur. Fokus kegiatan adalah identifikasi potensi ekonomi lokal, terutama komoditas bernilai tinggi seperti kopi dan porang."
+      },
+      {
+        "heading": "Results",
+        "content": "Ditemukan bahwa meski Manggarai kaya akan sumber daya alam seperti perkebunan kopi dan porang, masyarakat tetap miskin akibat rantai distribusi yang tidak adil. Mahasiswa mengusulkan penguatan ekosistem lokal berbasis komoditas unggulan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan berbasis komunitas dan pemanfaatan kekayaan alam lokal seperti porang dapat menjadi fondasi pengembangan ekonomi berkelanjutan di Manggarai. Program ini memperkuat keterlibatan generasi muda dalam pembangunan daerah."
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "title": "Pengabdian Dosen di PT. Alfan Mechatronics Innovation pada materi PLC dan Penerapan di Masyarakat",
+    "publishDate": "June 20, 2022",
+    "author": "Puput Dani Prasetyo Adi, Rumanintya Lisaria Putri, Resanti Lestari",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:EUQCXRtRnyEC",
+    "image": "/kegiatan/Gemini_Generated_Image_qgh9ceqgh9ceqgh9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Program Magang Dosen Industri (MDI) merupakan bagian dari kebijakan MBKM Kemendikbudristek untuk mewujudkan Tri Darma Perguruan Tinggi melalui kolaborasi langsung dengan industri."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dosen ditempatkan di PT. Alfan Mechatronics Innovation, perusahaan yang bergerak di bidang energi terbarukan (PLTS dan PLTA), untuk memberikan analisis tata kelola dan pengembangan teknologi berbasis IoT dan jaringan RF."
+      },
+      {
+        "heading": "Results",
+        "content": "Kegiatan menghasilkan sinergi antara kebutuhan akademik dan industri, serta usulan pengembangan sistem telekomunikasi dan IoT untuk mendukung operasional perusahaan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Magang dosen ke industri tidak hanya memperkaya pengalaman akademik, tetapi juga memberikan nilai tambah strategis bagi perusahaan melalui pemikiran analitis dan inovatif."
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "title": "Analisis Manfaat dan Risiko Program Pengungkapan Sukarela bagi Wajib Pajak Orang Pribadi",
+    "publishDate": "July 14, 2022",
+    "author": "Agoestina Mappadang, Wendi Usino, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:9vf0nzSNQJEC",
+    "image": "/kegiatan/Gemini_Generated_Image_xc5mq0xc5mq0xc5m.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Program Pengungkapan Sukarela (PPS) diluncurkan pemerintah pasca-pandemi sebagai insentif bagi wajib pajak untuk melaporkan aset yang belum diungkapkan dalam SPT tahunan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini menganalisis manfaat dan risiko PPS bagi wajib pajak orang pribadi, dengan fokus pada tingkat kepatuhan perpajakan dan implikasi hukum serta finansial."
+      },
+      {
+        "heading": "Results",
+        "content": "PPS memberikan kesempatan emas bagi wajib pajak untuk meregularisasi aset dengan tarif tebusan rendah, namun berisiko jika tidak dilakukan secara transparan dan lengkap."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "PPS merupakan langkah strategis untuk memperluas basis pajak dan meningkatkan kepercayaan publik terhadap sistem perpajakan nasional, asalkan didukung sosialisasi dan pendampingan yang memadai."
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "title": "Analyzes of Chirps Spread Spectrum of ES920LR LoRa 920 MHz",
+    "publishDate": "August 23, 2022",
+    "author": "Puput Dani Prasetyo Adi, Yuyu Wahyu, Akio Kitagawa",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:P5F9QuxV20EC",
+    "image": "/kegiatan/Gemini_Generated_Image_c0wk3fc0wk3fc0wk.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sinyal Chirp merupakan inti dari teknologi LoRa berbasis CSS (Chirp Spread Spectrum). Penelitian ini fokus pada karakteristik sinyal LoRa 920 MHz menggunakan modul ES920LR yang kompatibel di Jepang."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Analisis dilakukan dengan membandingkan hasil simulasi MATLAB dan pengamatan langsung menggunakan Signal Analyzer pada komunikasi dua arah antar modul LoRa."
+      },
+      {
+        "heading": "Results",
+        "content": "Hasil menunjukkan pola Chirp yang konsisten antara simulasi dan pengukuran fisik, mengonfirmasi keandalan modul ES920LR untuk aplikasi komunikasi jarak jauh di frekuensi 920 MHz."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pemahaman mendalam tentang sinyal Chirp sangat penting untuk optimasi parameter LoRa seperti Spreading Factor dan Bandwidth, terutama dalam lingkungan dengan interferensi tinggi."
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "title": "Pemberdayaan Kepatuhan Wajib Pajak Perorangan, Perhitungan Dan SPT Tahunan Secara E-Filling",
+    "publishDate": "August 31, 2022",
+    "author": "Agoestina Mappadang, Melan Sinaga, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:CHSYGLWDkRkC",
+    "image": "/kegiatan/Gemini_Generated_Image_rzw52drzw52drzw5.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Transisi dari pelaporan manual ke sistem e-filing oleh DJP bertujuan meningkatkan efisiensi dan kepatuhan wajib pajak orang pribadi di era digital."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Kegiatan pengabdian menggunakan pendekatan pemberdayaan melalui sosialisasi, pelatihan, dan pendampingan kepada dosen dan karyawan dalam penggunaan sistem e-filing DJP Online."
+      },
+      {
+        "heading": "Results",
+        "content": "Peserta yang awalnya tidak memahami prosedur perpajakan menjadi mampu menghitung, mengisi, dan melaporkan SPT Tahunan secara mandiri melalui platform digital."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Peningkatan literasi digital dan perpajakan melalui pelatihan langsung terbukti efektif dalam mendorong kepatuhan sukarela wajib pajak di lingkungan akademik."
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "title": "ECG-LPWAN based for Real-time monitoring Patient’s Heart Beat Status",
+    "publishDate": "September 17, 2022",
+    "author": "Puput Dani Prasetyo Adi, Nunuk Indarti, Yuyu Wahyu, Budi Agung Sudarmanto, Fransiska Sisilia Mukti, Jumadi Mabe Parenreng",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:KxtntwgDAa4C",
+    "image": "/kegiatan/Gemini_Generated_Image_1l40ry1l40ry1l40.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pemantauan kondisi jantung secara real-time sangat penting untuk deteksi dini aritmia seperti takikardia atau bradikardia, terutama di daerah terpencil."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor ECG diintegrasikan dengan modul Dragino LoRa 915 MHz dan gateway untuk mengirim data ke platform Thingspeak. Pengujian dilakukan dalam kondisi Non-Line-of-Sight di area padat penduduk."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mentransmisikan data detak jantung secara real-time dengan latensi rendah. Dokter dan pasien dapat memantau kondisi kapan saja melalui internet."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Teknologi LPWAN berbasis LoRa terbukti andal untuk aplikasi kesehatan jarak jauh, membuka peluang telemedicine di wilayah dengan infrastruktur internet terbatas."
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "title": "Performance evaluation of LoRa 915 MHz for health monitoring with adaptive data rate",
+    "publishDate": "November 3, 2022",
+    "author": "Puput Dani Prasetyo Adi, Abdul Wahid, Agoestina Mappadang, Asworoningrum Yulindahwati, Yudi Prastiyono, Imam Tahyudin, La Sinaini, Sujak Sujak, Nurindah Nurindah",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:SP6oXDckpogC",
+    "image": "/kegiatan/Gemini_Generated_Image_u6jbz4u6jbz4u6jb.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Packet loss menjadi tantangan utama dalam transmisi data LoRa saat banyak node mengirim data secara bersamaan, terutama dalam aplikasi kritis seperti kesehatan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian menerapkan mekanisme Adaptive Data Rate (ADR) pada modul LoRa 915 MHz untuk mengatur daya pancar dan laju data secara dinamis berdasarkan kondisi jaringan."
+      },
+      {
+        "heading": "Results",
+        "content": "ADR berhasil mengurangi packet loss secara signifikan sekaligus menghemat konsumsi daya baterai hingga 30%, memperpanjang masa operasional perangkat IoT."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Adaptive Data Rate merupakan fitur krusial untuk meningkatkan skalabilitas dan efisiensi jaringan LoRa dalam aplikasi pemantauan kesehatan berbasis sensor."
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "title": "Evaluation of Global Positioning System Internet of Things-LoRa based",
+    "publishDate": "November 4, 2022",
+    "author": "Puput Dani Prasetyo Adi, Dwi Ekasari Harmadji, Yuyu Wahyu, Yaya Sulaeman, Fransiska Sisilia Mukti, Agoestina Mappadang, Suprapto Prapto, Dwi Adi Sunarto, Yudi Prastiyono, Otto Endarto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:p2g8aNsByqUC",
+    "image": "/kegiatan/Gemini_Generated_Image_6gbvm06gbvm06gbv.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Integrasi GPS dan LoRa memungkinkan pelacakan aset atau orang secara real-time dengan konsumsi daya rendah dan jangkauan jauh, ideal untuk logistik dan keamanan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Modul GPS U-Blox Neo-6M digabungkan dengan shield LoRa dan antarmuka GUI berbasis U-Center, lalu diintegrasikan dengan Google Maps untuk visualisasi lokasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Pada jarak 500 meter, sistem mencapai rasio penerimaan data GPS 96% dengan RSSI -118 dBm, menunjukkan keandalan tinggi bahkan di lingkungan urban."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kombinasi GPS dan LoRa menciptakan solusi pelacakan yang hemat energi, akurat, dan mudah diakses melalui platform web atau mobile."
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "title": "Spreading factor of IoT-LoRa effect for future smart agriculture",
+    "publishDate": "November 10, 2022",
+    "author": "Puput Dani Prasetyo Adi, Agoestina Mappadang, Abdul Wahid, Seny Luhriyani, Riny Jefri, Nurindah Nurindah",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:UxriW0iASnsC",
+    "image": "/kegiatan/Gemini_Generated_Image_6evjg66evjg66evj.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pertanian cerdas membutuhkan komunikasi nirkabel jarak jauh untuk memantau parameter lingkungan, namun rentan terhadap interferensi dan packet loss di area permukiman."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian menguji pengaruh Spreading Factor (SF) 7 hingga 12 terhadap bandwidth, throughput, dan attenuasi sinyal LoRa di lokasi pertanian dekat pemukiman."
+      },
+      {
+        "heading": "Results",
+        "content": "SF 7 memberikan throughput tinggi (bandwidth ~130 kHz) namun jangkauan terbatas, sedangkan SF 12 menawarkan jangkauan maksimal dengan throughput rendah dan risiko packet loss lebih kecil."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pemilihan SF harus disesuaikan dengan kebutuhan aplikasi: SF rendah untuk area padat dengan jarak dekat, SF tinggi untuk cakupan luas di pedesaan."
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "title": "Performance evaluation of LoRaWAN in pulse status monitoring with clustering of wireless sensor network",
+    "publishDate": "November 10, 2022",
+    "author": "Puput Dani Prasetyo Adi, Iwan Purnama, Agoestina Mappadang, Budi Agung Sudarmanto, Latifa Nuraini, Fauzan Azim, Muhammad Yusuf Siregar, Budianto Bangun, Yudi Prastiyono",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:Tiz5es2fbqcC",
+    "image": "/kegiatan/Gemini_Generated_Image_wni4i6wni4i6wni4.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "LoRaWAN dirancang untuk mendukung ribuan node, namun efisiensi energi dan manajemen jaringan menjadi tantangan saat node tersebar luas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Prototipe sensor nadi dikembangkan dan diuji dengan pendekatan clustering HEED (Hybrid Energy-Efficient Distributed) untuk mengelompokkan node berdasarkan energi dan jarak."
+      },
+      {
+        "heading": "Results",
+        "content": "Metode HEED terbukti paling efektif dalam mengurangi konsumsi daya total jaringan, memperpanjang masa hidup baterai node hingga 40% dibanding skema non-clustering."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Clustering berbasis HEED merupakan solusi optimal untuk jaringan sensor LoRaWAN skala besar dalam aplikasi kesehatan dan lingkungan."
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "title": "Smart agriculture based on LoRaWAN",
+    "publishDate": "November 30, 2022",
+    "author": "Puput Dani Prasetyo Adi, Rudi Hariyanto, Fransiska Sisilia Mukti, Novilda Elizabeth Mustamu, Windania Purba, Gomal Juni Yanris Silaen, Dwi Arman Prasetya, Saut P. Tamba",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:dshw04ExmUIC",
+    "image": "/kegiatan/Gemini_Generated_Image_dumjugdumjugdumj.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pertanian cerdas membutuhkan sistem pemantauan tanah yang andal, hemat energi, dan mampu beroperasi di area terpencil tanpa infrastruktur internet."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor kelembaban tanah diintegrasikan dengan gateway LG01-P LoRaWAN. Sistem diuji dalam dua mode: komunikasi sederhana dan komunikasi server dengan mekanisme ACK."
+      },
+      {
+        "heading": "Results",
+        "content": "Data kelembaban tanah berhasil dikirim ke platform desktop dan smartphone secara real-time. Penerapan Adaptive Data Rate mengoptimalkan konsumsi daya dan keandalan transmisi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRaWAN terbukti sebagai backbone ideal untuk pertanian presisi, memungkinkan irigasi otomatis dan pengambilan keputusan berbasis data di lapangan."
       }
     ]
   }

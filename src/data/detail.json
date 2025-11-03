@@ -7184,5 +7184,265 @@
         "content": "Penelitian AI untuk energi terbarukan terus berkembang, dengan Asia sebagai pusat inovasi. Kolaborasi global diperlukan untuk transisi energi berkelanjutan."
       }
     ]
+  },
+  {
+    "id": 377,
+    "title": "Research Trends in Machine Learning Applications for Predicting Ecosystem Responses to Environmental Changes",
+    "publishDate": "2024",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Chasandra Puspitasari, Agung Purnomo",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:1qzjygNMrQYC",
+    "image": "/kegiatan/Gemini_Generated_Image_okesczokesczokes.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Perubahan lingkungan global mendorong penggunaan machine learning untuk memprediksi respons ekosistem secara lebih akurat dan adaptif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "554 artikel dari Web of Science (2014–2023) dianalisis menggunakan R dan VOSViewer untuk mengeksplorasi tren publikasi, kolaborasi penulis, dan evolusi kata kunci."
+      },
+      {
+        "heading": "Results",
+        "content": "Topik inti seperti 'climate change', 'biodiversity', dan 'ecological responses' tetap dominan, sementara tema baru seperti 'extreme events' dan 'resilience modeling' mulai muncul."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian ML untuk ekologi terus berkembang sebagai bidang interdisipliner kritis, dengan kebutuhan mendesak akan model yang dapat digeneralisasi dan interpretable."
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "title": "Analyzing and Visualizing Knowledge Structures of Research and Development Trends in Internet of Things for Smart Agriculture: A Decade Overview",
+    "publishDate": "2024",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Mohammad Nazir Arifin, Miftahul Hamim, Andi Pramono",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:wbdj-CoPYUoC",
+    "image": "/kegiatan/Gemini_Generated_Image_pvmuklpvmuklpvmu.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "IoT telah merevolusi pertanian melalui pengumpulan data real-time, namun peta penelitiannya selama satu dekade belum dipetakan secara komprehensif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Analisis bibliometrik dilakukan terhadap publikasi Scopus (2013–2022) menggunakan metode pencarian ketat dan visualisasi jaringan kolaborasi."
+      },
+      {
+        "heading": "Results",
+        "content": "India, Tiongkok, dan AS memimpin produksi ilmiah. Vellore Institute of Technology menjadi institusi teraktif. Topik utama: sensor tanah, drone, dan sistem irigasi cerdas."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT untuk pertanian cerdas telah matang menjadi bidang riset global, dengan potensi besar untuk ketahanan pangan, terutama di negara berkembang."
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "title": "A Comprehensive Analysis of: A Systematic Review",
+    "publishDate": "2024",
+    "author": "Dian Lestari, Fairuz Iqbal Maulana, Agung Purnomo, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:olpn-zPbct0C",
+    "image": "/kegiatan/Gemini_Generated_Image_j4y3lvj4y3lvj4y3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Klinik virtual menjadi solusi penting untuk menjaga kontinuitas layanan kesehatan ibu hamil pasca-pandemi, terutama di daerah terpencil."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tinjauan sistematis terhadap 8 studi (2019–2023) dari Scopus dan PubMed, mencakup berbagai desain penelitian dan populasi pengguna."
+      },
+      {
+        "heading": "Results",
+        "content": "Klinik virtual meningkatkan aksesibilitas, kepuasan pasien, dan kepatuhan terhadap jadwal kontrol kehamilan, meski tantangan seperti literasi digital dan koneksi internet tetap ada."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi klinik virtual dalam sistem kesehatan maternal sangat direkomendasikan, dengan pendekatan hybrid (online + offline) sebagai model ideal."
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "title": "Telegram bot-based Flood Early Warning System with WSN Integration",
+    "publishDate": "2024",
+    "author": "Abdul Wahid, Jumadi Mabe Parenreng, Welly Chandra Kusumah Kusnandar, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:WA5NYHcadZ8C",
+    "image": "/kegiatan/Gemini_Generated_Image_gyq23bgyq23bgyq2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Banjir menyebabkan 41% bencana alam di Indonesia. Sistem peringatan dini berbasis komunitas diperlukan untuk mitigasi risiko."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Prototipe dikembangkan menggunakan sensor ultrasonik, mikrokontroler, antarmuka web, dan bot Telegram untuk notifikasi real-time ke warga."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mencapai error rate hanya 0.6175% (selisih rata-rata 1 cm) dan notifikasi 100% akurat dengan latensi rata-rata 4.07 detik."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi berbiaya rendah ini efektif untuk wilayah rawan banjir, memanfaatkan platform populer (Telegram) untuk memastikan jangkauan luas dan respons cepat."
+      }
+    ]
+  },
+{
+    "id": 381,
+    "title": "Proceedings of the 4th International Conference on Electronics, Biomedical Engineering, and Health Informatics: ICEBEHI 2023, 4–5 October, Surabaya, Indonesia",
+    "publishDate": "April 27, 2024",
+    "author": "Triwiyanto Triwiyanto, Achmad Rizal, Wahyu Caesarendra, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:UHK10RUVsp4C",
+    "image": "/kegiatan/Gemini_Generated_Image_gp0hl7gp0hl7gp0h.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "ICEBEHI 2023 merupakan forum internasional untuk berbagi inovasi di bidang elektronika, rekayasa biomedis, dan informatika kesehatan, yang diselenggarakan di Surabaya, Indonesia."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Buku prosiding ini berisi kumpulan paper peer-reviewed yang dipresentasikan dalam konferensi, mencakup riset teoretis, simulasi, pengembangan perangkat, dan aplikasi nyata."
+      },
+      {
+        "heading": "Results",
+        "content": "Lebih dari 70 kontribusi ilmiah dipublikasikan, mencerminkan tren global seperti IoT medis, sistem diagnosis cerdas, dan teknologi sensor biomedis mutakhir."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Prosiding ini menjadi referensi penting bagi peneliti dan praktisi dalam mengembangkan solusi teknologi untuk tantangan biomedis dan kesehatan masa depan."
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "title": "Factors Affecting the Willingness to Share Data in Mobile Health (mHealth) Apps in Indonesia",
+    "publishDate": "July 10, 2024",
+    "author": "Fairuz Iqbal Maulana, Dian Lestari, Anita Rahayu, Puput Dani Prasetyo Adi, Chasandra Puspitasari, Satria Fadil Persada",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:Y5dfb0dijaUC",
+    "image": "/kegiatan/Gemini_Generated_Image_gu1vwjgu1vwjgu1v.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Keberhasilan aplikasi mHealth bergantung pada ketersediaan data pengguna, namun kekhawatiran privasi sering menghambat partisipasi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi ini menggabungkan TAM, TPB, dan Privacy Calculus Theory, dianalisis melalui SEM berdasarkan kuesioner dari 103 pengguna aktif mHealth di Indonesia."
+      },
+      {
+        "heading": "Results",
+        "content": "Manfaat yang dirasakan (perbaikan kesehatan, saran personal) menjadi prediktor utama keinginan berbagi data, melebihi pengaruh risiko privasi atau kepercayaan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pengembang mHealth harus menekankan nilai personal dan transparansi data untuk meningkatkan partisipasi, bukan hanya fokus pada keamanan teknis."
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "title": "Augmented Reality in Higher Education: Literature Review",
+    "publishDate": "July 10, 2024",
+    "author": "Fairuz Iqbal Maulana, Anita Rahayu, Gamal Kusuma Zamahsari, Puput Dani Prasetyo Adi, Rahman Arifuddin, Wahyu Dirgantara",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:tkaPQYYpVKoC",
+    "image": "/kegiatan/Gemini_Generated_Image_vswfkwvswfkwvswf.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "AR menawarkan pengalaman belajar imersif yang dapat mengatasi keterbatasan pembelajaran tradisional di pendidikan tinggi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tinjauan literatur sistematis terhadap publikasi peer-reviewed (2019–2023) dianalisis menggunakan R dan VOSViewer untuk memetakan tren dan kolaborasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Bidang STEM mendominasi aplikasi AR, terutama dalam visualisasi anatomi, molekul, dan sistem teknik. Keterlibatan dan retensi pengetahuan meningkat signifikan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "AR memiliki potensi transformasional dalam pendidikan tinggi, namun adopsi massal memerlukan pengembangan konten berkualitas dan pelatihan dosen."
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "title": "Preferences for Using Canva Apps as a Presentation Media Creation Tool Among Gen Z Students: SEM Analysis with TAM and UTAUT2 Approaches",
+    "publishDate": "July 10, 2024",
+    "author": "Fairuz Iqbal Maulana, Dian Lestari, Agung Purnomo, Rahman Arifuddin, Vandha Pradwiyasma Widartha, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:_B80troHkn4C",
+    "image": "/kegiatan/Gemini_Generated_Image_2lay8p2lay8p2lay.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Generasi Z memiliki preferensi unik terhadap alat digital yang estetis, intuitif, dan mendukung ekspresi kreatif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi ini menggabungkan TAM dan UTAUT2, dianalisis melalui SEM untuk memahami faktor penerimaan Canva di kalangan mahasiswa."
+      },
+      {
+        "heading": "Results",
+        "content": "Kenikmatan penggunaan (hedonic motivation) dan fitur desain kreatif menjadi alasan utama adopsi Canva, melebihi faktor utilitarian seperti kemudahan penggunaan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Canva berhasil menyelaraskan dengan nilai estetika dan kreativitas Gen Z, menjadikannya alat dominan untuk presentasi akademik dan non-akademik."
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "title": "Trends in Research Publication Topics Related to Artificial Intelligence for Medicine in Medical Education: A Bibliometric Analysis",
+    "publishDate": "July 10, 2024",
+    "author": "Fairuz Iqbal Maulana, Dian Lestari, Puput Dani Prasetyo Adi, Agung Purnomo, Mufidah Nur Amalia, Miftahul Hamim",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:PELIpwtuRlgC",
+    "image": "/kegiatan/Gemini_Generated_Image_okesczokesczokes.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Integrasi AI dalam pendidikan kedokteran berpotensi merevolusi pelatihan klinis melalui simulasi cerdas dan umpan balik adaptif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "389 dokumen dari Scopus (2019–2023) dianalisis menggunakan R untuk memetakan tren topik, kolaborasi, dan distribusi geografis."
+      },
+      {
+        "heading": "Results",
+        "content": "AS, Tiongkok, dan Kanada memimpin publikasi. Topik utama: AI dalam pembelajaran anatomi, diagnosis diferensial, dan evaluasi keterampilan klinis."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Bidang ini berkembang pesat, dengan fokus pada personalisasi pembelajaran dan peningkatan kompetensi klinis melalui teknologi AI."
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "title": "Light Fidelity and Internet of Things for Medical Applications",
+    "publishDate": "July 12, 2024",
+    "author": "Puput Dani Prasetyo Adi, Ros Sariningrum, Rizky Rahmatullah, Hessy Novita, Tiar Lina Situngkir, Priyo Hartono Adji, Angela Mariana Lusiastuti, Antonia Rahayu Rosaria Wibowo, Yudi Prastiyono, Tjahjo Adiprabowo, Muhammad Yassir, Fairuz Iqbal Maulana",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:WqliGbK-hY8C",
+    "image": "/kegiatan/Gemini_Generated_Image_xwprxbxwprxbxwpr.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Lingkungan rumah sakit rentan terhadap interferensi frekuensi radio, sehingga diperlukan alternatif komunikasi nirkabel seperti LiFi berbasis cahaya."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan menggunakan LED sebagai transmitter dan LDR sebagai receiver, diprogram dalam C++ untuk mengirim data sensor medis seperti nadi, SPO2, dan tekanan darah."
+      },
+      {
+        "heading": "Results",
+        "content": "Transmisi data berhasil dilakukan dengan bit rate rendah namun stabil. Sistem dapat dihibridisasi dengan WiFi untuk aplikasi medis yang memerlukan keandalan tinggi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LiFi menawarkan solusi komunikasi aman dan bebas interferensi RF di rumah sakit, ideal untuk lingkungan sensitif seperti ICU dan ruang operasi."
+      }
+    ]
   }
 ]

@@ -6664,5 +6664,525 @@
         "content": "LoRaWAN terbukti sebagai backbone ideal untuk pertanian presisi, memungkinkan irigasi otomatis dan pengambilan keputusan berbasis data di lapangan."
       }
     ]
+  },
+  {
+    "id": 357,
+    "title": "Twitter data sentiment analysis of COVID-19 vaccination using machine learning",
+    "publishDate": "December 8, 2022",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Dian Lestari, Agung Purnomo, Sukeipah Yuli Prihatin",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:WbkHhVStYXYC",
+    "image": "/kegiatan/Gemini_Generated_Image_h3ejpmh3ejpmh3ej.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Media sosial seperti Twitter menjadi sumber utama opini publik selama pandemi. Analisis sentimen diperlukan untuk memahami persepsi terhadap vaksin dan dampaknya terhadap program vaksinasi nasional."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian menggunakan dataset 'COVID-19 All Vaccines Tweet' dari Kaggle. Teknik machine learning diterapkan untuk mengklasifikasikan sentimen, emosi, dan tren kata kunci terkait vaksin."
+      },
+      {
+        "heading": "Results",
+        "content": "Hasil menunjukkan korelasi antara sentimen negatif di Twitter dan penurunan laju vaksinasi di beberapa wilayah. Analisis juga mengidentifikasi topik dominan seperti keamanan vaksin dan efek samping."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pemantauan sentimen real-time memungkinkan pemerintah merespons misinformasi secara proaktif, menjaga kepercayaan publik, dan memastikan keberhasilan kampanye vaksinasi."
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "title": "Development Education of Blind Adaptive Data Rate LoRaWAN Network on Mobile Node",
+    "publishDate": "December 8, 2022",
+    "author": "Puput Dani Prasetyo Adi, Yuyu Wahyu, Dwi Arman Prasetya, JM Parenreng, Gatot Suharto Abdul Fatah, Fairuz Iqbal Maulana, Volvo Sihombing, Agoestina Mappadang, Abdul Wahid",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:738O_yMBCRsC",
+    "image": "/kegiatan/Gemini_Generated_Image_jw94tujw94tujw94.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Node bergerak dalam jaringan LoRaWAN menghadapi tantangan dinamis seperti perubahan jarak ke gateway, yang menyebabkan fluktuasi sinyal dan potensi packet loss."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Metode Blind ADR dikembangkan untuk menyesuaikan Spreading Factor dan daya transmisi secara otomatis berdasarkan pergerakan node, tanpa umpan balik eksplisit dari server."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mempertahankan koneksi stabil meski node bergerak hingga 3 km dari gateway. Packet loss berkurang hingga 35% dibanding konfigurasi tetap."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Blind ADR merupakan solusi efektif untuk aplikasi LoRaWAN berbasis mobilitas, seperti pelacakan aset atau kendaraan, tanpa memerlukan overhead komunikasi tambahan."
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "title": "A Real-Time Web Information System Based on A Global Positioning System for Monitoring Environmental Pollution",
+    "publishDate": "December 15, 2022",
+    "author": "Eko Gustriyadi, Volvo Sihombing, Masrizal Masrizal, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:XiSMed-E-HIC",
+    "image": "/kegiatan/Gemini_Generated_Image_z2spbez2spbez2sp.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pemantauan polusi air membutuhkan sistem yang mampu mengintegrasikan data lokasi dan parameter lingkungan secara real-time untuk pengambilan keputusan cepat."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan dengan arsitektur web berbasis GPS, menggunakan koordinat latitude dan longitude sebagai kunci utama. Frontend dan backend dibangun untuk kompatibilitas desktop dan mobile."
+      },
+      {
+        "heading": "Results",
+        "content": "Prototipe berhasil menampilkan data polusi di peta digital dengan akurasi lokasi tinggi. Sistem juga mendukung notifikasi dini saat parameter melebihi ambang batas."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi GPS dan sistem web menciptakan platform pemantauan lingkungan yang skalabel, transparan, dan mudah diakses oleh masyarakat maupun otoritas terkait."
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "title": "Analyze Transmission Data from a Multi-Node Patient's Respiratory FMCW Radar to the Internet of Things",
+    "publishDate": "2023",
+    "author": "Rizky Rahmatullah, Puput Dani Prasetyo Adi, Suisbiyanto Prasetya, Arief Budi Santiko, Yuyu Wahyu, B Berlian Surya Wicaksana, Stevry Yushady CH Bissa, Jana Yanti Riyani, Aloysius Adya Pramudita",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:tOudhMTPpwUC",
+    "image": "/kegiatan/Gemini_Generated_Image_4xyzbh4xyzbh4xyz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pola pernapasan mencerminkan kondisi kesehatan pasien. Radar FMCW menawarkan pemantauan non-invasif yang ideal untuk pasien rawat inap atau lansia."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Data pernapasan dari beberapa pasien dikumpulkan menggunakan radar OmnipreSense, diproses oleh mikroprosesor, lalu dikirim ke server IoT (iotmedis.brin.go.id) melalui protokol MQTT."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mampu menampilkan data pernapasan multi-pasien secara real-time di antarmuka web. Analisis pola memungkinkan deteksi dini gangguan seperti apnea atau takipnea."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi FMCW radar dan IoT membuka jalan bagi sistem kesehatan cerdas yang andal, akurat, dan tidak mengganggu kenyamanan pasien."
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "title": "Machine learning for perinatal complication prediction: A systematic review",
+    "publishDate": "2023",
+    "author": "Dian Lestari, Fairuz Iqbal Maulana, Satria Fadil Persada, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:5Ul4iDaHHb8C",
+    "image": "/kegiatan/Gemini_Generated_Image_ga8je2ga8je2ga8j.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Komplikasi perinatal merupakan penyebab utama kematian ibu dan bayi. Machine learning menawarkan pendekatan prediktif berbasis data untuk mitigasi dini."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tinjauan sistematis dilakukan terhadap studi dari PubMed dan Scopus, fokus pada algoritma, metrik evaluasi, dan kualitas dataset yang digunakan."
+      },
+      {
+        "heading": "Results",
+        "content": "Random forest dan neural network menunjukkan akurasi tertinggi (>85%). Namun, banyak studi terkendala oleh dataset kecil dan kurangnya validasi eksternal."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Machine learning berpotensi revolusioner dalam perawatan kehamilan, tetapi memerlukan standarisasi data, transparansi model, dan kolaborasi multidisiplin untuk implementasi klinis."
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "title": "Mapping the literature of artificial intelligence in medical education: a scientometric analysis",
+    "publishDate": "2023",
+    "author": "Fairuz Iqbal Maulana, Muhammad Yasır Zaın, Dian Lestari, Agung Purnomo, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:LPZeul_q3PIC",
+    "image": "/kegiatan/Gemini_Generated_Image_jwvm6jjwvm6jjwvm.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "AI semakin diintegrasikan dalam pendidikan medis, namun peta perkembangannya belum dipetakan secara komprehensif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Analisis scientometrik dilakukan terhadap 1.681 artikel dari Scopus (2012–2022) menggunakan VOSviewer dan RStudio untuk mengeksplorasi tren, kolaborasi, dan topik utama."
+      },
+      {
+        "heading": "Results",
+        "content": "McGill University memimpin publikasi (69 artikel). Topik dominan: simulasi klinis berbasis AI, asisten pembelajaran cerdas, dan evaluasi otomatis."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian AI dalam pendidikan medis tumbuh eksponensial, dengan fokus pada peningkatan keterampilan klinis dan personalisasi pembelajaran. Studi ini menjadi peta jalan bagi peneliti masa depan."
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "title": "The error rate analyze and parameter measurement on LoRa communication for health monitoring",
+    "publishDate": "April 1, 2023",
+    "author": "Puput Dani Prasetyo Adi, Yuyu Wahyu",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:K3LRdlH-MEoC",
+    "image": "/kegiatan/Gemini_Generated_Image_q00rbhq00rbhq00r.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Keandalan transmisi data LoRa sangat penting dalam aplikasi kesehatan, di mana packet loss dapat berdampak fatal."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian menganalisis penyebab error (difraksi, scattering, refleksi) dan mengembangkan metode untuk meminimalkan laju kesalahan, dengan data denyut nadi sebagai studi kasus."
+      },
+      {
+        "heading": "Results",
+        "content": "Formula baru untuk estimasi error rate dikembangkan berdasarkan RSSI dan SNR. Penerapan ADR mengurangi packet loss hingga 40% dalam pengujian lapangan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pemahaman mendalam tentang parameter fisik LoRa memungkinkan desain sistem kesehatan yang lebih tangguh terhadap gangguan lingkungan."
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "title": "The scientific progress and prospects of artificial intelligence for cancer detection: a bibliometric analysis",
+    "publishDate": "July 26, 2023",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Dian Lestari, Sandy Vikki Ariyanto, Agung Purnomo",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:4fKUyHm3Qg0C",
+    "image": "/kegiatan/Gemini_Generated_Image_g3ud0sg3ud0sg3ud.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "AI telah merevolusi deteksi kanker melalui analisis citra medis, genomik, dan data klinis, namun evolusi globalnya perlu dipetakan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "1.868 artikel dari Scopus (2013–2022) dianalisis menggunakan VOSviewer dan RStudio untuk mengidentifikasi tren, aktor kunci, dan gap penelitian."
+      },
+      {
+        "heading": "Results",
+        "content": "Harvard Medical School memimpin kontribusi (101 artikel). Topik dominan: deep learning untuk radiologi, deteksi dini kanker kulit dan payudara, serta interpretasi patologi digital."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian AI untuk kanker terus berkembang pesat, dengan potensi integrasi klinis yang luas. Kolaborasi global dan standarisasi data menjadi kunci masa depan."
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "title": "Data Analyzes and conversion of Patient’s Respiratory FMCW Radar to the Internet of Things",
+    "publishDate": "July 26, 2023",
+    "author": "Suisbiyanto Prasetya, Arief Budi Santiko, Puput Dani Prasetyo Adi, Yuyu Wahyu, Rizky Rahmatullah, B Berlian Surya Wicaksana, Stevry Yushady Ch Bissa, Riyani Jana Yanti, Aloysius Adya Pramudita",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:B3FOqHPlNUQC",
+    "image": "/kegiatan/Gemini_Generated_Image_wkj2atwkj2atwkj2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Radar FMCW menawarkan pemantauan pernapasan tanpa kontak, ideal untuk pasien rentan atau lingkungan tidur."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sinyal radar diproses dan dikonversi menjadi data grafis pernapasan, lalu dikirim ke server MQTT. Antarmuka pengguna dikembangkan untuk smartphone."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem menampilkan grafik pernapasan real-time dengan latensi <2 detik. Pengujian awal menunjukkan akurasi tinggi dibanding sensor konvensional."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi dengan Raspberry Pi 4B dan casing permanen akan meningkatkan stabilitas sistem untuk aplikasi jangka panjang di rumah sakit atau rumah."
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "title": "Performance LoRa Technology for Autonomous Vehicles",
+    "publishDate": "July 26, 2023",
+    "author": "Puput Dani Prasetyo Adi, Iwan Purnama, Arfanda Anugrah Siregar, Angga Putra Juledi, Firman Edi, Abdul Karim, Yuyu Wahyu, Fairuz Iqbal Maulana, Suhardi Atmoko Budi Susilo, Ilham Hakiki Harahap, Lintang Patria",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:sSrBHYA8nusC",
+    "image": "/kegiatan/Gemini_Generated_Image_xq2xrgxq2xrgxq2x.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kendaraan otonom membutuhkan komunikasi jarak jauh yang andal untuk pertukaran data posisi, terutama di area tanpa jaringan seluler."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Empat kendaraan otonom mengirim data GPS secara bergantian menggunakan prinsip Blind ADR untuk menghindari tabrakan data. Parameter seperti RSSI, SF, dan konsumsi daya dipantau."
+      },
+      {
+        "heading": "Results",
+        "content": "Tidak terjadi packet loss selama pengujian. Sistem mampu mempertahankan akurasi pelacakan bahkan pada kecepatan tinggi dan jarak >2 km."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa dengan Blind ADR terbukti layak sebagai backbone komunikasi untuk armada kendaraan otonom di lingkungan terpencil atau darurat."
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "title": "Leafony Board IoT and Its Development for Engineering Education",
+    "publishDate": "August 29, 2023",
+    "author": "Puput Dani Prasetyo Adi, Yuyu Wahyu, Dwi Arman Prasetya, Fairuz Iqbal Maulana",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:8AbLer7MMksC",
+    "image": "/kegiatan/Gemini_Generated_Image_49ww6j49ww6j49ww.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pendidikan teknik membutuhkan platform IoT yang modular, terjangkau, dan kompatibel dengan kurikulum praktikum mikrokontroler dan komunikasi nirkabel."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Leafony Board dikembangkan berbasis ATmega328P dengan 14 pin I/O digital, osilator 8 MHz, dan desain stacking shield untuk modul daya, sensor, dan komunikasi. Pengembangan dilakukan menggunakan Arduino IDE."
+      },
+      {
+        "heading": "Results",
+        "content": "Leafony terbukti fleksibel dan mudah digunakan oleh mahasiswa untuk membangun proyek IoT seperti pemantauan lingkungan, otomasi, dan sistem sensor nirkabel."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Leafony Board menjadi solusi edukasi IoT yang ideal untuk perguruan tinggi, mendorong inovasi berkelanjutan melalui pendekatan modular dan kompatibilitas perangkat lunak yang luas."
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "title": "Design and Implementation of IoT-Based Monitoring Battery and Solar Panel Temperature in Hydroponic System",
+    "publishDate": "September 2023",
+    "author": "Rizky Rahmatullah, Trie Maya Kadarina, Bagus Bhakti Irawan, Reza Septiawan, Arief Rufiyanto, Budi Sulistya, Arief Budi Santiko, Puput Dani Prasetyo Adi, Nicco Plamonia, Ravindra Kumar Shabajee, Suhardi Atmoko, Dendy Mahabror, Yudi Prastiyono",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:geHnlv5EZngC",
+    "image": "/kegiatan/Gemini_Generated_Image_bfp9c3bfp9c3bfp9.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem hidroponik berbasis energi surya rentan terhadap kerusakan panel dan baterai akibat suhu tinggi, sehingga diperlukan pemantauan kondisi real-time."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor AM2302 dan INA219 digunakan untuk mengukur suhu, kelembaban, tegangan, dan arus. Data dikirim ke platform Grafana dan aplikasi Android melalui jaringan IoT."
+      },
+      {
+        "heading": "Results",
+        "content": "Akurasi sensor mencapai 98% setelah kalibrasi. QoS jaringan menunjukkan packet loss 0% dan latensi 14 ms, memenuhi standar ITU G.1010 untuk aplikasi real-time."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem ini meningkatkan keandalan hidroponik berbasis surya dengan memberikan peringatan dini terhadap kondisi kritis, mendukung pertanian perkotaan yang berkelanjutan."
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "title": "Internet of Medical Things: A Bibliometric Analysis of Research Publications from 2018–2022",
+    "publishDate": "October 3, 2023",
+    "author": "Fairuz Iqbal Maulana, Dian Lestari, Puput Dani Prasetyo Adi, Mohammad Nazir Arifin, Agung Purnomo",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:XiVPGOgt02cC",
+    "image": "/kegiatan/Gemini_Generated_Image_mni2unmni2unmni2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "IoMT menggabungkan perangkat medis, internet, dan AI untuk transformasi layanan kesehatan, tetapi peta penelitiannya belum dipetakan secara sistematis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "1.165 dokumen dari Scopus (2018–2022) dianalisis menggunakan metode bibliometrik untuk mengidentifikasi tren, kolaborasi, dan topik utama."
+      },
+      {
+        "heading": "Results",
+        "content": "Publikasi meningkat setiap tahun, mencapai puncak pada 2022. Peneliti terkemuka: Mohanty, Kougianos, dan Pirbhulal. Fokus utama: keamanan data, pemantauan jarak jauh, dan interoperabilitas."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoMT merupakan bidang yang berkembang pesat dengan potensi besar dalam telemedicine dan rumah sakit cerdas, namun memerlukan standarisasi dan regulasi yang kuat."
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "title": "Sentiment analysis on service quality of an online healthcare mobile platform using VADER and roberta pretrained model",
+    "publishDate": "October 3, 2023",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Dian Lestari, Agung Purnomo, Daniel Anando Wangean",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:t6usbXjVLHcC",
+    "image": "/kegiatan/Gemini_Generated_Image_uaeksauaeksauaek.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Halodoc sebagai platform kesehatan digital terkemuka di Indonesia membutuhkan evaluasi berbasis data terhadap kualitas layanannya melalui ulasan pengguna."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Ulasan dari Google Play Store dianalisis menggunakan dua model: VADER (berbasis kamus) dan RoBERTa (berbasis deep learning) untuk klasifikasi sentimen."
+      },
+      {
+        "heading": "Results",
+        "content": "Mayoritas ulasan bersifat positif, menyoroti kemudahan akses, kecepatan respons dokter, dan kredibilitas informasi kesehatan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Analisis sentimen membantu pengembang memahami kekuatan dan area peningkatan layanan, serta membangun kepercayaan pengguna terhadap layanan kesehatan digital."
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "title": "Performance of lorawan in multi-node",
+    "publishDate": "October 18, 2023",
+    "author": "Puput Dani Prasetyo Adi, Samsir Samsir, Firman Edi, Iwan Purnama, Muhammad Yasir, Agoestina Mappadang, Fairuz Iqbal Maulana, Gatot Suharto Abdul Fatah, Bendjamin Benny Louhenapessy, Yudi Prastiyono",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:q3oQSFYPqjQC",
+    "image": "/kegiatan/Gemini_Generated_Image_av5wfzav5wfzav5w.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Jaringan LoRaWAN dengan banyak node menghadapi tantangan skalabilitas, termasuk tabrakan data dan penurunan kualitas layanan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Simulasi dilakukan menggunakan OMNeT++ dengan model chip RF96, mengintegrasikan parameter seperti SF, bandwidth, CR, RSSI, dan SNR."
+      },
+      {
+        "heading": "Results",
+        "content": "Saat jumlah node melebihi 50, packet loss meningkat signifikan tanpa ADR. Simulasi memungkinkan optimasi parameter sebelum implementasi fisik."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "OMNeT++ terbukti efektif untuk memprediksi kinerja LoRaWAN skala besar, menjadi alat penting dalam perencanaan jaringan IoT."
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "title": "Design and Realization Bandpass Filter 2.4 GHz Using Symmetric Step Impedance Resonator",
+    "publishDate": "November 15, 2023",
+    "author": "Yahya Syukri Amrullah, Teguh Praludi, Yusnita Rahayu, Topik Teguh Estu, Folin Oktafiani, Yaya Sulaeman, Ros Sariningrum, Puput Dani Prasetyo Adi, Tony Kristiantor",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:eJXPG6dFmWUC",
+    "image": "/kegiatan/Gemini_Generated_Image_j0uud7j0uud7j0uu.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Filter bandpass 2.4 GHz diperlukan untuk aplikasi komunikasi nirkabel seperti Wi-Fi dan IoT guna mengurangi interferensi dari frekuensi luar."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Filter dirancang menggunakan resonator impedansi bertingkat simetris pada substrat Duroid Rogers 4350 (εr=3.66, tebal 1.527 mm), lalu disimulasikan dan direalisasikan secara fisik."
+      },
+      {
+        "heading": "Results",
+        "content": "Pengujian menunjukkan return loss 22.05 dB, insertion loss -0.77 dB, dan bandwidth 180 MHz pada frekuensi pusat 2.4 GHz — sesuai spesifikasi S-band."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain simetris meningkatkan respons filter secara signifikan, menjadikannya kandidat ideal untuk modul komunikasi kompak berfrekuensi 2.4 GHz."
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "title": "Performance Evaluation of LoRa RFM96 on IoT Telkom Indonesia",
+    "publishDate": "November 15, 2023",
+    "author": "Puput Dani Prasetyo Adi, Lintang Patria, Adi Wirawan, Tjahjo Adiprabowo, Arief Budi Santiko, Riza Zulkarnain, Rizky Rahmatullah, Bendjamin Benny Louhenapessy",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:D_sINldO8mEC",
+    "image": "/kegiatan/Gemini_Generated_Image_dz4te7dz4te7dz4t.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Platform IoT berbasis cloud lokal seperti Telkom Indonesia penting untuk kedaulatan data dan pengembangan teknologi dalam negeri."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Node LoRa RFM96 diuji dalam kondisi outdoor non-line-of-sight di kawasan BRIN Bandung, dengan pengiriman data multi-sensor ke platform IoT Telkom."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mentransmisikan data dengan keandalan tinggi meski di lingkungan urban dengan banyak penghalang, membuka jalan bagi IoT nasional berbasis infrastruktur lokal."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kolaborasi antara akademisi dan BUMN seperti Telkom mempercepat adopsi IoT di Indonesia melalui solusi berbasis cloud domestik."
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "title": "Development of LoRaWAN blind ADR for mobile realtime monitoring system",
+    "publishDate": "December 1, 2023",
+    "author": "Puput Dani Prasetyo Adi, Volvo Sihombing, Idil Ardi, Fairuz Iqbal Maulana, Arief Budi Santiko, Riza Zulkarnain, Adi Wirawan, Bendjamin Benny Louhenapessy, Yudi Prastiyono, Irawan Sukma, Jumadi Mabe Parenreng, Muhammad Fauzan Edy Purnomo, Ibnu Rasvid Munthe, Tjahjo Adiprabowo",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:mvPsJ3kp5DgC",
+    "image": "/kegiatan/Gemini_Generated_Image_i056qhi056qhi056.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Node LoRaWAN bergerak menghadapi dinamika jaringan yang tidak terprediksi, menyebabkan fluktuasi throughput dan packet loss."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Blind ADR dikembangkan untuk menyesuaikan laju data secara otomatis berdasarkan estimasi jarak dan kondisi sinyal tanpa feedback dari server."
+      },
+      {
+        "heading": "Results",
+        "content": "Metode ini mengurangi tabrakan data hingga 50% dalam skenario mobilitas tinggi, mempertahankan QoS yang stabil untuk aplikasi pemantauan real-time."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Blind ADR menjadi solusi efisien untuk IoT berbasis mobilitas seperti pelacakan kendaraan, logistik, dan respons darurat."
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "title": "Design Human Object Detection Yolov4Tiny Algorithm on ARM Cortex-A72 and A53",
+    "publishDate": "December 2023",
+    "author": "Rachmat Muwardi, Ahmad Faizin, Puput Dani Prasetyo Adi, Rizky Rahmatullah, Yanxi Wang, Mirna Yunita, Dendi Mahabror",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:bnK-pcrLprsC",
+    "image": "/kegiatan/Gemini_Generated_Image_9hg2bh9hg2bh9hg2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem deteksi manusia berbasis PC terlalu besar untuk aplikasi keamanan di fasilitas publik, sehingga diperlukan solusi kompak berbasis embedded system."
+      },
+      {
+        "heading": "Methodology",
+        "content": "YOLOv4-Tiny diimplementasikan pada NanoPi M4V2 (ARM Cortex-A72 + A53, 4GB RAM) dan diuji menggunakan video rekaman di berbagai kondisi pencahayaan."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mencapai akurasi deteksi 98.45% dengan FPS 3.81–5.55, mengungguli YOLOv4 dan YOLOv5 dalam hal efisiensi sumber daya pada perangkat edge."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Implementasi ini membuka jalan bagi sistem keamanan cerdas berbiaya rendah yang hemat energi dan mudah ditempatkan di lokasi terpencil."
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "title": "Applications of artificial intelligence in renewable energy: a bibliometric analysis of the scientific production indexed in scopus",
+    "publishDate": "2024",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Nirwana Haidar Hari, Miftahul Hamim, Dian Lestari",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:V3AGJWp-ZtQC",
+    "image": "/kegiatan/Gemini_Generated_Image_2zb0nu2zb0nu2zb0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "AI memainkan peran krusial dalam optimasi, prediksi, dan manajemen sistem energi terbarukan, namun evolusi globalnya perlu dipetakan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Analisis bibliometrik dilakukan terhadap publikasi Scopus (2014–2023) menggunakan VOSviewer untuk mengidentifikasi tren, kolaborasi negara, dan aktor kunci."
+      },
+      {
+        "heading": "Results",
+        "content": "Tiongkok (103), India (83), dan AS (49) adalah negara paling produktif. University of Sharjah, Kementerian Pendidikan Tiongkok, dan Tsinghua University memimpin institusi. Topik dominan: prediksi beban, optimasi panel surya, dan integrasi jaringan pintar."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian AI untuk energi terbarukan terus berkembang, dengan Asia sebagai pusat inovasi. Kolaborasi global diperlukan untuk transisi energi berkelanjutan."
+      }
+    ]
   }
 ]

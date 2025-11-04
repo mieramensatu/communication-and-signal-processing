@@ -2863,5 +2863,75 @@
     "title": "Light Fidelity and Internet of Things for Medical Applications",
     "desc": "Sistem LiFi berbasis LED dan LDR berhasil mentransmisikan data sensor medis (seperti nadi dan SPO2) dengan kecepatan rendah namun aman, membuka potensi komunikasi nirkabel bebas RF di lingkungan rumah sakit.",
     "img": "/kegiatan/Gemini_Generated_Image_xwprxbxwprxbxwpr.png"
+  },
+  {
+    "id": 387,
+    "author": ["Fairuz Iqbal Maulana", "Dian Lestari", "Puput Dani Prasetyo Adi", "Miftahul Hamim", "Anita Rahayu", "Vandha Pradwiyasma Widartha"],
+    "title": "Direction of Machine Learning Research in Obstetric Care in the Last 10 Years",
+    "desc": "Analisis bibliometrik terhadap 829 publikasi (2014–2023) mengungkap tren meningkatnya penggunaan machine learning dalam perawatan obstetri, dengan fokus pada prediksi komplikasi dan personalisasi perawatan maternal.",
+    "img": "/kegiatan/Gemini_Generated_Image_ftguf5ftguf5ftgu.png"
+  },
+  {
+    "id": 388,
+    "author": ["Dian Lestari", "Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Anita Rahayu", "Reny Nadlifatin", "Vandha Pradwiyasma Widartha"],
+    "title": "Bibliometric Analysis of Intelligent Techniques for Obstetric Complication Prediction in the Last 20 Years",
+    "desc": "Studi ini mengidentifikasi klaster riset utama seperti diabetes gestasional dan biomarker dalam prediksi komplikasi obstetri menggunakan AI selama dua dekade, sekaligus menyoroti perlunya aplikasi klinis berbasis ML.",
+    "img": "/kegiatan/Gemini_Generated_Image_1xksgc1xksgc1xks.png"
+  },
+  {
+    "id": 389,
+    "author": ["Puput Dani Prasetyo Adi", "Arip Kristiyanto", "Ajang Sopandi", "Irma Nirmala", "Muhlis Tahir", "Etistika Yuni Wijaya"],
+    "title": "Performance Evaluation of Raspberry Pi Pico for Internet of Things and Its Analysis",
+    "desc": "Evaluasi kinerja Raspberry Pi Pico berbasis RP2040 menunjukkan potensinya sebagai platform IoT hemat daya untuk aplikasi mobile seperti drone, sensor medis, dan sistem tertanam berdaya baterai rendah.",
+    "img": "/kegiatan/Gemini_Generated_Image_3bx4383bx4383bx4.png"
+  },
+  {
+    "id": 390,
+    "author": ["Fairuz Iqbal Maulana", "Chasandra Puspitasari", "Miftahul Hamim", "Puput Dani Prasetyo Adi", "Rahman Arifuddin", "Vandha Pradwiyasma Widartha"],
+    "title": "Internet of Things for Agriculture Industry: A Bibliometric Analysis in the Last Five Years",
+    "desc": "Analisis 120 publikasi Scopus (2018–2022) menunjukkan pertumbuhan IoT di pertanian dengan fokus pada jaringan sensor nirkabel, teknologi wearable untuk petani, dan integrasi data untuk ketahanan pangan.",
+    "img": "/kegiatan/Gemini_Generated_Image_8pvwaz8pvwaz8pvw.png"
+  },
+  {
+    "id": 391,
+    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Andi Pramono", "Anita Rahayu", "Satria Fadil Persada", "Reny Nadlifatin"],
+    "title": "A Scientometric Review and Research Trends of Internet of Things in Application of Smart City",
+    "desc": "Tinjauan scientometrik atas 3.849 dokumen (2019–2023) menempatkan Tiongkok, India, dan Korea sebagai pemimpin riset IoT untuk smart city, dengan fokus pada manajemen lalu lintas, energi, dan layanan publik cerdas.",
+    "img": "/kegiatan/Gemini_Generated_Image_oaru8moaru8moaru.png"
+  },
+  {
+    "id": 392,
+    "author": ["Fairuz Iqbal Maulana", "Anita Rahayu", "Vandha Pradwiyasma Widartha", "Puput Dani Prasetyo Adi", "Agung Purnomo", "Andi Pramono"],
+    "title": "A Comparative Study of Machine Learning Models for Sentiment Analysis on User Reviews of the Desa Wisata Nusantara Application in the Google Play Store",
+    "desc": "Perbandingan BNB dan SVM untuk analisis sentimen ulasan aplikasi Desa Wisata Nusantara menunjukkan mayoritas ulasan negatif (45.07%), mengungkap area peningkatan krusial dalam pengalaman pengguna digital pariwisata.",
+    "img": "/kegiatan/Gemini_Generated_Image_2mv0c22mv0c22mv0.png"
+  },
+  {
+    "id": 393,
+    "author": ["Puput Dani Prasetyo Adi", "Adi Wirawan", "Suhardi Atmoko Budi Susilo", "Riza Zulkarnain", "Angela Mariana Lusiastuti", "Dendy Mahabror", "Yudi Prastiyono", "Idil Ardi", "Hessy Novita", "Indra Pratama", "R Priyo Hartono Adji", "Suyoto Suyoto"],
+    "title": "Smart Aquaculture Vaname Shrimp LoRaWAN based",
+    "desc": "Sistem akuakultur cerdas berbasis LoRaWAN memantau tujuh parameter kritis (DO, pH, salinitas, amonia, dll.) secara real-time, mendukung budidaya udang vaname berkelanjutan dengan efisiensi energi tinggi.",
+    "img": "/kegiatan/Gemini_Generated_Image_9ba7zs9ba7zs9ba7.png"
+  },
+  {
+    "id": 394,
+    "author": ["Bambang Nurdewanto", "Kukuh Yudhistiro", "Dani Yuniawan", "Himawan Pramaditya", "Mochammad Daffa Putra Karyudi", "Yulia Natasya Farah Diba Arifin", "Puput Dani Prasetyo Adi"],
+    "title": "Deep Learning Approach in Complex Sentiment Analysis: A Case Study on Social Problems",
+    "desc": "Pendekatan CNN untuk analisis sentimen kompleks mengkategorikan ulasan sosial ke dalam tiga dimensi: Sentimen (positif/netral/negatif), Nada (kritik/saran/keluhan), dan Objek, memberikan wawasan multidimensi tentang isu publik.",
+    "img": "/kegiatan/Gemini_Generated_Image_nr7rw4nr7rw4nr7r.png"
+  },
+  {
+    "id": 395,
+    "author": ["Akhmad Zainuri", "Onny Setyawati", "Zainul Abidin", "Panca Mudjirahardjo", "Renaldi Putra Pratama", "Puput Dani Prasetyo Adi", "Robeth Viktoria Manurung", "Dauletbay Baktybaevich Sarsenbaev"],
+    "title": "Designing a synchronous automatic transfer switch for an on-grid solar system",
+    "desc": "Desain automatic transfer switch sinkron memungkinkan sistem surya on-grid tetap beroperasi selama pemadaman PLN dengan memicu inverter secara mandiri, meningkatkan keandalan pasokan listrik siang hari.",
+    "img": "/kegiatan/Gemini_Generated_Image_tajy46tajy46tajy.png"
+  },
+  {
+    "id": 396,
+    "author": ["Iwan Purnama", "Rahmadani Pane", "Adri Gabriel Sooai", "Firman Edi", "Ahmad Abdul Chamid", "Puput Dani Prasetyo Adi"],
+    "title": "Auto-handover gateway lorawan based on autonomous vehicles",
+    "desc": "Simulasi auto-handover gateway LoRaWAN untuk kendaraan otonom berhasil mempertahankan koneksi stabil dengan memilih gateway terdekat secara dinamis saat kendaraan bergerak, meski terjadi penurunan bit rate pada jarak jauh.",
+    "img": "/kegiatan/Gemini_Generated_Image_o7rf54o7rf54o7rf.png"
   }
 ]

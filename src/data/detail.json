@@ -7289,7 +7289,7 @@
       }
     ]
   },
-{
+  {
     "id": 381,
     "title": "Proceedings of the 4th International Conference on Electronics, Biomedical Engineering, and Health Informatics: ICEBEHI 2023, 4–5 October, Surabaya, Indonesia",
     "publishDate": "April 27, 2024",
@@ -7442,6 +7442,266 @@
       {
         "heading": "Conclusion",
         "content": "LiFi menawarkan solusi komunikasi aman dan bebas interferensi RF di rumah sakit, ideal untuk lingkungan sensitif seperti ICU dan ruang operasi."
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "title": "Direction of Machine Learning Research in Obstetric Care in the Last 10 Years",
+    "publishDate": "August 6, 2024",
+    "author": "Fairuz Iqbal Maulana, Dian Lestari, Puput Dani Prasetyo Adi, Miftahul Hamim, Anita Rahayu, Vandha Pradwiyasma Widartha",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:Mojj43d5GZwC",
+    "image": "/kegiatan/Gemini_Generated_Image_ftguf5ftguf5ftgu.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Perawatan obstetri menghadapi tantangan besar dalam memprediksi dan mencegah komplikasi kehamilan. Machine learning menawarkan solusi data-driven untuk meningkatkan hasil maternal dan neonatal."
+      },
+      {
+        "heading": "Methodology",
+        "content": "829 publikasi dari Web of Science (2014–2023) dianalisis menggunakan analisis tema, ko-oksistensi kata kunci, dan pemetaan kolaborasi institusi dan negara."
+      },
+      {
+        "heading": "Results",
+        "content": "Tren publikasi meningkat eksponensial, dengan fokus beralih dari diagnosis tradisional ke prediksi berbasis ML untuk preeklamsia, diabetes gestasional, dan persalinan prematur."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Bidang ini matang untuk integrasi klinis, namun memerlukan dataset beragam, model interpretable, dan validasi prospektif untuk adopsi luas di fasilitas kesehatan."
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "title": "Bibliometric Analysis of Intelligent Techniques for Obstetric Complication Prediction in the Last 20 Years",
+    "publishDate": "August 6, 2024",
+    "author": "Dian Lestari, Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Anita Rahayu, Reny Nadlifatin, Vandha Pradwiyasma Widartha",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:AXPGKjj_ei8C",
+    "image": "/kegiatan/Gemini_Generated_Image_1xksgc1xksgc1xks.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Komplikasi obstetri merupakan penyebab utama kematian ibu dan bayi secara global. Prediksi dini melalui teknik cerdas dapat menyelamatkan nyawa."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi ini meninjau literatur dari 2004–2023, menganalisis klaster tematik melalui ko-oksistensi kata kunci dan evolusi fokus riset selama dua dekade."
+      },
+      {
+        "heading": "Results",
+        "content": "Klaster utama meliputi diabetes mellitus gestasional, biomarker (seperti PAPP-A), dan manajemen pengobatan. Penelitian berbasis ML meningkat tajam sejak 2018."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Temuan ini menekankan perlunya kurikulum kedokteran yang mengintegrasikan AI, serta pengembangan alat klinis berbasis ML untuk mendukung keputusan medis di lapangan."
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "title": "Performance Evaluation of Raspberry Pi Pico for Internet of Things and Its Analysis",
+    "publishDate": "August 7, 2024",
+    "author": "Puput Dani Prasetyo Adi, Arip Kristiyanto, Ajang Sopandi, Irma Nirmala, Muhlis Tahir, Etistika Yuni Wijaya",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:1yQoGdGgb4wC",
+    "image": "/kegiatan/Gemini_Generated_Image_3bx4383bx4383bx4.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Perangkat embedded berdaya rendah sangat dibutuhkan untuk IoT modern, terutama dalam aplikasi mobile dan medis yang memerlukan efisiensi energi tinggi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Raspberry Pi Pico (dual-core ARM Cortex-M0+, 1.8–5.5V) diuji dalam berbagai skenario IoT, termasuk komunikasi nirkabel, pemrosesan sensor, dan operasi berbasis baterai 3.7V."
+      },
+      {
+        "heading": "Results",
+        "content": "Pico menunjukkan konsumsi daya sangat rendah (<100mA) dan respons cepat, cocok untuk integrasi pada drone, sensor kesehatan portabel, dan sistem tertanam jangka panjang."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Raspberry Pi Pico menjadi platform ideal untuk prototipe IoT berbiaya rendah, hemat energi, dan mudah diprogram, membuka peluang inovasi di berbagai bidang aplikatif."
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "title": "Internet of Things for Agriculture Industry: A Bibliometric Analysis in the Last Five Years",
+    "publishDate": "September 4, 2024",
+    "author": "Fairuz Iqbal Maulana, Chasandra Puspitasari, Miftahul Hamim, Puput Dani Prasetyo Adi, Rahman Arifuddin, Vandha Pradwiyasma Widartha",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:LjlpjdlvIbIC",
+    "image": "/kegiatan/Gemini_Generated_Image_8pvwaz8pvwaz8pvw.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "IoT telah menjadi pendorong utama transformasi digital di sektor pertanian, meningkatkan produktivitas dan keberlanjutan melalui otomasi dan analitik data."
+      },
+      {
+        "heading": "Methodology",
+        "content": "120 dokumen dari Scopus (2018–2022) dianalisis menggunakan metode bibliometrik untuk mengidentifikasi tren, kolaborasi, dan topik utama."
+      },
+      {
+        "heading": "Results",
+        "content": "Topik dominan: jaringan sensor nirkabel, pemantauan tanah dan iklim, serta teknologi wearable untuk petani. Kolaborasi kuat terjadi antara universitas dan sektor swasta."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT untuk pertanian terus berkembang pesat, dengan potensi besar untuk ketahanan pangan global, terutama jika diadopsi di negara berkembang dengan dukungan kebijakan yang tepat."
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "title": "A Scientometric Review and Research Trends of Internet of Things in Application of Smart City",
+    "publishDate": "September 4, 2024",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Andi Pramono, Anita Rahayu, Satria Fadil Persada, Reny Nadlifatin",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:ye4kPcJQO24C",
+    "image": "/kegiatan/Gemini_Generated_Image_oaru8moaru8moaru.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Smart city mengandalkan IoT untuk mengintegrasikan infrastruktur perkotaan, meningkatkan efisiensi layanan publik, dan kualitas hidup warga."
+      },
+      {
+        "heading": "Methodology",
+        "content": "3.849 dokumen dari Scopus (2019–2023) dianalisis menggunakan R dan VOSViewer untuk memetakan tren, institusi terkemuka, dan struktur sitasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Tiongkok, India, dan Korea mendominasi publikasi. Fokus utama: manajemen lalu lintas, penerangan jalan pintar, pengelolaan limbah, dan layanan darurat berbasis lokasi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian IoT untuk smart city sangat aktif, dengan peluang besar dalam interoperabilitas sistem, privasi data, dan skalabilitas solusi di kota-kota berkembang."
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "title": "A Comparative Study of Machine Learning Models for Sentiment Analysis on User Reviews of the Desa Wisata Nusantara Application in the Google Play Store",
+    "publishDate": "September 4, 2024",
+    "author": "Fairuz Iqbal Maulana, Anita Rahayu, Vandha Pradwiyasma Widartha, Puput Dani Prasetyo Adi, Agung Purnomo, Andi Pramono",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:VL0QpB8kHFEC",
+    "image": "/kegiatan/Gemini_Generated_Image_2mv0c22mv0c22mv0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Ulasan pengguna aplikasi pariwisata digital mencerminkan keberhasilan dan tantangan dalam pelayanan wisata berbasis teknologi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi membandingkan Bernoulli Naive Bayes (BNB) dan Support Vector Machine (SVM) pada 336 ulasan aplikasi Desa Wisata Nusantara di Google Play Store."
+      },
+      {
+        "heading": "Results",
+        "content": "45.07% ulasan negatif, 42.39% positif, dan 12.54% netral. SVM menunjukkan akurasi lebih tinggi dalam klasifikasi sentimen kompleks."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Hasil ini menjadi masukan penting bagi pengembang untuk meningkatkan antarmuka, stabilitas, dan konten aplikasi demi pengalaman wisata digital yang lebih baik."
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "title": "Smart Aquaculture Vaname Shrimp LoRaWAN based",
+    "publishDate": "September 5, 2024",
+    "author": "Puput Dani Prasetyo Adi, Adi Wirawan, Suhardi Atmoko Budi Susilo, Riza Zulkarnain, Angela Mariana Lusiastuti, Dendy Mahabror, Yudi Prastiyono, Idil Ardi, Hessy Novita, Indra Pratama, R Priyo Hartono Adji, Suyoto Suyoto",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:dTyEYWd-f8wC",
+    "image": "/kegiatan/Gemini_Generated_Image_9ba7zs9ba7zs9ba7.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Akuakultur modern memerlukan pemantauan parameter air secara real-time untuk memastikan kesehatan udang dan efisiensi operasional."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan menggunakan modul LoRaWAN Dragino 915 MHz (RFM96) dengan tujuh sensor: DO, pH, salinitas, amonia, kekeruhan, suhu air, dan curah hujan."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mentransmisikan data multi-sensor secara hemat daya ke platform cloud, memungkinkan deteksi dini kondisi stres pada udang vaname."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini mendukung revolusi akuakultur 4.0, meningkatkan produktivitas sekaligus keberlanjutan lingkungan melalui otomasi berbasis IoT."
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "title": "Deep Learning Approach in Complex Sentiment Analysis: A Case Study on Social Problems",
+    "publishDate": "October 1, 2024",
+    "author": "Bambang Nurdewanto, Kukuh Yudhistiro, Dani Yuniawan, Himawan Pramaditya, Mochammad Daffa Putra Karyudi, Yulia Natasya Farah Diba Arifin, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:5awf1xo2G04C",
+    "image": "/kegiatan/Gemini_Generated_Image_nr7rw4nr7rw4nr7r.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Analisis sentimen tradisional sering gagal menangkap nuansa dalam diskusi isu sosial. Pendekatan multidimensi diperlukan untuk pemahaman lebih dalam."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Model CNN dilatih untuk mengklasifikasikan ulasan ke dalam tiga dimensi: Sentimen (positif/netral/negatif), Nada (dukungan, saran, kritik, keluhan), dan Objek (topik spesifik)."
+      },
+      {
+        "heading": "Results",
+        "content": "Model berhasil mengidentifikasi bahwa kritik sosial sering disampaikan dengan nada 'saran' daripada 'keluhan', menunjukkan keinginan publik untuk solusi konstruktif."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan kompleks ini memberikan wawasan kaya bagi pembuat kebijakan, media, dan akademisi dalam memahami dinamika opini publik terhadap isu sosial kontemporer."
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "title": "Designing a synchronous automatic transfer switch for an on-grid solar system",
+    "publishDate": "October 16, 2024",
+    "author": "Akhmad Zainuri, Onny Setyawati, Zainul Abidin, Panca Mudjirahardjo, Renaldi Putra Pratama, Puput Dani Prasetyo Adi, Robeth Viktoria Manurung, Dauletbay Baktybaevich Sarsenbaev",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:_Ybze24A_UAC",
+    "image": "/kegiatan/Gemini_Generated_Image_tajy46tajy46tajy.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem surya on-grid tidak berfungsi saat terjadi pemadaman PLN karena inverter memerlukan sinyal trigger dari jaringan, menyia-nyiakan potensi energi siang hari."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Desain automatic transfer switch sinkron dikembangkan untuk mensimulasikan sinyal jaringan, memungkinkan inverter tetap aktif selama pemadaman."
+      },
+      {
+        "heading": "Results",
+        "content": "Prototipe berhasil mengaktifkan inverter secara mandiri tanpa gangguan, mempertahankan pasokan listrik dari panel surya selama outage siang hari."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini meningkatkan nilai sistem surya on-grid, menjadikannya lebih andal dan ekonomis bagi pengguna industri dan rumah tangga."
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "title": "Auto-handover gateway lorawan based on autonomous vehicles",
+    "publishDate": "November 6, 2024",
+    "author": "Iwan Purnama, Rahmadani Pane, Adri Gabriel Sooai, Firman Edi, Ahmad Abdul Chamid, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:Fu2w8maKXqMC",
+    "image": "/kegiatan/Gemini_Generated_Image_o7rf54o7rf54o7rf.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kendaraan otonom memerlukan konektivitas jaringan yang stabil saat berpindah area cakupan gateway LoRaWAN."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Simulasi dilakukan dengan pola gerak teratur dan acak, menguji parameter seperti SF, bit rate, RSSI, dan packet loss selama pergantian gateway."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem auto-handover berhasil memilih gateway terdekat secara real-time. Meski bit rate menurun pada jarak jauh, komunikasi tetap terjaga tanpa kehilangan koneksi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Mekanisme handover dinamis ini memungkinkan penggunaan LoRaWAN yang andal dalam skenario mobilitas tinggi, seperti logistik otonom dan transportasi cerdas."
       }
     ]
   }

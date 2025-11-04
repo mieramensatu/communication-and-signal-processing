@@ -7704,5 +7704,265 @@
         "content": "Mekanisme handover dinamis ini memungkinkan penggunaan LoRaWAN yang andal dalam skenario mobilitas tinggi, seperti logistik otonom dan transportasi cerdas."
       }
     ]
+  },
+  {
+    "id": 397,
+    "title": "A review of fintech management and security development",
+    "publishDate": "November 6, 2024",
+    "author": "Ali Akbar Ritonga, Syaiful Zuhri Harahap, Adri Gabriel Sooai, Aryo Nugroho, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:kzcrU_BdoSEC",
+    "image": "/kegiatan/Gemini_Generated_Image_jflzghjflzghjflz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Fintech berbasis IoT menawarkan inovasi keuangan, namun juga membuka kerentanan terhadap serangan siber, pencurian data, dan manipulasi transaksi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi ini melakukan tinjauan sistematis terhadap literatur tentang keamanan Fintech, arsitektur IoT, dan mekanisme kriptografi dalam sistem keuangan digital termasuk kriptoaset."
+      },
+      {
+        "heading": "Results",
+        "content": "Ditemukan bahwa ancaman utama berasal dari kelemahan autentikasi, enkripsi lemah, dan serangan man-in-the-middle. Bitcoin dan Ethereum menunjukkan perbedaan signifikan dalam mekanisme konsensus dan keamanan jaringan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Diperlukan pendekatan multilayer dalam keamanan Fintech, menggabungkan enkripsi end-to-end, verifikasi dua faktor, dan kebijakan tata kelola data yang ketat untuk melindungi aset pengguna."
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "title": "Performance Evaluation of LoRa 923 MHz for the Internet of Things",
+    "publishDate": "November 6, 2024",
+    "author": "Angga Putra Juledi, Moh Khoridatul Huda, Muhammad Taufik Dwi Putra, Lalu Delsi Samsumar, Puput Dani Prasetyo Adi, Yanuar Nurdiansyah",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:7T2F9Uy0os0C",
+    "image": "/kegiatan/Gemini_Generated_Image_rndncfrndncfrndn.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "LoRa 923 MHz menawarkan alternatif frekuensi untuk IoT di wilayah yang menggunakan spektrum sub-GHz non-915MHz, seperti Asia Tenggara."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Board LILYGO LoRa32 (ESP32 + LoRa 923 MHz) diuji dalam komunikasi jarak jauh hingga 10 km, mengukur PDR dan RSSI pada berbagai Spreading Factor."
+      },
+      {
+        "heading": "Results",
+        "content": "PDR mencapai 50% pada SF7 dan meningkat menjadi 85% pada SF12. Sistem juga berhasil mengonversi dan mentransmisikan data gambar dalam format terenkapsulasi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRa 923 MHz layak untuk aplikasi IoT jarak jauh yang memprioritaskan keandalan di atas kecepatan, termasuk transmisi data multimedia ringan di daerah terpencil."
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "title": "Low-Cost 9.4 GHz Microstrip Patch Antenna Design with PLA and Copper Tape",
+    "publishDate": "November 12, 2024",
+    "author": "Raden Priyo Hartono Adji, Deni Permana Kurniadi, Arief Budi Santiko, Raden Deasy Mandasari, Eko Joni Pristianto, Fajri Darwis, Arief Nur Rahman, Puput Dani Prasetyo Adi, Deni Kurnia, Raka Pratindy, Ashif Aminulloh Fathnan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:JQOojiI6XY0C",
+    "image": "/kegiatan/Gemini_Generated_Image_7w8ofp7w8ofp7w8o.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Antena mikrostrip konvensional mahal dan tidak ramah lingkungan. Alternatif berbahan biodegradable diperlukan untuk aplikasi berkelanjutan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Antena dirancang menggunakan substrat PLA (εr=2.75, tanδ=0.017, tebal 1.5mm) dan elemen radiasi dari copper tape, lalu disimulasikan di CST Microwave Studio."
+      },
+      {
+        "heading": "Results",
+        "content": "Desain mencapai S11 < -10 dB, bandwidth 503 MHz, dan gain 7.11 dBi pada frekuensi pusat 9.4 GHz — sesuai untuk aplikasi radar X-band."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kombinasi PLA dan copper tape membuktikan bahwa antena berkinerja tinggi dapat dibuat dengan biaya rendah dan dampak lingkungan minimal, ideal untuk prototipe dan edukasi."
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "title": "Band Stop Frequency Selective Surfaces Using Ring Resonators: Simulation and 6G Metasurface Potential",
+    "publishDate": "November 12, 2024",
+    "author": "Raden Priyo Hartono Adji, Puput Dani Prasetyo Adi, Raden Deasy Mandasari, Erry Dwi Kurniawan, Eko Joni Pristianto, Fajri Darwis, Arief Nur Rahman, Deni Permana Kurniadi, Pamungkas Daud, Dadin Mahmudin, Ashif Aminulloh Fathnan",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:uLbwQdceFCQC",
+    "image": "/kegiatan/Gemini_Generated_Image_lhd6n8lhd6n8lhd6.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Interferensi frekuensi menjadi tantangan utama dalam jaringan 6G. FSS berbasis metasurface diperlukan untuk filtrasi selektif sinyal."
+      },
+      {
+        "heading": "Methodology",
+        "content": "FSS satu lapis dengan unit sel resonator cincin dirancang di substrat F4BMX. Simulasi full-wave dilakukan dengan variasi parameter geometri dan material."
+      },
+      {
+        "heading": "Results",
+        "content": "FSS mencapai atenuasi -50 dB pada 3.5 GHz (frekuensi kunci 5G/6G), bandwidth fraksional 76%, dan faktor Q 1.315, menunjukkan selektivitas tinggi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain ini berpotensi digunakan sebagai filter anti-interferensi dalam perangkat 6G, radar, dan sistem komunikasi satelit berkinerja tinggi."
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "title": "A Comprehensive Review and Research Trends of Large Language Models (LLMs) in Artificial Intelligence",
+    "publishDate": "November 20, 2024",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Vandha Pradwiyasma Widartha",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:uJ-U7cs_P_0C",
+    "image": "/kegiatan/Gemini_Generated_Image_851db851db851db8.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "LLM telah merevolusi AI dengan kemampuan pemrosesan bahasa alami yang mendekati manusia, memicu ledakan riset global."
+      },
+      {
+        "heading": "Methodology",
+        "content": "2.149 dokumen dari Scopus dianalisis menggunakan R dan VOSViewer untuk memetakan tren, kolaborasi negara, dan evolusi topik penelitian (2020–2024)."
+      },
+      {
+        "heading": "Results",
+        "content": "AS, Tiongkok, dan Inggris mendominasi publikasi. Topik utama: fine-tuning, alignment, etika AI, dan aplikasi ilmiah (fisika, biologi, geosains)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Masa depan LLM terletak pada integrasi multidisiplin, regulasi global, dan pengembangan model yang efisien, transparan, dan beretika."
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "title": "Leveraging Bernoulli Naïve Bayes (BNB) and Support Vector Machine (SVM) for Sentiment Analysis and Visualization of Sayurbox Application Reviews",
+    "publishDate": "November 20, 2024",
+    "author": "Fairuz Iqbal Maulana, Puput Dani Prasetyo Adi, Vandha Pradwiyasma Widartha",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:VLnqNzywnoUC",
+    "image": "/kegiatan/Gemini_Generated_Image_7a1mfw7a1mfw7a1m.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Ulasan pengguna aplikasi e-grocery mencerminkan kepuasan terhadap kualitas produk, pengiriman, dan layanan pelanggan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "228 ulasan dari Google Play Store dianalisis menggunakan BNB dan SVM untuk klasifikasi sentimen, dengan visualisasi distribusi hasil."
+      },
+      {
+        "heading": "Results",
+        "content": "69.43% ulasan negatif, 30.57% positif. Keluhan utama meliputi keterlambatan pengiriman, kualitas sayur, dan respons layanan pelanggan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Temuan ini menjadi dasar bagi Sayurbox untuk memperbaiki rantai pasok, kualitas kontrol, dan sistem layanan, demi meningkatkan retensi pelanggan."
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "title": "Multi-Function Coastal Radar for Tsunami Detection And Ocean Wave Monitoring",
+    "publishDate": "November 28, 2024",
+    "author": "Yuyu Wahyu, Tjahjo Adiprabowo, Nasrullah Armi, Asif Awaludin, Ginaldi Ari Nugroho, Puput Dani Prasetyo Adi, Aloysius Adya Pramudita, Suisbiyanto Prasetya, B Berlian Surya Wicaksana, Rizky Rahmatullah, Pamungkas Daud, Teguh Praludi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:ZfRJV9d4-WMC",
+    "image": "/kegiatan/Gemini_Generated_Image_vaec4yvaec4yvaec.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Deteksi dini tsunami memerlukan sistem yang mampu memantau anomali gelombang laut secara real-time di wilayah pesisir."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Radar SIMRAD Halo berbasis Compressed Pulse dimodifikasi untuk menganalisis sinyal 'clutter' permukaan laut, menggunakan kombinasi sinyal Pulse dan Chirp."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mengklasifikasikan pola gelombang laut dan mendeteksi anomali yang mengindikasikan tsunami berdasarkan ketinggian radar return."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan ini mengubah radar maritim konvensional menjadi alat deteksi bencana, memberikan peringatan dini yang kritis untuk mitigasi bencana pesisir."
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "title": "Performance analysis of LoRaWAN communication utilizing the RFM96 module",
+    "publishDate": "December 12, 2024",
+    "author": "Muhammad Yassir, Harry Soepandi, Ajib Hanani, Johan Ericka Wahyu Prakasa, Ganis Chandra Puspitadewi, Sastya Hendri Wibowo, Puput Dani Prasetyo Adi, Akio Kitagawa",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:PR6Y55bgFSsC",
+    "image": "/kegiatan/Gemini_Generated_Image_j9kg2yj9kg2yj9kg.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kinerja LoRaWAN dalam kondisi nyata perlu dievaluasi untuk memastikan keandalan dalam aplikasi kritis seperti kesehatan dan lingkungan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Modul RFM96 diuji di berbagai lokasi menggunakan platform Telkom IoT, mengukur latensi, RSSI, SNR, dan throughput selama transmisi data detak jantung."
+      },
+      {
+        "heading": "Results",
+        "content": "Latensi 20–50 ms, RSSI -110 hingga -115 dBm, SNR -10 hingga -16 dB. QoS memenuhi standar untuk aplikasi non-urgensi tinggi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "LoRaWAN RFM96 terbukti andal untuk IoT medis di Indonesia, terutama ketika diintegrasikan dengan platform cloud lokal seperti Telkom IoT."
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "title": "Adoption of Generative AI-Enhanced Profit Sharing Digital Systems in MSMEs: A Comprehensive Model Analysis",
+    "publishDate": "January 1, 2025",
+    "author": "Mardiana Andarwati, Galandaru Swalaganata, Sari Yuniarti, Fandi Y Pamuji, Edward R Sitompul, Kukuh Yudhistiro, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:tzM49s52ZIMC",
+    "image": "/kegiatan/Gemini_Generated_Image_vkurupvkurupvkur.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "UMKM memerlukan solusi keuangan digital yang sesuai dengan prinsip syariah dan didukung teknologi cerdas untuk meningkatkan inklusi keuangan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi ini mengintegrasikan TAM dan UTAUT untuk menguji penerimaan sistem E-Mudharabah berbasis Generative AI di kalangan pelaku UMKM."
+      },
+      {
+        "heading": "Results",
+        "content": "Kemanfaatan yang dirasakan, pengaruh sosial, dan efikasi teknologi menjadi prediktor utama niat penggunaan. Kemudahan penggunaan juga berpengaruh signifikan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "E-Mudharabah berpotensi merevolusi pembiayaan syariah untuk UMKM, asalkan didukung edukasi digital dan infrastruktur yang inklusif."
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "title": "Multinode LoRa-MQTT of Design Architecture and Analyze Performance for Dual Protocol Network IoT",
+    "publishDate": "January 1, 2025",
+    "author": "Rizky Rahmatullah, Hongmin Gao, Ryan Prasetya Utama, Puput Dani Prasetyo Adi, Jannat Mubashir, Rachmat Muwardi, Widar Dwi Gustian, Hanifah Dwiyanti",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:2KloaMYe4IUC",
+    "image": "/kegiatan/Gemini_Generated_Image_y4sm0qy4sm0qy4sm.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "IoT modern memerlukan fleksibilitas protokol: jangkauan jauh LoRa untuk sensor tersebar, dan throughput tinggi Wi-Fi/MQTT untuk data intensif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Arsitektur dual-protokol dirancang dengan mekanisme switching otomatis. Kinerja diuji melalui eksperimen LoRa multi-node dan analisis QoS Wi-Fi menggunakan Wireshark."
+      },
+      {
+        "heading": "Results",
+        "content": "LoRa mengalami tabrakan data pada multi-node simultan (hanya satu data diterima). Wi-Fi menunjukkan QoS baik: packet loss 0%, delay 21 ms, jitter 0.1426."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi dual-protokol optimal untuk IoT hybrid: LoRa untuk telemetry jarak jauh, MQTT/Wi-Fi untuk streaming data real-time, dengan manajemen antrian untuk hindari tabrakan."
+      }
+    ]
   }
 ]

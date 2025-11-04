@@ -2933,5 +2933,75 @@
     "title": "Auto-handover gateway lorawan based on autonomous vehicles",
     "desc": "Simulasi auto-handover gateway LoRaWAN untuk kendaraan otonom berhasil mempertahankan koneksi stabil dengan memilih gateway terdekat secara dinamis saat kendaraan bergerak, meski terjadi penurunan bit rate pada jarak jauh.",
     "img": "/kegiatan/Gemini_Generated_Image_o7rf54o7rf54o7rf.png"
+  },
+  {
+    "id": 397,
+    "author": ["Ali Akbar Ritonga", "Syaiful Zuhri Harahap", "Adri Gabriel Sooai", "Aryo Nugroho", "Puput Dani Prasetyo Adi"],
+    "title": "A review of fintech management and security development",
+    "desc": "Tinjauan komprehensif terhadap keamanan Fintech di platform IoT mengungkap risiko peretasan, pencurian dana, dan perbandingan kripto seperti Bitcoin vs Ethereum, serta strategi mitigasi berbasis enkripsi dan kebijakan keamanan.",
+    "img": "/kegiatan/Gemini_Generated_Image_jflzghjflzghjflz.png"
+  },
+  {
+    "id": 398,
+    "author": ["Angga Putra Juledi", "Moh Khoridatul Huda", "Muhammad Taufik Dwi Putra", "Lalu Delsi Samsumar", "Puput Dani Prasetyo Adi", "Yanuar Nurdiansyah"],
+    "title": "Performance Evaluation of LoRa 923 MHz for the Internet of Things",
+    "desc": "Evaluasi LoRa 923 MHz menggunakan board LILYGO menunjukkan PDR 85% pada SF12 dalam uji jarak 10 km, membuka potensi transmisi data berbasis gambar di jaringan IoT hemat daya.",
+    "img": "/kegiatan/Gemini_Generated_Image_rndncfrndncfrndn.png"
+  },
+  {
+    "id": 399,
+    "author": ["Raden Priyo Hartono Adji", "Deni Permana Kurniadi", "Arief Budi Santiko", "Raden Deasy Mandasari", "Eko Joni Pristianto", "Fajri Darwis", "Arief Nur Rahman", "Puput Dani Prasetyo Adi", "Deni Kurnia", "Raka Pratindy", "Ashif Aminulloh Fathnan"],
+    "title": "Low-Cost 9.4 GHz Microstrip Patch Antenna Design with PLA and Copper Tape",
+    "desc": "Antena mikrostrip 9.4 GHz berbahan PLA biodegradable dan copper tape mencapai gain 7.11 dBi dan bandwidth 503 MHz, menawarkan solusi murah dan ramah lingkungan untuk sistem radar dan komunikasi.",
+    "img": "/kegiatan/Gemini_Generated_Image_7w8ofp7w8ofp7w8o.png"
+  },
+  {
+    "id": 400,
+    "author": ["Raden Priyo Hartono Adji", "Puput Dani Prasetyo Adi", "Raden Deasy Mandasari", "Erry Dwi Kurniawan", "Eko Joni Pristianto", "Fajri Darwis", "Arief Nur Rahman", "Deni Permana Kurniadi", "Pamungkas Daud", "Dadin Mahmudin", "Ashif Aminulloh Fathnan"],
+    "title": "Band Stop Frequency Selective Surfaces Using Ring Resonators: Simulation and 6G Metasurface Potential",
+    "desc": "FSS berbasis resonator cincin mencapai atenuasi -50 dB pada 3.5 GHz dengan bandwidth fraksional 76%, menunjukkan potensi tinggi sebagai metasurface anti-interferensi untuk jaringan 6G.",
+    "img": "/kegiatan/Gemini_Generated_Image_lhd6n8lhd6n8lhd6.png"
+  },
+  {
+    "id": 401,
+    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Vandha Pradwiyasma Widartha"],
+    "title": "A Comprehensive Review and Research Trends of Large Language Models (LLMs) in Artificial Intelligence",
+    "desc": "Analisis scientometrik terhadap 2.149 publikasi menempatkan AS, Tiongkok, dan Inggris sebagai pemimpin riset LLM, dengan fokus pada regulasi, etika, dan aplikasi lintas disiplin seperti fisika dan geomorfologi.",
+    "img": "/kegiatan/Gemini_Generated_Image_851db851db851db8.png"
+  },
+  {
+    "id": 402,
+    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Vandha Pradwiyasma Widartha"],
+    "title": "Leveraging Bernoulli Naïve Bayes (BNB) and Support Vector Machine (SVM) for Sentiment Analysis and Visualization of Sayurbox Application Reviews",
+    "desc": "Analisis sentimen ulasan Sayurbox menunjukkan 69.43% ulasan negatif, mengungkap tantangan utama dalam pengalaman pengguna platform e-grocery berbasis langganan di Indonesia.",
+    "img": "/kegiatan/Gemini_Generated_Image_7a1mfw7a1mfw7a1m.png"
+  },
+  {
+    "id": 403,
+    "author": ["Yuyu Wahyu", "Tjahjo Adiprabowo", "Nasrullah Armi", "Asif Awaludin", "Ginaldi Ari Nugroho", "Puput Dani Prasetyo Adi", "Aloysius Adya Pramudita", "Suisbiyanto Prasetya", "B Berlian Surya Wicaksana", "Rizky Rahmatullah", "Pamungkas Daud", "Teguh Praludi"],
+    "title": "Multi-Function Coastal Radar for Tsunami Detection And Ocean Wave Monitoring",
+    "desc": "Radar pantai berbasis Compressed Pulse Radar (SIMRAD Halo) dimodifikasi untuk mendeteksi gelombang tsunami dengan menganalisis 'clutter' permukaan laut, memberikan peringatan dini berbasis klasifikasi sinyal radar.",
+    "img": "/kegiatan/Gemini_Generated_Image_vaec4yvaec4yvaec.png"
+  },
+  {
+    "id": 404,
+    "author": ["Muhammad Yassir", "Harry Soepandi", "Ajib Hanani", "Johan Ericka Wahyu Prakasa", "Ganis Chandra Puspitadewi", "Sastya Hendri Wibowo", "Puput Dani Prasetyo Adi", "Akio Kitagawa"],
+    "title": "Performance analysis of LoRaWAN communication utilizing the RFM96 module",
+    "desc": "Analisis kinerja LoRaWAN RFM96 pada platform Telkom IoT menunjukkan latensi 20–50 ms, RSSI rata-rata -110 hingga -115 dBm, dan SNR -10 hingga -16 dB, membuktikan keandalan untuk aplikasi IoT medis seperti pemantauan detak jantung.",
+    "img": "/kegiatan/Gemini_Generated_Image_j9kg2yj9kg2yj9kg.png"
+  },
+  {
+    "id": 405,
+    "author": ["Mardiana Andarwati", "Galandaru Swalaganata", "Sari Yuniarti", "Fandi Y Pamuji", "Edward R Sitompul", "Kukuh Yudhistiro", "Puput Dani Prasetyo Adi"],
+    "title": "Adoption of Generative AI-Enhanced Profit Sharing Digital Systems in MSMEs: A Comprehensive Model Analysis",
+    "desc": "Studi ini menguji penerimaan sistem E-Mudharabah berbasis Generative AI di kalangan pelaku UMKM menggunakan integrasi TAM dan UTAUT, menyoroti peran kemanfaatan yang dirasakan, pengaruh sosial, dan efikasi teknologi.",
+    "img": "/kegiatan/Gemini_Generated_Image_vkurupvkurupvkur.png"
+  },
+  {
+    "id": 406,
+    "author": ["Rizky Rahmatullah", "Hongmin Gao", "Ryan Prasetya Utama", "Puput Dani Prasetyo Adi", "Jannat Mubashir", "Rachmat Muwardi", "Widar Dwi Gustian", "Hanifah Dwiyanti"],
+    "title": "Multinode LoRa-MQTT of Design Architecture and Analyze Performance for Dual Protocol Network IoT",
+    "desc": "Arsitektur dual-protokol LoRa-MQTT mengatasi keterbatasan jaringan tunggal dengan menggabungkan jangkauan jauh LoRa dan throughput tinggi Wi-Fi, meski menghadapi tantangan tabrakan data pada node multi-pengirim.",
+    "img": "/kegiatan/Gemini_Generated_Image_y4sm0qy4sm0qy4sm.png"
   }
 ]

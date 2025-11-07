@@ -3066,5 +3066,47 @@
     "title": "Kreasi Kartun Popular dengan CorelDRAW dan AI Serta Perannya bagi Pendidikan Art dimasa Mendatang",
     "desc": "Buku ini mengajarkan teknik menggambar kartun vektor menggunakan CorelDRAW dan bantuan AI, dirancang sebagai media edukasi seni digital untuk anak-anak hingga dewasa, menyeimbangkan logika dan kreativitas otak kanan.",
     "img": "/kegiatan/Gemini_Generated_Image_k3yh1nk3yh1nk3yh.png"
+  },
+  {
+    "id": 416,
+    "author": ["Tajul Miftahushudur", "Bruce Grieve", "Hujun Yin"],
+    "title": "Ensemble synthetic oversampling with manhattan distance for unbalanced hyperspectral data",
+    "desc": "Teknik oversampling sintetis berbasis ensemble dan jarak Manhattan berhasil mengatasi ketidakseimbangan kelas dalam data hiperspektral pertanian, meningkatkan akurasi klasifikasi tanaman dan penyakit langka.",
+    "img": "/kegiatan/Gemini_Generated_Image_fc1zpufc1zpufc1z.png"
+  },
+  {
+    "id": 417,
+    "author": ["Farra Anindya Putria", "Dayat Kurniawan", "Rahmawati Hasanah", "Deni Permana", "Winy Desvasari", "Ken Paramayudha", "Arief Budi Santiko", "Dadin Mahmudin", "Pamungkas Daud", "Fajri Darwis", "Erry Dwi Kurniawan", "Arie Setiawan", "Tajul Miftahushudur", "Prasetyo Putranto", "Syamsu Ismail"],
+    "title": "Development of FMCW Radar Signal Processing for High-Speed Railway Collision Avoidance",
+    "desc": "Pengembangan pemrosesan sinyal radar FMCW dengan algoritma 2D-CFAR dan RPCA mampu mendeteksi rintangan hingga 675 meter di depan lokomotif, bahkan dalam kondisi kabut atau lingkungan berdebu.",
+    "img": "/kegiatan/Gemini_Generated_Image_wpc4q5wpc4q5wpc4.png"
+  },
+  {
+    "id": 418,
+    "author": ["Halil Mertkan Sahin", "Tajul Miftahushudur", "Bruce Grieve", "Hujun Yin"],
+    "title": "Segmentation of weeds and crops using multispectral imaging and CRF-enhanced U-Net",
+    "desc": "Model U-Net yang ditingkatkan dengan Conditional Random Field (CRF) mencapai akurasi tinggi dalam segmentasi gulma dan tanaman menggunakan citra multispektral (RGB + NIR) di berbagai tahap pertumbuhan.",
+    "img": "/kegiatan/Gemini_Generated_Image_siddvnsiddvnsidd.png"
+  },
+  {
+    "id": 419,
+    "author": ["Tajul Miftahushudur", "Bruce Grieve", "Hujun Yin"],
+    "title": "Permuted KPCA and SMOTE to guide GAN-based oversampling for imbalanced HSI classification",
+    "desc": "Pendekatan inovatif menggabungkan SMOTE dan KPCA untuk membimbing GAN menghasilkan data sintetis berkualitas tinggi, meningkatkan klasifikasi kelas minoritas dalam citra hiperspektral.",
+    "img": "/kegiatan/Gemini_Generated_Image_xuo3udxuo3udxuo3.png"
+  },
+  {
+    "id": 420,
+    "author": ["Tajul Miftahushudur", "Halil Mertkan Sahin", "Bruce Grieve", "Hujun Yin"],
+    "title": "Enhanced svm-smote with cluster consistency for imbalanced data classification",
+    "desc": "Metode SVM-SMOTE yang ditingkatkan dengan konsistensi kluster berhasil mengurangi tumpang tindih (overlapping) di batas kelas, meningkatkan batas keputusan dan akurasi klasifikasi data tidak seimbang.",
+    "img": "/kegiatan/Gemini_Generated_Image_tq91dltq91dltq91.png"
+  },
+  {
+    "id": 421,
+    "author": ["Tajul Miftahushudur", "Halil Mertkan Sahin", "Bruce Grieve", "Hujun Yin"],
+    "title": "A survey of methods for addressing imbalance data problems in agriculture applications",
+    "desc": "Tinjauan komprehensif terhadap metode penanganan data tidak seimbang di pertanian presisi, menyoroti efektivitas SMOTE, GAN, VAE, serta pentingnya metrik evaluasi seperti F1-score dan MCC.",
+    "img": "/kegiatan/Gemini_Generated_Image_p8hyc7p8hyc7p8hy.png"
   }
 ]

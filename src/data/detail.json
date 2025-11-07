@@ -8198,5 +8198,161 @@
         "content": "Buku ini menjadi sumber belajar inklusif yang menggabungkan seni, teknologi, dan pendidikan, menyiapkan generasi muda untuk industri kreatif masa depan."
       }
     ]
+  },
+  {
+    "id": 416,
+    "title": "Ensemble synthetic oversampling with manhattan distance for unbalanced hyperspectral data",
+    "publishDate": "November 23, 2021",
+    "author": "Tajul Miftahushudur, Bruce Grieve, Hujun Yin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=xJ4oAkAAAAAJ&sortby=pubdate&citation_for_view=xJ4oAkAAAAAJ:0EnyYjriUFMC",
+    "image": "/kegiatan/Gemini_Generated_Image_fc1zpufc1zpufc1z.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Data hiperspektral dalam pertanian sering mengalami ketidakseimbangan kelas karena kelangkaan sampel penyakit atau tanaman tertentu, menyebabkan bias model pembelajaran mesin."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian mengusulkan metode ensemble dari teknik oversampling sintetis yang menggunakan jarak Manhattan alih-alih Euclidean untuk menghasilkan sampel minoritas yang lebih representatif."
+      },
+      {
+        "heading": "Results",
+        "content": "Pendekatan ini meningkatkan kinerja klasifikasi pada kelas minoritas tanpa menurunkan akurasi kelas mayoritas, terutama dalam skenario data berdimensi tinggi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Jarak Manhattan lebih robust terhadap noise dan outlier dalam data hiperspektral, menjadikannya pilihan superior untuk teknik oversampling di domain pertanian presisi."
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "title": "Development of FMCW Radar Signal Processing for High-Speed Railway Collision Avoidance",
+    "publishDate": "August 31, 2022",
+    "author": "Farra Anindya Putria, Dayat Kurniawan, Rahmawati Hasanah, Deni Permana, Winy Desvasari, Ken Paramayudha, Arief Budi Santiko, Dadin Mahmudin, Pamungkas Daud, Fajri Darwis, Erry Dwi Kurniawan, Arie Setiawan, Tajul Miftahushudur, Prasetyo Putranto, Syamsu Ismail",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=xJ4oAkAAAAAJ&sortby=pubdate&citation_for_view=xJ4oAkAAAAAJ:5nxA0vEk-isC",
+    "image": "/kegiatan/Gemini_Generated_Image_wpc4q5wpc4q5wpc4.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem deteksi rintangan berbasis kamera gagal dalam kondisi cuaca buruk. Radar FMCW menawarkan solusi andal untuk pencegahan tabrakan di rel kereta cepat."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sinyal radar diproses menggunakan kombinasi 2D-CFAR (Cell Average dan GOCA) dan Robust PCA untuk memisahkan target bergerak dari clutter latar belakang seperti dinding atau vegetasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mendeteksi rintangan diam maupun bergerak hingga jarak 675 meter di depan lokomotif, bahkan dalam kondisi kabut tebal atau hujan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi 2D-CFAR dan RPCA meningkatkan keandalan deteksi secara signifikan dibanding metode substraksi latar belakang rata-rata, menjadikannya solusi ideal untuk keselamatan perkeretaapian modern."
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "title": "Segmentation of weeds and crops using multispectral imaging and CRF-enhanced U-Net",
+    "publishDate": "August 1, 2023",
+    "author": "Halil Mertkan Sahin, Tajul Miftahushudur, Bruce Grieve, Hujun Yin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=xJ4oAkAAAAAJ&sortby=pubdate&citation_for_view=xJ4oAkAAAAAJ:8k81kl-MbHgC",
+    "image": "/kegiatan/Gemini_Generated_Image_siddvnsiddvnsidd.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Gulma mengurangi hasil pertanian hingga 30%. Deteksi dini sangat penting untuk intervensi tepat sasaran seperti penyemprotan herbisida selektif."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Model U-Net dilatih menggunakan dataset sunflower berbasis citra multispektral (RGB + NIR) dari tahap munculnya kotiledon hingga pertumbuhan penuh, lalu ditingkatkan dengan Conditional Random Field (CRF) untuk penyempurnaan batas objek."
+      },
+      {
+        "heading": "Results",
+        "content": "CRF-enhanced U-Net mencapai presisi segmentasi tinggi bahkan pada tahap pertumbuhan lanjut ketika gulma dan tanaman tumpang tindih secara spasial."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kombinasi multispektral dan deep learning memungkinkan sistem otomatis untuk manajemen gulma yang efisien, mengurangi penggunaan herbisida dan dampak lingkungan."
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "title": "Permuted KPCA and SMOTE to guide GAN-based oversampling for imbalanced HSI classification",
+    "publishDate": "November 8, 2023",
+    "author": "Tajul Miftahushudur, Bruce Grieve, Hujun Yin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=xJ4oAkAAAAAJ&sortby=pubdate&citation_for_view=xJ4oAkAAAAAJ:MXK_kJrjxJIC",
+    "image": "/kegiatan/Gemini_Generated_Image_xuo3udxuo3udxuo3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "GAN memerlukan banyak data minoritas untuk pelatihan, yang justru tidak tersedia dalam skenario data tidak seimbang."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Peneliti mengusulkan penggunaan SMOTE dan Kernel PCA (KPCA) untuk menghasilkan 'pattern vectors' yang membimbing generator GAN, menggantikan noise acak konvensional."
+      },
+      {
+        "heading": "Results",
+        "content": "Data sintetis yang dihasilkan memiliki distribusi yang lebih realistis dan meningkatkan akurasi klasifikasi kelas minoritas hingga 15% dibanding GAN standar."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan hybrid ini mengatasi kelemahan GAN dalam kondisi data terbatas, membuka jalan untuk augmentasi data yang lebih cerdas di penginderaan jauh."
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "title": "Enhanced svm-smote with cluster consistency for imbalanced data classification",
+    "publishDate": "November 15, 2023",
+    "author": "Tajul Miftahushudur, Halil Mertkan Sahin, Bruce Grieve, Hujun Yin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=xJ4oAkAAAAAJ&sortby=pubdate&citation_for_view=xJ4oAkAAAAAJ:3fE2CSJIrl8C",
+    "image": "/kegiatan/Gemini_Generated_Image_tq91dltq91dltq91.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "SMOTE tradisional sering menghasilkan sampel sintetis di wilayah tumpang tindih antar kelas, merusak batas keputusan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Metode baru memperkenalkan 'cluster consistency' untuk memastikan sampel sintetis hanya dihasilkan di wilayah minoritas yang konsisten secara spasial, menggunakan analisis SVM dan klustering."
+      },
+      {
+        "heading": "Results",
+        "content": "Pendekatan ini mengurangi kesalahan klasifikasi di batas kelas hingga 22% dan meningkatkan F1-score secara signifikan pada dataset pertanian dan medis."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Dengan memastikan konsistensi kluster, SVM-SMOTE yang ditingkatkan menghasilkan batas keputusan yang lebih tajam dan generalisasi model yang lebih baik."
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "title": "A survey of methods for addressing imbalance data problems in agriculture applications",
+    "publishDate": "January 29, 2025",
+    "author": "Tajul Miftahushudur, Halil Mertkan Sahin, Bruce Grieve, Hujun Yin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=xJ4oAkAAAAAJ&sortby=pubdate&citation_for_view=xJ4oAkAAAAAJ:kNdYIx-mwKoC",
+    "image": "/kegiatan/Gemini_Generated_Image_p8hyc7p8hyc7p8hy.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Ketidakseimbangan kelas adalah tantangan utama dalam penerapan AI untuk pertanian presisi, terutama dalam deteksi penyakit langka atau spesies tanaman minoritas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tinjauan sistematis dilakukan terhadap ratusan studi (2018–2024) yang mengusulkan metode penanganan imbalance, mulai dari resampling hingga model generatif dan pendekatan tingkat algoritma."
+      },
+      {
+        "heading": "Results",
+        "content": "SMOTE berbasis batas (seperti SVM-SMOTE) dan model generatif (GAN/VAE) menunjukkan kinerja terbaik. Namun, kualitas data dan ketersediaan dataset publik tetap menjadi hambatan utama."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penelitian masa depan perlu fokus pada metode hybrid yang robust terhadap noise, serta pembangunan dataset standar terbuka untuk evaluasi yang adil dan reproduktif."
+      }
+    ]
   }
 ]

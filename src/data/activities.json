@@ -3003,5 +3003,68 @@
     "title": "Multinode LoRa-MQTT of Design Architecture and Analyze Performance for Dual Protocol Network IoT",
     "desc": "Arsitektur dual-protokol LoRa-MQTT mengatasi keterbatasan jaringan tunggal dengan menggabungkan jangkauan jauh LoRa dan throughput tinggi Wi-Fi, meski menghadapi tantangan tabrakan data pada node multi-pengirim.",
     "img": "/kegiatan/Gemini_Generated_Image_y4sm0qy4sm0qy4sm.png"
+  },
+  {
+    "id": 407,
+    "author": ["Elli Ruslina", "Fajar Arrazaq", "Sutisna Abdul Rahman", "Tjahjo Adiprabowo", "Puput Dani Prasetyo Adi", "Yudi Yuliyus Maulana"],
+    "title": "Object Recognition IoT-Based for People with Disabilities: A Review",
+    "desc": "Tinjauan sistematis mengenai Mini Smart Camera (MSC) berbasis IoT untuk disabilitas, mengintegrasikan pengenalan objek dan suara dengan komunikasi dua arah via RTSP dan MQTT, mendukung kemandirian melalui perangkat pintar berbasis OpenCV dan cloud.",
+    "img": "/kegiatan/Gemini_Generated_Image_4l9eia4l9eia4l9e.png"
+  },
+  {
+    "id": 408,
+    "author": ["Khusnul Rahmi Maulidha", "Mohammad Reza Faisal", "Setyo Wahyu Saputro", "Friska Abadi", "Dodon Turianto Nugrahadi", "Puput Dani Prasetyo Adi", "Hariyady Hariyady"],
+    "title": "Comparative analysis of distance metrics in KNN and smote algorithms for software defect prediction",
+    "desc": "Analisis komparatif menunjukkan bahwa kombinasi SMOTE dengan metrik Canberra dan Euclidean meningkatkan akurasi prediksi kegagalan perangkat lunak secara signifikan, terbukti dari peningkatan nilai AUC dan F1-measure pada dataset imbalanced.",
+    "img": "/kegiatan/Gemini_Generated_Image_7fmwcv7fmwcv7fmw.png"
+  },
+  {
+    "id": 409,
+    "author": ["Lintang Patria", "Muhammad Yassir", "Puput Dani Prasetyo Adi"],
+    "title": "Implementasi Sistem Telekomunikasi Berbasis Internet of Things di Sektor Kesehatan pada area LoS and NLoS",
+    "desc": "Evaluasi QoS LoRa RFM96 di area Line-of-Sight (LoS) dan Non-Line-of-Sight (NLoS) menunjukkan tingkat keberhasilan transmisi data detak jantung hingga 87% di kondisi LoS, dengan casing 3D-printed untuk kenyamanan pasien.",
+    "img": "/kegiatan/Gemini_Generated_Image_9szq9a9szq9a9szq.png"
+  },
+  {
+    "id": 410,
+    "author": ["Suryanto Suryanto", "Duto Nugroho", "Umi Muawanah", "Setiya Triharyuni", "Dian Oktaviani", "Sandi Wibowo", "Novi Susetyo Adi", "Puput Dani Prasetyo Adi"],
+    "title": "The potential contribution of Indonesian fishing vessels in reducing Green House gas emission",
+    "desc": "Studi 'bottom-up' memperkirakan potensi reduksi emisi CO2eq hingga 68% pada kapal nelayan <30 GT pada 2030 melalui pendekatan low-carbon, menjadi kontribusi penting sektor perikanan terhadap target nasional perubahan iklim.",
+    "img": "/kegiatan/Gemini_Generated_Image_75fcyf75fcyf75fc.png"
+  },
+  {
+    "id": 411,
+    "author": ["Puput Adi", "Kevin Stekelorom"],
+    "title": "Performance of Long Range-Frequency Hopping Spread Spectrum (LR-FHSS) For LoRaWAN Satellite Communication",
+    "desc": "Implementasi LR-FHSS pada LoRaWAN satelit meningkatkan resistensi interferensi dengan hopping frekuensi 3–50 kHz, mencapai ToA tercepat 2 ms (CR1), ideal untuk pemantauan daerah terpencil seperti laut dan gurun.",
+    "img": "/kegiatan/Gemini_Generated_Image_z4g9sbz4g9sbz4g9.png"
+  },
+  {
+    "id": 412,
+    "author": ["Ros Sariningrum", "Puput Dani Prasetyo Adi", "Yudi Yuliyus Maulana", "Tjahjo Adiprabowo", "Sastya Hendri Wibowo", "Novi Fitria", "Hessy Novita", "Faiz Muqorrir Kaffah", "Ajang Sopandi"],
+    "title": "Non-Terrestrial Networks LPWAN IoT Satellite Communication for Medical Application",
+    "desc": "Komunikasi LPWAN berbasis satelit LEO menggunakan LoRaWAN dan LR-FHSS mampu mengatasi keterbatasan sinyal di area terpencil, membuka jalan bagi telemedicine dan pemantauan kesehatan real-time tanpa infrastruktur darat.",
+    "img": "/kegiatan/Gemini_Generated_Image_t060r2t060r2t060.png"
+  },
+  {
+    "id": 413,
+    "author": ["Puput Dani Prasetyo Adi", "Arief Budi Santiko", "Fajri Darwis", "Rizky Rahmatullah", "Adi Wirawan", "Dendy Mahabror", "Riza Zulkarnain", "Suhardi Atmoko Budi Susilo", "Tjahjo Adiprabowo"],
+    "title": "River Water Quality Realtime Monitoring in Bandung City Using LoRaWAN",
+    "desc": "Sistem pemantauan kualitas air sungai secara real-time di Bandung menggunakan sensor pH, DO, kekeruhan, suhu, dan ultrasonik berbasis LoRaWAN, dengan integrasi komunikasi satelit sebagai cadangan di area non-terestrial.",
+    "img": "/kegiatan/Gemini_Generated_Image_7z8zu17z8zu17z8z.png"
+  },
+  {
+    "id": 414,
+    "author": ["Puput Dani Prasetyo Adi", "Yudi Yuliyus Maulana", "Moh Khoridatul Huda", "Tjahjo Adiprabowo", "Cahyo Prihantoro", "Deni Permana Kurniadi"],
+    "title": "Improved Transmission of LoRaWAN in Terrestrial Networks and Satellite Assist Communication",
+    "desc": "Penelitian ini mengoptimalkan transmisi LoRaWAN baik di jaringan terestrial maupun satelit dengan modulasi CSS dan LR-FHSS, meningkatkan QoS untuk aplikasi multisensor hingga transmisi citra berkualitas rendah.",
+    "img": "/kegiatan/Gemini_Generated_Image_vvem5gvvem5gvvem.png"
+  },
+  {
+    "id": 415,
+    "author": ["Muhammad Fauzan Edy Purnomo", "Abdul Kohar", "Yanuar Nurdiansyah", "Hastangka Hastangka", "Anis Yusrotun", "Puput Dani Prasetyo Adi"],
+    "title": "Kreasi Kartun Popular dengan CorelDRAW dan AI Serta Perannya bagi Pendidikan Art dimasa Mendatang",
+    "desc": "Buku ini mengajarkan teknik menggambar kartun vektor menggunakan CorelDRAW dan bantuan AI, dirancang sebagai media edukasi seni digital untuk anak-anak hingga dewasa, menyeimbangkan logika dan kreativitas otak kanan.",
+    "img": "/kegiatan/Gemini_Generated_Image_k3yh1nk3yh1nk3yh.png"
   }
 ]

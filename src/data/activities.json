@@ -80,20 +80,6 @@
     "img": "/kegiatan/Gemini_Generated_Image_shfwofshfwofshfw.png"
   },
   {
-    "id": 9,
-    "author": [
-      "Agus Subekti",
-      "Arief Suryadi Satyawan",
-      "Vita Awalia Mardiana",
-      "Nasrullah Armi",
-      "Dayat Kurniawan",
-      "Suyoto Suyoto"
-    ],
-    "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
-    "desc": "Analisis kinerja OFDM-Index Modulation (OFDM-IM) terhadap gangguan Symbol Timing Offset (STO) dan Carrier Frequency Offset (CFO), menunjukkan bahwa OFDM-IM lebih tangguh dibanding OFDM konvensional pada kanal fading selektif frekuensi.",
-    "img": "/kegiatan/Gemini_Generated_Image_7khh9f7khh9f7khh.png"
-  },
-  {
     "id": 10,
     "author": [
       "Agus Subekti",
@@ -3108,5 +3094,75 @@
     "title": "A survey of methods for addressing imbalance data problems in agriculture applications",
     "desc": "Tinjauan komprehensif terhadap metode penanganan data tidak seimbang di pertanian presisi, menyoroti efektivitas SMOTE, GAN, VAE, serta pentingnya metrik evaluasi seperti F1-score dan MCC.",
     "img": "/kegiatan/Gemini_Generated_Image_p8hyc7p8hyc7p8hy.png"
+  },
+  {
+    "id": 422,
+    "author": ["Dwi Hanto", "Hari Pratomo", "Agitta Rianaris", "Andi Setiono", "Sartika Sartika", "Mohamad Syahadi", "Eko Joni Pristianto", "Dayat Kurniawan", "Dwi Bayuwati", "Hendra Adinanta", "Suryadi Suryadi", "Miftachul Hadi", "Imam Mulyanto", "Irwan Rawal Husdi", "Rini Khamimatul Ula", "Bambang Widiyatmoko", "Edi Kurniawan"],
+    "title": "Time of flight lidar employing dual-modulation frequencies switching for optimizing unambiguous range extension and high resolution",
+    "desc": "Lidar ToF berbasis dual-modulation frequency (2 MHz dan 10 MHz) berhasil memperluas jangkauan tak ambigu sekaligus mempertahankan resolusi tinggi, mengatasi trade-off klasik dalam sistem lidar jarak jauh.",
+    "img": "/kegiatan/Gemini_Generated_Image_f0tdmff0tdmff0td.png"
+  },
+  {
+    "id": 423,
+    "author": ["W Desvasari", "DP Kurniadi", "D Mahmudin", "EJ Pristianto", "P Daud", "P Putranto", "A Setiawan", "F Darwis", "YN Wijayanto", "S Hardiati", "D Kurniawan"],
+    "title": "2 way wilkinson power divider for x band navigation radar",
+    "desc": "Desain power divider Wilkinson untuk radar navigasi X-band (9.3 GHz) mencapai return loss <-30 dB, isolasi <-29.5 dB, dan insertion loss -3.06 dB, mendukung miniaturisasi sistem radar berbasis microstrip.",
+    "img": "/kegiatan/Gemini_Generated_Image_bzuv2obzuv2obzuv.png"
+  },
+  {
+    "id": 424,
+    "author": ["Goib Wiranto", "Dayat Kurniawan", "Yudi Maulana", "I Dewa Putu Hermida", "David Oktaviandi"],
+    "title": "Design and implementation of wireless sensors and android based application for highly efficient aquaculture management system",
+    "desc": "Sistem akuakultur pintar berbasis sensor nirkabel dan aplikasi Android berhasil memantau kualitas air (pH, DO, suhu, konduktivitas) secara real-time di Pulau Bangka, mengurangi biaya operasional melalui aerasi otomatis.",
+    "img": "/kegiatan/Gemini_Generated_Image_bn2odebn2odebn2o.png"
+  },
+  {
+    "id": 425,
+    "author": ["Eko Joni Pristianto", "Yusuf Nur Wijayanto", "Dayat Kurniawan", "Budi Prawara", "Hana Arisesa"],
+    "title": "Sistem Kendali Alat Sterilisasi Ruangan Menggunakan Lampu UVC254 Nm Dengan Android",
+    "desc": "Sistem sterilisasi ruangan berbasis lampu UVC 254 nm dikendalikan via Android dengan keamanan triple-PIR dan RTC, memastikan operasi hanya saat ruangan kosong, mendukung pencegahan penyebaran virus seperti COVID-19.",
+    "img": "/kegiatan/Gemini_Generated_Image_qbos5jqbos5jqbos.png"
+  },
+  {
+    "id": 426,
+    "author": ["Eko Joni Pristianto", "Deni Permana Kurniadi", "Hana Arisesa", "Dayat Kurniawan", "Erry Dwi Kurniawan", "Yusuf Nur Wijayanto", "Budi Prawara"],
+    "title": "High-Flow and High-Pressure Oxygen Mixing for Ventilator System",
+    "desc": "Sistem pencampuran oksigen tekanan tinggi mampu menghasilkan FiO2 hingga 100% dan aliran 60 L/menit dengan kontrol loop tertutup, cocok untuk ventilator CPAP, BiPAP, dan HFNC untuk pasien sindrom pernapasan akut.",
+    "img": "/kegiatan/Gemini_Generated_Image_k0yz9gk0yz9gk0yz.png"
+  },
+  {
+    "id": 427,
+    "author": ["Vita Awalia Mardiana", "Mochamad Mardi Martadinata", "Galih Nugraha Nurkahfi", "Arumjeni Mitayani", "Dayat Kurniawan", "Nasrullah Armi", "Asih Setiarini"],
+    "title": "SIMONIC: IoT based quarantine monitoring system for Covid-19",
+    "desc": "SIMONIC mengintegrasikan geofencing GPS dan deteksi jarak sosial berbasis RSSI dalam gelang IoT murah, memberikan sistem pemantauan karantina terpadu dengan akurasi tinggi dan konsumsi daya rendah.",
+    "img": "/kegiatan/Gemini_Generated_Image_aklc5naklc5naklc.png"
+  },
+  {
+    "id": 428,
+    "author": ["Nurhayati Nurhayati", "Eko Setijadi", "Alexandre Maniçoba de Oliveira", "Dayat Kurniawan", "Mohd Najib Mohd Yasin"],
+    "title": "Design of 1× 2 MIMO palm tree coplanar Vivaldi antenna in the E-plane with different patch structure",
+    "desc": "Antena Vivaldi MIMO berbasis struktur 'Palm Tree' dengan modifikasi patch (Back Cut, Wave Slot, Metamaterial Lens) mengurangi mutual coupling dan meningkatkan directivity di frekuensi 0.5–4.5 GHz.",
+    "img": "/kegiatan/Gemini_Generated_Image_bui25jbui25jbui2.png"
+  },
+  {
+    "id": 429,
+    "author": ["Nurhayati Nurhayati", "Alexandre Manicoba De Oliveira", "Mohd Najib Bin Mohd Yasin", "Dayat Kurniawan"],
+    "title": "Palm Tree Coplanar Vivaldi Antenna Array on the Same Substrate Size: Design and Performance Evaluation",
+    "desc": "Array antena 1×8 Palm Tree CVA meningkatkan directivity hingga 15.5 dBi dan mengurangi sidelobe level menjadi -12.6 dB pada 3 GHz, menjadikannya ideal untuk radar dan komunikasi wideband dalam substrat terbatas.",
+    "img": "/kegiatan/Gemini_Generated_Image_i58vqii58vqii58v.png"
+  },
+  {
+    "id": 430,
+    "author": ["Laila Rahmawati", "Slamet Widodo", "Deni Permana Kurniadi", "Pamungkas Daud", "Agus Triyono", "Novita Dwi Susanti", "Nur Kartika Indah Mayasti", "Ashri Indriati", "Lista Eka Yulianti", "Devry Pramesti Putri", "Seri Intan Kuala", "Cahya Edi Wahyu Anggara", "Eko Joni Pristianto", "Erry Dwi Kurniawan", "Ignatius Fajar Aprionto", "Dayat Kurniawan"],
+    "title": "Determination of colorant type in yellow tofu using Vis-NIR and SW-NIR spectroscopy",
+    "desc": "Spektroskopi Vis-NIR dikombinasikan dengan PCA-LDA berhasil mengklasifikasikan pewarna tahu kuning (alami, food-grade, non-food-grade) dengan akurasi kalibrasi 100%, mendukung pengawasan keamanan pangan.",
+    "img": "/kegiatan/Gemini_Generated_Image_2s9yqv2s9yqv2s9y.png"
+  },
+  {
+    "id": 431,
+    "author": ["Eko Joni Pristianto", "Novita Dwi Susanti", "Handy Harjamulya", "Erry Dwi Kurniawan", "Dayat Kurniawan", "Arief Nur Rahman", "Fajri Darwis", "Deni Permana Kurniadi"],
+    "title": "Implementation of Kalman filter for stabilizing ultrasonic sensor reading on distilled ethanol levels measurement",
+    "desc": "Filter Kalman mengurangi noise pada pembacaan sensor ultrasonik untuk pengukuran kadar etanol, mencapai stabilitas tinggi dengan matriks Q = 0.00001 dan R = 5999.4, meningkatkan akurasi analisis minuman halal.",
+    "img": "/kegiatan/Gemini_Generated_Image_p5l3lap5l3lap5l3.png"
   }
 ]

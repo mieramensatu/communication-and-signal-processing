@@ -215,33 +215,6 @@
     ]
   },
   {
-    "id": 9,
-    "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
-    "publishDate": "August 1, 2021",
-    "author": "Agus Subekti, Arief Suryadi Satyawan, Vita Awalia Mardiana, Nasrullah Armi, Dayat Kurniawan",
-    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=3To2BO0AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=3To2BO0AAAAJ:isC4tDSrTZIC",
-    "image": "/kegiatan/Gemini_Generated_Image_7khh9f7khh9f7khh.png",
-    "sections": [
-      {
-        "heading": "Introduction",
-        "content": "Penelitian ini mengkaji secara mendalam **kinerja sistem Orthogonal Frequency Division Multiplexing with Index Modulation (OFDM-IM)** terhadap dua gangguan utama dalam komunikasi nirkabel, yaitu **Symbol Time Offset (STO)** dan **Carrier Frequency Offset (CFO)**. Kedua faktor ini secara signifikan mempengaruhi **Bit Error Rate (BER)**, terutama pada kanal dengan karakteristik **frequency-selective fading**. Sistem OFDM-IM merupakan pengembangan dari OFDM konvensional, di mana indeks dari subcarrier aktif digunakan untuk menyandikan informasi tambahan, meningkatkan efisiensi spektrum serta ketahanan terhadap interferensi. Meskipun penelitian sebelumnya umumnya hanya mempertimbangkan pengaruh CFO secara terpisah, studi ini mengombinasikan pengaruh STO dan CFO secara simultan untuk memperoleh pemahaman yang lebih realistis terhadap performa sistem di dunia nyata."
-      },
-      {
-        "heading": "Methodology",
-        "content": "Studi ini melakukan **analisis komprehensif terhadap performa BER sistem OFDM-IM** dalam kondisi kanal multipath fading yang selektif terhadap frekuensi. Proses simulasi dilakukan dengan memvariasikan tingkat STO dan CFO untuk mengamati pengaruhnya terhadap **inter-symbol interference (ISI)** dan **inter-carrier interference (ICI)**. Sistem OFDM-IM dibandingkan secara langsung dengan sistem **OFDM konvensional**, menggunakan parameter kanal dan konfigurasi subcarrier yang sama. Pengujian dilakukan pada beberapa tingkat **Signal-to-Noise Ratio (SNR)** untuk mengevaluasi stabilitas sistem di bawah kondisi sinkronisasi yang berbeda. Analisis ini memungkinkan pemetaan yang lebih akurat mengenai batas toleransi sistem OFDM-IM terhadap kesalahan sinkronisasi, yang menjadi faktor penting dalam desain sistem komunikasi generasi berikutnya."
-      },
-      {
-        "heading": "Results",
-        "content": "Hasil simulasi menunjukkan bahwa **OFDM-IM secara signifikan mengungguli OFDM konvensional** dalam menghadapi kombinasi gangguan STO dan CFO. Struktur indeks aktif pada OFDM-IM menciptakan **redundansi informasi yang bermanfaat**, meningkatkan ketahanan terhadap interferensi antar simbol dan antar kanal. Pada skenario dengan **SNR tinggi**, sistem OFDM-IM menunjukkan penurunan BER yang lebih lambat dibanding OFDM biasa, menandakan peningkatan keandalan transmisi data. Temuan ini menunjukkan bahwa OFDM-IM memiliki potensi besar dalam mendukung komunikasi nirkabel berkecepatan tinggi dengan tingkat kesalahan yang rendah, bahkan dalam kondisi non-ideal.",
-        "quote": "OFDM-IM memberikan ketahanan lebih baik terhadap kesalahan sinkronisasi, menawarkan solusi yang menjanjikan untuk sistem komunikasi generasi mendatang yang menuntut reliabilitas tinggi."
-      },
-      {
-        "heading": "Conclusion",
-        "content": "Penelitian ini menegaskan bahwa **OFDM-IM memiliki performa yang lebih baik dibandingkan OFDM konvensional** dalam menghadapi gangguan simultan STO dan CFO. Kemampuannya untuk menjaga integritas sinyal di bawah kondisi kanal yang menantang menjadikannya kandidat kuat untuk diimplementasikan dalam sistem **5G dan 6G**. Studi ini juga menyoroti pentingnya evaluasi performa di luar skenario ideal untuk memperoleh gambaran yang lebih realistis mengenai **robustness** sistem komunikasi nirkabel masa depan. Dengan demikian, OFDM-IM dapat berperan penting dalam mewujudkan **transmisi data berkecepatan tinggi dan tahan gangguan**, yang merupakan fondasi utama jaringan komunikasi generasi berikutnya."
-      }
-    ]
-  },
-  {
     "id": 10,
     "title": "Performance Analysis of OFDM-IM Scheme Under STO and CFO",
     "publishDate": "August 1, 2021",
@@ -8352,6 +8325,266 @@
       {
         "heading": "Conclusion",
         "content": "Penelitian masa depan perlu fokus pada metode hybrid yang robust terhadap noise, serta pembangunan dataset standar terbuka untuk evaluasi yang adil dan reproduktif."
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "title": "Time of flight lidar employing dual-modulation frequencies switching for optimizing unambiguous range extension and high resolution",
+    "publishDate": "January 9, 2023",
+    "author": "Dwi Hanto, Hari Pratomo, Agitta Rianaris, Andi Setiono, Sartika Sartika, Mohamad Syahadi, Eko Joni Pristianto, Dayat Kurniawan, Dwi Bayuwati, Hendra Adinanta, Suryadi Suryadi, Miftachul Hadi, Imam Mulyanto, Irwan Rawal Husdi, Rini Khamimatul Ula, Bambang Widiyatmoko, Edi Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:O3NaXMp0MMsC",
+    "image": "/kegiatan/Gemini_Generated_Image_f0tdmff0tdmff0td.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem ToF Lidar menghadapi trade-off antara resolusi jarak dan jangkauan tak ambigu: frekuensi modulasi tinggi meningkatkan resolusi tetapi memperpendek jangkauan maksimum."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Peneliti mengembangkan Lidar dengan switching frekuensi modulasi antara 2 MHz dan 10 MHz pada laser dioda, menggunakan detektor avalanche untuk menangkap refleksi dan merekonstruksi jarak."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mencapai resolusi tinggi (setara 10 MHz) sekaligus jangkauan tak ambigu yang diperluas (setara 2 MHz), mengatasi keterbatasan pendekatan frekuensi tunggal."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Teknik dual-frequency switching membuka jalan bagi Lidar multifungsi untuk aplikasi otomotif, survei lingkungan, dan pemantauan jarak aman di ruang publik."
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "title": "2 way wilkinson power divider for x band navigation radar",
+    "publishDate": "March 1, 2020",
+    "author": "W Desvasari, DP Kurniadi, D Mahmudin, EJ Pristianto, P Daud, P Putranto, A Setiawan, F Darwis, YN Wijayanto, S Hardiati, D Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:HDshCWvjkbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_bzuv2obzuv2obzuv.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Power divider adalah komponen kritis dalam sistem radar untuk membagi sinyal VCO ke pemancar dan pencampur penerima."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Desain Wilkinson Power Divider 9.3 GHz dikembangkan menggunakan substrat Duroid RT5880 dan simulasi di Advanced Design System (ADS)."
+      },
+      {
+        "heading": "Results",
+        "content": "Desain mencapai return loss < -30 dB, insertion loss -3.059 dB, dan isolasi -29.541 dB — memenuhi spesifikasi ketat untuk sistem radar navigasi ringkas."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Komponen ini mendukung integrasi penuh radar X-band dalam satu papan, mengurangi ukuran dan biaya sistem navigasi maritim."
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "title": "Design and implementation of wireless sensors and android based application for highly efficient aquaculture management system",
+    "publishDate": "October 31, 2020",
+    "author": "Goib Wiranto, Dayat Kurniawan, Yudi Maulana, I Dewa Putu Hermida, David Oktaviandi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:R3hNpaxXUhUC",
+    "image": "/kegiatan/Gemini_Generated_Image_bn2odebn2odebn2o.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Akuakultur tradisional menghadapi tantangan dalam menjaga kualitas air dan efisiensi energi, terutama dalam budidaya udang skala besar."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Empat sensor (pH, DO, suhu, konduktivitas) dipasang pada pelampung, data dikirim via Xbee ke stasiun pemantau berbasis Raspberry Pi, lalu ditransmisikan ke server web melalui GSM/GPRS."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem diimplementasikan di Bangka, berhasil mengurangi biaya listrik melalui aerasi otomatis dan memungkinkan pemantauan real-time dari mana saja via aplikasi Android."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini meningkatkan produktivitas dan keberlanjutan akuakultur, terutama di daerah terpencil tanpa infrastruktur internet stabil."
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "title": "Sistem Kendali Alat Sterilisasi Ruangan Menggunakan Lampu UVC254 Nm Dengan Android",
+    "publishDate": "November 28, 2020",
+    "author": "Eko Joni Pristianto, Yusuf Nur Wijayanto, Dayat Kurniawan, Budi Prawara, Hana Arisesa",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:e5wmG9Sq2KIC",
+    "image": "/kegiatan/Gemini_Generated_Image_qbos5jqbos5jqbos.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Lampu UVC 254 nm efektif menonaktifkan virus, tetapi berbahaya bagi manusia. Diperlukan sistem kendali otomatis dan aman."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dilengkapi tiga sensor PIR untuk deteksi keberadaan manusia/ hewan, modul RTC untuk jadwal sterilisasi, dan kendali jarak jauh via Bluetooth-Android."
+      },
+      {
+        "heading": "Results",
+        "content": "Alat hanya aktif saat ruangan benar-benar kosong, mencegah paparan berbahaya, dan dapat dioperasikan dari luar ruangan melalui smartphone."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem ini sangat cocok untuk rumah sakit, kantor, dan fasilitas publik dalam upaya pencegahan penyebaran patogen selama pandemi."
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "title": "High-Flow and High-Pressure Oxygen Mixing for Ventilator System",
+    "publishDate": "November 23, 2021",
+    "author": "Eko Joni Pristianto, Deni Permana Kurniadi, Hana Arisesa, Dayat Kurniawan, Erry Dwi Kurniawan, Yusuf Nur Wijayanto, Budi Prawara",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:TFP_iSt0sucC",
+    "image": "/kegiatan/Gemini_Generated_Image_k0yz9gk0yz9gk0yz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pasien COVID-19 berat memerlukan oksigenasi presisi dengan FiO2 hingga 100% dan aliran tinggi untuk mendukung ventilasi mekanik."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem pencampuran oksigen tekanan tinggi dikembangkan dengan kontrol loop tertutup untuk mengatur FiO2 secara akurat berdasarkan umpan balik sensor."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mampu memberikan aliran hingga 60 L/menit dengan FiO2 21–100%, kompatibel dengan CPAP, BiPAP, dan HFNC."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini memperkuat kapasitas perawatan intensif di fasilitas kesehatan, terutama saat krisis pandemi dengan lonjakan pasien pernapasan."
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "title": "SIMONIC: IoT based quarantine monitoring system for Covid-19",
+    "publishDate": "December 31, 2021",
+    "author": "Vita Awalia Mardiana, Mochamad Mardi Martadinata, Galih Nugraha Nurkahfi, Arumjeni Mitayani, Dayat Kurniawan, Nasrullah Armi, Asih Setiarini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:isC4tDSrTZIC",
+    "image": "/kegiatan/Gemini_Generated_Image_aklc5naklc5naklc.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pemantauan karantina efektif memerlukan integrasi geofencing dan deteksi jarak sosial dalam satu platform terjangkau."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Gelang IoT murah dikembangkan dengan komunikasi Bluetooth ke smartphone. Geofencing diimplementasikan via Traccar, dan jarak sosial diukur berdasarkan RSSI adaptif."
+      },
+      {
+        "heading": "Results",
+        "content": "Pengaturan interval iklan dan pemindaian 7 detik memberikan kinerja optimal. Sistem mencapai akurasi tinggi dalam notifikasi pelanggaran karantina dan jarak sosial."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "SIMONIC menawarkan solusi skalabel, hemat biaya, dan dapat digunakan ulang untuk manajemen wabah di tingkat komunitas."
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "title": "Design of 1× 2 MIMO palm tree coplanar Vivaldi antenna in the E-plane with different patch structure",
+    "publishDate": "December 30, 2022",
+    "author": "Nurhayati Nurhayati, Eko Setijadi, Alexandre Maniçoba de Oliveira, Dayat Kurniawan, Mohd Najib Mohd Yasin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:GnPB-g6toBAC",
+    "image": "/kegiatan/Gemini_Generated_Image_bui25jbui25jbui2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Antena Vivaldi untuk GPR memerlukan bandwidth lebar dan gain tinggi, tetapi konfigurasi MIMO di E-plane rentan terhadap mutual coupling."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Berbagai struktur patch (Back Cut, Fractal, Metamaterial Lens, dll.) diuji pada radiator Palm Tree Coplanar Vivaldi dalam simulasi 0.5–4.5 GHz."
+      },
+      {
+        "heading": "Results",
+        "content": "Struktur Back Cut (BCPT) dan Horizontal Wave (HWSPT) menunjukkan kinerja terbaik dalam return loss dan pengurangan mutual coupling di frekuensi rendah."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain ini memungkinkan antena MIMO compact untuk aplikasi GPR, radar, dan komunikasi wideband dengan kinerja optimal dalam ruang terbatas."
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "title": "Palm Tree Coplanar Vivaldi Antenna Array on the Same Substrate Size: Design and Performance Evaluation",
+    "publishDate": "December 31, 2022",
+    "author": "Nurhayati Nurhayati, Alexandre Manicoba De Oliveira, Mohd Najib Bin Mohd Yasin, Dayat Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:RYcK_YlVTxYC",
+    "image": "/kegiatan/Gemini_Generated_Image_i58vqii58vqii58v.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Meningkatkan directivity tanpa memperbesar substrat adalah tantangan utama dalam desain antena array untuk perangkat portabel."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Array 1×2, 1×4, dan 1×8 dari Palm Tree CVA dirancang dalam substrat ukuran tetap, dengan jaringan feeding terintegrasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Array 1×8 meningkatkan directivity menjadi 15.5 dBi (dari 8.77 dBi) dan mengurangi sidelobe level hingga -12.6 dB pada 3 GHz."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Antena array ini sangat cocok untuk sistem radar, komunikasi kognitif, dan 5G/6G yang memerlukan beamforming dalam ruang terbatas."
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "title": "Determination of colorant type in yellow tofu using Vis-NIR and SW-NIR spectroscopy",
+    "publishDate": "January 16, 2023",
+    "author": "Laila Rahmawati, Slamet Widodo, Deni Permana Kurniadi, Pamungkas Daud, Agus Triyono, Novita Dwi Susanti, Nur Kartika Indah Mayasti, Ashri Indriati, Lista Eka Yulianti, Devry Pramesti Putri, Seri Intan Kuala, Cahya Edi Wahyu Anggara, Eko Joni Pristianto, Erry Dwi Kurniawan, Ignatius Fajar Aprionto, Dayat Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:cFHS6HbyZ2cC",
+    "image": "/kegiatan/Gemini_Generated_Image_2s9yqv2s9yqv2s9y.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pewarna non-food-grade sering digunakan secara ilegal dalam tahu kuning, membahayakan kesehatan konsumen."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Spektroskopi Vis-NIR dan SW-NIR digunakan untuk menganalisis sampel tahu, diklasifikasikan menggunakan PLS-DA dan PCA-LDA."
+      },
+      {
+        "heading": "Results",
+        "content": "Vis-NIR dengan PCA-LDA mencapai akurasi kalibrasi 100%, jauh lebih unggul daripada SW-NIR, menjadikannya metode terbaik untuk deteksi cepat."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Teknologi ini dapat diintegrasikan ke dalam alat portabel untuk inspeksi keamanan pangan di pasar dan pabrik, mencegah penyalahgunaan bahan berbahaya."
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "title": "Implementation of Kalman filter for stabilizing ultrasonic sensor reading on distilled ethanol levels measurement",
+    "publishDate": "November 15, 2023",
+    "author": "Eko Joni Pristianto, Novita Dwi Susanti, Handy Harjamulya, Erry Dwi Kurniawan, Dayat Kurniawan, Arief Nur Rahman, Fajri Darwis, Deni Permana Kurniadi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:35N4QoGY0k4C",
+    "image": "/kegiatan/Gemini_Generated_Image_p5l3lap5l3lap5l3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Permukaan cairan etanol yang tidak stabil menyebabkan fluktuasi besar pada pembacaan sensor ultrasonik."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Filter Kalman diterapkan untuk memperhalus data jarak, dengan tuning matriks noise Q dan R berdasarkan karakteristik dinamis sistem."
+      },
+      {
+        "heading": "Results",
+        "content": "Dengan Q = 0.00001 dan R = 5999.3955, pembacaan menjadi stabil dan akurat, memungkinkan pengukuran kadar etanol yang andal untuk sertifikasi halal."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan ini dapat diadaptasi untuk berbagai aplikasi pengukuran level cairan berbasis ultrasonik di industri makanan, farmasi, dan kimia."
       }
     ]
   }

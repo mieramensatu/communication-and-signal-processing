@@ -3164,5 +3164,12 @@
     "title": "Implementation of Kalman filter for stabilizing ultrasonic sensor reading on distilled ethanol levels measurement",
     "desc": "Filter Kalman mengurangi noise pada pembacaan sensor ultrasonik untuk pengukuran kadar etanol, mencapai stabilitas tinggi dengan matriks Q = 0.00001 dan R = 5999.4, meningkatkan akurasi analisis minuman halal.",
     "img": "/kegiatan/Gemini_Generated_Image_p5l3lap5l3lap5l3.png"
-  }
+  },
+  {
+  "id": 432,
+  "author": ["Tjahjo Adiprabowo", "Dani Ramdani", "Olly Vertus Hasudungan", "Nasrullah Armi", "Puput Dani Prasetyo Adi"],
+  "title": "FMCW and IoT Radar-based Health Telemonitoring System for Patient Vital Signs Detection in Remote Areas of Indonesia",
+  "desc": "Sistem telemonitoring kesehatan berbasis radar FMCW 77 GHz dan IoT mampu mendeteksi pernapasan dan detak jantung pasien secara non-kontak, lalu mengirim data real-time via MQTT untuk layanan kesehatan di daerah terpencil Indonesia.",
+  "img": "/kegiatan/Gemini_Generated_Image_bcgscbbcgscbbcgs.png"
+}
 ]

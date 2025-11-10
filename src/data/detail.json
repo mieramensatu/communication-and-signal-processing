@@ -5832,32 +5832,32 @@
       }
     ]
   },
-{
-  "id": 226,
-  "title": "Automatic T-Shirt Folding And Iron Machine Menggunakan Metode PID (Proportional Integral Derivative)",
-  "publishDate": "January 1, 2022",
-  "author": "Yunus Baweng Jonggo’man",
-  "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:j3f4tGmQtD8C",
-  "image": "/kegiatan/Gemini_Generated_Image_cul0q4cul0q4cul0.png",
-  "sections": [
-    {
-      "heading": "Introduction",
-      "content": "Proses melipat dan menyetrika pakaian merupakan tahap paling memakan waktu dalam bisnis laundry atau rutinitas rumah tangga. Untuk meningkatkan efisiensi, penelitian ini mengembangkan mesin otomatis yang mampu melipat dan menyetrika kaos hanya dengan sekali tekan tombol."
-    },
-    {
-      "heading": "Methodology",
-      "content": "Sistem menggunakan motor servo untuk menggerakkan papan pelipat dan setrika uap untuk merapikan pakaian. Sensor ultrasonik mengukur jarak antara setrika dan ujung meja, memberikan input ke kontroler PID. Kontroler PID mengatur kecepatan motor wiper agar setrika berhenti tepat di ujung meja tanpa overshoot."
-    },
-    {
-      "heading": "Results",
-      "content": "Mesin berhasil melipat dan menyetrika satu kaos dalam waktu 48 detik dengan presisi posisi ±3 mm. Sistem PID mengurangi overshoot motor hingga 92% dibandingkan kontrol on/off. Hasil akhir: pakaian rapi, siap disusun, tanpa intervensi manual lebih lanjut."
-    },
-    {
-      "heading": "Conclusion",
-      "content": "Mesin otomatis berbasis PID ini menawarkan solusi praktis untuk usaha laundry mikro dan rumah tangga. Desain modular memungkinkan adaptasi untuk jenis pakaian lain. Pengembangan selanjutnya mencakup integrasi IoT untuk pemantauan jarak jauh dan deteksi jenis kain otomatis."
-    }
-  ]
-},
+  {
+    "id": 226,
+    "title": "Automatic T-Shirt Folding And Iron Machine Menggunakan Metode PID (Proportional Integral Derivative)",
+    "publishDate": "January 1, 2022",
+    "author": "Yunus Baweng Jonggo’man",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=hHWrxVsAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=hHWrxVsAAAAJ:j3f4tGmQtD8C",
+    "image": "/kegiatan/Gemini_Generated_Image_cul0q4cul0q4cul0.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Proses melipat dan menyetrika pakaian merupakan tahap paling memakan waktu dalam bisnis laundry atau rutinitas rumah tangga. Untuk meningkatkan efisiensi, penelitian ini mengembangkan mesin otomatis yang mampu melipat dan menyetrika kaos hanya dengan sekali tekan tombol."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan motor servo untuk menggerakkan papan pelipat dan setrika uap untuk merapikan pakaian. Sensor ultrasonik mengukur jarak antara setrika dan ujung meja, memberikan input ke kontroler PID. Kontroler PID mengatur kecepatan motor wiper agar setrika berhenti tepat di ujung meja tanpa overshoot."
+      },
+      {
+        "heading": "Results",
+        "content": "Mesin berhasil melipat dan menyetrika satu kaos dalam waktu 48 detik dengan presisi posisi ±3 mm. Sistem PID mengurangi overshoot motor hingga 92% dibandingkan kontrol on/off. Hasil akhir: pakaian rapi, siap disusun, tanpa intervensi manual lebih lanjut."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Mesin otomatis berbasis PID ini menawarkan solusi praktis untuk usaha laundry mikro dan rumah tangga. Desain modular memungkinkan adaptasi untuk jenis pakaian lain. Pengembangan selanjutnya mencakup integrasi IoT untuk pemantauan jarak jauh dan deteksi jenis kain otomatis."
+      }
+    ]
+  },
   {
     "id": 227,
     "title": "Sistem Prediksi Kecepatan dan Arah Angin Menggunakan Bidirectional Long Short-Term Memory",
@@ -8585,6 +8585,32 @@
       {
         "heading": "Conclusion",
         "content": "Pendekatan ini dapat diadaptasi untuk berbagai aplikasi pengukuran level cairan berbasis ultrasonik di industri makanan, farmasi, dan kimia."
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "title": "FMCW and IoT Radar-based Health Telemonitoring System for Patient Vital Signs Detection in Remote Areas of Indonesia",
+    "publishDate": "October 10, 2025",
+    "author": "Tjahjo Adiprabowo, Dani Ramdani, Olly Vertus Hasudungan, Nasrullah Armi, Puput Dani Prasetyo Adi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=NwCRK0IAAAAJ&sortby=pubdate&citation_for_view=NwCRK0IAAAAJ:tOudhMTPpwUC",
+    "image": "/kegiatan/Gemini_Generated_Image_bcgscbbcgscbbcgs.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Daerah terpencil di Indonesia sering kekurangan akses layanan kesehatan. Sistem pemantauan vital sign jarak jauh yang andal diperlukan untuk deteksi dini kondisi kritis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian mengembangkan sistem berbasis radar FMCW 77 GHz yang sensitif terhadap pergerakan dada (pernapasan) dan denyut nadi. Data diproses secara lokal lalu dikirim ke server cloud melalui protokol MQTT berbasis IoT."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mendeteksi laju pernapasan dan detak jantung secara non-invasif dengan akurasi tinggi, bahkan tanpa kontak fisik. Data tersedia real-time di dashboard medis dari lokasi mana pun melalui internet."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi FMCW dan IoT menciptakan solusi telemedicine yang ideal untuk wilayah 3T (Terdepan, Terluar, Tertinggal), meningkatkan kesiapsiagaan medis tanpa kehadiran tenaga kesehatan di lokasi."
       }
     ]
   }

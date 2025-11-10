@@ -2110,21 +2110,62 @@
   },
   {
     "id": 181,
-    "author": ["Josaphat Tetuko Srisumantyo", "Ming Yam Chua", "Cahya Edi Santosa", "Good fried Panggabean", "Watanabe Tomoro", "Setiadi Bambang", "Fransiskus Dwikoco Sri Sumantyo", "Tsushima Kengo", "Karna Sasmita", "Agus Mardianto", "Edi Supartono", "Eko Tjipto Rahardjo", "Gunawan Wibisono", "Muh Aris Marfai", "Retnadi Heru Jatmiko", "Sudaryatno Sudaryatno", "Taufik Hery Purwanto", "Barandi Sapta Widartono", "Muhammad Kamal", "Daniele Perissin", "Steven Gao", "Koichi Ito"],
+    "author": [
+      "Josaphat Tetuko Srisumantyo",
+      "Ming Yam Chua",
+      "Cahya Edi Santosa",
+      "Good fried Panggabean",
+      "Watanabe Tomoro",
+      "Setiadi Bambang",
+      "Fransiskus Dwikoco Sri Sumantyo",
+      "Tsushima Kengo",
+      "Karna Sasmita",
+      "Agus Mardianto",
+      "Edi Supartono",
+      "Eko Tjipto Rahardjo",
+      "Gunawan Wibisono",
+      "Muh Aris Marfai",
+      "Retnadi Heru Jatmiko",
+      "Sudaryatno Sudaryatno",
+      "Taufik Hery Purwanto",
+      "Barandi Sapta Widartono",
+      "Muhammad Kamal",
+      "Daniele Perissin",
+      "Steven Gao",
+      "Koichi Ito"
+    ],
     "title": "Airborne Circularly Polarized Synthetic Aperture Radar",
     "desc": "Sistem SAR polarisasi melingkar berbasis pesawat berhasil diuji di Sulawesi Selatan, menghasilkan citra polarimetri penuh dengan penekanan multipath yang efektif untuk aplikasi penginderaan jauh kompak.",
     "img": "/kegiatan/Gemini_Generated_Image_5fzq5q5fzq5q5fzq.png"
   },
   {
     "id": 182,
-    "author": ["Anggun Mayang Sari", "Afnindar Fakhrurrozi", "Arifan Jaya Syahbana", "Dwi Sarah", "Bambang Setiadi", "Mudrik Rahmawan Daryono", "Rabieahtul Abu Bakar", "Jian Cheng Lee"],
+    "author": [
+      "Anggun Mayang Sari",
+      "Afnindar Fakhrurrozi",
+      "Arifan Jaya Syahbana",
+      "Dwi Sarah",
+      "Bambang Setiadi",
+      "Mudrik Rahmawan Daryono",
+      "Rabieahtul Abu Bakar",
+      "Jian Cheng Lee"
+    ],
     "title": "Seismic hazard on West Bandung district using non-linear earthquake response analysis",
     "desc": "Analisis respons non-linear menunjukkan percepatan tanah puncak (PGA) 0.42–0.70g di Bandung Barat, dengan potensi likuifaksi moderat-tinggi di 6 lokasi akibat aktivitas Sesar Lembang.",
     "img": "/kegiatan/Gemini_Generated_Image_4st1bs4st1bs4st1.png"
   },
   {
     "id": 183,
-    "author": ["Afnindar Fakhrurrozi", "Anggun Mayang Sari", "Arifan Jaya Syahbana", "Dwi Sarah", "Bambang Setiadi", "Mudrik Rahmawan Daryono", "Rabieahtul Abu Bakar", "Jian Cheng Lee"],
+    "author": [
+      "Afnindar Fakhrurrozi",
+      "Anggun Mayang Sari",
+      "Arifan Jaya Syahbana",
+      "Dwi Sarah",
+      "Bambang Setiadi",
+      "Mudrik Rahmawan Daryono",
+      "Rabieahtul Abu Bakar",
+      "Jian Cheng Lee"
+    ],
     "title": "Mapping seismic exposure of building based surface peak ground acceleration: initial seismic risk assessment in Bandung Basin, West Java",
     "desc": "Pemetaan eksposur seismik mengidentifikasi 120.000+ bangunan di Bandung Barat terpapar PGA >0.5g, dengan nilai ekonomi terpapar lebih dari IDR 42 triliun, mendukung perencanaan mitigasi berbasis risiko.",
     "img": "/kegiatan/Gemini_Generated_Image_9n4ddt9n4ddt9n4d.png"
@@ -2145,70 +2186,155 @@
   },
   {
     "id": 186,
-    "author": ["Anggun Mayang Sari", "Afnindar Fakhrurrozi", "Arifan Jaya Syahbana", "Dwi Sarah", "Mudrik Rahmawan Daryono", "Bambang Setiadi", "Rabieahtul Abu Bakar"],
+    "author": [
+      "Anggun Mayang Sari",
+      "Afnindar Fakhrurrozi",
+      "Arifan Jaya Syahbana",
+      "Dwi Sarah",
+      "Mudrik Rahmawan Daryono",
+      "Bambang Setiadi",
+      "Rabieahtul Abu Bakar"
+    ],
     "title": "SEISMIC WAVE PROPAGATION IN BANDUNG BASIN, WEST JAVA",
     "desc": "Propagasi gelombang seismik di Cekungan Bandung menghasilkan amplifikasi hingga 0.70g di daerah berlapis lempung tebal, melebihi spektrum desain dalam kode bangunan Indonesia.",
     "img": "/kegiatan/Gemini_Generated_Image_f9z1ikf9z1ikf9z1.png"
   },
   {
     "id": 187,
-    "author": ["Harry Septanto", "Farohaji Kurniawan", "Bambang Setiadi", "Edi Kurniawan", "Djoko Suprijanto"],
+    "author": [
+      "Harry Septanto",
+      "Farohaji Kurniawan",
+      "Bambang Setiadi",
+      "Edi Kurniawan",
+      "Djoko Suprijanto"
+    ],
     "title": "Disturbance observer-based attitude control of the air-bearing platform using a reaction wheel",
     "desc": "Pengendali berbasis observer gangguan mengurangi kesalahan steady-state <0.05° dan usaha kontrol 29% pada platform simulasi satelit, meningkatkan presisi sikap pesawat luar angkasa.",
     "img": "/kegiatan/Gemini_Generated_Image_br6nv6br6nv6br6n.png"
   },
   {
     "id": 188,
-    "author": ["Farohaji Kurniawan", "Dewi Anggraeni", "Satria A Aditya", "Nurul L Muzayadah", "Gunawan S Prabowo", "Harry Septanto", "Bambang Setiadi", "Peberlin Sitompul", "Joko Widodo", "Yuta Izumi"],
+    "author": [
+      "Farohaji Kurniawan",
+      "Dewi Anggraeni",
+      "Satria A Aditya",
+      "Nurul L Muzayadah",
+      "Gunawan S Prabowo",
+      "Harry Septanto",
+      "Bambang Setiadi",
+      "Peberlin Sitompul",
+      "Joko Widodo",
+      "Yuta Izumi"
+    ],
     "title": "Circularly Polarized Antenna Array 1×7 Fed by Power Weighting Distribution",
     "desc": "Antena array polarisasi melingkar 7 elemen mencapai axial ratio <3 dB dan sidelobe -15.1 dB pada 9.4 GHz, ideal untuk muatan SAR X-band pada drone dan satelit kecil.",
     "img": "/kegiatan/Gemini_Generated_Image_lof6dglof6dglof6.png"
   },
   {
     "id": 189,
-    "author": ["Nurul Lailatul Muzayadah", "Dewi Nur Anggraeni", "Satria Arief Aditya", "Nurul Chasanah", "Farohaji Kurniawan", "Agus Hendra Wahyudi", "Yanuar Prabowo", "Cahya Edi Santosa", "Jefri Abner Hamonangan", "Bambang Setiadi"],
+    "author": [
+      "Nurul Lailatul Muzayadah",
+      "Dewi Nur Anggraeni",
+      "Satria Arief Aditya",
+      "Nurul Chasanah",
+      "Farohaji Kurniawan",
+      "Agus Hendra Wahyudi",
+      "Yanuar Prabowo",
+      "Cahya Edi Santosa",
+      "Jefri Abner Hamonangan",
+      "Bambang Setiadi"
+    ],
     "title": "Performance Analysis of Carbon Composite Materials with VARI Method for Electromagnetic Interference Applications",
     "desc": "Komposit karbon berbasis VARI memberikan efektivitas perisai >30 dB pada 0.9–5.3 GHz, menggabungkan fungsi struktural dan elektromagnetik untuk drone SAR ringan.",
     "img": "/kegiatan/Gemini_Generated_Image_d11tnyd11tnyd11t.png"
   },
   {
     "id": 190,
-    "author": ["Indah Ferdiani Zuhriah", "Bambang Setiadi", "Seftiawan Samsu Rijal"],
+    "author": [
+      "Indah Ferdiani Zuhriah",
+      "Bambang Setiadi",
+      "Seftiawan Samsu Rijal"
+    ],
     "title": "Pemodelan Banjir Rob Wilayah Jakarta Utara Menggunakan Sistem Informasi Geografis",
     "desc": "Pemodelan GIS memprediksi banjir rob setinggi 1.96 m akan merendam 983 ha permukiman di Jakarta Utara, mendukung perencanaan tanggul dan mitigasi bencana berbasis peta risiko.",
     "img": "/kegiatan/Gemini_Generated_Image_fs1eu7fs1eu7fs1e.png"
   },
   {
     "id": 191,
-    "author": ["Mokhamad Nur Cahyadi", "Deasy Arisa", "Ihsan Naufal Muafiry", "Buldan Muslim", "Ririn Wuri Rahayu", "Meilfan Eka Putra", "Mega Wulansari", "Bambang Setiadi", "Andria Arisal", "Pakhrur Razi", "Syachrul Arief"],
+    "author": [
+      "Mokhamad Nur Cahyadi",
+      "Deasy Arisa",
+      "Ihsan Naufal Muafiry",
+      "Buldan Muslim",
+      "Ririn Wuri Rahayu",
+      "Meilfan Eka Putra",
+      "Mega Wulansari",
+      "Bambang Setiadi",
+      "Andria Arisal",
+      "Pakhrur Razi",
+      "Syachrul Arief"
+    ],
     "title": "Directivity of coseismic ionospheric disturbances propagation following the 2016 West Sumatra earthquake using three-dimensional tomography GNSS-TEC",
     "desc": "Tomografi 3D menunjukkan gangguan ionosfer akibat gempa Sumatra 2016 merambat 1° per menit sepanjang medan geomagnetik pada ketinggian 300 km, dengan kecepatan 1–1.72 km/s.",
     "img": "/kegiatan/Gemini_Generated_Image_gqeka4gqeka4gqek.png"
   },
   {
     "id": 192,
-    "author": ["Satria Arief Aditya", "Abdul Rohman", "Bambang Setiadi", "Nuha Nadhiroh"],
+    "author": [
+      "Satria Arief Aditya",
+      "Abdul Rohman",
+      "Bambang Setiadi",
+      "Nuha Nadhiroh"
+    ],
     "title": "Perancangan Dashboard Perangkat Through the Wall Radar Imaging (TWRI) untuk Pencarian Korban Reruntuhan Bangunan",
     "desc": "Dashboard berbasis LabVIEW berhasil menampilkan simulasi sinyal pernapasan korban dengan resolusi waktu 0.1 detik, memungkinkan identifikasi dalam 3 detik untuk sistem pencarian reruntuhan berbasis drone.",
     "img": "/kegiatan/Gemini_Generated_Image_9il0689il0689il0.png"
   },
   {
     "id": 193,
-    "author": ["Anggun Mayang Sari", "Afnindar Fakhrurrozi", "Andria Arisal", "Bambang Setiadi", "Hendri Gusti Putra", "Nafri Nafri", "Rabieahtul Abu Bakar", "Zamri Ramli"],
+    "author": [
+      "Anggun Mayang Sari",
+      "Afnindar Fakhrurrozi",
+      "Andria Arisal",
+      "Bambang Setiadi",
+      "Hendri Gusti Putra",
+      "Nafri Nafri",
+      "Rabieahtul Abu Bakar",
+      "Zamri Ramli"
+    ],
     "title": "Seismic hazard analysis on Solok Regency, West Sumatra to support local government development program",
     "desc": "Analisis PSHA menunjukkan PGA hingga 1.0g di Solok, Sumatra Barat, melebihi standar bangunan saat ini dan mendukung perencanaan infrastruktur tahan gempa untuk gedung pemerintah dan rumah sakit.",
     "img": "/kegiatan/Gemini_Generated_Image_ejribuejribuejri.png"
   },
   {
     "id": 194,
-    "author": ["Agus Wiyono", "Nurul Chasanah", "Jefri Abner Hamonangan", "Abdurrasyid Ruhiyat", "Abdul Rohman", "Farohaji Kurniawan", "Satria Arief Aditya", "Agus Hendra Wahyudi", "Novelita Rahayu", "Andria Arisal", "Bambang Setiadi"],
+    "author": [
+      "Agus Wiyono",
+      "Nurul Chasanah",
+      "Jefri Abner Hamonangan",
+      "Abdurrasyid Ruhiyat",
+      "Abdul Rohman",
+      "Farohaji Kurniawan",
+      "Satria Arief Aditya",
+      "Agus Hendra Wahyudi",
+      "Novelita Rahayu",
+      "Andria Arisal",
+      "Bambang Setiadi"
+    ],
     "title": "Implementation of Backprojection Algorithm for Synthetic Aperture Radar Image Processing on Low-Cost Hardware Platform",
     "desc": "Algoritma Backprojection pada Raspberry Pi 4 memproses citra SAR dalam 18 menit—membuka jalan bagi pemrosesan SAR berbiaya rendah di lingkungan sumber daya terbatas.",
     "img": "/kegiatan/Gemini_Generated_Image_vaahcxvaahcxvaah.png"
   },
   {
     "id": 195,
-    "author": ["Bambang Setiadi", "Andria Arisal", "Afnindar Fakhrurrozi", "Harry Septanto", "Farohaji Kurniawan", "Satria Arief Aditya"],
+    "author": [
+      "Bambang Setiadi",
+      "Andria Arisal",
+      "Afnindar Fakhrurrozi",
+      "Harry Septanto",
+      "Farohaji Kurniawan",
+      "Satria Arief Aditya"
+    ],
     "title": "Implementing Satellite-borne Synthetic Aperture Radar Imaging Algorithm with Open Source Scientific Software",
     "desc": "Implementasi Range Doppler Algorithm menggunakan GNU Octave menghasilkan citra SAR dengan korelasi 92% terhadap perangkat lunak komersial, mendukung riset SAR berbasis open-source.",
     "img": "/kegiatan/Gemini_Generated_Image_6sf6uj6sf6uj6sf6.png"
@@ -2222,42 +2348,89 @@
   },
   {
     "id": 197,
-    "author": ["Nurul Chasanah", "Jefri Abner", "Agus Wiyono", "Novelita Rahayu", "Farohaji Kurniawan", "Wahyu Widada", "Bambang Setiadi", "Dadang Gunawan"],
+    "author": [
+      "Nurul Chasanah",
+      "Jefri Abner",
+      "Agus Wiyono",
+      "Novelita Rahayu",
+      "Farohaji Kurniawan",
+      "Wahyu Widada",
+      "Bambang Setiadi",
+      "Dadang Gunawan"
+    ],
     "title": "Experimental evaluation of polarimetric ground based synthetic aperture radar imaging using portable vna",
     "desc": "Sistem GBSAR berbasis VNA portabel mencapai resolusi 0.5 m dan mampu membedakan target logam (reflektor sudut) dari komposit (drone) melalui tanda tangan polarimetri.",
     "img": "/kegiatan/Gemini_Generated_Image_fotogwfotogwfoto.png"
   },
   {
     "id": 198,
-    "author": ["Agus Wiyono", "Bambang Setiadi", "Satria Arief Aditya", "Farohaji Kurniawan", "Harry Septanto"],
+    "author": [
+      "Agus Wiyono",
+      "Bambang Setiadi",
+      "Satria Arief Aditya",
+      "Farohaji Kurniawan",
+      "Harry Septanto"
+    ],
     "title": "Automatic pulse duration of chirp generation for synthetic aperture radar (SAR) depend on altitude changes of the aircraft",
     "desc": "Sistem penyesuaian durasi chirp otomatis meningkatkan SNR citra SAR sebesar 8–12 dB pada ketinggian 1–1500 m, memungkinkan operasi SAR yang adaptif pada pesawat tanpa awak.",
     "img": "/kegiatan/Gemini_Generated_Image_1eqcll1eqcll1eqc.png"
   },
   {
     "id": 199,
-    "author": ["Jefri Abner Hamonangan", "Bambang Setiadi", "Farohaji Kurniawan", "Agus Wiyono", "Wahyu Widada", "Nurul Chasanah", "Abdul Rohman", "Agus Hendra Wahyudi", "Abdurrasyid Ruhiyat", "Novelita Rahayu", "Satria Arief Aditya"],
+    "author": [
+      "Jefri Abner Hamonangan",
+      "Bambang Setiadi",
+      "Farohaji Kurniawan",
+      "Agus Wiyono",
+      "Wahyu Widada",
+      "Nurul Chasanah",
+      "Abdul Rohman",
+      "Agus Hendra Wahyudi",
+      "Abdurrasyid Ruhiyat",
+      "Novelita Rahayu",
+      "Satria Arief Aditya"
+    ],
     "title": "Design and implementation of an integrated data processing unit with range matched filtering for lab scale synthetic aperture radar sensor",
     "desc": "Unit pemrosesan terintegrasi mengurangi volume data SAR 60% melalui kompresi real-time, dengan latensi end-to-end 120 ms, memvalidasi arsitektur untuk sistem SAR udara BRIN.",
     "img": "/kegiatan/Gemini_Generated_Image_cehfb6cehfb6cehf.png"
   },
   {
     "id": 200,
-    "author": ["Abdurrasyid Ruhiyat", "Farohaji Kurniawan", "Bambang Setiadi", "Catur Apriono"],
+    "author": [
+      "Abdurrasyid Ruhiyat",
+      "Farohaji Kurniawan",
+      "Bambang Setiadi",
+      "Catur Apriono"
+    ],
     "title": "Design of LO Phase Shifter Based on Quadrature Hybrid Ring Coupler for IQ Mixer in Synthetic Aperture Radar Applications",
     "desc": "Coupler hibrida kuadratur menghasilkan pergeseran fasa 90.2° ±1.5° pada 5.3 GHz dengan isolasi -29.56 dB, menyediakan solusi pasif yang andal untuk mixer IQ pada transceiver SAR.",
     "img": "/kegiatan/Gemini_Generated_Image_6lh2mx6lh2mx6lh2.png"
   },
   {
     "id": 201,
-    "author": ["Agus Hendra Wahyudi", "Farohaji Kurniawan", "Bambang Setiadi", "Agus Wiyono", "Satria Arief Aditya", "Wahyu Widada", "Effendi Dodi Arisandi"],
+    "author": [
+      "Agus Hendra Wahyudi",
+      "Farohaji Kurniawan",
+      "Bambang Setiadi",
+      "Agus Wiyono",
+      "Satria Arief Aditya",
+      "Wahyu Widada",
+      "Effendi Dodi Arisandi"
+    ],
     "title": "Light weight dual polarized horn antenna for polarimetry C-band synthetic aperture radar sensor onboard UAV",
     "desc": "Antena horn polarisasi ganda berbobot 420 g mencapai axial ratio <3 dB pada 4.4–6.4 GHz, memungkinkan SAR polarimetri penuh pada UAV kecil untuk pemantauan lingkungan.",
     "img": "/kegiatan/Gemini_Generated_Image_ceo8eceo8eceo8ec.png"
   },
   {
     "id": 202,
-    "author": ["Nurul Chasanah", "Dadang Gunawan", "Farohaji Kurniawan", "Agus Wiyono", "Jefri Abner", "Bambang Setiadi"],
+    "author": [
+      "Nurul Chasanah",
+      "Dadang Gunawan",
+      "Farohaji Kurniawan",
+      "Agus Wiyono",
+      "Jefri Abner",
+      "Bambang Setiadi"
+    ],
     "title": "Polarimetric Calibration for Ground-based Synthetic Aperture Radar based on Point Target Approach",
     "desc": "Kalibrasi polarimetri menggunakan reflektor sudut mengurangi ketidakseimbangan saluran dari 4.2 dB menjadi 0.3 dB, meningkatkan akurasi deteksi perubahan dan klasifikasi material pada GBSAR.",
     "img": "/kegiatan/Gemini_Generated_Image_w6yxkpw6yxkpw6yx.png"
@@ -2271,28 +2444,58 @@
   },
   {
     "id": 204,
-    "author": ["Abdul Basit", "Rahaden Bagas Hatmaja", "Suliskania Nurfitri", "Mochamad Furqon Azis Ismail", "Asep Sandra Budiman", "Bambang Setiadi", "Erma Yulihastin", "Widodo S Pranowo", "Mutiara Rachmat Putri", "Kandaga Pujiana", "Bernhard Mayer", "Thomas Pohlmann"],
+    "author": [
+      "Abdul Basit",
+      "Rahaden Bagas Hatmaja",
+      "Suliskania Nurfitri",
+      "Mochamad Furqon Azis Ismail",
+      "Asep Sandra Budiman",
+      "Bambang Setiadi",
+      "Erma Yulihastin",
+      "Widodo S Pranowo",
+      "Mutiara Rachmat Putri",
+      "Kandaga Pujiana",
+      "Bernhard Mayer",
+      "Thomas Pohlmann"
+    ],
     "title": "Temperature variability and its governing mechanisms within the Jailolo Strait, Indonesia",
     "desc": "Analisis data BRAN2020 mengungkap bahwa variasi suhu di Selat Jailolo didominasi oleh fluks panas permukaan dan pencampuran vertikal, dengan dua minimum termoklin tahunan akibat aliran dari Samudra Pasifik.",
     "img": "/kegiatan/Gemini_Generated_Image_kyvgpzkyvgpzkyvg.png"
   },
   {
     "id": 205,
-    "author": ["Surfiarti Maharani", "Ashar Muda Lubis", "Elfi Yuliza", "Rida Samdara", "Bambang Setiadi"],
+    "author": [
+      "Surfiarti Maharani",
+      "Ashar Muda Lubis",
+      "Elfi Yuliza",
+      "Rida Samdara",
+      "Bambang Setiadi"
+    ],
     "title": "Landslide susceptibility mapping along Taba Penanjung area, Bengkulu province, Indonesia using machine learning (ML) techniques",
     "desc": "Pemetaan kerentanan longsor menggunakan SVM mencapai akurasi 95.51% dan AUC 0.93, mengidentifikasi 40.97% wilayah Taba Penanjung sebagai zona risiko tinggi untuk mitigasi bencana.",
     "img": "/kegiatan/Gemini_Generated_Image_nvoi58nvoi58nvoi.png"
   },
   {
     "id": 206,
-    "author": ["Rivilyo Mangolat Rizky Sitanggang", "Wa Ode Dianita Putri Suaiba Dani", "Bambang Setiadi", "Yanif Dwi Kuntjoro"],
+    "author": [
+      "Rivilyo Mangolat Rizky Sitanggang",
+      "Wa Ode Dianita Putri Suaiba Dani",
+      "Bambang Setiadi",
+      "Yanif Dwi Kuntjoro"
+    ],
     "title": "Comparative Performance of U-Net CNN in Multi-Class Aircraft Segmentation and Classification Using Polygon and Bounding Box Annotations",
     "desc": "Annotasi poligon pada U-Net menghasilkan akurasi segmentasi 0.987, sementara bounding box 34% lebih cepat dalam pelatihan—memberikan panduan pemilihan metode berdasarkan kebutuhan presisi vs. kecepatan.",
     "img": "/kegiatan/Gemini_Generated_Image_dgdnkjdgdnkjdgdn.png"
   },
   {
     "id": 207,
-    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Abd Rabi", "Nachrowie Nachrowie", "Rahman Arifuddin"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Akio Kitagawa",
+      "Abd Rabi",
+      "Nachrowie Nachrowie",
+      "Rahman Arifuddin"
+    ],
     "title": "Low-Power and Lossy Networks of Wireless Sensor Networks with Protocols Algorithm Comparison",
     "desc": "LEACH mengonsumsi daya terendah (2.038 mW pada 100 node), mengungguli HEED, LEACH-TLCH, dan PEGASIS dalam efisiensi energi untuk jaringan sensor nirkabel berdaya rendah.",
     "img": "/kegiatan/Gemini_Generated_Image_nzol9nzol9nzol9n.png"
@@ -2376,28 +2579,55 @@
   },
   {
     "id": 219,
-    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Dwi Arman Prasetya", "Rahman Arifuddin", "Stanislaus Yoseph"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Akio Kitagawa",
+      "Dwi Arman Prasetya",
+      "Rahman Arifuddin",
+      "Stanislaus Yoseph"
+    ],
     "title": "LoRaWAN Technology in Irrigation Channels in Batu Indonesia",
     "desc": "Prototipe LoRaWAN mendeteksi kontaminasi air dalam 15 detik dan mengalihkan air bersih ke lahan pertanian, mengurangi paparan tanaman terhadap limbah rumah tangga sebesar 92%.",
     "img": "/kegiatan/Gemini_Generated_Image_ybwffgybwffgybwf.png"
   },
   {
     "id": 220,
-    "author": ["Windra Swastika", "Romy Budhi Widodo", "Ginza Alfarizha Balqis", "Rehmadenta Sitepu"],
+    "author": [
+      "Windra Swastika",
+      "Romy Budhi Widodo",
+      "Ginza Alfarizha Balqis",
+      "Rehmadenta Sitepu"
+    ],
     "title": "The Effect of Regularization in Convolutional Neural Network for Malaria Parasite Detection",
     "desc": "Regularisasi dropout (0.5) pada CNN mencapai akurasi 97.2% dalam deteksi parasit malaria dari apus darah, mengurangi overfitting dan meningkatkan generalisasi model medis.",
     "img": "/kegiatan/Gemini_Generated_Image_ntx5krntx5krntx5.png"
   },
   {
     "id": 221,
-    "author": ["Puput Dani Prasetyo Adi", "Volvo Sihombing", "Victor Marudut Mulia Siregar", "Gomal Juni Yanris", "Fricles Ariwisanto Sianturi", "Windania Purba", "Saut Parsaoran Tamba", "Julianto Simatupang", "Rahman Arifuddin", "Dwi Arman Prasetya"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Volvo Sihombing",
+      "Victor Marudut Mulia Siregar",
+      "Gomal Juni Yanris",
+      "Fricles Ariwisanto Sianturi",
+      "Windania Purba",
+      "Saut Parsaoran Tamba",
+      "Julianto Simatupang",
+      "Rahman Arifuddin",
+      "Dwi Arman Prasetya"
+    ],
     "title": "A performance evaluation of ZigBee mesh communication on the Internet of Things (IoT)",
     "desc": "Topologi mesh ZigBee mencapai PRR 94% pada 50 m, meski masa pakai baterai 8 hari (vs 11 hari pada star), memberikan panduan desain untuk IoT di lingkungan kompleks.",
     "img": "/kegiatan/Gemini_Generated_Image_nga926nga926nga9.png"
   },
   {
     "id": 222,
-    "author": ["Puput Dani Prasetyo Adi", "Akio Kitagawa", "Dwi Arman Prasetya", "Aries Boedi Setiawan"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Akio Kitagawa",
+      "Dwi Arman Prasetya",
+      "Aries Boedi Setiawan"
+    ],
     "title": "A Performance of ES920LR LoRa for the Internet of Things: A Technology Review",
     "desc": "Modul LoRa ES920LR (24×17 mm) mencapai PRR 93.94% pada 710 m, cocok untuk integrasi pada drone dan perangkat wearable untuk pemantauan kesehatan real-time.",
     "img": "/kegiatan/Gemini_Generated_Image_lifqvplifqvplifq.png"
@@ -2423,23 +2653,40 @@
     "desc": "Rumah kaca berbasis LoRa dan logika fuzzy meningkatkan hasil panen pakcoy 22% dengan kontrol otomatis suhu, kelembaban, dan pH, beroperasi offline saat internet terputus.",
     "img": "/kegiatan/Gemini_Generated_Image_i0jlqdi0jlqdi0jl.png"
   },
-{
-  "id": 226,
-  "author": ["Yunus Baweng Jonggo’man"],
-  "title": "Automatic T-Shirt Folding And Iron Machine Menggunakan Metode PID (Proportional Integral Derivative)",
-  "desc": "Mesin otomatis melipat dan menyetrika kaos menggunakan kontrol PID dan sensor ultrasonik mencapai presisi ±3 mm dan menyelesaikan satu kaos dalam 48 detik, mengurangi waktu proses laundry secara signifikan.",
-  "img": "/kegiatan/Gemini_Generated_Image_cul0q4cul0q4cul0.png"
-},
+  {
+    "id": 226,
+    "author": ["Yunus Baweng Jonggo’man"],
+    "title": "Automatic T-Shirt Folding And Iron Machine Menggunakan Metode PID (Proportional Integral Derivative)",
+    "desc": "Mesin otomatis melipat dan menyetrika kaos menggunakan kontrol PID dan sensor ultrasonik mencapai presisi ±3 mm dan menyelesaikan satu kaos dalam 48 detik, mengurangi waktu proses laundry secara signifikan.",
+    "img": "/kegiatan/Gemini_Generated_Image_cul0q4cul0q4cul0.png"
+  },
   {
     "id": 227,
-    "author": ["A Puspita Sari", "Ermanu Azizul Hakim", "D Arman Prasetya", "Rahman Arifuddin", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "A Puspita Sari",
+      "Ermanu Azizul Hakim",
+      "D Arman Prasetya",
+      "Rahman Arifuddin",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Sistem Prediksi Kecepatan dan Arah Angin Menggunakan Bidirectional Long Short-Term Memory",
     "desc": "Model BiLSTM mencapai MAE 0.42 m/s dan 8.3° dalam prediksi angin 1 jam ke depan, mengungguli FCNN dan SLSTM di semua musim berkat pemrosesan temporal dua arah.",
     "img": "/kegiatan/Gemini_Generated_Image_r4pb25r4pb25r4pb.png"
   },
   {
     "id": 228,
-    "author": ["Yuli Afril Liani", "Ibnu Rasyid Munthe", "Deci Irmayani", "Bayu Eko Broto", "Gomal Juni Yanris", "Dwi Arman Prasetya", "Rudi Haryanto", "Puput Dani Prasetyo Adi", "Ahmad Rofiqul Muslikh", "Rahman Arifuddin"],
+    "author": [
+      "Yuli Afril Liani",
+      "Ibnu Rasyid Munthe",
+      "Deci Irmayani",
+      "Bayu Eko Broto",
+      "Gomal Juni Yanris",
+      "Dwi Arman Prasetya",
+      "Rudi Haryanto",
+      "Puput Dani Prasetyo Adi",
+      "Ahmad Rofiqul Muslikh",
+      "Rahman Arifuddin"
+    ],
     "title": "The broiler chicken coop temperature monitoring use fuzzy logic and LoRAWAN",
     "desc": "Sistem LoRaWAN dan logika fuzzy mempertahankan suhu kandang ayam sesuai usia (33°C untuk 0–7 hari), mengurangi kematian 18% dengan jangkauan 15 km dan konsumsi daya 1.8 mW.",
     "img": "/kegiatan/Gemini_Generated_Image_zdwhkwzdwhkwzdwh.png"
@@ -2453,7 +2700,12 @@
   },
   {
     "id": 230,
-    "author": ["Windania Purba", "Siti Aisyah", "Evta Indra", "Marlince NK Nababan"],
+    "author": [
+      "Windania Purba",
+      "Siti Aisyah",
+      "Evta Indra",
+      "Marlince NK Nababan"
+    ],
     "title": "Unilever’s Customer Data Management Information System in Medan City and Approaches to Android Smartphone and IoT Flexibility",
     "desc": "Sistem berbasis web dan Android mengurangi waktu pengumpulan data 65% dan meningkatkan akurasi peramalan permintaan 31% untuk manajemen rantai pasok Unilever.",
     "img": "/kegiatan/Gemini_Generated_Image_9wp38r9wp38r9wp3.png"
@@ -2467,7 +2719,17 @@
   },
   {
     "id": 232,
-    "author": ["Puput Dani Prasetyo Adi", "Dwi Arman Prasetya", "Rahman Arifuddin", "Anggraini Puspita Sari", "Fransiska Sisilia Mukti", "Volvo Sihombing", "Agus Anjar", "Elviana Sagala", "Gomal Juni Yanris"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Dwi Arman Prasetya",
+      "Rahman Arifuddin",
+      "Anggraini Puspita Sari",
+      "Fransiska Sisilia Mukti",
+      "Volvo Sihombing",
+      "Agus Anjar",
+      "Elviana Sagala",
+      "Gomal Juni Yanris"
+    ],
     "title": "Application of IoT-LoRa Technology and Design in irrigation canals to improve the quality of agricultural products in Batu Indonesia",
     "desc": "Sistem IoT-LoRa memastikan 95% air irigasi memenuhi standar pH, meningkatkan hasil panen pakcoy 19% di lahan tercemar Batu, Jawa Timur.",
     "img": "/kegiatan/Gemini_Generated_Image_4ydsiu4ydsiu4yds.png"
@@ -2481,21 +2743,43 @@
   },
   {
     "id": 234,
-    "author": ["Puput Dani Prasetyo Adi", "Fransiska Sisilia Mukti", "Panggih Nur Adi", "Akio Kitagawa", "Gomal Juni Yanris", "Volvo Sihombing", "Zunaidy Abdullah Siregar"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Fransiska Sisilia Mukti",
+      "Panggih Nur Adi",
+      "Akio Kitagawa",
+      "Gomal Juni Yanris",
+      "Volvo Sihombing",
+      "Zunaidy Abdullah Siregar"
+    ],
     "title": "ZigBee and LoRa performances on RF Propagation on the Snow Hills area",
     "desc": "LoRa 915 MHz mencapai PRR 89% pada 1.8 km di daerah bersalju, sementara ZigBee hanya 42% pada 300 m—membuktikan superioritas LoRa di lingkungan ekstrem.",
     "img": "/kegiatan/Gemini_Generated_Image_hbz68lhbz68lhbz6.png"
   },
   {
     "id": 235,
-    "author": ["Yandri Lesmana", "Rahmadani Pane", "Elysa Rohayani Hsb", "Lukman Hakim", "Nelly Agusti", "Deci Irmayani"],
+    "author": [
+      "Yandri Lesmana",
+      "Rahmadani Pane",
+      "Elysa Rohayani Hsb",
+      "Lukman Hakim",
+      "Nelly Agusti",
+      "Deci Irmayani"
+    ],
     "title": "A review of motion sensors as a home security system and approach to the internet of things project",
     "desc": "Sensor gerak hibrida (PIR + ultrasonik) mengurangi false alarm menjadi 3% dan memicu alarm aktif untuk mencegah pencurian, meningkatkan keamanan rumah berbasis IoT.",
     "img": "/kegiatan/Gemini_Generated_Image_5sl0ax5sl0ax5sl0.png"
   },
   {
     "id": 336,
-    "author": ["Puput Dani Prasetyo Adi", "Dwi Arman Prasetya", "Anggraini Puspita Sari", "Rahman Arifuddin", "Elta Sonalitha", "Irfan Mudjahidin"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Dwi Arman Prasetya",
+      "Anggraini Puspita Sari",
+      "Rahman Arifuddin",
+      "Elta Sonalitha",
+      "Irfan Mudjahidin"
+    ],
     "title": "Performance of ES920LR LoRa for Monitoring Health Status on LoS and Non-LoS Environment",
     "desc": "Modul LoRa ES920LR mencapai PRR 93.94% pada 710 m di lingkungan LoS dan tetap andal di Non-LoS dengan SF12, ideal untuk pemantauan kesehatan berbasis drone dan wearable.",
     "img": "/kegiatan/Gemini_Generated_Image_msty5hmsty5hmsty.png"
@@ -2509,21 +2793,36 @@
   },
   {
     "id": 338,
-    "author": ["Dwi Arman Prasetya", "Ermanu Azizul Hakim", "Rahman Arifuddin", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Dwi Arman Prasetya",
+      "Ermanu Azizul Hakim",
+      "Rahman Arifuddin",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Implementasi Arduino Nano Berbasis IOT Pada Alat Proteksi Terhadap Gangguan Tegangan Lebih",
     "desc": "Sistem proteksi berbasis Arduino Nano dan sensor ACS712 merespons gangguan tegangan dalam 12 ms, mengurangi kerusakan peralatan rumah tangga hingga 76%.",
     "img": "/kegiatan/Gemini_Generated_Image_q2eeuxq2eeuxq2ee.png"
   },
   {
     "id": 339,
-    "author": ["Sandhya Sabila", "Puput Dani Prasetyo Adi", "Subairi Subairi", "M Baidlowi"],
+    "author": [
+      "Sandhya Sabila",
+      "Puput Dani Prasetyo Adi",
+      "Subairi Subairi",
+      "M Baidlowi"
+    ],
     "title": "Sistem Otomatis Penggerak Lesan Tembak Untuk Latihan Teknik Tempur Cepat Dengan Metode PID",
     "desc": "Sistem target tembak otomatis berbasis PID mencapai akurasi ±1.5 cm dan menghilangkan risiko personel dalam latihan tembak tempur TNI.",
     "img": "/kegiatan/Gemini_Generated_Image_yxzj2pyxzj2pyxzj.png"
   },
   {
     "id": 340,
-    "author": ["Abdul Wahid", "Muhammad Fajar B", "Jumadi Mabe Parenreng", "Seny Luhriyani Sunusi"],
+    "author": [
+      "Abdul Wahid",
+      "Muhammad Fajar B",
+      "Jumadi Mabe Parenreng",
+      "Seny Luhriyani Sunusi"
+    ],
     "title": "Smart Blended Learning Framework based on Artificial Intelligence using MobileNet Single Shot Detector and Centroid Tracking Algorithm",
     "desc": "Kerangka pembelajaran hybrid berbasis MobileNet SSD dan pelacakan sentroid meningkatkan kepuasan siswa daring menjadi 89%, menyamai pengalaman belajar luring.",
     "img": "/kegiatan/Gemini_Generated_Image_kc7hzmkc7hzmkc7h.png"
@@ -2537,14 +2836,27 @@
   },
   {
     "id": 342,
-    "author": ["Sunardi Sunardi", "Eko Yuni Prihantono", "Dwi Ekasari Harmadji", "Andini Risfandini", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Sunardi Sunardi",
+      "Eko Yuni Prihantono",
+      "Dwi Ekasari Harmadji",
+      "Andini Risfandini",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Analisis Kelayakan Bisnis: dengan Pendekatan Aspek Keuangan dan Pasar",
     "desc": "Kerangka analisis kelayakan bisnis selaras dengan UU 23/2014 dan UU 33/2004, divalidasi pada 12 proyek pilot untuk BUMN, BUMD, dan UMKM di Indonesia.",
     "img": "/kegiatan/Gemini_Generated_Image_hcglghcglghcglgh.png"
   },
   {
     "id": 343,
-    "author": ["Dwi Arman Prasetya", "Anwar Sanusi", "Grahita Chandrarin", "Puput Dani Prasetyo Adi", "Rahman Arifuddin", "Irfan Mujahidin"],
+    "author": [
+      "Dwi Arman Prasetya",
+      "Anwar Sanusi",
+      "Grahita Chandrarin",
+      "Puput Dani Prasetyo Adi",
+      "Rahman Arifuddin",
+      "Irfan Mujahidin"
+    ],
     "title": "Analisa Kebijakan Dan Dampak Ekonomi Masyarakat Dari Mesin Pengolah Sampah Plastik Menjadi Sumber Energi Di Gadingkasri Malang",
     "desc": "Mesin pengolah sampah plastik menghemat 35% biaya bahan bakar rumah tangga dan menciptakan 28 lapangan kerja, didukung aplikasi 'SIMANJAH' untuk penjadwalan pengumpulan.",
     "img": "/kegiatan/Gemini_Generated_Image_ry3235ry3235ry32.png"
@@ -2558,7 +2870,15 @@
   },
   {
     "id": 345,
-    "author": ["Dwi Arman Prasetya", "Grahita Chandrarin", "Anwar Sanusi", "Irfan Mujahiddin", "Anggraini Puspitasari", "Rahman Arifuddin", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Dwi Arman Prasetya",
+      "Grahita Chandrarin",
+      "Anwar Sanusi",
+      "Irfan Mujahiddin",
+      "Anggraini Puspitasari",
+      "Rahman Arifuddin",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Waste management system using information technology for the improvement of structured environmental ecosystem",
     "desc": "Sistem pengelolaan sampah berbasis mobile meningkatkan efisiensi pengumpulan 45% dan mengurangi pembuangan liar 58% di Malang melalui aplikasi Android/iOS.",
     "img": "/kegiatan/Gemini_Generated_Image_qhjk1iqhjk1iqhjk.png"
@@ -2572,7 +2892,11 @@
   },
   {
     "id": 347,
-    "author": ["Puput Dani Prasetyo Adi", "Rumanintya Lisaria Putri", "Resanti Lestari"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Rumanintya Lisaria Putri",
+      "Resanti Lestari"
+    ],
     "title": "Pengabdian Dosen di PT. Alfan Mechatronics Innovation pada materi PLC dan Penerapan di Masyarakat",
     "desc": "Dosen magang di industri energi terbarukan mengembangkan solusi berbasis IoT dan jaringan RF, memperkuat sinergi antara universitas dan perusahaan melalui program MBKM Kemendikbudristek.",
     "img": "/kegiatan/Gemini_Generated_Image_qgh9ceqgh9ceqgh9.png"
@@ -2593,91 +2917,191 @@
   },
   {
     "id": 350,
-    "author": ["Agoestina Mappadang", "Melan Sinaga", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Agoestina Mappadang",
+      "Melan Sinaga",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Pemberdayaan Kepatuhan Wajib Pajak Perorangan, Perhitungan Dan SPT Tahunan Secara E-Filling",
     "desc": "Pelatihan e-filing meningkatkan pemahaman wajib pajak perorangan dalam pelaporan SPT tahunan secara digital, mengatasi hambatan teknologi dan literasi perpajakan.",
     "img": "/kegiatan/Gemini_Generated_Image_rzw52drzw52drzw5.png"
   },
   {
     "id": 351,
-    "author": ["Puput Dani Prasetyo Adi", "Nunuk Indarti", "Yuyu Wahyu", "Budi Agung Sudarmanto", "Fransiska Sisilia Mukti", "Jumadi Mabe Parenreng"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Nunuk Indarti",
+      "Yuyu Wahyu",
+      "Budi Agung Sudarmanto",
+      "Fransiska Sisilia Mukti",
+      "Jumadi Mabe Parenreng"
+    ],
     "title": "ECG-LPWAN based for Real-time monitoring Patient’s Heart Beat Status",
     "desc": "Sistem ECG berbasis LoRa 915 MHz memungkinkan pemantauan detak jantung pasien secara real-time melalui platform Thingspeak, mendukung layanan kesehatan jarak jauh.",
     "img": "/kegiatan/Gemini_Generated_Image_1l40ry1l40ry1l40.png"
   },
   {
     "id": 352,
-    "author": ["Puput Dani Prasetyo Adi", "Abdul Wahid", "Agoestina Mappadang", "Asworoningrum Yulindahwati", "Yudi Prastiyono", "Imam Tahyudin", "La Sinaini", "Sujak Sujak", "Nurindah Nurindah"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Abdul Wahid",
+      "Agoestina Mappadang",
+      "Asworoningrum Yulindahwati",
+      "Yudi Prastiyono",
+      "Imam Tahyudin",
+      "La Sinaini",
+      "Sujak Sujak",
+      "Nurindah Nurindah"
+    ],
     "title": "Performance evaluation of LoRa 915 MHz for health monitoring with adaptive data rate",
     "desc": "Penerapan Adaptive Data Rate (ADR) pada LoRa 915 MHz mengurangi packet loss dan menghemat daya baterai dalam sistem pemantauan kesehatan berbasis IoT.",
     "img": "/kegiatan/Gemini_Generated_Image_u6jbz4u6jbz4u6jb.png"
   },
   {
     "id": 353,
-    "author": ["Puput Dani Prasetyo Adi", "Dwi Ekasari Harmadji", "Yuyu Wahyu", "Yaya Sulaeman", "Fransiska Sisilia Mukti", "Agoestina Mappadang", "Suprapto Prapto", "Dwi Adi Sunarto", "Yudi Prastiyono", "Otto Endarto"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Dwi Ekasari Harmadji",
+      "Yuyu Wahyu",
+      "Yaya Sulaeman",
+      "Fransiska Sisilia Mukti",
+      "Agoestina Mappadang",
+      "Suprapto Prapto",
+      "Dwi Adi Sunarto",
+      "Yudi Prastiyono",
+      "Otto Endarto"
+    ],
     "title": "Evaluation of Global Positioning System Internet of Things-LoRa based",
     "desc": "Integrasi GPS U-Blox Neo-6M dengan LoRa 915 MHz memungkinkan pelacakan lokasi real-time dengan akurasi tinggi dan RSSI hingga -118 dBm pada jarak 500 meter.",
     "img": "/kegiatan/Gemini_Generated_Image_6gbvm06gbvm06gbv.png"
   },
   {
     "id": 354,
-    "author": ["Puput Dani Prasetyo Adi", "Agoestina Mappadang", "Abdul Wahid", "Seny Luhriyani", "Riny Jefri", "Nurindah Nurindah"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Agoestina Mappadang",
+      "Abdul Wahid",
+      "Seny Luhriyani",
+      "Riny Jefri",
+      "Nurindah Nurindah"
+    ],
     "title": "Spreading factor of IoT-LoRa effect for future smart agriculture",
     "desc": "Penelitian ini mengevaluasi pengaruh Spreading Factor (SF) LoRa terhadap throughput dan packet loss dalam aplikasi pertanian cerdas, menunjukkan trade-off antara jangkauan dan kecepatan data.",
     "img": "/kegiatan/Gemini_Generated_Image_6evjg66evjg66evj.png"
   },
   {
     "id": 355,
-    "author": ["Puput Dani Prasetyo Adi", "Iwan Purnama", "Agoestina Mappadang", "Budi Agung Sudarmanto", "Latifa Nuraini", "Fauzan Azim", "Muhammad Yusuf Siregar", "Budianto Bangun", "Yudi Prastiyono"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Iwan Purnama",
+      "Agoestina Mappadang",
+      "Budi Agung Sudarmanto",
+      "Latifa Nuraini",
+      "Fauzan Azim",
+      "Muhammad Yusuf Siregar",
+      "Budianto Bangun",
+      "Yudi Prastiyono"
+    ],
     "title": "Performance evaluation of LoRaWAN in pulse status monitoring with clustering of wireless sensor network",
     "desc": "Penerapan metode clustering HEED pada jaringan sensor nadi berbasis LoRaWAN mengoptimalkan konsumsi daya dan meningkatkan efisiensi transmisi data multi-node.",
     "img": "/kegiatan/Gemini_Generated_Image_wni4i6wni4i6wni4.png"
   },
   {
     "id": 356,
-    "author": ["Puput Dani Prasetyo Adi", "Rudi Hariyanto", "Fransiska Sisilia Mukti", "Novilda Elizabeth Mustamu", "Windania Purba", "Gomal Juni Yanris Silaen", "Dwi Arman Prasetya", "Saut P. Tamba"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Rudi Hariyanto",
+      "Fransiska Sisilia Mukti",
+      "Novilda Elizabeth Mustamu",
+      "Windania Purba",
+      "Gomal Juni Yanris Silaen",
+      "Dwi Arman Prasetya",
+      "Saut P. Tamba"
+    ],
     "title": "Smart agriculture based on LoRaWAN",
     "desc": "Sistem pertanian cerdas berbasis LoRaWAN memantau kelembaban tanah secara real-time dengan konsumsi daya rendah dan komunikasi dua arah (ACK), mendukung pengambilan keputusan irigasi otomatis.",
     "img": "/kegiatan/Gemini_Generated_Image_dumjugdumjugdumj.png"
   },
   {
     "id": 357,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Dian Lestari", "Agung Purnomo", "Sukeipah Yuli Prihatin"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Dian Lestari",
+      "Agung Purnomo",
+      "Sukeipah Yuli Prihatin"
+    ],
     "title": "Twitter data sentiment analysis of COVID-19 vaccination using machine learning",
     "desc": "Analisis sentimen Twitter mengungkap hubungan antara persepsi publik terhadap vaksin COVID-19 dan tingkat vaksinasi nasional, menggunakan dataset Kaggle dan teknik machine learning untuk memantau misinformasi secara real-time.",
     "img": "/kegiatan/Gemini_Generated_Image_h3ejpmh3ejpmh3ej.png"
   },
   {
     "id": 358,
-    "author": ["Puput Dani Prasetyo Adi", "Yuyu Wahyu", "Dwi Arman Prasetya", "JM Parenreng", "Gatot Suharto Abdul Fatah", "Fairuz Iqbal Maulana", "Volvo Sihombing", "Agoestina Mappadang", "Abdul Wahid"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Yuyu Wahyu",
+      "Dwi Arman Prasetya",
+      "JM Parenreng",
+      "Gatot Suharto Abdul Fatah",
+      "Fairuz Iqbal Maulana",
+      "Volvo Sihombing",
+      "Agoestina Mappadang",
+      "Abdul Wahid"
+    ],
     "title": "Development Education of Blind Adaptive Data Rate LoRaWAN Network on Mobile Node",
     "desc": "Pengembangan metode Blind ADR untuk node LoRaWAN bergerak mampu mengurangi packet loss akibat perubahan jarak dan pergerakan relatif terhadap gateway, meningkatkan efisiensi jaringan sensor bergerak.",
     "img": "/kegiatan/Gemini_Generated_Image_jw94tujw94tujw94.png"
   },
   {
     "id": 359,
-    "author": ["Eko Gustriyadi", "Volvo Sihombing", "Masrizal Masrizal", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Eko Gustriyadi",
+      "Volvo Sihombing",
+      "Masrizal Masrizal",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "A Real-Time Web Information System Based on A Global Positioning System for Monitoring Environmental Pollution",
     "desc": "Sistem informasi berbasis web dan GPS memungkinkan pemantauan polusi air secara real-time dengan integrasi data lokasi (latitude/longitude) dan antarmuka pengguna yang responsif di desktop maupun mobile.",
     "img": "/kegiatan/Gemini_Generated_Image_z2spbez2spbez2sp.png"
   },
   {
     "id": 360,
-    "author": ["Rizky Rahmatullah", "Puput Dani Prasetyo Adi", "Suisbiyanto Prasetya", "Arief Budi Santiko", "Yuyu Wahyu", "B Berlian Surya Wicaksana", "Stevry Yushady CH Bissa", "Jana Yanti Riyani", "Aloysius Adya Pramudita"],
+    "author": [
+      "Rizky Rahmatullah",
+      "Puput Dani Prasetyo Adi",
+      "Suisbiyanto Prasetya",
+      "Arief Budi Santiko",
+      "Yuyu Wahyu",
+      "B Berlian Surya Wicaksana",
+      "Stevry Yushady CH Bissa",
+      "Jana Yanti Riyani",
+      "Aloysius Adya Pramudita"
+    ],
     "title": "Analyze Transmission Data from a Multi-Node Patient's Respiratory FMCW Radar to the Internet of Things",
     "desc": "Data pernapasan multi-pasien dari radar FMCW dikirim secara real-time ke server IoT menggunakan protokol MQTT, memungkinkan deteksi dini gangguan pernapasan melalui analisis pola napas.",
     "img": "/kegiatan/Gemini_Generated_Image_4xyzbh4xyzbh4xyz.png"
   },
   {
     "id": 361,
-    "author": ["Dian Lestari", "Fairuz Iqbal Maulana", "Satria Fadil Persada", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Dian Lestari",
+      "Fairuz Iqbal Maulana",
+      "Satria Fadil Persada",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Machine learning for perinatal complication prediction: A systematic review",
     "desc": "Tinjauan sistematis menunjukkan efektivitas algoritma seperti random forest dan neural network dalam memprediksi komplikasi kehamilan, meski terkendala kualitas data dan transparansi model.",
     "img": "/kegiatan/Gemini_Generated_Image_ga8je2ga8je2ga8j.png"
   },
   {
     "id": 362,
-    "author": ["Fairuz Iqbal Maulana", "Muhammad Yasır Zaın", "Dian Lestari", "Agung Purnomo", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Muhammad Yasır Zaın",
+      "Dian Lestari",
+      "Agung Purnomo",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Mapping the literature of artificial intelligence in medical education: a scientometric analysis",
     "desc": "Analisis scientometrik terhadap 1.681 artikel menunjukkan pertumbuhan pesat AI dalam pendidikan medis (2012–2022), dengan McGill University sebagai kontributor terbanyak dan fokus pada integrasi teknologi dalam kurikulum.",
     "img": "/kegiatan/Gemini_Generated_Image_jwvm6jjwvm6jjwvm.png"
@@ -2691,315 +3115,678 @@
   },
   {
     "id": 364,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Dian Lestari", "Sandy Vikki Ariyanto", "Agung Purnomo"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Dian Lestari",
+      "Sandy Vikki Ariyanto",
+      "Agung Purnomo"
+    ],
     "title": "The scientific progress and prospects of artificial intelligence for cancer detection: a bibliometric analysis",
     "desc": "Studi bibliometrik atas 1.868 artikel (2013–2022) mengungkap dominasi Harvard Medical School dalam penelitian AI untuk deteksi kanker, dengan bidang kedokteran menyumbang 41,9% dari total publikasi global.",
     "img": "/kegiatan/Gemini_Generated_Image_g3ud0sg3ud0sg3ud.png"
   },
   {
     "id": 365,
-    "author": ["Suisbiyanto Prasetya", "Arief Budi Santiko", "Puput Dani Prasetyo Adi", "Yuyu Wahyu", "Rizky Rahmatullah", "B Berlian Surya Wicaksana", "Stevry Yushady Ch Bissa", "Riyani Jana Yanti", "Aloysius Adya Pramudita"],
+    "author": [
+      "Suisbiyanto Prasetya",
+      "Arief Budi Santiko",
+      "Puput Dani Prasetyo Adi",
+      "Yuyu Wahyu",
+      "Rizky Rahmatullah",
+      "B Berlian Surya Wicaksana",
+      "Stevry Yushady Ch Bissa",
+      "Riyani Jana Yanti",
+      "Aloysius Adya Pramudita"
+    ],
     "title": "Data Analyzes and conversion of Patient’s Respiratory FMCW Radar to the Internet of Things",
     "desc": "Sistem radar FMCW mengubah sinyal pernapasan menjadi data grafis real-time yang ditampilkan di smartphone melalui server MQTT, dengan roadmap pengembangan berbasis Raspberry Pi 4B untuk stabilitas jangka panjang.",
     "img": "/kegiatan/Gemini_Generated_Image_wkj2atwkj2atwkj2.png"
   },
   {
     "id": 366,
-    "author": ["Puput Dani Prasetyo Adi", "Iwan Purnama", "Arfanda Anugrah Siregar", "Angga Putra Juledi", "Firman Edi", "Abdul Karim", "Yuyu Wahyu", "Fairuz Iqbal Maulana", "Suhardi Atmoko Budi Susilo", "Ilham Hakiki Harahap", "Lintang Patria"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Iwan Purnama",
+      "Arfanda Anugrah Siregar",
+      "Angga Putra Juledi",
+      "Firman Edi",
+      "Abdul Karim",
+      "Yuyu Wahyu",
+      "Fairuz Iqbal Maulana",
+      "Suhardi Atmoko Budi Susilo",
+      "Ilham Hakiki Harahap",
+      "Lintang Patria"
+    ],
     "title": "Performance LoRa Technology for Autonomous Vehicles",
     "desc": "LoRa dengan metode Blind ADR digunakan untuk transmisi data posisi kendaraan otonom secara bergantian, mencegah tabrakan data dan memastikan akurasi pelacakan lokasi real-time tanpa packet loss.",
     "img": "/kegiatan/Gemini_Generated_Image_xq2xrgxq2xrgxq2x.png"
   },
   {
     "id": 367,
-    "author": ["Puput Dani Prasetyo Adi", "Yuyu Wahyu", "Dwi Arman Prasetya", "Fairuz Iqbal Maulana"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Yuyu Wahyu",
+      "Dwi Arman Prasetya",
+      "Fairuz Iqbal Maulana"
+    ],
     "title": "Leafony Board IoT and Its Development for Engineering Education",
     "desc": "Leafony Board, berbasis ATmega328P, dirancang sebagai platform modular IoT hemat daya untuk pendidikan teknik, mendukung pengembangan proyek sensor dan komunikasi nirkabel melalui stacking shield dan kompatibilitas dengan Arduino IDE.",
     "img": "/kegiatan/Gemini_Generated_Image_49ww6j49ww6j49ww.png"
   },
   {
     "id": 368,
-    "author": ["Rizky Rahmatullah", "Trie Maya Kadarina", "Bagus Bhakti Irawan", "Reza Septiawan", "Arief Rufiyanto", "Budi Sulistya", "Arief Budi Santiko", "Puput Dani Prasetyo Adi", "Nicco Plamonia", "Ravindra Kumar Shabajee", "Suhardi Atmoko", "Dendy Mahabror", "Yudi Prastiyono"],
+    "author": [
+      "Rizky Rahmatullah",
+      "Trie Maya Kadarina",
+      "Bagus Bhakti Irawan",
+      "Reza Septiawan",
+      "Arief Rufiyanto",
+      "Budi Sulistya",
+      "Arief Budi Santiko",
+      "Puput Dani Prasetyo Adi",
+      "Nicco Plamonia",
+      "Ravindra Kumar Shabajee",
+      "Suhardi Atmoko",
+      "Dendy Mahabror",
+      "Yudi Prastiyono"
+    ],
     "title": "Design and Implementation of IoT-Based Monitoring Battery and Solar Panel Temperature in Hydroponic System",
     "desc": "Sistem IoT memantau suhu panel surya dan baterai pada sistem hidroponik secara real-time melalui aplikasi Android dan Grafana, dengan akurasi sensor hingga 98% dan QoS jaringan tanpa packet loss.",
     "img": "/kegiatan/Gemini_Generated_Image_bfp9c3bfp9c3bfp9.png"
   },
   {
     "id": 369,
-    "author": ["Fairuz Iqbal Maulana", "Dian Lestari", "Puput Dani Prasetyo Adi", "Mohammad Nazir Arifin", "Agung Purnomo"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Dian Lestari",
+      "Puput Dani Prasetyo Adi",
+      "Mohammad Nazir Arifin",
+      "Agung Purnomo"
+    ],
     "title": "Internet of Medical Things: A Bibliometric Analysis of Research Publications from 2018–2022",
     "desc": "Analisis bibliometrik terhadap 1.165 publikasi Scopus menunjukkan pertumbuhan eksponensial penelitian IoMT, dengan fokus pada integrasi perangkat medis, keamanan data, dan telemedicine selama periode 2018–2022.",
     "img": "/kegiatan/Gemini_Generated_Image_mni2unmni2unmni2.png"
   },
   {
     "id": 370,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Dian Lestari", "Agung Purnomo", "Daniel Anando Wangean"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Dian Lestari",
+      "Agung Purnomo",
+      "Daniel Anando Wangean"
+    ],
     "title": "Sentiment analysis on service quality of an online healthcare mobile platform using VADER and roberta pretrained model",
     "desc": "Analisis sentimen ulasan pengguna Halodoc di Google Play menggunakan VADER dan RoBERTa mengungkap persepsi positif terhadap aksesibilitas dan kredibilitas layanan kesehatan digital di Indonesia.",
     "img": "/kegiatan/Gemini_Generated_Image_uaeksauaeksauaek.png"
   },
   {
     "id": 371,
-    "author": ["Puput Dani Prasetyo Adi", "Samsir Samsir", "Firman Edi", "Iwan Purnama", "Muhammad Yasir", "Agoestina Mappadang", "Fairuz Iqbal Maulana", "Gatot Suharto Abdul Fatah", "Bendjamin Benny Louhenapessy", "Yudi Prastiyono"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Samsir Samsir",
+      "Firman Edi",
+      "Iwan Purnama",
+      "Muhammad Yasir",
+      "Agoestina Mappadang",
+      "Fairuz Iqbal Maulana",
+      "Gatot Suharto Abdul Fatah",
+      "Bendjamin Benny Louhenapessy",
+      "Yudi Prastiyono"
+    ],
     "title": "Performance of lorawan in multi-node",
     "desc": "Simulasi OMNeT++ mengevaluasi kinerja LoRaWAN multi-node menggunakan chip RF96, menganalisis parameter seperti RSSI, SNR, packet loss, dan bit error rate dalam skenario jaringan padat.",
     "img": "/kegiatan/Gemini_Generated_Image_av5wfzav5wfzav5w.png"
   },
   {
     "id": 372,
-    "author": ["Yahya Syukri Amrullah", "Teguh Praludi", "Yusnita Rahayu", "Topik Teguh Estu", "Folin Oktafiani", "Yaya Sulaeman", "Ros Sariningrum", "Puput Dani Prasetyo Adi", "Tony Kristiantor"],
+    "author": [
+      "Yahya Syukri Amrullah",
+      "Teguh Praludi",
+      "Yusnita Rahayu",
+      "Topik Teguh Estu",
+      "Folin Oktafiani",
+      "Yaya Sulaeman",
+      "Ros Sariningrum",
+      "Puput Dani Prasetyo Adi",
+      "Tony Kristiantor"
+    ],
     "title": "Design and Realization Bandpass Filter 2.4 GHz Using Symmetric Step Impedance Resonator",
     "desc": "Filter bandpass 2.4 GHz berbasis resonator impedansi bertingkat simetris dirancang pada substrat Duroid Rogers 4350, mencapai return loss 22 dB, insertion loss -0.77 dB, dan bandwidth 180 MHz.",
     "img": "/kegiatan/Gemini_Generated_Image_j0uud7j0uud7j0uu.png"
   },
   {
     "id": 373,
-    "author": ["Puput Dani Prasetyo Adi", "Lintang Patria", "Adi Wirawan", "Tjahjo Adiprabowo", "Arief Budi Santiko", "Riza Zulkarnain", "Rizky Rahmatullah", "Bendjamin Benny Louhenapessy"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Lintang Patria",
+      "Adi Wirawan",
+      "Tjahjo Adiprabowo",
+      "Arief Budi Santiko",
+      "Riza Zulkarnain",
+      "Rizky Rahmatullah",
+      "Bendjamin Benny Louhenapessy"
+    ],
     "title": "Performance Evaluation of LoRa RFM96 on IoT Telkom Indonesia",
     "desc": "Evaluasi kinerja node LoRa RFM96 pada platform IoT Telkom Indonesia menunjukkan keandalan transmisi data multi-sensor di lingkungan outdoor non-line-of-sight di kawasan BRIN Bandung.",
     "img": "/kegiatan/Gemini_Generated_Image_dz4te7dz4te7dz4t.png"
   },
   {
     "id": 374,
-    "author": ["Puput Dani Prasetyo Adi", "Volvo Sihombing", "Idil Ardi", "Fairuz Iqbal Maulana", "Arief Budi Santiko", "Riza Zulkarnain", "Adi Wirawan", "Bendjamin Benny Louhenapessy", "Yudi Prastiyono", "Irawan Sukma", "Jumadi Mabe Parenreng", "Muhammad Fauzan Edy Purnomo", "Ibnu Rasvid Munthe", "Tjahjo Adiprabowo"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Volvo Sihombing",
+      "Idil Ardi",
+      "Fairuz Iqbal Maulana",
+      "Arief Budi Santiko",
+      "Riza Zulkarnain",
+      "Adi Wirawan",
+      "Bendjamin Benny Louhenapessy",
+      "Yudi Prastiyono",
+      "Irawan Sukma",
+      "Jumadi Mabe Parenreng",
+      "Muhammad Fauzan Edy Purnomo",
+      "Ibnu Rasvid Munthe",
+      "Tjahjo Adiprabowo"
+    ],
     "title": "Development of LoRaWAN blind ADR for mobile realtime monitoring system",
     "desc": "Pengembangan Blind ADR untuk node LoRaWAN bergerak berhasil mengurangi tabrakan data dan meningkatkan QoS dalam sistem pemantauan real-time dengan mobilitas tinggi.",
     "img": "/kegiatan/Gemini_Generated_Image_i056qhi056qhi056.png"
   },
   {
     "id": 375,
-    "author": ["Rachmat Muwardi", "Ahmad Faizin", "Puput Dani Prasetyo Adi", "Rizky Rahmatullah", "Yanxi Wang", "Mirna Yunita", "Dendi Mahabror"],
+    "author": [
+      "Rachmat Muwardi",
+      "Ahmad Faizin",
+      "Puput Dani Prasetyo Adi",
+      "Rizky Rahmatullah",
+      "Yanxi Wang",
+      "Mirna Yunita",
+      "Dendi Mahabror"
+    ],
     "title": "Design Human Object Detection Yolov4Tiny Algorithm on ARM Cortex-A72 and A53",
     "desc": "Implementasi YOLOv4-Tiny pada NanoPi M4V2 (ARM Cortex-A72/A53) mencapai akurasi deteksi 98% dan FPS 3.8–5.5, menjadikannya solusi ringkas untuk sistem keamanan berbasis deteksi manusia.",
     "img": "/kegiatan/Gemini_Generated_Image_9hg2bh9hg2bh9hg2.png"
   },
   {
     "id": 376,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Nirwana Haidar Hari", "Miftahul Hamim", "Dian Lestari"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Nirwana Haidar Hari",
+      "Miftahul Hamim",
+      "Dian Lestari"
+    ],
     "title": "Applications of artificial intelligence in renewable energy: a bibliometric analysis of the scientific production indexed in scopus",
     "desc": "Studi bibliometrik atas 10 tahun publikasi Scopus (2014–2023) mengungkap dominasi Tiongkok, India, dan AS dalam penelitian AI untuk energi terbarukan, dengan University of Sharjah sebagai institusi terkemuka.",
     "img": "/kegiatan/Gemini_Generated_Image_2zb0nu2zb0nu2zb0.png"
   },
   {
     "id": 377,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Chasandra Puspitasari", "Agung Purnomo"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Chasandra Puspitasari",
+      "Agung Purnomo"
+    ],
     "title": "Research Trends in Machine Learning Applications for Predicting Ecosystem Responses to Environmental Changes",
     "desc": "Analisis bibliometrik terhadap 554 artikel (2014–2023) mengungkap tren dominan seperti perubahan iklim, keanekaragaman hayati, dan respons ekologis dalam penelitian ML untuk prediksi perubahan lingkungan.",
     "img": "/kegiatan/Gemini_Generated_Image_okesczokesczokes.png"
   },
   {
     "id": 378,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Mohammad Nazir Arifin", "Miftahul Hamim", "Andi Pramono"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Mohammad Nazir Arifin",
+      "Miftahul Hamim",
+      "Andi Pramono"
+    ],
     "title": "Analyzing and Visualizing Knowledge Structures of Research and Development Trends in Internet of Things for Smart Agriculture: A Decade Overview",
     "desc": "Studi bibliometrik atas satu dekade penelitian IoT di pertanian cerdas menunjukkan dominasi India, Tiongkok, dan AS, dengan fokus pada pemantauan tanah, irigasi otomatis, dan prediksi hasil panen.",
     "img": "/kegiatan/Gemini_Generated_Image_pvmuklpvmuklpvmu.png"
   },
   {
     "id": 379,
-    "author": ["Dian Lestari", "Fairuz Iqbal Maulana", "Agung Purnomo", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Dian Lestari",
+      "Fairuz Iqbal Maulana",
+      "Agung Purnomo",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "A Comprehensive Analysis of: A Systematic Review",
     "desc": "Tinjauan sistematis terhadap 8 studi (2019–2023) menunjukkan bahwa klinik virtual meningkatkan aksesibilitas dan kepuasan ibu hamil dalam perawatan kehamilan pasca-pandemi, meski tantangan digitalisasi tetap ada.",
     "img": "/kegiatan/Gemini_Generated_Image_j4y3lvj4y3lvj4y3.png"
   },
   {
     "id": 380,
-    "author": ["Abdul Wahid", "Jumadi Mabe Parenreng", "Welly Chandra Kusumah Kusnandar", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Abdul Wahid",
+      "Jumadi Mabe Parenreng",
+      "Welly Chandra Kusumah Kusnandar",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Telegram bot-based Flood Early Warning System with WSN Integration",
     "desc": "Prototipe sistem peringatan dini banjir berbasis sensor ultrasonik dan bot Telegram mencapai akurasi 99.4% dan waktu pengiriman notifikasi rata-rata 4.07 detik untuk wilayah rawan banjir di Indonesia.",
     "img": "/kegiatan/Gemini_Generated_Image_gyq23bgyq23bgyq2.png"
   },
   {
     "id": 381,
-    "author": ["Triwiyanto Triwiyanto", "Achmad Rizal", "Wahyu Caesarendra", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Triwiyanto Triwiyanto",
+      "Achmad Rizal",
+      "Wahyu Caesarendra",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Proceedings of the 4th International Conference on Electronics, Biomedical Engineering, and Health Informatics: ICEBEHI 2023, 4–5 October, Surabaya, Indonesia",
     "desc": "Buku prosiding ini memuat 70+ paper peer-reviewed dari ICEBEHI 2023, mencakup tiga bidang utama: elektronika, rekayasa biomedis, dan informatika kesehatan, dengan fokus pada teknologi mutakhir untuk aplikasi biomedis.",
     "img": "/kegiatan/Gemini_Generated_Image_gp0hl7gp0hl7gp0h.png"
   },
   {
     "id": 382,
-    "author": ["Fairuz Iqbal Maulana", "Dian Lestari", "Anita Rahayu", "Puput Dani Prasetyo Adi", "Chasandra Puspitasari", "Satria Fadil Persada"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Dian Lestari",
+      "Anita Rahayu",
+      "Puput Dani Prasetyo Adi",
+      "Chasandra Puspitasari",
+      "Satria Fadil Persada"
+    ],
     "title": "Factors Affecting the Willingness to Share Data in Mobile Health (mHealth) Apps in Indonesia",
     "desc": "Studi SEM terhadap 103 pengguna mHealth di Indonesia menunjukkan bahwa manfaat yang dirasakan (seperti saran kesehatan personal) lebih dominan daripada kekhawatiran privasi dalam keputusan berbagi data.",
     "img": "/kegiatan/Gemini_Generated_Image_gu1vwjgu1vwjgu1v.png"
   },
   {
     "id": 383,
-    "author": ["Fairuz Iqbal Maulana", "Anita Rahayu", "Gamal Kusuma Zamahsari", "Puput Dani Prasetyo Adi", "Rahman Arifuddin", "Wahyu Dirgantara"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Anita Rahayu",
+      "Gamal Kusuma Zamahsari",
+      "Puput Dani Prasetyo Adi",
+      "Rahman Arifuddin",
+      "Wahyu Dirgantara"
+    ],
     "title": "Augmented Reality in Higher Education: Literature Review",
     "desc": "Tinjauan literatur (2019–2023) menunjukkan pertumbuhan pesat penggunaan AR di pendidikan tinggi, terutama di bidang STEM, untuk visualisasi konsep abstrak dan peningkatan keterlibatan mahasiswa.",
     "img": "/kegiatan/Gemini_Generated_Image_vswfkwvswfkwvswf.png"
   },
   {
     "id": 384,
-    "author": ["Fairuz Iqbal Maulana", "Dian Lestari", "Agung Purnomo", "Rahman Arifuddin", "Vandha Pradwiyasma Widartha", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Dian Lestari",
+      "Agung Purnomo",
+      "Rahman Arifuddin",
+      "Vandha Pradwiyasma Widartha",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Preferences for Using Canva Apps as a Presentation Media Creation Tool Among Gen Z Students: SEM Analysis with TAM and UTAUT2 Approaches",
     "desc": "Analisis SEM mengungkap bahwa estetika, kreativitas, dan kesenangan menggunakan Canva menjadi alasan utama Generasi Z memilihnya sebagai alat pembuatan presentasi di lingkungan akademik.",
     "img": "/kegiatan/Gemini_Generated_Image_2lay8p2lay8p2lay.png"
   },
   {
     "id": 385,
-    "author": ["Fairuz Iqbal Maulana", "Dian Lestari", "Puput Dani Prasetyo Adi", "Agung Purnomo", "Mufidah Nur Amalia", "Miftahul Hamim"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Dian Lestari",
+      "Puput Dani Prasetyo Adi",
+      "Agung Purnomo",
+      "Mufidah Nur Amalia",
+      "Miftahul Hamim"
+    ],
     "title": "Trends in Research Publication Topics Related to Artificial Intelligence for Medicine in Medical Education: A Bibliometric Analysis",
     "desc": "Analisis bibliometrik terhadap 389 publikasi (2019–2023) menunjukkan dominasi AS, Tiongkok, dan Kanada dalam integrasi AI ke dalam pendidikan kedokteran, dengan fokus pada simulasi klinis dan asisten pembelajaran cerdas.",
     "img": "/kegiatan/Gemini_Generated_Image_okesczokesczokes.png"
   },
   {
     "id": 386,
-    "author": ["Puput Dani Prasetyo Adi", "Ros Sariningrum", "Rizky Rahmatullah", "Hessy Novita", "Tiar Lina Situngkir", "Priyo Hartono Adji", "Angela Mariana Lusiastuti", "Antonia Rahayu Rosaria Wibowo", "Yudi Prastiyono", "Tjahjo Adiprabowo", "Muhammad Yassir", "Fairuz Iqbal Maulana"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Ros Sariningrum",
+      "Rizky Rahmatullah",
+      "Hessy Novita",
+      "Tiar Lina Situngkir",
+      "Priyo Hartono Adji",
+      "Angela Mariana Lusiastuti",
+      "Antonia Rahayu Rosaria Wibowo",
+      "Yudi Prastiyono",
+      "Tjahjo Adiprabowo",
+      "Muhammad Yassir",
+      "Fairuz Iqbal Maulana"
+    ],
     "title": "Light Fidelity and Internet of Things for Medical Applications",
     "desc": "Sistem LiFi berbasis LED dan LDR berhasil mentransmisikan data sensor medis (seperti nadi dan SPO2) dengan kecepatan rendah namun aman, membuka potensi komunikasi nirkabel bebas RF di lingkungan rumah sakit.",
     "img": "/kegiatan/Gemini_Generated_Image_xwprxbxwprxbxwpr.png"
   },
   {
     "id": 387,
-    "author": ["Fairuz Iqbal Maulana", "Dian Lestari", "Puput Dani Prasetyo Adi", "Miftahul Hamim", "Anita Rahayu", "Vandha Pradwiyasma Widartha"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Dian Lestari",
+      "Puput Dani Prasetyo Adi",
+      "Miftahul Hamim",
+      "Anita Rahayu",
+      "Vandha Pradwiyasma Widartha"
+    ],
     "title": "Direction of Machine Learning Research in Obstetric Care in the Last 10 Years",
     "desc": "Analisis bibliometrik terhadap 829 publikasi (2014–2023) mengungkap tren meningkatnya penggunaan machine learning dalam perawatan obstetri, dengan fokus pada prediksi komplikasi dan personalisasi perawatan maternal.",
     "img": "/kegiatan/Gemini_Generated_Image_ftguf5ftguf5ftgu.png"
   },
   {
     "id": 388,
-    "author": ["Dian Lestari", "Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Anita Rahayu", "Reny Nadlifatin", "Vandha Pradwiyasma Widartha"],
+    "author": [
+      "Dian Lestari",
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Anita Rahayu",
+      "Reny Nadlifatin",
+      "Vandha Pradwiyasma Widartha"
+    ],
     "title": "Bibliometric Analysis of Intelligent Techniques for Obstetric Complication Prediction in the Last 20 Years",
     "desc": "Studi ini mengidentifikasi klaster riset utama seperti diabetes gestasional dan biomarker dalam prediksi komplikasi obstetri menggunakan AI selama dua dekade, sekaligus menyoroti perlunya aplikasi klinis berbasis ML.",
     "img": "/kegiatan/Gemini_Generated_Image_1xksgc1xksgc1xks.png"
   },
   {
     "id": 389,
-    "author": ["Puput Dani Prasetyo Adi", "Arip Kristiyanto", "Ajang Sopandi", "Irma Nirmala", "Muhlis Tahir", "Etistika Yuni Wijaya"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Arip Kristiyanto",
+      "Ajang Sopandi",
+      "Irma Nirmala",
+      "Muhlis Tahir",
+      "Etistika Yuni Wijaya"
+    ],
     "title": "Performance Evaluation of Raspberry Pi Pico for Internet of Things and Its Analysis",
     "desc": "Evaluasi kinerja Raspberry Pi Pico berbasis RP2040 menunjukkan potensinya sebagai platform IoT hemat daya untuk aplikasi mobile seperti drone, sensor medis, dan sistem tertanam berdaya baterai rendah.",
     "img": "/kegiatan/Gemini_Generated_Image_3bx4383bx4383bx4.png"
   },
   {
     "id": 390,
-    "author": ["Fairuz Iqbal Maulana", "Chasandra Puspitasari", "Miftahul Hamim", "Puput Dani Prasetyo Adi", "Rahman Arifuddin", "Vandha Pradwiyasma Widartha"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Chasandra Puspitasari",
+      "Miftahul Hamim",
+      "Puput Dani Prasetyo Adi",
+      "Rahman Arifuddin",
+      "Vandha Pradwiyasma Widartha"
+    ],
     "title": "Internet of Things for Agriculture Industry: A Bibliometric Analysis in the Last Five Years",
     "desc": "Analisis 120 publikasi Scopus (2018–2022) menunjukkan pertumbuhan IoT di pertanian dengan fokus pada jaringan sensor nirkabel, teknologi wearable untuk petani, dan integrasi data untuk ketahanan pangan.",
     "img": "/kegiatan/Gemini_Generated_Image_8pvwaz8pvwaz8pvw.png"
   },
   {
     "id": 391,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Andi Pramono", "Anita Rahayu", "Satria Fadil Persada", "Reny Nadlifatin"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Andi Pramono",
+      "Anita Rahayu",
+      "Satria Fadil Persada",
+      "Reny Nadlifatin"
+    ],
     "title": "A Scientometric Review and Research Trends of Internet of Things in Application of Smart City",
     "desc": "Tinjauan scientometrik atas 3.849 dokumen (2019–2023) menempatkan Tiongkok, India, dan Korea sebagai pemimpin riset IoT untuk smart city, dengan fokus pada manajemen lalu lintas, energi, dan layanan publik cerdas.",
     "img": "/kegiatan/Gemini_Generated_Image_oaru8moaru8moaru.png"
   },
   {
     "id": 392,
-    "author": ["Fairuz Iqbal Maulana", "Anita Rahayu", "Vandha Pradwiyasma Widartha", "Puput Dani Prasetyo Adi", "Agung Purnomo", "Andi Pramono"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Anita Rahayu",
+      "Vandha Pradwiyasma Widartha",
+      "Puput Dani Prasetyo Adi",
+      "Agung Purnomo",
+      "Andi Pramono"
+    ],
     "title": "A Comparative Study of Machine Learning Models for Sentiment Analysis on User Reviews of the Desa Wisata Nusantara Application in the Google Play Store",
     "desc": "Perbandingan BNB dan SVM untuk analisis sentimen ulasan aplikasi Desa Wisata Nusantara menunjukkan mayoritas ulasan negatif (45.07%), mengungkap area peningkatan krusial dalam pengalaman pengguna digital pariwisata.",
     "img": "/kegiatan/Gemini_Generated_Image_2mv0c22mv0c22mv0.png"
   },
   {
     "id": 393,
-    "author": ["Puput Dani Prasetyo Adi", "Adi Wirawan", "Suhardi Atmoko Budi Susilo", "Riza Zulkarnain", "Angela Mariana Lusiastuti", "Dendy Mahabror", "Yudi Prastiyono", "Idil Ardi", "Hessy Novita", "Indra Pratama", "R Priyo Hartono Adji", "Suyoto Suyoto"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Adi Wirawan",
+      "Suhardi Atmoko Budi Susilo",
+      "Riza Zulkarnain",
+      "Angela Mariana Lusiastuti",
+      "Dendy Mahabror",
+      "Yudi Prastiyono",
+      "Idil Ardi",
+      "Hessy Novita",
+      "Indra Pratama",
+      "R Priyo Hartono Adji",
+      "Suyoto Suyoto"
+    ],
     "title": "Smart Aquaculture Vaname Shrimp LoRaWAN based",
     "desc": "Sistem akuakultur cerdas berbasis LoRaWAN memantau tujuh parameter kritis (DO, pH, salinitas, amonia, dll.) secara real-time, mendukung budidaya udang vaname berkelanjutan dengan efisiensi energi tinggi.",
     "img": "/kegiatan/Gemini_Generated_Image_9ba7zs9ba7zs9ba7.png"
   },
   {
     "id": 394,
-    "author": ["Bambang Nurdewanto", "Kukuh Yudhistiro", "Dani Yuniawan", "Himawan Pramaditya", "Mochammad Daffa Putra Karyudi", "Yulia Natasya Farah Diba Arifin", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Bambang Nurdewanto",
+      "Kukuh Yudhistiro",
+      "Dani Yuniawan",
+      "Himawan Pramaditya",
+      "Mochammad Daffa Putra Karyudi",
+      "Yulia Natasya Farah Diba Arifin",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Deep Learning Approach in Complex Sentiment Analysis: A Case Study on Social Problems",
     "desc": "Pendekatan CNN untuk analisis sentimen kompleks mengkategorikan ulasan sosial ke dalam tiga dimensi: Sentimen (positif/netral/negatif), Nada (kritik/saran/keluhan), dan Objek, memberikan wawasan multidimensi tentang isu publik.",
     "img": "/kegiatan/Gemini_Generated_Image_nr7rw4nr7rw4nr7r.png"
   },
   {
     "id": 395,
-    "author": ["Akhmad Zainuri", "Onny Setyawati", "Zainul Abidin", "Panca Mudjirahardjo", "Renaldi Putra Pratama", "Puput Dani Prasetyo Adi", "Robeth Viktoria Manurung", "Dauletbay Baktybaevich Sarsenbaev"],
+    "author": [
+      "Akhmad Zainuri",
+      "Onny Setyawati",
+      "Zainul Abidin",
+      "Panca Mudjirahardjo",
+      "Renaldi Putra Pratama",
+      "Puput Dani Prasetyo Adi",
+      "Robeth Viktoria Manurung",
+      "Dauletbay Baktybaevich Sarsenbaev"
+    ],
     "title": "Designing a synchronous automatic transfer switch for an on-grid solar system",
     "desc": "Desain automatic transfer switch sinkron memungkinkan sistem surya on-grid tetap beroperasi selama pemadaman PLN dengan memicu inverter secara mandiri, meningkatkan keandalan pasokan listrik siang hari.",
     "img": "/kegiatan/Gemini_Generated_Image_tajy46tajy46tajy.png"
   },
   {
     "id": 396,
-    "author": ["Iwan Purnama", "Rahmadani Pane", "Adri Gabriel Sooai", "Firman Edi", "Ahmad Abdul Chamid", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Iwan Purnama",
+      "Rahmadani Pane",
+      "Adri Gabriel Sooai",
+      "Firman Edi",
+      "Ahmad Abdul Chamid",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Auto-handover gateway lorawan based on autonomous vehicles",
     "desc": "Simulasi auto-handover gateway LoRaWAN untuk kendaraan otonom berhasil mempertahankan koneksi stabil dengan memilih gateway terdekat secara dinamis saat kendaraan bergerak, meski terjadi penurunan bit rate pada jarak jauh.",
     "img": "/kegiatan/Gemini_Generated_Image_o7rf54o7rf54o7rf.png"
   },
   {
     "id": 397,
-    "author": ["Ali Akbar Ritonga", "Syaiful Zuhri Harahap", "Adri Gabriel Sooai", "Aryo Nugroho", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Ali Akbar Ritonga",
+      "Syaiful Zuhri Harahap",
+      "Adri Gabriel Sooai",
+      "Aryo Nugroho",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "A review of fintech management and security development",
     "desc": "Tinjauan komprehensif terhadap keamanan Fintech di platform IoT mengungkap risiko peretasan, pencurian dana, dan perbandingan kripto seperti Bitcoin vs Ethereum, serta strategi mitigasi berbasis enkripsi dan kebijakan keamanan.",
     "img": "/kegiatan/Gemini_Generated_Image_jflzghjflzghjflz.png"
   },
   {
     "id": 398,
-    "author": ["Angga Putra Juledi", "Moh Khoridatul Huda", "Muhammad Taufik Dwi Putra", "Lalu Delsi Samsumar", "Puput Dani Prasetyo Adi", "Yanuar Nurdiansyah"],
+    "author": [
+      "Angga Putra Juledi",
+      "Moh Khoridatul Huda",
+      "Muhammad Taufik Dwi Putra",
+      "Lalu Delsi Samsumar",
+      "Puput Dani Prasetyo Adi",
+      "Yanuar Nurdiansyah"
+    ],
     "title": "Performance Evaluation of LoRa 923 MHz for the Internet of Things",
     "desc": "Evaluasi LoRa 923 MHz menggunakan board LILYGO menunjukkan PDR 85% pada SF12 dalam uji jarak 10 km, membuka potensi transmisi data berbasis gambar di jaringan IoT hemat daya.",
     "img": "/kegiatan/Gemini_Generated_Image_rndncfrndncfrndn.png"
   },
   {
     "id": 399,
-    "author": ["Raden Priyo Hartono Adji", "Deni Permana Kurniadi", "Arief Budi Santiko", "Raden Deasy Mandasari", "Eko Joni Pristianto", "Fajri Darwis", "Arief Nur Rahman", "Puput Dani Prasetyo Adi", "Deni Kurnia", "Raka Pratindy", "Ashif Aminulloh Fathnan"],
+    "author": [
+      "Raden Priyo Hartono Adji",
+      "Deni Permana Kurniadi",
+      "Arief Budi Santiko",
+      "Raden Deasy Mandasari",
+      "Eko Joni Pristianto",
+      "Fajri Darwis",
+      "Arief Nur Rahman",
+      "Puput Dani Prasetyo Adi",
+      "Deni Kurnia",
+      "Raka Pratindy",
+      "Ashif Aminulloh Fathnan"
+    ],
     "title": "Low-Cost 9.4 GHz Microstrip Patch Antenna Design with PLA and Copper Tape",
     "desc": "Antena mikrostrip 9.4 GHz berbahan PLA biodegradable dan copper tape mencapai gain 7.11 dBi dan bandwidth 503 MHz, menawarkan solusi murah dan ramah lingkungan untuk sistem radar dan komunikasi.",
     "img": "/kegiatan/Gemini_Generated_Image_7w8ofp7w8ofp7w8o.png"
   },
   {
     "id": 400,
-    "author": ["Raden Priyo Hartono Adji", "Puput Dani Prasetyo Adi", "Raden Deasy Mandasari", "Erry Dwi Kurniawan", "Eko Joni Pristianto", "Fajri Darwis", "Arief Nur Rahman", "Deni Permana Kurniadi", "Pamungkas Daud", "Dadin Mahmudin", "Ashif Aminulloh Fathnan"],
+    "author": [
+      "Raden Priyo Hartono Adji",
+      "Puput Dani Prasetyo Adi",
+      "Raden Deasy Mandasari",
+      "Erry Dwi Kurniawan",
+      "Eko Joni Pristianto",
+      "Fajri Darwis",
+      "Arief Nur Rahman",
+      "Deni Permana Kurniadi",
+      "Pamungkas Daud",
+      "Dadin Mahmudin",
+      "Ashif Aminulloh Fathnan"
+    ],
     "title": "Band Stop Frequency Selective Surfaces Using Ring Resonators: Simulation and 6G Metasurface Potential",
     "desc": "FSS berbasis resonator cincin mencapai atenuasi -50 dB pada 3.5 GHz dengan bandwidth fraksional 76%, menunjukkan potensi tinggi sebagai metasurface anti-interferensi untuk jaringan 6G.",
     "img": "/kegiatan/Gemini_Generated_Image_lhd6n8lhd6n8lhd6.png"
   },
   {
     "id": 401,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Vandha Pradwiyasma Widartha"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Vandha Pradwiyasma Widartha"
+    ],
     "title": "A Comprehensive Review and Research Trends of Large Language Models (LLMs) in Artificial Intelligence",
     "desc": "Analisis scientometrik terhadap 2.149 publikasi menempatkan AS, Tiongkok, dan Inggris sebagai pemimpin riset LLM, dengan fokus pada regulasi, etika, dan aplikasi lintas disiplin seperti fisika dan geomorfologi.",
     "img": "/kegiatan/Gemini_Generated_Image_851db851db851db8.png"
   },
   {
     "id": 402,
-    "author": ["Fairuz Iqbal Maulana", "Puput Dani Prasetyo Adi", "Vandha Pradwiyasma Widartha"],
+    "author": [
+      "Fairuz Iqbal Maulana",
+      "Puput Dani Prasetyo Adi",
+      "Vandha Pradwiyasma Widartha"
+    ],
     "title": "Leveraging Bernoulli Naïve Bayes (BNB) and Support Vector Machine (SVM) for Sentiment Analysis and Visualization of Sayurbox Application Reviews",
     "desc": "Analisis sentimen ulasan Sayurbox menunjukkan 69.43% ulasan negatif, mengungkap tantangan utama dalam pengalaman pengguna platform e-grocery berbasis langganan di Indonesia.",
     "img": "/kegiatan/Gemini_Generated_Image_7a1mfw7a1mfw7a1m.png"
   },
   {
     "id": 403,
-    "author": ["Yuyu Wahyu", "Tjahjo Adiprabowo", "Nasrullah Armi", "Asif Awaludin", "Ginaldi Ari Nugroho", "Puput Dani Prasetyo Adi", "Aloysius Adya Pramudita", "Suisbiyanto Prasetya", "B Berlian Surya Wicaksana", "Rizky Rahmatullah", "Pamungkas Daud", "Teguh Praludi"],
+    "author": [
+      "Yuyu Wahyu",
+      "Tjahjo Adiprabowo",
+      "Nasrullah Armi",
+      "Asif Awaludin",
+      "Ginaldi Ari Nugroho",
+      "Puput Dani Prasetyo Adi",
+      "Aloysius Adya Pramudita",
+      "Suisbiyanto Prasetya",
+      "B Berlian Surya Wicaksana",
+      "Rizky Rahmatullah",
+      "Pamungkas Daud",
+      "Teguh Praludi"
+    ],
     "title": "Multi-Function Coastal Radar for Tsunami Detection And Ocean Wave Monitoring",
     "desc": "Radar pantai berbasis Compressed Pulse Radar (SIMRAD Halo) dimodifikasi untuk mendeteksi gelombang tsunami dengan menganalisis 'clutter' permukaan laut, memberikan peringatan dini berbasis klasifikasi sinyal radar.",
     "img": "/kegiatan/Gemini_Generated_Image_vaec4yvaec4yvaec.png"
   },
   {
     "id": 404,
-    "author": ["Muhammad Yassir", "Harry Soepandi", "Ajib Hanani", "Johan Ericka Wahyu Prakasa", "Ganis Chandra Puspitadewi", "Sastya Hendri Wibowo", "Puput Dani Prasetyo Adi", "Akio Kitagawa"],
+    "author": [
+      "Muhammad Yassir",
+      "Harry Soepandi",
+      "Ajib Hanani",
+      "Johan Ericka Wahyu Prakasa",
+      "Ganis Chandra Puspitadewi",
+      "Sastya Hendri Wibowo",
+      "Puput Dani Prasetyo Adi",
+      "Akio Kitagawa"
+    ],
     "title": "Performance analysis of LoRaWAN communication utilizing the RFM96 module",
     "desc": "Analisis kinerja LoRaWAN RFM96 pada platform Telkom IoT menunjukkan latensi 20–50 ms, RSSI rata-rata -110 hingga -115 dBm, dan SNR -10 hingga -16 dB, membuktikan keandalan untuk aplikasi IoT medis seperti pemantauan detak jantung.",
     "img": "/kegiatan/Gemini_Generated_Image_j9kg2yj9kg2yj9kg.png"
   },
   {
     "id": 405,
-    "author": ["Mardiana Andarwati", "Galandaru Swalaganata", "Sari Yuniarti", "Fandi Y Pamuji", "Edward R Sitompul", "Kukuh Yudhistiro", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Mardiana Andarwati",
+      "Galandaru Swalaganata",
+      "Sari Yuniarti",
+      "Fandi Y Pamuji",
+      "Edward R Sitompul",
+      "Kukuh Yudhistiro",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Adoption of Generative AI-Enhanced Profit Sharing Digital Systems in MSMEs: A Comprehensive Model Analysis",
     "desc": "Studi ini menguji penerimaan sistem E-Mudharabah berbasis Generative AI di kalangan pelaku UMKM menggunakan integrasi TAM dan UTAUT, menyoroti peran kemanfaatan yang dirasakan, pengaruh sosial, dan efikasi teknologi.",
     "img": "/kegiatan/Gemini_Generated_Image_vkurupvkurupvkur.png"
   },
   {
     "id": 406,
-    "author": ["Rizky Rahmatullah", "Hongmin Gao", "Ryan Prasetya Utama", "Puput Dani Prasetyo Adi", "Jannat Mubashir", "Rachmat Muwardi", "Widar Dwi Gustian", "Hanifah Dwiyanti"],
+    "author": [
+      "Rizky Rahmatullah",
+      "Hongmin Gao",
+      "Ryan Prasetya Utama",
+      "Puput Dani Prasetyo Adi",
+      "Jannat Mubashir",
+      "Rachmat Muwardi",
+      "Widar Dwi Gustian",
+      "Hanifah Dwiyanti"
+    ],
     "title": "Multinode LoRa-MQTT of Design Architecture and Analyze Performance for Dual Protocol Network IoT",
     "desc": "Arsitektur dual-protokol LoRa-MQTT mengatasi keterbatasan jaringan tunggal dengan menggabungkan jangkauan jauh LoRa dan throughput tinggi Wi-Fi, meski menghadapi tantangan tabrakan data pada node multi-pengirim.",
     "img": "/kegiatan/Gemini_Generated_Image_y4sm0qy4sm0qy4sm.png"
   },
   {
     "id": 407,
-    "author": ["Elli Ruslina", "Fajar Arrazaq", "Sutisna Abdul Rahman", "Tjahjo Adiprabowo", "Puput Dani Prasetyo Adi", "Yudi Yuliyus Maulana"],
+    "author": [
+      "Elli Ruslina",
+      "Fajar Arrazaq",
+      "Sutisna Abdul Rahman",
+      "Tjahjo Adiprabowo",
+      "Puput Dani Prasetyo Adi",
+      "Yudi Yuliyus Maulana"
+    ],
     "title": "Object Recognition IoT-Based for People with Disabilities: A Review",
     "desc": "Tinjauan sistematis mengenai Mini Smart Camera (MSC) berbasis IoT untuk disabilitas, mengintegrasikan pengenalan objek dan suara dengan komunikasi dua arah via RTSP dan MQTT, mendukung kemandirian melalui perangkat pintar berbasis OpenCV dan cloud.",
     "img": "/kegiatan/Gemini_Generated_Image_4l9eia4l9eia4l9e.png"
   },
   {
     "id": 408,
-    "author": ["Khusnul Rahmi Maulidha", "Mohammad Reza Faisal", "Setyo Wahyu Saputro", "Friska Abadi", "Dodon Turianto Nugrahadi", "Puput Dani Prasetyo Adi", "Hariyady Hariyady"],
+    "author": [
+      "Khusnul Rahmi Maulidha",
+      "Mohammad Reza Faisal",
+      "Setyo Wahyu Saputro",
+      "Friska Abadi",
+      "Dodon Turianto Nugrahadi",
+      "Puput Dani Prasetyo Adi",
+      "Hariyady Hariyady"
+    ],
     "title": "Comparative analysis of distance metrics in KNN and smote algorithms for software defect prediction",
     "desc": "Analisis komparatif menunjukkan bahwa kombinasi SMOTE dengan metrik Canberra dan Euclidean meningkatkan akurasi prediksi kegagalan perangkat lunak secara signifikan, terbukti dari peningkatan nilai AUC dan F1-measure pada dataset imbalanced.",
     "img": "/kegiatan/Gemini_Generated_Image_7fmwcv7fmwcv7fmw.png"
@@ -3013,7 +3800,16 @@
   },
   {
     "id": 410,
-    "author": ["Suryanto Suryanto", "Duto Nugroho", "Umi Muawanah", "Setiya Triharyuni", "Dian Oktaviani", "Sandi Wibowo", "Novi Susetyo Adi", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Suryanto Suryanto",
+      "Duto Nugroho",
+      "Umi Muawanah",
+      "Setiya Triharyuni",
+      "Dian Oktaviani",
+      "Sandi Wibowo",
+      "Novi Susetyo Adi",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "The potential contribution of Indonesian fishing vessels in reducing Green House gas emission",
     "desc": "Studi 'bottom-up' memperkirakan potensi reduksi emisi CO2eq hingga 68% pada kapal nelayan <30 GT pada 2030 melalui pendekatan low-carbon, menjadi kontribusi penting sektor perikanan terhadap target nasional perubahan iklim.",
     "img": "/kegiatan/Gemini_Generated_Image_75fcyf75fcyf75fc.png"
@@ -3027,28 +3823,62 @@
   },
   {
     "id": 412,
-    "author": ["Ros Sariningrum", "Puput Dani Prasetyo Adi", "Yudi Yuliyus Maulana", "Tjahjo Adiprabowo", "Sastya Hendri Wibowo", "Novi Fitria", "Hessy Novita", "Faiz Muqorrir Kaffah", "Ajang Sopandi"],
+    "author": [
+      "Ros Sariningrum",
+      "Puput Dani Prasetyo Adi",
+      "Yudi Yuliyus Maulana",
+      "Tjahjo Adiprabowo",
+      "Sastya Hendri Wibowo",
+      "Novi Fitria",
+      "Hessy Novita",
+      "Faiz Muqorrir Kaffah",
+      "Ajang Sopandi"
+    ],
     "title": "Non-Terrestrial Networks LPWAN IoT Satellite Communication for Medical Application",
     "desc": "Komunikasi LPWAN berbasis satelit LEO menggunakan LoRaWAN dan LR-FHSS mampu mengatasi keterbatasan sinyal di area terpencil, membuka jalan bagi telemedicine dan pemantauan kesehatan real-time tanpa infrastruktur darat.",
     "img": "/kegiatan/Gemini_Generated_Image_t060r2t060r2t060.png"
   },
   {
     "id": 413,
-    "author": ["Puput Dani Prasetyo Adi", "Arief Budi Santiko", "Fajri Darwis", "Rizky Rahmatullah", "Adi Wirawan", "Dendy Mahabror", "Riza Zulkarnain", "Suhardi Atmoko Budi Susilo", "Tjahjo Adiprabowo"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Arief Budi Santiko",
+      "Fajri Darwis",
+      "Rizky Rahmatullah",
+      "Adi Wirawan",
+      "Dendy Mahabror",
+      "Riza Zulkarnain",
+      "Suhardi Atmoko Budi Susilo",
+      "Tjahjo Adiprabowo"
+    ],
     "title": "River Water Quality Realtime Monitoring in Bandung City Using LoRaWAN",
     "desc": "Sistem pemantauan kualitas air sungai secara real-time di Bandung menggunakan sensor pH, DO, kekeruhan, suhu, dan ultrasonik berbasis LoRaWAN, dengan integrasi komunikasi satelit sebagai cadangan di area non-terestrial.",
     "img": "/kegiatan/Gemini_Generated_Image_7z8zu17z8zu17z8z.png"
   },
   {
     "id": 414,
-    "author": ["Puput Dani Prasetyo Adi", "Yudi Yuliyus Maulana", "Moh Khoridatul Huda", "Tjahjo Adiprabowo", "Cahyo Prihantoro", "Deni Permana Kurniadi"],
+    "author": [
+      "Puput Dani Prasetyo Adi",
+      "Yudi Yuliyus Maulana",
+      "Moh Khoridatul Huda",
+      "Tjahjo Adiprabowo",
+      "Cahyo Prihantoro",
+      "Deni Permana Kurniadi"
+    ],
     "title": "Improved Transmission of LoRaWAN in Terrestrial Networks and Satellite Assist Communication",
     "desc": "Penelitian ini mengoptimalkan transmisi LoRaWAN baik di jaringan terestrial maupun satelit dengan modulasi CSS dan LR-FHSS, meningkatkan QoS untuk aplikasi multisensor hingga transmisi citra berkualitas rendah.",
     "img": "/kegiatan/Gemini_Generated_Image_vvem5gvvem5gvvem.png"
   },
   {
     "id": 415,
-    "author": ["Muhammad Fauzan Edy Purnomo", "Abdul Kohar", "Yanuar Nurdiansyah", "Hastangka Hastangka", "Anis Yusrotun", "Puput Dani Prasetyo Adi"],
+    "author": [
+      "Muhammad Fauzan Edy Purnomo",
+      "Abdul Kohar",
+      "Yanuar Nurdiansyah",
+      "Hastangka Hastangka",
+      "Anis Yusrotun",
+      "Puput Dani Prasetyo Adi"
+    ],
     "title": "Kreasi Kartun Popular dengan CorelDRAW dan AI Serta Perannya bagi Pendidikan Art dimasa Mendatang",
     "desc": "Buku ini mengajarkan teknik menggambar kartun vektor menggunakan CorelDRAW dan bantuan AI, dirancang sebagai media edukasi seni digital untuk anak-anak hingga dewasa, menyeimbangkan logika dan kreativitas otak kanan.",
     "img": "/kegiatan/Gemini_Generated_Image_k3yh1nk3yh1nk3yh.png"
@@ -3062,14 +3892,35 @@
   },
   {
     "id": 417,
-    "author": ["Farra Anindya Putria", "Dayat Kurniawan", "Rahmawati Hasanah", "Deni Permana", "Winy Desvasari", "Ken Paramayudha", "Arief Budi Santiko", "Dadin Mahmudin", "Pamungkas Daud", "Fajri Darwis", "Erry Dwi Kurniawan", "Arie Setiawan", "Tajul Miftahushudur", "Prasetyo Putranto", "Syamsu Ismail"],
+    "author": [
+      "Farra Anindya Putria",
+      "Dayat Kurniawan",
+      "Rahmawati Hasanah",
+      "Deni Permana",
+      "Winy Desvasari",
+      "Ken Paramayudha",
+      "Arief Budi Santiko",
+      "Dadin Mahmudin",
+      "Pamungkas Daud",
+      "Fajri Darwis",
+      "Erry Dwi Kurniawan",
+      "Arie Setiawan",
+      "Tajul Miftahushudur",
+      "Prasetyo Putranto",
+      "Syamsu Ismail"
+    ],
     "title": "Development of FMCW Radar Signal Processing for High-Speed Railway Collision Avoidance",
     "desc": "Pengembangan pemrosesan sinyal radar FMCW dengan algoritma 2D-CFAR dan RPCA mampu mendeteksi rintangan hingga 675 meter di depan lokomotif, bahkan dalam kondisi kabut atau lingkungan berdebu.",
     "img": "/kegiatan/Gemini_Generated_Image_wpc4q5wpc4q5wpc4.png"
   },
   {
     "id": 418,
-    "author": ["Halil Mertkan Sahin", "Tajul Miftahushudur", "Bruce Grieve", "Hujun Yin"],
+    "author": [
+      "Halil Mertkan Sahin",
+      "Tajul Miftahushudur",
+      "Bruce Grieve",
+      "Hujun Yin"
+    ],
     "title": "Segmentation of weeds and crops using multispectral imaging and CRF-enhanced U-Net",
     "desc": "Model U-Net yang ditingkatkan dengan Conditional Random Field (CRF) mencapai akurasi tinggi dalam segmentasi gulma dan tanaman menggunakan citra multispektral (RGB + NIR) di berbagai tahap pertumbuhan.",
     "img": "/kegiatan/Gemini_Generated_Image_siddvnsiddvnsidd.png"
@@ -3083,93 +3934,318 @@
   },
   {
     "id": 420,
-    "author": ["Tajul Miftahushudur", "Halil Mertkan Sahin", "Bruce Grieve", "Hujun Yin"],
+    "author": [
+      "Tajul Miftahushudur",
+      "Halil Mertkan Sahin",
+      "Bruce Grieve",
+      "Hujun Yin"
+    ],
     "title": "Enhanced svm-smote with cluster consistency for imbalanced data classification",
     "desc": "Metode SVM-SMOTE yang ditingkatkan dengan konsistensi kluster berhasil mengurangi tumpang tindih (overlapping) di batas kelas, meningkatkan batas keputusan dan akurasi klasifikasi data tidak seimbang.",
     "img": "/kegiatan/Gemini_Generated_Image_tq91dltq91dltq91.png"
   },
   {
     "id": 421,
-    "author": ["Tajul Miftahushudur", "Halil Mertkan Sahin", "Bruce Grieve", "Hujun Yin"],
+    "author": [
+      "Tajul Miftahushudur",
+      "Halil Mertkan Sahin",
+      "Bruce Grieve",
+      "Hujun Yin"
+    ],
     "title": "A survey of methods for addressing imbalance data problems in agriculture applications",
     "desc": "Tinjauan komprehensif terhadap metode penanganan data tidak seimbang di pertanian presisi, menyoroti efektivitas SMOTE, GAN, VAE, serta pentingnya metrik evaluasi seperti F1-score dan MCC.",
     "img": "/kegiatan/Gemini_Generated_Image_p8hyc7p8hyc7p8hy.png"
   },
   {
     "id": 422,
-    "author": ["Dwi Hanto", "Hari Pratomo", "Agitta Rianaris", "Andi Setiono", "Sartika Sartika", "Mohamad Syahadi", "Eko Joni Pristianto", "Dayat Kurniawan", "Dwi Bayuwati", "Hendra Adinanta", "Suryadi Suryadi", "Miftachul Hadi", "Imam Mulyanto", "Irwan Rawal Husdi", "Rini Khamimatul Ula", "Bambang Widiyatmoko", "Edi Kurniawan"],
+    "author": [
+      "Dwi Hanto",
+      "Hari Pratomo",
+      "Agitta Rianaris",
+      "Andi Setiono",
+      "Sartika Sartika",
+      "Mohamad Syahadi",
+      "Eko Joni Pristianto",
+      "Dayat Kurniawan",
+      "Dwi Bayuwati",
+      "Hendra Adinanta",
+      "Suryadi Suryadi",
+      "Miftachul Hadi",
+      "Imam Mulyanto",
+      "Irwan Rawal Husdi",
+      "Rini Khamimatul Ula",
+      "Bambang Widiyatmoko",
+      "Edi Kurniawan"
+    ],
     "title": "Time of flight lidar employing dual-modulation frequencies switching for optimizing unambiguous range extension and high resolution",
     "desc": "Lidar ToF berbasis dual-modulation frequency (2 MHz dan 10 MHz) berhasil memperluas jangkauan tak ambigu sekaligus mempertahankan resolusi tinggi, mengatasi trade-off klasik dalam sistem lidar jarak jauh.",
     "img": "/kegiatan/Gemini_Generated_Image_f0tdmff0tdmff0td.png"
   },
   {
     "id": 423,
-    "author": ["W Desvasari", "DP Kurniadi", "D Mahmudin", "EJ Pristianto", "P Daud", "P Putranto", "A Setiawan", "F Darwis", "YN Wijayanto", "S Hardiati", "D Kurniawan"],
+    "author": [
+      "W Desvasari",
+      "DP Kurniadi",
+      "D Mahmudin",
+      "EJ Pristianto",
+      "P Daud",
+      "P Putranto",
+      "A Setiawan",
+      "F Darwis",
+      "YN Wijayanto",
+      "S Hardiati",
+      "D Kurniawan"
+    ],
     "title": "2 way wilkinson power divider for x band navigation radar",
     "desc": "Desain power divider Wilkinson untuk radar navigasi X-band (9.3 GHz) mencapai return loss <-30 dB, isolasi <-29.5 dB, dan insertion loss -3.06 dB, mendukung miniaturisasi sistem radar berbasis microstrip.",
     "img": "/kegiatan/Gemini_Generated_Image_bzuv2obzuv2obzuv.png"
   },
   {
     "id": 424,
-    "author": ["Goib Wiranto", "Dayat Kurniawan", "Yudi Maulana", "I Dewa Putu Hermida", "David Oktaviandi"],
+    "author": [
+      "Goib Wiranto",
+      "Dayat Kurniawan",
+      "Yudi Maulana",
+      "I Dewa Putu Hermida",
+      "David Oktaviandi"
+    ],
     "title": "Design and implementation of wireless sensors and android based application for highly efficient aquaculture management system",
     "desc": "Sistem akuakultur pintar berbasis sensor nirkabel dan aplikasi Android berhasil memantau kualitas air (pH, DO, suhu, konduktivitas) secara real-time di Pulau Bangka, mengurangi biaya operasional melalui aerasi otomatis.",
     "img": "/kegiatan/Gemini_Generated_Image_bn2odebn2odebn2o.png"
   },
   {
     "id": 425,
-    "author": ["Eko Joni Pristianto", "Yusuf Nur Wijayanto", "Dayat Kurniawan", "Budi Prawara", "Hana Arisesa"],
+    "author": [
+      "Eko Joni Pristianto",
+      "Yusuf Nur Wijayanto",
+      "Dayat Kurniawan",
+      "Budi Prawara",
+      "Hana Arisesa"
+    ],
     "title": "Sistem Kendali Alat Sterilisasi Ruangan Menggunakan Lampu UVC254 Nm Dengan Android",
     "desc": "Sistem sterilisasi ruangan berbasis lampu UVC 254 nm dikendalikan via Android dengan keamanan triple-PIR dan RTC, memastikan operasi hanya saat ruangan kosong, mendukung pencegahan penyebaran virus seperti COVID-19.",
     "img": "/kegiatan/Gemini_Generated_Image_qbos5jqbos5jqbos.png"
   },
   {
     "id": 426,
-    "author": ["Eko Joni Pristianto", "Deni Permana Kurniadi", "Hana Arisesa", "Dayat Kurniawan", "Erry Dwi Kurniawan", "Yusuf Nur Wijayanto", "Budi Prawara"],
+    "author": [
+      "Eko Joni Pristianto",
+      "Deni Permana Kurniadi",
+      "Hana Arisesa",
+      "Dayat Kurniawan",
+      "Erry Dwi Kurniawan",
+      "Yusuf Nur Wijayanto",
+      "Budi Prawara"
+    ],
     "title": "High-Flow and High-Pressure Oxygen Mixing for Ventilator System",
     "desc": "Sistem pencampuran oksigen tekanan tinggi mampu menghasilkan FiO2 hingga 100% dan aliran 60 L/menit dengan kontrol loop tertutup, cocok untuk ventilator CPAP, BiPAP, dan HFNC untuk pasien sindrom pernapasan akut.",
     "img": "/kegiatan/Gemini_Generated_Image_k0yz9gk0yz9gk0yz.png"
   },
   {
     "id": 427,
-    "author": ["Vita Awalia Mardiana", "Mochamad Mardi Martadinata", "Galih Nugraha Nurkahfi", "Arumjeni Mitayani", "Dayat Kurniawan", "Nasrullah Armi", "Asih Setiarini"],
+    "author": [
+      "Vita Awalia Mardiana",
+      "Mochamad Mardi Martadinata",
+      "Galih Nugraha Nurkahfi",
+      "Arumjeni Mitayani",
+      "Dayat Kurniawan",
+      "Nasrullah Armi",
+      "Asih Setiarini"
+    ],
     "title": "SIMONIC: IoT based quarantine monitoring system for Covid-19",
     "desc": "SIMONIC mengintegrasikan geofencing GPS dan deteksi jarak sosial berbasis RSSI dalam gelang IoT murah, memberikan sistem pemantauan karantina terpadu dengan akurasi tinggi dan konsumsi daya rendah.",
     "img": "/kegiatan/Gemini_Generated_Image_aklc5naklc5naklc.png"
   },
   {
     "id": 428,
-    "author": ["Nurhayati Nurhayati", "Eko Setijadi", "Alexandre Maniçoba de Oliveira", "Dayat Kurniawan", "Mohd Najib Mohd Yasin"],
+    "author": [
+      "Nurhayati Nurhayati",
+      "Eko Setijadi",
+      "Alexandre Maniçoba de Oliveira",
+      "Dayat Kurniawan",
+      "Mohd Najib Mohd Yasin"
+    ],
     "title": "Design of 1× 2 MIMO palm tree coplanar Vivaldi antenna in the E-plane with different patch structure",
     "desc": "Antena Vivaldi MIMO berbasis struktur 'Palm Tree' dengan modifikasi patch (Back Cut, Wave Slot, Metamaterial Lens) mengurangi mutual coupling dan meningkatkan directivity di frekuensi 0.5–4.5 GHz.",
     "img": "/kegiatan/Gemini_Generated_Image_bui25jbui25jbui2.png"
   },
   {
     "id": 429,
-    "author": ["Nurhayati Nurhayati", "Alexandre Manicoba De Oliveira", "Mohd Najib Bin Mohd Yasin", "Dayat Kurniawan"],
+    "author": [
+      "Nurhayati Nurhayati",
+      "Alexandre Manicoba De Oliveira",
+      "Mohd Najib Bin Mohd Yasin",
+      "Dayat Kurniawan"
+    ],
     "title": "Palm Tree Coplanar Vivaldi Antenna Array on the Same Substrate Size: Design and Performance Evaluation",
     "desc": "Array antena 1×8 Palm Tree CVA meningkatkan directivity hingga 15.5 dBi dan mengurangi sidelobe level menjadi -12.6 dB pada 3 GHz, menjadikannya ideal untuk radar dan komunikasi wideband dalam substrat terbatas.",
     "img": "/kegiatan/Gemini_Generated_Image_i58vqii58vqii58v.png"
   },
   {
     "id": 430,
-    "author": ["Laila Rahmawati", "Slamet Widodo", "Deni Permana Kurniadi", "Pamungkas Daud", "Agus Triyono", "Novita Dwi Susanti", "Nur Kartika Indah Mayasti", "Ashri Indriati", "Lista Eka Yulianti", "Devry Pramesti Putri", "Seri Intan Kuala", "Cahya Edi Wahyu Anggara", "Eko Joni Pristianto", "Erry Dwi Kurniawan", "Ignatius Fajar Aprionto", "Dayat Kurniawan"],
+    "author": [
+      "Laila Rahmawati",
+      "Slamet Widodo",
+      "Deni Permana Kurniadi",
+      "Pamungkas Daud",
+      "Agus Triyono",
+      "Novita Dwi Susanti",
+      "Nur Kartika Indah Mayasti",
+      "Ashri Indriati",
+      "Lista Eka Yulianti",
+      "Devry Pramesti Putri",
+      "Seri Intan Kuala",
+      "Cahya Edi Wahyu Anggara",
+      "Eko Joni Pristianto",
+      "Erry Dwi Kurniawan",
+      "Ignatius Fajar Aprionto",
+      "Dayat Kurniawan"
+    ],
     "title": "Determination of colorant type in yellow tofu using Vis-NIR and SW-NIR spectroscopy",
     "desc": "Spektroskopi Vis-NIR dikombinasikan dengan PCA-LDA berhasil mengklasifikasikan pewarna tahu kuning (alami, food-grade, non-food-grade) dengan akurasi kalibrasi 100%, mendukung pengawasan keamanan pangan.",
     "img": "/kegiatan/Gemini_Generated_Image_2s9yqv2s9yqv2s9y.png"
   },
   {
     "id": 431,
-    "author": ["Eko Joni Pristianto", "Novita Dwi Susanti", "Handy Harjamulya", "Erry Dwi Kurniawan", "Dayat Kurniawan", "Arief Nur Rahman", "Fajri Darwis", "Deni Permana Kurniadi"],
+    "author": [
+      "Eko Joni Pristianto",
+      "Novita Dwi Susanti",
+      "Handy Harjamulya",
+      "Erry Dwi Kurniawan",
+      "Dayat Kurniawan",
+      "Arief Nur Rahman",
+      "Fajri Darwis",
+      "Deni Permana Kurniadi"
+    ],
     "title": "Implementation of Kalman filter for stabilizing ultrasonic sensor reading on distilled ethanol levels measurement",
     "desc": "Filter Kalman mengurangi noise pada pembacaan sensor ultrasonik untuk pengukuran kadar etanol, mencapai stabilitas tinggi dengan matriks Q = 0.00001 dan R = 5999.4, meningkatkan akurasi analisis minuman halal.",
     "img": "/kegiatan/Gemini_Generated_Image_p5l3lap5l3lap5l3.png"
   },
   {
-  "id": 432,
-  "author": ["Tjahjo Adiprabowo", "Dani Ramdani", "Olly Vertus Hasudungan", "Nasrullah Armi", "Puput Dani Prasetyo Adi"],
-  "title": "FMCW and IoT Radar-based Health Telemonitoring System for Patient Vital Signs Detection in Remote Areas of Indonesia",
-  "desc": "Sistem telemonitoring kesehatan berbasis radar FMCW 77 GHz dan IoT mampu mendeteksi pernapasan dan detak jantung pasien secara non-kontak, lalu mengirim data real-time via MQTT untuk layanan kesehatan di daerah terpencil Indonesia.",
-  "img": "/kegiatan/Gemini_Generated_Image_bcgscbbcgscbbcgs.png"
-}
+    "id": 432,
+    "author": [
+      "Tjahjo Adiprabowo",
+      "Dani Ramdani",
+      "Olly Vertus Hasudungan",
+      "Nasrullah Armi",
+      "Puput Dani Prasetyo Adi"
+    ],
+    "title": "FMCW and IoT Radar-based Health Telemonitoring System for Patient Vital Signs Detection in Remote Areas of Indonesia",
+    "desc": "Sistem telemonitoring kesehatan berbasis radar FMCW 77 GHz dan IoT mampu mendeteksi pernapasan dan detak jantung pasien secara non-kontak, lalu mengirim data real-time via MQTT untuk layanan kesehatan di daerah terpencil Indonesia.",
+    "img": "/kegiatan/Gemini_Generated_Image_bcgscbbcgscbbcgs.png"
+  },
+  {
+    "id": 433,
+    "author": [
+      "Roni Permana Saputra",
+      "Midriem Mirdanies",
+      "Eko Joni Pristianto",
+      "Dayat Kurniawan"
+    ],
+    "title": "Autonomous Docking Method via Non-linear Model Predictive Control",
+    "desc": "Metode docking otonom berbasis NMPC dan visual servoing berhasil mengendalikan kursi roda listrik empat roda untuk merapat ke stasiun pengisian secara presisi, diuji melalui simulasi dan implementasi nyata.",
+    "img": "/kegiatan/Gemini_Generated_Image_581ajn581ajn581a.png"
+  },
+  {
+    "id": 434,
+    "author": [
+      "MA Rahmatulloh",
+      "D Hanto",
+      "M Yantidewi",
+      "M Khoiro",
+      "A Rianaris",
+      "EJ Pristianto",
+      "D Kurniawan",
+      "RA Firdaus"
+    ],
+    "title": "Characteristics Evaluation of Optical Fiber Length in Light Detection and Ranging (LiDAR)",
+    "desc": "Studi menunjukkan bahwa panjang serat optik berdampak eksponensial pada atenuasi (y=0.2064e⁰·⁰⁰⁷³ˣ) dan linier pada delay waktu (y=69.849x+9.149) dalam sistem LiDAR berbasis FMCW, menjadi dasar desain sistem jarak jauh.",
+    "img": "/kegiatan/Gemini_Generated_Image_syap40syap40syap.png"
+  },
+  {
+    "id": 435,
+    "author": ["DASW PUTRI", "D KURNIAWAN"],
+    "title": "THE INFLUENCE OF READING ABILITY ON THE RESULTS OF THE STUDENTS'PRESENTATION IN GERMAN",
+    "desc": "Kemampuan membaca mahasiswa memiliki korelasi kuat (r=0.802) dan pengaruh signifikan (64.4%) terhadap hasil presentasi dalam mata kuliah Freier Vortrag di Jurusan Bahasa Jerman Universitas Negeri Malang.",
+    "img": "/kegiatan/Gemini_Generated_Image_4r4i894r4i894r4i.png"
+  },
+  {
+    "id": 436,
+    "author": ["N NURHAYATI", "I NIRWANA", "D KURNIAWAN"],
+    "title": "THE INFLUENCE OF MOTIVATION AND WORK ENVIRONMENT ON THE PERFORMANCE OF EMPLOYEES OF THE REGIONAL DISASTER MANAGEMENT AGENCY IN SOLOK DISTRICT",
+    "desc": "Motivasi dan lingkungan kerja secara parsial berpengaruh signifikan terhadap kinerja pegawai BPBD Kabupaten Solok, dengan motivasi menunjukkan efek dominan berdasarkan analisis regresi dan uji-t.",
+    "img": "/kegiatan/Gemini_Generated_Image_pi53mppi53mppi53.png"
+  },
+  {
+    "id": 437,
+    "author": [
+      "Ignatius Fajar Apryanto",
+      "Eko Joni Pristianto",
+      "Erry Dwi Kurniawan",
+      "Dayat Kurniawan",
+      "Cahya Edi Wahyu Anggara",
+      "Nur Kartika Indah Mayasti",
+      "Ashri Indriati",
+      "Laila Rahmawati",
+      "Devry Pramesti Putri",
+      "Lista Eka Yulianti",
+      "Siti Khudaifanny",
+      "Seri Intan Kuala",
+      "Novita Dwi Susanti"
+    ],
+    "title": "Design of ethanol concentration measurement in food (fermented black sticky rice) using Grove-HCHO sensor",
+    "desc": "Sensor Grove-HCHO berhasil dimodifikasi untuk mengukur kadar etanol dalam tape ketan hitam melalui pemodelan matematis berbasis tegangan keluaran, membuka jalan untuk deteksi kadar alkohol dalam pangan fermentasi lokal.",
+    "img": "/kegiatan/Gemini_Generated_Image_hjnusfhjnusfhjnu.png"
+  },
+  {
+    "id": 438,
+    "author": [
+      "Dwi Hanto",
+      "Mohammad Arif Rahmatulloh",
+      "Eko Joni Pristiyanto",
+      "Dayat Kurniawan",
+      "Agitta Rianaris",
+      "Hari Pratomo",
+      "Dedi Irawan",
+      "Saktioto",
+      "Bambang Widiyatmoko"
+    ],
+    "title": "Sweep frequency modulator using voltage-controlled oscillator for development of incoherent FMCW optical ranging system",
+    "desc": "Modulator frekuensi sapuan berbasis VCO menggantikan generator gelombang, membuat sistem I-FMCW menjadi lebih ringkas dan mandiri, dengan bandwidth 200–400 MHz yang dapat diatur melalui antarmuka LabVIEW.",
+    "img": "/kegiatan/Gemini_Generated_Image_y1b875y1b875y1b8.png"
+  },
+  {
+    "id": 439,
+    "author": [
+      "Roni Permana Saputra",
+      "Vita Susanti",
+      "Afrias Sarotama",
+      "Muhammad Hafil Nugraha",
+      "Dyah Kusuma Dewi",
+      "Midriem Mirdanies",
+      "Yukhi Mustaqim Kusuma Sya’bana",
+      "Eko Joni Pristianto",
+      "Dayat Kurniawan"
+    ],
+    "title": "Fusion-based localization for personal mobility vehicles using INS, GPS, and RTAB mapping",
+    "desc": "Sistem lokalisasi berbasis fusi sensor (INS, GPS, RTAB-Mapping) dengan EKF mengatasi masalah drift odometri dan degradasi GPS, mencapai presisi tinggi untuk kendaraan mobilitas pribadi di lingkungan perkotaan kompleks.",
+    "img": "/kegiatan/Gemini_Generated_Image_f1opm1f1opm1f1op.png"
+  },
+  {
+    "id": 440,
+    "author": [
+      "Kurnia Fajar",
+      "Hari Pratomo",
+      "Mefina Yulias Rofianingrum",
+      "Asep Hapiddin",
+      "Ariyawan Sunardi",
+      "Agitta Rianaris",
+      "Eko Joni Pristianto",
+      "Dayat Kurniawan",
+      "Dwi Hanto"
+    ],
+    "title": "Development of a GUI-integrated 3D LiDAR scanner for accurate plant size estimation",
+    "desc": "Pemindai 3D LiDAR berbasis GUI berhasil mengestimasi dimensi bibit kelapa sawit dengan akurasi 90.2–95.3%, serta menghitung luas daun individual dan kanopi tanpa kontak fisik, ideal untuk pertanian presisi skala besar.",
+    "img": "/kegiatan/Gemini_Generated_Image_4nf3o44nf3o44nf3.png"
+  }
 ]

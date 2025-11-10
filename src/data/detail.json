@@ -8613,5 +8613,213 @@
         "content": "Integrasi FMCW dan IoT menciptakan solusi telemedicine yang ideal untuk wilayah 3T (Terdepan, Terluar, Tertinggal), meningkatkan kesiapsiagaan medis tanpa kehadiran tenaga kesehatan di lokasi."
       }
     ]
+  },
+  {
+    "id": 433,
+    "title": "Autonomous Docking Method via Non-linear Model Predictive Control",
+    "publishDate": "November 15, 2023",
+    "author": "Roni Permana Saputra, Midriem Mirdanies, Eko Joni Pristianto, Dayat Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:ldfaerwXgEUC",
+    "image": "/kegiatan/Gemini_Generated_Image_581ajn581ajn581a.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kendaraan mobilitas pribadi seperti kursi roda otonom memerlukan kemampuan docking otomatis untuk pengisian daya atau docking dengan perangkat bantu."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan pada platform kursi roda listrik empat roda menggunakan NMPC berbasis visual servoing, dengan kamera sebagai umpan balik real-time untuk mengontrol gerakan."
+      },
+      {
+        "heading": "Results",
+        "content": "Eksperimen menunjukkan bahwa kursi roda mampu merapat ke stasiun docking dengan presisi tinggi, baik dalam simulasi maupun pengujian fisik, memenuhi persyaratan desain kontrol."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan NMPC-visual servoing terbukti efektif untuk tugas docking otonom, meningkatkan otonomi dan kenyamanan pengguna kendaraan mobilitas."
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "title": "Characteristics Evaluation of Optical Fiber Length in Light Detection and Ranging (LiDAR)",
+    "publishDate": "January 1, 2024",
+    "author": "MA Rahmatulloh, D Hanto, M Yantidewi, M Khoiro, A Rianaris, EJ Pristianto, D Kurniawan, RA Firdaus",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:HoB7MX3m0LUC",
+    "image": "/kegiatan/Gemini_Generated_Image_syap40syap40syap.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Serat optik adalah komponen kritis dalam sistem LiDAR berbasis FMCW, tetapi pengaruh panjangnya terhadap kinerja sistem belum dikuantifikasi secara rinci."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian mengukur atenuasi daya dan delay waktu pada variasi panjang serat optik dalam rangkaian LiDAR FMCW, serta menganalisis faktor seperti lenturan, sambungan, dan indeks bias."
+      },
+      {
+        "heading": "Results",
+        "content": "Atenuasi meningkat secara eksponensial terhadap panjang serat, sementara delay waktu meningkat linier. Model matematis y=0.2064e⁰·⁰⁰⁷³ˣ dan y=69.849x+9.149 berhasil menggambarkan hubungan tersebut."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Temuan ini menjadi panduan penting dalam desain sistem LiDAR jarak jauh, terutama untuk aplikasi industri dan lingkungan ekstrem."
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "title": "THE INFLUENCE OF READING ABILITY ON THE RESULTS OF THE STUDENTS'PRESENTATION IN GERMAN",
+    "publishDate": "2024",
+    "author": "DASW PUTRI, D KURNIAWAN",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:f2IySw72cVMC",
+    "image": "/kegiatan/Gemini_Generated_Image_4r4i894r4i894r4i.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Presentasi lisan dalam bahasa asing memerlukan pemahaman teks yang mendalam, yang bergantung pada kemampuan membaca."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi dilakukan pada mahasiswa Jurusan Bahasa Jerman UM dalam mata kuliah Freier Vortrag, dengan pengukuran kemampuan membaca dan hasil presentasi, dianalisis menggunakan uji-t dan korelasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Nilai rata-rata kemampuan membaca 58 dan presentasi 75. Uji signifikansi (p=0.000) menunjukkan pengaruh signifikan, dengan korelasi kuat (r=0.802) dan kontribusi 64.4%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Peningkatan kemampuan membaca secara langsung meningkatkan kualitas presentasi lisan, menekankan pentingnya integrasi keterampilan reseptif dan produktif dalam pembelajaran bahasa."
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "title": "THE INFLUENCE OF MOTIVATION AND WORK ENVIRONMENT ON THE PERFORMANCE OF EMPLOYEES OF THE REGIONAL DISASTER MANAGEMENT AGENCY IN SOLOK DISTRICT",
+    "publishDate": "2024",
+    "author": "N NURHAYATI, I NIRWANA, D KURNIAWAN",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:EUQCXRtRnyEC",
+    "image": "/kegiatan/Gemini_Generated_Image_pi53mppi53mppi53.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kinerja pegawai BPBD sangat penting dalam respons bencana, dipengaruhi oleh faktor internal (motivasi) dan eksternal (lingkungan kerja)."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi survei terhadap 53 responden di BPBD Solok menggunakan metode total sampling, dianalisis dengan regresi linier berganda dan uji-t parsial."
+      },
+      {
+        "heading": "Results",
+        "content": "Baik motivasi (t=6.255, p<0.05) maupun lingkungan kerja (t=4.872, p<0.05) berpengaruh signifikan terhadap kinerja, dengan motivasi memiliki pengaruh lebih dominan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Manajemen BPBD perlu memperhatikan insentif dan kondisi kerja untuk meningkatkan kesiapsiagaan dan respons bencana yang efektif."
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "title": "Design of ethanol concentration measurement in food (fermented black sticky rice) using Grove-HCHO sensor",
+    "publishDate": "February 6, 2024",
+    "author": "Ignatius Fajar Apryanto, Eko Joni Pristianto, Erry Dwi Kurniawan, Dayat Kurniawan, Cahya Edi Wahyu Anggara, Nur Kartika Indah Mayasti, Ashri Indriati, Laila Rahmawati, Devry Pramesti Putri, Lista Eka Yulianti, Siti Khudaifanny, Seri Intan Kuala, Novita Dwi Susanti",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:pqnbT2bcN3wC",
+    "image": "/kegiatan/Gemini_Generated_Image_hjnusfhjnusfhjnu.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Tape ketan hitam mengandung etanol sebagai hasil fermentasi, yang perlu dipantau untuk keamanan pangan dan sertifikasi halal."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor Grove-HCHO, yang biasanya mendeteksi formalin, dimodifikasi untuk mengukur etanol melalui kalibrasi dengan sampel larutan etanol berbagai konsentrasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Pemodelan matematis berhasil mengkonversi tegangan sensor menjadi konsentrasi etanol, membuktikan sensor multifungsi ini dapat digunakan untuk analisis pangan fermentasi lokal."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi berbiaya rendah ini dapat diadopsi oleh UMKM dan laboratorium daerah untuk memantau kadar alkohol dalam produk pangan tradisional."
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "title": "Sweep frequency modulator using voltage-controlled oscillator for development of incoherent FMCW optical ranging system",
+    "publishDate": "August 1, 2024",
+    "author": "Dwi Hanto, Mohammad Arif Rahmatulloh, Eko Joni Pristiyanto, Dayat Kurniawan, Agitta Rianaris, Hari Pratomo, Dedi Irawan, Saktioto, Bambang Widiyatmoko",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:ZHo1McVdvXMC",
+    "image": "/kegiatan/Gemini_Generated_Image_y1b875y1b875y1b8.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Sistem I-FMCW konvensional bergantung pada generator gelombang eksternal, membuatnya besar dan tidak mandiri."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Modulator sapuan frekuensi berbasis VCO dikembangkan, dikendalikan oleh sinyal segitiga dari LabVIEW melalui DAC, untuk memodulasi intensitas laser 200–400 MHz."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil beroperasi secara mandiri dengan resolusi jarak yang dapat dikontrol melalui bandwidth dan laju pengulangan sapuan frekuensi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain ini memungkinkan miniaturisasi sistem LiDAR berbasis FMCW untuk aplikasi portabel dan embedded dalam robotika atau kendaraan otonom."
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "title": "Fusion-based localization for personal mobility vehicles using INS, GPS, and RTAB mapping",
+    "publishDate": "April 20, 2025",
+    "author": "Roni Permana Saputra, Vita Susanti, Afrias Sarotama, Muhammad Hafil Nugraha, Dyah Kusuma Dewi, Midriem Mirdanies, Yukhi Mustaqim Kusuma Sya’bana, Eko Joni Pristianto, Dayat Kurniawan",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:a0OBvERweLwC",
+    "image": "/kegiatan/Gemini_Generated_Image_f1opm1f1opm1f1op.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Lokalisasi presisi adalah kunci untuk otonomi kendaraan, terutama dalam lingkungan dinamis seperti perkotaan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem fusi sensor menggabungkan data odometri roda, IMU, GPS konsumen, dan peta visual RTAB-Mapping menggunakan Extended Kalman Filter (EKF)."
+      },
+      {
+        "heading": "Results",
+        "content": "EKF berhasil mengkoreksi drift odometri menggunakan GPS dan peta visual saat tersedia, memberikan estimasi posisi yang akurat bahkan saat sinyal GPS terganggu."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan hybrid ini menawarkan solusi lokalisasi berbiaya rendah namun robust untuk kendaraan mobilitas pribadi di dunia nyata."
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "title": "Development of a GUI-integrated 3D LiDAR scanner for accurate plant size estimation",
+    "publishDate": "October 9, 2025",
+    "author": "Kurnia Fajar, Hari Pratomo, Mefina Yulias Rofianingrum, Asep Hapiddin, Ariyawan Sunardi, Agitta Rianaris, Eko Joni Pristianto, Dayat Kurniawan, Dwi Hanto",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aUWHgMcAAAAJ&sortby=pubdate&citation_for_view=aUWHgMcAAAAJ:bFI3QPDXJZMC",
+    "image": "/kegiatan/Gemini_Generated_Image_4nf3o44nf3o44nf3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pemantauan pertumbuhan tanaman secara non-invasif diperlukan untuk pertanian presisi, terutama pada tanaman bernilai tinggi seperti kelapa sawit."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Pemindai 3D LiDAR dikembangkan dengan antarmuka GUI penuh untuk kontrol, visualisasi, dan penyimpanan data, diuji pada bibit kelapa sawit."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mencapai akurasi 90.2–95.3% dalam mengukur dimensi batang dan daun, serta mampu menghitung luas kanopi total secara otomatis."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini sangat cocok untuk aplikasi pertanian skala besar, memungkinkan deteksi dini stres tanaman dan optimasi tata kelola perkebunan."
+      }
+    ]
   }
 ]

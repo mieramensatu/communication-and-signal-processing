@@ -9627,5 +9627,213 @@
         "content": "Kombinasi Starlink, CDN, dan Moodle terbukti sebagai model berkelanjutan untuk digitalisasi pendidikan di wilayah 3T, yang dapat direplikasi secara nasional."
       }
     ]
+  },
+  {
+    "id": 474,
+    "title": "Realtime video latency reduction for autonomous vehicle teleoperation using RTMP over UDP protocols",
+    "publishDate": "November 22, 2022",
+    "author": "Ana Heryana, Dikdik Krisnandi, Hilman Pardede, Galih Nugraha Nurkahfi, Mochamad Mardi Marta Dinata, Andri Rozie, Rendra Firmansyah",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RiGu61gAAAAJ&sortby=pubdate&citation_for_view=RiGu61gAAAAJ:roLk4NBRz8UC",
+    "image": "/kegiatan/Gemini_Generated_Image_uryasguryasgurya.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Teleoperasi kendaraan otonom memerlukan streaming video real-time dengan latensi sangat rendah (<50 ms) untuk memastikan respons pengemudi jarak jauh yang aman dan akurat."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian menguji protokol UDP dan RTMP untuk transmisi video, dengan tuning encoder dan kompresi data. Latensi diukur menggunakan metode glass-to-glass dalam koneksi langsung tanpa broadcaster."
+      },
+      {
+        "heading": "Results",
+        "content": "Latensi terendah yang dicapai adalah 300 ms menggunakan UDP. Meski masih di atas target ideal, ini merupakan peningkatan signifikan dibanding protokol berbasis TCP dan menjadi dasar untuk optimasi lebih lanjut."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "UDP menawarkan potensi besar untuk pengurangan latensi jaringan dalam teleoperasi, terutama jika dikombinasikan dengan perangkat keras encoder khusus dan jaringan prioritas tinggi."
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "title": "Improved autocorrelation method for time synchronization in filtered orthogonal frequency division multiplexing",
+    "publishDate": "December 1, 2023",
+    "author": "Agus Subekti, Arief Suryadi Satyawan, Mochamad Mardi Marta Dinata, Arumjeni Mitayani, Purwoko Adhi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RiGu61gAAAAJ&sortby=pubdate&citation_for_view=RiGu61gAAAAJ:Se3iqnhoufwC",
+    "image": "/kegiatan/Gemini_Generated_Image_qre82nqre82nqre8.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "F-OFDM menawarkan alokasi subcarrier fleksibel dalam subband, tetapi ini mengurangi efektivitas metode sinkronisasi waktu berbasis autokorelasi (AC) yang dirancang untuk OFDM konvensional."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Peneliti membandingkan kinerja AC dalam F-OFDM lalu mengusulkan peningkatan dengan teknik averaging pada metrik waktu untuk mengurangi noise dan meningkatkan keakuratan estimasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Teknik averaging berhasil meningkatkan akurasi estimasi waktu masuk simbol, terutama ketika simbol pelatihan terkonsentrasi pada satu subband, mengurangi kemungkinan kesalahan frame."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Metode AC yang ditingkatkan menjadikan F-OFDM lebih andal dalam kondisi spektrum terfragmentasi, mendukung implementasi 5G dan komunikasi fleksibel masa depan."
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "title": "Balancing Robot Navigation with Virtual Map and Virtual Sensor",
+    "publishDate": "November 18, 2020",
+    "author": "Henry Probo Santoso, Joko Slamet Saputro, Hari Maghfiroh, Mochamad Mardi Marta Dinata",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=RiGu61gAAAAJ&sortby=pubdate&citation_for_view=RiGu61gAAAAJ:qjMakFHDy7sC",
+    "image": "/kegiatan/Gemini_Generated_Image_r0w4dsr0w4dsr0w4.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Robot otonom self-balancing memerlukan sistem navigasi yang dapat diuji secara aman dan efisien sebelum deployment di dunia nyata."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan menggunakan ROS sebagai kerangka kerja, dengan simulasi di Gazebo (lingkungan, robot, sensor virtual) dan visualisasi di RViz. Peta virtual digunakan untuk perencanaan jalur, dan data kecepatan dikirim ke robot fisik."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulasi berhasil mereplikasi perilaku robot nyata. Navigasi otonom berjalan lancar di lingkungan virtual, dan perintah kecepatan dari ROS langsung dikontrolkan ke robot dua roda di dunia nyata."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi simulasi virtual dan robot fisik melalui ROS memungkinkan pengembangan sistem navigasi yang fleksibel, efisien, dan aman, mempercepat siklus pengujian dan implementasi."
+      }
+    ]
+  },
+  {
+  "id": 477,
+  "title": "Design of flexible 3.2 GHz rectangular microstrip patch antenna for S-Band communication",
+  "publishDate": "December 31, 2021",
+  "author": "Teguh Praludi, Yana Taryana, Ken Paramayudha, Budi Prawara, Yusnita Rahayu, Chaeriah Bin Ali Wael, Yaya Sulaeman, Bagus Edy Sukoco, Ros Sariningrum, Hendrawan Kurniadin, Wahid Nova Nugraha",
+  "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vjZXjFkAAAAJ&sortby=pubdate&citation_for_view=vjZXjFkAAAAJ:wbdj-CoPYUoC",
+  "image": "/kegiatan/Gemini_Generated_Image_hr9vv7hr9vv7hr9v.png",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "content": "Aplikasi komunikasi modern membutuhkan antena yang tidak hanya berkinerja tinggi tetapi juga dapat menyesuaikan bentuk permukaan (konformal), terutama untuk perangkat portabel, drone, atau sistem wearable."
+    },
+    {
+      "heading": "Methodology",
+      "content": "Antena mikrostrip persegi panjang dirancang pada substrat fleksibel Pyralux FR 9111 (εr=3, h=0.025 mm) untuk resonansi di 3.2 GHz. Simulasi dilakukan sebelum prototipe difabrikasi dan diuji pada sudut tekuk 0°, 30°, 60°, dan 90°."
+    },
+    {
+      "heading": "Results",
+      "content": "Simulasi menunjukkan return loss -35.80 dB di 3.2 GHz. Prototipe nyata mengalami sedikit pergeseran frekuensi ke 3.29 GHz, dengan kinerja terbaik pada tekukan 90°: return loss -31.38 dB, bandwidth 80 MHz, dan impedansi 48.36 + j2.04 Ω."
+    },
+    {
+      "heading": "Conclusion",
+      "content": "Antena fleksibel ini menunjukkan stabilitas kinerja yang luar biasa di bawah deformasi mekanis, membuktikan potensinya untuk integrasi dalam sistem S-Band yang memerlukan bentuk tidak konvensional, seperti pelacakan udara, satelit mini, atau sensor terpasang tubuh."
+    }
+  ]
+  },
+  {
+    "id": 478,
+    "title": "3D image reconstruction of sclera using a light field camera",
+    "publishDate": "November 19, 2021",
+    "author": "Octa Heriana, Andriyan Bayu Suksmono, Hasballah Zakaria, Andika Prahasta",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=jxLSmqgAAAAJ&sortby=pubdate&citation_for_view=jxLSmqgAAAAJ:qxL8FJ1GzNcC",
+    "image": "/kegiatan/Gemini_Generated_Image_k9onyok9onyok9on.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Analisis permukaan sklera penting untuk mendeteksi kelainan seperti bleb pasca-operasi glaukoma (trabekulektomi). Metode konvensional terbatas pada citra 2D."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan menggunakan kamera light field Lytro Illum dengan pencahayaan khusus. Depth map diekstraksi dari data light field, lalu disempurnakan dengan equalisasi, filtering, dan deteksi tepi untuk rekonstruksi 3D."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil merekonstruksi model 3D sklera dengan resolusi memadai pada jarak fokus 17 cm. Informasi kedalaman memungkinkan analisis volumetrik lesi atau bleb."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan light field menawarkan solusi non-invasif dan akurat untuk pemantauan pasca-operasi mata, dengan potensi integrasi ke dalam alat diagnostik klinis."
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "title": "Curve-based Depth Map Image Adjustment for Eyeball Phantom Measurement",
+    "publishDate": "December 22, 2022",
+    "author": "Octa Heriana, Andriyan Bayu Suksmono, Hasballah Zakaria, Andika Prahasta",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=jxLSmqgAAAAJ&sortby=pubdate&citation_for_view=jxLSmqgAAAAJ:4DMP91E08xMC",
+    "image": "/kegiatan/Gemini_Generated_Image_xv1x6ixv1x6ixv1x.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Depth map dari kamera light field rentan terhadap variasi pencahayaan, mengurangi akurasi pengukuran permukaan objek medis seperti bola mata."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Kamera light field dipasang pada slit lamp. Depth map disesuaikan menggunakan kurva panduan dari slit lamp sebagai referensi kalibrasi geometris untuk objek phantom dan ground truth."
+      },
+      {
+        "heading": "Results",
+        "content": "Metode ini berhasil menyelaraskan nilai depth map dengan dimensi fisik sebenarnya, mengurangi kesalahan pengukuran akibat efek bayangan dan refleksi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kalibrasi berbasis kurva slit lamp meningkatkan keandalan sistem light field untuk aplikasi metrologi medis, terutama dalam lingkungan klinis dengan pencahayaan tidak terkontrol."
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "title": "Depth Map Reconstruction for Scleral Bleb Models Using Structured Light in Light Field Imaging",
+    "publishDate": "May 23, 2025",
+    "author": "Octa Heriana, Andriyan Bayu Suksmono, Hasballah Zakaria, Andika Prahasta",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=jxLSmqgAAAAJ&sortby=pubdate&citation_for_view=jxLSmqgAAAAJ:Wp0gIr-vW9MC",
+    "image": "/kegiatan/Gemini_Generated_Image_m1r1xqm1r1xqm1r1.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Bleb sklera pasca-trabekulektomi memiliki permukaan glossy dan kontras rendah, menyebabkan outlier dalam rekonstruksi depth map berbasis light field."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Peneliti mengusulkan pendekatan berbasis Markov Random Field (MRF) dengan kondisi batas dari citra sub-aperture pusat untuk memperhalus depth map dan mengurangi kesalahan di tepi objek."
+      },
+      {
+        "heading": "Results",
+        "content": "Metode MRF menghasilkan depth map yang lebih halus dan akurat pada model bleb sklera, dengan pengurangan signifikan pada outlier akibat variasi intensitas tepi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Integrasi informasi struktur cahaya dan pemodelan probabilistik (MRF) meningkatkan ketahanan sistem light field terhadap tantangan permukaan reflektif dalam aplikasi oftalmologi."
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "title": "Corrections to “Depth Map Reconstruction for Scleral Bleb Models Using Structured Light in Light Field Imaging”",
+    "publishDate": "September 24, 2025",
+    "author": "Octa Heriana, Andriyan Bayu Suksmono, Hasballah Zakaria, Andika Prahasta",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=jxLSmqgAAAAJ&sortby=pubdate&citation_for_view=jxLSmqgAAAAJ:mVmsd5A6BfQC",
+    "image": "/kegiatan/Gemini_Generated_Image_8d8yxi8d8yxi8d8y.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "IEEE Access menerbitkan koreksi resmi terhadap makalah sebelumnya guna memastikan keakuratan dan integritas ilmiah publikasi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dokumen ini berisi daftar kesalahan minor (typo, label gambar, nilai numerik, atau referensi) yang ditemukan setelah publikasi awal."
+      },
+      {
+        "heading": "Results",
+        "content": "Tidak ada perubahan pada metodologi, hasil eksperimen, atau kesimpulan ilmiah utama dari makalah asli."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Koreksi ini memperbarui versi resmi makalah untuk mencerminkan informasi yang akurat, tanpa mengubah kontribusi ilmiahnya."
+      }
+    ]
   }
 ]

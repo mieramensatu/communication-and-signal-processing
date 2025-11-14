@@ -4449,5 +4449,61 @@
     "title": "Implementasi Teknologi Content Delivery Network (CDN) Sebagai Akselerasi Digitalisasi Sekolah",
     "desc": "Implementasi CDN berbasis Starlink dan Moodle di Kabupaten Pesisir Barat, Lampung, berhasil mengakselerasi digitalisasi sekolah di wilayah 3T dengan pelatihan intensif dan infrastruktur internet stabil untuk pembelajaran daring.",
     "img": "/kegiatan/Gemini_Generated_Image_b726wfb726wfb726.png"
+  },
+  {
+    "id": 474,
+    "author": ["Ana Heryana", "Dikdik Krisnandi", "Hilman Pardede", "Galih Nugraha Nurkahfi", "Mochamad Mardi Marta Dinata", "Andri Rozie", "Rendra Firmansyah"],
+    "title": "Realtime video latency reduction for autonomous vehicle teleoperation using RTMP over UDP protocols",
+    "desc": "Penggunaan RTMP di atas UDP mengurangi latensi video teleoperasi kendaraan otonom menjadi 300 ms, mendekati ambang batas 50 ms, melalui optimasi encoder dan kompresi data dalam koneksi langsung tanpa broadcaster.",
+    "img": "/kegiatan/Gemini_Generated_Image_uryasguryasgurya.png"
+  },
+  {
+    "id": 475,
+    "author": ["Agus Subekti", "Arief Suryadi Satyawan", "Mochamad Mardi Marta Dinata", "Arumjeni Mitayani", "Purwoko Adhi"],
+    "title": "Improved autocorrelation method for time synchronization in filtered orthogonal frequency division multiplexing",
+    "desc": "Metode autokorelasi yang ditingkatkan dengan teknik averaging meningkatkan akurasi sinkronisasi waktu dalam sistem F-OFDM, terutama saat simbol pelatihan terbatas pada satu subband.",
+    "img": "/kegiatan/Gemini_Generated_Image_qre82nqre82nqre8.png"
+  },
+  {
+    "id": 476,
+    "author": ["Henry Probo Santoso", "Joko Slamet Saputro", "Hari Maghfiroh", "Mochamad Mardi Marta Dinata"],
+    "title": "Balancing Robot Navigation with Virtual Map and Virtual Sensor",
+    "desc": "Sistem navigasi robot self-balancing dua roda dikembangkan menggunakan ROS, Gazebo, dan RViz, memungkinkan simulasi virtual (peta & sensor) yang terintegrasi langsung dengan robot fisik melalui pengiriman data kecepatan real-time.",
+    "img": "/kegiatan/Gemini_Generated_Image_r0w4dsr0w4dsr0w4.png"
+  },
+  {
+  "id": 477,
+  "author": ["Teguh Praludi", "Yana Taryana", "Ken Paramayudha", "Budi Prawara", "Yusnita Rahayu", "Chaeriah Bin Ali Wael", "Yaya Sulaeman", "Bagus Edy Sukoco", "Ros Sariningrum", "Hendrawan Kurniadin", "Wahid Nova Nugraha"],
+  "title": "Design of flexible 3.2 GHz rectangular microstrip patch antenna for S-Band communication",
+  "desc": "Antena mikrostrip fleksibel berbasis substrat Pyralux FR 9111 berhasil dirancang untuk komunikasi S-Band di 3.2 GHz, mempertahankan kinerja tinggi (return loss -31.38 dB) bahkan saat ditekuk hingga 90°, menjadikannya ideal untuk perangkat konformal dan wearable.",
+  "img": "/kegiatan/Gemini_Generated_Image_hr9vv7hr9vv7hr9v.png"
+  },
+  {
+    "id": 478,
+    "author": ["Octa Heriana", "Andriyan Bayu Suksmono", "Hasballah Zakaria", "Andika Prahasta"],
+    "title": "3D image reconstruction of sclera using a light field camera",
+    "desc": "Rekonstruksi 3D permukaan sklera menggunakan kamera light field Lytro Illum memungkinkan deteksi lesi atau bleb pasca-trabekulektomi dengan akurasi tinggi melalui pemrosesan depth map dan penambahan informasi tekstur tepi.",
+    "img": "/kegiatan/Gemini_Generated_Image_k9onyok9onyok9on.png"
+  },
+  {
+    "id": 479,
+    "author": ["Octa Heriana", "Andriyan Bayu Suksmono", "Hasballah Zakaria", "Andika Prahasta"],
+    "title": "Curve-based Depth Map Image Adjustment for Eyeball Phantom Measurement",
+    "desc": "Metode penyesuaian depth map berbasis kurva slit lamp berhasil mengkoreksi inkonsistensi akibat variasi pencahayaan, meningkatkan akurasi pengukuran permukaan phantom bola mata menggunakan kamera light field konsumen.",
+    "img": "/kegiatan/Gemini_Generated_Image_xv1x6ixv1x6ixv1x.png"
+  },
+  {
+    "id": 480,
+    "author": ["Octa Heriana", "Andriyan Bayu Suksmono", "Hasballah Zakaria", "Andika Prahasta"],
+    "title": "Depth Map Reconstruction for Scleral Bleb Models Using Structured Light in Light Field Imaging",
+    "desc": "Pendekatan berbasis Markov Random Field dengan kondisi batas dari citra sub-aperture pusat meningkatkan akurasi rekonstruksi depth map pada model bleb sklera yang bersifat glossy dan minim kontras.",
+    "img": "/kegiatan/Gemini_Generated_Image_m1r1xqm1r1xqm1r1.png"
+  },
+  {
+    "id": 481,
+    "author": ["Octa Heriana", "Andriyan Bayu Suksmono", "Hasballah Zakaria", "Andika Prahasta"],
+    "title": "Corrections to “Depth Map Reconstruction for Scleral Bleb Models Using Structured Light in Light Field Imaging”",
+    "desc": "Dokumen koreksi resmi terhadap makalah IEEE Access mengenai rekonstruksi depth map bleb sklera, memperbaiki kesalahan minor dalam teks, gambar, atau data yang diterbitkan sebelumnya.",
+    "img": "/kegiatan/Gemini_Generated_Image_8d8yxi8d8yxi8d8y.png"
   }
 ]

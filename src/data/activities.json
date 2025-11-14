@@ -4337,5 +4337,117 @@
     "title": "Fuzzy adaptive zoning algorithm: integrating LiDAR and fuzzy logic for enhanced autonomous electric vehicle navigation in controlled spaces",
     "desc": "Algoritma FAZA menggabungkan LiDAR VLP-16 dan logika fuzzy Mamdani untuk navigasi otonom di ruang terbatas, membagi area deteksi menjadi 8 zona dan menghasilkan keputusan penghindaran rintangan secara adaptif dan efisien.",
     "img": "/kegiatan/Gemini_Generated_Image_farzzlfarzzlfarz.png"
+  },
+  {
+    "id": 458,
+    "author": ["Raisya Auliya Salsabila", "Moh Farid Susanto", "Dinda Mustika", "Taufik Irfan", "Galih Nugraha Nurkahfi"],
+    "title": "Implementasi Infrastruktur Sistem Monitoring Posisi Pasien Covid-19 di Area Rumah Sakit Menggunakan Jaringan Bluetooth Rendah Energi",
+    "desc": "Sistem monitoring posisi pasien berbasis BLE memungkinkan pelacakan real-time lokasi pasien COVID-19 di rumah sakit, mendukung manajemen ruang isolasi dan pengurangan beban tenaga medis.",
+    "img": "/kegiatan/Gemini_Generated_Image_ejjh71ejjh71ejjh.png"
+  },
+  {
+    "id": 459,
+    "author": ["Nurjamilah Haqimah", "Moh Farid Susanto", "Mochamad Mardi Marta Dinata", "Galih Nugraha Nurkahfi"],
+    "title": "Pemanfaatan nRF24L01 Wireless dalam Pembuatan Perangkat untuk Pengawasan Pasien Covid-19",
+    "desc": "Perangkat pemantau tanda vital berbasis sensor DS18B20 dan MAX30100 menggunakan modul nRF24L01 mengirim data suhu, detak jantung, dan saturasi oksigen ke gateway dengan akurasi 98% dan delay 15 detik.",
+    "img": "/kegiatan/Gemini_Generated_Image_qu1bn5qu1bn5qu1b.png"
+  },
+  {
+    "id": 460,
+    "author": ["Syaiful Ahdan", "Ade Nurhayati", "Galih Nugraha Nurkahfi", "Nana Rachmana Syambas"],
+    "title": "Adaptive forwarding strategy in named data networking: A survey",
+    "desc": "Tinjauan komprehensif terhadap strategi forwarding adaptif dalam NDN menunjukkan pentingnya fleksibilitas keputusan forwarding berdasarkan kondisi jaringan dinamis dan karakteristik aplikasi.",
+    "img": "/kegiatan/Gemini_Generated_Image_b8x7dlb8x7dlb8x7.png"
+  },
+  {
+    "id": 461,
+    "author": ["Anggietha Santoso Putri", "Mitra Sofiyati", "AA Bagus Yoga Deva Mahesa", "Galih Nugraha Nurkahfi", "Nana Rachmana Syambas"],
+    "title": "Forwarding Strategies Effect on Named Data Network Traffic Load. Case Study: Simulation with Mini NDN",
+    "desc": "Simulasi Mini-NDN menunjukkan bahwa strategi forwarding multicast menghasilkan beban lalu lintas lebih tinggi dibanding best-route, namun meningkatkan redundansi dan keandalan dalam distribusi konten.",
+    "img": "/kegiatan/Gemini_Generated_Image_nb9gocnb9gocnb9g.png"
+  },
+  {
+    "id": 462,
+    "author": ["Bagus Aditya", "G Nugraha Nurkahfi", "Christoporus Ivan Samuels"],
+    "title": "Wireless Last Mile Study in Rural Areas",
+    "desc": "Studi multihop WLAN 5 GHz sebagai backhaul VSAT berhasil menyediakan internet stabil hingga 3.9 km di daerah pedesaan, dengan latency <20 ms dan throughput UDP 1.04 Mbps pada hop keempat.",
+    "img": "/kegiatan/Gemini_Generated_Image_np1ktenp1ktenp1k.png"
+  },
+  {
+    "id": 463,
+    "author": ["Muhammad Iqbal A Mu’thi", "Febrian Hadiatna", "Galih Nugraha Nurkahfi"],
+    "title": "Analisa Durasi Pemakaian Baterai LI–PO 3500 mAh Dalam Mencatu Daya Gelang Tangan Pasien Menggunakan Power Meter",
+    "desc": "Baterai Li-Po 3500 mAh mampu mencatu daya gelang tangan pasien selama sekitar 22 jam, menjadikannya solusi praktis untuk perangkat wearable dalam masa karantina mandiri atau isolasi ringan.",
+    "img": "/kegiatan/Gemini_Generated_Image_ypwslwypwslwypws.png"
+  },
+  {
+    "id": 464,
+    "author": ["Nana Rachmana Syambas", "Tutun Juhana", "Eueung Mulyana", "Ian Joseph Matheus Edward", "Hamonangan Situmorang", "Ratna Mayasari", "Ridha Muldina Negara", "Leanna Vidya Yovita", "Tody Ariefianto Wibowo", "Syaiful Ahdan", "Galih Nugraha Nurkahfi", "Ade Nurhayati", "Hafiz Mulya", "Mochamad Soebagja Budiana"],
+    "title": "Research Progress On Name Data Networking To Achieve A Superior National Product In Indonesia",
+    "desc": "Penelitian NDN di Indonesia menunjukkan potensi besar dalam mengatasi tantangan QoE dan efisiensi lalu lintas internet, dengan fokus pada pembangunan ekosistem teknologi nasional yang tangguh.",
+    "img": "/kegiatan/Gemini_Generated_Image_rbzjr9rbzjr9rbzj.png"
+  },
+  {
+    "id": 465,
+    "author": ["Syaiful Ahdan", "Galih Nugraha Nurkahfi", "Ade Nurhayati", "Ratna Mayasari", "Ridha Muldina Negara", "Nana Rachmana Syambas"],
+    "title": "Forwarding strategy performance using interest variation scheme in named data networking",
+    "desc": "Studi simulasi NDNSim menunjukkan bahwa variasi jumlah Interest memengaruhi delay kumulatif, dengan strategi broadcast menghasilkan latensi lebih tinggi tetapi cakupan lebih luas dibanding best-route.",
+    "img": "/kegiatan/Gemini_Generated_Image_9p6ygy9p6ygy9p6y.png"
+  },
+  {
+    "id": 466,
+    "author": ["Ade Nurhayati", "Ratna Mayasari", "Syaiful Ahdan", "Ridha Muldina Negara", "Galih Nugraha Nurkahfi", "Nana Rachmana Syambas"],
+    "title": "Naming scheme on named data networking: A survey",
+    "desc": "Tinjauan terhadap skema penamaan NDN menunjukkan hierarki, flat, dan hybrid memiliki trade-off antara panjang nama, kecepatan pencarian, dan skalabilitas, dengan pendekatan entropi dan encoding meningkatkan efisiensi.",
+    "img": "/kegiatan/Gemini_Generated_Image_xget2bxget2bxget.png"
+  },
+  {
+  "id": 467,
+  "author": ["Syaiful Ahdan", "Eki Ahmad Zaki Hamidi", "Sampurna Dadi Riskiono", "Ridha Muldina Negara", "Ratna Mayasari", "Suci Ramadona", "Ade Nurhayati", "Adi Sucipto", "Galih Nugraha Nurkahfi", "Dzata Farahiyah", "Muchammad Naseer"],
+  "title": "Digital Forensics Investigation and Incident Response in Internet of Things (IoT-DFIR): Challenges and Models",
+  "desc": "Studi ini mengidentifikasi tantangan utama dalam forensik digital IoT—seperti heterogenitas perangkat, data terdistribusi, dan keterbatasan sumber daya—serta mengusulkan model investigasi dan respons insiden yang komprehensif untuk mendukung penanganan kejahatan siber di ekosistem IoT.",
+  "img": "/kegiatan/Gemini_Generated_Image_buppe3buppe3bupp.png"
+  },
+  {
+    "id": 468,
+    "author": ["MuhamadAlif Endrizal", "Eueung Mulyana", "Galih Nugraha Nurkahfi"],
+    "title": "Performance Analysis of Raspberry Pi-based Testbed Development for P4 Programmable Data Plane",
+    "desc": "Testbed berbasis Raspberry Pi untuk data plane P4 menunjukkan kinerja memadai dalam simulasi jaringan SDN, dengan pengukuran delay, throughput, jitter, dan packet loss sebagai dasar validasi sebelum implementasi produksi.",
+    "img": "/kegiatan/Gemini_Generated_Image_qcw2tiqcw2tiqcw2.png"
+  },
+  {
+    "id": 469,
+    "author": ["Larastya Devindira Hasnaa", "Eueung Mulyana", "Galih Nugraha Nurkahfi"],
+    "title": "Performance Analysis of Mininet-based Testbed for Software Defined Network with P4 Programmable Data Plane",
+    "desc": "Testbed Mininet untuk SDN berbasis P4 memberikan lingkungan simulasi fleksibel untuk menguji pemrosesan paket, dengan analisis performa berdasarkan delay, throughput, CPU usage, dan packet loss.",
+    "img": "/kegiatan/Gemini_Generated_Image_8lvdqh8lvdqh8lvd.png"
+  },
+  {
+    "id": 470,
+    "author": ["Nana Rachmana Syambas", "Syaiful Ahdan", "Eki Ahmad Zaki Hamidi", "Ridha Muldina Negara", "Ratna Mayasari", "Ade Nurhayati", "Galih Nugraha Nurkahfi", "Jupriyadi Jupriyadi", "Adi Sucipto", "Hasan Nur Arifin"],
+    "title": "PENINGKATAN KUALITAS PEMBELAJARAN MELALUI PENGEMBANGAN CONTENT DELIVERY NETWORK DI SMK YAYASAN PESANTREN CINTAWANA TASIKMALAYA",
+    "desc": "Pengembangan CDN di SMK Cintawana Tasikmalaya mempercepat distribusi materi pembelajaran digital, mengatasi keterbatasan bandwidth dan meningkatkan aksesibilitas konten edukasi bagi siswa dan guru.",
+    "img": "/kegiatan/Gemini_Generated_Image_o1f388o1f388o1f3.png"
+  },
+  {
+    "id": 471,
+    "author": ["Naila Syahada Widyadhana", "Nana Rachmana Syambas", "Eueung Mulyana", "Galih Nugraha Nurkahfi"],
+    "title": "Implementation of Transmit Power Adaptation Algorithm on VANET Testbed Using SDN OpenFlow",
+    "desc": "Algoritma TPA berbasis OpenFlow berhasil mengurangi interferensi saluran pada VANET dengan menyesuaikan daya transmisi kendaraan secara dinamis, meningkatkan rasio penerimaan beacon tanpa mengorbankan jangkauan komunikasi.",
+    "img": "/kegiatan/Gemini_Generated_Image_jddq1wjddq1wjddq.png"
+  },
+  {
+    "id": 472,
+    "author": ["Farhan Afif", "Eueung Mulyana", "Nana Rachmana Syambas", "Galih Nugraha Nurkahfi"],
+    "title": "Data Processing and Visualization in Software Defined Vehicular Network Tested",
+    "desc": "Aplikasi web berbasis visualisasi mengintegrasikan Mininet dan SUMO untuk simulasi SDVN, menggantikan antarmuka CLI dengan dashboard interaktif untuk pemantauan lalu lintas dan kinerja jaringan kendaraan otonom.",
+    "img": "/kegiatan/Gemini_Generated_Image_gy2rx7gy2rx7gy2r.png"
+  },
+  {
+    "id": 473,
+    "author": ["Nana Rachmana Syambas", "Syaiful Ahdan", "Eki Ahmad Zaki Hamidi", "Ridha Muldina Negara", "Ratna Mayasari", "Ade Nurhayati", "Galih Nugraha Nurkahfi", "Jupriyadi Jupriyadi", "Adi Sucipto", "Hasan Nur Arifin", "Rohmat Tulloh"],
+    "title": "Implementasi Teknologi Content Delivery Network (CDN) Sebagai Akselerasi Digitalisasi Sekolah",
+    "desc": "Implementasi CDN berbasis Starlink dan Moodle di Kabupaten Pesisir Barat, Lampung, berhasil mengakselerasi digitalisasi sekolah di wilayah 3T dengan pelatihan intensif dan infrastruktur internet stabil untuk pembelajaran daring.",
+    "img": "/kegiatan/Gemini_Generated_Image_b726wfb726wfb726.png"
   }
 ]

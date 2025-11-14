@@ -9211,5 +9211,421 @@
         "content": "FAZA menawarkan solusi cerdas, hemat sumber daya, dan mudah diimplementasikan untuk AEV di lingkungan terkendali, menjadikannya alternatif unggul untuk otomasi industri dan transportasi perkotaan."
       }
     ]
+  },
+  {
+    "id": 458,
+    "title": "Implementasi Infrastruktur Sistem Monitoring Posisi Pasien Covid-19 di Area Rumah Sakit Menggunakan Jaringan Bluetooth Rendah Energi",
+    "publishDate": "September 1, 2021",
+    "author": "Raisya Auliya Salsabila, Moh Farid Susanto, Dinda Mustika, Taufik Irfan, Galih Nugraha Nurkahfi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:YsMSGLbcyi4C",
+    "image": "/kegiatan/Gemini_Generated_Image_ejjh71ejjh71ejjh.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Selama pandemi, rumah sakit mengalami overload pasien, sehingga sistem pemantauan otomatis sangat diperlukan untuk mengoptimalkan manajemen ruang isolasi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem dikembangkan menggunakan gelang BLE yang dikirimkan ke gateway pusat via jaringan Bluetooth Low Energy (BLE), kemudian ditampilkan pada dashboard web untuk pemantauan lokasi real-time."
+      },
+      {
+        "heading": "Results",
+        "content": "Infrastruktur mampu melacak posisi pasien secara akurat dalam gedung rumah sakit, membantu petugas dalam merespons cepat jika pasien meninggalkan area isolasi."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini memberikan dasar bagi sistem tracking pasien non-invasif yang hemat energi dan mudah diimplementasikan di fasilitas kesehatan terbatas."
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "title": "Pemanfaatan nRF24L01 Wireless dalam Pembuatan Perangkat untuk Pengawasan Pasien Covid-19",
+    "publishDate": "September 1, 2021",
+    "author": "Nurjamilah Haqimah, Moh Farid Susanto, Mochamad Mardi Marta Dinata, Galih Nugraha Nurkahfi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:WF5omc3nYNoC",
+    "image": "/kegiatan/Gemini_Generated_Image_qu1bn5qu1bn5qu1b.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Keterbatasan sumber daya medis membutuhkan solusi pengawasan pasien jarak jauh yang murah dan andal."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sensor suhu (DS18B20) dan oximeter (MAX30100) diintegrasikan ke mikrokontroler, data dikirim ke gateway via modul nRF24L01, lalu diproses di server web."
+      },
+      {
+        "heading": "Results",
+        "content": "Akurasi pengukuran suhu dan SpO₂ mencapai 98% dibanding alat standar medis. Delay transmisi rata-rata 15 detik, cocok untuk pemantauan rutin."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem ini layak digunakan untuk pemantauan pasien isolasi mandiri maupun di rumah sakit darurat, dengan biaya rendah dan konsumsi daya minimal."
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "title": "Adaptive forwarding strategy in named data networking: A survey",
+    "publishDate": "November 18, 2021",
+    "author": "Syaiful Ahdan, Ade Nurhayati, Galih Nugraha Nurkahfi, Nana Rachmana Syambas",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:roLk4NBRz8UC",
+    "image": "/kegiatan/Gemini_Generated_Image_b8x7dlb8x7dlb8x7.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Strategi forwarding dalam NDN harus adaptif karena tidak ada alamat IP; keputusan didasarkan pada nama konten dan kondisi jaringan dinamis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tinjauan literatur dilakukan terhadap berbagai strategi forwarding seperti best route, multicast, dan adaptive FIB update, serta metrik evaluasinya."
+      },
+      {
+        "heading": "Results",
+        "content": "Setiap strategi memiliki kelebihan tergantung konteks: best-route untuk efisiensi, multicast untuk redundansi, dan adaptive untuk responsivitas jaringan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pemilihan strategi harus mempertimbangkan jenis aplikasi, beban jaringan, dan kebutuhan QoS, sehingga pendekatan adaptif menjadi tren utama dalam arsitektur NDN."
+      }
+    ]
+  },
+  {
+    "id": 461,
+    "title": "Forwarding Strategies Effect on Named Data Network Traffic Load. Case Study: Simulation with Mini NDN",
+    "publishDate": "November 18, 2021",
+    "author": "Anggietha Santoso Putri, Mitra Sofiyati, AA Bagus Yoga Deva Mahesa, Galih Nugraha Nurkahfi, Nana Rachmana Syambas",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:Se3iqnhoufwC",
+    "image": "/kegiatan/Gemini_Generated_Image_nb9gocnb9gocnb9g.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Performa jaringan NDN sangat bergantung pada strategi forwarding, terutama dalam hal distribusi beban lalu lintas dan efisiensi jalur."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Simulasi dilakukan di Mini-NDN dengan topologi mesh lima node dan dua edge node (producer-consumer). Parameter: cumulative delay dan traffic load dibandingkan antara best-route vs multicast."
+      },
+      {
+        "heading": "Results",
+        "content": "Best-route menghasilkan delay lebih rendah, sedangkan multicast meningkatkan beban jaringan tetapi memberikan toleransi kesalahan lebih baik."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Multicast cocok untuk konten populer, sedangkan best-route ideal untuk permintaan langsung. Kombinasi adaptif bisa menjadi solusi optimal di lingkungan dinamis."
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "title": "Wireless Last Mile Study in Rural Areas",
+    "publishDate": "November 22, 2021",
+    "author": "Bagus Aditya, G Nugraha Nurkahfi, Christoporus Ivan Samuels",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:ufrVoPGSRksC",
+    "image": "/kegiatan/Gemini_Generated_Image_np1ktenp1ktenp1k.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Akses internet di daerah pedesaan masih terbatas meskipun VSAT tersedia, karena masalah 'last mile' distribusi ke pelanggan tersebar."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Backhaul multihop 5 GHz (802.11n) digunakan untuk mentransmisikan data dari terminal VSAT ke titik akses lokal, lalu disiarkan via 2.4 GHz omnidirectional ke pelanggan."
+      },
+      {
+        "heading": "Results",
+        "content": "Latency maksimum 19.894 ms (baik untuk VoIP), UDP rate stabil 1.04 Mbps pada jarak 3.968 meter. Interferensi minimal berkat pemisahan frekuensi backhaul dan akses."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi multihop 5 GHz efektif untuk memperluas cakupan internet dari VSAT ke desa-desa terpencil, bahkan di wilayah dengan banyak penghalang fisik."
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "title": "Analisa Durasi Pemakaian Baterai LI–PO 3500 mAh Dalam Mencatu Daya Gelang Tangan Pasien Menggunakan Power Meter",
+    "publishDate": "2022",
+    "author": "Muhammad Iqbal A Mu’thi, Febrian Hadiatna, Galih Nugraha Nurkahfi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:kNdYIx-mwKoC",
+    "image": "/kegiatan/Gemini_Generated_Image_ypwslwypwslwypws.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Daya tahan baterai menjadi faktor kritis dalam wearable device untuk pemantauan kesehatan jangka panjang."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Baterai Li-Po 3500 mAh diuji dengan power meter yang merekam data logger secara berkala melalui SD card untuk menganalisis konsumsi daya gelang pasien."
+      },
+      {
+        "heading": "Results",
+        "content": "Baterai mampu bertahan hingga 22 jam tanpa pengisian ulang, cukup untuk satu siklus harian pemantauan intensif."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain sistem elektronik dan mode low-power membuat gelang ini efisien, dan dapat ditingkatkan dengan pengisian nirkabel untuk penggunaan berkelanjutan."
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "title": "Research Progress On Name Data Networking To Achieve A Superior National Product In Indonesia",
+    "publishDate": "July 21, 2022",
+    "author": "Nana Rachmana Syambas, Tutun Juhana, Eueung Mulyana, Ian Joseph Matheus Edward, Hamonangan Situmorang, Ratna Mayasari, Ridha Muldina Negara, Leanna Vidya Yovita, Tody Ariefianto Wibowo, Syaiful Ahdan, Galih Nugraha Nurkahfi, Ade Nurhayati, Hafiz Mulya, Mochamad Soebagja Budiana",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:5nxA0vEk-isC",
+    "image": "/kegiatan/Gemini_Generated_Image_rbzjr9rbzjr9rbzj.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pertumbuhan pengguna internet dan lalu lintas multimedia menuntut arsitektur jaringan baru yang lebih efisien dari model IP tradisional."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini mengkaji perkembangan riset NDN di Indonesia, termasuk kolaborasi institusi, prototipe, dan roadmap menuju produk nasional unggulan."
+      },
+      {
+        "heading": "Results",
+        "content": "Tim peneliti telah membangun testbed NDN, mengembangkan strategi forwarding, dan mengevaluasi performa jaringan dengan simulator NDNSim dan Mini-NDN."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "NDN berpotensi besar menjadi tulang punggung internet masa depan di Indonesia, mendukung smart city, telemedicine, dan edukasi digital secara inklusif."
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "title": "Forwarding strategy performance using interest variation scheme in named data networking",
+    "publishDate": "July 21, 2022",
+    "author": "Syaiful Ahdan, Galih Nugraha Nurkahfi, Ade Nurhayati, Ratna Mayasari, Ridha Muldina Negara, Nana Rachmana Syambas",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:8k81kl-MbHgC",
+    "image": "/kegiatan/Gemini_Generated_Image_9p6ygy9p6ygy9p6y.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Volume dan pola Interest dalam NDN memengaruhi kinerja forwarding dan beban jaringan, sehingga perlu dievaluasi secara sistematis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Simulasi dilakukan di NDNSim dengan variasi jumlah Interest (1–100) dan dua strategi: broadcast dan best-route. Metrik: distribusi delay kumulatif dan beban jaringan."
+      },
+      {
+        "heading": "Results",
+        "content": "Semakin banyak Interest, semakin tinggi delay kumulatif. Strategi broadcast menghasilkan latensi lebih tinggi tetapi cakupan lebih baik dalam kondisi congestion."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Variasi Interest signifikan memengaruhi performa forwarding. Strategi harus dinamis, menyesuaikan volume permintaan dan topologi jaringan untuk efisiensi optimal."
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "title": "Naming scheme on named data networking: A survey",
+    "publishDate": "July 21, 2022",
+    "author": "Ade Nurhayati, Ratna Mayasari, Syaiful Ahdan, Ridha Muldina Negara, Galih Nugraha Nurkahfi, Nana Rachmana Syambas",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:MXK_kJrjxJIC",
+    "image": "/kegiatan/Gemini_Generated_Image_xget2bxget2bxget.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Skema penamaan dalam NDN menentukan bagaimana data ditemukan, direplikasi, dan didistribusikan secara efisien di jaringan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tinjauan sistematis terhadap skema penamaan: flat, hierarki, hibrida, serta pendekatan optimasi seperti encoding komponen dan lookup pintar."
+      },
+      {
+        "heading": "Results",
+        "content": "Flat naming cepat tapi tidak skalabel. Hierarki mendukung routing efisien namun rentan terhadap perubahan struktur. Pendekatan entropi dan encoding meningkatkan efisiensi penyimpanan dan pencarian."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Skema hibrida dengan teknik encoding cerdas merupakan arah pengembangan masa depan NDN, menyeimbangkan performa, skalabilitas, dan fleksibilitas."
+      }
+    ]
+  },
+  {
+  "id": 467,
+  "title": "Digital Forensics Investigation and Incident Response in Internet of Things (IoT-DFIR): Challenges and Models",
+  "publishDate": "July 6, 2023",
+  "author": "Syaiful Ahdan, Eki Ahmad Zaki Hamidi, Sampurna Dadi Riskiono, Ridha Muldina Negara, Ratna Mayasari, Suci Ramadona, Ade Nurhayati, Adi Sucipto, Galih Nugraha Nurkahfi, Dzata Farahiyah, Muchammad Naseer",
+  "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:KlAtU1dfN6UC",
+  "image": "/kegiatan/Gemini_Generated_Image_buppe3buppe3bupp.png",
+  "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pertumbuhan pesat perangkat IoT menciptakan tantangan besar dalam penanganan kejahatan siber, karena data tersebar di miliaran perangkat heterogen dengan kapasitas penyimpanan dan komputasi terbatas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Penelitian ini melakukan tinjauan sistematis terhadap literatur terkini untuk mengidentifikasi tantangan teknis dan prosedural dalam investigasi forensik IoT (IoT-DigFor), lalu merancang model konseptual untuk IoT-DFIR (Digital Forensics and Incident Response)."
+      },
+      {
+        "heading": "Results",
+        "content": "Tantangan utama mencakup: fragmentasi data, kurangnya standar forensik, ketergantungan pada cloud, dan risiko kontaminasi bukti. Model yang diusulkan mencakup tahapan: identifikasi perangkat, akuisisi data (lokal & cloud), analisis lintas-platform, dan pelaporan forensik yang memenuhi standar hukum."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "IoT-DFIR memerlukan pendekatan terpadu yang menggabungkan keamanan siber, forensik digital, dan insiden respons. Pengembangan standar internasional dan alat forensik khusus IoT menjadi kunci untuk investigasi yang cepat, akurat, dan dapat diaudit secara hukum."
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "title": "Performance Analysis of Raspberry Pi-based Testbed Development for P4 Programmable Data Plane",
+    "publishDate": "October 12, 2023",
+    "author": "MuhamadAlif Endrizal, Eueung Mulyana, Galih Nugraha Nurkahfi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:ULOm3_A8WrAC",
+    "image": "/kegiatan/Gemini_Generated_Image_qcw2tiqcw2tiqcw2.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "P4 memungkinkan pemrograman data plane yang fleksibel, tetapi perlu diuji dalam lingkungan yang terjangkau sebelum deployment di jaringan produksi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Testbed dikembangkan menggunakan Raspberry Pi sebagai switch P4, dengan pengukuran kinerja berdasarkan delay, throughput, jitter, dan packet loss dalam berbagai skenario lalu lintas."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mampu memproses paket dengan latensi rendah pada beban ringan, namun mengalami peningkatan delay signifikan saat beban mendekati kapasitas. Namun, tetap layak sebagai platform pengujian awal."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Raspberry Pi dapat digunakan sebagai testbed P4 berbiaya rendah untuk pendidikan dan prototipe, meskipun memiliki keterbatasan throughput dibanding perangkat komersial."
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "title": "Performance Analysis of Mininet-based Testbed for Software Defined Network with P4 Programmable Data Plane",
+    "publishDate": "October 12, 2023",
+    "author": "Larastya Devindira Hasnaa, Eueung Mulyana, Galih Nugraha Nurkahfi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:YOwf2qJgpHMC",
+    "image": "/kegiatan/Gemini_Generated_Image_8lvdqh8lvdqh8lvd.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "OpenFlow terbatas dalam fleksibilitas definisi protokol, sehingga P4 muncul sebagai solusi untuk data plane yang benar-benar dapat diprogram."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Testbed Mininet dikonfigurasi dengan switch P4 dan controller SDN, lalu diuji dengan berbagai skenario lalu lintas untuk mengukur delay, throughput, packet loss, jitter, dan penggunaan CPU."
+      },
+      {
+        "heading": "Results",
+        "content": "Mininet memberikan lingkungan simulasi akurat dengan overhead CPU yang dapat diterima. P4 memungkinkan definisi header dan pipeline pemrosesan yang sepenuhnya kustom."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Mininet merupakan platform ideal untuk penelitian dan pengembangan SDN berbasis P4, terutama dalam konteks akademik dan prototipe cepat."
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "title": "PENINGKATAN KUALITAS PEMBELAJARAN MELALUI PENGEMBANGAN CONTENT DELIVERY NETWORK DI SMK YAYASAN PESANTREN CINTAWANA TASIKMALAYA",
+    "publishDate": "December 19, 2023",
+    "author": "Nana Rachmana Syambas, Syaiful Ahdan, Eki Ahmad Zaki Hamidi, Ridha Muldina Negara, Ratna Mayasari, Ade Nurhayati, Galih Nugraha Nurkahfi, Jupriyadi Jupriyadi, Adi Sucipto, Hasan Nur Arifin",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:4TOpqqG69KYC",
+    "image": "/kegiatan/Gemini_Generated_Image_o1f388o1f388o1f3.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "SMK di daerah terpencil menghadapi tantangan akses materi digital karena infrastruktur jaringan yang terbatas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "CDN dikembangkan untuk menyimpan cache materi pembelajaran (video, modul, kuis) di server lokal, mengurangi beban bandwidth utama dan mempercepat akses oleh banyak pengguna sekaligus."
+      },
+      {
+        "heading": "Results",
+        "content": "Waktu muat materi digital berkurang hingga 70%, dan guru dapat mengunggah konten sekali untuk diakses oleh ratusan siswa tanpa lag."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "CDN terbukti efektif sebagai solusi digitalisasi sekolah menengah, terutama di wilayah dengan kapasitas internet terbatas namun kebutuhan akses bersamaan tinggi."
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "title": "Implementation of Transmit Power Adaptation Algorithm on VANET Testbed Using SDN OpenFlow",
+    "publishDate": "October 17, 2024",
+    "author": "Naila Syahada Widyadhana, Nana Rachmana Syambas, Eueung Mulyana, Galih Nugraha Nurkahfi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:qxL8FJ1GzNcC",
+    "image": "/kegiatan/Gemini_Generated_Image_jddq1wjddq1wjddq.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Beaconing berlebihan di VANET menyebabkan interferensi dan penurunan rasio penerimaan, terutama di area padat lalu lintas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Algoritma TPA diimplementasikan pada testbed VANET berbasis SDN OpenFlow, di mana controller pusat menyesuaikan daya transmisi kendaraan berdasarkan kepadatan jaringan dan jarak komunikasi."
+      },
+      {
+        "heading": "Results",
+        "content": "TPA mengurangi interferensi co-channel hingga 40% dan meningkatkan rasio penerimaan beacon sebesar 25%, tanpa mengurangi jangkauan komunikasi efektif."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan berbasis SDN memungkinkan manajemen daya adaptif yang efisien, menjadikan VANET lebih andal untuk aplikasi keselamatan kendaraan."
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "title": "Data Processing and Visualization in Software Defined Vehicular Network Tested",
+    "publishDate": "October 17, 2024",
+    "author": "Farhan Afif, Eueung Mulyana, Nana Rachmana Syambas, Galih Nugraha Nurkahfi",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:aqlVkmm33-oC",
+    "image": "/kegiatan/Gemini_Generated_Image_gy2rx7gy2rx7gy2r.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Integrasi Mininet (jaringan) dan SUMO (lalu lintas) diperlukan untuk simulasi SDVN yang realistis, tetapi antarmuka CLI menyulitkan analisis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Dikembangkan aplikasi web untuk mengintegrasikan Mininet dan SUMO, menyediakan visualisasi peta lalu lintas, grafik kinerja jaringan, dan log pemrosesan data secara real-time."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil menampilkan posisi kendaraan, status koneksi, throughput, dan delay dalam satu dashboard interaktif, memudahkan pengujian skenario ITS."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Visualisasi berbasis web meningkatkan aksesibilitas dan produktivitas dalam riset SDVN, menjembatani kesenjangan antara simulasi teknis dan analisis operasional."
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "title": "Implementasi Teknologi Content Delivery Network (CDN) Sebagai Akselerasi Digitalisasi Sekolah",
+    "publishDate": "March 28, 2025",
+    "author": "Nana Rachmana Syambas, Syaiful Ahdan, Eki Ahmad Zaki Hamidi, Ridha Muldina Negara, Ratna Mayasari, Ade Nurhayati, Galih Nugraha Nurkahfi, Jupriyadi Jupriyadi, Adi Sucipto, Hasan Nur Arifin, Rohmat Tulloh",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=id&user=XHDaNvcAAAAJ&sortby=pubdate&citation_for_view=XHDaNvcAAAAJ:4DMP91E08xMC",
+    "image": "/kegiatan/Gemini_Generated_Image_b726wfb726wfb726.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Wilayah 3T seperti Pesisir Barat, Lampung, mengalami kesenjangan digital akibat infrastruktur internet yang tidak stabil."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Program pengabdian mengintegrasikan Starlink untuk koneksi internet satelit, CDN lokal untuk caching konten, dan LMS Moodle sebagai platform pembelajaran, dilengkapi pelatihan guru dan siswa."
+      },
+      {
+        "heading": "Results",
+        "content": "Akses ke materi digital menjadi stabil dan cepat meski di daerah terpencil. Guru mampu mengelola kelas daring, dan siswa aktif dalam kuis dan tugas online."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Kombinasi Starlink, CDN, dan Moodle terbukti sebagai model berkelanjutan untuk digitalisasi pendidikan di wilayah 3T, yang dapat direplikasi secara nasional."
+      }
+    ]
   }
 ]

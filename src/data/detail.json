@@ -2479,32 +2479,6 @@
     ]
   },
   {
-    "id": 97,
-    "title": "WiFi-AC Based Telecommunication Infrastructure for Autonomous Vehicle in Limited Area",
-    "publishDate": "December 22, 2021",
-    "author": "Andri Fachrur Rozie, Galih Nugraha Nurkahfi, Suyoto, Vita Awalia Mardiana, Arumjeni Mitayani, Mochamad Mardi Marta Dinata, Dikdik Krisnandi, Arief Suryadi Satyawan, Ana Heryana",
-    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=d6MnQ9QAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=d6MnQ9QAAAAJ:UebtZRa9Y70C",
-    "image": "/kegiatan/Gemini_Generated_Image_qsblxgqsblxgqsbl.png",
-    "sections": [
-      {
-        "heading": "Introduction",
-        "content": "Kendaraan otonom memerlukan infrastruktur komunikasi yang andal. Standar IEEE 802.11p mahal dan kurang tersedia di Indonesia. Penelitian ini mengevaluasi IEEE 802.11ac (WiFi-AC) sebagai alternatif untuk area terbatas seperti kawasan perkantoran."
-      },
-      {
-        "heading": "Methodology",
-        "content": "Infrastruktur diuji dalam berbagai skenario dengan parameter: throughput, delay, jitter, dan packet loss. Pengujian dilakukan di lingkungan jalan perkantoran dengan kendaraan otonom prototipe."
-      },
-      {
-        "heading": "Results",
-        "content": "WiFi-AC menunjukkan kinerja yang baik: throughput >80 Mbps, delay <10 ms, jitter <1 ms, dan packet loss <0.5%. Sistem mampu mendukung komunikasi V2I (Vehicle-to-Infrastructure) untuk kendaraan otonom sederhana."
-      },
-      {
-        "heading": "Conclusion",
-        "content": "IEEE 802.11ac merupakan solusi hemat biaya dan mudah diimplementasikan untuk kendaraan otonom di area terbatas. Hasil ini membuka jalan bagi adopsi teknologi komunikasi berbasis WiFi yang sudah tersedia luas di Indonesia."
-      }
-    ]
-  },
-  {
     "id": 98,
     "title": "User Expectation of Public Transport Design Experience for Electric Bike Sharing in Indonesia",
     "publishDate": "December 31, 2021",
@@ -3515,32 +3489,6 @@
       {
         "heading": "Conclusion",
         "content": "Modifikasi arsitektur CycleGAN meningkatkan kemampuan dehazing tanpa data berpasangan. Pendekatan ini mendukung aplikasi kendaraan otonom di daerah berkabut seperti dataran tinggi. Penelitian selanjutnya akan menguji pada dataset lebih besar dan kondisi cuaca beragam."
-      }
-    ]
-  },
-  {
-    "id": 137,
-    "title": "Cooperative game theory approach for energy-efficient node clustering in wireless sensor network",
-    "publishDate": "December 1, 2020",
-    "author": "Salita Ulitia Prini, Winy Desvasari, Rico Dahlan, Ros Sariningrum",
-    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=en&user=04HsvnAAAAAJ&sortby=pubdate&citation_for_view=04HsvnAAAAAJ:LkGwnXOMwfcC",
-    "image": "/kegiatan/Gemini_Generated_Image_sd6shrsd6shrsd6s.png",
-    "sections": [
-      {
-        "heading": "Introduction",
-        "content": "Wireless Sensor Networks (WSNs) consist of battery-powered nodes with limited energy, making energy efficiency a critical design goal. Clustering is a proven technique to extend network lifetime, and game theory offers a mathematical framework for optimizing cooperative behavior among nodes."
-      },
-      {
-        "heading": "Methodology",
-        "content": "The paper proposes a Cooperative Game Theoretic Clustering (CGC) algorithm based on a 3-agent cost-sharing game. Cluster heads form coalitions to share energy costs for data aggregation and transmission. Performance is compared against LEACH in terms of First Node Dies (FND), Half Node Dies (HND), and total residual energy via MATLAB simulations."
-      },
-      {
-        "heading": "Results",
-        "content": "CGC improves network stability: FND increases by 65% and HND by 52.4% compared to LEACH. Total residual energy is higher due to balanced load distribution. However, as node count exceeds 150, LEACH’s simplicity gives it a slight edge in scalability."
-      },
-      {
-        "heading": "Conclusion",
-        "content": "CGC demonstrates that cooperative game theory can significantly enhance energy efficiency in small-to-medium WSNs. For large-scale deployments, hybrid approaches combining game theory with lightweight protocols may be optimal. The study validates the role of strategic cooperation in sustainable sensor networking."
       }
     ]
   },
@@ -8819,6 +8767,188 @@
       {
         "heading": "Conclusion",
         "content": "Solusi ini sangat cocok untuk aplikasi pertanian skala besar, memungkinkan deteksi dini stres tanaman dan optimasi tata kelola perkebunan."
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "title": "Techno-economic analysis of an optimized hybrid energy system implementation using PV-wind turbine-diesel generator at Indonesia’s remote telecommunication base",
+    "publishDate": "March 1, 2020",
+    "author": "MMM Dinata, VA Mardiana, A Mitayani, GN Nurkahfi",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=RgoZeXEAAAAJ&sortby=pubdate&citation_for_view=RgoZeXEAAAAJ:IjCSPb-OGe4C",
+    "image": "/kegiatan/Gemini_Generated_Image_s43vdgs43vdgs43v.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Base station telekomunikasi di daerah terpencil Indonesia sering mengandalkan genset diesel yang mahal dan berpolusi. Solusi energi terbarukan hibrida diperlukan untuk efisiensi biaya dan keberlanjutan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Studi melakukan analisis teknis-ekonomi HES+ (surya, angin, diesel) dengan optimasi ukuran komponen berdasarkan data iradiasi dan kecepatan angin di lokasi terpilih."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem HES+ mengurangi Cost of Electricity (CoE) secara signifikan dibanding diesel murni, sekaligus memangkas emisi CO₂, terutama di wilayah dengan potensi angin yang memadai."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Implementasi HES+ layak secara ekonomi dan teknis untuk operator telekomunikasi, mendukung transisi energi hijau di infrastruktur digital nasional."
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "title": "Design and implementation of low-cost and highly customable named data networking (NDN) testbed",
+    "publishDate": "November 18, 2021",
+    "author": "Galih Nugraha Nurkahfi, Tody Ariefianto Wibowo, Syaiful Ahdan, Arumjeni Mitayani, Mochamad Mardi Marta Dinata, Vita Awalia Mardiana, Nana Rachmana Syambas, Ade Nurhayati, Hafizh Mulya Harjono",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=RgoZeXEAAAAJ&sortby=pubdate&citation_for_view=RgoZeXEAAAAJ:eQOLeE2rZwMC",
+    "image": "/kegiatan/Gemini_Generated_Image_u88xm9u88xm9u88x.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Named Data Networking (NDN) adalah kandidat arsitektur internet masa depan, tetapi kurangnya testbed terjangkau menghambat penelitian dan pengembangan."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Testbed dikembangkan menggunakan mesin virtual Linux, mendukung topologi kustom dan manajemen melalui antarmuka GUI untuk eksperimen skala laboratorium."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil menjalankan fungsi inti NDN (forwarding, caching, security) dengan fleksibilitas tinggi dan biaya rendah, serta memungkinkan pengukuran penggunaan sumber daya."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Testbed ini menjadi platform terbuka untuk eksplorasi arsitektur jaringan berbasis konten, mendorong inovasi di bidang keamanan, caching, dan QoS dalam NDN."
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "title": "Linear LED driver design and its implementation for visible light communication applications",
+    "publishDate": "March 1, 2023",
+    "author": "Syifaul Fuada, Faisal Ahmed, Trio Adiono, Adisorn Kaewpukdee, Vita Awalia Mardiana",
+    "scholarLink": "https://scholar.google.co.id/citations?view_op=view_citation&hl=id&user=RgoZeXEAAAAJ&sortby=pubdate&citation_for_view=RgoZeXEAAAAJ:_FxGoFyzp5QC",
+    "image": "/kegiatan/Gemini_Generated_Image_1x4sle1x4sle1x4s.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Visible Light Communication (VLC) memerlukan driver LED yang mampu mentransmisikan sinyal analog atau multilevel tanpa distorsi."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Driver linier berbasis Op-Amp dirancang untuk menggabungkan sinyal data dan offset DC, dengan kemampuan menghapus DC-offset pada penerima."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem berhasil mengirim sinyal OFDM dan audio melalui LED 3–12W. Titik biasing optimal dicegah dari clipping (bias terlalu tinggi) atau mati (bias terlalu rendah)."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain ini menawarkan solusi VLC berbiaya rendah menggunakan komponen umum, cocok untuk aplikasi IoT, pencahayaan pintar, dan komunikasi jarak pendek berkecepatan tinggi."
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "title": "Tsunami early warning system based on maritime wireless communication",
+    "publishDate": "May 2022",
+    "author": "Aryanti Karlina Nurendyastuti, Mochamad Mardi Marta Dinata, Arumjeni Mitayani, Muhammad Rizki Purnama, Mohammad Bagus Adityawan, Mohammad Farid, Arno Adi Kuntoro",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tOmFr-UAAAAJ&sortby=pubdate&citation_for_view=tOmFr-UAAAAJ:3fE2CSJIrl8C",
+    "image": "/kegiatan/Gemini_Generated_Image_g4tw16g4tw16g4tw.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Buoy tsunami rentan rusak dan memiliki delay respons ~5 menit. Alternatif berbasis komunitas maritim diperlukan untuk sistem peringatan dini yang lebih tangguh."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem mengintegrasikan kapal nelayan (>30 GT) sebagai node deteksi dan relay menggunakan VHF, sementara kapal kecil menggunakan jaringan WiFi mesh untuk komunikasi ke darat."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulasi tsunami di Pangandaran menunjukkan waktu kedatangan gelombang 22.5 menit. Sistem komunikasi maritim mampu menyampaikan peringatan jauh lebih cepat daripada buoy."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Pendekatan berbasis nelayan lokal ini meningkatkan ketahanan sistem peringatan dini, terutama di wilayah dengan infrastruktur terbatas dan risiko tinggi seperti Pangandaran."
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "title": "Visualization of induced counter-rotating vortices for electric vehicles battery module thermal management",
+    "publishDate": "August 30, 2022",
+    "author": "Alexander Christantho Budiman, Seyed Mohammad Hasheminejad, S Sudirja, A Mitayani, SH Winoto",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tOmFr-UAAAAJ&sortby=pubdate&citation_for_view=tOmFr-UAAAAJ:KlAtU1dfN6UC",
+    "image": "/kegiatan/Gemini_Generated_Image_brogkebrogkebrog.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Manajemen termal baterai EV sangat penting untuk keselamatan dan kinerja. Pendinginan udara dapat ditingkatkan dengan memperkuat perpindahan panas melalui vorteks."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tiga jenis vortex generator (VG) chevron ditempatkan di hulu modul baterai dummy, dan aliran divisualisasikan menggunakan metode smoke-wire."
+      },
+      {
+        "heading": "Results",
+        "content": "Vorteks counter-rotating berbentuk jamur tetap stabil hingga melewati modul. VG dengan lebih banyak chevron menghasilkan vorteks yang lebih kuat dan besar."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "VG chevron terbukti efektif dalam meningkatkan campuran aliran dan perpindahan panas, menjadikannya solusi pasif yang menjanjikan untuk sistem pendinginan baterai EV."
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "title": "Boundary-layer Vortices for EV Battery Module Thermal Control",
+    "publishDate": "November 2022",
+    "author": "AC Budiman, SM Hasheminejad, A Mitayani, S Kaleg, A Muharam, R Ristiana, SH Winoto, A Hapid",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tOmFr-UAAAAJ&sortby=pubdate&citation_for_view=tOmFr-UAAAAJ:4TOpqqG69KYC",
+    "image": "/kegiatan/Gemini_Generated_Image_j7wakvj7wakvj7wa.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Pendinginan aktif baterai EV memerlukan desain aerodinamis yang mampu mengoptimalkan aliran udara di sekitar modul."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Eksperimen visualisasi aliran dilakukan pada berbagai konfigurasi VG chevron di atas pelat datar dengan modul baterai dummy di hilir."
+      },
+      {
+        "heading": "Results",
+        "content": "Ukuran dan jarak dasar chevron secara signifikan memengaruhi bentuk, ukuran, dan stabilitas vorteks, yang berdampak langsung pada efektivitas pendinginan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Temuan ini memberikan panduan desain untuk sistem pendinginan udara yang efisien, mengurangi kebutuhan pendingin cair dan meningkatkan keandalan baterai EV."
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "title": "A New Approach For A Tsunami Early Warning System Based On Maritime Wireless Communication, Case Study, Pangandaran, Indonesia",
+    "publishDate": "September 20, 2023",
+    "author": "Aryanti Karlina Nurendyastuti, Mohammad Bagus Adityawan, Muhammad Rizki, Mohammad Sigit Arifianto Purnama, Mohammad Farid, Arno Adi Kuntoro",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tOmFr-UAAAAJ&sortby=pubdate&citation_for_view=tOmFr-UAAAAJ:YOwf2qJgpHMC",
+    "image": "/kegiatan/Gemini_Generated_Image_em7snyem7snyem7s.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kegagalan sistem buoy tsunami di Indonesia menuntut solusi alternatif yang lebih andal dan responsif untuk mitigasi bencana."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Tiga skenario gempa megathrust dimodelkan menggunakan Delft3D. Sistem komunikasi VHF (kapal >200 GT) dan HF (komunikasi jarak jauh) diusulkan sebagai infrastruktur relay."
+      },
+      {
+        "heading": "Results",
+        "content": "Waktu propagasi sinyal peringatan melalui VHF/HF kurang dari 1 menit, jauh lebih cepat daripada sistem buoy, memberikan waktu evakuasi yang lebih panjang bagi masyarakat pesisir."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Sistem berbasis komunitas maritim ini layak diadopsi sebagai bagian integral dari Ina-TEWS, meningkatkan ketahanan dan inklusivitas sistem peringatan dini nasional."
       }
     ]
   }

@@ -1092,23 +1092,6 @@
     "img": "/kegiatan/Gemini_Generated_Image_l7q7bzl7q7bzl7q7.png"
   },
   {
-    "id": 97,
-    "author": [
-      "Andri Fachrur Rozie",
-      "Galih Nugraha Nurkahfi",
-      "Suyoto",
-      "Vita Awalia Mardiana",
-      "Arumjeni Mitayani",
-      "Mochamad Mardi Marta Dinata",
-      "Dikdik Krisnandi",
-      "Arief Suryadi Satyawan",
-      "Ana Heryana"
-    ],
-    "title": "WiFi-AC Based Telecommunication Infrastructure for Autonomous Vehicle in Limited Area",
-    "desc": "Evaluasi IEEE 802.11ac sebagai infrastruktur komunikasi hemat biaya untuk kendaraan otonom di area terbatas, menunjukkan kinerja unggul dalam throughput dan latensi.",
-    "img": "/kegiatan/Gemini_Generated_Image_qsblxgqsblxgqsbl.png"
-  },
-  {
     "id": 98,
     "author": [
       "Y. M. K. Syabana",
@@ -1605,18 +1588,6 @@
     "title": "Enhancing Hazy Image Dehazing Using a Modified CycleGAN",
     "desc": "Modification 5 pada CycleGAN dengan self-attention dan dilated convolutions menghasilkan citra dehazing dengan kontras dan detail lebih baik, meski pada dataset kecil (50 pasang citra).",
     "img": "/kegiatan/Gemini_Generated_Image_jvpychjvpychjvpy.png"
-  },
-  {
-    "id": 137,
-    "author": [
-      "Salita Ulitia Prini",
-      "Winy Desvasari",
-      "Rico Dahlan",
-      "Ros Sariningrum"
-    ],
-    "title": "Cooperative game theory approach for energy-efficient node clustering in wireless sensor network",
-    "desc": "Algoritma CGC berbasis teori permainan kooperatif meningkatkan stabilitas jaringan WSN dengan peningkatan 65% pada waktu mati node pertama (FND) dibanding LEACH, meski kinerjanya menurun pada skala jaringan sangat besar.",
-    "img": "/kegiatan/Gemini_Generated_Image_sd6shrsd6shrsd6s.png"
   },
   {
     "id": 138,
@@ -4247,5 +4218,54 @@
     "title": "Development of a GUI-integrated 3D LiDAR scanner for accurate plant size estimation",
     "desc": "Pemindai 3D LiDAR berbasis GUI berhasil mengestimasi dimensi bibit kelapa sawit dengan akurasi 90.2–95.3%, serta menghitung luas daun individual dan kanopi tanpa kontak fisik, ideal untuk pertanian presisi skala besar.",
     "img": "/kegiatan/Gemini_Generated_Image_4nf3o44nf3o44nf3.png"
-  }
+  },
+  {
+    "id": 441,
+    "author": ["MMM Dinata", "VA Mardiana", "A Mitayani", "GN Nurkahfi"],
+    "title": "Techno-economic analysis of an optimized hybrid energy system implementation using PV-wind turbine-diesel generator at Indonesia’s remote telecommunication base",
+    "desc": "Analisis teknis-ekonomi menunjukkan bahwa sistem hibrida PV-angin-diesel (HES+) mengurangi biaya listrik (CoE) dan emisi CO₂ di base station telekomunikasi terpencil, terutama di lokasi dengan kecepatan angin memadai.",
+    "img": "/kegiatan/Gemini_Generated_Image_s43vdgs43vdgs43v.png"
+  },
+  {
+    "id": 442,
+    "author": ["Galih Nugraha Nurkahfi", "Tody Ariefianto Wibowo", "Syaiful Ahdan", "Arumjeni Mitayani", "Mochamad Mardi Marta Dinata", "Vita Awalia Mardiana", "Nana Rachmana Syambas", "Ade Nurhayati", "Hafizh Mulya Harjono"],
+    "title": "Design and implementation of low-cost and highly customable named data networking (NDN) testbed",
+    "desc": "Testbed NDN berbasis mesin virtual Linux menawarkan platform fleksibel dan murah untuk penelitian arsitektur jaringan berbasis konten, dilengkapi antarmuka GUI untuk manajemen topologi skala laboratorium.",
+    "img": "/kegiatan/Gemini_Generated_Image_u88xm9u88xm9u88x.png"
+  },
+  {
+    "id": 443,
+    "author": ["Syifaul Fuada", "Faisal Ahmed", "Trio Adiono", "Adisorn Kaewpukdee", "Vita Awalia Mardiana"],
+    "title": "Linear LED driver design and its implementation for visible light communication applications",
+    "desc": "Desain driver LED linier berbasis Op-Amp memungkinkan transmisi sinyal multilevel (OFDM/audio) untuk VLC, dengan biasing optimal dan kemampuan penghapusan DC-offset menggunakan komponen off-the-shelf.",
+    "img": "/kegiatan/Gemini_Generated_Image_1x4sle1x4sle1x4s.png"
+  },
+  {
+    "id": 444,
+    "author": ["Aryanti Karlina Nurendyastuti", "Mochamad Mardi Marta Dinata", "Arumjeni Mitayani", "Muhammad Rizki Purnama", "Mohammad Bagus Adityawan", "Mohammad Farid", "Arno Adi Kuntoro"],
+    "title": "Tsunami early warning system based on maritime wireless communication",
+    "desc": "Sistem peringatan dini tsunami berbasis komunikasi nirkabel maritim (VHF/WiFi) mengatasi keterbatasan buoy dengan waktu respons <5 menit, memanfaatkan kapal nelayan sebagai sensor dan relay di perairan Pangandaran.",
+    "img": "/kegiatan/Gemini_Generated_Image_g4tw16g4tw16g4tw.png"
+  },
+  {
+    "id": 445,
+    "author": ["Alexander Christantho Budiman", "Seyed Mohammad Hasheminejad", "S Sudirja", "A Mitayani", "SH Winoto"],
+    "title": "Visualization of induced counter-rotating vortices for electric vehicles battery module thermal management",
+    "desc": "Visualisasi aliran menunjukkan bahwa vortex generator chevron menghasilkan struktur vorteks counter-rotating yang stabil, berpotensi meningkatkan perpindahan panas pada modul baterai kendaraan listrik.",
+    "img": "/kegiatan/Gemini_Generated_Image_brogkebrogkebrog.png"
+  },
+  {
+    "id": 446,
+    "author": ["AC Budiman", "SM Hasheminejad", "A Mitayani", "S Kaleg", "A Muharam", "R Ristiana", "SH Winoto", "A Hapid"],
+    "title": "Boundary-layer Vortices for EV Battery Module Thermal Control",
+    "desc": "Studi eksperimen mengungkap pengaruh ukuran dan susunan vortex generator terhadap bentuk dan intensitas vorteks di sekitar modul baterai dummy, memberikan dasar desain sistem pendinginan udara aktif untuk EV.",
+    "img": "/kegiatan/Gemini_Generated_Image_j7wakvj7wakvj7wa.png"
+  },
+  {
+    "id": 447,
+    "author": ["Aryanti Karlina Nurendyastuti", "Mohammad Bagus Adityawan", "Muhammad Rizki", "Mohammad Sigit Arifianto Purnama", "Mohammad Farid", "Arno Adi Kuntoro"],
+    "title": "A New Approach For A Tsunami Early Warning System Based On Maritime Wireless Communication, Case Study, Pangandaran, Indonesia",
+    "desc": "Modeling numerik tsunami di Pangandaran menunjukkan sistem komunikasi maritim (VHF/HF) dapat mengirim peringatan dalam waktu <1 menit, menjadikannya solusi andal sebagai cadangan sistem buoy yang rentan rusak.",
+    "img": "/kegiatan/Gemini_Generated_Image_em7snyem7snyem7s.png"
+  } 
 ]

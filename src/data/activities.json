@@ -4267,5 +4267,75 @@
     "title": "A New Approach For A Tsunami Early Warning System Based On Maritime Wireless Communication, Case Study, Pangandaran, Indonesia",
     "desc": "Modeling numerik tsunami di Pangandaran menunjukkan sistem komunikasi maritim (VHF/HF) dapat mengirim peringatan dalam waktu <1 menit, menjadikannya solusi andal sebagai cadangan sistem buoy yang rentan rusak.",
     "img": "/kegiatan/Gemini_Generated_Image_em7snyem7snyem7s.png"
-  } 
+  },
+  {
+    "id": 448,
+    "author": ["Leila Nurfitria", "Susanto Sambasri", "Salita Ulitia Prini"],
+    "title": "Sistem Alarm Penggantian Cairan Infus Berbasis Mikrokontroler Menggunakan Wireless",
+    "desc": "Sistem alarm nirkabel berbasis mikrokontroler dan sensor inframerah mendeteksi kegagalan infus secara real-time, mengirim notifikasi ke ruang perawat saat cairan habis atau tidak menetes, dengan akurasi penghitungan tetesan 98.03%.",
+    "img": "/kegiatan/Gemini_Generated_Image_pchrrwpchrrwpchr.png"
+  },
+  {
+    "id": 449,
+    "author": ["DA Jatmiko", "SU Prini"],
+    "title": "Study and performance evaluation binary robust invariant scalable keypoints (BRISK) for underwater image stitching",
+    "desc": "Algoritma BRISK berhasil mengatasi tantangan stitching citra bawah air dengan noise dan fitur minim, menghasilkan hasil penyambungan lebih akurat dibanding metode tradisional meskipun jumlah keypoint rendah.",
+    "img": "/kegiatan/Gemini_Generated_Image_f8eolxf8eolxf8eo.png"
+  },
+  {
+    "id": 450,
+    "author": ["M Reza Hidayat", "Mohamad Hamzah Zamzam", "Salita Ulitia Prini"],
+    "title": "Excitation Analysis of Transverse Electric Mode Rectangular Waveguide",
+    "desc": "Analisis mode TE10 dan TE20 pada waveguide persegi panjang menghasilkan filter bandpass 3.3–3.5 GHz dengan return loss -34.4 dB dan insertion loss -0.04 dB, cocok untuk komunikasi satelit dan broadband S-Band.",
+    "img": "/kegiatan/Gemini_Generated_Image_ydq6ywydq6ywydq6.png"
+  },
+  {
+    "id": 451,
+    "author": ["M Reza Hidayat", "Salita Ulitia Prini", "Rivaldi Zaky NA", "Handoko Rusiana Iskandar", "Een Taryana", "Sofyan Basuki"],
+    "title": "Implementation Array-Slotted Miliwires in Artificial Dielectric Material on Waveguide Filters Te10 Mode",
+    "desc": "Penggunaan kawat tembaga dalam material dielektrik FR-4 membentuk artificial dielectric yang memodifikasi respons filter, meningkatkan selektivitas frekuensi pada mode TE10 untuk aplikasi filter mikrowave.",
+    "img": "/kegiatan/Gemini_Generated_Image_8ojoz28ojoz28ojo.png"
+  },
+  {
+    "id": 452,
+    "author": ["M Reza Hidayat", "Ilham Pazaesa", "Salita Ulitia Prini"],
+    "title": "Analytical Performance of Low Noise Amplifier Using Single-Stage Configuration for ADS-B Receiver",
+    "desc": "LNA berbasis BJT 2SC5006 dirancang untuk penerima ADS-B 1090 MHz dengan gain 10.4 dB, noise figure 0.55 dB, dan stabilitas tinggi, memenuhi spesifikasi komersial untuk sistem pengawasan udara.",
+    "img": "/kegiatan/Gemini_Generated_Image_gjmucigjmucigjmu.png"
+  },
+  {
+    "id": 453,
+    "author": ["Hajiar Yuliana", "Sofyan Basuki", "Salita Ulitia Prini"],
+    "title": "Optimization of Low Site Density Area for 4G Network in Urban City",
+    "desc": "Optimasi densitas situs 4G di kota padat dengan penambahan situs baru meningkatkan cakupan sinyal RSRP dari 75.2% menjadi 94.1%, mengurangi area mati hingga 75% di wilayah terpencil perkotaan.",
+    "img": "/kegiatan/Gemini_Generated_Image_lycy4ulycy4ulycy.png"
+  },
+  {
+    "id": 454,
+    "author": ["Ahmad Heri Ilyasah", "M Reza Hidayat", "Salita Ulitia Prini"],
+    "title": "2× 1 truncated corner microstrip array antenna to increase gain and bandwidth for LTE applications at 2.3 GHz frequency",
+    "desc": "Antena mikrostrip array 2×1 dengan sudut terpotong mencapai gain 3.96 dB dan bandwidth 283 MHz di 2.3 GHz, memenuhi spesifikasi LTE dengan VSWR <1.5 dan return loss <-10 dB.",
+    "img": "/kegiatan/Gemini_Generated_Image_e8aztze8aztze8az.png"
+  },
+  {
+    "id": 455,
+    "author": ["Erry Dwi Kurniawan", "Razi Deniwa Zakiyudin", "Robeth V Manurung", "Asih Setiarini", "Yulia Dwi Setia", "Salita Ulitia Prini"],
+    "title": "Utilizing Smartphone as Colorimetric Sensor in Detecting Stress Level",
+    "desc": "Aplikasi Android mengubah perubahan warna biosensor kortisol menjadi nilai RGB, lalu mengestimasi tingkat stres dengan akurasi tinggi, menjadikan smartphone sebagai alat deteksi stres non-invasif dan portabel.",
+    "img": "/kegiatan/Gemini_Generated_Image_fjbs08fjbs08fjbs.png"
+  },
+  {
+    "id": 456,
+    "author": ["M Reza Hidayat", "M Izzan Al-Parissi", "Salita Ulitia Prini"],
+    "title": "Antena Mikrostrip Dipol Multi-Patch Dual-Frequency Untuk Komunikasi Nirkabel Pita Lebar",
+    "desc": "Antena mikrostrip dual-frequency 2.4 GHz dan 5.8 GHz menggunakan struktur multi-patch mampu beroperasi di dua band Wi-Fi sekaligus tanpa antena terpisah, mengurangi ukuran dan biaya sistem komunikasi.",
+    "img": "/kegiatan/Gemini_Generated_Image_5jrnw45jrnw45jrn.png"
+  },
+  {
+    "id": 457,
+    "author": ["Arief Suryadi Satyawan", "Yudha Budi Lesmana", "Alif Ilman Nafian", "Endang Suryawati", "Salita Ulitia Prini", "Deni Permana Kurniadi", "Eko Joni Pristianto", "Topik Teguh Estu"],
+    "title": "Fuzzy adaptive zoning algorithm: integrating LiDAR and fuzzy logic for enhanced autonomous electric vehicle navigation in controlled spaces",
+    "desc": "Algoritma FAZA menggabungkan LiDAR VLP-16 dan logika fuzzy Mamdani untuk navigasi otonom di ruang terbatas, membagi area deteksi menjadi 8 zona dan menghasilkan keputusan penghindaran rintangan secara adaptif dan efisien.",
+    "img": "/kegiatan/Gemini_Generated_Image_farzzlfarzzlfarz.png"
+  }
 ]

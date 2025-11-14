@@ -8951,5 +8951,265 @@
         "content": "Sistem berbasis komunitas maritim ini layak diadopsi sebagai bagian integral dari Ina-TEWS, meningkatkan ketahanan dan inklusivitas sistem peringatan dini nasional."
       }
     ]
+  },
+  {
+    "id": 448,
+    "title": "Sistem Alarm Penggantian Cairan Infus Berbasis Mikrokontroler Menggunakan Wireless",
+    "publishDate": "June 2020",
+    "author": "Leila Nurfitria, Susanto Sambasri, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:Zph67rFs4hoC",
+    "image": "/kegiatan/Gemini_Generated_Image_pchrrwpchrrwpchr.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kesalahan dalam penggantian infus di rumah sakit dapat menyebabkan komplikasi serius. Sistem otomatis diperlukan untuk mengurangi beban perawat dan meningkatkan keamanan pasien."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Sistem menggunakan photodiode dan LED inframerah untuk mendeteksi tetesan cairan, mikrokontroler Arduino Nano 328P untuk pemrosesan, dan modul nRF2401L untuk transmisi nirkabel ke buzzer di ruang perawat."
+      },
+      {
+        "heading": "Results",
+        "content": "Sistem mendeteksi kegagalan infus dengan akurasi 98.03% (error 1.97%) pada laju tetesan normal. Alarm aktif saat tidak ada tetesan >7 detik atau volume <100 mL, dengan jangkauan efektif 4–6 meter."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini hemat biaya, portabel, dan efektif untuk implementasi di ruang rawat inap, terutama di fasilitas dengan kekurangan tenaga medis."
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "title": "Study and performance evaluation binary robust invariant scalable keypoints (BRISK) for underwater image stitching",
+    "publishDate": "July 1, 2020",
+    "author": "DA Jatmiko, SU Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:ULOm3_A8WrAC",
+    "image": "/kegiatan/Gemini_Generated_Image_f8eolxf8eolxf8eo.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Stitching citra bawah air sulit karena noise, blur, dan kekurangan fitur akibat cahaya tereduksi dan turbiditas."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Algoritma BRISK digunakan untuk deteksi keypoint, diikuti oleh RANSAC untuk matching dan estimasi homografi, lalu perspektif warping untuk penyambungan gambar."
+      },
+      {
+        "heading": "Results",
+        "content": "BRISK berhasil menghasilkan lebih banyak matching yang akurat dibanding SIFT dan SURF, meskipun jumlah keypoint lebih sedikit, karena ketahanannya terhadap noise dan perubahan cahaya."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "BRISK adalah pilihan optimal untuk stitching citra bawah air, memberikan keseimbangan antara akurasi dan kecepatan komputasi dalam kondisi ekstrem."
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "title": "Excitation Analysis of Transverse Electric Mode Rectangular Waveguide",
+    "publishDate": "August 31, 2020",
+    "author": "M Reza Hidayat, Mohamad Hamzah Zamzam, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:mVmsd5A6BfQC",
+    "image": "/kegiatan/Gemini_Generated_Image_ydq6ywydq6ywydq6.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Waveguide dapat berfungsi sebagai filter bandpass pada frekuensi microwave, terutama untuk komunikasi satelit dan broadband S-Band."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Simulasi mode TE10 dan TE20 dilakukan menggunakan Ansoft HFSS dengan variasi posisi konektor untuk menentukan cut-off frequency, return loss, dan insertion loss."
+      },
+      {
+        "heading": "Results",
+        "content": "Mode TE10 optimal pada jarak 30 mm dengan cut-off 3.3 GHz, return loss -34.4 dB, insertion loss -0.039 dB. Mode TE20 optimal pada 70 mm dengan cut-off 3.5 GHz."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain ini berhasil menghasilkan filter bandpass 3.3–3.5 GHz dengan performa tinggi, cocok untuk sistem komunikasi satelit dan radar S-Band."
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "title": "Implementation Array-Slotted Miliwires in Artificial Dielectric Material on Waveguide Filters Te10 Mode",
+    "publishDate": "November 18, 2020",
+    "author": "M Reza Hidayat, Salita Ulitia Prini, Rivaldi Zaky NA, Handoko Rusiana Iskandar, Een Taryana, Sofyan Basuki",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:4DMP91E08xMC",
+    "image": "/kegiatan/Gemini_Generated_Image_8ojoz28ojoz28ojo.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Material dielektrik tradisional memiliki batasan dalam modifikasi sifat elektromagnetik. Artificial dielectric memungkinkan penyesuaian lebih luas melalui struktur logam."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Kawat tembaga dimasukkan ke dalam substrat FR-4 membentuk array slotted miliwires, kemudian diuji pada filter waveguide mode TE10 untuk analisis respons frekuensi."
+      },
+      {
+        "heading": "Results",
+        "content": "Variasi ketinggian dan densitas kawat mengubah parameter resonansi, memungkinkan peningkatan selektivitas dan pengurangan bandwidth yang tidak diinginkan."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Artificial dielectric berbasis miliwires merupakan solusi inovatif untuk desain filter mikrowave yang dapat disesuaikan secara presisi tanpa mengganti material dasar."
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "title": "Analytical Performance of Low Noise Amplifier Using Single-Stage Configuration for ADS-B Receiver",
+    "publishDate": "December 31, 2021",
+    "author": "M Reza Hidayat, Ilham Pazaesa, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:7PzlFSSx8tAC",
+    "image": "/kegiatan/Gemini_Generated_Image_gjmucigjmucigjmu.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "ADS-B membutuhkan LNA dengan noise figure rendah dan gain tinggi untuk menerima sinyal lemah dari pesawat pada frekuensi 1090 MHz."
+      },
+      {
+        "heading": "Methodology",
+        "content": "LNA dirancang menggunakan transistor BJT 2SC5006 dengan bias DC VCE=3V, Ic=10mA, dan impedansi matching menggunakan rangkaian tiga elemen untuk meminimalkan VSWR dan return loss."
+      },
+      {
+        "heading": "Results",
+        "content": "Hasil simulasi menunjukkan gain 10.38 dB, noise figure 0.55 dB, return loss -52.1 dB, VSWR 1.005, dan bandwidth 83 MHz, memenuhi semua spesifikasi ADS-B."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain LNA ini efisien, stabil, dan siap untuk integrasi dalam sistem pengawasan udara berbasis ADS-B di Indonesia."
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "title": "Optimization of Low Site Density Area for 4G Network in Urban City",
+    "publishDate": "December 31, 2021",
+    "author": "Hajiar Yuliana, Sofyan Basuki, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:L8Ckcad2t8MC",
+    "image": "/kegiatan/Gemini_Generated_Image_lycy4ulycy4ulycy.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Area perkotaan dengan densitas situs rendah menyebabkan cakupan sinyal 4G tidak merata, mengurangi kualitas layanan bagi pengguna."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Analisis cakupan RSRP dilakukan menggunakan software Atoll, lalu dilakukan optimasi dengan penambahan situs baru berdasarkan peta kepadatan pengguna dan kebutuhan sinyal."
+      },
+      {
+        "heading": "Results",
+        "content": "Persentase area dengan RSRP ≤ -80 dBm turun dari 24.8% menjadi 5.9%, sementara cakupan optimal meningkat dari 75.2% menjadi 94.1%."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Penambahan situs strategis secara signifikan meningkatkan kualitas layanan 4G, terutama di zona mati perkotaan yang sebelumnya terabaikan."
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "title": "2× 1 truncated corner microstrip array antenna to increase gain and bandwidth for LTE applications at 2.3 GHz frequency",
+    "publishDate": "August 31, 2022",
+    "author": "Ahmad Heri Ilyasah, M Reza Hidayat, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:ZeXyd9-uunAC",
+    "image": "/kegiatan/Gemini_Generated_Image_e8aztze8aztze8az.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Antena mikrostrip tradisional sering memiliki bandwidth terbatas untuk aplikasi LTE di 2.3 GHz. Array dan modifikasi bentuk dapat meningkatkan performa."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Antena 2×1 array dengan sudut terpotong (truncated corner) dirancang menggunakan substrat FR4 (εr=4.4, h=1.6 mm) dan disimulasikan dengan HFSS."
+      },
+      {
+        "heading": "Results",
+        "content": "Simulasi menunjukkan gain 3.96 dB, bandwidth 283 MHz, return loss -18.2 dB, dan VSWR 1.28. Pengukuran fisik menghasilkan return loss -11.07 dB di 2.2 GHz."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Desain ini efektif untuk aplikasi LTE, menawarkan gain dan bandwidth yang memadai dengan ukuran kompak, cocok untuk base station atau perangkat IoT."
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "title": "Utilizing Smartphone as Colorimetric Sensor in Detecting Stress Level",
+    "publishDate": "December 6, 2022",
+    "author": "Erry Dwi Kurniawan, Razi Deniwa Zakiyudin, Robeth V Manurung, Asih Setiarini, Yulia Dwi Setia, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:qUcmZB5y_30C",
+    "image": "/kegiatan/Gemini_Generated_Image_fjbs08fjbs08fjbs.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Kortisol adalah hormon stres utama. Deteksi tidak invasif melalui perubahan warna biosensor dapat menjadi metode alternatif untuk memantau stres."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Biosensor berbasis kertas berubah warna saat bereaksi dengan kortisol. Aplikasi Android mengambil gambar, mengekstrak nilai RGB, dan mengonversinya menjadi skor stres menggunakan model kalibrasi."
+      },
+      {
+        "heading": "Results",
+        "content": "Aplikasi mampu memprediksi tingkat stres dengan akurasi tinggi berdasarkan perubahan warna, menunjukkan potensi sebagai alat pemantauan mandiri."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Smartphone sebagai sensor warna membuka aksesibilitas tinggi untuk pemantauan kesehatan mental, terutama di wilayah dengan keterbatasan layanan medis."
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "title": "Antena Mikrostrip Dipol Multi-Patch Dual-Frequency Untuk Komunikasi Nirkabel Pita Lebar",
+    "publishDate": "March 10, 2024",
+    "author": "M Reza Hidayat, M Izzan Al-Parissi, Salita Ulitia Prini",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:HDshCWvjkbEC",
+    "image": "/kegiatan/Gemini_Generated_Image_5jrnw45jrnw45jrn.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Komunikasi nirkabel pita lebar memerlukan antena yang dapat beroperasi di dua frekuensi (2.4 GHz dan 5.8 GHz) tanpa memerlukan dua antena terpisah."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Antena mikrostrip dipol multi-patch dirancang dengan teknik dual-frequency, dioptimasi menggunakan HFSS untuk mencapai resonansi di dua band Wi-Fi."
+      },
+      {
+        "heading": "Results",
+        "content": "Antena berhasil beroperasi di 2.4 GHz dan 5.8 GHz dengan return loss <-10 dB di kedua frekuensi, bandwidth memadai, dan pola radiasi yang stabil."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "Solusi ini mengurangi kompleksitas, biaya, dan ukuran sistem komunikasi, sangat cocok untuk router, IoT, dan perangkat komunikasi multi-band."
+      }
+    ]
+  },
+  {
+    "id": 457,
+    "title": "Fuzzy adaptive zoning algorithm: integrating LiDAR and fuzzy logic for enhanced autonomous electric vehicle navigation in controlled spaces",
+    "publishDate": "October 22, 2025",
+    "author": "Arief Suryadi Satyawan, Yudha Budi Lesmana, Alif Ilman Nafian, Endang Suryawati, Salita Ulitia Prini, Deni Permana Kurniadi, Eko Joni Pristianto, Topik Teguh Estu",
+    "scholarLink": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=oIAN3MIAAAAJ&sortby=pubdate&citation_for_view=oIAN3MIAAAAJ:j3f4tGmQtD8C",
+    "image": "/kegiatan/Gemini_Generated_Image_farzzlfarzzlfarz.png",
+    "sections": [
+      {
+        "heading": "Introduction",
+        "content": "Navigasi otonom di ruang terbatas seperti kampus dan pabrik memerlukan sistem yang akurat, hemat biaya, dan responsif terhadap rintangan dinamis."
+      },
+      {
+        "heading": "Methodology",
+        "content": "Algoritma FAZA membagi area deteksi LiDAR VLP-16 menjadi 8 zona, menggunakan FIS Mamdani dengan fungsi keanggotaan campuran (segitiga & persegi panjang) untuk pengambilan keputusan."
+      },
+      {
+        "heading": "Results",
+        "content": "FAZA menghasilkan keputusan penghindaran rintangan lebih cepat dan stabil dibanding metode berbasis threshold, dengan keandalan tinggi dalam lingkungan kompleks."
+      },
+      {
+        "heading": "Conclusion",
+        "content": "FAZA menawarkan solusi cerdas, hemat sumber daya, dan mudah diimplementasikan untuk AEV di lingkungan terkendali, menjadikannya alternatif unggul untuk otomasi industri dan transportasi perkotaan."
+      }
+    ]
   }
 ]
